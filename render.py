@@ -20,6 +20,9 @@ AUSGABEN = ROOT / "ausgaben"
 SITE_URL = "https://fruehausgabe.hilmerjahnke.de"
 # Die Frühausgabe erschien vorher schon 32-mal als Claude-Seite; die Web-Zählung setzt dort fort.
 AUSGABE_OFFSET = 32
+# Das Konzert-Radar (eigene geplante Aufgabe) legt konzerte/index.html an; verlinkt wird es erst, wenn es die Seite gibt.
+KONZERTE = (ROOT / "konzerte" / "index.html").exists()
+KONZERTE_LINK = '<a href="/konzerte/">Konzert-Radar</a>' if KONZERTE else ""
 
 WOCHENTAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
@@ -173,7 +176,7 @@ def page(title, body, canonical, description):
 {body}
 <footer>
 Automatisch erstellt mit KI, ohne redaktionelle Prüfung. Alle Meldungen in eigenen Worten zusammengefasst, Quellen jeweils verlinkt.<br>
-<a href="/">Aktuelle Ausgabe</a> · <a href="/archiv/">Archiv</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a>
+<a href="/">Aktuelle Ausgabe</a> · <a href="/archiv/">Archiv</a> · {KONZERTE_LINK + " · " if KONZERTE else ""}<a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a>
 </footer>
 </div>
 </body>
@@ -188,7 +191,7 @@ def kopf(d: date, nummer: int, ist_aktuell: bool, stand: str = ""):
 <div class="row"><span class="label">{datumszeile(d)} · Ausgabe {nummer}</span>{stand_html}</div>
 <h1>Hannover <i>Frühausgabe</i></h1>
 <p>Die Morgenzeitung aus der Region, aus Deutschland und der Welt. Jede Meldung mit Quelle und Glaubwürdigkeits-Check.</p>
-<nav><a href="/archiv/">Archiv</a>{zusatz}</nav>
+<nav><a href="/archiv/">Archiv</a>{KONZERTE_LINK}{zusatz}</nav>
 </header>
 <p class="notice">Automatisch erstellt mit KI, ohne redaktionelle Prüfung.</p>
 """
@@ -314,6 +317,8 @@ def main():
             (f"{SITE_URL}/archiv/", d.isoformat(), "daily", "0.6")]
     urls += [(f"{SITE_URL}/{e[0].isoformat()}/", e[0].isoformat(), "never", "0.5")
              for e in reversed(eintraege)]
+    if KONZERTE:
+        urls.insert(2, (f"{SITE_URL}/konzerte/", date.today().isoformat(), "daily", "0.8"))
     eintraege_xml = "".join(
         f"  <url><loc>{u}</loc><lastmod>{m}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n"
         for u, m, c, p in urls)
