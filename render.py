@@ -165,6 +165,7 @@ def page(title, body, canonical, description):
 <meta property="og:description" content="{html.escape(description, quote=True)}">
 <meta property="og:type" content="article">
 <meta name="theme-color" content="#f7f3ec">
+<script defer src="/_vercel/insights/script.js"></script>
 <style>{CSS}</style>
 </head>
 <body>
