@@ -1,0 +1,283 @@
+{
+  "kurz": [
+    "<b>Neustadt am Rübenberge:</b> Nach der Autoattacke auf eine Personengruppe wurde ein Verdächtiger festgenommen; laut Polizei galt der Angriff gezielt bestimmten Personen, nicht Passanten.",
+    "<b>Inflation sinkt auf 2,8 Prozent</b> – vor allem dank Tankrabatt. Ökonomen erwarten zum Jahreswechsel wieder über 3 Prozent.",
+    "<b>Heute bundesweit Proteste von „Gen Z regelt“</b> in rund 30 Städten; die Organisatoren rechnen mit friedlichem Verlauf.",
+    "<b>Israel nach der Wahl:</b> Keiner der großen Blöcke hat eine Mehrheit; das Netanjahu-Lager erhebt Betrugsvorwürfe, die Wahlkommission weist sie zurück.",
+    "<b>Hannover 96</b> ist nach dem 0:2 gegen Kaiserslautern aus dem DFB-Pokal raus; am Sonntag um 13:30 Uhr kommt Dynamo Dresden.",
+    "<b>Formel 1 in Mexiko:</b> Qualifying heute um 22 Uhr, Rennen Sonntag um 21 Uhr (deutsche Zeit)."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Neustadt: Verdächtiger nach Autoattacke festgenommen",
+          "kurz": "Ein Mann soll am Montagabend gezielt in eine Gruppe gefahren sein, <b>mindestens fünf Menschen</b> wurden verletzt. Polizisten stoppten den Wagen mit Schüssen, am Mittwoch folgte die Festnahme.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Beamten waren wegen einer Verkehrskontrolle in der Nähe und gaben Schüsse auf das Auto ab; der Fahrer floh zunächst zu Fuß. Die Ermittler gehen davon aus, dass sich Täter und Opfer kannten und aus dem Umfeld großer Familien stammen. Ein Anschlag auf Unbeteiligte war es nach Polizeiangaben nicht.",
+            "Eine erste Meldung über drei Festnahmen hat die Polizei korrigiert: Es habe sich nur um eine Personalienfeststellung gehandelt. Zeugen mit Videos werden weiter gesucht."
+          ],
+          "einschaetzung": "Polizei und mehrere Medien berichten übereinstimmend. Beim Tatvorwurf schwanken die Formulierungen zwischen versuchtem Mord und versuchtem Totschlag.",
+          "quellen": [
+            {"name": "Polizeidirektion Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/nr/66841"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/panorama/kriminalitaet/auto-niedersachsen-neustadt-am-ruebenberge-menschengruppe-verletzte-100.html"},
+            {"name": "Volksstimme", "url": "https://www.volksstimme.de/panorama/nach-angriff-mit-auto-mutmasslicher-tater-festgenommen-4346626"}
+          ]
+        },
+        {
+          "titel": "Winternothilfe startet – erstmals mit Straßensozialarbeit in den Stadtteilen",
+          "kurz": "Ab <b>1. November</b> beginnt die städtische Winternothilfe für obdachlose Menschen. Neu ist, dass Sozialarbeiter auch außerhalb der Innenstadt unterwegs sind.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Zusätzlich hat die Stadt nach einer Sanierung 45 Wohnungen am Wülferoder Weg für Obdachlose und Geflüchtete fertiggestellt. Beides steht in den aktuellen Mitteilungen der Landeshauptstadt."
+          ],
+          "einschaetzung": "Offizielle Mitteilung der Stadt Hannover.",
+          "quellen": [
+            {"name": "hannover.de – Aktuelle Meldungen", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen"}
+          ]
+        },
+        {
+          "titel": "Neuer Rat wählt nächste Woche drei ehrenamtliche Bürgermeister",
+          "kurz": "In der ersten Sitzung nach der Kommunalwahl sollen <b>Uta Engelhardt (Grüne), Bala Ramani (SPD) und Patrick Hoare (CDU)</b> Stellvertreter von OB Belit Onay werden.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Engelhardt soll zugleich den Ratsvorsitz übernehmen. Traditionell schlagen die drei stärksten Fraktionen je eine Person vor. Die Namen stammen aus Berichten von HAZ und NP, formal entscheidet erst der Rat."
+          ],
+          "einschaetzung": "Seriöse Lokalberichte, die Wahl selbst steht aber noch aus.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/engelhardt-ramani-hoare-rat-waehlt-naechste-woche-neue-ehrenamtliche-buergermeister"}
+          ]
+        },
+        {
+          "titel": "Garbsen: Polizeieinsatz am Planetencenter nach Drohhinweis",
+          "kurz": "Am Donnerstagabend sperrte die Polizei nach einem <b>Hinweis auf eine Bedrohungslage</b> vorübergehend Straßen rund um das Einkaufszentrum.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Die Polizeidirektion meldete den Einsatz am 29. Oktober. Hintergründe und ob sich der Hinweis bestätigt hat, waren bei Redaktionsschluss nicht bekannt."
+          ],
+          "einschaetzung": "Offizielle Polizeimeldung, Ausgang des Einsatzes aber offen.",
+          "quellen": [
+            {"name": "Polizeidirektion Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/nr/66841"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Inflation fällt auf 2,8 Prozent",
+          "kurz": "Im Oktober stiegen die Verbraucherpreise um <b>2,8 Prozent</b> nach 3,3 Prozent im September. Haupttreiber des Rückgangs ist der Tankrabatt.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Energie war trotzdem gut 12 Prozent teurer als vor einem Jahr, Lebensmittel nur minimal. Der Rabatt senkt die Energiesteuer auf Sprit bis Jahresende um rund 14 Cent je Liter.",
+            "Ökonomen rechnen damit, dass die Rate um den Jahreswechsel wieder über 3 Prozent klettert. Für dich heißt das: Tanken bleibt bis Silvester etwas günstiger, danach dürfte der Effekt verpuffen."
+          ],
+          "einschaetzung": "Vorläufige Zahl des Statistischen Bundesamts, von mehreren Medien bestätigt.",
+          "quellen": [
+            {"name": "Destatis", "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html"},
+            {"name": "dpa-AFX via finanznachrichten.de", "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69990977-roundup-2-tankrabatt-daempft-inflation-aber-noch-keine-entwarnung-016.htm"}
+          ]
+        },
+        {
+          "titel": "„Gen Z regelt“: Heute Proteste in rund 30 Städten",
+          "kurz": "Die erst wenige Wochen alte Bewegung fordert unter anderem <b>mehr Klimaschutz, Entlastung bei den Lebenskosten und keine Wehrpflicht</b>. Angemeldet sind laut Organisatoren 146.000 Teilnehmende.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Die Initiative lehnt Gewalt ausdrücklich ab und erwartet einen ruhigen Tag. Kritik kommt von der Bundesschülerkonferenz, die die unklaren Strukturen bemängelt und eigene Demos plant. Die AfD warnt vor Unterwanderung durch Extremisten, die Linke unterstützt die Proteste.",
+            "Ob es auch in Hannover eine Kundgebung gibt, geht aus den vorliegenden Berichten nicht hervor."
+          ],
+          "einschaetzung": "Teilnehmerzahlen stammen nur von den Organisatoren; wie groß die Proteste werden, ist offen.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/berlin/dpa-demonstrationen-am-31-oktober-gen-z-regelt-rechnet-mit-entspannten-demos-am-samstag-16215079.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Bad Oldesloe: Bus prallt gegen Wohnhaus – vier Menschen in Lebensgefahr",
+          "kurz": "Ein Linienbus mit mehr als 30 Fahrgästen, darunter viele Kinder, krachte am Freitagmorgen frontal in ein Haus. <b>Zwölf Menschen</b> wurden verletzt.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Unter den Schwerstverletzten sind ein Kind und der Busfahrer, der eingeklemmt wurde. Nach ersten Erkenntnissen streifte der Bus zuvor mehrere Autos und überquerte einen Kreisel. Warum der Fahrer die Kontrolle verlor, ist noch unklar."
+          ],
+          "einschaetzung": "Zahlen übereinstimmend, die Unfallursache wird aber noch ermittelt.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Das Gelbe Blatt", "url": "https://www.dasgelbeblatt.de/welt/kind-nach-kollision-von-bus-mit-hauswand-in-lebensgefahr-zr-94565636.html"}
+          ]
+        },
+        {
+          "titel": "Bahn holt Fachleute für mehr Pünktlichkeit",
+          "kurz": "Die Deutsche Bahn hat eine <b>Expertenkommission</b> eingesetzt, die Wege zu pünktlicheren Zügen auf dem überlasteten Netz finden soll.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Konkrete Namen oder ein Zeitplan für Ergebnisse wurden in der Kurzmeldung nicht genannt. Wer regelmäßig ab Hannover Hbf pendelt, sollte vorerst keine schnelle Besserung erwarten."
+          ],
+          "einschaetzung": "Bisher nur als Kurzmeldung bekannt, Details fehlen.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Israel: Patt nach der Wahl, Streit um Betrugsvorwürfe",
+          "kurz": "Netanjahus Lager kommt auf <b>53 von 120 Sitzen</b>, das Oppositionsbündnis um Gadi Eisenkot auf 48. Die arabischen Listen holen zusammen 19 – so viele wie nie.",
+          "bewertung": "vorsicht",
+          "lang": [
+            "Der Likud spricht von einer gestohlenen Wahl, Minister Ben Gvir forderte sogar Festnahmen arabischer Parteichefs. Belege wurden nicht vorgelegt. Die Wahlkommission sieht keinen systematischen Betrug, hat den Inlandsgeheimdienst aber gebeten, mögliche ausländische Einflussnahme zu prüfen.",
+            "Eisenkot warnt davor, die Bestätigung des Ergebnisses mit unbewiesenen Vorwürfen zu verzögern."
+          ],
+          "einschaetzung": "Die Sitzverteilung ist berichtet, die Betrugsvorwürfe sind dagegen unbelegt und politisch motiviert – genau hier hinschauen.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/netanjahus-wahlbetrugsvorwuerfe-eisenkot-warnt-vor-verzoegerung-10544689"},
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/international/iran-krieg-netanjahu-lager-spricht-von-wahlbetrug-ohne-beweise/100136895.html"}
+          ]
+        },
+        {
+          "titel": "Katar vermittelt in Teheran",
+          "kurz": "Eine katarische Delegation ist zu Gesprächen in den Iran gereist – mitten in Spekulationen über eine <b>neue militärische Eskalation mit den USA</b>.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Hintergrund sind ein US-Truppenaufbau in der Region und vermehrte iranische Angriffe auf Schiffe im Golf. Beobachter halten ein erneutes Aufflammen des Krieges nach den US-Zwischenwahlen am Dienstag für möglich. Die Reise meldete die iranische Staatsagentur, unabhängige Details gibt es kaum."
+          ],
+          "einschaetzung": "Die Reise selbst ist bestätigt, die Ziele der Gespräche aber nur aus Staatsmedien bekannt.",
+          "quellen": [
+            {"name": "Jüdische Allgemeine (dpa)", "url": "https://www.juedische-allgemeine.de/politik/katarische-unterhaendler-in-teheran-zu-gespraechen/"},
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/katar-vermittelt-zwischen-iran-und-usa-neue-gespraeche-10548111"}
+          ]
+        },
+        {
+          "titel": "G20-Außenminister in Atlanta – ohne Familienfoto mit Lawrow",
+          "kurz": "Außenminister Wadephul kündigte an, es werde <b>kein Gruppenbild mit Sergej Lawrow</b> geben. Russlands Außenminister Lawrow durfte für das Treffen in die USA reisen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Europäer wollen vor allem die Lage in der Straße von Hormus und die Blockade im Schwarzen Meer ansprechen. Zugleich kritisieren sie, dass die USA Energiesanktionen gegen Russland ohne Absprache gelockert haben. Südafrika ist während der US-Präsidentschaft von allen G20-Treffen ausgeschlossen."
+          ],
+          "einschaetzung": "Mehrere seriöse Quellen, Aussagen des Außenministers direkt belegt.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/g20-atlanta-wadephul-lawrow-usa-russland-100.html"},
+            {"name": "WirtschaftsWoche", "url": "https://www.wiwo.de/politik/ausland/treffen-in-atlanta-kein-familienfoto-g20-aussenminister-mit-signal-an-moskau/100266252.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "96 fliegt aus dem Pokal – Sonntag gegen Dresden",
+          "kurz": "Hannover 96 verlor am Mittwoch vor <b>35.800 Zuschauern 0:2 gegen Kaiserslautern</b>. Am Sonntag um 13:30 Uhr folgt das Heimspiel gegen Dynamo Dresden.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Treffer fielen in der 14. und 86. Minute. Trainer Sandro Wagner sah eine klare Steigerung gegenüber dem Derby in Braunschweig, doch 96 ließ große Chancen liegen. In der Liga lief es zuletzt schwach: nach dem 0:2 in Braunschweig ist das Dresden-Spiel ein wichtiges Signal."
+          ],
+          "einschaetzung": "Ergebnis vom DFB-Datencenter und Radio Hannover übereinstimmend bestätigt.",
+          "quellen": [
+            {"name": "DFB-Datencenter", "url": "https://datencenter.dfb.de/datencenter/dfb-pokal/2026-27/2-runde/hannover-96-1-fc-kaiserslautern-2430554"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/pokal-aus-gegen-kaiserslautern-96-scheitert-trotz-klarer-leistungssteigerung"},
+            {"name": "hessenschau – 96-Spielplan", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+          ]
+        },
+        {
+          "titel": "Die Recken heute gegen den Bergischen HC",
+          "kurz": "Nach der <b>26:29-Heimniederlage gegen Lemgo</b> empfangen die Handballer des TSV Hannover-Burgdorf heute um 19 Uhr den Bergischen HC.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Zuvor gab es ein 29:29 in Balingen und eine deutliche Niederlage gegen Flensburg. Ein Heimsieg würde die Recken wieder stabilisieren."
+          ],
+          "einschaetzung": "Termine und Ergebnisse von der Vereinsseite.",
+          "quellen": [
+            {"name": "Die Recken – Spielplan", "url": "https://www.die-recken.de/spielplan/"}
+          ]
+        },
+        {
+          "titel": "Bundesliga: Elversberg überrollt Mainz",
+          "kurz": "Zum Auftakt des 8. Spieltags gewann Elversberg am Freitagabend <b>4:1 gegen Mainz</b>, das in der Nachspielzeit noch einen Platzverweis kassierte.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Mainz hatte unter der Woche im Pokal verloren und den Gegner zwar nach Chancen leicht übertroffen, aber die Effizienz lag klar bei Elversberg. Der Rest des Spieltags folgt am Wochenende."
+          ],
+          "einschaetzung": "Offizieller Spielbericht der Liga und Liveticker stimmen überein.",
+          "quellen": [
+            {"name": "bundesliga.com", "url": "https://www.bundesliga.com/en/bundesliga/news/elversberg-mainz-match-report-highlights-matchday-8-campbell-keidel-39785"},
+            {"name": "sport.de Liveticker", "url": "https://www.sport.de/fussball/deutschland-bundesliga/ma12194518/sv-07-elversberg_1-fsv-mainz-05/liveticker/"}
+          ]
+        },
+        {
+          "titel": "Formel 1: Mexiko-Wochenende",
+          "kurz": "Das <b>19. Rennen der Saison</b> steigt in Mexiko-Stadt: Qualifying heute um 22 Uhr, Rennen am Sonntag um 21 Uhr deutscher Zeit.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Die Zeiten stammen aus dem TV-Fahrplan; Änderungen sind möglich."
+          ],
+          "einschaetzung": "Zeitplan aus einer Fachquelle, unter Vorbehalt kurzfristiger Änderungen.",
+          "quellen": [
+            {"name": "Motorsport XL", "url": "https://www.motorsport-xl.de/news/2026/Formel-1/Der-Sky-TV-Zeitplan-fuer-den-Formel-1-Grand-Prix-von-Mexiko-61564.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit war heute für unsere Abfrage gesperrt, daher nur Google Trends. Die Trend-Daten können ein paar Tage hinterherhinken.",
+      "meldungen": [
+        {
+          "titel": "„Brotli“: Kritische Sicherheitslücke beschäftigt Entwickler",
+          "kurz": "Eine Lücke im weit verbreiteten <b>Kompressionsverfahren Brotli</b> betrifft unter anderem Node.js und Python. Entsprechend viele suchten danach.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Wer eigene Web-Tools oder Server betreibt, sollte prüfen, ob die verwendeten Bibliotheken bereits ein Update bekommen haben."
+          ],
+          "einschaetzung": "Fachmedium berichtet, Details zu betroffenen Versionen beim Hersteller prüfen.",
+          "quellen": [
+            {"name": "Google Trends Deutschland", "url": "https://trends.google.com/trending?geo=DE"}
+          ]
+        },
+        {
+          "titel": "Neustadt am Rübenberge im Suchtrend",
+          "kurz": "Die Autoattacke in der Region Hannover ließ den Ortsnamen <b>bundesweit in die Trends</b> steigen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Mehr dazu oben im Ressort Hannover & Region."
+          ],
+          "einschaetzung": "Deckt sich mit der Polizeimeldung.",
+          "quellen": [
+            {"name": "Google Trends Deutschland", "url": "https://trends.google.com/trending?geo=DE"}
+          ]
+        },
+        {
+          "titel": "Fährgeschäft: Stena übernimmt Color Line",
+          "kurz": "Die Reederei Stena will den <b>Fährbetreiber Color Line</b> kaufen – relevant für alle, die nach Norwegen übersetzen.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Die Vereinbarung ist unterzeichnet; ob Wettbewerbsbehörden zustimmen und was sich für Fahrgäste ändert, ist noch offen."
+          ],
+          "einschaetzung": "Firmenmitteilung, Genehmigungen stehen noch aus.",
+          "quellen": [
+            {"name": "Google Trends Deutschland", "url": "https://trends.google.com/trending?geo=DE"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Israel:</b> Die Betrugsvorwürfe des Netanjahu-Lagers sind bisher ohne Belege; die Wahlkommission widerspricht.",
+    "<b>Neustadt:</b> Frühe Meldungen über drei Festnahmen waren falsch – die Polizei hat sie korrigiert.",
+    "<b>Gen-Z-Proteste:</b> Teilnehmerzahlen kommen nur von den Organisatoren; Polizeizahlen abwarten.",
+    "<b>Iran:</b> Ziele der katarischen Vermittlung sind bisher nur aus iranischen Staatsmedien bekannt."
+  ],
+  "woche": [
+    "<b>Wetter Hannover:</b> Samstag und Sonntag trocken, stark bewölkt, 7 bis 11 Grad. Montag Regen.",
+    "<b>So 1.11., 13:30:</b> Hannover 96 – Dynamo Dresden (2. Liga, Heimspiel).",
+    "<b>Sa 31.10., 19:00:</b> Die Recken – Bergischer HC.",
+    "<b>Mo 2.11.:</b> Städtische Bäder mit verkürzten Öffnungszeiten; nachts Halteverbote rund ums neue Fössebad wegen Schwertransport.",
+    "<b>Mi 4.11.:</b> Zulassungsstelle ganztägig geschlossen. Am 4. und 5.11. ist die Knochenhauerstraße für Autos und Räder gesperrt.",
+    "<b>Ab 3.11.:</b> Ausstellung „HerzSchlag“ zu Partnerschaftsgewalt im Freizeitheim Vahrenwald."
+  ]
+}
