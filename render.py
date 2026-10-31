@@ -209,7 +209,7 @@ def main():
     d, nummer, data = eintraege[-1]
     (ROOT / "index.html").write_text(page("Hannover Frühausgabe",
                                           ausgabe_html(data, d, nummer, True),
-                                          f"{SITE_URL}/{d.isoformat()}/", beschreibung(data, d)), encoding="utf-8")
+                                          f"{SITE_URL}/", beschreibung(data, d)), encoding="utf-8")
 
     zeilen = "".join(
         f'<li><a href="/{e[0].isoformat()}/">{datumszeile(e[0])}</a> · Ausgabe Nr. {e[1]}</li>'
@@ -224,6 +224,22 @@ def main():
     (ROOT / "archiv" / "index.html").write_text(
         page("Archiv – Hannover Frühausgabe", archiv, f"{SITE_URL}/archiv/",
              "Alle bisherigen Ausgaben der Hannover Frühausgabe."), encoding="utf-8")
+    # Sitemap und robots.txt für Suchmaschinen
+    urls = [(f"{SITE_URL}/", d.isoformat(), "daily", "1.0"),
+            (f"{SITE_URL}/archiv/", d.isoformat(), "daily", "0.6")]
+    urls += [(f"{SITE_URL}/{e[0].isoformat()}/", e[0].isoformat(), "never", "0.5")
+             for e in reversed(eintraege)]
+    eintraege_xml = "".join(
+        f"  <url><loc>{u}</loc><lastmod>{m}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n"
+        for u, m, c, p in urls)
+    (ROOT / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{eintraege_xml}</urlset>\n", encoding="utf-8")
+    (ROOT / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nDisallow: /ausgaben/\n\nSitemap: {SITE_URL}/sitemap.xml\n",
+        encoding="utf-8")
+
     print(f"{len(eintraege)} Ausgabe(n) gebaut, neueste: {d.isoformat()}")
 
 
