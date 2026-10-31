@@ -11,51 +11,77 @@
 <meta property="og:type" content="article">
 <meta name="theme-color" content="#f7f3ec">
 <style>
-:root{--bg:#f7f3ec;--card:#fffdf8;--ink:#1f1b16;--muted:#6b6258;--line:#e6ddcf;
---ok:#2f7d4f;--mid:#9a6b12;--warn:#b4432b;--box:#efe8db;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--card:#211e1b;
---ink:#efe9df;--muted:#a89e91;--line:#36312b;--ok:#6cc08f;--mid:#e0b25c;--warn:#ec8a72;--box:#2a2622;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#171513;--card:#211e1b;--ink:#efe9df;--muted:#a89e91;--line:#36312b;
---ok:#6cc08f;--mid:#e0b25c;--warn:#ec8a72;--box:#2a2622;color-scheme:dark}
+:root{--bg:#f5f2ea;--card:#fffdf8;--ink:#1f1d1a;--muted:#6b655c;--line:#e2dccf;
+--ok:#2e7d4f;--mid:#b7861a;--bad:#b03a2e;--corebg:#1f2a37;--coreink:#f5f2ea;
+--warnbg:#fbede9;--warnline:#e4b3a8;--startbg:#e8f2ef;--startline:#a9cfc5;--hann:#0e6e6b;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171614;--card:#211f1c;--ink:#ede8de;
+--muted:#a39c90;--line:#35322d;--ok:#5bbe83;--mid:#d9a83a;--bad:#e07a6c;--corebg:#2a3544;--coreink:#ede8de;
+--warnbg:#2e1e1b;--warnline:#5c352e;--startbg:#16292a;--startline:#2c4e4b;--hann:#4fb3ad;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171614;--card:#211f1c;--ink:#ede8de;--muted:#a39c90;--line:#35322d;--ok:#5bbe83;
+--mid:#d9a83a;--bad:#e07a6c;--corebg:#2a3544;--coreink:#ede8de;--warnbg:#2e1e1b;--warnline:#5c352e;
+--startbg:#16292a;--startline:#2c4e4b;--hann:#4fb3ad;color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style",Georgia,serif}
-.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
-.sans{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
-a{color:inherit}
-header.top{border-bottom:3px double var(--ink);padding-bottom:14px;margin-bottom:22px;text-align:center}
-.eyebrow{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-h1{font-size:clamp(34px,8vw,58px);line-height:1.05;margin:6px 0 4px;letter-spacing:-.01em}
-.dateline{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;color:var(--muted)}
-nav.mini{margin-top:10px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px}
-nav.mini a{margin:0 8px;color:var(--muted)}
-.notice{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted);
-background:var(--box);border-radius:8px;padding:8px 12px;margin:0 0 22px;text-align:center}
-.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 26px}
-.box h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}
-.box ul{margin:0;padding-left:20px}.box li{margin:4px 0}
-.box.key{border-left:5px solid var(--ink)}
-.box.check{border-left:5px solid var(--warn)}
-.box.week{border-left:5px solid var(--ok)}
-section.res{--c:#666;margin:0 0 30px}
-.res-head{display:flex;align-items:center;gap:10px;margin:0 0 12px}
-.pill{background:var(--c);color:#fff;font:700 12px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
-border-radius:999px;padding:6px 10px;letter-spacing:.06em}
-.res-head h2{margin:0;font-size:22px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif}
+.wrap{max-width:980px;margin:0 auto;padding:22px 16px 48px;display:flex;flex-direction:column;gap:26px}
+a{color:inherit;text-underline-offset:2px}
+.label{font:600 11px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+header.top{border-bottom:3px double var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px}
+header.top .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+h1{font-size:clamp(34px,7vw,58px);line-height:1;margin:0;font-weight:700;letter-spacing:-.01em}
+h1 i{font-weight:400}
+header.top p{margin:0;color:var(--muted);font-size:15px}
+header.top nav a{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin-right:14px}
+.notice{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:-12px 0 0}
+.core{background:var(--corebg);color:var(--coreink);border-radius:6px;padding:20px 22px}
+.core .label{color:var(--coreink);opacity:.75}
+.core ol{margin:10px 0 0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.core li::marker{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);align-items:center}
+section.res{--c:#666;display:flex;flex-direction:column;gap:14px}
+.res-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pill{background:var(--c);color:#fff;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;border-radius:999px;padding:3px 11px}
+.res-head h2{margin:0;font-size:26px;line-height:1.2}
+.res-head .sub{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media (max-width:640px){.grid{grid-template-columns:1fr}}
-article{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:14px 16px}
-article h3{margin:0 0 6px;font-size:18.5px;line-height:1.3}
-article p{margin:0 0 8px}
-.rate{display:inline-block;font:600 11.5px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;border-radius:999px;
-padding:5px 9px;border:1px solid currentColor;margin:2px 0 6px}
-.rate.ok{color:var(--ok)}.rate.mid{color:var(--mid)}.rate.warn{color:var(--warn)}
-details{border-top:1px dashed var(--line);margin-top:6px;padding-top:6px}
-summary{cursor:pointer;font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);padding:6px 0;list-style-position:inside}
-.why{font-size:15px;color:var(--muted);background:var(--box);border-radius:8px;padding:8px 10px;margin:8px 0}
-.src{font:13px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:4px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+article h3{margin:0;font-size:19px;line-height:1.3}
+article p{margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.val{display:inline-flex;align-items:center;gap:6px;font-weight:700}
+.bars{display:inline-flex;gap:2px}
+.bars i{width:9px;height:9px;border-radius:2px;background:var(--line)}
+.v3 i{background:var(--ok)}.v2 i:nth-child(-n+2){background:var(--mid)}.v1 i:first-child{background:var(--bad)}
+.v3{color:var(--ok)}.v2{color:var(--mid)}.v1{color:var(--bad)}
+.geo{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);text-decoration:none;white-space:nowrap}
+.geo::before{content:"◎ "}
+.geo:hover{text-decoration:underline}
+.kurz{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+details{border-top:1px dashed var(--line);padding-top:8px}
+summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ "}
+details[open] summary::before{content:"▾ "}
+.long{display:flex;flex-direction:column;gap:10px;margin-top:10px;font-size:16px}
+.long p{margin:0}
+.why{font:13px/1.45 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.src{font:12px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);overflow-wrap:anywhere}
 .src a{color:var(--muted)}
-.hint{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:-4px 0 12px}
-footer{border-top:1px solid var(--line);margin-top:34px;padding-top:14px;font:13px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);text-align:center}
+.hint{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0}
+.trends{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.tr{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:10px 12px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.tr b{font-size:16px;overflow-wrap:anywhere}
+.tr span{font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);font-variant-numeric:tabular-nums}
+.warn{background:var(--warnbg);border:1px solid var(--warnline);border-radius:6px;padding:18px 20px}
+.warn .label{color:var(--bad)}
+.warn ul{margin:10px 0 0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+.start{background:var(--startbg);border:1px solid var(--startline);border-radius:6px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.start .label{color:var(--hann)}
+.steps{display:flex;flex-wrap:wrap;gap:10px}
+.step{flex:1 1 200px;background:var(--card);border:1px solid var(--startline);border-radius:4px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.step .when{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--hann);letter-spacing:.04em;text-transform:uppercase}
+.start ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+footer{border-top:1px solid var(--line);padding-top:12px;font:12.5px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);text-align:center}
 footer a{color:var(--muted)}
 .archive li{margin:6px 0}
 </style>
@@ -67,7 +93,7 @@ footer a{color:var(--muted)}
 <h1>Archiv</h1>
 <nav class="mini"><a href="/">zur aktuellen Ausgabe</a></nav>
 </header>
-<div class="box"><ul class="archive"><li><a href="/2026-10-31/">Samstag, 31. Oktober 2026</a> · Ausgabe Nr. 1</li></ul></div>
+<div class="box"><ul class="archive"><li><a href="/2026-10-31/">Samstag, 31. Oktober 2026</a> · Ausgabe 33</li></ul></div>
 <footer>
 Automatisch erstellt mit KI, ohne redaktionelle Prüfung. Alle Meldungen in eigenen Worten zusammengefasst, Quellen jeweils verlinkt.<br>
 <a href="/">Aktuelle Ausgabe</a> · <a href="/archiv/">Archiv</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a>

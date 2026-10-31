@@ -21,9 +21,21 @@
           ],
           "einschaetzung": "Polizei und mehrere Medien berichten übereinstimmend. Beim Tatvorwurf schwanken die Formulierungen zwischen versuchtem Mord und versuchtem Totschlag.",
           "quellen": [
-            {"name": "Polizeidirektion Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/nr/66841"},
-            {"name": "ZDFheute", "url": "https://www.zdfheute.de/panorama/kriminalitaet/auto-niedersachsen-neustadt-am-ruebenberge-menschengruppe-verletzte-100.html"},
-            {"name": "Volksstimme", "url": "https://www.volksstimme.de/panorama/nach-angriff-mit-auto-mutmasslicher-tater-festgenommen-4346626"}
+            {
+              "name": "Polizeidirektion Hannover (Presseportal)",
+              "url": "https://www.presseportal.de/blaulicht/nr/66841"
+            },
+            {
+              "name": "ZDFheute",
+              "url": "https://www.zdfheute.de/panorama/kriminalitaet/auto-niedersachsen-neustadt-am-ruebenberge-menschengruppe-verletzte-100.html"
+            },
+            {
+              "name": "Volksstimme",
+              "url": "https://www.volksstimme.de/panorama/nach-angriff-mit-auto-mutmasslicher-tater-festgenommen-4346626"
+            }
+          ],
+          "orte": [
+            "Neustadt am Rübenberge"
           ]
         },
         {
@@ -35,7 +47,10 @@
           ],
           "einschaetzung": "Offizielle Mitteilung der Stadt Hannover.",
           "quellen": [
-            {"name": "hannover.de – Aktuelle Meldungen", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen"}
+            {
+              "name": "hannover.de – Aktuelle Meldungen",
+              "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen"
+            }
           ]
         },
         {
@@ -47,7 +62,10 @@
           ],
           "einschaetzung": "Seriöse Lokalberichte, die Wahl selbst steht aber noch aus.",
           "quellen": [
-            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/engelhardt-ramani-hoare-rat-waehlt-naechste-woche-neue-ehrenamtliche-buergermeister"}
+            {
+              "name": "Radio Hannover",
+              "url": "https://www.radio-hannover.de/hannover-news/engelhardt-ramani-hoare-rat-waehlt-naechste-woche-neue-ehrenamtliche-buergermeister"
+            }
           ]
         },
         {
@@ -59,7 +77,16 @@
           ],
           "einschaetzung": "Offizielle Polizeimeldung, Ausgang des Einsatzes aber offen.",
           "quellen": [
-            {"name": "Polizeidirektion Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/nr/66841"}
+            {
+              "name": "Polizeidirektion Hannover (Presseportal)",
+              "url": "https://www.presseportal.de/blaulicht/nr/66841"
+            }
+          ],
+          "orte": [
+            {
+              "name": "Planetencenter",
+              "suche": "Planetencenter Garbsen"
+            }
           ]
         }
       ]
@@ -77,8 +104,14 @@
           ],
           "einschaetzung": "Vorläufige Zahl des Statistischen Bundesamts, von mehreren Medien bestätigt.",
           "quellen": [
-            {"name": "Destatis", "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html"},
-            {"name": "dpa-AFX via finanznachrichten.de", "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69990977-roundup-2-tankrabatt-daempft-inflation-aber-noch-keine-entwarnung-016.htm"}
+            {
+              "name": "Destatis",
+              "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html"
+            },
+            {
+              "name": "dpa-AFX via finanznachrichten.de",
+              "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69990977-roundup-2-tankrabatt-daempft-inflation-aber-noch-keine-entwarnung-016.htm"
+            }
           ]
         },
         {
@@ -91,8 +124,14 @@
           ],
           "einschaetzung": "Teilnehmerzahlen stammen nur von den Organisatoren; wie groß die Proteste werden, ist offen.",
           "quellen": [
-            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/berlin/dpa-demonstrationen-am-31-oktober-gen-z-regelt-rechnet-mit-entspannten-demos-am-samstag-16215079.html"},
-            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+            {
+              "name": "Tagesspiegel (dpa)",
+              "url": "https://www.tagesspiegel.de/berlin/dpa-demonstrationen-am-31-oktober-gen-z-regelt-rechnet-mit-entspannten-demos-am-samstag-16215079.html"
+            },
+            {
+              "name": "ZDFheute Newsticker",
+              "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+            }
           ]
         },
         {
@@ -104,8 +143,17 @@
           ],
           "einschaetzung": "Zahlen übereinstimmend, die Unfallursache wird aber noch ermittelt.",
           "quellen": [
-            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
-            {"name": "Das Gelbe Blatt", "url": "https://www.dasgelbeblatt.de/welt/kind-nach-kollision-von-bus-mit-hauswand-in-lebensgefahr-zr-94565636.html"}
+            {
+              "name": "ZDFheute Newsticker",
+              "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+            },
+            {
+              "name": "Das Gelbe Blatt",
+              "url": "https://www.dasgelbeblatt.de/welt/kind-nach-kollision-von-bus-mit-hauswand-in-lebensgefahr-zr-94565636.html"
+            }
+          ],
+          "orte": [
+            "Bad Oldesloe"
           ]
         },
         {
@@ -117,7 +165,10 @@
           ],
           "einschaetzung": "Bisher nur als Kurzmeldung bekannt, Details fehlen.",
           "quellen": [
-            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+            {
+              "name": "ZDFheute Newsticker",
+              "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+            }
           ]
         }
       ]
@@ -135,8 +186,14 @@
           ],
           "einschaetzung": "Die Sitzverteilung ist berichtet, die Betrugsvorwürfe sind dagegen unbelegt und politisch motiviert – genau hier hinschauen.",
           "quellen": [
-            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/netanjahus-wahlbetrugsvorwuerfe-eisenkot-warnt-vor-verzoegerung-10544689"},
-            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/international/iran-krieg-netanjahu-lager-spricht-von-wahlbetrug-ohne-beweise/100136895.html"}
+            {
+              "name": "Berliner Zeitung",
+              "url": "https://www.berliner-zeitung.de/article/netanjahus-wahlbetrugsvorwuerfe-eisenkot-warnt-vor-verzoegerung-10544689"
+            },
+            {
+              "name": "Handelsblatt",
+              "url": "https://www.handelsblatt.com/politik/international/iran-krieg-netanjahu-lager-spricht-von-wahlbetrug-ohne-beweise/100136895.html"
+            }
           ]
         },
         {
@@ -148,8 +205,17 @@
           ],
           "einschaetzung": "Die Reise selbst ist bestätigt, die Ziele der Gespräche aber nur aus Staatsmedien bekannt.",
           "quellen": [
-            {"name": "Jüdische Allgemeine (dpa)", "url": "https://www.juedische-allgemeine.de/politik/katarische-unterhaendler-in-teheran-zu-gespraechen/"},
-            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/katar-vermittelt-zwischen-iran-und-usa-neue-gespraeche-10548111"}
+            {
+              "name": "Jüdische Allgemeine (dpa)",
+              "url": "https://www.juedische-allgemeine.de/politik/katarische-unterhaendler-in-teheran-zu-gespraechen/"
+            },
+            {
+              "name": "Berliner Zeitung",
+              "url": "https://www.berliner-zeitung.de/article/katar-vermittelt-zwischen-iran-und-usa-neue-gespraeche-10548111"
+            }
+          ],
+          "orte": [
+            "Teheran"
           ]
         },
         {
@@ -161,8 +227,17 @@
           ],
           "einschaetzung": "Mehrere seriöse Quellen, Aussagen des Außenministers direkt belegt.",
           "quellen": [
-            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/g20-atlanta-wadephul-lawrow-usa-russland-100.html"},
-            {"name": "WirtschaftsWoche", "url": "https://www.wiwo.de/politik/ausland/treffen-in-atlanta-kein-familienfoto-g20-aussenminister-mit-signal-an-moskau/100266252.html"}
+            {
+              "name": "ZDFheute",
+              "url": "https://www.zdfheute.de/politik/g20-atlanta-wadephul-lawrow-usa-russland-100.html"
+            },
+            {
+              "name": "WirtschaftsWoche",
+              "url": "https://www.wiwo.de/politik/ausland/treffen-in-atlanta-kein-familienfoto-g20-aussenminister-mit-signal-an-moskau/100266252.html"
+            }
+          ],
+          "orte": [
+            "Atlanta"
           ]
         }
       ]
@@ -179,9 +254,24 @@
           ],
           "einschaetzung": "Ergebnis vom DFB-Datencenter und Radio Hannover übereinstimmend bestätigt.",
           "quellen": [
-            {"name": "DFB-Datencenter", "url": "https://datencenter.dfb.de/datencenter/dfb-pokal/2026-27/2-runde/hannover-96-1-fc-kaiserslautern-2430554"},
-            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/pokal-aus-gegen-kaiserslautern-96-scheitert-trotz-klarer-leistungssteigerung"},
-            {"name": "hessenschau – 96-Spielplan", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+            {
+              "name": "DFB-Datencenter",
+              "url": "https://datencenter.dfb.de/datencenter/dfb-pokal/2026-27/2-runde/hannover-96-1-fc-kaiserslautern-2430554"
+            },
+            {
+              "name": "Radio Hannover",
+              "url": "https://www.radio-hannover.de/hannover-news/pokal-aus-gegen-kaiserslautern-96-scheitert-trotz-klarer-leistungssteigerung"
+            },
+            {
+              "name": "hessenschau – 96-Spielplan",
+              "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"
+            }
+          ],
+          "orte": [
+            {
+              "name": "Heinz von Heiden Arena",
+              "suche": "Heinz von Heiden Arena Hannover"
+            }
           ]
         },
         {
@@ -193,7 +283,16 @@
           ],
           "einschaetzung": "Termine und Ergebnisse von der Vereinsseite.",
           "quellen": [
-            {"name": "Die Recken – Spielplan", "url": "https://www.die-recken.de/spielplan/"}
+            {
+              "name": "Die Recken – Spielplan",
+              "url": "https://www.die-recken.de/spielplan/"
+            }
+          ],
+          "orte": [
+            {
+              "name": "ZAG Arena",
+              "suche": "ZAG Arena Hannover"
+            }
           ]
         },
         {
@@ -205,8 +304,14 @@
           ],
           "einschaetzung": "Offizieller Spielbericht der Liga und Liveticker stimmen überein.",
           "quellen": [
-            {"name": "bundesliga.com", "url": "https://www.bundesliga.com/en/bundesliga/news/elversberg-mainz-match-report-highlights-matchday-8-campbell-keidel-39785"},
-            {"name": "sport.de Liveticker", "url": "https://www.sport.de/fussball/deutschland-bundesliga/ma12194518/sv-07-elversberg_1-fsv-mainz-05/liveticker/"}
+            {
+              "name": "bundesliga.com",
+              "url": "https://www.bundesliga.com/en/bundesliga/news/elversberg-mainz-match-report-highlights-matchday-8-campbell-keidel-39785"
+            },
+            {
+              "name": "sport.de Liveticker",
+              "url": "https://www.sport.de/fussball/deutschland-bundesliga/ma12194518/sv-07-elversberg_1-fsv-mainz-05/liveticker/"
+            }
           ]
         },
         {
@@ -218,14 +323,23 @@
           ],
           "einschaetzung": "Zeitplan aus einer Fachquelle, unter Vorbehalt kurzfristiger Änderungen.",
           "quellen": [
-            {"name": "Motorsport XL", "url": "https://www.motorsport-xl.de/news/2026/Formel-1/Der-Sky-TV-Zeitplan-fuer-den-Formel-1-Grand-Prix-von-Mexiko-61564.html"}
+            {
+              "name": "Motorsport XL",
+              "url": "https://www.motorsport-xl.de/news/2026/Formel-1/Der-Sky-TV-Zeitplan-fuer-den-Formel-1-Grand-Prix-von-Mexiko-61564.html"
+            }
+          ],
+          "orte": [
+            {
+              "name": "Mexiko-Stadt",
+              "suche": "Autódromo Hermanos Rodríguez"
+            }
           ]
         }
       ]
     },
     {
       "id": "netz",
-      "hinweis": "Reddit war heute für unsere Abfrage gesperrt, daher nur Google Trends. Die Trend-Daten können ein paar Tage hinterherhinken.",
+      "hinweis": "Reddit war für unsere Abfrage gesperrt; wir haben nichts von dort übernommen und keine Umwege genutzt.",
       "meldungen": [
         {
           "titel": "„Brotli“: Kritische Sicherheitslücke beschäftigt Entwickler",
@@ -236,7 +350,10 @@
           ],
           "einschaetzung": "Fachmedium berichtet, Details zu betroffenen Versionen beim Hersteller prüfen.",
           "quellen": [
-            {"name": "Google Trends Deutschland", "url": "https://trends.google.com/trending?geo=DE"}
+            {
+              "name": "Google Trends Deutschland",
+              "url": "https://trends.google.com/trending?geo=DE"
+            }
           ]
         },
         {
@@ -248,7 +365,10 @@
           ],
           "einschaetzung": "Deckt sich mit der Polizeimeldung.",
           "quellen": [
-            {"name": "Google Trends Deutschland", "url": "https://trends.google.com/trending?geo=DE"}
+            {
+              "name": "Google Trends Deutschland",
+              "url": "https://trends.google.com/trending?geo=DE"
+            }
           ]
         },
         {
@@ -260,8 +380,44 @@
           ],
           "einschaetzung": "Firmenmitteilung, Genehmigungen stehen noch aus.",
           "quellen": [
-            {"name": "Google Trends Deutschland", "url": "https://trends.google.com/trending?geo=DE"}
+            {
+              "name": "Google Trends Deutschland",
+              "url": "https://trends.google.com/trending?geo=DE"
+            }
           ]
+        }
+      ],
+      "untertitel": "Google Trends Deutschland, Nacht auf Samstag",
+      "trends": [
+        {
+          "begriff": "lufthansa kapitän stirbt in indien",
+          "volumen": "1.000+",
+          "anlass": "Unfall im Hotelpool"
+        },
+        {
+          "begriff": "worlds 2026",
+          "volumen": "200+",
+          "anlass": "LoL-WM"
+        },
+        {
+          "begriff": "lol worlds",
+          "volumen": "200+",
+          "anlass": "Hanwha Life gegen G2"
+        },
+        {
+          "begriff": "الهالوين (Halloween)",
+          "volumen": "200+",
+          "anlass": "Halloween"
+        },
+        {
+          "begriff": "mavericks – rockets",
+          "volumen": "200+",
+          "anlass": "NBA Cup"
+        },
+        {
+          "begriff": "raptors – magic",
+          "volumen": "200+",
+          "anlass": "NBA Cup"
         }
       ]
     }
@@ -273,11 +429,21 @@
     "<b>Iran:</b> Ziele der katarischen Vermittlung sind bisher nur aus iranischen Staatsmedien bekannt."
   ],
   "woche": [
-    "<b>Wetter Hannover:</b> Samstag und Sonntag trocken, stark bewölkt, 7 bis 11 Grad. Montag Regen.",
-    "<b>So 1.11., 13:30:</b> Hannover 96 – Dynamo Dresden (2. Liga, Heimspiel).",
-    "<b>Sa 31.10., 19:00:</b> Die Recken – Bergischer HC.",
-    "<b>Mo 2.11.:</b> Städtische Bäder mit verkürzten Öffnungszeiten; nachts Halteverbote rund ums neue Fössebad wegen Schwertransport.",
-    "<b>Mi 4.11.:</b> Zulassungsstelle ganztägig geschlossen. Am 4. und 5.11. ist die Knochenhauerstraße für Autos und Räder gesperrt.",
-    "<b>Ab 3.11.:</b> Ausstellung „HerzSchlag“ zu Partnerschaftsgewalt im Freizeitheim Vahrenwald."
-  ]
+    {
+      "wann": "Sa 31. Okt",
+      "titel": "Protesttag und Sportabend",
+      "text": "Stark bewölkt, trocken, <b>7 bis 11 Grad</b>. „Gen Z regelt“-Proteste in rund 30 Städten. Recken gegen den Bergischen HC <b>19 Uhr</b>, F1-Qualifying <b>22 Uhr</b>."
+    },
+    {
+      "wann": "So 1. Nov",
+      "titel": "96 gegen Dresden",
+      "text": "Wechselnd bewölkt, <b>5 bis 10 Grad</b>. Anpfiff <b>13:30 Uhr</b>. Winternothilfe startet. F1-Rennen in Mexiko <b>21 Uhr</b>."
+    },
+    {
+      "wann": "Mo 2. bis Fr 6. Nov",
+      "titel": "Baustellen und Termine",
+      "text": "Mo Regen, <b>6 bis 10 Grad</b>; Bäder mit verkürzten Zeiten, nachts Schwertransport zum Fössebad. Mi Zulassungsstelle zu, Mi/Do Knochenhauerstraße gesperrt. Ab Di Ausstellung „HerzSchlag“ im Freizeitheim Vahrenwald."
+    }
+  ],
+  "stand": "Stand: Samstag, 3 Uhr"
 }

@@ -11,30 +11,53 @@ import html
 import json
 import re
 import sys
+from urllib.parse import quote_plus
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 AUSGABEN = ROOT / "ausgaben"
 SITE_URL = "https://fruehausgabe.hilmerjahnke.de"
+# Die Frühausgabe erschien vorher schon 32-mal als Claude-Seite; die Web-Zählung setzt dort fort.
+AUSGABE_OFFSET = 32
 
 WOCHENTAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
           "August", "September", "Oktober", "November", "Dezember"]
 
 RESSORTS = {
-    "hannover":    ("Hannover & Region", "#1f6f78", "#5fb3bc"),
-    "deutschland": ("Deutschland",       "#b4432b", "#e0826b"),
-    "welt":        ("Welt",              "#4b4fa6", "#9095e0"),
-    "sport":       ("Sport",             "#7a4fa0", "#b48fd6"),
-    "netz":        ("Was das Netz sucht", "#a8781f", "#e0b25c"),
+    "hannover":    ("Hannover & Region", "#1f6f78", "Vor der Haustür"),
+    "deutschland": ("Deutschland",       "#b4432b", "Was das Land bewegt"),
+    "welt":        ("Die Welt",          "#4b4fa6", "Was draußen passiert"),
+    "sport":       ("Sport",             "#7a4fa0", "Hannover zuerst, dann der Rest"),
+    "netz":        ("Was das Netz sucht", "#a8781f", "Google Trends Deutschland"),
 }
 
 BEWERTUNG = {
-    "gesichert": ("Gesichert", "ok"),
-    "plausibel": ("Plausibel, Details offen", "mid"),
-    "vorsicht":  ("Mit Vorsicht genießen", "warn"),
+    "gesichert": ("Gesichert", "v3"),
+    "plausibel": ("Plausibel, Details offen", "v2"),
+    "vorsicht":  ("Mit Vorsicht genießen", "v1"),
 }
+
+
+def balken(key):
+    label, cls = BEWERTUNG.get(key, BEWERTUNG["plausibel"])
+    return f'<span class="val {cls}"><span class="bars"><i></i><i></i><i></i></span>{label}</span>'
+
+
+def karte(ort):
+    """◎-Link zu Google Maps; ort ist ein Suchbegriff oder {"name": ..., "suche": ...}."""
+    if isinstance(ort, dict):
+        name = ort.get("name") or ort.get("suche")
+        suche = ort.get("suche") or ort.get("name")
+        titel = f"Karte: {txt(name)}"
+    else:
+        name = suche = ort
+        titel = "Karte"
+    if not suche:
+        return ""
+    url = "https://www.google.com/maps/search/?api=1&query=" + quote_plus(str(suche))
+    return f'<a class="geo" href="{html.escape(url, quote=True)}" target="_blank" rel="noopener">{titel}</a>'
 
 
 def txt(s):
@@ -53,51 +76,77 @@ def datumszeile(d: date):
 
 
 CSS = """
-:root{--bg:#f7f3ec;--card:#fffdf8;--ink:#1f1b16;--muted:#6b6258;--line:#e6ddcf;
---ok:#2f7d4f;--mid:#9a6b12;--warn:#b4432b;--box:#efe8db;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--card:#211e1b;
---ink:#efe9df;--muted:#a89e91;--line:#36312b;--ok:#6cc08f;--mid:#e0b25c;--warn:#ec8a72;--box:#2a2622;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#171513;--card:#211e1b;--ink:#efe9df;--muted:#a89e91;--line:#36312b;
---ok:#6cc08f;--mid:#e0b25c;--warn:#ec8a72;--box:#2a2622;color-scheme:dark}
+:root{--bg:#f5f2ea;--card:#fffdf8;--ink:#1f1d1a;--muted:#6b655c;--line:#e2dccf;
+--ok:#2e7d4f;--mid:#b7861a;--bad:#b03a2e;--corebg:#1f2a37;--coreink:#f5f2ea;
+--warnbg:#fbede9;--warnline:#e4b3a8;--startbg:#e8f2ef;--startline:#a9cfc5;--hann:#0e6e6b;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171614;--card:#211f1c;--ink:#ede8de;
+--muted:#a39c90;--line:#35322d;--ok:#5bbe83;--mid:#d9a83a;--bad:#e07a6c;--corebg:#2a3544;--coreink:#ede8de;
+--warnbg:#2e1e1b;--warnline:#5c352e;--startbg:#16292a;--startline:#2c4e4b;--hann:#4fb3ad;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171614;--card:#211f1c;--ink:#ede8de;--muted:#a39c90;--line:#35322d;--ok:#5bbe83;
+--mid:#d9a83a;--bad:#e07a6c;--corebg:#2a3544;--coreink:#ede8de;--warnbg:#2e1e1b;--warnline:#5c352e;
+--startbg:#16292a;--startline:#2c4e4b;--hann:#4fb3ad;color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style",Georgia,serif}
-.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
-.sans{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
-a{color:inherit}
-header.top{border-bottom:3px double var(--ink);padding-bottom:14px;margin-bottom:22px;text-align:center}
-.eyebrow{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-h1{font-size:clamp(34px,8vw,58px);line-height:1.05;margin:6px 0 4px;letter-spacing:-.01em}
-.dateline{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;color:var(--muted)}
-nav.mini{margin-top:10px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px}
-nav.mini a{margin:0 8px;color:var(--muted)}
-.notice{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted);
-background:var(--box);border-radius:8px;padding:8px 12px;margin:0 0 22px;text-align:center}
-.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 26px}
-.box h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}
-.box ul{margin:0;padding-left:20px}.box li{margin:4px 0}
-.box.key{border-left:5px solid var(--ink)}
-.box.check{border-left:5px solid var(--warn)}
-.box.week{border-left:5px solid var(--ok)}
-section.res{--c:#666;margin:0 0 30px}
-.res-head{display:flex;align-items:center;gap:10px;margin:0 0 12px}
-.pill{background:var(--c);color:#fff;font:700 12px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
-border-radius:999px;padding:6px 10px;letter-spacing:.06em}
-.res-head h2{margin:0;font-size:22px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif}
+.wrap{max-width:980px;margin:0 auto;padding:22px 16px 48px;display:flex;flex-direction:column;gap:26px}
+a{color:inherit;text-underline-offset:2px}
+.label{font:600 11px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+header.top{border-bottom:3px double var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px}
+header.top .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+h1{font-size:clamp(34px,7vw,58px);line-height:1;margin:0;font-weight:700;letter-spacing:-.01em}
+h1 i{font-weight:400}
+header.top p{margin:0;color:var(--muted);font-size:15px}
+header.top nav a{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin-right:14px}
+.notice{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:-12px 0 0}
+.core{background:var(--corebg);color:var(--coreink);border-radius:6px;padding:20px 22px}
+.core .label{color:var(--coreink);opacity:.75}
+.core ol{margin:10px 0 0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.core li::marker{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);align-items:center}
+section.res{--c:#666;display:flex;flex-direction:column;gap:14px}
+.res-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pill{background:var(--c);color:#fff;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;border-radius:999px;padding:3px 11px}
+.res-head h2{margin:0;font-size:26px;line-height:1.2}
+.res-head .sub{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media (max-width:640px){.grid{grid-template-columns:1fr}}
-article{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:14px 16px}
-article h3{margin:0 0 6px;font-size:18.5px;line-height:1.3}
-article p{margin:0 0 8px}
-.rate{display:inline-block;font:600 11.5px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;border-radius:999px;
-padding:5px 9px;border:1px solid currentColor;margin:2px 0 6px}
-.rate.ok{color:var(--ok)}.rate.mid{color:var(--mid)}.rate.warn{color:var(--warn)}
-details{border-top:1px dashed var(--line);margin-top:6px;padding-top:6px}
-summary{cursor:pointer;font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);padding:6px 0;list-style-position:inside}
-.why{font-size:15px;color:var(--muted);background:var(--box);border-radius:8px;padding:8px 10px;margin:8px 0}
-.src{font:13px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:4px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+article h3{margin:0;font-size:19px;line-height:1.3}
+article p{margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.val{display:inline-flex;align-items:center;gap:6px;font-weight:700}
+.bars{display:inline-flex;gap:2px}
+.bars i{width:9px;height:9px;border-radius:2px;background:var(--line)}
+.v3 i{background:var(--ok)}.v2 i:nth-child(-n+2){background:var(--mid)}.v1 i:first-child{background:var(--bad)}
+.v3{color:var(--ok)}.v2{color:var(--mid)}.v1{color:var(--bad)}
+.geo{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);text-decoration:none;white-space:nowrap}
+.geo::before{content:"◎ "}
+.geo:hover{text-decoration:underline}
+.kurz{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+details{border-top:1px dashed var(--line);padding-top:8px}
+summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ "}
+details[open] summary::before{content:"▾ "}
+.long{display:flex;flex-direction:column;gap:10px;margin-top:10px;font-size:16px}
+.long p{margin:0}
+.why{font:13px/1.45 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.src{font:12px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);overflow-wrap:anywhere}
 .src a{color:var(--muted)}
-.hint{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:-4px 0 12px}
-footer{border-top:1px solid var(--line);margin-top:34px;padding-top:14px;font:13px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);text-align:center}
+.hint{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0}
+.trends{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.tr{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:10px 12px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.tr b{font-size:16px;overflow-wrap:anywhere}
+.tr span{font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);font-variant-numeric:tabular-nums}
+.warn{background:var(--warnbg);border:1px solid var(--warnline);border-radius:6px;padding:18px 20px}
+.warn .label{color:var(--bad)}
+.warn ul{margin:10px 0 0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+.start{background:var(--startbg);border:1px solid var(--startline);border-radius:6px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.start .label{color:var(--hann)}
+.steps{display:flex;flex-wrap:wrap;gap:10px}
+.step{flex:1 1 200px;background:var(--card);border:1px solid var(--startline);border-radius:4px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.step .when{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--hann);letter-spacing:.04em;text-transform:uppercase}
+.start ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+footer{border-top:1px solid var(--line);padding-top:12px;font:12.5px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);text-align:center}
 footer a{color:var(--muted)}
 .archive li{margin:6px 0}
 """
@@ -131,15 +180,16 @@ Automatisch erstellt mit KI, ohne redaktionelle Prüfung. Alle Meldungen in eige
 """
 
 
-def kopf(d: date, nummer: int, ist_aktuell: bool):
-    zusatz = "" if ist_aktuell else ' · <a href="/">zur aktuellen Ausgabe</a>'
+def kopf(d: date, nummer: int, ist_aktuell: bool, stand: str = ""):
+    zusatz = "" if ist_aktuell else '<a href="/">zur aktuellen Ausgabe</a>'
+    stand_html = f'<span class="label">{txt(stand)}</span>' if stand else ""
     return f"""<header class="top">
-<div class="eyebrow">Hannover · Deutschland · Welt · Sport</div>
-<h1>Hannover Frühausgabe</h1>
-<div class="dateline">{datumszeile(d)} · Ausgabe Nr. {nummer}</div>
-<nav class="mini"><a href="/archiv/">Archiv</a>{zusatz}</nav>
+<div class="row"><span class="label">{datumszeile(d)} · Ausgabe {nummer}</span>{stand_html}</div>
+<h1>Hannover <i>Frühausgabe</i></h1>
+<p>Die Morgenzeitung aus der Region, aus Deutschland und der Welt. Jede Meldung mit Quelle und Glaubwürdigkeits-Check.</p>
+<nav><a href="/archiv/">Archiv</a>{zusatz}</nav>
 </header>
-<div class="notice">Automatisch erstellt mit KI, ohne redaktionelle Prüfung. Jede Meldung trägt eine Glaubwürdigkeits-Einschätzung und ihre Quellen.</div>
+<p class="notice">Automatisch erstellt mit KI, ohne redaktionelle Prüfung.</p>
 """
 
 
@@ -147,42 +197,76 @@ def liste(items):
     return "".join(f"<li>{txt(i)}</li>" for i in items or [])
 
 
+def quellen_html(m):
+    q = [f'<a href="{safe_url(x.get("url"))}" rel="noopener" target="_blank">{txt(x.get("name") or "Quelle")}</a>'
+         for x in m.get("quellen", []) if safe_url(x.get("url"))]
+    return " · ".join(q)
+
+
 def meldung(m):
-    label, cls = BEWERTUNG.get(m.get("bewertung", "plausibel"), BEWERTUNG["plausibel"])
+    bew = m.get("bewertung", "plausibel")
+    orte = "".join(karte(o) for o in (m.get("orte") or []))
+    namen = ", ".join(str(x.get("name")) for x in m.get("quellen", []) if x.get("name"))[:90]
+    meta = f'<div class="meta">{balken(bew)}' + (f"<span>Quelle: {txt(namen)}</span>" if namen else "") + f"{orte}</div>"
+    kurz = f"<p>{txt(m.get('kurz'))}</p>" if m.get("kurz") else ""
+    punkte = f'<ul class="kurz">{liste(m["liste"])}</ul>' if m.get("liste") else ""
     lang = "".join(f"<p>{txt(p)}</p>" for p in m.get("lang", []))
-    quellen = [f'<a href="{safe_url(q.get("url"))}" rel="noopener" target="_blank">{txt(q.get("name") or "Quelle")}</a>'
-               for q in m.get("quellen", []) if safe_url(q.get("url"))]
-    src = f'<div class="src">Quellen: {" · ".join(quellen)}</div>' if quellen else ""
-    why = f'<div class="why"><b>Warum „{label}“:</b> {txt(m.get("einschaetzung"))}</div>' if m.get("einschaetzung") else ""
-    mehr = f"<details><summary>Ganzen Artikel lesen</summary>{lang}{why}{src}</details>" if (lang or why or src) else ""
-    return f"""<article>
-<h3>{txt(m.get("titel"))}</h3>
-<span class="rate {cls}">{label}</span>
-<p>{txt(m.get("kurz"))}</p>
-{mehr}
-</article>"""
+    why = f'<p class="why"><b>Einschätzung:</b> {txt(m.get("einschaetzung"))}</p>' if m.get("einschaetzung") else ""
+    q = quellen_html(m)
+    src = f'<p class="src">Quellen: {q}</p>' if q else ""
+    if lang or why:
+        mehr = f'<details><summary>Ganzen Artikel lesen</summary><div class="long">{lang}{why}{src}</div></details>'
+    elif src:
+        mehr = f'<details><summary>Quellen</summary><div class="long">{src}</div></details>'
+    else:
+        mehr = ""
+    return f"<article>\n<h3>{txt(m.get('titel'))}</h3>\n{kurz}{punkte}\n{meta}\n{mehr}\n</article>"
+
+
+def trends_html(trends):
+    kacheln = "".join(
+        f'<div class="tr"><b>{txt(t.get("begriff"))}</b><span>{txt(t.get("volumen"))}'
+        + (f' · {txt(t.get("anlass"))}' if t.get("anlass") else "") + "</span></div>"
+        for t in trends or [] if t.get("begriff"))
+    return f'<div class="trends">{kacheln}</div>' if kacheln else ""
+
+
+def woche_html(woche):
+    if not woche:
+        return ""
+    if all(isinstance(w, dict) for w in woche):
+        kacheln = "".join(
+            f'<div class="step"><span class="when">{txt(w.get("wann"))}</span><b>{txt(w.get("titel"))}</b>'
+            f'<span>{txt(w.get("text"))}</span></div>' for w in woche)
+        inhalt = f'<div class="steps">{kacheln}</div>'
+    else:
+        inhalt = f"<ul>{liste(woche)}</ul>"
+    return f'<div class="start"><div class="label">Diese Woche im Blick</div>{inhalt}</div>'
 
 
 def ausgabe_html(data, d, nummer, ist_aktuell):
-    teile = [kopf(d, nummer, ist_aktuell)]
+    teile = [kopf(d, nummer, ist_aktuell, data.get("stand", ""))]
     if data.get("kurz"):
-        teile.append(f'<div class="box key"><h2>Das Wichtigste in 90 Sekunden</h2><ul>{liste(data["kurz"])}</ul></div>')
+        teile.append(f'<div class="core"><div class="label">Das Wichtigste in 90 Sekunden</div><ol>{liste(data["kurz"])}</ol></div>')
+    teile.append('<div class="legend"><span class="label">Glaubwürdigkeit</span>'
+                 + balken("gesichert") + balken("plausibel") + balken("vorsicht") + "</div>")
     for r in data.get("ressorts", []):
         rid = r.get("id")
         if rid not in RESSORTS:
             continue
-        name, farbe, _ = RESSORTS[rid]
+        name, farbe, sub = RESSORTS[rid]
+        sub = r.get("untertitel") or sub
         nr = list(RESSORTS).index(rid) + 1
         hinweis = f'<p class="hint">{txt(r["hinweis"])}</p>' if r.get("hinweis") else ""
         karten = "".join(meldung(m) for m in r.get("meldungen", []))
+        grid = f'<div class="grid">{karten}</div>' if karten else ""
         teile.append(f"""<section class="res" style="--c:{farbe}">
-<div class="res-head"><span class="pill">{nr}</span><h2>{name}</h2></div>
-{hinweis}<div class="grid">{karten}</div>
+<div class="res-head"><span class="pill">{nr}</span><h2>{name}</h2><span class="sub">{txt(sub)}</span></div>
+{trends_html(r.get("trends"))}{grid}{hinweis}
 </section>""")
     if data.get("faktencheck"):
-        teile.append(f'<div class="box check"><h2>Faktencheck: Hier genau hinschauen</h2><ul>{liste(data["faktencheck"])}</ul></div>')
-    if data.get("woche"):
-        teile.append(f'<div class="box week"><h2>Diese Woche im Blick</h2><ul>{liste(data["woche"])}</ul></div>')
+        teile.append(f'<div class="warn"><div class="label">Faktencheck: Hier genau hinschauen</div><ul>{liste(data["faktencheck"])}</ul></div>')
+    teile.append(woche_html(data.get("woche")))
     return "\n".join(teile)
 
 
@@ -196,7 +280,7 @@ def main():
     if not dateien:
         sys.exit("Keine Ausgaben gefunden.")
     eintraege = []
-    for nummer, f in enumerate(dateien, start=1):
+    for nummer, f in enumerate(dateien, start=AUSGABE_OFFSET + 1):
         data = json.loads(f.read_text(encoding="utf-8"))
         d = date.fromisoformat(f.stem)
         eintraege.append((d, nummer, data))
@@ -212,7 +296,7 @@ def main():
                                           f"{SITE_URL}/", beschreibung(data, d)), encoding="utf-8")
 
     zeilen = "".join(
-        f'<li><a href="/{e[0].isoformat()}/">{datumszeile(e[0])}</a> · Ausgabe Nr. {e[1]}</li>'
+        f'<li><a href="/{e[0].isoformat()}/">{datumszeile(e[0])}</a> · Ausgabe {e[1]}</li>'
         for e in reversed(eintraege))
     archiv = f"""<header class="top">
 <div class="eyebrow">Alle bisherigen Ausgaben</div>

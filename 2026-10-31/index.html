@@ -11,51 +11,77 @@
 <meta property="og:type" content="article">
 <meta name="theme-color" content="#f7f3ec">
 <style>
-:root{--bg:#f7f3ec;--card:#fffdf8;--ink:#1f1b16;--muted:#6b6258;--line:#e6ddcf;
---ok:#2f7d4f;--mid:#9a6b12;--warn:#b4432b;--box:#efe8db;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--card:#211e1b;
---ink:#efe9df;--muted:#a89e91;--line:#36312b;--ok:#6cc08f;--mid:#e0b25c;--warn:#ec8a72;--box:#2a2622;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#171513;--card:#211e1b;--ink:#efe9df;--muted:#a89e91;--line:#36312b;
---ok:#6cc08f;--mid:#e0b25c;--warn:#ec8a72;--box:#2a2622;color-scheme:dark}
+:root{--bg:#f5f2ea;--card:#fffdf8;--ink:#1f1d1a;--muted:#6b655c;--line:#e2dccf;
+--ok:#2e7d4f;--mid:#b7861a;--bad:#b03a2e;--corebg:#1f2a37;--coreink:#f5f2ea;
+--warnbg:#fbede9;--warnline:#e4b3a8;--startbg:#e8f2ef;--startline:#a9cfc5;--hann:#0e6e6b;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171614;--card:#211f1c;--ink:#ede8de;
+--muted:#a39c90;--line:#35322d;--ok:#5bbe83;--mid:#d9a83a;--bad:#e07a6c;--corebg:#2a3544;--coreink:#ede8de;
+--warnbg:#2e1e1b;--warnline:#5c352e;--startbg:#16292a;--startline:#2c4e4b;--hann:#4fb3ad;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171614;--card:#211f1c;--ink:#ede8de;--muted:#a39c90;--line:#35322d;--ok:#5bbe83;
+--mid:#d9a83a;--bad:#e07a6c;--corebg:#2a3544;--coreink:#ede8de;--warnbg:#2e1e1b;--warnline:#5c352e;
+--startbg:#16292a;--startline:#2c4e4b;--hann:#4fb3ad;color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style",Georgia,serif}
-.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
-.sans{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
-a{color:inherit}
-header.top{border-bottom:3px double var(--ink);padding-bottom:14px;margin-bottom:22px;text-align:center}
-.eyebrow{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-h1{font-size:clamp(34px,8vw,58px);line-height:1.05;margin:6px 0 4px;letter-spacing:-.01em}
-.dateline{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;color:var(--muted)}
-nav.mini{margin-top:10px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px}
-nav.mini a{margin:0 8px;color:var(--muted)}
-.notice{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted);
-background:var(--box);border-radius:8px;padding:8px 12px;margin:0 0 22px;text-align:center}
-.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 26px}
-.box h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}
-.box ul{margin:0;padding-left:20px}.box li{margin:4px 0}
-.box.key{border-left:5px solid var(--ink)}
-.box.check{border-left:5px solid var(--warn)}
-.box.week{border-left:5px solid var(--ok)}
-section.res{--c:#666;margin:0 0 30px}
-.res-head{display:flex;align-items:center;gap:10px;margin:0 0 12px}
-.pill{background:var(--c);color:#fff;font:700 12px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
-border-radius:999px;padding:6px 10px;letter-spacing:.06em}
-.res-head h2{margin:0;font-size:22px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif}
+.wrap{max-width:980px;margin:0 auto;padding:22px 16px 48px;display:flex;flex-direction:column;gap:26px}
+a{color:inherit;text-underline-offset:2px}
+.label{font:600 11px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+header.top{border-bottom:3px double var(--ink);padding-bottom:12px;display:flex;flex-direction:column;gap:6px}
+header.top .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+h1{font-size:clamp(34px,7vw,58px);line-height:1;margin:0;font-weight:700;letter-spacing:-.01em}
+h1 i{font-weight:400}
+header.top p{margin:0;color:var(--muted);font-size:15px}
+header.top nav a{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin-right:14px}
+.notice{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:-12px 0 0}
+.core{background:var(--corebg);color:var(--coreink);border-radius:6px;padding:20px 22px}
+.core .label{color:var(--coreink);opacity:.75}
+.core ol{margin:10px 0 0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.core li::marker{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);align-items:center}
+section.res{--c:#666;display:flex;flex-direction:column;gap:14px}
+.res-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pill{background:var(--c);color:#fff;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;border-radius:999px;padding:3px 11px}
+.res-head h2{margin:0;font-size:26px;line-height:1.2}
+.res-head .sub{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media (max-width:640px){.grid{grid-template-columns:1fr}}
-article{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:14px 16px}
-article h3{margin:0 0 6px;font-size:18.5px;line-height:1.3}
-article p{margin:0 0 8px}
-.rate{display:inline-block;font:600 11.5px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;border-radius:999px;
-padding:5px 9px;border:1px solid currentColor;margin:2px 0 6px}
-.rate.ok{color:var(--ok)}.rate.mid{color:var(--mid)}.rate.warn{color:var(--warn)}
-details{border-top:1px dashed var(--line);margin-top:6px;padding-top:6px}
-summary{cursor:pointer;font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);padding:6px 0;list-style-position:inside}
-.why{font-size:15px;color:var(--muted);background:var(--box);border-radius:8px;padding:8px 10px;margin:8px 0}
-.src{font:13px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:4px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+article h3{margin:0;font-size:19px;line-height:1.3}
+article p{margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.val{display:inline-flex;align-items:center;gap:6px;font-weight:700}
+.bars{display:inline-flex;gap:2px}
+.bars i{width:9px;height:9px;border-radius:2px;background:var(--line)}
+.v3 i{background:var(--ok)}.v2 i:nth-child(-n+2){background:var(--mid)}.v1 i:first-child{background:var(--bad)}
+.v3{color:var(--ok)}.v2{color:var(--mid)}.v1{color:var(--bad)}
+.geo{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);text-decoration:none;white-space:nowrap}
+.geo::before{content:"◎ "}
+.geo:hover{text-decoration:underline}
+.kurz{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+details{border-top:1px dashed var(--line);padding-top:8px}
+summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ "}
+details[open] summary::before{content:"▾ "}
+.long{display:flex;flex-direction:column;gap:10px;margin-top:10px;font-size:16px}
+.long p{margin:0}
+.why{font:13px/1.45 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.src{font:12px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);overflow-wrap:anywhere}
 .src a{color:var(--muted)}
-.hint{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:-4px 0 12px}
-footer{border-top:1px solid var(--line);margin-top:34px;padding-top:14px;font:13px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);text-align:center}
+.hint{font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0}
+.trends{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.tr{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:10px 12px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.tr b{font-size:16px;overflow-wrap:anywhere}
+.tr span{font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);font-variant-numeric:tabular-nums}
+.warn{background:var(--warnbg);border:1px solid var(--warnline);border-radius:6px;padding:18px 20px}
+.warn .label{color:var(--bad)}
+.warn ul{margin:10px 0 0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+.start{background:var(--startbg);border:1px solid var(--startline);border-radius:6px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.start .label{color:var(--hann)}
+.steps{display:flex;flex-wrap:wrap;gap:10px}
+.step{flex:1 1 200px;background:var(--card);border:1px solid var(--startline);border-radius:4px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.step .when{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--hann);letter-spacing:.04em;text-transform:uppercase}
+.start ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+footer{border-top:1px solid var(--line);padding-top:12px;font:12.5px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);text-align:center}
 footer a{color:var(--muted)}
 .archive li{margin:6px 0}
 </style>
@@ -63,126 +89,127 @@ footer a{color:var(--muted)}
 <body>
 <div class="wrap">
 <header class="top">
-<div class="eyebrow">Hannover · Deutschland · Welt · Sport</div>
-<h1>Hannover Frühausgabe</h1>
-<div class="dateline">Samstag, 31. Oktober 2026 · Ausgabe Nr. 1</div>
-<nav class="mini"><a href="/archiv/">Archiv</a> · <a href="/">zur aktuellen Ausgabe</a></nav>
+<div class="row"><span class="label">Samstag, 31. Oktober 2026 · Ausgabe 33</span><span class="label">Stand: Samstag, 3 Uhr</span></div>
+<h1>Hannover <i>Frühausgabe</i></h1>
+<p>Die Morgenzeitung aus der Region, aus Deutschland und der Welt. Jede Meldung mit Quelle und Glaubwürdigkeits-Check.</p>
+<nav><a href="/archiv/">Archiv</a><a href="/">zur aktuellen Ausgabe</a></nav>
 </header>
-<div class="notice">Automatisch erstellt mit KI, ohne redaktionelle Prüfung. Jede Meldung trägt eine Glaubwürdigkeits-Einschätzung und ihre Quellen.</div>
+<p class="notice">Automatisch erstellt mit KI, ohne redaktionelle Prüfung.</p>
 
-<div class="box key"><h2>Das Wichtigste in 90 Sekunden</h2><ul><li><b>Neustadt am Rübenberge:</b> Nach der Autoattacke auf eine Personengruppe wurde ein Verdächtiger festgenommen; laut Polizei galt der Angriff gezielt bestimmten Personen, nicht Passanten.</li><li><b>Inflation sinkt auf 2,8 Prozent</b> – vor allem dank Tankrabatt. Ökonomen erwarten zum Jahreswechsel wieder über 3 Prozent.</li><li><b>Heute bundesweit Proteste von „Gen Z regelt“</b> in rund 30 Städten; die Organisatoren rechnen mit friedlichem Verlauf.</li><li><b>Israel nach der Wahl:</b> Keiner der großen Blöcke hat eine Mehrheit; das Netanjahu-Lager erhebt Betrugsvorwürfe, die Wahlkommission weist sie zurück.</li><li><b>Hannover 96</b> ist nach dem 0:2 gegen Kaiserslautern aus dem DFB-Pokal raus; am Sonntag um 13:30 Uhr kommt Dynamo Dresden.</li><li><b>Formel 1 in Mexiko:</b> Qualifying heute um 22 Uhr, Rennen Sonntag um 21 Uhr (deutsche Zeit).</li></ul></div>
+<div class="core"><div class="label">Das Wichtigste in 90 Sekunden</div><ol><li><b>Neustadt am Rübenberge:</b> Nach der Autoattacke auf eine Personengruppe wurde ein Verdächtiger festgenommen; laut Polizei galt der Angriff gezielt bestimmten Personen, nicht Passanten.</li><li><b>Inflation sinkt auf 2,8 Prozent</b> – vor allem dank Tankrabatt. Ökonomen erwarten zum Jahreswechsel wieder über 3 Prozent.</li><li><b>Heute bundesweit Proteste von „Gen Z regelt“</b> in rund 30 Städten; die Organisatoren rechnen mit friedlichem Verlauf.</li><li><b>Israel nach der Wahl:</b> Keiner der großen Blöcke hat eine Mehrheit; das Netanjahu-Lager erhebt Betrugsvorwürfe, die Wahlkommission weist sie zurück.</li><li><b>Hannover 96</b> ist nach dem 0:2 gegen Kaiserslautern aus dem DFB-Pokal raus; am Sonntag um 13:30 Uhr kommt Dynamo Dresden.</li><li><b>Formel 1 in Mexiko:</b> Qualifying heute um 22 Uhr, Rennen Sonntag um 21 Uhr (deutsche Zeit).</li></ol></div>
+<div class="legend"><span class="label">Glaubwürdigkeit</span><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span class="val v1"><span class="bars"><i></i><i></i><i></i></span>Mit Vorsicht genießen</span></div>
 <section class="res" style="--c:#1f6f78">
-<div class="res-head"><span class="pill">1</span><h2>Hannover & Region</h2></div>
+<div class="res-head"><span class="pill">1</span><h2>Hannover & Region</h2><span class="sub">Vor der Haustür</span></div>
 <div class="grid"><article>
 <h3>Neustadt: Verdächtiger nach Autoattacke festgenommen</h3>
-<span class="rate ok">Gesichert</span>
 <p>Ein Mann soll am Montagabend gezielt in eine Gruppe gefahren sein, <b>mindestens fünf Menschen</b> wurden verletzt. Polizisten stoppten den Wagen mit Schüssen, am Mittwoch folgte die Festnahme.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Beamten waren wegen einer Verkehrskontrolle in der Nähe und gaben Schüsse auf das Auto ab; der Fahrer floh zunächst zu Fuß. Die Ermittler gehen davon aus, dass sich Täter und Opfer kannten und aus dem Umfeld großer Familien stammen. Ein Anschlag auf Unbeteiligte war es nach Polizeiangaben nicht.</p><p>Eine erste Meldung über drei Festnahmen hat die Polizei korrigiert: Es habe sich nur um eine Personalienfeststellung gehandelt. Zeugen mit Videos werden weiter gesucht.</p><div class="why"><b>Warum „Gesichert“:</b> Polizei und mehrere Medien berichten übereinstimmend. Beim Tatvorwurf schwanken die Formulierungen zwischen versuchtem Mord und versuchtem Totschlag.</div><div class="src">Quellen: <a href="https://www.presseportal.de/blaulicht/nr/66841" rel="noopener" target="_blank">Polizeidirektion Hannover (Presseportal)</a> · <a href="https://www.zdfheute.de/panorama/kriminalitaet/auto-niedersachsen-neustadt-am-ruebenberge-menschengruppe-verletzte-100.html" rel="noopener" target="_blank">ZDFheute</a> · <a href="https://www.volksstimme.de/panorama/nach-angriff-mit-auto-mutmasslicher-tater-festgenommen-4346626" rel="noopener" target="_blank">Volksstimme</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: Polizeidirektion Hannover (Presseportal), ZDFheute, Volksstimme</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Neustadt+am+R%C3%BCbenberge" target="_blank" rel="noopener">Karte</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Beamten waren wegen einer Verkehrskontrolle in der Nähe und gaben Schüsse auf das Auto ab; der Fahrer floh zunächst zu Fuß. Die Ermittler gehen davon aus, dass sich Täter und Opfer kannten und aus dem Umfeld großer Familien stammen. Ein Anschlag auf Unbeteiligte war es nach Polizeiangaben nicht.</p><p>Eine erste Meldung über drei Festnahmen hat die Polizei korrigiert: Es habe sich nur um eine Personalienfeststellung gehandelt. Zeugen mit Videos werden weiter gesucht.</p><p class="why"><b>Einschätzung:</b> Polizei und mehrere Medien berichten übereinstimmend. Beim Tatvorwurf schwanken die Formulierungen zwischen versuchtem Mord und versuchtem Totschlag.</p><p class="src">Quellen: <a href="https://www.presseportal.de/blaulicht/nr/66841" rel="noopener" target="_blank">Polizeidirektion Hannover (Presseportal)</a> · <a href="https://www.zdfheute.de/panorama/kriminalitaet/auto-niedersachsen-neustadt-am-ruebenberge-menschengruppe-verletzte-100.html" rel="noopener" target="_blank">ZDFheute</a> · <a href="https://www.volksstimme.de/panorama/nach-angriff-mit-auto-mutmasslicher-tater-festgenommen-4346626" rel="noopener" target="_blank">Volksstimme</a></p></div></details>
 </article><article>
 <h3>Winternothilfe startet – erstmals mit Straßensozialarbeit in den Stadtteilen</h3>
-<span class="rate ok">Gesichert</span>
 <p>Ab <b>1. November</b> beginnt die städtische Winternothilfe für obdachlose Menschen. Neu ist, dass Sozialarbeiter auch außerhalb der Innenstadt unterwegs sind.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Zusätzlich hat die Stadt nach einer Sanierung 45 Wohnungen am Wülferoder Weg für Obdachlose und Geflüchtete fertiggestellt. Beides steht in den aktuellen Mitteilungen der Landeshauptstadt.</p><div class="why"><b>Warum „Gesichert“:</b> Offizielle Mitteilung der Stadt Hannover.</div><div class="src">Quellen: <a href="https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen" rel="noopener" target="_blank">hannover.de – Aktuelle Meldungen</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: hannover.de – Aktuelle Meldungen</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Zusätzlich hat die Stadt nach einer Sanierung 45 Wohnungen am Wülferoder Weg für Obdachlose und Geflüchtete fertiggestellt. Beides steht in den aktuellen Mitteilungen der Landeshauptstadt.</p><p class="why"><b>Einschätzung:</b> Offizielle Mitteilung der Stadt Hannover.</p><p class="src">Quellen: <a href="https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen" rel="noopener" target="_blank">hannover.de – Aktuelle Meldungen</a></p></div></details>
 </article><article>
 <h3>Neuer Rat wählt nächste Woche drei ehrenamtliche Bürgermeister</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>In der ersten Sitzung nach der Kommunalwahl sollen <b>Uta Engelhardt (Grüne), Bala Ramani (SPD) und Patrick Hoare (CDU)</b> Stellvertreter von OB Belit Onay werden.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Engelhardt soll zugleich den Ratsvorsitz übernehmen. Traditionell schlagen die drei stärksten Fraktionen je eine Person vor. Die Namen stammen aus Berichten von HAZ und NP, formal entscheidet erst der Rat.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Seriöse Lokalberichte, die Wahl selbst steht aber noch aus.</div><div class="src">Quellen: <a href="https://www.radio-hannover.de/hannover-news/engelhardt-ramani-hoare-rat-waehlt-naechste-woche-neue-ehrenamtliche-buergermeister" rel="noopener" target="_blank">Radio Hannover</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Radio Hannover</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Engelhardt soll zugleich den Ratsvorsitz übernehmen. Traditionell schlagen die drei stärksten Fraktionen je eine Person vor. Die Namen stammen aus Berichten von HAZ und NP, formal entscheidet erst der Rat.</p><p class="why"><b>Einschätzung:</b> Seriöse Lokalberichte, die Wahl selbst steht aber noch aus.</p><p class="src">Quellen: <a href="https://www.radio-hannover.de/hannover-news/engelhardt-ramani-hoare-rat-waehlt-naechste-woche-neue-ehrenamtliche-buergermeister" rel="noopener" target="_blank">Radio Hannover</a></p></div></details>
 </article><article>
 <h3>Garbsen: Polizeieinsatz am Planetencenter nach Drohhinweis</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Am Donnerstagabend sperrte die Polizei nach einem <b>Hinweis auf eine Bedrohungslage</b> vorübergehend Straßen rund um das Einkaufszentrum.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Polizeidirektion meldete den Einsatz am 29. Oktober. Hintergründe und ob sich der Hinweis bestätigt hat, waren bei Redaktionsschluss nicht bekannt.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Offizielle Polizeimeldung, Ausgang des Einsatzes aber offen.</div><div class="src">Quellen: <a href="https://www.presseportal.de/blaulicht/nr/66841" rel="noopener" target="_blank">Polizeidirektion Hannover (Presseportal)</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Polizeidirektion Hannover (Presseportal)</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Planetencenter+Garbsen" target="_blank" rel="noopener">Karte: Planetencenter</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Polizeidirektion meldete den Einsatz am 29. Oktober. Hintergründe und ob sich der Hinweis bestätigt hat, waren bei Redaktionsschluss nicht bekannt.</p><p class="why"><b>Einschätzung:</b> Offizielle Polizeimeldung, Ausgang des Einsatzes aber offen.</p><p class="src">Quellen: <a href="https://www.presseportal.de/blaulicht/nr/66841" rel="noopener" target="_blank">Polizeidirektion Hannover (Presseportal)</a></p></div></details>
 </article></div>
 </section>
 <section class="res" style="--c:#b4432b">
-<div class="res-head"><span class="pill">2</span><h2>Deutschland</h2></div>
+<div class="res-head"><span class="pill">2</span><h2>Deutschland</h2><span class="sub">Was das Land bewegt</span></div>
 <div class="grid"><article>
 <h3>Inflation fällt auf 2,8 Prozent</h3>
-<span class="rate ok">Gesichert</span>
 <p>Im Oktober stiegen die Verbraucherpreise um <b>2,8 Prozent</b> nach 3,3 Prozent im September. Haupttreiber des Rückgangs ist der Tankrabatt.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Energie war trotzdem gut 12 Prozent teurer als vor einem Jahr, Lebensmittel nur minimal. Der Rabatt senkt die Energiesteuer auf Sprit bis Jahresende um rund 14 Cent je Liter.</p><p>Ökonomen rechnen damit, dass die Rate um den Jahreswechsel wieder über 3 Prozent klettert. Für dich heißt das: Tanken bleibt bis Silvester etwas günstiger, danach dürfte der Effekt verpuffen.</p><div class="why"><b>Warum „Gesichert“:</b> Vorläufige Zahl des Statistischen Bundesamts, von mehreren Medien bestätigt.</div><div class="src">Quellen: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html" rel="noopener" target="_blank">Destatis</a> · <a href="https://www.finanznachrichten.de/nachrichten-2026-10/69990977-roundup-2-tankrabatt-daempft-inflation-aber-noch-keine-entwarnung-016.htm" rel="noopener" target="_blank">dpa-AFX via finanznachrichten.de</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: Destatis, dpa-AFX via finanznachrichten.de</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Energie war trotzdem gut 12 Prozent teurer als vor einem Jahr, Lebensmittel nur minimal. Der Rabatt senkt die Energiesteuer auf Sprit bis Jahresende um rund 14 Cent je Liter.</p><p>Ökonomen rechnen damit, dass die Rate um den Jahreswechsel wieder über 3 Prozent klettert. Für dich heißt das: Tanken bleibt bis Silvester etwas günstiger, danach dürfte der Effekt verpuffen.</p><p class="why"><b>Einschätzung:</b> Vorläufige Zahl des Statistischen Bundesamts, von mehreren Medien bestätigt.</p><p class="src">Quellen: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_382_611.html" rel="noopener" target="_blank">Destatis</a> · <a href="https://www.finanznachrichten.de/nachrichten-2026-10/69990977-roundup-2-tankrabatt-daempft-inflation-aber-noch-keine-entwarnung-016.htm" rel="noopener" target="_blank">dpa-AFX via finanznachrichten.de</a></p></div></details>
 </article><article>
 <h3>„Gen Z regelt“: Heute Proteste in rund 30 Städten</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Die erst wenige Wochen alte Bewegung fordert unter anderem <b>mehr Klimaschutz, Entlastung bei den Lebenskosten und keine Wehrpflicht</b>. Angemeldet sind laut Organisatoren 146.000 Teilnehmende.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Initiative lehnt Gewalt ausdrücklich ab und erwartet einen ruhigen Tag. Kritik kommt von der Bundesschülerkonferenz, die die unklaren Strukturen bemängelt und eigene Demos plant. Die AfD warnt vor Unterwanderung durch Extremisten, die Linke unterstützt die Proteste.</p><p>Ob es auch in Hannover eine Kundgebung gibt, geht aus den vorliegenden Berichten nicht hervor.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Teilnehmerzahlen stammen nur von den Organisatoren; wie groß die Proteste werden, ist offen.</div><div class="src">Quellen: <a href="https://www.tagesspiegel.de/berlin/dpa-demonstrationen-am-31-oktober-gen-z-regelt-rechnet-mit-entspannten-demos-am-samstag-16215079.html" rel="noopener" target="_blank">Tagesspiegel (dpa)</a> · <a href="https://www.zdfheute.de/newsticker/schlagzeilen-100.html" rel="noopener" target="_blank">ZDFheute Newsticker</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Tagesspiegel (dpa), ZDFheute Newsticker</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Initiative lehnt Gewalt ausdrücklich ab und erwartet einen ruhigen Tag. Kritik kommt von der Bundesschülerkonferenz, die die unklaren Strukturen bemängelt und eigene Demos plant. Die AfD warnt vor Unterwanderung durch Extremisten, die Linke unterstützt die Proteste.</p><p>Ob es auch in Hannover eine Kundgebung gibt, geht aus den vorliegenden Berichten nicht hervor.</p><p class="why"><b>Einschätzung:</b> Teilnehmerzahlen stammen nur von den Organisatoren; wie groß die Proteste werden, ist offen.</p><p class="src">Quellen: <a href="https://www.tagesspiegel.de/berlin/dpa-demonstrationen-am-31-oktober-gen-z-regelt-rechnet-mit-entspannten-demos-am-samstag-16215079.html" rel="noopener" target="_blank">Tagesspiegel (dpa)</a> · <a href="https://www.zdfheute.de/newsticker/schlagzeilen-100.html" rel="noopener" target="_blank">ZDFheute Newsticker</a></p></div></details>
 </article><article>
 <h3>Bad Oldesloe: Bus prallt gegen Wohnhaus – vier Menschen in Lebensgefahr</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Ein Linienbus mit mehr als 30 Fahrgästen, darunter viele Kinder, krachte am Freitagmorgen frontal in ein Haus. <b>Zwölf Menschen</b> wurden verletzt.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Unter den Schwerstverletzten sind ein Kind und der Busfahrer, der eingeklemmt wurde. Nach ersten Erkenntnissen streifte der Bus zuvor mehrere Autos und überquerte einen Kreisel. Warum der Fahrer die Kontrolle verlor, ist noch unklar.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Zahlen übereinstimmend, die Unfallursache wird aber noch ermittelt.</div><div class="src">Quellen: <a href="https://www.zdfheute.de/newsticker/schlagzeilen-100.html" rel="noopener" target="_blank">ZDFheute Newsticker</a> · <a href="https://www.dasgelbeblatt.de/welt/kind-nach-kollision-von-bus-mit-hauswand-in-lebensgefahr-zr-94565636.html" rel="noopener" target="_blank">Das Gelbe Blatt</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: ZDFheute Newsticker, Das Gelbe Blatt</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Bad+Oldesloe" target="_blank" rel="noopener">Karte</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Unter den Schwerstverletzten sind ein Kind und der Busfahrer, der eingeklemmt wurde. Nach ersten Erkenntnissen streifte der Bus zuvor mehrere Autos und überquerte einen Kreisel. Warum der Fahrer die Kontrolle verlor, ist noch unklar.</p><p class="why"><b>Einschätzung:</b> Zahlen übereinstimmend, die Unfallursache wird aber noch ermittelt.</p><p class="src">Quellen: <a href="https://www.zdfheute.de/newsticker/schlagzeilen-100.html" rel="noopener" target="_blank">ZDFheute Newsticker</a> · <a href="https://www.dasgelbeblatt.de/welt/kind-nach-kollision-von-bus-mit-hauswand-in-lebensgefahr-zr-94565636.html" rel="noopener" target="_blank">Das Gelbe Blatt</a></p></div></details>
 </article><article>
 <h3>Bahn holt Fachleute für mehr Pünktlichkeit</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Die Deutsche Bahn hat eine <b>Expertenkommission</b> eingesetzt, die Wege zu pünktlicheren Zügen auf dem überlasteten Netz finden soll.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Konkrete Namen oder ein Zeitplan für Ergebnisse wurden in der Kurzmeldung nicht genannt. Wer regelmäßig ab Hannover Hbf pendelt, sollte vorerst keine schnelle Besserung erwarten.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Bisher nur als Kurzmeldung bekannt, Details fehlen.</div><div class="src">Quellen: <a href="https://www.zdfheute.de/newsticker/schlagzeilen-100.html" rel="noopener" target="_blank">ZDFheute Newsticker</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: ZDFheute Newsticker</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Konkrete Namen oder ein Zeitplan für Ergebnisse wurden in der Kurzmeldung nicht genannt. Wer regelmäßig ab Hannover Hbf pendelt, sollte vorerst keine schnelle Besserung erwarten.</p><p class="why"><b>Einschätzung:</b> Bisher nur als Kurzmeldung bekannt, Details fehlen.</p><p class="src">Quellen: <a href="https://www.zdfheute.de/newsticker/schlagzeilen-100.html" rel="noopener" target="_blank">ZDFheute Newsticker</a></p></div></details>
 </article></div>
 </section>
 <section class="res" style="--c:#4b4fa6">
-<div class="res-head"><span class="pill">3</span><h2>Welt</h2></div>
+<div class="res-head"><span class="pill">3</span><h2>Die Welt</h2><span class="sub">Was draußen passiert</span></div>
 <div class="grid"><article>
 <h3>Israel: Patt nach der Wahl, Streit um Betrugsvorwürfe</h3>
-<span class="rate warn">Mit Vorsicht genießen</span>
 <p>Netanjahus Lager kommt auf <b>53 von 120 Sitzen</b>, das Oppositionsbündnis um Gadi Eisenkot auf 48. Die arabischen Listen holen zusammen 19 – so viele wie nie.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Der Likud spricht von einer gestohlenen Wahl, Minister Ben Gvir forderte sogar Festnahmen arabischer Parteichefs. Belege wurden nicht vorgelegt. Die Wahlkommission sieht keinen systematischen Betrug, hat den Inlandsgeheimdienst aber gebeten, mögliche ausländische Einflussnahme zu prüfen.</p><p>Eisenkot warnt davor, die Bestätigung des Ergebnisses mit unbewiesenen Vorwürfen zu verzögern.</p><div class="why"><b>Warum „Mit Vorsicht genießen“:</b> Die Sitzverteilung ist berichtet, die Betrugsvorwürfe sind dagegen unbelegt und politisch motiviert – genau hier hinschauen.</div><div class="src">Quellen: <a href="https://www.berliner-zeitung.de/article/netanjahus-wahlbetrugsvorwuerfe-eisenkot-warnt-vor-verzoegerung-10544689" rel="noopener" target="_blank">Berliner Zeitung</a> · <a href="https://www.handelsblatt.com/politik/international/iran-krieg-netanjahu-lager-spricht-von-wahlbetrug-ohne-beweise/100136895.html" rel="noopener" target="_blank">Handelsblatt</a></div></details>
+<div class="meta"><span class="val v1"><span class="bars"><i></i><i></i><i></i></span>Mit Vorsicht genießen</span><span>Quelle: Berliner Zeitung, Handelsblatt</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Der Likud spricht von einer gestohlenen Wahl, Minister Ben Gvir forderte sogar Festnahmen arabischer Parteichefs. Belege wurden nicht vorgelegt. Die Wahlkommission sieht keinen systematischen Betrug, hat den Inlandsgeheimdienst aber gebeten, mögliche ausländische Einflussnahme zu prüfen.</p><p>Eisenkot warnt davor, die Bestätigung des Ergebnisses mit unbewiesenen Vorwürfen zu verzögern.</p><p class="why"><b>Einschätzung:</b> Die Sitzverteilung ist berichtet, die Betrugsvorwürfe sind dagegen unbelegt und politisch motiviert – genau hier hinschauen.</p><p class="src">Quellen: <a href="https://www.berliner-zeitung.de/article/netanjahus-wahlbetrugsvorwuerfe-eisenkot-warnt-vor-verzoegerung-10544689" rel="noopener" target="_blank">Berliner Zeitung</a> · <a href="https://www.handelsblatt.com/politik/international/iran-krieg-netanjahu-lager-spricht-von-wahlbetrug-ohne-beweise/100136895.html" rel="noopener" target="_blank">Handelsblatt</a></p></div></details>
 </article><article>
 <h3>Katar vermittelt in Teheran</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Eine katarische Delegation ist zu Gesprächen in den Iran gereist – mitten in Spekulationen über eine <b>neue militärische Eskalation mit den USA</b>.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Hintergrund sind ein US-Truppenaufbau in der Region und vermehrte iranische Angriffe auf Schiffe im Golf. Beobachter halten ein erneutes Aufflammen des Krieges nach den US-Zwischenwahlen am Dienstag für möglich. Die Reise meldete die iranische Staatsagentur, unabhängige Details gibt es kaum.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Die Reise selbst ist bestätigt, die Ziele der Gespräche aber nur aus Staatsmedien bekannt.</div><div class="src">Quellen: <a href="https://www.juedische-allgemeine.de/politik/katarische-unterhaendler-in-teheran-zu-gespraechen/" rel="noopener" target="_blank">Jüdische Allgemeine (dpa)</a> · <a href="https://www.berliner-zeitung.de/article/katar-vermittelt-zwischen-iran-und-usa-neue-gespraeche-10548111" rel="noopener" target="_blank">Berliner Zeitung</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Jüdische Allgemeine (dpa), Berliner Zeitung</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Teheran" target="_blank" rel="noopener">Karte</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Hintergrund sind ein US-Truppenaufbau in der Region und vermehrte iranische Angriffe auf Schiffe im Golf. Beobachter halten ein erneutes Aufflammen des Krieges nach den US-Zwischenwahlen am Dienstag für möglich. Die Reise meldete die iranische Staatsagentur, unabhängige Details gibt es kaum.</p><p class="why"><b>Einschätzung:</b> Die Reise selbst ist bestätigt, die Ziele der Gespräche aber nur aus Staatsmedien bekannt.</p><p class="src">Quellen: <a href="https://www.juedische-allgemeine.de/politik/katarische-unterhaendler-in-teheran-zu-gespraechen/" rel="noopener" target="_blank">Jüdische Allgemeine (dpa)</a> · <a href="https://www.berliner-zeitung.de/article/katar-vermittelt-zwischen-iran-und-usa-neue-gespraeche-10548111" rel="noopener" target="_blank">Berliner Zeitung</a></p></div></details>
 </article><article>
 <h3>G20-Außenminister in Atlanta – ohne Familienfoto mit Lawrow</h3>
-<span class="rate ok">Gesichert</span>
 <p>Außenminister Wadephul kündigte an, es werde <b>kein Gruppenbild mit Sergej Lawrow</b> geben. Russlands Außenminister Lawrow durfte für das Treffen in die USA reisen.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Europäer wollen vor allem die Lage in der Straße von Hormus und die Blockade im Schwarzen Meer ansprechen. Zugleich kritisieren sie, dass die USA Energiesanktionen gegen Russland ohne Absprache gelockert haben. Südafrika ist während der US-Präsidentschaft von allen G20-Treffen ausgeschlossen.</p><div class="why"><b>Warum „Gesichert“:</b> Mehrere seriöse Quellen, Aussagen des Außenministers direkt belegt.</div><div class="src">Quellen: <a href="https://www.zdfheute.de/politik/g20-atlanta-wadephul-lawrow-usa-russland-100.html" rel="noopener" target="_blank">ZDFheute</a> · <a href="https://www.wiwo.de/politik/ausland/treffen-in-atlanta-kein-familienfoto-g20-aussenminister-mit-signal-an-moskau/100266252.html" rel="noopener" target="_blank">WirtschaftsWoche</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: ZDFheute, WirtschaftsWoche</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Atlanta" target="_blank" rel="noopener">Karte</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Europäer wollen vor allem die Lage in der Straße von Hormus und die Blockade im Schwarzen Meer ansprechen. Zugleich kritisieren sie, dass die USA Energiesanktionen gegen Russland ohne Absprache gelockert haben. Südafrika ist während der US-Präsidentschaft von allen G20-Treffen ausgeschlossen.</p><p class="why"><b>Einschätzung:</b> Mehrere seriöse Quellen, Aussagen des Außenministers direkt belegt.</p><p class="src">Quellen: <a href="https://www.zdfheute.de/politik/g20-atlanta-wadephul-lawrow-usa-russland-100.html" rel="noopener" target="_blank">ZDFheute</a> · <a href="https://www.wiwo.de/politik/ausland/treffen-in-atlanta-kein-familienfoto-g20-aussenminister-mit-signal-an-moskau/100266252.html" rel="noopener" target="_blank">WirtschaftsWoche</a></p></div></details>
 </article></div>
 </section>
 <section class="res" style="--c:#7a4fa0">
-<div class="res-head"><span class="pill">4</span><h2>Sport</h2></div>
+<div class="res-head"><span class="pill">4</span><h2>Sport</h2><span class="sub">Hannover zuerst, dann der Rest</span></div>
 <div class="grid"><article>
 <h3>96 fliegt aus dem Pokal – Sonntag gegen Dresden</h3>
-<span class="rate ok">Gesichert</span>
 <p>Hannover 96 verlor am Mittwoch vor <b>35.800 Zuschauern 0:2 gegen Kaiserslautern</b>. Am Sonntag um 13:30 Uhr folgt das Heimspiel gegen Dynamo Dresden.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Treffer fielen in der 14. und 86. Minute. Trainer Sandro Wagner sah eine klare Steigerung gegenüber dem Derby in Braunschweig, doch 96 ließ große Chancen liegen. In der Liga lief es zuletzt schwach: nach dem 0:2 in Braunschweig ist das Dresden-Spiel ein wichtiges Signal.</p><div class="why"><b>Warum „Gesichert“:</b> Ergebnis vom DFB-Datencenter und Radio Hannover übereinstimmend bestätigt.</div><div class="src">Quellen: <a href="https://datencenter.dfb.de/datencenter/dfb-pokal/2026-27/2-runde/hannover-96-1-fc-kaiserslautern-2430554" rel="noopener" target="_blank">DFB-Datencenter</a> · <a href="https://www.radio-hannover.de/hannover-news/pokal-aus-gegen-kaiserslautern-96-scheitert-trotz-klarer-leistungssteigerung" rel="noopener" target="_blank">Radio Hannover</a> · <a href="https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html" rel="noopener" target="_blank">hessenschau – 96-Spielplan</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: DFB-Datencenter, Radio Hannover, hessenschau – 96-Spielplan</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Heinz+von+Heiden+Arena+Hannover" target="_blank" rel="noopener">Karte: Heinz von Heiden Arena</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Treffer fielen in der 14. und 86. Minute. Trainer Sandro Wagner sah eine klare Steigerung gegenüber dem Derby in Braunschweig, doch 96 ließ große Chancen liegen. In der Liga lief es zuletzt schwach: nach dem 0:2 in Braunschweig ist das Dresden-Spiel ein wichtiges Signal.</p><p class="why"><b>Einschätzung:</b> Ergebnis vom DFB-Datencenter und Radio Hannover übereinstimmend bestätigt.</p><p class="src">Quellen: <a href="https://datencenter.dfb.de/datencenter/dfb-pokal/2026-27/2-runde/hannover-96-1-fc-kaiserslautern-2430554" rel="noopener" target="_blank">DFB-Datencenter</a> · <a href="https://www.radio-hannover.de/hannover-news/pokal-aus-gegen-kaiserslautern-96-scheitert-trotz-klarer-leistungssteigerung" rel="noopener" target="_blank">Radio Hannover</a> · <a href="https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html" rel="noopener" target="_blank">hessenschau – 96-Spielplan</a></p></div></details>
 </article><article>
 <h3>Die Recken heute gegen den Bergischen HC</h3>
-<span class="rate ok">Gesichert</span>
 <p>Nach der <b>26:29-Heimniederlage gegen Lemgo</b> empfangen die Handballer des TSV Hannover-Burgdorf heute um 19 Uhr den Bergischen HC.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Zuvor gab es ein 29:29 in Balingen und eine deutliche Niederlage gegen Flensburg. Ein Heimsieg würde die Recken wieder stabilisieren.</p><div class="why"><b>Warum „Gesichert“:</b> Termine und Ergebnisse von der Vereinsseite.</div><div class="src">Quellen: <a href="https://www.die-recken.de/spielplan/" rel="noopener" target="_blank">Die Recken – Spielplan</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: Die Recken – Spielplan</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=ZAG+Arena+Hannover" target="_blank" rel="noopener">Karte: ZAG Arena</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Zuvor gab es ein 29:29 in Balingen und eine deutliche Niederlage gegen Flensburg. Ein Heimsieg würde die Recken wieder stabilisieren.</p><p class="why"><b>Einschätzung:</b> Termine und Ergebnisse von der Vereinsseite.</p><p class="src">Quellen: <a href="https://www.die-recken.de/spielplan/" rel="noopener" target="_blank">Die Recken – Spielplan</a></p></div></details>
 </article><article>
 <h3>Bundesliga: Elversberg überrollt Mainz</h3>
-<span class="rate ok">Gesichert</span>
 <p>Zum Auftakt des 8. Spieltags gewann Elversberg am Freitagabend <b>4:1 gegen Mainz</b>, das in der Nachspielzeit noch einen Platzverweis kassierte.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Mainz hatte unter der Woche im Pokal verloren und den Gegner zwar nach Chancen leicht übertroffen, aber die Effizienz lag klar bei Elversberg. Der Rest des Spieltags folgt am Wochenende.</p><div class="why"><b>Warum „Gesichert“:</b> Offizieller Spielbericht der Liga und Liveticker stimmen überein.</div><div class="src">Quellen: <a href="https://www.bundesliga.com/en/bundesliga/news/elversberg-mainz-match-report-highlights-matchday-8-campbell-keidel-39785" rel="noopener" target="_blank">bundesliga.com</a> · <a href="https://www.sport.de/fussball/deutschland-bundesliga/ma12194518/sv-07-elversberg_1-fsv-mainz-05/liveticker/" rel="noopener" target="_blank">sport.de Liveticker</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: bundesliga.com, sport.de Liveticker</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Mainz hatte unter der Woche im Pokal verloren und den Gegner zwar nach Chancen leicht übertroffen, aber die Effizienz lag klar bei Elversberg. Der Rest des Spieltags folgt am Wochenende.</p><p class="why"><b>Einschätzung:</b> Offizieller Spielbericht der Liga und Liveticker stimmen überein.</p><p class="src">Quellen: <a href="https://www.bundesliga.com/en/bundesliga/news/elversberg-mainz-match-report-highlights-matchday-8-campbell-keidel-39785" rel="noopener" target="_blank">bundesliga.com</a> · <a href="https://www.sport.de/fussball/deutschland-bundesliga/ma12194518/sv-07-elversberg_1-fsv-mainz-05/liveticker/" rel="noopener" target="_blank">sport.de Liveticker</a></p></div></details>
 </article><article>
 <h3>Formel 1: Mexiko-Wochenende</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Das <b>19. Rennen der Saison</b> steigt in Mexiko-Stadt: Qualifying heute um 22 Uhr, Rennen am Sonntag um 21 Uhr deutscher Zeit.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Zeiten stammen aus dem TV-Fahrplan; Änderungen sind möglich.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Zeitplan aus einer Fachquelle, unter Vorbehalt kurzfristiger Änderungen.</div><div class="src">Quellen: <a href="https://www.motorsport-xl.de/news/2026/Formel-1/Der-Sky-TV-Zeitplan-fuer-den-Formel-1-Grand-Prix-von-Mexiko-61564.html" rel="noopener" target="_blank">Motorsport XL</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Motorsport XL</span><a class="geo" href="https://www.google.com/maps/search/?api=1&amp;query=Aut%C3%B3dromo+Hermanos+Rodr%C3%ADguez" target="_blank" rel="noopener">Karte: Mexiko-Stadt</a></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Zeiten stammen aus dem TV-Fahrplan; Änderungen sind möglich.</p><p class="why"><b>Einschätzung:</b> Zeitplan aus einer Fachquelle, unter Vorbehalt kurzfristiger Änderungen.</p><p class="src">Quellen: <a href="https://www.motorsport-xl.de/news/2026/Formel-1/Der-Sky-TV-Zeitplan-fuer-den-Formel-1-Grand-Prix-von-Mexiko-61564.html" rel="noopener" target="_blank">Motorsport XL</a></p></div></details>
 </article></div>
 </section>
 <section class="res" style="--c:#a8781f">
-<div class="res-head"><span class="pill">5</span><h2>Was das Netz sucht</h2></div>
-<p class="hint">Reddit war heute für unsere Abfrage gesperrt, daher nur Google Trends. Die Trend-Daten können ein paar Tage hinterherhinken.</p><div class="grid"><article>
+<div class="res-head"><span class="pill">5</span><h2>Was das Netz sucht</h2><span class="sub">Google Trends Deutschland, Nacht auf Samstag</span></div>
+<div class="trends"><div class="tr"><b>lufthansa kapitän stirbt in indien</b><span>1.000+ · Unfall im Hotelpool</span></div><div class="tr"><b>worlds 2026</b><span>200+ · LoL-WM</span></div><div class="tr"><b>lol worlds</b><span>200+ · Hanwha Life gegen G2</span></div><div class="tr"><b>الهالوين (Halloween)</b><span>200+ · Halloween</span></div><div class="tr"><b>mavericks – rockets</b><span>200+ · NBA Cup</span></div><div class="tr"><b>raptors – magic</b><span>200+ · NBA Cup</span></div></div><div class="grid"><article>
 <h3>„Brotli“: Kritische Sicherheitslücke beschäftigt Entwickler</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Eine Lücke im weit verbreiteten <b>Kompressionsverfahren Brotli</b> betrifft unter anderem Node.js und Python. Entsprechend viele suchten danach.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Wer eigene Web-Tools oder Server betreibt, sollte prüfen, ob die verwendeten Bibliotheken bereits ein Update bekommen haben.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Fachmedium berichtet, Details zu betroffenen Versionen beim Hersteller prüfen.</div><div class="src">Quellen: <a href="https://trends.google.com/trending?geo=DE" rel="noopener" target="_blank">Google Trends Deutschland</a></div></details>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Google Trends Deutschland</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Wer eigene Web-Tools oder Server betreibt, sollte prüfen, ob die verwendeten Bibliotheken bereits ein Update bekommen haben.</p><p class="why"><b>Einschätzung:</b> Fachmedium berichtet, Details zu betroffenen Versionen beim Hersteller prüfen.</p><p class="src">Quellen: <a href="https://trends.google.com/trending?geo=DE" rel="noopener" target="_blank">Google Trends Deutschland</a></p></div></details>
 </article><article>
 <h3>Neustadt am Rübenberge im Suchtrend</h3>
-<span class="rate ok">Gesichert</span>
 <p>Die Autoattacke in der Region Hannover ließ den Ortsnamen <b>bundesweit in die Trends</b> steigen.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Mehr dazu oben im Ressort Hannover &amp; Region.</p><div class="why"><b>Warum „Gesichert“:</b> Deckt sich mit der Polizeimeldung.</div><div class="src">Quellen: <a href="https://trends.google.com/trending?geo=DE" rel="noopener" target="_blank">Google Trends Deutschland</a></div></details>
+<div class="meta"><span class="val v3"><span class="bars"><i></i><i></i><i></i></span>Gesichert</span><span>Quelle: Google Trends Deutschland</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Mehr dazu oben im Ressort Hannover &amp; Region.</p><p class="why"><b>Einschätzung:</b> Deckt sich mit der Polizeimeldung.</p><p class="src">Quellen: <a href="https://trends.google.com/trending?geo=DE" rel="noopener" target="_blank">Google Trends Deutschland</a></p></div></details>
 </article><article>
 <h3>Fährgeschäft: Stena übernimmt Color Line</h3>
-<span class="rate mid">Plausibel, Details offen</span>
 <p>Die Reederei Stena will den <b>Fährbetreiber Color Line</b> kaufen – relevant für alle, die nach Norwegen übersetzen.</p>
-<details><summary>Ganzen Artikel lesen</summary><p>Die Vereinbarung ist unterzeichnet; ob Wettbewerbsbehörden zustimmen und was sich für Fahrgäste ändert, ist noch offen.</p><div class="why"><b>Warum „Plausibel, Details offen“:</b> Firmenmitteilung, Genehmigungen stehen noch aus.</div><div class="src">Quellen: <a href="https://trends.google.com/trending?geo=DE" rel="noopener" target="_blank">Google Trends Deutschland</a></div></details>
-</article></div>
+<div class="meta"><span class="val v2"><span class="bars"><i></i><i></i><i></i></span>Plausibel, Details offen</span><span>Quelle: Google Trends Deutschland</span></div>
+<details><summary>Ganzen Artikel lesen</summary><div class="long"><p>Die Vereinbarung ist unterzeichnet; ob Wettbewerbsbehörden zustimmen und was sich für Fahrgäste ändert, ist noch offen.</p><p class="why"><b>Einschätzung:</b> Firmenmitteilung, Genehmigungen stehen noch aus.</p><p class="src">Quellen: <a href="https://trends.google.com/trending?geo=DE" rel="noopener" target="_blank">Google Trends Deutschland</a></p></div></details>
+</article></div><p class="hint">Reddit war für unsere Abfrage gesperrt; wir haben nichts von dort übernommen und keine Umwege genutzt.</p>
 </section>
-<div class="box check"><h2>Faktencheck: Hier genau hinschauen</h2><ul><li><b>Israel:</b> Die Betrugsvorwürfe des Netanjahu-Lagers sind bisher ohne Belege; die Wahlkommission widerspricht.</li><li><b>Neustadt:</b> Frühe Meldungen über drei Festnahmen waren falsch – die Polizei hat sie korrigiert.</li><li><b>Gen-Z-Proteste:</b> Teilnehmerzahlen kommen nur von den Organisatoren; Polizeizahlen abwarten.</li><li><b>Iran:</b> Ziele der katarischen Vermittlung sind bisher nur aus iranischen Staatsmedien bekannt.</li></ul></div>
-<div class="box week"><h2>Diese Woche im Blick</h2><ul><li><b>Wetter Hannover:</b> Samstag und Sonntag trocken, stark bewölkt, 7 bis 11 Grad. Montag Regen.</li><li><b>So 1.11., 13:30:</b> Hannover 96 – Dynamo Dresden (2. Liga, Heimspiel).</li><li><b>Sa 31.10., 19:00:</b> Die Recken – Bergischer HC.</li><li><b>Mo 2.11.:</b> Städtische Bäder mit verkürzten Öffnungszeiten; nachts Halteverbote rund ums neue Fössebad wegen Schwertransport.</li><li><b>Mi 4.11.:</b> Zulassungsstelle ganztägig geschlossen. Am 4. und 5.11. ist die Knochenhauerstraße für Autos und Räder gesperrt.</li><li><b>Ab 3.11.:</b> Ausstellung „HerzSchlag“ zu Partnerschaftsgewalt im Freizeitheim Vahrenwald.</li></ul></div>
+<div class="warn"><div class="label">Faktencheck: Hier genau hinschauen</div><ul><li><b>Israel:</b> Die Betrugsvorwürfe des Netanjahu-Lagers sind bisher ohne Belege; die Wahlkommission widerspricht.</li><li><b>Neustadt:</b> Frühe Meldungen über drei Festnahmen waren falsch – die Polizei hat sie korrigiert.</li><li><b>Gen-Z-Proteste:</b> Teilnehmerzahlen kommen nur von den Organisatoren; Polizeizahlen abwarten.</li><li><b>Iran:</b> Ziele der katarischen Vermittlung sind bisher nur aus iranischen Staatsmedien bekannt.</li></ul></div>
+<div class="start"><div class="label">Diese Woche im Blick</div><div class="steps"><div class="step"><span class="when">Sa 31. Okt</span><b>Protesttag und Sportabend</b><span>Stark bewölkt, trocken, <b>7 bis 11 Grad</b>. „Gen Z regelt“-Proteste in rund 30 Städten. Recken gegen den Bergischen HC <b>19 Uhr</b>, F1-Qualifying <b>22 Uhr</b>.</span></div><div class="step"><span class="when">So 1. Nov</span><b>96 gegen Dresden</b><span>Wechselnd bewölkt, <b>5 bis 10 Grad</b>. Anpfiff <b>13:30 Uhr</b>. Winternothilfe startet. F1-Rennen in Mexiko <b>21 Uhr</b>.</span></div><div class="step"><span class="when">Mo 2. bis Fr 6. Nov</span><b>Baustellen und Termine</b><span>Mo Regen, <b>6 bis 10 Grad</b>; Bäder mit verkürzten Zeiten, nachts Schwertransport zum Fössebad. Mi Zulassungsstelle zu, Mi/Do Knochenhauerstraße gesperrt. Ab Di Ausstellung „HerzSchlag“ im Freizeitheim Vahrenwald.</span></div></div></div>
 <footer>
 Automatisch erstellt mit KI, ohne redaktionelle Prüfung. Alle Meldungen in eigenen Worten zusammengefasst, Quellen jeweils verlinkt.<br>
 <a href="/">Aktuelle Ausgabe</a> · <a href="/archiv/">Archiv</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a>
