@@ -1,0 +1,18 @@
+# Morgens veröffentlichen
+
+Die geplanten Aufgaben (Frühausgabe 2:54 Uhr, Konzert-Radar 3:30 Uhr) können nicht pushen.
+Sie legen ihre Ausgabe auf Claude-Seiten ab. Ein Chat bringt sie von dort auf die Website.
+
+## Ablauf
+1. Repo mit Schreibzugriff anhängen (add_repo, access "push") und klonen.
+2. **Frühausgabe:** Artifact read `https://claude.ai/artifact/E37KgyL3yN99UZBJCGBoR2`
+   - mit `path: "ausgabe.json"` holen und als `ausgaben/JJJJ-MM-TT.json` speichern (Datum aus dem Kopf der Seite).
+   - Fehlt ausgabe.json: mit `path: "index.html"` holen und
+     `python3 -I werkzeuge/aus_html.py <index.html> ausgaben/JJJJ-MM-TT.json` ausführen.
+   - Steht im Kopf nicht das heutige Datum: Frühausgabe weglassen und das melden.
+   - `python3 render.py`, danach index.html mit der Claude-Seite vergleichen (Inhalt muss gleich sein).
+3. **Konzert-Radar:** Artifact read `https://claude.ai/artifact/XoSEuKd8oMYU9t12FGt2j2` mit `path: "index.html"`,
+   als `konzerte/index.html` speichern – nur wenn die Datumszeile heute zeigt.
+4. Commit (user.name "Hilmer Jahnke", user.email "brainesworld@gmail.com", Nachricht „Frühausgabe JJJJ-MM-TT“),
+   `git fetch origin main`, rebase, nach main pushen.
+5. Nach ~60 s https://fruehausgabe.hilmerjahnke.de/?v=<Uhrzeit> und /konzerte/ prüfen.
