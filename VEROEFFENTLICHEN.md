@@ -13,6 +13,7 @@ Sie legen ihre Ausgabe auf Claude-Seiten ab. Ein Chat bringt sie von dort auf di
    - `python3 render.py`, danach index.html mit der Claude-Seite vergleichen (Inhalt muss gleich sein).
 3. **Konzert-Radar:** Artifact read `https://claude.ai/artifact/XoSEuKd8oMYU9t12FGt2j2` mit `path: "index.html"`,
    als `konzerte/index.html` speichern – nur wenn die Datumszeile heute zeigt.
+   Achtung: Die Claude-Seite liefert das Dokument in einer Hülle; nur das innere Dokument (zweites `<!doctype html>` bis zum zugehörigen `</html>`) übernehmen. Gleiches gilt für index.html der Frühausgabe.
 4. Commit (user.name "Hilmer Jahnke", user.email "brainesworld@gmail.com", Nachricht „Frühausgabe JJJJ-MM-TT“),
    `git fetch origin main`, rebase, nach main pushen.
 5. Nach ~60 s https://fruehausgabe.hilmerjahnke.de/?v=<Uhrzeit> und /konzerte/ prüfen.
