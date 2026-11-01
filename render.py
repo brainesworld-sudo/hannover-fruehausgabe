@@ -279,7 +279,48 @@ def beschreibung(data, d):
     return (f"Hannover Frühausgabe vom {datumszeile(d)}. " + erste)[:300]
 
 
+RADAR = ROOT / "konzerte"
+RADAR_ARCHIV_LINK = '<a href="/konzerte/archiv/">Radar-Archiv</a>'
+
+
+def radar_archiv():
+    """Legt die aktuelle Konzert-Radar-Seite als konzerte/JJJJ-MM-TT/ ab und baut konzerte/archiv/.
+    Vergangene Tage werden nie überschrieben, nur der eigene Tag."""
+    aktuell = RADAR / "index.html"
+    if not aktuell.exists():
+        return []
+    s = aktuell.read_text(encoding="utf-8")
+    if "/konzerte/archiv/" not in s and "<footer>" in s:
+        s = s.replace("<footer>", f'<footer>\n  <p>{RADAR_ARCHIV_LINK}</p>', 1)
+        aktuell.write_text(s, encoding="utf-8")
+    m = re.search(r"(\d{1,2})\. (" + "|".join(MONATE) + r") (\d{4})", s)
+    if m:
+        d = date(int(m.group(3)), MONATE.index(m.group(2)) + 1, int(m.group(1)))
+        ziel = RADAR / d.isoformat() / "index.html"
+        ziel.parent.mkdir(exist_ok=True)
+        kopie = re.sub(r'<link rel="canonical" href="[^"]*">',
+                       f'<link rel="canonical" href="{SITE_URL}/konzerte/{d.isoformat()}/">', s, count=1)
+        kopie = kopie.replace("<footer>", '<footer>\n  <p><a href="/konzerte/">zum aktuellen Konzert-Radar</a></p>', 1)
+        ziel.write_text(kopie, encoding="utf-8")
+    tage = sorted((date.fromisoformat(p.name) for p in RADAR.iterdir()
+                   if p.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.name)
+                   and (p / "index.html").exists()), reverse=True)
+    zeilen = "".join(f'<li><a href="/konzerte/{t.isoformat()}/">{datumszeile(t)}</a></li>' for t in tage)
+    body = f"""<header class="top">
+<div class="label">Alle bisherigen Ausgaben</div>
+<h1>Konzert-Radar <i>Archiv</i></h1>
+<nav><a href="/konzerte/">zum aktuellen Konzert-Radar</a></nav>
+</header>
+<ul class="archive">{zeilen}</ul>"""
+    (RADAR / "archiv").mkdir(exist_ok=True)
+    (RADAR / "archiv" / "index.html").write_text(
+        page("Archiv – Konzert-Radar Metal & Rock rund um Hannover", body, f"{SITE_URL}/konzerte/archiv/",
+             "Alle bisherigen Ausgaben des Konzert-Radars für Metal und Rock rund um Hannover."), encoding="utf-8")
+    return tage
+
+
 def main():
+    radar_tage = radar_archiv()
     dateien = sorted(AUSGABEN.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].json"))
     if not dateien:
         sys.exit("Keine Ausgaben gefunden.")
@@ -319,6 +360,9 @@ def main():
              for e in reversed(eintraege)]
     if KONZERTE:
         urls.insert(2, (f"{SITE_URL}/konzerte/", date.today().isoformat(), "daily", "0.8"))
+    if radar_tage:
+        urls.append((f"{SITE_URL}/konzerte/archiv/", radar_tage[0].isoformat(), "daily", "0.5"))
+        urls += [(f"{SITE_URL}/konzerte/{t.isoformat()}/", t.isoformat(), "never", "0.4") for t in radar_tage]
     eintraege_xml = "".join(
         f"  <url><loc>{u}</loc><lastmod>{m}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n"
         for u, m, c, p in urls)
