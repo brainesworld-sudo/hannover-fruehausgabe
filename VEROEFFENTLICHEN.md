@@ -18,3 +18,9 @@ Sie legen ihre Ausgabe auf Claude-Seiten ab. Ein Chat bringt sie von dort auf di
 5. Commit (user.name "Hilmer Jahnke", user.email "brainesworld@gmail.com", Nachricht „Frühausgabe JJJJ-MM-TT“),
    `git fetch origin main`, rebase, nach main pushen.
 6. Nach ~60 s https://fruehausgabe.hilmerjahnke.de/?v=<Uhrzeit> und /konzerte/ prüfen.
+
+## Instagram-Post zum Tipp des Tages (nach dem Veröffentlichen)
+1. Aus konzerte/index.html den „Tipp des Tages“ nehmen (Band, Support, Termine, Hörtipp).
+2. Instagram-Handles NUR aus den Band-Links der Radar-Seite oder von offizieller Band-/Label-/Agentur-Seite übernehmen, nie raten. Ohne bestätigten Handle: Band nicht markieren.
+3. post.json schreiben und `python3 werkzeuge/insta_post.py post.json insta_post_JJJJ-MM-TT.jpg` (pip: fonttools brotli; Schriften lädt das Skript selbst).
+4. Bild per SendUserFile schicken; per SendUserMessage: Bildunterschrift (eigene Worte, Termine, Hörtipp, @-Markierungen, Hinweis „Link in Bio“, „Termine ohne Gewähr“, 8–12 Hashtags) und je markierter Band eine kurze englische Direktnachricht. Hilmer postet selbst.
