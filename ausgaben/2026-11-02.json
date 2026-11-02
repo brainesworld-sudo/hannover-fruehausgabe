@@ -1,0 +1,607 @@
+{
+ "stand": "Stand: Montag, 3 Uhr",
+ "kurz": [
+  "<b>Frankfurt nach der Krawallnacht:</b> Mehr als <b>100 verletzte Polizisten</b>, 54 Festnahmen, geplünderte Läden – und Streit in der Regierung über Dobrindts Wort von „migrantischen Chaoten“.",
+  "<b>Hannover zieht Halloween-Bilanz:</b> 31 Verfahren, 3 Festnahmen, ein leicht verletzter Beamter. In <b>Misburg-Nord</b> steckten Nähnadeln in Süßigkeiten – Eltern sollen Beute prüfen.",
+  "<b>Regiobus-Warnstreik heute:</b> Busse ab den Betriebshöfen <b>Neustadt und Wunstorf</b> fallen aus, auch Schulbusse. Weitere Streiktage Mittwoch und Freitag.",
+  "<b>Ukraine:</b> Die Waffenruhe in Oleschky ist vorbei, Russland lehnte eine Verlängerung ab. Selenskyj bietet Putin ein Treffen in der <b>Türkei</b> an.",
+  "<b>Hannover 96</b> dreht das Kellerduell gegen Dresden: <b>2:1</b> nach 0:1-Rückstand, erster Sieg unter Sandro Wagner. Die Indians gewinnen das Derby gegen die Scorpions.",
+  "<b>Kimi Antonelli</b> ist mit 20 Jahren jüngster Formel-1-Weltmeister – Platz 3 in Mexiko reichte, Verstappen gewann vor Hamilton."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "meldungen": [
+    {
+     "titel": "Halloween und Gen-Z-Demo: Polizei zählt 31 Verfahren",
+     "kurz": "Die Polizeidirektion meldet für Samstag <b>189 Durchsuchungen</b>, 3 vorläufige Festnahmen und 31 Straf- und Bußgeldverfahren – meist wegen Waffen und Pyrotechnik.",
+     "bewertung": "gesichert",
+     "orte": [
+      "Ernst-August-Platz Hannover",
+      "Steintorplatz Hannover",
+      {
+       "name": "Mühlenberger Markt",
+       "suche": "Mühlenberger Markt Hannover"
+      }
+     ],
+     "lang": [
+      "Neben der Gen-Z-Demonstration mit bis zu 5.800 Menschen liefen in der Stadt vier kleinere Versammlungen. Weil Teilnehmende vermummt waren, immer wieder Pyrotechnik zündeten und die Versammlungsleitung aus Polizeisicht schlecht vorbereitet war, gibt es ein Bußgeldverfahren gegen den Veranstalter. Zwei Beamte wurden von Böllern getroffen, einer leicht verletzt – er blieb im Dienst.",
+      "Der Halloween-Abend verteilte sich über viele Stadtteile von Vahrenheide bis Laatzen. In Ricklingen fanden Einsatzkräfte selbstgebaute Brandsätze aus Benzinflaschen; zwei Jugendliche gelten als Verdächtige."
+     ],
+     "einschaetzung": "Offizielle Bilanz der Polizeidirektion Hannover.",
+     "quellen": [
+      {
+       "name": "Polizei Hannover (Presseportal)",
+       "url": "https://www.presseportal.de/blaulicht/pm/66841/6381819"
+      }
+     ]
+    },
+    {
+     "titel": "Nähnadeln in Halloween-Süßigkeiten: Polizei warnt Eltern in Misburg",
+     "kurz": "Ein Kind entdeckte nach seiner Süßes-oder-Saures-Runde in <b>drei verpackten Süßigkeiten je eine Nähnadel</b>. Verletzt wurde niemand.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Misburg-Nord",
+       "suche": "Misburg-Nord Hannover"
+      }
+     ],
+     "lang": [
+      "Das Mädchen war am Samstag zwischen 17 und 19.30 Uhr mit den Eltern unterwegs und fand die Nadeln abends beim Sortieren. Die Polizei ermittelt wegen versuchter gefährlicher Körperverletzung gegen Unbekannt.",
+      "Wer am Halloween-Abend in Misburg-Nord gesammelt hat, soll die Beute auf Einstiche, beschädigte Hüllen und Fremdkörper prüfen und im Zweifel wegwerfen. Hinweise nimmt das Kommissariat Misburg unter <b>0511 109-3517</b> entgegen."
+     ],
+     "einschaetzung": "Polizeimeldung mit konkreten Angaben; Täter und Zahl der betroffenen Haushalte sind unbekannt.",
+     "quellen": [
+      {
+       "name": "Polizei Hannover (Presseportal)",
+       "url": "https://www.presseportal.de/blaulicht/pm/66841/6381874"
+      }
+     ]
+    },
+    {
+     "titel": "Warnstreik bei Regiobus: Heute stehen Busse in Neustadt und Wunstorf",
+     "kurz": "Verdi bestreikt an drei Tagen einzelne Betriebshöfe – heute <b>Neustadt und Wunstorf</b>, Mittwoch Mellendorf und Burgdorf, Freitag Eldagsen. Laut Gewerkschaft fallen die Linien dort komplett aus.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Neustadt am Rübenberge"
+      },
+      {
+       "name": "Wunstorf"
+      }
+     ],
+     "lang": [
+      "Auch Schulbusse sind betroffen. Hintergrund ist der Tarifstreit um den Eisenbahn-Tarifvertrag, unter den die Regiobus-Beschäftigten fallen; Verdi will 6,5 Prozent mehr. Am 16. November wird weiterverhandelt.",
+      "Angaben zu Uhrzeiten hat Verdi bisher nicht gemacht. Wer im Umland auf den Bus angewiesen ist, sollte heute früh Fahrgemeinschaften oder S-Bahn einplanen."
+     ],
+     "einschaetzung": "Ankündigung vom vergangenen Mittwoch; kurzfristige Änderungen oder eine Einigung sind möglich.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/dreitaegiger-warnstreik-massive-ausfaelle-bei-regiobus-anfang-november"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Stadt und Region.",
+     "liste": [
+      "<b>Neustadt am Rübenberge:</b> Nach der Auto-Attacke auf eine Menschengruppe zeigt die Polizei weiter verstärkt Präsenz, vor allem abends. Ein 36-Jähriger sitzt in U-Haft.",
+      "<b>Mittelfeld:</b> 45 sanierte Wohnungen für Obdachlose und Geflüchtete gehen heute in Betrieb.",
+      "<b>Freizeitheim Vahrenwald:</b> Ab Dienstag bis 12. November zeigt die Polizei eine Ausstellung über Gewalt in Partnerschaften – mit Hilfsangeboten.",
+      "<b>Streunerkatzen:</b> Die landesweite kostenlose Kastrationsaktion startet am Donnerstag.",
+      "<b>Wedemark:</b> Die K105 bleibt bis voraussichtlich Freitag voll gesperrt."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Freizeitheim Vahrenwald",
+       "suche": "Freizeitheim Vahrenwald Hannover"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit Meldungen von Polizei und Radio Hannover aus den vergangenen Tagen."
+     ],
+     "einschaetzung": "Behörden- und Polizeiangaben.",
+     "quellen": [
+      {
+       "name": "Radio Hannover: Neustadt",
+       "url": "https://www.radio-hannover.de/hannover-news/clankriminalitaet-in-neustadt-polizei-zeigt-verstaerkte-praesenz"
+      },
+      {
+       "name": "Volksstimme (dpa): Neustadt",
+       "url": "https://www.volksstimme.de/panorama/nach-angriff-mit-auto-polizei-erhoht-ihre-prasenz-4347674"
+      },
+      {
+       "name": "Radio Hannover: Meldungsübersicht",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      },
+      {
+       "name": "Polizei: Ausstellung",
+       "url": "https://www.presseportal.de/blaulicht/pm/66841/6376540"
+      },
+      {
+       "name": "Radio Hannover: Katzenkastration",
+       "url": "https://www.radio-hannover.de/hannover-news/niedersaechsische-katzenkastrationsaktion-startet-wieder"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "Frankfurt: Krawallnacht mit über 100 verletzten Polizisten",
+     "kurz": "Nach dem Gen-Z-Protest flogen am Samstagabend Steine und Böller, Läden wurden geplündert, Barrikaden brannten. Hessens Innenminister Poseck nennt <b>54 Festnahmen</b>.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Zeil Frankfurt"
+      }
+     ],
+     "lang": [
+      "Tagsüber blieb es weitgehend friedlich, gegen 18.20 Uhr löste die Polizei die Versammlung auf. Danach zogen Gruppen durch die Innenstadt, schlugen Schaufenster ein und plünderten mehrere Geschäfte; erst am frühen Morgen war Ruhe. Bis zu 1.300 Beamte waren im Einsatz, einer verlor durch einen Steinwurf Zähne. Die Festgenommenen sind 13 bis 29 Jahre alt.",
+      "Die Einsatzleitung spricht von einer neuen Dimension der Gewalt, betont aber, dass die große Mehrheit friedlich demonstriert habe. Die Polizei sammelt Fotos und Videos von Zeugen über ein Hinweisportal."
+     ],
+     "einschaetzung": "Die Zahl der Festnahmen schwankte zunächst zwischen rund 30 und 54; Schadenssumme und zivile Verletzte sind offen.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/politik/deutschland/frankfurt-ausschreitungen-polizei-protest-gewahrsam-100.html"
+      },
+      {
+       "name": "taz",
+       "url": "https://taz.de/Nach-Gen-Z-regelt-Protest/!6226354/"
+      }
+     ]
+    },
+    {
+     "titel": "„Migrantische Chaoten“? Pistorius geht auf Distanz zu Dobrindt",
+     "kurz": "Innenminister Dobrindt macht Linksextreme und Migranten-Milieus für die Krawalle verantwortlich und fordert harte Strafen. Verteidigungsminister Pistorius sagt, er kenne dafür <b>keine Fakten</b>.",
+     "bewertung": "gesichert",
+     "orte": [],
+     "lang": [
+      "Dobrindt wertet die Ausschreitungen als klaren Landfriedensbruch und weist Vorwürfe gegen die Polizei als absurd zurück. Pistorius fragte im ZDF, wer überhaupt zu „migrantischen Gruppen“ zähle – etwa auch Deutsche in dritter Generation – und warnte, diese Unterscheidung führe in die falsche Richtung. Die Gewalttäter nannte er Kriminelle, die bestraft gehören.",
+      "Ein Strafrechtler gab zu bedenken: Für Landfriedensbruch müssen Ermittler jedem Einzelnen die Beteiligung an der Gruppengewalt nachweisen – im Chaos einer Krawallnacht schwierig."
+     ],
+     "einschaetzung": "Die Aussagen sind übereinstimmend berichtet; belastbare Daten zur Herkunft der Täter gibt es bislang nicht.",
+     "quellen": [
+      {
+       "name": "news.de (dpa)",
+       "url": "https://www.news.de/politik/860149732/migrantische-chaoten-pistorius-hinterfragt-dobrindt-aussage-boris-pistorius-news-der-dpa-aktuell-zu-demonstration-soziales-gesellschaft-und-kriminalitaet/1/"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen vom Wochenende.",
+     "liste": [
+      "<b>CDU:</b> Über 160 Kreisvorsitzende treffen nach den Wahlschlappen die Parteispitze; einige wollen Kanzleramt und Parteivorsitz trennen.",
+      "<b>Berlin:</b> Linke, Grüne und SPD können ab heute über eine Koalition verhandeln.",
+      "<b>Regina Ziegler</b> ist tot – die Berliner Filmproduzentin prägte jahrzehntelang das deutsche Kino und Fernsehen.",
+      "<b>Horst Fascher</b>, Mitgründer des Hamburger Star-Clubs, in dem 1962 die Beatles auftraten, starb mit 90 Jahren."
+     ],
+     "bewertung": "gesichert",
+     "orte": [],
+     "lang": [
+      "Sammelkarte mit Meldungen aus dem ZDF-Newsticker vom Sonntag."
+     ],
+     "einschaetzung": "Nachrichtenticker, Einzelheiten noch knapp.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "Ukraine: Waffenruhe in Oleschky beendet, Selenskyj will Putin in der Türkei treffen",
+     "kurz": "Kurz vor Ablauf der Feuerpause wurden noch <b>167 Menschen</b> aus der besetzten Stadt geholt. Moskau lehnte eine Verlängerung nach ukrainischen Angaben ab.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Oleschky",
+       "suche": "Oleshky Ukraine"
+      },
+      {
+       "name": "Abu Dhabi"
+      }
+     ],
+     "lang": [
+      "Die von den USA vermittelte Feuerpause war die längste seit Kriegsbeginn. Wie viele Zivilisten noch in Oleschky ausharren, ist unklar – Schätzungen reichen von 1.000 bis 2.000, vor dem Krieg waren es rund 24.000.",
+      "Selenskyj erklärte sich zu einem direkten Treffen mit Putin in der Türkei bereit, Moskau als Ort lehnt er ab. Für Mitte November sind Expertengespräche mit Russland und den USA in Abu Dhabi geplant. Zugleich gingen die Angriffe weiter: Im Gebiet Winnyzja starben bei Drohnenattacken mehrere Menschen."
+     ],
+     "einschaetzung": "Die Ablehnung der Verlängerung stammt von ukrainischer Seite; eine russische Bestätigung fehlt.",
+     "quellen": [
+      {
+       "name": "Tagesspiegel Liveblog",
+       "url": "https://www.tagesspiegel.de/internationales/liveblog/die-russen-wollen-nicht-ukraine-soll-verlangerung-der-waffenruhe-in-oleschky-angeboten-haben-16206302.html"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Bulgarien: Iotova gewinnt offenbar die Stichwahl",
+     "kurz": "Nachwahlbefragungen sehen Amtsinhaberin <b>Iliana Iotova bei rund 51 Prozent</b>, ihren prowestlichen Herausforderer Andrej Gjurow bei etwa 44 Prozent.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Sofia"
+      }
+     ],
+     "lang": [
+      "Iotova führt das Land seit Januar und wäre die erste direkt gewählte Präsidentin Bulgariens. Sie setzt auf Gespräche mit Moskau und lehnt Waffenhilfe für die Ukraine ab; Gjurow, ein Banker und früherer Übergangsregierungschef, wirft ihr vor, Russland nicht klar als Aggressor zu benennen.",
+      "Das Amt ist vor allem repräsentativ. Die Beteiligung war mit knapp 30 Prozent erneut niedrig. Amtliche Ergebnisse werden für heute erwartet."
+     ],
+     "einschaetzung": "Prognosen, noch kein amtliches Endergebnis; einzelne Medien melden bereits über 52 Prozent.",
+     "quellen": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show"
+      },
+      {
+       "name": "Novinite",
+       "url": "https://www.novinite.com/articles/241385/Bulgaria+Elects+First+Woman+President+as+Yotova+Defeats+Gyurov+in+Runoff"
+      }
+     ]
+    },
+    {
+     "titel": "Florida: Privatjet stürzt in Wohngebiet, neun Tote",
+     "kurz": "Ein <b>Learjet 60</b> auf dem Weg von Texas auf die Bahamas stürzte im Palm Beach County zwischen Häuser. Alle neun Menschen an Bord starben.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Military Trail, Palm Beach County",
+       "suche": "Military Trail 10th Avenue North Palm Beach County"
+      }
+     ],
+     "lang": [
+      "Die Maschine war in Austin gestartet und ging am Sonntagmittag Ortszeit nahe einer viel befahrenen Straße nieder; dabei entstand ein großer Feuerball. Ob Menschen am Boden verletzt wurden, war zunächst unklar.",
+      "Die Unfallbehörde NTSB ermittelt, unterstützt von der Luftfahrtbehörde FAA. Zur Ursache gibt es noch keine Erkenntnisse."
+     ],
+     "einschaetzung": "Opferzahl von US-Verkehrsminister Duffy bestätigt, mehrere US-Medien berichten übereinstimmend.",
+     "quellen": [
+      {
+       "name": "AP via WWSB",
+       "url": "https://www.mysuncoast.com/2026/11/01/business-jet-carrying-9-people-crashed-florida-neighborhood-erupting-massive-fireball/"
+      },
+      {
+       "name": "CBS Miami",
+       "url": "https://www.cbsnews.com/miami/news/texas-jet-florida-crash-11-1-2026/"
+      }
+     ]
+    },
+    {
+     "titel": "USA vor den Midterms: Demokraten fürs Repräsentantenhaus favorisiert",
+     "kurz": "Morgen wählen die USA. Laut Umfrage-Durchschnitt liegen die Demokraten bei <b>227 sicheren oder wahrscheinlichen Sitzen</b> – 218 reichen für die Mehrheit.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Kapitol Washington",
+       "suche": "US Capitol Washington"
+      }
+     ],
+     "lang": [
+      "Im Senat ist es enger: Acht Rennen gelten als offen, die Demokraten bräuchten 51 Sitze, weil bei einem Patt Vizepräsident Vance entscheidet. Bislang halten die Republikaner beide Kammern.",
+      "Ein Verlust des Repräsentantenhauses würde Trumps Spielraum für die zweite Hälfte der Amtszeit deutlich einschränken. Erste Ergebnisse kommen in der Nacht zu Mittwoch deutscher Zeit."
+     ],
+     "einschaetzung": "Umfragen, keine Ergebnisse – bei US-Wahlen lagen sie zuletzt mehrfach daneben.",
+     "quellen": [
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/nachrichten/ausland/usa/id_101505422/letzte-umfrage-vor-midterms-2026-wahlumfragen-deuten-trend-fuer-us-wahl-an.html"
+      },
+      {
+       "name": "NZZ",
+       "url": "https://www.nzz.ch/international/usa/midterms-2026/wird-trump-zur-lame-duck-die-neusten-umfragen-zu-den-us-midterms-ld.10025957"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "liste": [
+      "<b>Jemen:</b> Laut UN-Migrationsorganisation sind im Westen des Landes über 300.000 Menschen vor neuen Kämpfen geflohen.",
+      "<b>Kanada/USA:</b> Premier Carney lobt Handelsgespräche mit Trump, Details zu einem Deal fehlen.",
+      "<b>Serbien:</b> Tausende gedachten in Novi Sad der 16 Toten des Bahnhofsunglücks vor zwei Jahren.",
+      "<b>Bangladesch:</b> Polizei geht mit Tränengas gegen Textilarbeiter vor, die höhere Mindestlöhne fordern."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Bahnhof Novi Sad",
+       "suche": "Novi Sad railway station"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit Meldungen aus dem ZDF-Newsticker vom Sonntag."
+     ],
+     "einschaetzung": "Agenturmeldungen, Details knapp.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "meldungen": [
+    {
+     "titel": "96 dreht das Kellerduell: 2:1 gegen Dresden",
+     "kurz": "Nach Rückstand trafen <b>Husseyn Chakroun</b> und <b>Marcel Hartel</b> per Elfmeter – erster Sieg unter Trainer Sandro Wagner. 96 klettert auf Platz 12, Dresden ist Letzter.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Heinz von Heiden Arena",
+       "suche": "Heinz von Heiden Arena Hannover"
+      }
+     ],
+     "lang": [
+      "Dresden ging durch Nicolai Rapp früh in Führung (11.). Wagner wechselte zur Pause doppelt, danach war 96 vor 37.200 Fans klar besser: Chakroun glich in der 54. Minute aus, Hartel verwandelte in der 61. den Strafstoß. Ab der 65. spielte Dynamo nach Gelb-Rot gegen Friedrich Müller in Unterzahl; ein weiteres Tor von Benjamin Källman zählte wegen Foulspiels nicht.",
+      "Der Sieg kommt einen Tag nach der Abberufung von Sportchef Jonas Boldt und kurz nach dem Pokal-Aus. Nächsten Sonntag geht es um 13.30 Uhr nach Heidenheim."
+     ],
+     "einschaetzung": "Ergebnis und Tore von zwei dpa-basierten Berichten übereinstimmend.",
+     "quellen": [
+      {
+       "name": "news.de (dpa)",
+       "url": "https://www.news.de/sport/860149447/erster-sieg-mit-wagner-hannover-gewinnt-kellerduell-fussball-news-der-dpa-aktuell-zu-2-bundesliga-hannover-96-und-dynamo-dresden/1/"
+      },
+      {
+       "name": "fuldainfo",
+       "url": "https://www.fuldainfo.de/2-bundesliga-hannover-gewinnt-kellerduell-gegen-dresden/"
+      }
+     ]
+    },
+    {
+     "titel": "Antonelli ist Weltmeister – mit 20 der jüngste aller Zeiten",
+     "kurz": "Platz 3 in Mexiko reichte Kimi Antonelli zum Titel. Das Rennen gewann <b>Max Verstappen</b> knapp vor Polesetter Lewis Hamilton.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Autódromo Hermanos Rodríguez",
+       "suche": "Autodromo Hermanos Rodriguez Mexico City"
+      }
+     ],
+     "lang": [
+      "Hamilton und Leclerc kämpften in den ersten Runden Seite an Seite, beide kamen von der Strecke ab. Leclerc übernahm über das Gras die Führung und kassierte dafür fünf Strafsekunden, Verstappen nutzte den Moment und zog an Hamilton vorbei. Am Ende fehlten dem Ferrari-Piloten 0,8 Sekunden.",
+      "Antonelli hätte sogar Platz neun gereicht. Teamkollege Russell wurde nach einer Zeitstrafe Sechster, Nico Hülkenberg nach einer Kollision mit Bearman nur 16."
+     ],
+     "einschaetzung": "Offizieller F1-Bericht, von Sky Sports und ESPN bestätigt.",
+     "quellen": [
+      {
+       "name": "Formula1.com",
+       "url": "https://www.formula1.com/en/latest/article/antonelli-crowned-youngest-ever-f1-champion-as-verstappen-wins-eventful-mexico-city-grand-prix.xpMMeef0KmRURs9IDs3LH"
+      },
+      {
+       "name": "Sky Sports",
+       "url": "https://www.skysports.com/f1/news/13606682/kimi-antonelli-crowned-2026-f1-world-champion-as-max-verstappen-wins-wild-mexico-city-grand-prix-from-lewis-hamilton"
+      }
+     ]
+    },
+    {
+     "titel": "Bundesliga: Frankfurt schlägt den HSV erneut, Union holt Remis",
+     "kurz": "Die Eintracht gewann <b>3:1</b> gegen Hamburg, Union Berlin und Köln trennten sich <b>1:1</b>. Bayern bleibt Tabellenführer vor Dortmund.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Deutsche Bank Park",
+       "suche": "Deutsche Bank Park Frankfurt"
+      }
+     ],
+     "lang": [
+      "Frankfurt wiederholte den Pokalsieg vom Dienstag; Younes Ebnoutalib setzte den Schlusspunkt. Kurios: Mit Niko Ilicevic wurde ein Nachwuchsspieler eingewechselt, der zusammen mit Youssoufa Moukoko nun jüngster Bundesliga-Spieler der Geschichte ist.",
+      "Bei Union glich Malek El Mala, Bruder von Saïd El Mala, bei seinem Bundesliga-Debüt in der 79. Minute für Köln aus. Union steht damit auf dem Relegationsplatz."
+     ],
+     "einschaetzung": "Ergebnisse von SRF und Hessenschau übereinstimmend.",
+     "quellen": [
+      {
+       "name": "SRF",
+       "url": "https://www.srf.ch/sport/fussball/internationale-ligen/bundesliga-am-sonntag-union-punktet-nach-klatsche-frankfurt-schlaegt-den-hsv-erneut"
+      },
+      {
+       "name": "Hessenschau",
+       "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/abgezockte-eintracht-schlaegt-den-hsv-erneut-v1,sge-hsv-146.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Eishockey, Handball und mehr.",
+     "liste": [
+      "<b>Derby an die Indians:</b> Die Hannover Indians schlugen die Scorpions am Freitag am Pferdeturm 3:2 und gewannen am Sonntag auch in Halle 4:2.",
+      "<b>Recken:</b> Länderspielpause – nächstes Spiel am 15. November in Gummersbach.",
+      "<b>2. Liga:</b> St. Pauli verlor daheim 1:3 gegen Nürnberg, Fürth schlug Kiel 1:0.",
+      "<b>Klassiker-Nachklapp:</b> Bayern und Dortmund (2:2) haben beide 18 Punkte, die Münchner führen nach Tordifferenz."
+     ],
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Eisstadion am Pferdeturm",
+       "suche": "Eisstadion am Pferdeturm Hannover"
+      }
+     ],
+     "lang": [
+      "Sammelkarte; die Eishockey-Ergebnisse stammen aus Ergebnisdatenbanken, ein ausführlicher Spielbericht lag uns nicht vor."
+     ],
+     "einschaetzung": "Indians-Ergebnisse aus zwei Datenquellen, aber ohne Vereinsbericht.",
+     "quellen": [
+      {
+       "name": "hockey-db",
+       "url": "https://www.hockey-db.de/spiele/saison/2026-2027/verein/hannover-indians"
+      },
+      {
+       "name": "hockeyweb",
+       "url": "https://www.hockeyweb.de/oberliga/indians-siegen-im-hannover-derby-f%C3%BCchse-duisburg-feiern-siebten-sieg-in-serie-115575"
+      },
+      {
+       "name": "Recken-Spielplan",
+       "url": "https://www.die-recken.de/spielplan/"
+      },
+      {
+       "name": "DFB-Datencenter",
+       "url": "https://datencenter.dfb.de/de/competitions/bundesliga/seasons/2026-2027/matchday/8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit war für unsere Abfrage gesperrt, heise.de lieferte nur veraltete Inhalte; wir haben nichts von dort übernommen und keine Umwege genutzt.",
+   "trends": [
+    {
+     "begriff": "florida flugzeugabsturz",
+     "volumen": "1000+",
+     "anlass": "Learjet stürzt in Wohngebiet"
+    },
+    {
+     "begriff": "new england – inter miami",
+     "volumen": "1000+",
+     "anlass": "MLS, Messi-Team zum Saisonfinale"
+    },
+    {
+     "begriff": "arbeitsunfähigkeitsbescheinigung",
+     "volumen": "500+",
+     "anlass": "Urteil: Kündigung trotz Attest"
+    },
+    {
+     "begriff": "gta 6 größe",
+     "volumen": "200+",
+     "anlass": "Downloadgröße angeblich geleakt"
+    },
+    {
+     "begriff": "november wetter",
+     "volumen": "200+",
+     "anlass": "Polarwirbel-Spekulationen"
+    },
+    {
+     "begriff": "wandsbek",
+     "volumen": "200+",
+     "anlass": "Messerstreit an Hamburger U-Bahnhof"
+    },
+    {
+     "begriff": "megan fox",
+     "volumen": "100+",
+     "anlass": "Halloween-Kostüm als Sirene"
+    },
+    {
+     "begriff": "mls",
+     "volumen": "100+",
+     "anlass": "US-Fußball-Playoffs"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "Spyware-Alarm: Apple warnt Abgeordnete und Regierungsmitglieder",
+     "kurz": "Apple hat einzelne Nutzer gewarnt, ihre iPhones könnten <b>gezielt angegriffen</b> worden sein. Das BSI schrieb die Betroffenen in Bundestag und Regierung an.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Bundestag",
+       "suche": "Reichstagsgebäude Berlin"
+      }
+     ],
+     "lang": [
+      "Digitalminister Wildberger bestätigte den Vorgang, wollte aber weder Zahl der Betroffenen noch mögliche Angreifer nennen – das sei Spekulation. Apple verschickt solche Warnungen nur, wenn es Hinweise auf aufwendige, gezielte Attacken sieht; eine Warnung heißt aber nicht automatisch, dass ein Gerät übernommen wurde.",
+      "Das BSI rät den Betroffenen, Updates einzuspielen, die Geräte prüfen zu lassen und für Vertrauliches nur die empfohlenen Kanäle zu nutzen."
+     ],
+     "einschaetzung": "Bestätigt vom Minister; Umfang und Urheber völlig offen.",
+     "quellen": [
+      {
+       "name": "ad-hoc-news (dpa)",
+       "url": "https://www.ad-hoc-news.de/politik/bsi-warnt-politiker-vor-spyware-angriff-auf-iphones/70442488"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Krank statt Urlaub: Warum ein Attest nicht vor der Kündigung schützte",
+     "kurz": "Das <b>Arbeitsgericht Gelsenkirchen</b> hielt die fristlose Kündigung eines Mannes für wirksam, der sich nach abgelehntem Urlaub krankmeldete – und einen gebuchten Flug hatte.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Arbeitsgericht Gelsenkirchen"
+      }
+     ],
+     "lang": [
+      "Entscheidend war nicht die Reise allein: Der Kläger behauptete zunächst, eine Ärztin habe ihn untersucht, was nicht stimmte. Das Gericht sah darin einen schweren Vertrauensbruch; dazu kamen frühere Krankmeldungen direkt vor oder nach Urlauben.",
+      "Für Beschäftigte heißt das: Ein Attest hat hohen Beweiswert, der aber kippen kann, wenn die Umstände dagegen sprechen. Das Aktenzeichen (4 Ca 1085/25) zeigt, dass der Fall schon länger läuft; ob das Urteil rechtskräftig ist, ist unklar."
+     ],
+     "einschaetzung": "Mehrere Fachmedien berichten übereinstimmend; Einzelfallentscheidung, kein Grundsatzurteil.",
+     "quellen": [
+      {
+       "name": "Handelsblatt",
+       "url": "https://www.handelsblatt.com/politik/deutschland/urteil-mit-attest-krankschreibung-statt-urlaub-fuehrt-zu-kuendigung/100266221.html"
+      },
+      {
+       "name": "Spiegel",
+       "url": "https://www.spiegel.de/karriere/arbeitsrecht-fristlose-kuendigung-trotz-attest-risiken-bei-krankmeldung-im-urlaub-a-68e2fbbc-fa12-4851-afeb-68da63aa0800"
+      }
+     ]
+    },
+    {
+     "titel": "GTA 6: Noch 17 Tage – und Rätselraten um die Größe",
+     "kurz": "Rockstars Mega-Spiel soll am <b>19. November</b> für PS5 und Xbox Series erscheinen. Eine angeblich geleakte Downloadgröße lässt viele ihre Festplatten prüfen.",
+     "bewertung": "vorsicht",
+     "orte": [],
+     "lang": [
+      "Laut Berichten müssen Spieler kräftig Speicher freiräumen; eine offizielle Bestätigung der Zahl durch Rockstar lag uns nicht vor. Der Releasetermin selbst gilt als gesetzt, Händler werben bereits mit Verkaufsstellen."
+     ],
+     "einschaetzung": "Termin gesichert, die Downloadgröße stammt aus einem Leak und ist unbestätigt.",
+     "quellen": [
+      {
+       "name": "XboxDynasty",
+       "url": "https://www.xboxdynasty.de/news/grand-theft-auto-vi/gta-6-erscheint-diesen-monat/"
+      },
+      {
+       "name": "RND",
+       "url": "https://www.rnd.de/medien/gta-6-wird-gigantisch-downloadgroesse-geleakt-so-viel-speicher-muessen-gamer-vorher-freiraeumen-WPMMYVVFCNGYPGMLKORFLHDICI.html"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Korrektur/Widerspruch:</b> Gestern nannten wir 96 auf Platz 15 oder 16. Laut dpa kletterte der Klub mit dem Sieg aber „vom letzten“ auf den zwölften Platz – die Angaben zur Tabelle vor dem Spiel widersprechen sich; gesichert ist Platz 12 jetzt.",
+  "<b>Frankfurt:</b> Die Festnahmezahl wurde erst mit rund 30, dann mit 54 angegeben; die Aussage zur „migrantischen Prägung“ der Täter stammt von Politikern, Daten dazu fehlen.",
+  "<b>Bulgarien:</b> Bisher nur Nachwahlbefragungen, das amtliche Ergebnis kommt heute.",
+  "<b>Florida:</b> US-Medien nennen unterschiedliche Uhrzeiten für den Absturz; die Opferzahl an Bord ist bestätigt, mögliche Opfer am Boden nicht."
+ ],
+ "woche": [
+  {
+   "wann": "Mo 2. Nov",
+   "titel": "Streik und Nieselregen",
+   "text": "Morgens Regen, später bewölkt, <b>7 bis 9 Grad</b>. Regiobus-Warnstreik in <b>Neustadt und Wunstorf</b>. In Berlin beginnen die Koalitionsgespräche von Linke, Grünen und SPD. Bulgarien: amtliches Wahlergebnis."
+  },
+  {
+   "wann": "Di 3. Nov",
+   "titel": "Amerika wählt",
+   "text": "Vormittags etwas Sonne, abends vereinzelt Schauer, <b>4 bis 9 Grad</b>. <b>US-Midterms</b>, erste Ergebnisse in der Nacht zu Mittwoch. Ausstellung zu Partnerschaftsgewalt im Freizeitheim Vahrenwald startet."
+  },
+  {
+   "wann": "Mi 4. bis So 8. Nov",
+   "titel": "Trocken und kühl",
+   "text": "Meist trocken, nachts <b>2 bis 4 Grad</b>, tagsüber 6 bis 8 Grad. <b>Mi:</b> Regiobus-Streik Mellendorf und Burgdorf, <b>Fr:</b> Eldagsen. Bundesliga-Spieltag ab Freitag. <b>So 13:30 Uhr:</b> Heidenheim gegen 96. Vormerken: S6/S51-Sperrung ab 12. Nov."
+  }
+ ]
+}

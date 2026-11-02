@@ -4,261 +4,261 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Konzert-Radar – Metal & Rock rund um Hannover</title>
-<meta name="description" content="Tägliches Konzert-Radar mit neu entdeckten Metal-, Rock- und Punk-Konzerten in Hannover und bis rund 300 km Umkreis.">
+<meta name="description" content="Tägliches Konzert-Radar: neue Metal-, Rock- und Punk-Termine in Hannover und im Umkreis von rund 300 Kilometern.">
 <link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/">
 <style>
-:root{
-  --bg:#f7f3ec;--paper:#fffdf8;--ink:#23201b;--muted:#6b6358;--line:#e3dccf;
-  --red:#8e1b1b;--petrol:#0f5e66;--ocker:#a8730f;--violett:#5b3a8c;--grau:#4a5560;
-  --serif:"Iowan Old Style","Palatino Linotype",Georgia,serif;
-  --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){--bg:#191714;--paper:#221f1b;--ink:#ece6dc;--muted:#a59c8f;--line:#3a352e;
-  --red:#e0706b;--petrol:#5fb7bf;--ocker:#e0b25a;--violett:#b99be6;--grau:#9fb0bf;}
-}
+:root{--bg:#faf6ee;--card:#fffdf8;--ink:#22201c;--muted:#6b645a;--line:#e4dccd;--red:#9b1c1c;--petrol:#0f6b6b;--ocker:#a8730f;--violett:#6b3fa0;--grau:#4a5568;--c:var(--red)}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1815;--card:#24211d;--ink:#ece6da;--muted:#a59d90;--line:#3a352e;--red:#e36b6b;--petrol:#4fc0c0;--ocker:#e0b155;--violett:#b893ea;--grau:#a8b3c4}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif}
 .wrap{max-width:980px;margin:0 auto;padding:24px 16px 48px}
-header.mast{border-bottom:3px double var(--line);padding-bottom:14px;margin-bottom:22px}
-.kicker{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-h1{font-size:44px;line-height:1.05;margin:6px 0 6px;letter-spacing:-.01em}
-.dateline{font-family:var(--sans);font-size:14px;color:var(--muted)}
-.box{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c,var(--grau));border-radius:6px;padding:16px 18px;margin:0 0 22px}
-.box h2{margin:0 0 8px;font-size:22px}
-.box ul{margin:0;padding-left:20px}
-.box li{margin:4px 0}
-.pill{display:inline-block;font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--c);border-radius:999px;padding:3px 10px;margin-bottom:6px}
-@media (prefers-color-scheme: dark){.pill{color:#14120f}}
+header{border-bottom:3px double var(--line);padding-bottom:14px;margin-bottom:22px}
+h1{font-size:2.4rem;margin:0;letter-spacing:-.5px}
+.date,.lbl,.pill,.meta,.chip,footer{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.date{color:var(--muted);font-size:14px;margin-top:4px}
+.sub{margin:6px 0 0;color:var(--muted);font-size:15px}
 section{margin:30px 0}
-section>h2{font-size:26px;margin:4px 0 4px}
-section>p.lead{margin:0 0 14px;color:var(--muted);font-size:15px}
+.pill{display:inline-block;background:var(--c);color:var(--bg);font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:4px 11px;border-radius:99px;margin-bottom:12px}
+.box{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:8px;padding:14px 18px}
+.box ul{margin:6px 0 0;padding-left:20px}.box li{margin:5px 0}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media (max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:36px}}
-.card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column}
-.card h3{margin:2px 0 4px;font-size:20px;line-height:1.25}
-.card h3 small{font-weight:normal;font-size:15px;color:var(--muted)}
-.meta{font-family:var(--sans);font-size:13px;color:var(--muted);margin-bottom:8px}
-.card p{margin:0 0 8px}
-.chip{display:inline-block;font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1.5px solid var(--c);color:var(--c);border-radius:4px;padding:2px 7px;margin-bottom:8px;align-self:flex-start}
-details{border-top:1px dashed var(--line);margin-top:auto;padding-top:8px}
-summary{font-family:var(--sans);font-size:13px;font-weight:700;color:var(--c);cursor:pointer;padding:4px 0}
+@media (max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:2rem}}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:8px;padding:14px 16px}
+.card h3{margin:0 0 4px;font-size:1.2rem;line-height:1.25}
+.meta{font-size:13px;color:var(--muted);margin-bottom:8px}
+.card p{margin:8px 0}
+.chip{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:99px;border:1.5px solid var(--c);color:var(--c);margin-bottom:6px}
+details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
+summary{cursor:pointer;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:700;color:var(--c)}
 details p{font-size:15.5px}
-.src{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-top:4px}
-a{color:var(--c,var(--petrol));text-underline-offset:2px}
-.src a{color:inherit}
-.compact .card{padding:12px 14px}
-.compact .card p{font-size:15.5px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media (max-width:640px){.two{grid-template-columns:1fr}}
-footer{border-top:3px double var(--line);margin-top:36px;padding-top:14px;font-family:var(--sans);font-size:13px;color:var(--muted)}
-footer a{color:var(--muted)}
-.neu{--c:var(--red)}.fest{--c:var(--petrol)}.erin{--c:var(--ocker)}.tipp{--c:var(--violett)}.warn{--c:var(--grau)}.top{--c:var(--red)}
+.src{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--muted)}
+a{color:var(--c)}
 .sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
+.bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
+.neu{--c:var(--red)}.fest{--c:var(--petrol)}.erin{--c:var(--ocker)}.tipp{--c:var(--violett)}.warn{--c:var(--grau)}.woche{--c:var(--petrol)}.top{--c:var(--red)}
+.small .card h3{font-size:1.05rem}
+footer{border-top:3px double var(--line);margin-top:36px;padding-top:14px;font-size:13px;color:var(--muted)}
+footer a{color:var(--ink)}
 </style>
 </head>
 <body>
 <div class="wrap">
-
-<header class="mast">
-  <div class="kicker">Metal · Rock · Punk · rund um Hannover</div>
-  <h1>Konzert-Radar</h1>
-  <div class="dateline">Sonntag, 1. November 2026 · Stand: 08:05 Uhr</div>
+<header>
+<h1>Konzert-Radar</h1>
+<div class="date">Montag, 2. November 2026 · Stand: 03:40 Uhr</div>
+<p class="sub">Metal, Rock & Punk in Hannover und bis rund 300 km drumherum.</p>
 </header>
 
-<div class="box top">
-  <span class="pill">Das Wichtigste in 60 Sekunden</span>
-  <ul>
-    <li><strong>Desertfest Berlin 2027</strong> legt nach: neun weitere Bands, darunter Kylesa, Windhand und Colour Haze – das Stoner- und Doom-Wochenende im Mai wird ziemlich dicht.</li>
-    <li><strong>Fifth Angel</strong> feiern 40 Jahre Debütalbum und spielen es komplett – schon am Donnerstag in Hamburg, Freitag in Oldenburg.</li>
-    <li><strong>Doppelter Rock-Montag am 9.11. in Hamburg:</strong> Sleaze-Veteranen L.A. Guns im Logo, Comeback-Bluesrocker The Temperance Movement in der Markthalle.</li>
-    <li><strong>Soulbound x Hell Boulevard</strong> machen am 20.11. in Hameln Station – rund 45 km ab Hannover, der nächstgelegene Termin dieser Tour.</li>
-    <li><strong>Iron Maiden 2027:</strong> Es bleibt dabei – nur Nordamerika, Europa geht leer aus.</li>
-    <li>Heute keine neuen, verifizierten Vorverkaufsstarts in der Region gefunden.</li>
-  </ul>
+<section class="top">
+<span class="pill">Das Wichtigste in 60 Sekunden</span>
+<div class="box">
+<ul>
+<li><strong>Amon Amarth</strong> spielen am Samstag (7.11.) im Berliner Velodrom – frisch mit neuem Album im Gepäck.</li>
+<li><strong>Lynyrd Skynyrd</strong> kommen 2027 auf die Waldbühne Northeim (16.7.) – nur rund 100 km von Hannover.</li>
+<li><strong>Jethro Tull</strong> setzen die „Curiosity Tour“ fort, nächster Halt in der Nähe: Bielefeld am 7.3.2027.</li>
+<li><strong>Ministry</strong> haben ihr allerletztes Konzert terminiert – Hamburg am 25.4.2027 ist eine der letzten Chancen im Norden.</li>
+<li>Geheimtipp für den Wochenstart: <strong>Godzilla in the Kitchen</strong> am Montag, 9.11., im Béi Chéz Heinz.</li>
+</ul>
 </div>
+</section>
 
 <section class="neu">
-  <span class="pill">Neu entdeckt</span>
-  <h2>Frisch auf dem Radar</h2>
-  <p class="lead">Nach Datum sortiert. Entfernungen grob ab Hannover-Mitte.</p>
-  <div class="grid">
+<span class="pill">Neu entdeckt</span>
+<div class="grid">
 
-    <article class="card">
-      <h3>Fifth Angel <small>+ Leatherwitch</small></h3>
-      <div class="meta">Do 5.11.2026 · Bambi Galore, Hamburg · ca. 150 km<br>Fr 6.11.2026 · MTS, Oldenburg · ca. 170 km</div>
-      <span class="chip">Bestätigt</span>
-      <p>Die US-Metal-Veteranen spielen zum <strong>40. Jubiläum ihr Debütalbum komplett</strong> – plus weitere Klassiker. Als Gast stellt Ex-Crystal-Viper-Sängerin Marta Gabriel ihr neues Projekt Leatherwitch vor.</p>
-      <details><summary>Mehr über die Band</summary>
-        <p>Fifth Angel stammen aus Bellevue bei Seattle, gegründet 1983. Das selbstbetitelte Debüt erschien 1986 auf Shrapnel, später neu bei Epic – ein Kultalbum des melodischen US-Power-Metal mit Drummer Ken Mary, der auch heute wieder dabei ist.</p>
-        <p>Nach der Auflösung um 1990 kam die Band ab 2009 zurück, spielte ihre allererste Show überhaupt 2010 beim Keep It True und veröffentlichte auf Nuclear Blast „The Third Secret“ (2018) und „When Angels Kill“ (2023).</p>
-        <p><strong>Hörtipp:</strong> „Wings of Destiny“ <a class="sp" href="https://open.spotify.com/search/Fifth%20Angel%20Wings%20of%20Destiny" target="_blank" rel="noopener">▶ Spotify</a>. Für Fans von Queensrÿche-Frühwerk und Club-Shows mit Nostalgiefaktor.</p>
-        <div class="src">Quellen: <a href="https://powermetal.de/news/news-FIFTH_ANGEL_geht_auf_Tour,62637.html">powermetal.de</a> · <a href="https://en.wikipedia.org/wiki/Fifth_Angel">Wikipedia</a> · <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/fifth-angel-leatherwitch/">Hamburg Tourismus</a> · Tickets: <a href="https://www.regioactive.de/konzert/fifth-angel-leatherwitch-oldenburg-mts-lp-s-cd-2026-11-06-msHtmDB2Jr">Oldenburg (regioactive)</a></div>
-      </details>
-    </article>
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Dornenreich + Vinsta (beide akustisch), Junge Kantorei</h3>
+<div class="meta">Fr, 6.11.2026 · Martinskirche Horn, Hamburg · ca. 150 km · VVK 27 €</div>
+<p>Black-Metal-Poesie in einer neugotischen Kirche: Die Österreicher spielen <strong>ein reines Akustikset</strong>, Vinsta legen ihren Progressive Death Metal ebenfalls zur Seite.</p>
+<p><strong>Hörtipp:</strong> „Der Hexe flammend’ Blick“ <a class="sp" href="https://open.spotify.com/search/Dornenreich%20Der%20Hexe%20flammend%20Blick" target="_blank" rel="noopener">▶ Spotify</a> – zeigt, wie viel Folk schon immer in dieser Band steckte.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Dornenreich stammen aus Österreich und haben sich über die Jahre vom rauen Black Metal zu einem eigenständigen, oft akustisch geprägten Klang zwischen Neofolk und Atmosphäre entwickelt. Die aktuelle Akustikreise führt durch kleine Säle und Kirchen in Österreich und Deutschland.</p>
+<p>Den Abend eröffnet ein Hamburger Frauenchor – ein ungewöhnliches, sehr ruhiges Metal-Erlebnis. Beginn ist laut Veranstaltungskalender bereits um 18:20 Uhr.</p>
+<p class="src">Quellen: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/dornenreich-vista-junge-kantorei/" target="_blank" rel="noopener">Hamburg Tourismus</a> · <a href="https://terrarelicta.com/publications/news/dornenreich-announces-acoustic-concerts-in-austria-and-germany" target="_blank" rel="noopener">Terra Relicta</a> · Tickets: <a href="https://rausgegangen.de/en/events/dornenreich-vinsta-junge-kantorei-0/" target="_blank" rel="noopener">rausgegangen</a></p>
+</details>
+</article>
 
-    <article class="card">
-      <h3>L.A. Guns <small>+ Sticks N' Stones</small></h3>
-      <div class="meta">Mo 9.11.2026 · Logo, Hamburg · ca. 150 km · ab 41,15 €<br>Fr 13.11.2026 · Matrix, Bochum · ca. 250 km</div>
-      <span class="chip">Details offen</span>
-      <p>Sleaze und Glam von der Quelle: Die Band um <strong>Tracii Guns und Phil Lewis</strong> spielt nur vier Deutschland-Shows. Beim Hamburg-Termin zeigt der Ticket-Shop aktuell „nicht verfügbar“ – unbedingt beim Veranstalter prüfen.</p>
-      <details><summary>Mehr über die Band</summary>
-        <p>L.A. Guns gehören seit den 80ern zur Hollywood-Szene am Sunset Strip – Gitarrist Tracii Guns war kurz sogar Gründungsmitglied der Band, die später als Guns N' Roses berühmt wurde.</p>
-        <p>Auf der „Lucky MF'r Tour“ stehen neben Guns und Lewis auch Ace Van Johnson, Johnny Martin und Shawn Duncan auf der Bühne. Im kleinen Logo dürfte das schweißtreibend eng werden.</p>
-        <p><strong>Hörtipp:</strong> „The Ballad of Jayne“ <a class="sp" href="https://open.spotify.com/search/L.A.%20Guns%20The%20Ballad%20of%20Jayne" target="_blank" rel="noopener">▶ Spotify</a> und „Never Enough“ <a class="sp" href="https://open.spotify.com/search/L.A.%20Guns%20Never%20Enough" target="_blank" rel="noopener">▶ Spotify</a>.</p>
-        <div class="src">Quellen: <a href="https://www.mvp.de/hamburg/veranstaltungen/l-a-guns-lucky-mf-r-tour-support-sticks-n-stones-hamburg/">mvp.de (Hamburg)</a> · <a href="https://www.regioactive.de/konzert/l-a-guns-lucky-mf-r-tour-bochum-matrix-2026-11-13-tickets-SLQ0nbx7h4">regioactive (Bochum)</a> · <a href="https://ultimateclassicrock.com/la-guns-2026-world-tour/">Ultimate Classic Rock</a></div>
-      </details>
-    </article>
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Amon Amarth + Orbit Culture, Soilwork</h3>
+<div class="meta">Sa, 7.11.2026 · Velodrom, Berlin · ca. 285 km</div>
+<p>Die schwedischen Wikinger-Melodeather touren mit <strong>„The Allfather Awakens“</strong> – das Album stieg laut Bericht auf Platz vier der Charts ein.</p>
+<p><strong>Hörtipp:</strong> „Gjallarhorn“ <a class="sp" href="https://open.spotify.com/search/Amon%20Amarth%20Gjallarhorn" target="_blank" rel="noopener">▶ Spotify</a> – die Vorab-Single, gebaut fürs Mitgrölen in der Halle.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Amon Amarth aus Schweden stehen seit den Neunzigern für melodischen Death Metal mit Wikinger-Thematik, eingängigen Riffs und großer Bühnenshow samt Schiffen, Drachen und Kampfeinlagen.</p>
+<p>Als Support sind für die Tour Orbit Culture und Soilwork angekündigt; welche Band an welchem Abend spielt, wird nicht pro Termin aufgeschlüsselt. Ein Hamburg- oder Hannover-Termin fehlt auf dieser Tour – Berlin ist der nächstgelegene.</p>
+<p class="src">Quellen: <a href="https://blabbermouth.net/news/amon-amarth-announces-october-november-2026-european-tour-with-orbit-culture-and-soilwork" target="_blank" rel="noopener">Blabbermouth</a> · <a href="https://music.mxdwn.com/2026/07/22/news/amon-amarth-announces-new-album-the-allfather-awakens-for-october-2026-release-shares-new-single-video-gjallarhorn/amp/" target="_blank" rel="noopener">mxdwn</a> · <a href="https://ms-aktuell.de/?p=167644" target="_blank" rel="noopener">ms-aktuell</a> · Tickets: <a href="https://www.mvp.de/berlin/veranstaltungen/amon-amarth-the-allfather-awakens-europe-uk-2026-velodrom/" target="_blank" rel="noopener">mvp.de</a></p>
+</details>
+</article>
 
-    <article class="card">
-      <h3>The Temperance Movement <small>+ Davey Horne</small></h3>
-      <div class="meta">Mo 9.11.2026 · Markthalle, Hamburg · ca. 150 km · ab 35,20 €</div>
-      <span class="chip">Bestätigt</span>
-      <p>Der <strong>einzige Norddeutschland-Termin</strong> der „Let It All Out Tour“. Die britischen Bluesrocker sind nach fünf Jahren Pause zurück, Einlass 19 Uhr, Beginn 20 Uhr.</p>
-      <details><summary>Mehr über die Band</summary>
-        <p>The Temperance Movement stehen für erdigen, groovenden Rock in der Tradition der Black Crowes und Faces. 2025 meldeten sie sich zurück – aus einer kleinen Test-Tour wurde eine Comeback-Runde mit größeren Hallen.</p>
-        <p>An einem neuen Album soll gearbeitet werden; Titel und Termin sind aber noch nicht offiziell. Die übrigen Deutschland-Shows (Berlin, München, Stuttgart, Frankfurt) liegen vor oder kurz nach diesem Wochenende.</p>
-        <p><strong>Hörtipp:</strong> „Only Friend“ <a class="sp" href="https://open.spotify.com/search/The%20Temperance%20Movement%20Only%20Friend" target="_blank" rel="noopener">▶ Spotify</a> – ein Live-Stampfer.</p>
-        <div class="src">Quellen: <a href="https://fkpscorpio.de/en/artists/detail/the-temperance-movement/">FKP Scorpio</a> · <a href="https://www.mvp.de/hamburg/veranstaltungen/the-temperance-movement-let-it-all-out-tour-markthalle-hamburg/">mvp.de (Tickets)</a></div>
-      </details>
-    </article>
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Godzilla in the Kitchen</h3>
+<div class="meta">Mo, 9.11.2026 · Béi Chéz Heinz, Hannover · 0 km</div>
+<p>Instrumentaler Heavy Psych aus Leipzig: drei Leute, <strong>keine einzige Gesangszeile</strong>, dafür vertrackte Rhythmen und Melodien, die hängen bleiben.</p>
+<p><strong>Hörtipp:</strong> „The King Of Monsters“ <a class="sp" href="https://open.spotify.com/search/Godzilla%20in%20the%20Kitchen%20The%20King%20Of%20Monsters" target="_blank" rel="noopener">▶ Spotify</a> – der Titel ist bei diesem Bandnamen Pflicht.</p>
+<p class="bl"><a href="https://www.godzillainthekitchen.de/" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Das Trio aus Leipzig veröffentlicht über Argonauta Records; sein zweites Album „Exodus“ erzählt über die Songtitel hinweg einen durchgehenden Satz – ein typisch verspieltes Detail.</p>
+<p>Live gilt die Band als druckvoll und präzise, die Herbsttour führt durch kleine Clubs in ganz Deutschland. Das Programm des Béi Chéz Heinz ordnet den Abend als Alternative-Metal ein.</p>
+<p class="src">Quellen: <a href="https://www.beichezheinz.de/programm/2026" target="_blank" rel="noopener">Béi Chéz Heinz</a> · <a href="https://www.songkick.com/fr/concerts/43367770-godzilla-in-the-kitchen-at-bei-chez-heinz" target="_blank" rel="noopener">Songkick</a> · <a href="https://doomed-nation.com/german-instrumental-heavy-psych-trio-godzilla-in-the-kitchen-reveal-full-album-details-share-the-first-single-and-video-will-be-taken-away/" target="_blank" rel="noopener">Doomed Nation</a></p>
+</details>
+</article>
 
-    <article class="card">
-      <h3>Violent Vira</h3>
-      <div class="meta">Di 17.11.2026 · Cassiopeia, Berlin · ca. 285 km<br>Do 19.11.2026 · Luxor, Köln · ca. 290 km<br>Mi 18.11.2026 · Musikzentrum, Hannover – siehe Hinweis</div>
-      <span class="chip">Details offen</span>
-      <p>Alt-Metal mit Pop-Gespür und <strong>über 100 Millionen Streams</strong>: Die US-Band kommt erstmals groß nach Europa. Berlin und Köln sind bestätigt; ein Hannover-Termin taucht bisher nur in einem Veranstaltungskalender auf.</p>
-      <details><summary>Mehr über die Band</summary>
-        <p>Frontfrau Vira stammt ursprünglich aus Boise (Idaho), die Band formierte sich in Dallas. Ihre Stimme wird gern mit Hayley Williams (Paramore) und Morgan Lander (Kittie) verglichen – harte Riffs, große Refrains.</p>
-        <p>Das Debütalbum „Lover of a Ghost“ erschien im November 2025; davor spielte die Band US-Festivals wie Riot Fest und Louder Than Life.</p>
-        <p><strong>Hörtipp:</strong> „Burn Me With A Bible“ <a class="sp" href="https://open.spotify.com/search/Violent%20Vira%20Burn%20Me%20With%20A%20Bible" target="_blank" rel="noopener">▶ Spotify</a>.</p>
-        <div class="src">Quellen: <a href="https://slrmagazine.com/2025/10/15/alt-metal-violent-vira-announces-new-lp-and-single-tour-starts-in-november/">SLR Magazine</a> · <a href="https://songkick.com/concerts/43340668-violent-vira-at-cassiopeia">Songkick (Berlin)</a> · <a href="https://www.mvp.de/koeln/veranstaltungen/violent-vira-luxor-koeln/">mvp.de (Köln)</a> · <a href="https://www.eventworld.com/hanover/concerts/metal">eventworld (Hannover-Eintrag)</a></div>
-      </details>
-    </article>
+<article class="card">
+<span class="chip">Details offen</span>
+<h3>Boris + Planning for Burial</h3>
+<div class="meta">Mi, 11.11.2026 · Bahnhof Pauli, Hamburg · ca. 150 km</div>
+<p>Die japanische Lärm-Legende spielt zum 20. Geburtstag <strong>das komplette Album „Pink“</strong> – Drone, Doom, Punk und Shoegaze in einem Rutsch.</p>
+<p><strong>Hörtipp:</strong> „Pink“ <a class="sp" href="https://open.spotify.com/search/Boris%20Pink" target="_blank" rel="noopener">▶ Spotify</a> – der Titelsong ist pure, verzerrte Energie.</p>
+<p class="bl"><a href="https://borisheavyrocks.com/" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Boris sind ein Trio aus Japan, das seit den Neunzigern zwischen ohrenbetäubendem Drone und fast poppigem Rock pendelt. „Pink“ von 2005 gilt als ihr zugänglichstes und einflussreichstes Werk.</p>
+<p>Support ist Planning for Burial, das Ein-Mann-Projekt aus den USA zwischen Doom, Slowcore und Ambient. Ohrstöpsel sind bei Boris keine Empfehlung, sondern Pflicht.</p>
+<p class="src">Quellen: <a href="https://www.regioactive.de/konzert/boris-20-jahre-pink-album-hamburg-bahnhof-pauli-2026-11-11-s6KgWDN9Mf" target="_blank" rel="noopener">regioactive</a> · <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/boris-20-jahre-pink-album/" target="_blank" rel="noopener">Hamburg Tourismus</a> (Angaben teils widersprüchlich)</p>
+</details>
+</article>
 
-    <article class="card">
-      <h3>Soulbound x Hell Boulevard</h3>
-      <div class="meta">Fr 20.11.2026 · Sumpfblume, Hameln · ca. 45 km · ab 38,95 €<br>Sa 21.11.2026 · Junkyard, Dortmund · ca. 210 km</div>
-      <span class="chip">Bestätigt</span>
-      <p>Dunkler Industrial-Metal trifft Gothic-Rock: Die <strong>„Made in sYn“-Tour</strong> ist die Bühne zum Album, das im Januar auf Platz 11 der deutschen Charts einstieg.</p>
-      <details><summary>Mehr über die Band</summary>
-        <p>Soulbound kommen aus Bielefeld, seit 2009 aktiv. Ihr Sound liegt zwischen Neuer Deutscher Härte und synthgetriebenem Alternative Metal, die Texte sind dystopisch und gesellschaftskritisch.</p>
-        <p>Das fünfte Album „sYn“ hat Chris Harms (Lord of the Lost) produziert. Live hat die Band sich auf Rockharz, Summer Breeze und dem Wave-Gotik-Treffen einen Ruf erspielt; Hell Boulevard ergänzen den Abend mit opulentem, düsterem Gothic-Rock.</p>
-        <p><strong>Hörtipp:</strong> direkt ins Album „sYn“ <a class="sp" href="https://open.spotify.com/search/Soulbound%20Hell%20Boulevard%20sYn" target="_blank" rel="noopener">▶ Spotify</a> einsteigen.</p>
-        <div class="src">Quellen: <a href="https://eat-music.net/en/artists/soulbound">eat-music</a> · <a href="https://www.niedersachsen-tourism.com/event/sumpfblume-soulbound-hell-boulevard">Niedersachsen Tourismus</a> · <a href="https://www.eventworld.com/hanover/concerts/metal">eventworld (Datum Hameln)</a> · Tickets: <a href="https://www.regioactive.de/konzert/soulbound-x-hell-boulevard-made-in-syn-tour-dortmund-junkyard-2026-11-21-tickets-RPGd7QftpG">Dortmund (regioactive)</a></div>
-      </details>
-    </article>
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Long Distance Calling</h3>
+<div class="meta">Di, 24.11.2026 · Markthalle, Hamburg · ca. 150 km · laut Ticketportal ab 57 € (22.11. Berlin, Columbia Theater)</div>
+<p>Die Münsteraner Post-Rocker kommen mit ihrem Album <strong>„The Phantom Void“</strong> – großes Kino ganz ohne Sänger.</p>
+<p><strong>Hörtipp:</strong> „Metulsky Curse Revisited“ <a class="sp" href="https://open.spotify.com/search/Long%20Distance%20Calling%20Metulsky%20Curse%20Revisited" target="_blank" rel="noopener">▶ Spotify</a> – ein Klassiker aus den Anfangstagen, live meist ein Höhepunkt.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Long Distance Calling stammen aus Münster und gehören zu den bekanntesten deutschen Bands im instrumentalen Post- und Progressive Rock. Ihre Stücke leben von Steigerungen, breiten Gitarrenwänden und filmischer Atmosphäre.</p>
+<p>„The Phantom Void“ erschien im April 2026. Die Band gilt live als eingespielt und dynamisch – ideal für alle, die Riffs lieber in Ruhe aufbauen hören.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/hamburg/veranstaltungen/long-distance-calling-tour-2026-markthalle-hamburg/" target="_blank" rel="noopener">mvp.de</a> · <a href="https://columbia-theater.de/event/20261122-long-distance-calling/" target="_blank" rel="noopener">Columbia Theater</a> · <a href="https://jacemediamusic.com/?p=36682" target="_blank" rel="noopener">Jace Media</a></p>
+</details>
+</article>
 
-  </div>
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Feine Sahne Fischfilet + Dritte Wahl</h3>
+<div class="meta">Mo, 1.3.2027 · Lokschuppen, Bielefeld · ca. 110 km</div>
+<p>Punk aus dem Nordosten im Doppelpack: Die Tour <strong>„Endlich auf Reise“</strong> führt auch nach Ostwestfalen, mit den Rostocker Punk-Veteranen Dritte Wahl als Gästen.</p>
+<p><strong>Hörtipp:</strong> „Komplett im Arsch“ <a class="sp" href="https://open.spotify.com/search/Feine%20Sahne%20Fischfilet%20Komplett%20im%20Arsch" target="_blank" rel="noopener">▶ Spotify</a> – Bläser, Chöre, Pogo.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Feine Sahne Fischfilet kommen aus Mecklenburg-Vorpommern und verbinden Punk mit Trompeten und großen Mitsing-Refrains. Die Tour 2027 setzt laut Berichten einen Schwerpunkt auf Ostdeutschland, Bielefeld ist einer der wenigen westlichen Stopps.</p>
+<p>Dritte Wahl aus Rostock sind seit Jahrzehnten eine feste Größe im deutschen Punk – ein Vorprogramm mit eigener Fanbasis.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/bielefeld/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Bielefeld</a> · <a href="https://ostdeutscheallgemeine.com/article/feine-sahne-fischfilet-2027-endlich-auf-reise-und-der-osten-kriegt-den-dicksten-anteil-10336026" target="_blank" rel="noopener">Ostdeutsche Allgemeine</a> · Tickets: <a href="https://www.eventworld.com/feine-sahne-fischfilet-bielefeld-tickets-01-03-2027/event/557562" target="_blank" rel="noopener">Eventworld</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Jethro Tull – The Curiosity Tour</h3>
+<div class="meta">So, 7.3.2027 · Stadthalle, Bielefeld · ca. 110 km · ab 62,05 € (6.3. Hamburg, CCH)</div>
+<p>Prog- und Folkrock-Geschichte live: Ian Anderson und Band bringen <strong>Querflöte, Klassiker und neue Songs</strong> in die Stadthalle.</p>
+<p><strong>Hörtipp:</strong> „Aqualung“ <a class="sp" href="https://open.spotify.com/search/Jethro%20Tull%20Aqualung" target="_blank" rel="noopener">▶ Spotify</a> – eines der berühmtesten Riffs der Siebziger.</p>
+<p class="bl"><a href="https://jethrotull.com/" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Jethro Tull aus England gehören seit Ende der Sechziger zu den prägenden Bands des Progressive Rock. Die laufende „Curiosity Tour“ wurde bis 2027 verlängert und mischt Material des jüngsten Albums „Curious Ruminant“ mit Klassikern.</p>
+<p>Wer es lieber in der Großstadt mag: Am Vorabend spielt die Band im Hamburger CCH.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/bielefeld/veranstaltungen/jethro-tull-the-curiosity-tour-stadthalle-bielefeld/" target="_blank" rel="noopener">mvp.de</a> · <a href="https://www.regioactive.de/news/2026/05/20/jethro-tull-setzen-curiosity-tour-2027-fort-NjmrshnN6p" target="_blank" rel="noopener">regioactive</a> · <a href="https://news.pollstar.com/2026/08/10/jethro-tull-extends-ongoing-curious-ruminant-tour-into-2027/" target="_blank" rel="noopener">Pollstar</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Carnivore A.D. + WILT</h3>
+<div class="meta">Sa, 1.5.2027 · Level, Rheine · ca. 180 km (30.4. Essen, Don’t Panic)</div>
+<p>Crossover-Thrash mit New Yorker Wurzeln: Die „Transmutation“-Tour bringt <strong>nur zwei Deutschland-Shows</strong>, beide im Westen.</p>
+<p><strong>Hörtipp:</strong> „I Stand Alone“ <a class="sp" href="https://open.spotify.com/search/Carnivore%20A.D.%20I%20Stand%20Alone" target="_blank" rel="noopener">▶ Spotify</a> – die neue Single zur Tour.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Carnivore A.D. tragen das Erbe der legendären Crossover-Band Carnivore weiter, die einst Hardcore-Punk und Thrash Metal verschmolz. Mit „I Stand Alone“ gibt es neues Material samt Video.</p>
+<p>Support sind WILT, eine deutsche Death-Metal-Band. Für Fans aus Hannover ist Rheine die kürzere Anfahrt.</p>
+<p class="src">Quelle: <a href="https://blabbermouth.net/news/carnivore-a-d-announces-2027-european-tour-shares-music-video-for-i-stand-alone" target="_blank" rel="noopener">Blabbermouth</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Lynyrd Skynyrd</h3>
+<div class="meta">Fr, 16.7.2027 · Waldbühne, Northeim · ca. 100 km · ab ca. 90 €</div>
+<p>Southern-Rock-Klassiker unter freiem Himmel: Die Waldbühne ist laut Listings <strong>der einzige Deutschland-Termin</strong>, der bisher auftaucht.</p>
+<p><strong>Hörtipp:</strong> „Simple Man“ <a class="sp" href="https://open.spotify.com/search/Lynyrd%20Skynyrd%20Simple%20Man" target="_blank" rel="noopener">▶ Spotify</a> – zum Mitsingen im Wald gemacht.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Lynyrd Skynyrd aus Jacksonville, Florida, prägten in den Siebzigern den Southern Rock mit Hymnen wie „Sweet Home Alabama“ und „Free Bird“. Heute steht eine Besetzung um Sänger Johnny Van Zant auf der Bühne.</p>
+<p>Die Waldbühne Northeim baut für 2027 ein großes Open-Air-Programm auf; dort sind unter anderem auch Toto (25.7.) angekündigt.</p>
+<p class="src">Quellen: <a href="https://www.jambase.com/show/lynyrd-skynyrd-waldbuhne-northeim-20270716" target="_blank" rel="noopener">JamBase</a> · <a href="https://www.leinetal24.de/lokales/northeim/zwei-weitere-hochkaraeter-spielen-beim-open-air-sommer-2027-in-northeim-94555042.html" target="_blank" rel="noopener">leinetal24</a> · Tickets: <a href="https://www.eventim.de/noapp/event/21970348/" target="_blank" rel="noopener">Eventim</a></p>
+</details>
+</article>
+
+</div>
 </section>
 
 <section class="fest">
-  <span class="pill">Festivals &amp; Tour-Ankündigungen</span>
-  <h2>Was sich gerade bewegt</h2>
-  <div class="grid">
-    <article class="card">
-      <h3>Desertfest Berlin 2027</h3>
-      <div class="meta">14.–16.5.2027 · Columbiahalle &amp; Columbia Theater, Berlin · ca. 285 km · 3-Tage-Ticket ab 179,90 €</div>
-      <span class="chip">Bestätigt</span>
-      <p>Neun neue Namen: <strong>1000Mods, Brutus, Colour Haze, Kanaan, Kylesa, Psychlona, Rick Shaw Billie's Burger Patrol, The Well und Windhand</strong>. Schon vorher bestätigt waren u. a. Melvins, Bongripper, Inter Arma und Smoke Blow.</p>
-      <details><summary>Mehr über das Festival</summary>
-        <p>Das Desertfest ist Deutschlands wichtigster Treffpunkt für Stoner, Doom und Psych. Mit 23 bestätigten Bands und noch ohne offiziell benannte Headliner ist das Programm schon jetzt breit aufgestellt.</p>
-        <p>Besonders spannend: Kylesa aus Savannah mit ihrem Doppel-Drummer-Sludge und Brutus aus Belgien, deren schlagzeugende Sängerin live regelmäßig für Gänsehaut sorgt. Eine Running Order gibt es noch nicht.</p>
-        <div class="src">Quelle: <a href="https://www.metal-hammer.de/desertfest-berlin-2027-alle-informationen-headliner-tickets-preise-lineup-bands-wettervorhersage-livestream-internet-tv-spielplan-timetable-anreise-909977/">Metal Hammer</a></div>
-      </details>
-    </article>
-    <article class="card">
-      <h3>Iron Maiden 2027</h3>
-      <div class="meta">14.4.–16.5.2027 · nur Nordamerika</div>
-      <span class="chip">Details offen</span>
-      <p>Die „Run For Your Lives“-Tour geht 2027 in <strong>16 Shows durch Nordamerika</strong>. Deutsche oder europäische Termine gibt es laut Metal Hammer nicht.</p>
-      <div class="src">Quelle: <a href="https://www.metal-hammer.de/iron-maiden-geben-2027-doch-konzerte-2553917/">Metal Hammer</a></div>
-    </article>
-  </div>
+<span class="pill">Festivals & Tour-Ankündigungen</span>
+<div class="grid">
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Ministry: Das Ende hat ein Datum</h3>
+<div class="meta">Hamburg-Abschied: So, 25.4.2027 · Große Freiheit 36 · ca. 150 km (24.4. Berlin)</div>
+<p>Al Jourgensen hat das <strong>allerletzte Ministry-Konzert</strong> für den 30.10.2027 in Los Angeles angekündigt. Die Europa-Abschiedstour mit Die Krupps ist damit die letzte Gelegenheit hierzulande.</p>
+<p><strong>Hörtipp:</strong> „Jesus Built My Hotrod“ <a class="sp" href="https://open.spotify.com/search/Ministry%20Jesus%20Built%20My%20Hotrod" target="_blank" rel="noopener">▶ Spotify</a> – Industrial-Metal in Höchstgeschwindigkeit.</p>
+<p class="src">Quellen: <a href="https://blabbermouth.net/news/al-jourgensen-reveals-date-and-venue-for-ministrys-final-concert" target="_blank" rel="noopener">Blabbermouth</a> · <a href="https://getreadytorock.me.uk/blog/2026/09/upcoming-european-usa-world-tour-dates-and-gig-listing-2027/" target="_blank" rel="noopener">Get Ready to Rock</a></p>
+</article>
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Wacken Open Air 2027</h3>
+<div class="meta">28.–31.7.2027 · Wacken · ca. 200 km</div>
+<p>Das Billing wächst: unter anderem <strong>Helloween mit 40-Jahre-Show</strong>, Edguy auf Abschiedstour, Heaven Shall Burn, Knocked Loose und Electric Callboy.</p>
+<p><strong>Hörtipp:</strong> „I Want Out“ (Helloween) <a class="sp" href="https://open.spotify.com/search/Helloween%20I%20Want%20Out" target="_blank" rel="noopener">▶ Spotify</a> – passt perfekt zum Jubiläum.</p>
+<p class="src">Quelle: <a href="https://www.metal1.info/metal-news/wacken-open-air-bestaetigt-weitere-bands-fuer-2027/" target="_blank" rel="noopener">Metal1.info</a></p>
+</article>
+</div>
 </section>
 
-<section class="erin compact">
-  <span class="pill">Nochmal zur Erinnerung</span>
-  <h2>Schon gemeldet, bald dran</h2>
-  <div class="grid">
-    <article class="card">
-      <h3>Tanzwut <small>+ Sagenbringer</small></h3>
-      <div class="meta">Sa 14.11.2026 · MusikZentrum, Hannover</div>
-      <span class="chip">Bestätigt</span>
-      <p>Mittelalter-Rock mit Dudelsack und Elektro-Kante – ein Heimspiel-Abend in der Nordstadt.</p>
-      <div class="src">Quelle: <a href="https://www.eventworld.com/hanover/concerts/metal">eventworld</a></div>
-    </article>
-    <article class="card">
-      <h3>Rising Insane</h3>
-      <div class="meta">Do 19.11.2026 · Béi Chéz Heinz, Hannover · ab 27,75 €</div>
-      <span class="chip">Bestätigt</span>
-      <p>Bremer Metalcore mit großen Hooks – das Hometown-Konzert folgt am 5.12. im Modernes.</p>
-      <div class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/">mvp.de</a></div>
-    </article>
-    <article class="card">
-      <h3>UK Subs</h3>
-      <div class="meta">Do 19.11.2026 · Faust, Hannover · ab 31,50 € (20.11. Bremen Lagerhaus)</div>
-      <span class="chip">Bestätigt</span>
-      <p>Britischer Punk der ersten Stunde – am Tag danach auch in Bremen.</p>
-      <div class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/">mvp.de Hannover</a> · <a href="https://www.mvp.de/bremen/veranstaltungen/konzert-metal-hard-rock/">mvp.de Bremen</a></div>
-    </article>
-    <article class="card">
-      <h3>Nailed to Obscurity <small>+ Nephylim</small></h3>
-      <div class="meta">Do 19.11.2026 · Café Glocksee, Hannover</div>
-      <span class="chip">Bestätigt</span>
-      <p>Melancholischer Death-Doom aus Ostfriesland – voller Donnerstag in Hannover, also früh entscheiden.</p>
-      <div class="src">Quelle: <a href="https://www.eventworld.com/hanover/concerts/metal">eventworld</a></div>
-    </article>
-    <article class="card">
-      <h3>Pro-Pain</h3>
-      <div class="meta">Do 19.11.2026 · Schön &amp; Frölich, Braunschweig · ca. 65 km · ab 32,55 €</div>
-      <span class="chip">Bestätigt</span>
-      <p>New Yorker Hardcore-Metal-Urgestein – die Alternative für alle, die es lieber ruppig mögen.</p>
-      <div class="src">Quelle: <a href="https://www.mvp.de/braunschweig/veranstaltungen/konzert-metal-hard-rock/">mvp.de</a></div>
-    </article>
-  </div>
+<section class="erin small">
+<span class="pill">Nochmal zur Erinnerung</span>
+<div class="grid">
+<article class="card"><h3>Messa</h3><div class="meta">Sa, 14.11.2026 · Rockpalast, Bochum · ca. 240 km (15.11. Köln)</div><p>Doom mit Jazz-Einschlag aus Italien – Hamburg und Berlin sind bereits ausverkauft.</p><p><strong>Hörtipp:</strong> „Rubedo“ <a class="sp" href="https://open.spotify.com/search/Messa%20Rubedo" target="_blank" rel="noopener">▶ Spotify</a> – zeigt die ganze Spannweite der Band.</p><p class="src">Quelle: <a href="https://www.metal-hammer.de/alle-konzerte-in/hamburg/" target="_blank" rel="noopener">Metal Hammer Konzertkalender</a></p></article>
+<article class="card"><h3>Archspire + Crown Magnetar, Zenith Passage, Analepsy</h3><div class="meta">Mo, 16.11.2026 · Gruenspan, Hamburg · ca. 150 km</div><p>Technical Death Metal im Hochgeschwindigkeitsmodus – ein Abend für Freunde extremer Präzision.</p><p><strong>Hörtipp:</strong> „Drone Corpse Aviator“ <a class="sp" href="https://open.spotify.com/search/Archspire%20Drone%20Corpse%20Aviator" target="_blank" rel="noopener">▶ Spotify</a> – Maschinengewehr-Gesang inklusive.</p><p class="src">Quelle: <a href="https://www.metal-hammer.de/alle-konzerte-in/hamburg/" target="_blank" rel="noopener">Metal Hammer Konzertkalender</a></p></article>
+<article class="card"><h3>Evergrey</h3><div class="meta">Di, 17.11.2026 · Logo, Hamburg · ca. 150 km (18.11. Berlin)</div><p>Die schwedischen Prog-Metaller ganz nah im kleinen Club.</p><p><strong>Hörtipp:</strong> „A Touch of Blessing“ <a class="sp" href="https://open.spotify.com/search/Evergrey%20A%20Touch%20of%20Blessing" target="_blank" rel="noopener">▶ Spotify</a> – ihr bekanntester Gänsehaut-Song.</p><p class="src">Quelle: <a href="https://www.metal-hammer.de/alle-konzerte-in/hamburg/" target="_blank" rel="noopener">Metal Hammer Konzertkalender</a></p></article>
+<article class="card"><h3>Despised Icon + Carnifex + Suffocation</h3><div class="meta">Do, 19.11.2026 · Gruenspan, Hamburg · ca. 150 km</div><p>Deathcore trifft auf Death-Metal-Urgestein – ein Paket ohne Verschnaufpause.</p><p><strong>Hörtipp:</strong> „Infecting the Crypts“ (Suffocation) <a class="sp" href="https://open.spotify.com/search/Suffocation%20Infecting%20the%20Crypts" target="_blank" rel="noopener">▶ Spotify</a> – Blaupause des Brutal Death.</p><p class="src">Quelle: <a href="https://www.metal-hammer.de/alle-konzerte-in/hamburg/" target="_blank" rel="noopener">Metal Hammer Konzertkalender</a></p></article>
+<article class="card"><h3>Chelsea Wolfe + A.A. Williams</h3><div class="meta">Di, 24.11.2026 · Große Freiheit 36, Hamburg · ca. 150 km (23.11. Berlin)</div><p>Düsterer Doom-Folk und dunkler Rock – atmosphärisch und intensiv.</p><p><strong>Hörtipp:</strong> „Carrion Flowers“ <a class="sp" href="https://open.spotify.com/search/Chelsea%20Wolfe%20Carrion%20Flowers" target="_blank" rel="noopener">▶ Spotify</a> – brodelnder Einstieg in ihre Welt.</p><p class="src">Quelle: <a href="https://www.metal-hammer.de/alle-konzerte-in/hamburg/" target="_blank" rel="noopener">Metal Hammer Konzertkalender</a></p></article>
+</div>
 </section>
 
-<div class="two">
-  <div class="box tipp">
-    <span class="pill">Tipp des Tages</span>
-    <h2>Fifth Angel, Do 5.11., Bambi Galore Hamburg</h2>
-    <p>Ein Kultalbum von 1986 am Stück, gespielt von einer Band mit drei Gründungsmitgliedern, in einem Club für ein paar Hundert Leute – solche Abende gibt es selten. Wer Freitag lieber kürzer fährt: Oldenburg am 6.11.</p>
-    <div class="src"><a href="https://powermetal.de/news/news-FIFTH_ANGEL_geht_auf_Tour,62637.html">Tourdaten bei powermetal.de</a></div>
-  </div>
-  <div class="box warn">
-    <span class="pill">Hier genau hinschauen</span>
-    <ul>
-      <li><strong>Violent Vira in Hannover (18.11.):</strong> nur in einem Kalender gelistet, kein Veranstalter-Beleg gefunden. Vor dem Kauf auf der offiziellen Bandseite prüfen.</li>
-      <li><strong>L.A. Guns Hamburg:</strong> Tickets werden beim Händler derzeit als „nicht verfügbar“ angezeigt – ausverkauft oder nur Systempause ist unklar.</li>
-      <li><strong>The Temperance Movement:</strong> Berichte über ein neues Album sind noch Gerüchte.</li>
-      <li>Bei begehrten Shows (Korn, Electric Callboy, Die Ärzte) tauchen regelmäßig überteuerte Zweitmarkt-Angebote auf. Nur offizielle Vorverkaufsstellen oder die Fan-Börsen der Veranstalter nutzen.</li>
-    </ul>
-  </div>
+<section class="tipp">
+<span class="pill">Tipp des Tages</span>
+<div class="box">
+<p style="margin:0"><strong>Godzilla in the Kitchen, Mo 9.11., Béi Chéz Heinz, Hannover.</strong> Ein Montagabend ohne lange Anfahrt, eine Band, die instrumental mehr erzählt als manche mit Sänger, und ein Club, in dem man den Musikern auf die Finger schauen kann. Wer Heavy Psych und vertrackten Prog mag, ist hier genau richtig. <a href="https://www.beichezheinz.de/programm/2026" target="_blank" rel="noopener">Programm</a></p>
 </div>
+</section>
 
-<div class="box" style="--c:var(--petrol)">
-  <span class="pill">Diese Woche im Blick</span>
-  <h2>1. bis 8. November</h2>
-  <ul>
-    <li><strong>So 1.11.</strong> · The Bones, The Drowns, Murphy's Law · Astra, Berlin (<a href="https://www.rockhard.de/live/tourdaten">Rock Hard</a>)</li>
-    <li><strong>Do 5.11.</strong> · Fifth Angel + Leatherwitch · Bambi Galore, Hamburg</li>
-    <li><strong>Fr 6.11.</strong> · Fifth Angel · MTS, Oldenburg</li>
-    <li><strong>Fr 6.11.</strong> · Kärbholz · Inselpark Arena, Hamburg (<a href="https://www.rockhard.de/live/tourdaten">Rock Hard</a>)</li>
-    <li><strong>Sa 7.11.</strong> · Crescendium · Béi Chéz Heinz, Hannover · ab 23,70 € (<a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/">mvp.de</a>)</li>
-    <li><strong>Sa 7.11.</strong> · Drunken Swallows · Monkeys Music Club, Hamburg (<a href="https://www.rockhard.de/live/tourdaten">Rock Hard</a>)</li>
-    <li><strong>Sa 7.11.</strong> · Soulbound x Hell Boulevard · Berlin (<a href="https://www.berlin.de/tickets/pop-rock/soulbound-x-hell-boulevard-made-in-syn-tour-2026/2026-11-07-soulbound-x-hell-boulevard-made-in-syn-tour-f5f750c4-3495-43f9-972d-61c0ab4b10d7/">berlin.de</a>)</li>
-    <li>Die großen Hannover-Abende der Woche (u. a. 6.11.) standen bereits mehrfach im Radar.</li>
-    <li><strong>Vorverkaufsstarts:</strong> für diese Woche keine neuen bestätigt.</li>
-  </ul>
+<section class="warn">
+<span class="pill">Hier genau hinschauen</span>
+<div class="box">
+<ul>
+<li><strong>Boris in Hamburg:</strong> Ein Veranstaltungskalender nennt widersprüchlich auch den 14.11. und Leipzig als Ort. Die Ticketlistings zeigen den 11.11. im Bahnhof Pauli – vor dem Kauf beim Veranstalter prüfen.</li>
+<li><strong>Amon Amarth in Berlin:</strong> Orbit Culture und Soilwork sind für die Tour angekündigt, aber nicht ausdrücklich für jeden einzelnen Abend.</li>
+<li><strong>Lynyrd Skynyrd:</strong> Neben den offiziellen Anbietern tauchen bereits Wiederverkaufsplattformen mit eigenen Preisen auf. Zuerst bei Eventim/Reservix schauen, Zweitmarkt-Angebote meiden.</li>
+<li><strong>Long Distance Calling:</strong> Der Preis „ab 57 €“ stammt von einem Ticketportal und wirkt hoch – im Zweifel direkt bei der Markthalle nachsehen.</li>
+</ul>
 </div>
+</section>
+
+<section class="woche">
+<span class="pill">Diese Woche im Blick</span>
+<div class="box">
+<ul>
+<li><strong>Do 5.11.</strong> Fifth Angel + Leatherwitch – Bambi Galore, Hamburg</li>
+<li><strong>Fr 6.11.</strong> Dornenreich & Vinsta (akustisch) – Martinskirche Horn, Hamburg · Kärbholz – Inselpark Arena, Hamburg</li>
+<li><strong>Sa 7.11.</strong> Amon Amarth – Velodrom, Berlin · Crescendium – Béi Chéz Heinz, Hannover · Drunken Swallows – Monkeys, Hamburg</li>
+<li><strong>Mo 9.11.</strong> Godzilla in the Kitchen – Béi Chéz Heinz, Hannover · L.A. Guns – Logo, Hamburg · The Temperance Movement – Markthalle, Hamburg</li>
+<li>Vorverkaufsstarts: keine neuen bestätigten Starts für diese Woche gefunden.</li>
+</ul>
+</div>
+</section>
 
 <footer>
-  <p><a href="/konzerte/archiv/">Radar-Archiv</a></p>
-  <p><a href="/">Hannover Frühausgabe</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a></p>
-  <p>Alle Termine ohne Gewähr. Bitte vor dem Ticketkauf beim Veranstalter prüfen, ob Datum, Ort und Preis noch stimmen.</p>
+<p><a href="/konzerte/archiv/">Radar-Archiv</a></p>
+<p><a href="/">Hannover Frühausgabe</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a></p>
+<p>Alle Termine ohne Gewähr. Bitte vor dem Ticketkauf beim Veranstalter prüfen.</p>
 </footer>
-
 </div>
 </body>
 </html>
