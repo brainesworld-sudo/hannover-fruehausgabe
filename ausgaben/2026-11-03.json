@@ -1,0 +1,361 @@
+{
+  "stand": "Stand: Dienstag, 3 Uhr",
+  "kurz": [
+    "<b>Amerika wählt:</b> Heute entscheiden die USA über den Kongress. Den Demokraten fehlen netto <b>drei Sitze</b> im Repräsentantenhaus und vier im Senat – Umfragen sehen sie vorn, erste Ergebnisse kommen in der Nacht.",
+    "<b>Merz nach den Krawallen:</b> Der Kanzler kündigt null Toleranz gegen Gewalttäter an, räumt aber Versäumnisse beim <b>bezahlbaren Wohnen</b> ein. Der Streit um Dobrindts Wortwahl geht weiter.",
+    "<b>Spritpreisdeckel mit hohen Hürden:</b> Reiches Entwurf greift nur, wenn Preise in Deutschland <b>drei Wochen in Folge</b> deutlich stärker steigen als im EU-Schnitt – und höchstens drei Monate lang.",
+    "<b>Halloween-Süßigkeiten:</b> Nach Misburg melden jetzt auch <b>Garbsen und Bissendorf</b> Funde – eine Nähnadel im Supermarkt-Riegel, ein Nagel in Schokolade. Verletzt wurde niemand.",
+    "<b>Belgien in der Krise:</b> Premier De Wever bot König Philippe nach dem geplatzten Haushalt seinen <b>Rücktritt</b> an, der König hat noch nicht entschieden.",
+    "<b>Bayern ohne Trainer nach Madrid:</b> Kompany ist krank, Interimscoach Danks führt das Team heute um <b>21 Uhr</b> bei Atlético. Zuvor spielt Stuttgart in Istanbul. 96 tankt Selbstvertrauen für Sonntag in Heidenheim."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Nadel und Nagel: Weitere präparierte Süßigkeiten in der Region",
+          "kurz": "Nach dem Fall in Misburg gibt es zwei neue Funde: In <b>Garbsen</b> steckte eine Nähnadel in einem Schokoriegel aus dem Supermarkt, in <b>Bissendorf</b> fand ein Zehnjähriger einen Nagel.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Garbsen", "suche": "Garbsen Region Hannover"}, {"name": "Bissendorf (Wedemark)", "suche": "Bissendorf Wedemark"}, {"name": "Misburg-Nord", "suche": "Misburg-Nord Hannover"}],
+          "lang": [
+            "Der Fall in Garbsen unterscheidet sich von den anderen: Die Frau hatte den Riegel nicht beim Süßigkeitensammeln bekommen, sondern selbst gekauft. Lidl steht nach ZDF-Angaben im Austausch mit den Ermittlern. In Bissendorf in der Wedemark biss ein Junge am Samstagnachmittag nicht zu – der Nagel steckte in einem Schokoriegel aus der Halloween-Tour. Er blieb unverletzt.",
+            "Auch aus Salzgitter und Bremen werden ähnliche Fälle gemeldet. Die Polizei bittet, Halloween-Beute vor dem Essen genau anzusehen und Funde zu melden – die Verpackung dabei aufheben."
+          ],
+          "einschaetzung": "Mehrere Polizeiermittlungen, von Radio Hannover, ZDF und Antenne Niedersachsen übereinstimmend berichtet; Täter und Motiv sind unbekannt.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/nagel-in-halloween-schokoriegel-polizei-ermittelt-in-bissendorf"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Antenne Niedersachsen", "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-%E2%80%93-02.-November-2026-id1750440.html"}
+          ]
+        },
+        {
+          "titel": "Hauptbahnhof: Bundespolizei kontrolliert über 350 Menschen",
+          "kurz": "Nach der Gen-Z-Demo am Samstag zündete ein Unbekannter auf dem Bahnhofsvorplatz Pyrotechnik in einem Mülleimer – eine <b>58-jährige Passantin</b> erlitt ein Knalltrauma.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Hauptbahnhof Hannover", "suche": "Ernst-August-Platz Hannover"}],
+          "lang": [
+            "Ab 18 Uhr lief am Hauptbahnhof ein Schwerpunkteinsatz der Bundespolizei mit rund 100 Kräften. Die Bilanz: 356 Identitätsfeststellungen, 355 Personendurchsuchungen, zehn Verstöße gegen die Allgemeinverfügung für den Bahnhof. Gefunden wurden Messer, Tierabwehrsprays und Böller.",
+            "Bei einem von vier befragten minderjährigen Zeugen des Mülleimer-Knalls stellten die Beamten ein Messer sicher. Die Passantin wurde zudem leicht an der Wade verletzt."
+          ],
+          "einschaetzung": "Zahlen stammen aus der Bilanz der Bundespolizei, wiedergegeben von t-online Hannover.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101508868/-gen-z-regelt-in-hannover-passantin-durch-pyrotechnik-verletzt-bilanz.html"}]
+        },
+        {
+          "titel": "Organisierte Kriminalität: 49 Millionen Euro Schaden in Niedersachsen",
+          "kurz": "Das neue Lagebild zählt <b>65 Ermittlungsverfahren</b> gegen kriminelle Netzwerke im Vorjahr – vor allem wegen internationalen Drogenhandels.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Polizei und Zoll ermittelten gegen 635 Verdächtige aus 41 Ländern. 23 Verfahren betrafen Drogenhandel, acht Gruppen mit Clan-Bezug, vier Cyberkriminalität. Der geschätzte Schaden liegt knapp unter 49 Millionen Euro, rund 5 Millionen Euro an illegalem Vermögen wurden abgeschöpft.",
+            "Innenministerin Daniela Behrens kündigte mehr Ermittlungsdruck an. Passend dazu meldete der Zoll einen Fund in Hannover: In zwei Wohnungen lagen über 20 Kilo Drogen, Straßenwert rund 300.000 Euro."
+          ],
+          "einschaetzung": "Offizielle Behördenzahlen; das Lagebild erfasst nur bekannt gewordene Fälle.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/organisierte-kriminalitaet-verursacht-schaeden-in-millionenhoehe"},
+            {"name": "t-online Hannover (Zollfund)", "url": "https://hannover.t-online.de/region/hannover/id_101508338/razzia-in-hannover-zoll-stellt-drogen-im-wert-von-300000-euro-sicher.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in Stadt und Region wichtig ist.",
+          "liste": [
+            "<b>Lehrte:</b> Die IG Metall ruft die Beschäftigten im Miele-Werk zum Warnstreik auf – die Gewerkschaft will 5 Prozent mehr Lohn.",
+            "<b>Regiobus:</b> Am Mittwoch wird ab Mellendorf und Burgdorf gestreikt, am Freitag ab Eldagsen.",
+            "<b>S6 und S51:</b> Vom 12. bis 19. November fallen beide Linien komplett aus, einen Busersatz plant die Bahn nicht. Grund sind Weichenarbeiten in Linden.",
+            "<b>Region Hannover:</b> Eva Bender (SPD) startet in ihre erste Arbeitswoche als Regionspräsidentin – die erste Frau im Amt, pünktlich zu 25 Jahren Region.",
+            "<b>Sehnde:</b> Der aha-Wertstoffhof ist wegen Bauarbeiten zwei Wochen geschlossen.",
+            "<b>Krisenübung:</b> Niedersachsens Behörden proben diese Woche eine Hitzewelle mit bis zu 45 Grad – Wasser, Gesundheit, Verkehr."
+          ],
+          "bewertung": "gesichert",
+          "orte": [{"name": "Miele Lehrte", "suche": "Miele Werk Lehrte"}, {"name": "Wertstoffhof Sehnde", "suche": "aha Wertstoffhof Sehnde"}],
+          "lang": ["Kleinere Meldungen aus Radio Hannover und t-online Hannover vom Montag."],
+          "einschaetzung": "Ankündigungen von Gewerkschaft, Bahn, Region und aha.",
+          "quellen": [
+            {"name": "Radio Hannover (Miele)", "url": "https://www.radio-hannover.de/hannover-news/lehrte-ig-metall-ruft-miele-beschaeftigte-zum-warnstreik-auf"},
+            {"name": "t-online (S-Bahn)", "url": "https://hannover.t-online.de/region/hannover/id_101508294/s-bahn-hannover-diese-zwei-linien-fallen-acht-tage-komplett-aus.html"},
+            {"name": "Radio Hannover (Region)", "url": "https://www.radio-hannover.de/hannover-news/25-jahre-region-hannover-erste-praesidentin-eva-bender-legt-los"},
+            {"name": "Radio Hannover (Sehnde)", "url": "https://www.radio-hannover.de/hannover-news/sehnde-wertstoffhof-zwei-wochen-dicht"},
+            {"name": "Radio Hannover (Krisenübung)", "url": "https://www.radio-hannover.de/hannover-news/krisen-stresstest-niedersachsen-probt-den-ernstfall-bei-extremer-hitze"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Merz: Null Toleranz für Randalierer – und ein Eingeständnis",
+          "kurz": "Vor CDU-Kreischefs verurteilt der Kanzler die Krawalle nach den Gen-Z-Protesten scharf, gesteht aber Defizite beim <b>bezahlbaren Wohnen</b> ein.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Frankfurt am Main", "suche": "Frankfurt am Main Innenstadt"}],
+          "lang": [
+            "Laut Redemanuskript will Merz hart gegen Gewalttäter vorgehen und dankt der Polizei. Zugleich betont er, die große Mehrheit der jungen Leute habe friedlich demonstriert. Bildungsministerin Prien soll den Dialog mit der jungen Generation vertiefen; ein Kernthema der Proteste ist die Wehrpflicht.",
+            "Der Streit über die Täter bleibt: Dobrindt sprach von linken Gruppen und „migrantischen Chaoten“, Pistorius widersprach, Linken-Chef Pantisano wirft dem Innenminister Hetze vor. Belastbare Daten zur Herkunft der Randalierer gibt es bisher nicht."
+          ],
+          "einschaetzung": "Redeauszüge lagen dem ZDF vor; die politischen Zuschreibungen zu den Tätern sind Meinungen, keine Ermittlungsergebnisse.",
+          "quellen": [{"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/merz-gen-z-protest-reaktion-krawall-gewalt-ausschreitungen-100.html"}]
+        },
+        {
+          "titel": "Spritpreisdeckel: Reiche baut hohe Hürden ein",
+          "kurz": "Der Deckel soll nur im <b>äußersten Notfall</b> greifen und höchstens drei Monate gelten – die SPD will ihn noch vor Weihnachten.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Laut Gesetzentwurf aus dem Wirtschaftsministerium müssten Diesel oder Benzin in Deutschland drei Wochen in Folge um mehr als fünf Prozentpunkte stärker steigen als im übrigen EU-Schnitt. Die Höchstpreise sollen per Formel angepasst werden und allen Anbietern Gewinne lassen; Länder könnten den Deckel aussetzen, wenn die Versorgung wackelt.",
+            "Der Tankrabatt endet im Dezember. Die SPD will den Entwurf daran messen, ob er die Margen der Ölkonzerne begrenzt, und hält an einer Übergewinnsteuer fest. Grüne und Sozialverband halten das Modell für zu zahm."
+          ],
+          "einschaetzung": "dpa-Bericht über einen Entwurf in der Frühkoordinierung – Details können sich noch ändern.",
+          "quellen": [
+            {"name": "dpa via Ariva", "url": "https://www.ariva.de/news/roundup-2-welche-huerden-reiche-beim-spritpreisdeckel-plant-12190955"},
+            {"name": "VerkehrsRundschau (Hintergrund)", "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/spritpreisdeckel-2027-was-sich-beim-dieselpreis-aendern-soll-3928617"}
+          ]
+        },
+        {
+          "titel": "Metall-Tarifstreit: Warnstreiks in über 2.000 Betrieben",
+          "kurz": "Die IG Metall weitet ihre Aktionen bis Ende der Woche aus. Sie fordert <b>5 Prozent</b>, die Arbeitgeber bieten 1,3 Prozent ab nächstem Sommer.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Nach dem Ende der Friedenspflicht legen Beschäftigte bundesweit zeitweise die Arbeit nieder, in Niedersachsen etwa in Lehrte, Osnabrück, Einbeck und Saterland. Die Gewerkschaft will zwölf Monate Laufzeit.",
+            "Die nächste Verhandlungsrunde ist am Freitag in Bremen. Bei den Angaben zum Arbeitgeberangebot weichen Regionalberichte voneinander ab, etwa beim Zeitpunkt einer Einmalzahlung."
+          ],
+          "einschaetzung": "Umfang der Streiks laut ZDF, Details zum Angebot aus Regionalmeldungen mit kleinen Widersprüchen.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Antenne Niedersachsen", "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-%E2%80%93-02.-November-2026-id1750440.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Bundestag:</b> Die Postfächer von Linken-Abgeordneten wurden mit Tausenden Spam-Mails geflutet, das BSI ist eingeschaltet.",
+            "<b>Berlin:</b> Rund 1.175 SPD-Mitglieder warnen mit dem Aufruf „Nicht um jeden Preis“ vor einer Koalition mit der Linken.",
+            "<b>AfD:</b> Zwei außenpolitische Papiere fordern Nähe zu Trump, ein Ende der Ukraine-Hilfe und Annäherung an Russland.",
+            "<b>Hamburg:</b> Nach Ausschreitungen bei der Gen-Z-Demo nahm die Polizei rund 120 Menschen in Gewahrsam.",
+            "<b>Statistik:</b> Fast drei von vier Verkehrstoten sind Männer (73,6 Prozent)."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Bundestag", "suche": "Reichstagsgebäude Berlin"}],
+          "lang": ["Kurzmeldungen vom Montag, überwiegend aus dem ZDF-Nachrichtenticker."],
+          "einschaetzung": "Jeweils nur eine Quelle, Details können sich ändern.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Antenne Niedersachsen (Hamburg)", "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-%E2%80%93-02.-November-2026-id1750440.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "USA: Der Kongress steht zur Wahl",
+          "kurz": "Heute stimmen die Amerikaner über das Repräsentantenhaus und ein Drittel des Senats ab. Die Demokraten brauchen netto <b>drei Sitze</b> im Haus und <b>vier</b> im Senat.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Kapitol Washington", "suche": "United States Capitol Washington"}],
+          "lang": [
+            "Trump steht nicht selbst auf dem Zettel, hat die Wahl aber zum Votum über sich gemacht. Eine Reuters/Ipsos-Umfrage sieht die Demokraten landesweit klar vorn, Trumps Zustimmung liegt dort bei 32 Prozent. Beim Repräsentantenhaus gilt ein Machtwechsel als wahrscheinlich, der Senat als offen. Berichtet wird zudem von Rekordzahlen bei der vorzeitigen Stimmabgabe.",
+            "Die ersten Wahllokale schließen nach deutscher Zeit gegen Mitternacht, im Westen erst Stunden später. Klare Ergebnisse sind frühestens am Mittwochmorgen zu erwarten, knappe Rennen können Tage dauern."
+          ],
+          "einschaetzung": "Sitz-Arithmetik gesichert, Umfragewerte nur über eine Nachrichten-Zusammenschau geprüft.",
+          "quellen": [
+            {"name": "Newsweek", "url": "https://newsweek.com/midterm-elections-2026-polls-voting-locations-state-map-12629664"},
+            {"name": "NewsCord (Medienvergleich)", "url": "https://newscord.org/article/2026-us-midterm-elections-set-for-november-3-amid-war-on-iran--Story_20261102_Midterms2026SoplantTd2f64366_cd06f4de8317"}
+          ]
+        },
+        {
+          "titel": "Trump und Iran: Drohen, aber „keine Eile“",
+          "kurz": "Auf die Frage, ob er nach der Wahl erneut Iran angreife, sagte Trump knapp <b>„No“</b>. Gleichzeitig hält er sich militärische Schritte ausdrücklich offen.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Teheran", "suche": "Teheran Iran"}],
+          "lang": [
+            "Laut Anadolu und Axios drängte Israels Premier Netanjahu am Wochenende auf rasche Schläge nach der Wahl; Trump setzt vorerst auf Verhandlungen und wirft Teheran Verzögerung vor. Eine Delegation aus Katar soll vermitteln.",
+            "Der Konflikt hat Folgen bis nach Europa: Die Ölversorgung ist angespannt, die Schweiz prüft bereits ein Tempolimit, um Sprit zu sparen (siehe Netz)."
+          ],
+          "einschaetzung": "Trumps Aussagen sind belegt, aber widersprüchlich – das ZDF titelte am selben Tag, er „bekräftige“ seine Drohung.",
+          "quellen": [
+            {"name": "Anadolu", "url": "https://www.aa.com.tr/en/world/trump-downplays-renewed-us-strikes-on-iran-after-midterm-elections/4109187"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Belgien: Premier De Wever bietet Rücktritt an",
+          "kurz": "Die Haushaltsgespräche der Fünferkoalition sind gescheitert. Es geht um <b>10 Milliarden Euro</b> Einsparungen – und um die Frage, ob Reiche mehr zahlen sollen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Königspalast Brüssel", "suche": "Königlicher Palast Brüssel"}],
+          "lang": [
+            "Sozialdemokraten, Christdemokraten und Les Engagés wollen stärkere Schultern stärker belasten, De Wevers N-VA und die liberale MR lehnen Steuererhöhungen ab. Belgiens Defizit ist mit 5,2 Prozent der Wirtschaftsleistung das höchste der Eurozone.",
+            "König Philippe hat den Rücktritt noch nicht angenommen und berät mit den Parteichefs. De Wever verhandelt parallel weiter – er will unbedingt einen Notetat nach Monatszwölfteln vermeiden."
+          ],
+          "einschaetzung": "Von VRT, Brussels Times und AP übereinstimmend berichtet; der Ausgang ist offen.",
+          "quellen": [
+            {"name": "VRT NWS", "url": "https://www.vrt.be/vrtnws/en/2026/11/02/prime-minister-de-wever-offers-resignation-to-king-filip/"},
+            {"name": "Brussels Times", "url": "https://www.brusselstimes.com/belgium/2387762/belgian-pm-de-wever-to-offer-resignation-to-king-after-failed-budget-talks-tbtb"},
+            {"name": "AP via Inquirer", "url": "https://www.inquirer.com/wires/ap/belgian-prime-minister-quits-after-budget-talks-fail-king-mulls-whether-accept-his-resignation-20261102.html"}
+          ]
+        },
+        {
+          "titel": "Ukraine: Falscher Strahlenalarm und Angriff vor Odessa",
+          "kurz": "Hacker kaperten offenbar die ukrainische Warn-App und verschickten falsche Meldungen, auch zu <b>Strahlung in Kiew</b>. Die Luftwaffe gab Entwarnung.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Odessa", "suche": "Odessa Ukraine"}, {"name": "Kiew", "suche": "Kiew Ukraine"}],
+          "lang": [
+            "Auch Russlands Katastrophenschutz meldet einen Cyberangriff auf seine App. Vor Odessa traf Russland nach eigenen Angaben ein Militärobjekt und einen Frachter, ukrainische Stellen sprechen von vier Verletzten.",
+            "Diplomatisch bewegt sich wenig: Selenskyj ist zu einem Treffen mit Putin in der Türkei bereit, die USA genehmigten den Verkauf von 500 Patriot-Raketen. Russlands Außenminister Lawrow sieht keine Fortschritte."
+          ],
+          "einschaetzung": "Angaben beider Kriegsparteien, im ZDF-Liveblog gesammelt; unabhängig kaum überprüfbar.",
+          "quellen": [{"name": "ZDFheute Liveblog", "url": "https://www.zdfheute.de/politik/ausland/ukraine-russland-konflikt-blog-102.html"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Kanaren:</b> Bei einer Überfahrt starben mindestens sieben Migranten, 132 Menschen wurden vor Lanzarote gerettet.",
+            "<b>Pressefreiheit:</b> Reporter ohne Grenzen setzt Trump erstmals auf seine Liste der „Feinde der Pressefreiheit“, neu ist auch Ägyptens al-Sisi.",
+            "<b>Frankreich:</b> Die Schülerblockaden ebben ab, für Donnerstag ist ein Streiktag angekündigt.",
+            "<b>Budapest:</b> Ein Wizz-Air-Flug London–Sofia landete nach einer Bombendrohung außerplanmäßig.",
+            "<b>Hull:</b> Abenteurer Karl Bushby ist nach 28 Jahren und 50.000 Kilometern zu Fuß wieder zu Hause."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Lanzarote", "suche": "Lanzarote"}],
+          "lang": ["Kurzmeldungen vom Montag aus dem ZDF-Nachrichtenticker."],
+          "einschaetzung": "Jeweils eine Quelle, Zahlen können sich noch ändern.",
+          "quellen": [{"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "Bayern ohne Kompany zum Endspiel-Gefühl in Madrid",
+          "kurz": "Der Trainer ist krank, Interimscoach <b>Aaron Danks</b> führt die Münchner heute um 21 Uhr bei Atlético. In der Champions-League-Tabelle ist Bayern nur 14.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Metropolitano Madrid", "suche": "Estadio Metropolitano Madrid"}],
+          "lang": [
+            "Nach drei Spielen hat Bayern fünf Punkte, Atlético vier – beide wollen in die Top acht. Die Ausfallliste ist lang: Díaz, Musiala, Gnabry und Saibari fehlen, Neuer und Olise sollen dagegen einsatzbereit sein. Übertragen wird bei Prime Video.",
+            "Musiala trainiert nach seinem Muskelfaserriss vom September zwar wieder individuell, für Madrid komme es aber laut Danks noch zu früh."
+          ],
+          "einschaetzung": "DAZN und Sport1 stimmen bei Personal und Lage überein.",
+          "quellen": [
+            {"name": "DAZN News", "url": "https://www.dazn.com/de-DE/news/fussball/fc-bayern-aufstellung-kader-personal-ausfaelle-atletico-madrid-champions-league/ghji9129oi8t1hssz9hisx7sl"},
+            {"name": "Sport1", "url": "https://www.sport1.de/news/fussball/bundesliga/2026/11/fc-bayern-verkuendet-update-zu-jamal-musiala"}
+          ]
+        },
+        {
+          "titel": "Königsklasse: Vier deutsche Spiele in zwei Tagen",
+          "kurz": "Heute <b>18:45 Uhr</b> Galatasaray gegen Stuttgart, danach Atlético–Bayern. Am Mittwoch empfängt Dortmund Betis, Leipzig fordert Manchester City.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Signal Iduna Park", "suche": "Signal Iduna Park Dortmund"}, {"name": "Red Bull Arena Leipzig", "suche": "Red Bull Arena Leipzig"}],
+          "lang": [
+            "Für den VfB wird es in Istanbul ein heißer Abend, Leipzig hat mit City das wohl schwerste Los. Der BVB kommt mit Rückenwind aus dem 2:2 im Klassiker.",
+            "Alle vier Partien laufen bei Streamingdiensten, die Mittwochsspiele beginnen jeweils um 21 Uhr."
+          ],
+          "einschaetzung": "Offizieller Spielplan, wiedergegeben von Ruhr Nachrichten.",
+          "quellen": [{"name": "Ruhr Nachrichten", "url": "https://www.ruhrnachrichten.de/service/champions-league-fussball-vierter-spieltag-2026-27-partien-mannschaften-live-tv-uebertragungen-w1264437-2002272873/"}]
+        },
+        {
+          "titel": "96 nach dem Befreiungsschlag: Nächster Halt Heidenheim",
+          "kurz": "Mit dem 2:1 gegen Dresden kletterte Hannover auf <b>Platz 12</b>. Am Sonntag um 13:30 Uhr geht es nach Heidenheim.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Voith-Arena Heidenheim", "suche": "Voith-Arena Heidenheim"}],
+          "lang": [
+            "Die Bilanz davor war düster: Aus den Spielen gegen Magdeburg, St. Pauli und Braunschweig holte 96 nur einen Punkt. Der erste Sieg unter Sandro Wagner verschafft Luft, mehr nicht – die Abstiegszone bleibt nah.",
+            "In Heidenheim zeigt sich, ob der Comeback-Sieg ein Wendepunkt war."
+          ],
+          "einschaetzung": "Ergebnisse und Termin laut hessenschau-Datencenter, Platz laut news.de.",
+          "quellen": [
+            {"name": "hessenschau Datencenter", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"},
+            {"name": "news.de", "url": "https://www.news.de/sport/860150902/hannover-96-ergebnis-aktuell-2-1-gegen-sg-dynamo-dresden-tabelle-und-statistik/1/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>Recken:</b> Nach dem 27:21 gegen den Bergischen HC ist Pause, weiter geht es am 15. November in Gummersbach, am 20. November kommt Stuttgart in die ZAG Arena.",
+            "<b>Formel 1:</b> Weltmeister Antonelli fährt am Sonntag in Interlagos zum ersten Mal mit dem Titel im Gepäck.",
+            "<b>Amateur-Chaos:</b> Bei Türkgücü München streiken 21 Spieler gegen ihren Trainer (mehr im Ressort Netz).",
+            "<b>Tegernsee:</b> Uli Hoeneß zeigt sich „fassungslos“ über eine neue Klage im Baumstreit mit einer Nachbarin."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Interlagos", "suche": "Autódromo José Carlos Pace São Paulo"}],
+          "lang": ["Termine und kleinere Meldungen rund um Hannover und den Spitzensport."],
+          "einschaetzung": "Termine gesichert; die Hoeneß-Meldung kennen wir nur aus Schlagzeilen.",
+          "quellen": [
+            {"name": "Die Recken – Spielplan", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "RacingNews365", "url": "https://racingnews365.com/2026-f1-brazilian-grand-prix"},
+            {"name": "Merkur (Hoeneß)", "url": "https://www.merkur.de/lokales/region-tegernsee/bad-wiessee-ort95312/nachbarin-klagt-weiter-uli-hoeness-ist-fassungslos-ueber-neue-klage-94570740.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, heise.de und tagesschau.de ließen keinen Abruf zu. Wir haben keine Umwege genutzt.",
+      "trends": [
+        {"begriff": "kandern", "volumen": "1000+", "anlass": "Großsuche nach vermisster Seniorin"},
+        {"begriff": "uli hoeneß", "volumen": "500+", "anlass": "Neue Klage im Baumstreit"},
+        {"begriff": "jamal musiala", "volumen": "500+", "anlass": "Rätselraten ums Comeback"},
+        {"begriff": "sibirien", "volumen": "500+", "anlass": "Rekord-Schnee im Oktober"},
+        {"begriff": "slaven skeledzic", "volumen": "200+", "anlass": "Spielerstreik bei Türkgücü"},
+        {"begriff": "seahawks – bears", "volumen": "200+", "anlass": "NFL Monday Night Football"},
+        {"begriff": "jonathan frakes", "volumen": "200+", "anlass": "Daytime Emmys"},
+        {"begriff": "schweiz", "volumen": "100+", "anlass": "Tempo 80 wegen Spritmangel?"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Sprit wird knapp: Die Schweiz denkt über Tempo 80 nach",
+          "kurz": "Die Landesversorgung nennt die Diesel-Lage <b>„sehr angespannt“</b>. Ein Entwurf für Tempo 80 auf Autobahnen liegt in der Verwaltung.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Basel Rheinhafen", "suche": "Rheinhafen Basel"}],
+          "lang": [
+            "Gleich mehrere Engpässe treffen zusammen: der Ölkonflikt mit Iran, Niedrigwasser im Rhein, das Tankschiffe bis Basel bremst, und eine überflutete Pipeline in Frankreich. Teile der Pflichtlager für Diesel und Kerosin sind schon freigegeben. Noch gilt Tempo 120.",
+            "Entschieden ist nichts – das Limit käme erst, wenn freiwilliges Sparen nicht reicht. Die E-Mobil-Lobby will Elektroautos ausnehmen. Zum Vergleich: In der Ölkrise 1973 galt in der Schweiz zeitweise Tempo 100."
+          ],
+          "einschaetzung": "ADAC und 20 Minuten berichten übereinstimmend; es ist eine Prüfung, kein Beschluss.",
+          "quellen": [
+            {"name": "ADAC", "url": "https://www.adac.de/news/verkehr-schweiz-tempo-80/"},
+            {"name": "20 Minuten", "url": "https://www.20min.ch/story/drohendes-tempo-80-ausbremsen-waere-absurd-e-autos-sollen-weiter-120-fahren-duerfen-103659014"}
+          ]
+        },
+        {
+          "titel": "Sibirien versinkt im Schnee – kommt jetzt ein harter Winter?",
+          "kurz": "Die Schneedecke breitete sich im Oktober so schnell aus wie selten in <b>30 Jahren</b>. Für Deutschland sagt das wenig.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Sibirien", "suche": "Sibirien Russland"}],
+          "lang": [
+            "Eine alte Faustregel verbindet viel Herbstschnee in Sibirien mit einem frostigen Winter bei uns. Seit 1979 lag sie aber nur etwa jedes zweite Mal richtig – nach einem ähnlich schneereichen Oktober 2019 folgte einer der wärmsten Winter seit Messbeginn.",
+            "Die großen Jahreszeitenmodelle erwarten eher einen milden, nassen Winter mit Atlantikstürmen. Entscheidend dürfte der Polarwirbel sein."
+          ],
+          "einschaetzung": "Die Schnee-Daten sind belegt, jede Winterprognose ab Anfang November bleibt Spekulation.",
+          "quellen": [{"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/schnellster-schnee-seit-30-jahren-was-sibirien-jetzt-ueber-unseren-winter-verraet-10556994"}]
+        },
+        {
+          "titel": "Aufstand in der Landesliga: 21 Spieler streiken gegen ihren Trainer",
+          "kurz": "Bei Türkgücü München verweigerten die Spieler Training und Spiel – beim <b>1:6</b> gegen Wacker saßen sie im Trainingsanzug auf der Bank.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "München", "suche": "München"}],
+          "lang": [
+            "Der Protest richtet sich gegen den Führungsstil von Trainer Slaven Skeledzic, einem früheren Assistenten von Miroslav Klose im Bayern-Nachwuchs. Ihm wird vorgeworfen, junge Spieler angeschrien zu haben. Er weist die Kritik zurück und droht mit rechtlichen Schritten.",
+            "Das nächste Auswärtsspiel wurde abgesagt, der Hauptsponsor ist ausgestiegen. Der Klub spielte vor fünf Jahren noch in der 3. Liga."
+          ],
+          "einschaetzung": "Vorwürfe stammen aus Bild-Berichten, vom Verein bestritten.",
+          "quellen": [
+            {"name": "LiveScore / Goal", "url": "https://www.livescore.com/en/news/football/bundesliga/21-players-go-on-strike-against-former-bayern-munich-coach-former-third-division-club-trkgc-mnchen-sinks-into-chaos-goal/"},
+            {"name": "kicker", "url": "https://www.kicker.de/ehemaliger-klose-assistent-im-fokus-neuer-wirbel-bei-tuerkguecue-muenchen-nach-spielerboykott-1267721/artikel"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Musiala:</b> Ein Fußballportal titelt, das Comeback-Datum „steht“. Sport1 schreibt dagegen, ein Termin sei offen. Bestätigt ist nur, dass er in Madrid fehlt.",
+    "<b>Trump und Iran:</b> „Keine neuen Angriffe nach der Wahl“ und „Drohung bekräftigt“ – beides wird berichtet. Trump schließt Schläge nicht aus, nennt aber keinen Zeitplan.",
+    "<b>Halloween-Nadeln:</b> Der Garbsener Riegel stammt aus dem Supermarkt, nicht von der Halloween-Tour. Ob die Fälle zusammenhängen, ist völlig offen.",
+    "<b>US-Wahl:</b> Umfragen sind keine Ergebnisse. In knappen Staaten kann die Auszählung Tage dauern – frühe Siegerklärungen mit Vorsicht lesen."
+  ],
+  "woche": [
+    {"wann": "Di 3. Nov", "titel": "Amerika wählt, Bayern in Madrid", "text": "Wolken lockern auf, rund 5 Sonnenstunden, trocken, <b>5 bis 9 Grad</b>. <b>US-Kongresswahl</b>, erste Wahllokale schließen kurz nach Mitternacht unserer Zeit. Champions League: <b>18:45 Uhr</b> Galatasaray–Stuttgart, <b>21 Uhr</b> Atlético–Bayern."},
+    {"wann": "Mi 4. Nov", "titel": "Grau, Streik, Wahlnacht-Bilanz", "text": "Dichte Wolken, trocken, <b>4 bis 9 Grad</b>. Regiobus-Warnstreik ab <b>Mellendorf und Burgdorf</b>. Erste US-Ergebnisse am Morgen. <b>21 Uhr:</b> Dortmund–Betis und Leipzig–Manchester City."},
+    {"wann": "Do 5. bis So 8. Nov", "titel": "Kühl und meist trocken", "text": "Donnerstag heiter, <b>3 bis 8 Grad</b>, danach kühl bei 6 bis 9 Grad. <b>Fr:</b> Regiobus-Streik ab Eldagsen, Metall-Tarifrunde in Bremen. <b>So 13:30 Uhr:</b> Heidenheim–96, abends Formel 1 in Brasilien. Vormerken: S6/S51 fallen ab 12. November aus."}
+  ]
+}
