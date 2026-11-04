@@ -1,0 +1,618 @@
+{
+ "stand": "Stand: Mittwoch, 3 Uhr",
+ "kurz": [
+  "<b>US-Wahlnacht läuft:</b> Die Demokraten holen mit Roy Cooper in <b>North Carolina</b> den ersten Senatssitz von den Republikanern, Florida bleibt republikanisch. Beim Repräsentantenhaus deuten erste Hochrechnungen auf die Demokraten, entschieden ist noch nichts.",
+  "<b>Bayern siegt ohne Kompany:</b> 2:0 bei Atlético Madrid, Tore von <b>Lennart Karl</b> und Konrad Laimer. Stuttgart verliert dagegen 0:2 in Istanbul.",
+  "<b>Rathaus-Poker in Hannover:</b> Die Grünen stoppen die Koalitionsgespräche mit der SPD, und CDU-Kreischefin Machulla tritt zurück. Ihr Nachfolger soll am <b>2. Dezember</b> gewählt werden.",
+  "<b>Renten-Plus in Sicht:</b> Laut Entwurf des Rentenversicherungsberichts sollen die Renten im Juli 2027 um rund <b>4,1 Prozent</b> steigen.",
+  "<b>Iran droht:</b> Nach einem gemeldeten US-Schlag auf die Insel <b>Gheschm</b> warnt Teheran vor einem „neuen Schlachtfeld“. Öl der Sorte Brent kostet rund 106 Dollar.",
+  "<b>Pilz-Warnung der MHH:</b> Ein Mensch ist an einer Knollenblätterpilz-Vergiftung gestorben. Seit September behandelte die Klinik <b>vier Fälle</b>."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "meldungen": [
+    {
+     "titel": "Rathaus ohne Plan: Grüne stoppen Gespräche, CDU-Chefin geht",
+     "kurz": "Die Grünen brechen den Weg zu Koalitionsverhandlungen mit der SPD vorerst ab. Bei der CDU legt Kreischefin <b>Martina Machulla</b> den Vorsitz nieder.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Neues Rathaus",
+       "suche": "Neues Rathaus Hannover"
+      }
+     ],
+     "lang": [
+      "Die SPD hatte nach den Sondierungen einstimmig für Koalitionsgespräche gestimmt. Die Grünen-Mitgliederversammlung bremste dann: Auf SPD-Seite fehlten noch die „strukturellen Voraussetzungen“. Laut HAZ, zitiert von Radio Hannover, geht es um Kämmerer Axel von der Ohe. Er hatte die Wahl verloren, bleibt aber im Amt und soll ein Jobangebot des Landes abgelehnt haben.",
+      "Bei der CDU zog Machulla die Konsequenz aus der Kandidatenliste für die Landtagswahl 2027, auf der sie nur Platz vier bekam. Ihr Landtagsmandat behält sie. Bis zur Neuwahl des Kreisvorsitzes am 2. Dezember führen die Stellvertreter die Partei."
+     ],
+     "einschaetzung": "Beides ist von Radio Hannover und t-online belegt. Wie es mit Rot-Grün weitergeht, ist offen.",
+     "quellen": [
+      {
+       "name": "Radio Hannover (Grüne)",
+       "url": "https://www.radio-hannover.de/hannover-news/hannover-gruene-stoppen-ueberraschend-koalitionsgespraeche-mit-spd"
+      },
+      {
+       "name": "t-online Hannover (CDU)",
+       "url": "https://hannover.t-online.de/region/hannover/id_101509806/martina-machulla-hannovers-cdu-chefin-tritt-zurueck-der-grund.html"
+      }
+     ]
+    },
+    {
+     "titel": "Tödlicher Pilz: MHH warnt vor Knollenblätterpilzen",
+     "kurz": "Ein Mensch ist an einer Vergiftung gestorben. Die Medizinische Hochschule hat seit September <b>vier Patienten</b> mit Knollenblätterpilz-Vergiftung behandelt.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "MHH",
+       "suche": "Medizinische Hochschule Hannover"
+      }
+     ],
+     "lang": [
+      "Zwei Patienten überlebten dank eines Gegengifts, einer brauchte eine neue Leber. Wo der Todesfall geschah, ist nicht bekannt. Tückisch ist der Verlauf: Erst kommen Übelkeit, Erbrechen und Durchfall, die Leberschäden folgen ein bis zwei Tage später.",
+      "Die MHH rät, sich beim Sammeln nicht auf Apps oder Bücher zu verlassen und Funde von Fachleuten prüfen zu lassen. Bei Verdacht sofort den Notarzt rufen."
+     ],
+     "einschaetzung": "Warnung der Klinik, berichtet von Radio Hannover; Details zum Todesfall fehlen.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/mensch-stirbt-an-knollenblaetterpilz-mhh-warnt-vor-vergiftungen"
+      }
+     ]
+    },
+    {
+     "titel": "Präparierte Süßigkeiten: Jetzt ermittelt auch Österreich",
+     "kurz": "In der Region sind inzwischen <b>vier Fälle</b> mit Nadeln, Schrauben oder Metall in Süßigkeiten bekannt, darunter Garbsen, Mellendorf und Hannover. Verletzt wurde niemand.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Garbsen",
+       "suche": "Garbsen Region Hannover"
+      },
+      {
+       "name": "Mellendorf",
+       "suche": "Mellendorf Wedemark"
+      }
+     ],
+     "lang": [
+      "Die Polizei ermittelt wegen gefährlicher Körperverletzung. Weitere Funde gibt es in Niedersachsen, etwa in Edewecht und in Othfresen bei Goslar. In Österreich hat das Bundeskriminalamt eine eigene Ermittlungsgruppe gegründet und steht mit Europol in Kontakt.",
+      "Der Wiener Ermittlungschef hält es für möglich, dass sich Täter im Internet absprechen. Belegt ist das nicht."
+     ],
+     "einschaetzung": "Funde sind polizeilich bestätigt; ein Zusammenhang zwischen den Fällen ist reine Vermutung.",
+     "quellen": [
+      {
+       "name": "Antenne Niedersachsen",
+       "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-%E2%80%93-03.-November-2026-id1751136.html"
+      },
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Was sonst in Stadt und Region wichtig ist.",
+     "liste": [
+      "<b>Südstadt:</b> Das Loch in der Bandelstraße kommt von einer kaputten Kanal-Anschlussleitung, die den Boden ausgespült hat. Freigabe bis Ende der Woche geplant.",
+      "<b>Metall-Warnstreik:</b> Die IG Metall rief Beschäftigte von Siemens, Renk, Komatsu und ZF WABCO zur Kundgebung auf den Opernplatz.",
+      "<b>Kältehilfe:</b> Stadt und Verbände starten die Winternothilfe für Wohnungslose, die Straßensozialarbeit kommt in weitere Stadtteile.",
+      "<b>Linden:</b> Im Von-Alten-Garten schweben Lichtfische: Die Installation „SCHWARM“ leuchtet bis Ende November täglich von 17 bis 19 Uhr.",
+      "<b>Schröder:</b> Beim SPD-Bezirk Hannover sind zwei neue Anträge auf ein Parteiordnungsverfahren gegen den Altkanzler eingegangen, Anlass ist sein Besuch bei Putins Geburtstag.",
+      "<b>Ehrenamt:</b> Niedersachsen führt eine lebenslang gültige Jubiläums-Ehrenamtskarte für Menschen mit 25 Jahren Engagement ein."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Bandelstraße",
+       "suche": "Bandelstraße Hannover"
+      },
+      {
+       "name": "Opernplatz",
+       "suche": "Opernplatz Hannover"
+      },
+      {
+       "name": "Von-Alten-Garten",
+       "suche": "Von-Alten-Garten Hannover Linden"
+      }
+     ],
+     "lang": [
+      "Kleinere Meldungen von Radio Hannover und Antenne Niedersachsen vom Dienstag."
+     ],
+     "einschaetzung": "Angaben von Stadt, Gewerkschaft, Partei und Land.",
+     "quellen": [
+      {
+       "name": "Radio Hannover (Bandelstraße)",
+       "url": "https://www.radio-hannover.de/hannover-news/suedstadt-stadt-gibt-erklaerung-fuer-loch-in-der-bandelstrasse"
+      },
+      {
+       "name": "Radio Hannover (Metaller)",
+       "url": "https://www.radio-hannover.de/hannover-news/warnstreiks-der-metaller-zentrale-kundgebung-in-hannover"
+      },
+      {
+       "name": "Radio Hannover (Kältehilfe)",
+       "url": "https://www.radio-hannover.de/hannover-news/stadt-und-verbaende-starten-kaeltehilfe-fuer-wohnungslose-menschen"
+      },
+      {
+       "name": "Radio Hannover (Übersicht)",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "Renten sollen 2027 um gut vier Prozent steigen",
+     "kurz": "Der Entwurf des Rentenversicherungsberichts sieht für den <b>1. Juli 2027</b> ein Plus von etwa <b>4,1 Prozent</b> vor.",
+     "bewertung": "plausibel",
+     "lang": [
+      "Zuerst berichtete die FAZ über den Entwurf, ZDFheute griff die Zahl auf. Zum Vergleich: Im Juli 2026 stiegen die Renten um 4,24 Prozent, nachdem die erste Schätzung bei 3,7 Prozent gelegen hatte.",
+      "Die Frühjahrsschätzung der Rentenversicherung hatte noch 4,4 Prozent erwartet. Endgültig legt das Arbeitsministerium den Wert erst im Frühjahr fest, wenn die Lohnentwicklung feststeht."
+     ],
+     "einschaetzung": "Entwurfszahl aus einem Medienbericht; der amtliche Wert kommt erst 2027 und kann noch abweichen.",
+     "quellen": [
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Berliner Zeitung (Prognose 4,4 %)",
+       "url": "https://www.berliner-zeitung.de/article/10459120"
+      }
+     ]
+    },
+    {
+     "titel": "Spritpreisdeckel: Kritik von SPD und aus Niedersachsen",
+     "kurz": "SPD-Generalsekretär Klüssendorf hält Reiches Entwurf für <b>zu spät wirksam</b> und leicht zu umgehen. Ministerpräsident Lies nennt die Hürden zu hoch.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Berlin",
+       "suche": "Bundeswirtschaftsministerium Berlin"
+      }
+     ],
+     "lang": [
+      "Der Deckel soll laut Entwurf nur greifen, wenn die Preise hierzulande deutlich stärker steigen als im EU-Schnitt, und das mehrere Wochen am Stück. Klüssendorf warnt, die Mineralölkonzerne könnten den Mechanismus aushebeln.",
+      "Olaf Lies fordert einen Deckel, der tatsächlich wirkt. Damit wächst der Druck auf Wirtschaftsministerin Reiche aus der eigenen Koalition."
+     ],
+     "einschaetzung": "Aussagen sind von ZDFheute und Radio Hannover dokumentiert; ein geänderter Entwurf liegt noch nicht vor.",
+     "quellen": [
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Radio Hannover (Lies)",
+       "url": "https://www.radio-hannover.de/hannover-news/ministerpraesident-lies-kritisiert-plaene-zum-spritpreisdeckel"
+      }
+     ]
+    },
+    {
+     "titel": "Schaeffler streicht weitere Tausende Stellen",
+     "kurz": "Der Autozulieferer will <b>2.660 Stellen in Deutschland</b> abbauen, europaweit 3.460. Vier deutsche Standorte sollen perspektivisch schließen.",
+     "bewertung": "plausibel",
+     "lang": [
+      "Es ist bereits die zweite große Abbaurunde: Im November 2024 hatte Schaeffler rund 4.700 Stellen in Europa angekündigt, dieses Programm ist weitgehend umgesetzt. Hinzu kamen etwa 1.800 Altersteilzeitverträge.",
+      "Welche Werke diesmal betroffen sind, nennen die bisherigen Berichte nicht. Die Branche steckt weiter in der Krise, der Umbau zur E-Mobilität kostet Jobs."
+     ],
+     "einschaetzung": "Zahlen von mehreren Medien bestätigt, die Standorte sind aber noch offen.",
+     "quellen": [
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101509894/schaeffler-autozulieferer-streicht-3460-stellen-in-deutschland.html"
+      },
+      {
+       "name": "produktion.de",
+       "url": "https://www.produktion.de/wirtschaft/schaeffler-plant-stellenabbau-und-werksschliessungen-in-deutschland/2761568"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Deutschland.",
+     "liste": [
+      "<b>Razzia:</b> 1.000 Beamte durchsuchten 82 Objekte in Hessen, NRW und Rheinland-Pfalz – Ermittlungen gegen eine Gruppe, die Straftaten „als Dienstleistung“ anbot. Fünf Haftbefehle.",
+      "<b>Lufthansa:</b> Konzernchef Spohr kündigt für 2027 Ticketpreise an, die zweistellig steigen könnten. Kerosin kostete dieses Jahr zwei Milliarden Euro mehr.",
+      "<b>Weihnachten:</b> Laut HDE-Umfrage wollen die Deutschen im Schnitt 262 Euro für Geschenke ausgeben, einen Euro weniger als 2025.",
+      "<b>Strom für KI:</b> Deutsche Rechenzentren brauchen laut Bitkom 2026 rund 23 Milliarden Kilowattstunden, bis 2030 bis zu 38.",
+      "<b>Tübingen:</b> Boris Palmer lässt sein Berateramt ruhen. Er weist Vorwürfe zu seinem Privatleben zurück.",
+      "<b>Block-Prozess:</b> Das Landgericht Hamburg plant nun Termine bis Ende Februar 2027."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Frankfurt am Main",
+       "suche": "Staatsanwaltschaft Frankfurt am Main"
+      }
+     ],
+     "lang": [
+      "Kurzmeldungen aus dem ZDFheute-Ticker vom Dienstag."
+     ],
+     "einschaetzung": "Meldungen von Behörden, Verbänden und Unternehmen.",
+     "quellen": [
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "US-Wahlnacht: Demokraten holen ersten Senatssitz",
+     "kurz": "Ex-Gouverneur <b>Roy Cooper</b> gewinnt North Carolina für die Demokraten. Florida verteidigt die Republikanerin Ashley Moody. Das Repräsentantenhaus neigt laut ersten Einschätzungen den Demokraten zu.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "North Carolina",
+       "suche": "Raleigh North Carolina"
+      },
+      {
+       "name": "Florida",
+       "suche": "Tallahassee Florida"
+      }
+     ],
+     "lang": [
+      "Fest stehen bislang unter anderem Mark Warner in Virginia und Jon Ossoff in Georgia, beide Demokraten. In Ohio lag Sherrod Brown nach den ersten ausgezählten Stimmen deutlich vor Amtsinhaber Husted, in Texas führte James Talarico früh gegen Ken Paxton. Für die Senatsmehrheit brauchen die Demokraten netto vier Sitze.",
+      "Im Repräsentantenhaus waren zum Redaktionsschluss erst wenige Sitze ausgezählt. Die letzten Wahllokale in Alaska schließen gegen 6 Uhr unserer Zeit, in knappen Staaten kann die Auszählung Tage dauern."
+     ],
+     "einschaetzung": "Die Siege in North Carolina und Florida melden mehrere US-Medien übereinstimmend. Alles andere ist ein Zwischenstand der Nacht.",
+     "quellen": [
+      {
+       "name": "The Hill (North Carolina)",
+       "url": "https://thehill.com/homenews/campaign/6182902-roy-cooper-north-carolina-senate-win/"
+      },
+      {
+       "name": "CBS News (Florida)",
+       "url": "https://www.cbsnews.com/news/florida-2026-senate-moody-nixon/"
+      },
+      {
+       "name": "watson.ch Liveticker",
+       "url": "https://www.watson.ch/international/usa/171487253-alle-resultate-zu-den-midterms-2026-live"
+      },
+      {
+       "name": "Houston Public Media (Texas)",
+       "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/11/03/565938/talarico-paxton-senate-race-texas-results/"
+      }
+     ]
+    },
+    {
+     "titel": "Gheschm: US-Schlag und Irans Drohung",
+     "kurz": "US-Medien berichten, ein US-Jet habe auf der iranischen Insel <b>Gheschm</b> eine Flugabwehrstellung der Revolutionsgarden getroffen. Teheran droht mit einem „neuen Schlachtfeld“.",
+     "bewertung": "vorsicht",
+     "orte": [
+      {
+       "name": "Insel Gheschm",
+       "suche": "Qeshm Island Iran"
+      },
+      {
+       "name": "Straße von Hormus",
+       "suche": "Strait of Hormuz"
+      }
+     ],
+     "lang": [
+      "Auslöser soll eine Rakete gewesen sein, die von der Insel aus auf ein US-Flugzeug in der Straße von Hormus abgefeuert wurde. Anwohner meldeten nachts Explosionen. Das US-Zentralkommando hat den Angriff weder bestätigt noch dementiert, die Revolutionsgarden behaupten, sie hätten US-Drohnen abgeschossen.",
+      "Parlamentspräsident Ghalibaf schiebt die Verantwortung für eine Eskalation nach Washington. Iranische Medien bringen auch US-Basen in Europa, darunter Deutschland, ins Spiel. Der Ölpreis zog an: Brent kostete rund 106 Dollar."
+     ],
+     "einschaetzung": "Offizielle Bestätigung fehlt auf beiden Seiten; die Drohnen-Abschüsse sind nur iranische Angaben.",
+     "quellen": [
+      {
+       "name": "Euronews",
+       "url": "https://de.euronews.com/2026/11/03/iran-droht-usa-angriff-qeschm"
+      },
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Ukraine: Merz lädt nach Berlin, Melania Trump vermittelt",
+     "kurz": "Nach dem Treffen mit Selenskyj kündigt der Kanzler ein Gipfeltreffen der „Koalition der Willigen“ am <b>19. November</b> in Berlin an.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Kanzleramt Berlin",
+       "suche": "Bundeskanzleramt Berlin"
+      },
+      {
+       "name": "Oleschky",
+       "suche": "Oleshky Ukraine"
+      }
+     ],
+     "lang": [
+      "Dort soll festgelegt werden, wie viel Hilfe die Ukraine 2027 bekommt, vor allem militärisch. Merz rief die Partner auf, nicht nachzulassen; Munition für F-16 und Flugabwehr werde weiter geliefert.",
+      "Parallel will Melania Trump Vertreter beider Kriegsparteien im Weißen Haus zusammenbringen. Sie hatte eine begrenzte Waffenruhe in der besetzten Frontstadt Oleschky vermittelt. Wer zu den Gesprächen kommt, ist offen."
+     ],
+     "einschaetzung": "Merz' Ankündigung ist öffentlich belegt; zum Melania-Treffen gibt es weder Datum noch Teilnehmer.",
+     "quellen": [
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4181024-merz-announces-november-19-meeting-of-coalition-of-the-willing-in-berlin.html"
+      },
+      {
+       "name": "watson.ch (Melania Trump)",
+       "url": "https://www.watson.ch/international/russland/329393786-melania-trump-kuendigt-treffen-mit-ukrainern-und-russen-an"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "liste": [
+      "<b>Spanien:</b> Nach dem Zugunglück bei Urda mit 69 Toten beschließt die Regierung neue Sicherheitsregeln und 30 Millionen Euro Hilfe.",
+      "<b>Madrid:</b> 400 Polizisten räumten das Protestcamp gegen Wohnungsnot auf der Puerta del Sol, das über fünf Wochen stand.",
+      "<b>Polen:</b> Eine Maschine aus London mit 181 Menschen landete nach einer Bombendrohung in Modlin statt Warschau.",
+      "<b>EZB:</b> Die Euro-Länder sollen bis Freitag Kandidaten für die Lagarde-Nachfolge benennen.",
+      "<b>Israel:</b> Trump sagte Fox News, die jährliche US-Militärhilfe von vier Milliarden Dollar ende nach diesem Jahr. Eine Bestätigung aus Israel fehlt bisher."
+     ],
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Puerta del Sol",
+       "suche": "Puerta del Sol Madrid"
+      },
+      {
+       "name": "Flughafen Modlin",
+       "suche": "Warsaw Modlin Airport"
+      }
+     ],
+     "lang": [
+      "Kurzmeldungen aus dem ZDFheute-Ticker vom Dienstag."
+     ],
+     "einschaetzung": "Die meisten Punkte sind amtlich; die Israel-Aussage stammt nur aus einem TV-Interview.",
+     "quellen": [
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "hinweis": "Zu Scorpions und Indians fanden wir keine verlässlich datierten neuen Ergebnisse.",
+   "meldungen": [
+    {
+     "titel": "Bayern gewinnt in Madrid – Karl trifft wieder",
+     "kurz": "Ohne den kranken Kompany siegen die Münchner <b>2:0 bei Atlético</b>. Lennart Karl (54.) und Konrad Laimer (74.) treffen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Metropolitano",
+       "suche": "Estadio Metropolitano Madrid"
+      }
+     ],
+     "lang": [
+      "Interimscoach Aaron Danks führte die Mannschaft an der Seitenlinie. Nach torloser erster Hälfte brach Karl den Bann, Laimer machte eine Viertelstunde vor Schluss alles klar.",
+      "Rund um den 18-jährigen Torschützen bleibt es laut: Mats Hummels kritisierte seinen Jubel, was ihn bei Google in die Trends brachte."
+     ],
+     "einschaetzung": "Ergebnis und Torschützen von ESPN und weiteren Quellen bestätigt.",
+     "quellen": [
+      {
+       "name": "ESPN",
+       "url": "https://www.espn.com/soccer/report/_/gameId/401915386"
+      },
+      {
+       "name": "VAVEL",
+       "url": "https://www.vavel.com/en-us/soccer/2026/11/03/1277856-atletico-de-madrid-vs-bayern-munich-live-score-uefa-champions-league.html"
+      }
+     ]
+    },
+    {
+     "titel": "Stuttgart verliert in Istanbul nach frühem Doppelschlag",
+     "kurz": "Alexei Batrakow trifft in der <b>12. und 15. Minute</b> – Galatasaray gewinnt 2:0. Für den VfB ist es die erste Niederlage in der Königsklasse.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "RAMS Park",
+       "suche": "RAMS Park Istanbul"
+      }
+     ],
+     "lang": [
+      "Pech hatte Stuttgart schon vorher: Jamie Leweling traf in der 8. Minute erst den einen, dann den anderen Pfosten. Ein Tor von Chris Führich zählte wegen Abseits nicht.",
+      "Bisher hatte der VfB zwei Siege und ein Remis. Weiter geht es am 25. November bei Inter Mailand."
+     ],
+     "einschaetzung": "ZDFheute und ESPN melden übereinstimmend.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/sport/fussball-champions-league/fussball-champions-league-galatasaray-vfb-stuttgart-ligaphase-100.html"
+      },
+      {
+       "name": "ESPN",
+       "url": "https://www.espn.com/soccer/match/_/gameId/401915311"
+      }
+     ]
+    },
+    {
+     "titel": "96: Entwarnung bei Chakroun, Tickets für Dezember",
+     "kurz": "Matchwinner <b>Husseyn Chakroun</b> hat sich gegen Dresden nur am Schultereckgelenk verletzt. Ein Einsatz am Sonntag in Heidenheim ist möglich.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Voith-Arena",
+       "suche": "Voith-Arena Heidenheim"
+      }
+     ],
+     "lang": [
+      "Heute beginnt die Vorbereitung auf das Auswärtsspiel, Anpfiff ist Sonntag um 13:30 Uhr. Beide Trainingseinheiten laufen ohne Zuschauer. Für Trainer Sandro Wagner war das 2:1 gegen Dresden der erste Sieg.",
+      "Ebenfalls ab heute (10 Uhr) können Mitglieder Karten für die letzten Heimspiele des Jahres kaufen: gegen Hertha (4. bis 6. Dezember) und Kaiserslautern (18. bis 20. Dezember). Der freie Verkauf startet am 13. November."
+     ],
+     "einschaetzung": "Angaben direkt vom Verein.",
+     "quellen": [
+      {
+       "name": "Hannover 96 (Lüttjes)",
+       "url": "https://www.hannover96.de/newscenter/news/details/37637-luettjes-vom-tage-die-96-kurznachrichten-vom-montag.html"
+      },
+      {
+       "name": "Hannover 96 (Tickets)",
+       "url": "https://www.hannover96.de/newscenter/news/details/new6ae9b97acbb74897841577-letzte-heimspiele-des-jahres-ticketverkauf-fuer-hertha-und-kaiserslautern-startet-am-mittwoch.html"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/aufatmen-bei-96-wichtiger-heimsieg-nach-chaostagen"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Sportmeldungen.",
+     "liste": [
+      "<b>Heute, 21 Uhr:</b> Champions League mit Dortmund gegen Betis Sevilla und Leipzig gegen Manchester City.",
+      "<b>Recken:</b> Nach dem 27:21 gegen den Bergischen HC geht es erst am 15. November in Gummersbach weiter (18 Uhr).",
+      "<b>VfL Wolfsburg:</b> Die Frauen schießen Hoffenheim im DFB-Pokal mit 8:0 ab und stehen im Viertelfinale.",
+      "<b>Formel 1:</b> Am Wochenende steht der Große Preis von Brasilien an."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "ZAG Arena",
+       "suche": "ZAG Arena Hannover"
+      }
+     ],
+     "lang": [
+      "Termine und Ergebnisse von Vereinen und Ligen."
+     ],
+     "einschaetzung": "Spielpläne der Vereine; Ergebnisse gemeldet.",
+     "quellen": [
+      {
+       "name": "Die Recken Spielplan",
+       "url": "https://www.die-recken.de/spielplan/"
+      },
+      {
+       "name": "Antenne Niedersachsen",
+       "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-%E2%80%93-03.-November-2026-id1751136.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit (r/hannover) war für unsere Abfrage gesperrt, heise.de ließ keinen Abruf zu. Wir haben keine Umwege genutzt.",
+   "trends": [
+    {
+     "begriff": "angie nixon",
+     "volumen": "500+",
+     "anlass": "Senatsrennen in Florida"
+    },
+    {
+     "begriff": "mats hummels",
+     "volumen": "200+",
+     "anlass": "Kritik an Karls Jubel"
+    },
+    {
+     "begriff": "wow forever",
+     "volumen": "200+",
+     "anlass": "Neuer WoW-Server startet"
+    },
+    {
+     "begriff": "playstation 5",
+     "volumen": "200+",
+     "anlass": "Black-Friday-Sale"
+    },
+    {
+     "begriff": "nz vs ind",
+     "volumen": "200+",
+     "anlass": "Cricket in Neuseeland"
+    },
+    {
+     "begriff": "magdeburg hauptbahnhof",
+     "volumen": "200+",
+     "anlass": "Bundespolizei-Einsätze"
+    },
+    {
+     "begriff": "kalshi",
+     "volumen": "100+",
+     "anlass": "Wetten auf die US-Wahl"
+    },
+    {
+     "begriff": "devils – oilers",
+     "volumen": "100+",
+     "anlass": "NHL-Spiel in New Jersey"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "World of Warcraft startet noch einmal von vorn",
+     "kurz": "Mit <b>WoW: Forever</b> öffnet Blizzard in der Nacht zu Donnerstag um 0 Uhr einen neuen Dauer-Modus: Start bei Level 1, Ziel Level 60, alte Kontinente neu gebaut.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Neu sind unter anderem eine spielbare Rasse namens Skyborne, mehr als 1.000 Quests, neun Dungeons und ein Lagerfeuer-System für Gruppen. Beim ersten Login wählt man zwischen „Classic“ und „Enhanced“.",
+      "Statt einzelner Server gibt es Regelsätze wie PvP oder Rollenspiel, ein Hardcore-Modus soll folgen. Drei Raids öffnen am 9. Dezember."
+     ],
+     "einschaetzung": "Angaben des Herstellers; Preise nennt Blizzard im Artikel nicht.",
+     "quellen": [
+      {
+       "name": "Blizzard News",
+       "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4"
+      }
+     ]
+    },
+    {
+     "titel": "Wetten auf die Wahl: Milliarden auf Kalshi",
+     "kurz": "Auf der Plattform Kalshi wurden für die Midterms mehr als <b>1,2 Milliarden Dollar</b> gesetzt – mehr als bei der Präsidentenwahl 2024.",
+     "bewertung": "plausibel",
+     "lang": [
+      "Die Anbieter behaupten, Wettmärkte sagten Wahlen besser voraus als Umfragen, weil echtes Geld im Spiel ist. Am Wahltag sahen sie die Demokraten im Senat etwas schwächer als die Umfragemodelle.",
+      "Politisch wächst der Gegenwind: Zwei US-Senatoren fürchten Manipulation, der Bundesstaat Utah streitet mit Kalshi vor Gericht über das Glücksspielrecht."
+     ],
+     "einschaetzung": "Volumen ist eine Firmenangabe von Kalshi, wiedergegeben von Yahoo Finance.",
+     "quellen": [
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/economy/article/prediction-markets-vs-polls-election-forecasting-industry-faces-midterm-test-100000463.html"
+      }
+     ]
+    },
+    {
+     "titel": "PlayStation-Rabatte – aber keine Konsole",
+     "kurz": "Sony startet heute seinen Black-Friday-Sale mit bis zu <b>75 Prozent</b> Rabatt auf Spiele, er läuft bis 30. November.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Reduziert sind PS5-, PS4- und PS-VR2-Titel samt Erweiterungen. Am 16. November wird das Angebot aufgefrischt, einige Rabatte enden schon am 20.",
+      "Hardware fehlt in der Ankündigung komplett. Wer auf eine günstigere PS5 hofft, muss auf Händler-Aktionen warten."
+     ],
+     "einschaetzung": "Offizielle Angaben aus dem PlayStation-Blog.",
+     "quellen": [
+      {
+       "name": "PlayStation Blog",
+       "url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Korrektur:</b> Gestern schrieben wir, den Demokraten fehlten netto drei Sitze im Repräsentantenhaus. Je nach Zählweise (ein Unabhängiger, zwei freie Sitze) nennen Medien drei oder vier.",
+  "<b>Florida:</b> Kurz vor 2 Uhr lag Demokratin Nixon in einem Liveticker knapp vorn. Mehrere US-Sender haben das Rennen inzwischen für Moody entschieden. Frühe Zwischenstände sagen wenig.",
+  "<b>Schaeffler:</b> Eine erste Schlagzeile sprach von 3.460 Stellen „in Deutschland“. Richtig ist: 3.460 in Europa, davon 2.660 in Deutschland.",
+  "<b>Rente:</b> Die 4,1 Prozent stammen aus einem Berichtsentwurf. Die Frühjahrsprognose lag bei 4,4 Prozent, festgelegt wird erst 2027."
+ ],
+ "woche": [
+  {
+   "wann": "Mi 4. Nov",
+   "titel": "Grau, Wahlbilanz, Champions League",
+   "text": "Meist bewölkt, trocken, <b>5 bis 9 Grad</b>, nachts Bodenfrost möglich. Erste US-Ergebnisse am Morgen. 96 startet ins Heidenheim-Training, Ticketverkauf für Mitglieder ab <b>10 Uhr</b>. Regiobus-Warnstreik ab Mellendorf und Burgdorf. <b>21 Uhr:</b> Dortmund–Betis, Leipzig–Manchester City."
+  },
+  {
+   "wann": "Do 5. Nov",
+   "titel": "Heiter und kühl",
+   "text": "Nach Nebel zunehmend freundlich, <b>4 bis 8 Grad</b>, nachts leichter Frost möglich. <b>0 Uhr:</b> WoW: Forever geht online."
+  },
+  {
+   "wann": "Fr 6. bis So 8. Nov",
+   "titel": "Sonne, dann grau – 96 in Heidenheim",
+   "text": "Freitag überwiegend sonnig bei <b>3 bis 6 Grad</b>, Samstag trüb und kalt bei 2 bis 4 Grad. <b>Fr:</b> Regiobus-Streik ab Eldagsen. <b>So 13:30 Uhr:</b> Heidenheim–96, abends Formel 1 in Brasilien. Vormerken: S6/S51 fallen ab 12. November aus."
+  }
+ ]
+}

@@ -4,267 +4,270 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Konzert-Radar – Metal & Rock rund um Hannover</title>
-<meta name="description" content="Tägliches Konzert-Radar mit neuen Metal-, Punk- und Rockterminen in Hannover und bis rund 300 km Umkreis.">
+<meta name="description" content="Tägliches Konzert-Radar mit neuen Metal-, Rock- und Punk-Terminen in Hannover und bis zu 300 Kilometern Umkreis.">
 <link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/">
 <style>
-:root{--bg:#faf6ef;--paper:#fffdf8;--ink:#23201b;--muted:#6b6358;--line:#e4dccd;--red:#9b1c1c;--petrol:#0f6b6b;--ocker:#a8710f;--violett:#6b3fa0;--blau:#2b5a8a;--c:var(--red)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17150f;--paper:#211e17;--ink:#ece6da;--muted:#a79e8f;--line:#3a352b;--red:#e06a5f;--petrol:#4fb8b3;--ocker:#e0aa45;--violett:#b394e6;--blau:#7fb0e0}}
-:root[data-theme="dark"]{--bg:#17150f;--paper:#211e17;--ink:#ece6da;--muted:#a79e8f;--line:#3a352b;--red:#e06a5f;--petrol:#4fb8b3;--ocker:#e0aa45;--violett:#b394e6;--blau:#7fb0e0}
+:root{--bg:#f7f3ea;--card:#fffdf8;--ink:#1f1b16;--muted:#6b6257;--line:#e3dccd;--c:#8b1e1e;
+--red:#8b1e1e;--teal:#1d6b70;--ochre:#a8741a;--violet:#5b3a8c;--slate:#3f4d5c;--warn:#a3461b}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#16130f;--card:#201c17;--ink:#ede6d8;--muted:#a89d8c;--line:#3a332a;
+--red:#e0766c;--teal:#5fb7bb;--ochre:#e0b05a;--violet:#b49be0;--slate:#9fb0c2;--warn:#e89466}}
+:root[data-theme="dark"]{--bg:#16130f;--card:#201c17;--ink:#ede6d8;--muted:#a89d8c;--line:#3a332a;--red:#e0766c;--teal:#5fb7bb;--ochre:#e0b05a;--violet:#b49be0;--slate:#9fb0c2;--warn:#e89466}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif}
-.wrap{max-width:1040px;margin:0 auto;padding:28px 16px 48px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
 header{border-bottom:3px double var(--line);padding-bottom:14px;margin-bottom:22px}
-.kicker,.pill,.chip,.meta,.bl,.sp,footer,h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
-.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+.kicker,.pill,.meta,.chip,.lbl,footer{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 h1{font-size:44px;line-height:1.05;margin:6px 0 6px;letter-spacing:-.01em}
-.date{color:var(--muted);font-size:15px;margin:0}
-.lead{margin:10px 0 0;font-size:17px}
-section{margin:30px 0}
-h2{display:flex;align-items:center;gap:10px;font-size:15px;margin:0 0 12px}
-.pill{display:inline-block;background:var(--c);color:var(--paper);border-radius:999px;padding:4px 12px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.date{font:600 14px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+h2{font-size:24px;margin:34px 0 12px;display:flex;align-items:center;gap:10px}
+.pill{display:inline-block;background:var(--c);color:var(--bg);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
+.box{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:8px;padding:16px 18px;margin:18px 0}
+.box h3{margin:0 0 8px;font-size:19px}
+.box ul{margin:0;padding-left:20px}.box li{margin:5px 0}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.card,.box{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:14px 16px}
-.card h3{font-size:20px;line-height:1.25;margin:0 0 4px}
-.card h3 small{font-weight:400;color:var(--muted);font-size:15px}
+@media (max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:36px}}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:8px;padding:14px 16px}
+.card h3{margin:0 0 4px;font-size:20px;line-height:1.25}
+.card .sup{font-weight:400;color:var(--muted);font-size:16px}
 .meta{font-size:13px;color:var(--muted);margin:0 0 8px}
 .card p{margin:6px 0}
-.chip{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border:1.5px solid var(--c);color:var(--c);border-radius:4px;padding:1px 7px;margin-bottom:6px}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;border:1px solid currentColor;color:var(--c);margin-bottom:6px}
+.chip.warn{color:var(--warn)}
 details{margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}
 summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}
 details p{font-size:15.5px}
-a{color:var(--c)}
 .src{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-.src a{color:var(--muted)}
+.src a,a{color:var(--c)}
 .sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
 .bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
-.box ul{margin:6px 0 0;padding-left:20px}
-.box li{margin:5px 0}
-.s-top{--c:var(--blau)}.s-neu{--c:var(--red)}.s-fest{--c:var(--petrol)}.s-erin{--c:var(--ocker)}.s-tipp{--c:var(--violett)}.s-warn{--c:var(--red)}.s-woche{--c:var(--petrol)}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-footer{border-top:3px double var(--line);margin-top:36px;padding-top:14px;font-size:13px;color:var(--muted)}
+.new{--c:var(--red)}.fest{--c:var(--teal)}.rem{--c:var(--ochre)}.tip{--c:var(--violet)}.look{--c:var(--warn)}.week{--c:var(--slate)}.top{--c:var(--ink)}
+footer{margin-top:40px;border-top:3px double var(--line);padding-top:14px;font-size:13px;color:var(--muted)}
 footer a{color:var(--muted)}
-@media (max-width:640px){h1{font-size:34px}.grid,.two{grid-template-columns:1fr}body{font-size:16.5px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
-<p class="kicker">Metal · Punk · Rock · Hannover und 300 km drumherum</p>
+<div class="kicker">Metal · Rock · Punk · rund um Hannover</div>
 <h1>Konzert-Radar</h1>
-<p class="date">Dienstag, 3. November 2026 · Stand: 03:44 Uhr</p>
-<p class="lead">Die Wüstenrocker kommen in den Stadtpark, Deathcore-Pioniere kündigen Hamburg an, und eine Dortmunder Stoner-Band macht nächste Woche in der Glocksee Halt.</p>
+<div class="date">Mittwoch, 4. November 2026 · Stand: 03:44 Uhr</div>
 </header>
 
-<section class="s-top">
-<div class="box">
-<h2><span class="pill">Das Wichtigste in 60 Sekunden</span></h2>
+<section class="box top">
+<h3>Das Wichtigste in 60 Sekunden</h3>
 <ul>
-<li><strong>Queens Of The Stone Age</strong> spielen am <strong>13. Juni 2027 auf der Gilde Parkbühne Hannover</strong>, eine von nur zwei Deutschland-Shows. Vorverkauf ab <strong>Freitag, 6. November, 10 Uhr</strong>.</li>
-<li><strong>Suicide Silence</strong> bringen Fleshgod Apocalypse mit und spielen am <strong>24. April 2027 im Gruenspan Hamburg</strong>. Tickets ebenfalls ab 6. November.</li>
-<li><strong>Der W</strong> (Stephan Weidner) startet seine 15-Städte-Tour am <strong>29. September 2027 im Capitol Hannover</strong>. Vorverkauf schon <strong>morgen, 4. November, 10 Uhr</strong>, nur über myticket.</li>
-<li>Stoner-Tipp vor der Haustür: <strong>Daily Thompson + Constance Tomb</strong> am <strong>10. November im Café Glocksee</strong>.</li>
-<li><strong>The Ocean</strong> beenden ihr Konzertjahr am <strong>19. Dezember im Gruenspan Hamburg</strong>, mit Hypno5e als Gästen.</li>
+<li><strong>Meshuggah</strong> feiern 40 Jahre mit Periphery und Vildhjarta – einziger Nord-Termin: <strong>7. Oktober 2027, Hamburg Inselpark Arena</strong>. Presale Do 5.11., freier Verkauf Fr 6.11., je 12 Uhr.</li>
+<li><strong>Scorpions</strong> kündigen die „Love, Peace and Rock ’n’ Roll Tour 2027“ an – <strong>Ticketstart heute ab 11 Uhr</strong> (je nach Quelle Presale), die Termin-Liste ist allerdings widersprüchlich.</li>
+<li><strong>Pascow</strong> kommen am 25. März 2027 ins Capitol Hannover – zwei andere Tourstopps sind <strong>schon ausverkauft</strong>.</li>
+<li><strong>Sperling</strong> bringen ihr drittes Album „Nemo“ am 4. April 2027 in die Faust.</li>
+<li><strong>Deep Purple</strong> brechen ihre Europatour ab – Hamburg war schon vorher gestrichen, Tickets bleiben gültig.</li>
 </ul>
-</div>
 </section>
 
-<section class="s-neu">
-<h2><span class="pill">Neu entdeckt</span></h2>
-<div class="grid">
+<h2><span class="pill" style="--c:var(--red)">Neu entdeckt</span></h2>
+<div class="grid new">
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Daily Thompson <small>+ Constance Tomb</small></h3>
-<p class="meta">Di, 10.11.2026 · Café Glocksee, Hannover · in Hannover · Preis: siehe Veranstalter</p>
-<p>Das Dortmunder Trio stellt sein im August erschienenes Album <strong>„Glue“</strong> live vor. Als Gäste dabei sind Constance Tomb, die wiederbelebte erste Band von Produzent <strong>Tony Reed</strong> (Mos Generator).</p>
-<p><strong>Hörtipp:</strong> „Glue“ <a class="sp" href="https://open.spotify.com/search/Daily%20Thompson%20Glue" target="_blank" rel="noopener">▶ Spotify</a> – der Titelsong zeigt, wie die Band Fuzz und Melodie verklebt.</p>
-<p class="bl"><a href="https://dailythompsonband.bandcamp.com" target="_blank" rel="noopener">Bandcamp</a> · <a href="https://www.instagram.com/dailythompson_/" target="_blank" rel="noopener">Instagram @dailythompson_</a></p>
+<h3>Wishbone Ash</h3>
+<p class="meta">Sa 9. Januar 2027 · Blues Garage, Isernhagen · ca. 15 km</p>
+<p>Die Erfinder der zweistimmigen Leadgitarre spielen quasi vor der Haustür – in einem Club, in dem man <strong>die Saiten fast mitgreifen kann</strong>.</p>
+<p><strong>Hörtipp:</strong> „Blowin’ Free“ <a class="sp" href="https://open.spotify.com/search/Wishbone%20Ash%20Blowin%27%20Free" target="_blank" rel="noopener">▶ Spotify</a> – das Riff, das in jedem Classic-Rock-Kanon steht</p>
 <details><summary>Mehr über die Band</summary>
-<p>Daily Thompson kommen aus Dortmund und spielen schweren, staubigen Stoner- und Fuzzrock mit Grunge-Einschlag. Für „Glue“ ist das Trio im Januar 2026 in die USA nach Port Orchard (Washington) geflogen, Tony Reed hat gemischt und gemastert. Das Album erschien am 21. August 2026 bei Noisolution.</p>
-<p>Die Tour führt auch nach Oldenburg (6.11.), Hamburg (8.11., Hafenklang) und Bielefeld (20.11., Forum). Hannover liegt also mittendrin, und die Glocksee ist für diesen Sound genau die richtige Größe.</p>
-<p class="src">Quellen: <a href="https://www.burnyourears.de/news/55044-constance-tomb-im-november-auf-tour-mit-daily-thompson.html" target="_blank" rel="noopener">BurnYourEars</a> · <a href="https://theobelisk.net/obelisk/tag/glue/" target="_blank" rel="noopener">The Obelisk</a> · Tickets: <a href="https://rausgegangen.de/events/daily-thompson-support-constance-tomb-0/" target="_blank" rel="noopener">rausgegangen</a></p>
+<p>Wishbone Ash kommen aus England und gehören seit Anfang der Siebziger zu den Pionieren des britischen Gitarrenrocks. Ihr Markenzeichen: zwei Leadgitarren, die nicht gegeneinander, sondern miteinander spielen – ein Prinzip, das später Thin Lizzy und Iron Maiden aufgriffen.</p>
+<p>Das Album „Argus“ (1972) gilt bis heute als Klassiker zwischen Hardrock, Folk und Prog. Live setzt die Band auf lange, melodische Soli statt auf Show-Effekte – perfekt für die intime Blues Garage.</p>
+<p class="src">Quelle: <a href="https://www.songkick.com/metro-areas/34498-germany-hannover/genre/metal" target="_blank" rel="noopener">Songkick – Konzerte Hannover</a> · Tickets: <a href="https://www.songkick.com/venues/470021-blues-garage" target="_blank" rel="noopener">Blues Garage bei Songkick</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>The Ocean <small>+ Hypno5e, Pothamus</small></h3>
-<p class="meta">Sa, 19.12.2026 · Gruenspan, Hamburg · ca. 150 km · ab 36,90 €</p>
-<p>Das Berliner Post-Metal-Kollektiv spielt das neue Album <strong>„Solaris“</strong> live. Einen Tag später folgt Berlin (20.12., Kesselhaus in der Kulturbrauerei).</p>
-<p><strong>Hörtipp:</strong> „Belligerence“ <a class="sp" href="https://open.spotify.com/search/The%20Ocean%20Belligerence" target="_blank" rel="noopener">▶ Spotify</a> – zu diesem Song hat die Band 2026 ein Studio-Livevideo gezeigt.</p>
-<p class="bl"><a href="https://www.theoceancollective.com" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/theoceancollective/" target="_blank" rel="noopener">Instagram @theoceancollective</a></p>
+<h3>Nothing But Thieves</h3>
+<p class="meta">Sa 30. Januar 2027 · Sporthalle, Hamburg · ca. 155 km</p>
+<p>Die Briten gehen weg vom Konzeptalbum-Futurismus und hin zu <strong>gitarrenlastigem, direktem Alternative Rock</strong> – die neue Single „Evolution“ zeigt den Weg.</p>
+<p><strong>Hörtipp:</strong> „Amsterdam“ <a class="sp" href="https://open.spotify.com/search/Nothing%20But%20Thieves%20Amsterdam" target="_blank" rel="noopener">▶ Spotify</a> · „Evolution“ <a class="sp" href="https://open.spotify.com/search/Nothing%20But%20Thieves%20Evolution" target="_blank" rel="noopener">▶ Spotify</a> – der Hit und der neue Kurs</p>
 <details><summary>Mehr über die Band</summary>
-<p>The Ocean, geführt von Gitarrist Robin Staps, bauen seit über 20 Jahren riesige Konzeptalben zwischen Sludge, Post-Rock und Progressive Metal. „Solaris“ ist im September erschienen.</p>
-<p>Live gehören sie zu den wuchtigsten Bands des Genres: laute, dichte Wände, dazu ruhige Passagen, in denen man im Saal plötzlich jedes Geräusch hört. Die Franzosen Hypno5e passen mit ihrem filmischen Prog-Metal gut dazu.</p>
-<p class="src">Quellen: <a href="https://chaoszine.net/the-ocean-announce-european-headlining-tour-in-autumn-2026/" target="_blank" rel="noopener">Chaoszine</a> · <a href="https://www.jambase.com/show/the-ocean-gruenspan-20261219?source=ea" target="_blank" rel="noopener">JamBase</a> · Berlin: <a href="https://www.berlin.de/tickets/pop-rock/the-ocean-solaris-tour-2026/2026-12-20-the-ocean-support-hypno5e-pothamus-22ca347e-c1ae-4338-b0b2-721d656d0bac/" target="_blank" rel="noopener">berlin.de</a></p>
+<p>Die Band aus Südengland ist vor allem für die enorme Stimmlage ihres Sängers bekannt und hat sich vom Club-Act zum Hallen-Headliner hochgespielt. „Dead Club City“ war ein durchkomponiertes Konzeptalbum, jetzt geht’s laut Ankündigung wieder rauer zur Sache.</p>
+<p>Im Rahmen der „Stray Dogs World Tour“ gibt es fünf Deutschland-Shows im Januar – Hamburg ist der Abschluss und der nächste Termin für Hannover.</p>
+<p class="src">Quelle: <a href="https://paranoyd-magazin.de/tourdaten/nothing-thieves-tour-2027-de/" target="_blank" rel="noopener">Paranoyd Magazin</a> · Tickets über Eventim</p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Pain Of Truth <small>+ Big Boy, Headbussa</small></h3>
-<p class="meta">Do, 04.02.2027 · Logo, Hamburg · ca. 150 km · Einlass 18:30 Uhr</p>
-<p>New-York-Hardcore mit Metal-Kante. Das zweite, selbstbetitelte Album hat <strong>Will Putney</strong> produziert, der auch schon Body Count betreut hat. Im kleinen Logo dürfte es sehr eng werden.</p>
-<p><strong>Hörtipp:</strong> „Stranded“ <a class="sp" href="https://open.spotify.com/search/Pain%20of%20Truth%20Stranded" target="_blank" rel="noopener">▶ Spotify</a> – kurz, metallisch, gemacht für den Moshpit.</p>
+<h3>Dream State</h3>
+<p class="meta">Mi 17. Februar 2027 · Hafenklang, Hamburg · ca. 155 km</p>
+<p>Walisischer Mix aus Alternative Rock, Post-Hardcore und Elektronik – <strong>nur fünf Deutschland-Clubshows</strong>, Hamburg ist die nördlichste.</p>
+<p><strong>Hörtipp:</strong> „Words Unsaid“ <a class="sp" href="https://open.spotify.com/search/Dream%20State%20Words%20Unsaid" target="_blank" rel="noopener">▶ Spotify</a> · „Bloom“ <a class="sp" href="https://open.spotify.com/search/Dream%20State%20Bloom" target="_blank" rel="noopener">▶ Spotify</a> – neue Single und ein früherer Fan-Favorit</p>
 <details><summary>Mehr über die Band</summary>
-<p>Pain Of Truth stammen aus Long Island und gehören zur neuen Welle des New York Hardcore. Ihr zweites Album erschien am 25. September 2026 bei DAZE und hat elf Songs, darunter „Fed by Fear“ und „Chinatown, NY“.</p>
-<p>Ihre Shows sind schnell, laut und kurz. Wer Hardcore-Konzerte in Clubgröße mag, sollte sich den Termin vormerken.</p>
-<p class="src">Quellen: <a href="https://hamburgkonzerte.de/" target="_blank" rel="noopener">STP Hamburg Konzerte</a> · <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/pain-of-truth-support-big-boy-headbussa-opener-1/" target="_blank" rel="noopener">Hamburg Tourismus</a> · <a href="https://themetallist.com/en/news/2026/09/pain-of-truth-fed-by-fear-single-2026/" target="_blank" rel="noopener">The Metallist</a></p>
+<p>Dream State stammen aus Wales und haben sich mit emotionalem, melodischem Post-Hardcore eine treue Szene erspielt. Mit Sängerin Jessie Powell klingt die Band heute offener und elektronischer, ohne die Wucht der frühen Jahre zu verlieren.</p>
+<p>Das Hafenklang ist klein – wer die Band nah erleben will, bekommt hier die beste Gelegenheit.</p>
+<p class="src">Quelle: <a href="https://paranoyd-magazin.de/tourdaten/dream-state-tour-2027/" target="_blank" rel="noopener">Paranoyd Magazin</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip warn">Fast ausverkauft</span>
+<h3>Pascow</h3>
+<p class="meta">Do 25. März 2027 · Capitol, Hannover · 0 km · ab 36,80 €</p>
+<p>Deutschpunk mit Haltung: Neben regulären Karten gibt es <strong>Solidartickets für 20 Euro</strong> für Fans mit wenig Geld. Jena und Wiesbaden sind bereits weg.</p>
+<p><strong>Hörtipp:</strong> „Trampen nach Norden“ <a class="sp" href="https://open.spotify.com/search/Pascow%20Trampen%20nach%20Norden" target="_blank" rel="noopener">▶ Spotify</a> – Fernweh im Vollgas-Tempo</p>
+<details><summary>Mehr über die Band</summary>
+<p>Pascow gehören seit Jahren zu den wichtigsten Punkbands im deutschsprachigen Raum: schnell, melodisch, mit klugen Texten statt Parolen. Das neue Album „Und wir so“ erscheint am 5. März 2027 auf dem bandeigenen Label.</p>
+<p>Auf der Tour treten wechselnde Gastsängerinnen und weitere Gäste auf. Weitere Nord-Termine: Osnabrück (23.3.), Bremen Schlachthof (24.3.) und Hamburg Markthalle (29.4.). Karten gibt es exklusiv im Bandshop.</p>
+<p class="src">Quelle: <a href="https://www.visions.de/news/pascow-im-fruehjahr-2027-auf-tour/" target="_blank" rel="noopener">VISIONS</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Serenity <small>+ Secret Sphere</small></h3>
-<p class="meta">Sa, 20.02.2027 · Bahnhof Pauli (Klubhaus St. Pauli), Hamburg · ca. 150 km · ab 37,95 €</p>
-<p>Die Tiroler feiern <strong>20 Jahre</strong> und stellen das neue Album <strong>„Melancholia“</strong> vor. Symphonischer Power Metal mit Pathos, die Italiener Secret Sphere spielen davor.</p>
-<p><strong>Hörtipp:</strong> „Lionheart“ <a class="sp" href="https://open.spotify.com/search/Serenity%20Lionheart" target="_blank" rel="noopener">▶ Spotify</a> – das Titelstück des Albums von 2017 zeigt die Stärken der Band: große Refrains und Orchester.</p>
-<p class="bl"><a href="https://www.serenity-band.com" target="_blank" rel="noopener">Website</a></p>
+<h3>Sperling</h3>
+<p class="meta">So 4. April 2027 · Faust, Hannover · 0 km</p>
+<p>Post-Hardcore mit <strong>Cello statt zweiter Gitarre</strong> – das dritte Album „Nemo“ erscheint am 12. März, drei Wochen später steht die Band in Linden.</p>
+<p><strong>Hörtipp:</strong> „Nacht“ <a class="sp" href="https://open.spotify.com/search/Sperling%20Nacht" target="_blank" rel="noopener">▶ Spotify</a> – die erste Single aus „Nemo“</p>
+<p class="bl"><a href="https://www.sperling.band/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/wirsindsperling/" target="_blank" rel="noopener">Instagram @wirsindsperling</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Serenity wurden 2001 in Tirol gegründet. Sänger Georg Neuhauser ist das Gesicht der Band. Ihre Alben drehen sich gern um historische Figuren, zuletzt etwa Kaiser Maximilian I. auf „The Last Knight“.</p>
-<p>Die Tour kommt auch nach Leipzig (18.2., Hellraiser) und Essen (12.2., Turock). Hamburg ist der nächste Termin von Hannover aus.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/hamburg/veranstaltungen/serenity-melancholia-tour-2027-special-guest-secret-hamburg/" target="_blank" rel="noopener">MVP</a> · <a href="https://www.regioactive.de/konzert/serenity-melancholia-tour-2027-special-guest-secret-sphere-hamburg-klubhaus-st-pauli-2027-02-20-tickets-qsmskrKwbS" target="_blank" rel="noopener">regioactive (Tickets)</a> · <a href="https://en.wikipedia.org/wiki/Serenity_(band)" target="_blank" rel="noopener">Wikipedia</a></p>
+<p>Sperling verbinden deutschsprachigen Sprechgesang mit Post-Hardcore-Ausbrüchen und dem melancholischen Ton eines Cellos – eine Kombination, die in der Szene ziemlich einzigartig ist.</p>
+<p>Die „Nemo Tour 2027“ umfasst 14 Shows, im Norden außerdem Hamburg (Uebel & Gefährlich, 1.4.) und Berlin (SO36, 31.3.). Der Vorverkauf läuft.</p>
+<p class="src">Quellen: <a href="https://www.visions.de/news/sperling-neues-album-nemo-und-tour-angekuendigt/" target="_blank" rel="noopener">VISIONS</a> · <a href="https://www.sperling.band/" target="_blank" rel="noopener">sperling.band (Tickets)</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>League of Distortion</h3>
+<p class="meta">Fr 7. Mai 2027 · Bahnhof Pauli, Hamburg · ca. 155 km</p>
+<p>Modern Metal mit Gitarrist Jim Müller von Kissin’ Dynamite – erste eigene Headliner-Tour unter dem Motto <strong>„Sick of Bullshit“</strong>.</p>
+<p><strong>Hörtipp:</strong> „Chainsaw“ <a class="sp" href="https://open.spotify.com/search/League%20of%20Distortion%20Chainsaw" target="_blank" rel="noopener">▶ Spotify</a> – kantiger Groove vom Album „Galvanize“</p>
+<details><summary>Mehr über die Band</summary>
+<p>Die Band entstand 2020 um Sängerin Anna „Ace“ Brunner und setzt auf fette Riffs, Elektro-Akzente und eingängige Refrains. Nach dem Debüt (2022) folgte 2024 „Galvanize“.</p>
+<p>Acht Clubshows sind geplant, Special Guests werden noch nachgereicht. Hamburg ist der einzige Stopp im Norden.</p>
+<p class="src">Quelle: <a href="https://paranoyd-magazin.de/tourdaten/league-of-distortion-sick-of-bullshi/" target="_blank" rel="noopener">Paranoyd Magazin</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Vorverkauf startet</span>
-<h3>Suicide Silence <small>+ Fleshgod Apocalypse, To The Grave, The Gloom In The Corner</small></h3>
-<p class="meta">Sa, 24.04.2027 · Gruenspan, Hamburg · ca. 150 km · VVK ab 6.11.</p>
-<p>Die Deathcore-Mitbegründer aus Kalifornien kommen mit ihrem neuen Album <strong>„Graceless“</strong> (erscheint 20.11.). Dazu spielen die Italiener Fleshgod Apocalypse, die Death Metal mit Orchester verbinden.</p>
-<p><strong>Hörtipp:</strong> „Graceless“ <a class="sp" href="https://open.spotify.com/search/Suicide%20Silence%20Graceless" target="_blank" rel="noopener">▶ Spotify</a> – der Titelsong zeigt, dass die Band nicht leiser geworden ist.</p>
-<p class="bl"><a href="https://suicidesilence.net" target="_blank" rel="noopener">Website</a></p>
+<h3>Meshuggah <span class="sup">+ Periphery, Vildhjarta</span></h3>
+<p class="meta">Do 7. Oktober 2027 · Inselpark Arena, Hamburg · ca. 155 km</p>
+<p>„The Forty-Year Anomaly“: Die schwedischen Rhythmus-Architekten feiern 40 Jahre – mit gleich <strong>zwei Djent-Schwergewichten im Vorprogramm</strong>.</p>
+<p><strong>Hörtipp:</strong> „Bleed“ <a class="sp" href="https://open.spotify.com/search/Meshuggah%20Bleed" target="_blank" rel="noopener">▶ Spotify</a> – der Song, den selbst Profi-Drummer fürchten</p>
+<p class="bl"><a href="https://www.meshuggah.net/" target="_blank" rel="noopener">Website</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Suicide Silence wurden 2002 in Riverside (Kalifornien) gegründet. Mit „The Cleansing“ (2007) haben sie Deathcore mitgeprägt. Seit 2013 singt Eddie Hermida. Mit „Graceless“ sind sie zu ihrem ersten Label Century Media zurückgekehrt.</p>
-<p>Weitere Termine gibt es in Berlin (22.4., Festsaal Kreuzberg), Oberhausen (7.5.) und Leipzig (8.5.). Die Tour wurde erst heute angekündigt.</p>
-<p class="src">Quellen: <a href="https://www.metal1.info/metal-news/suicide-silence-kommen-mit-fleshgod-apocalypse-auf-tour/" target="_blank" rel="noopener">Metal1.info</a> · <a href="https://blabbermouth.net/news/suicide-silence-announces-graceless-album-shares-title-track" target="_blank" rel="noopener">Blabbermouth</a></p>
-</details>
-</article>
-
-<article class="card">
-<span class="chip">Vorverkauf startet</span>
-<h3>Queens Of The Stone Age</h3>
-<p class="meta">So, 13.06.2027 · Gilde Parkbühne, Hannover · in Hannover · VVK ab 6.11., 10 Uhr</p>
-<p>Nur <strong>zwei Deutschland-Termine</strong>: Hannover und München (28.6., Tollwood). Josh Homme und Band touren mit dem neunten Album <strong>„Perfecth“</strong>, das am 30. Oktober erschienen ist.</p>
-<p><strong>Hörtipp:</strong> „Insignificant Other“ <a class="sp" href="https://open.spotify.com/search/Queens%20of%20the%20Stone%20Age%20Insignificant%20Other" target="_blank" rel="noopener">▶ Spotify</a> – die erste Single klingt überraschend nach 70er-Pop. Zum Vergleich der Klassiker „No One Knows“ <a class="sp" href="https://open.spotify.com/search/Queens%20of%20the%20Stone%20Age%20No%20One%20Knows" target="_blank" rel="noopener">▶ Spotify</a></p>
-<p class="bl"><a href="https://qotsa.com" target="_blank" rel="noopener">Website</a></p>
-<details><summary>Mehr über die Band</summary>
-<p>QOTSA entstanden 1996 aus den Resten von Kyuss und der Wüstenrock-Szene von Palm Desert. Mit „Songs for the Deaf“ (2002) wurden sie zur Stadionband, ohne ihren kantigen Groove aufzugeben.</p>
-<p>„Perfecth“ ist ruhiger als frühere Alben. In Kritiken ist von Folk, Streichern und Disco-Grooves die Rede. Live bleibt die Band aber eine der besten Rockbands der Welt, und die Parkbühne ist dafür ein schöner Ort.</p>
-<p class="src">Quellen: <a href="https://www.metal-hammer.de/queens-of-the-stone-age-kuendigen-perfecth-world-tour-an-2558507/" target="_blank" rel="noopener">Metal Hammer</a> · <a href="https://music.mxdwn.com/2026/10/30/reviews/album-review-queens-of-the-stone-age-perfecth/amp/" target="_blank" rel="noopener">mxdwn (Review)</a> · Tickets laut Bericht über <a href="https://qotsa.com" target="_blank" rel="noopener">qotsa.com</a></p>
-</details>
-</article>
-
-<article class="card">
-<span class="chip">Vorverkauf startet</span>
-<h3>Der W</h3>
-<p class="meta">Mi, 29.09.2027 · Capitol, Hannover · in Hannover · VVK ab 4.11., 10 Uhr (myticket)</p>
-<p>Stephan Weidner, bekannt von den Böhsen Onkelz, kündigt mit „VI“ sein sechstes Soloalbum an. <strong>Hannover ist der Tourauftakt</strong>, Magdeburg folgt am 13.10. (Altes Theater).</p>
-<p><strong>Hörtipp:</strong> Album „V“ <a class="sp" href="https://open.spotify.com/search/Der%20W%20V" target="_blank" rel="noopener">▶ Spotify</a> – das bisher letzte Album von 2022 als Vorgeschmack.</p>
-<p class="bl"><a href="https://www.der-w.de" target="_blank" rel="noopener">Website</a></p>
-<details><summary>Mehr über die Band</summary>
-<p>Unter dem Namen Der W veröffentlicht Weidner seit 2008 Soloalben: Deutschrock mit harten Gitarren, irgendwo zwischen Onkelz-Härte und persönlicheren Texten. Das bisher letzte Album „V“ erschien 2022.</p>
-<p>Die 15 Konzerte finden in Clubs und Hallen mittlerer Größe statt, darunter Münster (6.10., Jovel), Oberhausen und Leipzig. Preise sind noch nicht bekannt.</p>
-<p class="src">Quellen: <a href="https://www.pressure-magazine.de/news/der-w-tour-2027-282705/" target="_blank" rel="noopener">Pressure Magazine</a> · <a href="https://en.wikipedia.org/wiki/Stephan_Weidner" target="_blank" rel="noopener">Wikipedia</a></p>
+<p>Meshuggah aus Umeå haben mit verschachtelten Polyrhythmen und tiefergestimmten Gitarren ein ganzes Subgenre angestoßen – ohne sie gäbe es den Begriff „Djent“ kaum. Das letzte Album „Immutable“ erschien 2022.</p>
+<p>Live ist die Band berüchtigt präzise, dazu kommt eine Lichtshow, die exakt auf die Breaks getaktet ist. Periphery und Vildhjarta sind direkte Erben dieses Sounds – das Paket ist entsprechend stimmig.</p>
+<p>Eventim-Presale: Do 5.11., 12 Uhr. Allgemeiner Vorverkauf: Fr 6.11., 12 Uhr. Weitere DE-Termine: Köln, Frankfurt, Berlin, München.</p>
+<p class="src">Quellen: <a href="https://www.metal1.info/metal-news/meshuggah-kuendigen-deutschlandshows-fuer-2027-an/" target="_blank" rel="noopener">Metal1.info</a> · <a href="https://www.concertvisions.net/meshuggah-tour-2027/" target="_blank" rel="noopener">Concertvisions</a></p>
 </details>
 </article>
 
 </div>
-</section>
 
-<section class="s-fest">
-<h2><span class="pill">Festivals &amp; Tour-Ankündigungen</span></h2>
-<div class="grid">
+<h2><span class="pill" style="--c:var(--teal)">Festivals &amp; Tour-Ankündigungen</span></h2>
+<div class="grid fest">
+
 <article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Bloody X-Mas Markt <small>mit Subway To Sally, Heavysaurus</small></h3>
-<p class="meta">Fr/Sa, 20./21.11.2026 · UKE Hamburg-Eppendorf · ca. 150 km · Eintritt frei</p>
-<p>Weihnachtsmarkt mit Blutspende: Jeweils 12 bis 21 Uhr gibt es Livemusik auf dem Platz vor der UKE-Blutspende, <strong>der Eintritt ist frei</strong>. Weitere Bands sollen noch folgen.</p>
-<p><strong>Hörtipp:</strong> „Julia und die Räuber“ <a class="sp" href="https://open.spotify.com/search/Subway%20To%20Sally%20Julia%20und%20die%20R%C3%A4uber" target="_blank" rel="noopener">▶ Spotify</a> – der Mitsing-Klassiker von Subway To Sally.</p>
-<details><summary>Mehr zum Event</summary>
-<p>Blutspenden kann man am Freitag von 7 bis 18 Uhr und am Samstag von 10 bis 16 Uhr. Subway To Sally aus Potsdam sind eine der wichtigsten Mittelalter-Rock-Bands. Heavysaurus spielen Metal für Kinder und machen den Nachmittag familientauglich.</p>
-<p class="src">Quelle: <a href="https://www.burnyourears.de/news/55042-bloody-x-mas-markt-heavysaurus-und-subway-to-sally-in-hamburg.html" target="_blank" rel="noopener">BurnYourEars</a></p>
+<span class="chip warn">Details offen</span>
+<h3>Scorpions – „Love, Peace and Rock ’n’ Roll Tour 2027“</h3>
+<p class="meta">Mai 2027 · vier Arena-Shows · nächster Termin evtl. Dortmund (ca. 210 km)</p>
+<p>Hannovers bekannteste Rockband geht 2027 wieder auf Hallentour – <strong>aber die Quellen nennen unterschiedliche Städte</strong> (siehe „Hier genau hinschauen“).</p>
+<p><strong>Hörtipp:</strong> „Rock You Like a Hurricane“ <a class="sp" href="https://open.spotify.com/search/Scorpions%20Rock%20You%20Like%20a%20Hurricane" target="_blank" rel="noopener">▶ Spotify</a> – der Stadion-Klassiker</p>
+<p class="bl"><a href="https://www.the-scorpions.com/" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr zur Tour</summary>
+<p>Metal Hammer und Concertvisions nennen: 12.5. Stuttgart, 15.5. Dortmund (Westfalenhalle), 19.5. Frankfurt, 22.5. München. Metal1.info listet dagegen 14.5. Oberhausen und 22.5. Hamburg. Ein Hannover-Termin ist in keiner Quelle dabei.</p>
+<p>Die Shows folgen auf die Verschiebung der restlichen 2026er-Termine und auf das große Heimspiel im Juli 2025 in Hannover. Laut Concertvisions startet der Eventim-Verkauf heute um 11 Uhr; Metal1 spricht von einem Community-Presale heute und dem allgemeinen Verkauf am 6.11.</p>
+<p class="src">Quellen: <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-scorpions-3-2558447/" target="_blank" rel="noopener">Metal Hammer</a> · <a href="https://www.concertvisions.net/scorpions-arena-tour-2027/" target="_blank" rel="noopener">Concertvisions</a> · <a href="https://www.metal1.info/metal-news/scorpions-kuendigen-love-peace-and-rock-n-roll-tour-2027-an" target="_blank" rel="noopener">Metal1.info</a></p>
 </details>
 </article>
-</div>
-</section>
 
-<section class="s-erin">
-<h2><span class="pill">Nochmal zur Erinnerung</span></h2>
-<div class="grid">
 <article class="card">
 <span class="chip">Bestätigt</span>
+<h3>Jera On Air 2027</h3>
+<p class="meta">24.–26. Juni 2027 · Ysselsteyn (NL) · ca. 290 km</p>
+<p>Das Hardcore- und Punk-Festival direkt hinter der Grenze legt nach: <strong>Motionless in White, Brutus, Dayseeker, Millencolin und Walls of Jericho</strong> sind neu dabei.</p>
+<p><strong>Hörtipp:</strong> „To the Hellfire“ <a class="sp" href="https://open.spotify.com/search/Lorna%20Shore%20To%20the%20Hellfire" target="_blank" rel="noopener">▶ Spotify</a> – Lorna Shore als bisheriges Zugpferd</p>
+<details><summary>Mehr zum Festival</summary>
+<p>Schon bestätigt waren Lorna Shore, Dropkick Murphys und Simple Plan. Die Mischung aus Deathcore, Folk-Punk und Pop-Punk ist typisch für Jera – und vom Raum Hannover aus in gut drei Stunden erreichbar.</p>
+<p class="src">Quelle: <a href="https://www.metal1.info/metal-news/jera-on-air-erweitert-line-up-fuer-2027/" target="_blank" rel="noopener">Metal1.info</a> · Tickets: jeraonair.nl</p>
+</details>
+</article>
+
+</div>
+
+<h2><span class="pill" style="--c:var(--ochre)">Nochmal zur Erinnerung</span></h2>
+<div class="grid rem">
+
+<article class="card">
+<h3>Phil Campbell’s Bastard Sons</h3>
+<p class="meta">Do 12. November 2026 · Betty, Hamburg · ca. 155 km</p>
+<p>Die „Phil Forever Tour“: Die Söhne ehren ihren Vater, den Motörhead-Gitarristen.</p>
+<p><strong>Hörtipp:</strong> „Big Mouth“ <a class="sp" href="https://open.spotify.com/search/Phil%20Campbell%20Bastard%20Sons%20Big%20Mouth" target="_blank" rel="noopener">▶ Spotify</a> – dreckiger Rock ’n’ Roll</p>
+<p class="src">Quelle: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/phil-campbells-bastard-sons-the-phil-forever-tour/" target="_blank" rel="noopener">Hamburg Tourismus</a></p>
+</article>
+
+<article class="card">
+<h3>Messa</h3>
+<p class="meta">Sa 14. November 2026 · Rockpalast, Bochum · ca. 230 km</p>
+<p>Hamburg und Berlin sind ausverkauft – Bochum (und Köln am 15.11.) sind die Ausweichchance.</p>
+<p><strong>Hörtipp:</strong> „Pilgrim“ <a class="sp" href="https://open.spotify.com/search/Messa%20Pilgrim" target="_blank" rel="noopener">▶ Spotify</a> – Doom mit Jazz- und Orient-Farben</p>
+<p class="src">Quelle: <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-messa-2495127/" target="_blank" rel="noopener">Metal Hammer</a></p>
+</article>
+
+<article class="card">
+<h3>Colour Haze &amp; My Sleeping Karma</h3>
+<p class="meta">Sa 14. November 2026 · Tower, Bremen · ca. 125 km · Hannover: 28.2.2027, Faust</p>
+<p>Stoner-Psychedelik im Doppelpack – wer Bremen verpasst, hat im Februar ein Heimspiel.</p>
+<p><strong>Hörtipp:</strong> „Tempel“ <a class="sp" href="https://open.spotify.com/search/Colour%20Haze%20Tempel" target="_blank" rel="noopener">▶ Spotify</a> – lange Fuzz-Reise</p>
+<p class="src">Quelle: <a href="https://www.songkick.com/metro-areas/34498-germany-hannover/genre/metal" target="_blank" rel="noopener">Songkick Hannover</a></p>
+</article>
+
+<article class="card">
+<h3>Evergrey <span class="sup">+ Ignea, Stellar Circuits</span></h3>
+<p class="meta">Di 17. November 2026 · Logo, Hamburg · ca. 155 km</p>
+<p>Schwedischer Prog-Metal mit viel Gefühl im kleinen Logo – „Architects Of A New Weave“-Tour.</p>
+<p><strong>Hörtipp:</strong> „King of Errors“ <a class="sp" href="https://open.spotify.com/search/Evergrey%20King%20of%20Errors" target="_blank" rel="noopener">▶ Spotify</a> – ihr Hymnen-Moment</p>
+<p class="src">Quelle: <a href="https://www.regioactive.de/konzert/evergrey-architects-of-a-new-weave-european-tour-ignea-stellar-circuits-hamburg-logo-2026-11-17-Ts8K7n33Tl" target="_blank" rel="noopener">regioactive</a></p>
+</article>
+
+<article class="card">
 <h3>Health</h3>
-<p class="meta">Mi, 25.11.2026 · MusikZentrum, Hannover · in Hannover</p>
-<p>Noise-Rock und Industrial aus Los Angeles: sehr laut, sehr kühl und schwer tanzbar. Hamburg ist schon am 11.11. dran.</p>
-<p><strong>Hörtipp:</strong> „Stonefist“ <a class="sp" href="https://open.spotify.com/search/HEALTH%20Stonefist" target="_blank" rel="noopener">▶ Spotify</a> – zeigt den Sound zwischen Club und Krach.</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">MVP Hannover</a></p>
+<p class="meta">Mi 25. November 2026 · MusikZentrum, Hannover · 0 km</p>
+<p>Noise-Rock trifft Industrial – laut, düster, tanzbar.</p>
+<p><strong>Hörtipp:</strong> „Stonefist“ <a class="sp" href="https://open.spotify.com/search/HEALTH%20Stonefist" target="_blank" rel="noopener">▶ Spotify</a> – der Einstieg ins Klanggewitter</p>
+<p class="src">Quelle: <a href="https://www.jambase.com/show/health-musikzentrum-20261125" target="_blank" rel="noopener">JamBase</a></p>
 </article>
-<article class="card">
-<span class="chip">Bestätigt</span>
-<h3>The Black Dahlia Murder</h3>
-<p class="meta">So, 24.01.2027 · Faust (60er-Jahre-Halle), Hannover · in Hannover (18.1. Hamburg Docks)</p>
-<p>Die Tour „Two Decades Of Nocturnal“ feiert 20 Jahre des Melodic-Death-Metal-Klassikers „Nocturnal“.</p>
-<p><strong>Hörtipp:</strong> „What a Horrible Night to Have a Curse“ <a class="sp" href="https://open.spotify.com/search/The%20Black%20Dahlia%20Murder%20What%20a%20Horrible%20Night%20to%20Have%20a%20Curse" target="_blank" rel="noopener">▶ Spotify</a> – der Opener von „Nocturnal“.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">MVP Hannover</a> · <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/the-black-dahlia-murder-two-decades-of-nocturnal-europe-2027/" target="_blank" rel="noopener">Hamburg Tourismus</a></p>
-</article>
-<article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Floor Jansen</h3>
-<p class="meta">So, 31.01.2027 · Große Freiheit 36, Hamburg · ca. 150 km</p>
-<p>Neu ist der Hintergrund: Floor Jansen und <strong>Nightwish haben sich getrennt</strong>. Die Sängerin will sich jetzt ganz auf ihre Solokarriere und das Album „Hytress“ konzentrieren.</p>
-<p><strong>Hörtipp:</strong> „Fire“ <a class="sp" href="https://open.spotify.com/search/Floor%20Jansen%20Fire" target="_blank" rel="noopener">▶ Spotify</a> – zeigt, was ihre Stimme auch ohne Orchester kann.</p>
-<p class="src">Quellen: <a href="https://www.burnyourears.de/news/55028-nightwish-und-saengerin-floor-jansen-trennen-sich.html" target="_blank" rel="noopener">BurnYourEars</a> · <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-floor-jansen-2556689/" target="_blank" rel="noopener">Metal Hammer</a></p>
-</article>
-<article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Megadeth <small>+ Black Label Society, Testament</small></h3>
-<p class="meta">Di, 30.03.2027 · Sporthalle, Hamburg · ca. 150 km</p>
-<p>Drei Thrash- und Heavy-Größen an einem Abend, einer der vier Deutschland-Termine.</p>
-<p><strong>Hörtipp:</strong> „Symphony of Destruction“ <a class="sp" href="https://open.spotify.com/search/Megadeth%20Symphony%20of%20Destruction" target="_blank" rel="noopener">▶ Spotify</a> – ein Riff, das jeder kennt.</p>
-<p class="src">Quellen: <a href="https://www.burnyourears.de/news/54969-megadeth-kommen-2027-auf-tour-und-spielen-4-konzerte-in-deutschland.html" target="_blank" rel="noopener">BurnYourEars</a> · <a href="https://www.songkick.com/metro-areas/28498-germany-hamburg/2027/genre/metal" target="_blank" rel="noopener">Songkick</a></p>
-</article>
-<article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Desertfest Berlin 2027</h3>
-<p class="meta">14.–16.05.2027 · Columbia-Venues, Berlin · ca. 285 km</p>
-<p>Neu im Line-up: <strong>Brutus, Kylesa, Windhand und Colour Haze</strong>. Die Melvins standen schon fest.</p>
-<p><strong>Hörtipp:</strong> „Honey Bucket“ <a class="sp" href="https://open.spotify.com/search/Melvins%20Honey%20Bucket" target="_blank" rel="noopener">▶ Spotify</a> – Melvins in Bestform.</p>
-<p class="src">Quellen: <a href="https://www.burnyourears.de/news/55047-desertfest-berlin-2027-legt-nach-brutus-kylesa-windhand-und-colour-haze-bestaetigt.html" target="_blank" rel="noopener">BurnYourEars</a> · <a href="https://www.metal-hammer.de/desertfest-berlin-2027-alle-informationen-headliner-tickets-preise-lineup-bands-wettervorhersage-livestream-internet-tv-spielplan-timetable-anreise-909977/" target="_blank" rel="noopener">Metal Hammer</a></p>
-</article>
+
 </div>
+
+<section class="box tip">
+<h3>Tipp des Tages</h3>
+<p><strong>Pascow, 25. März 2027, Capitol Hannover.</strong> Eine der besten Live-Punkbands des Landes, ein neues Album im Gepäck und ein faires Ticketmodell mit Solidarpreisen. Weil zwei Shows schon nach wenigen Tagen ausverkauft sind, lohnt es sich, nicht lange zu warten.</p>
+<p class="src"><a href="https://www.visions.de/news/pascow-im-fruehjahr-2027-auf-tour/" target="_blank" rel="noopener">Quelle: VISIONS</a></p>
 </section>
 
-<section class="two">
-<div class="box s-tipp">
-<h2><span class="pill">Tipp des Tages</span></h2>
-<p><strong>Daily Thompson + Constance Tomb, Di 10.11., Café Glocksee.</strong> Kurzfristig, klein und in Hannover: Bei Stoner Rock mit echtem Fuzz und einem Gast-Act aus dem Umfeld von Tony Reed muss man nicht nach Hamburg fahren. Ein guter Abend unter der Woche, bevor im Frühjahr die großen Touren losgehen.</p>
-</div>
-<div class="box s-warn">
-<h2><span class="pill">Hier genau hinschauen</span></h2>
+<section class="box look">
+<h3>Hier genau hinschauen</h3>
 <ul>
-<li><strong>QOTSA:</strong> Der Vorverkauf startet laut Metal Hammer über die Website der Band. Vor dem 6.11. angebotene „Tickets“ auf Zweitmarkt-Seiten sind mit großer Wahrscheinlichkeit Spekulation.</li>
-<li><strong>Der W:</strong> Tickets gibt es zunächst nur bei myticket. Angebote anderswo lieber meiden.</li>
-<li><strong>The Ocean Berlin:</strong> Manche Quellen nennen das Kesselhaus, andere die Kulturbrauerei. Das Kesselhaus liegt in der Kulturbrauerei, es ist also derselbe Ort.</li>
-<li><strong>Pain Of Truth &amp; Serenity:</strong> Die Opener sind noch nicht vollständig genannt. Preise für Pain Of Truth stehen noch aus.</li>
+<li><strong>Scorpions:</strong> Metal Hammer und Concertvisions nennen Dortmund (15.5.) und München (22.5.), Metal1.info stattdessen Oberhausen (14.5.) und Hamburg (22.5.). Vor dem Kauf auf der offiziellen Bandseite oder bei Eventim prüfen.</li>
+<li><strong>Deep Purple:</strong> Die restliche Europatour ist wegen einer Erkrankung von Ian Gillan bis auf Weiteres verschoben (u. a. Dortmund, Berlin, Frankfurt). Hamburg (1.11.) war schon vorher abgesagt. Gekaufte Karten sollen für Nachholtermine gelten – also nicht auf dem Zweitmarkt verramschen. <a href="https://www.metal1.info/metal-news/deep-purple-muessen-tour-abbrechen/" target="_blank" rel="noopener">Metal1</a></li>
+<li><strong>Meshuggah &amp; Scorpions:</strong> Bei großen Vorverkaufsstarts tauchen schnell überteuerte Angebote auf Wiederverkaufsportalen auf. Nur über offizielle Anbieter kaufen.</li>
+<li><strong>Pascow:</strong> Reguläre Tickets gibt es laut Band nur im eigenen Shop – Angebote anderswo kritisch prüfen.</li>
+<li><strong>Iron Maiden:</strong> Die Tour 2027 bleibt auf Nordamerika beschränkt, Europa geht leer aus. <a href="https://www.metal-hammer.de/iron-maiden-geben-2027-doch-konzerte-2553917/" target="_blank" rel="noopener">Metal Hammer</a></li>
 </ul>
-</div>
 </section>
 
-<section class="s-woche">
-<div class="box">
-<h2><span class="pill">Diese Woche im Blick</span></h2>
+<section class="box week">
+<h3>Diese Woche im Blick</h3>
 <ul>
-<li><strong>Mi 4.11., 10 Uhr:</strong> Vorverkauf Der W (Capitol Hannover, 29.9.27)</li>
-<li><strong>Do 5.11.:</strong> Fifth Angel + Leatherwitch, Bambi Galore Hamburg</li>
-<li><strong>Fr 6.11.:</strong> Kärbholz, Inselpark Arena Hamburg · <strong>10 Uhr:</strong> Vorverkauf QOTSA und Suicide Silence</li>
-<li><strong>Sa 7.11.:</strong> Amon Amarth + Orbit Culture, Soilwork, Velodrom Berlin</li>
-<li><strong>Mo 9.11.:</strong> Godzilla in the Kitchen, Béi Chéz Heinz Hannover · L.A. Guns, Logo Hamburg</li>
-<li><strong>Di 10.11.:</strong> Daily Thompson + Constance Tomb, Café Glocksee Hannover</li>
+<li><strong>Heute, 10 Uhr:</strong> Vorverkauf Der W (Capitol Hannover, 29.9.2027, nur myticket) · <strong>11 Uhr:</strong> Ticketstart Scorpions 2027 (Eventim, Angaben uneinheitlich).</li>
+<li><strong>Do 5.11. / Fr 6.11., 12 Uhr:</strong> Presale bzw. freier Verkauf Meshuggah; ebenfalls Fr 6.11. Vorverkaufsstart Queens of the Stone Age (Gilde Parkbühne) und Suicide Silence + Fleshgod Apocalypse.</li>
+<li><strong>Fr 6.11.:</strong> Dornenreich + Vinsta (akustisch), Martinskirche Hamburg-Horn.</li>
+<li><strong>Sa 7.11.:</strong> Amon Amarth + Orbit Culture, Soilwork, Velodrom Berlin · Drunken Swallows, Monkeys Hamburg.</li>
+<li><strong>Mo 9.11.:</strong> Godzilla in the Kitchen, Béi Chéz Heinz Hannover · The Temperance Movement, Markthalle Hamburg.</li>
+<li><strong>Di 10.11.:</strong> Daily Thompson + Constance Tomb, Café Glocksee Hannover.</li>
+<li><strong>Mi 11.11.:</strong> Boris + Planning for Burial, Bahnhof Pauli Hamburg.</li>
 </ul>
-<p class="src">Quellen: Termine aus früheren Radar-Ausgaben, geprüft u. a. über <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">MVP</a> und <a href="https://www.songkick.com/metro-areas/28498-germany-hamburg/2027/genre/metal" target="_blank" rel="noopener">Songkick</a>.</p>
-</div>
 </section>
 
 <footer>
