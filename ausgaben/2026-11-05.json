@@ -1,0 +1,568 @@
+{
+ "stand": "Stand: Donnerstag, 3 Uhr",
+ "kurz": [
+  "<b>Machtwechsel im Kongress:</b> Die Demokraten holen laut US-Sendern das Repräsentantenhaus und den Senat. In Texas gewinnen sie erstmals seit über 30 Jahren einen Senatssitz, Trump kündigt Vetos an.",
+  "<b>Region Hannover sortiert sich:</b> SPD, CDU und Grüne steigen in der Regionsversammlung in <b>Koalitionsverhandlungen</b> ein, während im Rathaus die Gespräche stocken.",
+  "<b>Merz bleibt dem Klimagipfel fern:</b> Der Kanzler reist nicht zur Konferenz nach <b>Antalya</b>, Gründe nennt die Regierung nicht.",
+  "<b>BVB jubelt, Leipzig hadert:</b> Dortmund schlägt Betis <b>2:1</b>, Leipzig verliert spät 2:3 gegen Manchester City nach einem Haaland-Tor.",
+  "<b>Füllkrug vor DFB-Comeback:</b> Klopp nominiert heute gegen <b>11 Uhr</b> seinen Kader, mehrere Medien melden die Rückkehr des 33-Jährigen.",
+  "<b>Elektroautos legen zu:</b> Im Oktober wurden rund <b>94.000</b> neue E-Autos zugelassen, gut 80 Prozent mehr als vor einem Jahr."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "meldungen": [
+    {
+     "titel": "Region: SPD, CDU und Grüne verhandeln über eine Koalition",
+     "kurz": "Nach den Sondierungen wollen die drei Parteien in der Regionsversammlung eine gemeinsame Mehrheit bilden. SPD-Chefin <b>Leyla Hatami</b> rechnet mit einem Ergebnis bis zur ersten Sitzung.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Regionshaus Hannover",
+       "suche": "Regionshaus Hildesheimer Straße 18 Hannover"
+      }
+     ],
+     "lang": [
+      "Während im Rathaus die Grünen die Gespräche mit der SPD vorerst gestoppt haben, läuft es eine Ebene höher anders: Für die Regionsversammlung haben SPD, CDU und Grüne offiziell Koalitionsverhandlungen vereinbart. In den nächsten Wochen sollen Schwerpunkte und konkrete Projekte stehen.",
+      "Die CDU will vor allem bei Gesundheitsversorgung, Schulen und Finanzen punkten, die Grünen setzen auf soziale Gerechtigkeit und Nachhaltigkeit. Ein Datum für die konstituierende Sitzung nennt der Bericht nicht."
+     ],
+     "einschaetzung": "Offiziell vereinbarter Schritt der Parteien, von Radio Hannover berichtet.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/regionsversammlung-spd-cdu-und-gruene-starten-koalitionsverhandlungen"
+      }
+     ]
+    },
+    {
+     "titel": "Nach Putin-Besuch: Zwei Anträge gegen Schröder",
+     "kurz": "Beim SPD-Unterbezirk Region Hannover sind <b>zwei Anträge</b> auf ein Parteiordnungsverfahren gegen Altkanzler Gerhard Schröder eingegangen.",
+     "bewertung": "gesichert",
+     "orte": [],
+     "lang": [
+      "Anlass ist Schröders Reise nach Moskau Anfang Oktober, wo er Wladimir Putin zum Geburtstag besuchte. Der Bezirksgeschäftsführer der SPD hat den Eingang der Anträge bestätigt. Zuständig ist Hannover, weil Schröder hier wohnt.",
+      "Noch wird geprüft, ob die Anträge formal gültig sind. Welche Parteigliederungen sie gestellt haben, ist nicht bekannt. Frühere Verfahren gegen Schröder endeten ohne Ausschluss."
+     ],
+     "einschaetzung": "Von der Partei bestätigt und von zwei Lokalmedien gemeldet.",
+     "quellen": [
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101511950/gerhard-schroeder-spd-hannover-erhaelt-antraege-auf-parteiordnungsverfahren.html"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/nach-putin-besuch-neues-spd-verfahren-gegen-schroeder-beantragt"
+      }
+     ]
+    },
+    {
+     "titel": "Blaulicht ohne Ernstfall: Großübung zum Stromausfall",
+     "kurz": "Feuerwehr und Hilfsorganisationen proben am <b>Samstag</b> im ganzen Stadtgebiet, was bei einem großen Stromausfall zu tun ist. Gefahr besteht nicht.",
+     "bewertung": "plausibel",
+     "orte": [
+      "Hannover"
+     ],
+     "lang": [
+      "Wer am Samstag bis in den Nachmittag viele Einsatzwagen mit Martinshorn sieht, muss sich keine Sorgen machen: Es ist eine geplante Katastrophenschutzübung. An verschiedenen Orten werden Einsatzkräfte sichtbar arbeiten.",
+      "Größere Verkehrsprobleme erwartet die Feuerwehr nicht. Gemeint ist nach unserem Verständnis der 7. November."
+     ],
+     "einschaetzung": "Feuerwehr-Ankündigung über Radio Hannover; das genaue Datum steht nicht ausdrücklich im Text.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/am-samstag-grosse-katastrophenschutzuebung-in-hannover"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Was sonst in Stadt und Region wichtig ist.",
+     "liste": [
+      "<b>Üstra am Wochenende:</b> Legionsbrücke gesperrt, die Linien 3, 7 und 13 fahren von Sa ca. 5 Uhr bis Mo ca. 3 Uhr Umleitung. Linien 4 und 5: Fr-Abend bis So-Morgen Busse zwischen Herrenhäuser Gärten und Garbsen bzw. Stöcken.",
+      "<b>Regiobus:</b> Verdi will mehr Geld (6,5 Prozent) und kündigt für Freitag einen Streik ab dem Betriebshof Eldagsen an.",
+      "<b>Continental</b> verdient im dritten Quartal rund 349 Millionen Euro und hebt die Gewinnprognose an.",
+      "<b>Innovationspreis Niedersachsen</b> für die Hannoveraner Firma voraus robotik (20.000 Euro) für eine KI zur Produktionssteuerung.",
+      "<b>Bahn-Pendler:</b> Vom 27. bis 30. November fallen viele RE3- und RB31-Züge zwischen Hannover und Hamburg aus.",
+      "<b>Fury in the Slaughterhouse</b> legt eine dritte Jubiläumsshow in der ZAG Arena nach, Vorverkauf ab Freitag 10 Uhr. Die Konzerte sind im November 2027."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Legionsbrücke",
+       "suche": "Legionsbrücke Hannover"
+      },
+      {
+       "name": "ZAG Arena",
+       "suche": "ZAG Arena Hannover"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit kleineren Meldungen aus Stadt und Region."
+     ],
+     "einschaetzung": "Angaben von Üstra, Radio Hannover, Antenne Niedersachsen und hannover.de.",
+     "quellen": [
+      {
+       "name": "Üstra",
+       "url": "https://www.uestra.de"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      },
+      {
+       "name": "Antenne Niedersachsen",
+       "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-%E2%80%93-04.-November-2026-id1751846.html"
+      },
+      {
+       "name": "hannover.de (Fury)",
+       "url": "https://www.hannover.de/Veranstaltungskalender/Konzerte/Konzert-Highlights-in-Hannover/40-Jahre-Fury-in-the-Slaughterhouse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "Merz sagt Klimagipfel in Antalya ab",
+     "kurz": "Der Kanzler fährt nicht zur Weltklimakonferenz in der Türkei. Klimaaktivistin Luisa Neubauer spricht von einem <b>„absoluten Tabubruch“</b>.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Antalya",
+       "suche": "Antalya Türkei"
+      }
+     ],
+     "lang": [
+      "Ein Regierungssprecher bestätigte, dass Friedrich Merz nicht zur COP31 reist, die am 9. November beginnt. Gründe nannte er nicht.",
+      "Für Deutschland, das sich gern als Klimavorreiter sieht, ist das ein auffälliges Signal, zumal die Gipfel-Woche auf die Wahl in den USA folgt. Wer die Delegation anführt, ist noch offen."
+     ],
+     "einschaetzung": "Offizielle Mitteilung der Bundesregierung, gemeldet von ZDFheute.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Fast jedes dritte neue Auto fährt elektrisch",
+     "kurz": "Im Oktober kamen rund <b>94.000</b> neue E-Autos auf die Straße, ein Plus von etwa 80 Prozent. Ihr Anteil an allen Neuwagen liegt bei 37 Prozent.",
+     "bewertung": "gesichert",
+     "orte": [],
+     "lang": [
+      "Das Kraftfahrt-Bundesamt zählte insgesamt etwa 254.500 Neuzulassungen. Mehr als jeder dritte Wagen hatte damit einen reinen Elektroantrieb.",
+      "Rückenwind geben die hohen Spritpreise seit dem Iran-Krieg. Auch der Energieverbrauch insgesamt sinkt: Die Arbeitsgemeinschaft Energiebilanzen erwartet für 2026 knapp drei Prozent weniger."
+     ],
+     "einschaetzung": "Amtliche KBA-Zahlen, über den ZDF-Ticker verbreitet.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Bundespräsident: Kretschmer stellt sich hinter Aigner",
+     "kurz": "Sachsens Regierungschef wirbt für die CSU-Politikerin <b>Ilse Aigner</b> als Unions-Kandidatin. Eine Entscheidung soll Anfang nächster Woche fallen.",
+     "bewertung": "plausibel",
+     "orte": [],
+     "lang": [
+      "Damit bekommt Aigner Unterstützung aus der CDU, wo man bislang eher einen eigenen Kandidaten wollte. CSU-Chef Söder drängt seit Wochen auf ihre Nominierung, auch die SPD hat Sympathie signalisiert.",
+      "Die Bundesversammlung wählt am 30. Januar 2027 die Nachfolge von Frank-Walter Steinmeier."
+     ],
+     "einschaetzung": "Kretschmers Äußerung ist belegt, der Zeitplan für die Entscheidung ist eine Erwartung.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "ZDFheute (Hintergrund)",
+       "url": "https://www.zdfheute.de/politik/koalition-merz-cdu-bundespraesident-aigner-csu-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Deutschland.",
+     "liste": [
+      "<b>Asyl:</b> 5.707 Erstanträge im Oktober, der niedrigste Oktoberwert seit 2011.",
+      "<b>Dax:</b> Plus 2,2 Prozent auf 26.437 Punkte, knapp unter dem Rekord. Anleger setzen auf den Machtwechsel in Washington.",
+      "<b>Schwimmen lernen:</b> Bund, DSV und DLRG stecken 20 Millionen Euro über vier Jahre in Kurse für Kinder.",
+      "<b>Nürnberg:</b> Zoll und Polizei finden 300 Kilo Kokain in Bananenkisten.",
+      "<b>Berlin:</b> SPD-Chef Klingbeil verlangt von der Berliner Linken, Antisemiten aus der Partei zu entfernen."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Nürnberg",
+       "suche": "Nürnberg"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit kleineren Meldungen."
+     ],
+     "einschaetzung": "Alle Punkte aus dem ZDF-Newsticker vom Mittwoch.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "Demokraten übernehmen den Kongress",
+     "kurz": "Nach Berechnungen von CNN und Fox News haben die Demokraten mindestens <b>218 Sitze</b> im Repräsentantenhaus. Auch im Senat haben sie nun die Mehrheit.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Washington",
+       "suche": "US Capitol Washington"
+      },
+      {
+       "name": "Texas",
+       "suche": "Texas USA"
+      }
+     ],
+     "lang": [
+      "Die Überraschung der Nacht kam aus Texas: James Talarico holt den ersten demokratischen Senatssitz dort seit über 30 Jahren, Gina Hinojosa löst Gouverneur Greg Abbott ab. In Michigan gewinnt Abdul El-Sayed, er wäre der erste Muslim im US-Senat. Hochrechnungen für das Repräsentantenhaus reichen bis zu 263 Sitze.",
+      "Trump will nun öfter sein Veto einlegen, das nur Zweidrittelmehrheiten kippen können. Vizepräsident Vance sieht den Iran-Krieg als Grund für die Niederlage. Die EU hofft auf mehr Hilfe für die Ukraine."
+     ],
+     "einschaetzung": "Mehrere Sender melden die Mehrheiten; genaue Sitzzahlen sind noch vorläufig.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/politik/ausland/midterms-usa-ueberraschende-ergebnisse-100.html"
+      },
+      {
+       "name": "WirtschaftsWoche",
+       "url": "https://www.wiwo.de/politik/ausland/midterms-2026-ergebnisse-fuer-senat-und-repraesentantenhaus-im-ueberblick/100263318.html"
+      }
+     ]
+    },
+    {
+     "titel": "Iran: Gespräche laufen, Tanker brennen",
+     "kurz": "Teheran spricht von <b>„sehr intensiven“</b> indirekten Gesprächen mit den USA, Katar vermittelt. Gleichzeitig meldet Iran brennende Öltanker in der Straße von Hormus.",
+     "bewertung": "vorsicht",
+     "orte": [
+      {
+       "name": "Straße von Hormus",
+       "suche": "Strait of Hormuz"
+      }
+     ],
+     "lang": [
+      "Nach iranischer Darstellung sind vier Tanker nach Minentreffern in Brand geraten. Unabhängig bestätigt ist das nicht. Trump soll laut Financial Times keine neuen Angriffspläne haben, Vance verlangt eine überprüfbare Zusage, das Atomprogramm nicht wieder aufzubauen.",
+      "Iran deutet das Wahlergebnis in den USA als Absage an den Krieg. Laut AP-Umfrage hält eine Mehrheit der US-Wähler den Militäreinsatz für falsch."
+     ],
+     "einschaetzung": "Viele Angaben stammen von einer Kriegspartei und sind nicht unabhängig geprüft.",
+     "quellen": [
+      {
+       "name": "ZDFheute Liveblog",
+       "url": "https://www.zdfheute.de/politik/ausland/iran-israel-usa-angriff-liveblog-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Huthi feuern erneut auf Flughafen Riad",
+     "kurz": "Die Miliz aus dem Jemen beansprucht einen <b>Raketentreffer</b> auf den Flughafen der saudischen Hauptstadt. Riad bestätigte das zunächst nicht.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Flughafen Riad",
+       "suche": "King Khalid International Airport Riyadh"
+      }
+     ],
+     "lang": [
+      "Der saudische Zivilschutz hatte schon in der Nacht vor Gefahren gewarnt. Die Huthi greifen seit Wochen Flughäfen und Ölanlagen an und raten Airlines, den saudischen Luftraum zu meiden.",
+      "Deutschland stockt derweil die humanitäre Hilfe für den Jemen um zehn auf 38 Millionen Euro auf. Außenminister Wadephul fordert ein Ende der Angriffe."
+     ],
+     "einschaetzung": "Der Angriff ist von der Miliz behauptet, aber noch nicht von Saudi-Arabien bestätigt.",
+     "quellen": [
+      {
+       "name": "aero.de / dpa-AFX",
+       "url": "https://www.aero.de/news-54093/Erneut-Huthi-Angriff-auf-Flughafen-Riad.html"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "liste": [
+      "<b>Herbert Blomstedt</b> ist mit 99 Jahren in Göteborg gestorben. Der Dirigent war bis 2005 Gewandhauskapellmeister in Leipzig.",
+      "<b>Frankreich:</b> Hacker drehen Kühlschränke des Blutspendedienstes von minus 30 auf plus 110 Grad. Ein Techniker merkt es rechtzeitig.",
+      "<b>Goncourt-Preisträger</b> Philippe Jaenada räumt ein, ChatGPT für Recherchen genutzt zu haben.",
+      "<b>WHO:</b> Nur 14 Prozent der 11- bis 17-Jährigen bewegen sich täglich mindestens eine Stunde."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Göteborg",
+       "suche": "Göteborg"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit kleineren Meldungen."
+     ],
+     "einschaetzung": "Alle Punkte aus dem ZDF-Newsticker.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "hinweis": "Zu Scorpions und Indians fanden wir keine verlässlich datierten neuen Ergebnisse.",
+   "meldungen": [
+    {
+     "titel": "BVB dreht das Spiel, Leipzig fehlt ein Punkt",
+     "kurz": "Dortmund gewinnt <b>2:1 gegen Betis Sevilla</b>, Karetsas trifft zum Sieg. Leipzig gleicht zweimal aus und verliert trotzdem 2:3 gegen Manchester City.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Signal Iduna Park",
+       "suche": "Signal Iduna Park Dortmund"
+      },
+      {
+       "name": "Red Bull Arena",
+       "suche": "Red Bull Arena Leipzig"
+      }
+     ],
+     "lang": [
+      "Beim BVB brachte Fábio Silva nach der Pause die Führung, Aitor Ruibal glich aus, ehe Konstantinos Karetsas den Heimsieg sicherte.",
+      "In Leipzig ging City durch ein Eigentor von Castello Lukeba in Führung. Ridle Baku und Antonio Nusa glichen zweimal aus, doch Erling Haaland entschied das Spiel spät."
+     ],
+     "einschaetzung": "Ergebnisse von der UEFA und internationalen Sportmedien übereinstimmend gemeldet.",
+     "quellen": [
+      {
+       "name": "UEFA",
+       "url": "https://de.uefa.com/uefachampionsleague/news/02ab-21fe4cfe9ff3-878776f9b729-1000--champions-league-roundup-dortmund-feiert-heimsieg-leipzig-u/"
+      },
+      {
+       "name": "beIN Sports",
+       "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/all-goals-leipzig-vs-manchester-city-uefa-champions-league-2026-11-04"
+      }
+     ]
+    },
+    {
+     "titel": "Klopp holt wohl Füllkrug zurück",
+     "kurz": "Laut Sky und Bild steht der Bremer Stürmer im Kader für Serbien und die Niederlande. Der DFB verkündet die Nominierung heute gegen <b>11 Uhr</b>.",
+     "bewertung": "plausibel",
+     "orte": [],
+     "lang": [
+      "Klopp hatte zuletzt betont, Füllkrug treffe zwar ständig, sei aber 33. Nun soll er doch dabei sein. Am 13. November spielt Deutschland in Belgrad gegen Serbien, danach folgen die Niederlande. Treffpunkt ist am 9. November in Herzogenaurach.",
+      "In der Nations-League-Gruppe liegt das DFB-Team mit fünf Punkten hinter den Niederlanden und Griechenland. Nur die ersten zwei kommen weiter."
+     ],
+     "einschaetzung": "Zwei Medien melden es übereinstimmend, offiziell ist es erst nach der Pressekonferenz.",
+     "quellen": [
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/sport/fussball/nationalmannschaft-deutschland/id_101513222/nationalmannschaft-juergen-klopp-hat-fuellkrug-entscheidung-getroffen.html"
+      },
+      {
+       "name": "Volksstimme",
+       "url": "https://www.volksstimme.de/panorama/klopp-nominiert-am-5-november-dfb-comeback-von-fullkrug-4346388"
+      }
+     ]
+    },
+    {
+     "titel": "Zverev verpatzt Debüt als Nummer eins",
+     "kurz": "In der <b>zweiten Runde</b> des Masters in Paris verliert Alexander Zverev gegen Lorenzo Musetti.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Paris",
+       "suche": "Paris La Défense Arena"
+      }
+     ],
+     "lang": [
+      "Es war das erste Match des Hamburgers als offizieller Weltranglisten-Erster, und es endete früh. Musetti ist für Zverev schon länger ein unangenehmer Gegner.",
+      "Bis zu den ATP Finals bleibt nun Zeit zum Durchatmen."
+     ],
+     "einschaetzung": "Von Sportschau und Eurosport übereinstimmend berichtet.",
+     "quellen": [
+      {
+       "name": "Sportschau",
+       "url": "https://www.sportschau.de/tennis/atp/zverev-verliert-erstes-match-als-nummer-eins-gegen-musetti,spielbericht-paris-zverev-musetti-100.html"
+      },
+      {
+       "name": "Eurosport",
+       "url": "https://www.eurosport.de/tennis/atp-paris/2026/alexander-zverev-lorenzo-musetti-niederlage-nummer-eins-debuet-misslungen-rueckschlag_sto23352141/story.shtml"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Hannovers Teams im Blick.",
+     "liste": [
+      "<b>Hannover 96</b> spielt am Sonntag um 13:30 Uhr in Heidenheim. Danach kommt am 21. November Fürth (13 Uhr) in die Arena.",
+      "<b>96-Bilanz</b> nach zehn Spieltagen: drei Siege, zwei Remis, fünf Niederlagen, zuletzt 2:1 gegen Dresden.",
+      "<b>Die Recken</b> haben nach dem 27:21 gegen den Bergischen HC Pause bis zum 15. November (18 Uhr in Gummersbach)."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Voith-Arena",
+       "suche": "Voith-Arena Heidenheim"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit Terminen und Ergebnissen."
+     ],
+     "einschaetzung": "Spielpläne von Hessenschau-Datencenter und Recken-Website.",
+     "quellen": [
+      {
+       "name": "hessenschau Ergebnisse",
+       "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"
+      },
+      {
+       "name": "Die Recken",
+       "url": "https://www.die-recken.de/spielplan/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit (r/hannover) war für unsere Abfrage gesperrt, heise.de ließ keinen Abruf zu. Wir haben keine Umwege genutzt.",
+   "trends": [
+    {
+     "begriff": "bundestrainer",
+     "volumen": "5000+",
+     "anlass": "Klopps Füllkrug-Entscheidung"
+    },
+    {
+     "begriff": "fc bayern münchen champions league",
+     "volumen": "2000+",
+     "anlass": "Sieg in Madrid, Karl-Jubel"
+    },
+    {
+     "begriff": "e10",
+     "volumen": "200+",
+     "anlass": "Benzin wieder unter 2 Euro"
+    },
+    {
+     "begriff": "sylvester stallone",
+     "volumen": "200+",
+     "anlass": "Film „I Play Rocky“"
+    },
+    {
+     "begriff": "x",
+     "volumen": "200+",
+     "anlass": "Wolverine-Gerücht um Jeremy Allen White"
+    },
+    {
+     "begriff": "jason derulo",
+     "volumen": "100+",
+     "anlass": "Glücksgefühle-Festival 2027"
+    },
+    {
+     "begriff": "o2",
+     "volumen": "100+",
+     "anlass": "Stellenabbau bei Virgin Media O2"
+    },
+    {
+     "begriff": "pistons – 76ers",
+     "volumen": "100+",
+     "anlass": "NBA-Spiel in der Nacht"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "E10 wieder unter zwei Euro",
+     "kurz": "Laut Medienberichten mit ADAC-Daten ist Super E10 im Schnitt wieder <b>günstiger als 2 Euro</b>, so billig wie zuletzt im Juli.",
+     "bewertung": "plausibel",
+     "orte": [],
+     "lang": [
+      "Benzin und Diesel geben leicht nach, Heizöl bleibt dagegen teuer. Viele googeln, ob sich das Tanken jetzt lohnt.",
+      "Wie lange das hält, hängt vom Ölpreis ab, und der reagiert stark auf die Lage am Golf."
+     ],
+     "einschaetzung": "Mehrere Schlagzeilen im Trend-Feed, die ADAC-Mitteilung konnten wir nicht selbst öffnen.",
+     "quellen": [
+      {
+       "name": "Google Trends (Artikel von RND, ADAC, top agrar)",
+       "url": "https://trends.google.com/trending/rss?geo=DE"
+      }
+     ]
+    },
+    {
+     "titel": "Wird der Bear-Star der neue Wolverine?",
+     "kurz": "Branchenseiten berichten, Marvel habe <b>Jeremy Allen White</b> als Nachfolger von Hugh Jackman im Blick.",
+     "bewertung": "vorsicht",
+     "orte": [],
+     "lang": [
+      "Die Spekulation geistert seit Jahren durch Fan-Foren, jetzt greifen sie mehrere Film-Portale wieder auf. Eine Bestätigung von Marvel gibt es nicht.",
+      "White war schon einmal bei Marvel zu Gesprächen, hat sich danach aber eher zurückhaltend geäußert."
+     ],
+     "einschaetzung": "Reines Gerücht aus Fanseiten, keine offizielle Quelle.",
+     "quellen": [
+      {
+       "name": "Google Trends (Gizmodo u. a.)",
+       "url": "https://trends.google.com/trending/rss?geo=DE"
+      }
+     ]
+    },
+    {
+     "titel": "Helene Fischer und Jason Derulo beim Glücksgefühle-Festival",
+     "kurz": "Nach Medienberichten stehen <b>Helene Fischer</b>, Jason Derulo und Dieter Bohlen für 2027 auf dem Programm des Festivals am Hockenheimring.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Hockenheimring",
+       "suche": "Hockenheimring"
+      }
+     ],
+     "lang": [
+      "Das Festival von Lukas Podolski hatte zuletzt für Ärger gesorgt, jetzt kommt das neue Line-up. Dass Fischer kommt, war lange Podolskis großer Wunsch.",
+      "Die genauen Termine und weitere Namen stehen noch aus."
+     ],
+     "einschaetzung": "Berichte von ZEIT und RND laut Trend-Feed, keine eigene Prüfung der Veranstalterangaben.",
+     "quellen": [
+      {
+       "name": "Google Trends (ZEIT, RND)",
+       "url": "https://trends.google.com/trending/rss?geo=DE"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Sitzzahlen USA:</b> Die Mehrheiten sind von mehreren Sendern ausgerufen, die genauen Zahlen ändern sich noch. Eine Übersicht nennt für den Senat mal 50, mal 51 demokratische Sitze. In Georgia und Louisiana sind Stichwahlen möglich.",
+  "<b>Israel-Hilfe:</b> Trumps Ankündigung, die US-Militärhilfe für Israel nach diesem Jahr zu beenden, stammt weiter nur aus einem TV-Interview. Eine Bestätigung durch Regierungsstellen gibt es nicht.",
+  "<b>Fury in the Slaughterhouse:</b> Ein Bericht nennt die Zusatzshow am 7. November einen Sonntag. Das passt zu 2027, nicht zu diesem Wochenende. Laut hannover.de sind die Konzerte im November 2027.",
+  "<b>Hormus:</b> Die brennenden Tanker sind eine iranische Angabe und nicht unabhängig bestätigt."
+ ],
+ "woche": [
+  {
+   "wann": "Do 5. Nov",
+   "titel": "Sonnig, morgens glatt",
+   "text": "Rund <b>8 Sonnenstunden</b>, trocken, 2 bis 9 Grad. Am Vormittag Glättegefahr auf den Straßen. <b>11 Uhr:</b> Klopp nominiert den DFB-Kader."
+  },
+  {
+   "wann": "Fr 6. Nov",
+   "titel": "Sonnig und frisch, Busstreik",
+   "text": "Meist sonnig bei <b>1 bis 9 Grad</b>, Ostwind mit Böen. Regiobus-Streik ab Eldagsen. <b>10 Uhr:</b> Vorverkauf für die Fury-Zusatzshow. Abends Bahn-Ersatzverkehr auf den Linien 4 und 5."
+  },
+  {
+   "wann": "Sa 7. bis Mi 11. Nov",
+   "titel": "Übung, Umleitungen, 96 in Heidenheim",
+   "text": "Samstag wolkig und trocken bei <b>2 bis 6 Grad</b>, Sonntag bis 10 Grad. <b>Sa:</b> Stromausfall-Übung der Feuerwehr, Linien 3, 7, 13 umgeleitet. <b>So 13:30 Uhr:</b> Heidenheim–96. <b>Mo:</b> Start der Klimakonferenz in Antalya, DFB-Team trifft sich. Danach 4 bis 10 Grad, zunehmend wechselhaft."
+  }
+ ]
+}
