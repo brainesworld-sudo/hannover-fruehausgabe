@@ -1,0 +1,673 @@
+{
+ "stand": "Stand: Freitag, 3 Uhr",
+ "kurz": [
+  "<b>Aiwanger ist tot:</b> Der Chef der Freien Wähler und bayerische Wirtschaftsminister wurde in einem <b>Berliner Hotel</b> leblos gefunden. Laut vorläufiger Obduktion gab es keine Fremdeinwirkung.",
+  "<b>Fury im Ohr:</b> Üstra-Busse und Stadtbahnen piepen jetzt mit einem Motiv aus <b>„Won't forget these days“</b>, die Ansagen kommen von einer KI-Stimme.",
+  "<b>Führerschein-Reform:</b> Der Bundestag hat den ersten Teil beschlossen, künftig dürfen auch <b>Eltern</b> beim Üben auf dem Beifahrersitz sitzen. Der Bundesrat muss noch zustimmen.",
+  "<b>Rheinmetall stürzt ab:</b> Nach einer gesenkten Umsatzprognose verliert die Aktie zeitweise <b>mehr als 17 Prozent</b>.",
+  "<b>Füllkrug ist zurück:</b> Klopp beruft <b>24 Spieler</b> für Serbien und die Niederlande, darunter den Bremer Stürmer und den 17-jährigen Gladbacher Wael Mohya.",
+  "<b>Europa League:</b> Leverkusen verliert daheim <b>0:1 gegen Marseille</b>, Hoffenheim rettet in London in der Nachspielzeit ein 1:1."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "meldungen": [
+    {
+     "titel": "Üstra klingt jetzt nach Fury in the Slaughterhouse",
+     "kurz": "Seit Donnerstag ertönen in Bussen, Bahnen und an Haltestellen neue Signaltöne nach dem Song <b>„Won't forget these days“</b>. Dazu kommt eine einheitliche, KI-gestützte Ansagestimme.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Betriebshof Leinhausen",
+       "suche": "Üstra Betriebshof Leinhausen Hannover"
+      }
+     ],
+     "lang": [
+      "Manche der alten Hinweistöne stammten noch aus den 1980ern. Weil Üstra und Regiobus inzwischen gemeinsam auftreten und die Marken unter dem GVH-Dach zusammenwachsen, mussten viele Durchsagen ohnehin neu gemacht werden. Zum Start spielte die Band am Mittwochabend rund 45 Minuten auf dem Betriebshof Leinhausen.",
+      "Spannender als die Melodie ist die Stimme: Sie basiert auf einer Profisprecherin, wird aber per KI erzeugt. Sonderansagen bei Störungen müssen so nicht mehr im Tonstudio aufgenommen werden. Langfristig sollen solche Durchsagen sogar automatisch entstehen. Sehbehinderte Fahrgäste wurden laut Üstra in die Entwicklung eingebunden."
+     ],
+     "einschaetzung": "Offizielle Angaben der Üstra, von zwei Lokalmedien übereinstimmend berichtet.",
+     "quellen": [
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101514710/uestra-hannover-fury-in-the-slaughterhouse-liefert-neue-signaltoene.html"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      }
+     ]
+    },
+    {
+     "titel": "Vahrenwald: Mindestens 65 Autos zerkratzt",
+     "kurz": "In zwei Nächten Ende Oktober wurden geparkte Autos zerkratzt und Reifen zerstochen, der Schaden liegt bei rund <b>100.000 Euro</b>. Ein 49-Jähriger wurde festgenommen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Vahrenwald",
+       "suche": "Vahrenwald Hannover"
+      }
+     ],
+     "lang": [
+      "Die Polizei griff den Verdächtigen bei einer Fahndung in der Nähe der Tatorte auf. Er saß danach einige Tage in gerichtlich angeordnetem Gewahrsam und ist inzwischen wieder frei. Ermittelt wird wegen Sachbeschädigung.",
+      "Wer in Vahrenwald parkt und Schäden entdeckt oder etwas beobachtet hat, kann sich bei der Polizei melden. Genaue Straßen nennt die Polizei nicht."
+     ],
+     "einschaetzung": "Polizeiangaben, über Radio Hannover verbreitet.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/mindestens-65-autos-in-vahrenwald-beschaedigt-tatverdaechtiger-festgenommen"
+      }
+     ]
+    },
+    {
+     "titel": "Mit dem Probefahrt-Porsche auf der A2 verunglückt",
+     "kurz": "Ein 26-Jähriger verschwand nach einer Probefahrt mit einem Porsche, flüchtete vor der Polizei und krachte auf der A2 bei <b>Bothfeld</b> in ein anderes Auto. Die Autobahn Richtung Dortmund war bis kurz vor Mitternacht gesperrt.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "A2 bei Bothfeld",
+       "suche": "A2 Anschlussstelle Hannover-Bothfeld"
+      }
+     ],
+     "lang": [
+      "Am Mittwochabend gegen 20:50 Uhr entdeckten Beamte den gesuchten Sportwagen. Der Fahrer ignorierte die Anhaltesignale, beim Spurwechsel touchierte er einen Seat. Dessen Fahrerin überschlug sich im Grünstreifen, beide kamen mit leichten Verletzungen davon.",
+      "Der Mann versteckte sich kurz im Gebüsch und ließ sich dann festnehmen. Ihm wird unter anderem Fahren ohne Fahrerlaubnis und ein verbotenes Kraftfahrzeugrennen vorgeworfen."
+     ],
+     "einschaetzung": "Ein Medienbericht auf Basis von Polizeiangaben, die Pressemitteilung selbst haben wir nicht gesehen.",
+     "quellen": [
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101515106/mann-klaut-porsche-carrera-4-gts-nach-probefahrt-unfall-in-hannover.html"
+      }
+     ]
+    },
+    {
+     "titel": "MHH-Neubau: Personalrat zieht vor Gericht",
+     "kurz": "Flure zu eng, Zimmer zu klein, Notaufnahme unterdimensioniert: Der Personalrat der MHH will das Planungsverfahren per <b>Eilantrag</b> beim Verwaltungsgericht stoppen.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Medizinische Hochschule Hannover",
+       "suche": "Medizinische Hochschule Hannover"
+      }
+     ],
+     "lang": [
+      "Die heutige Notaufnahme zählt mehr als 72.000 Patientenkontakte im Jahr. Der Personalrat fürchtet, dass der Neubau dem nicht gewachsen ist und Versorgung wie Arbeitsbedingungen leiden. Er fühlt sich bei der Planung zu wenig beteiligt.",
+      "Der Neubau ist eines der größten Bauprojekte des Landes. Ein Stopp würde den Zeitplan durcheinanderbringen, ob das Gericht dem Antrag folgt, ist offen."
+     ],
+     "einschaetzung": "Bericht beruft sich auf die HAZ, eine Stellungnahme der MHH lag uns nicht vor.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/mhh-neubau-personalrat-zieht-vor-gericht"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Was sonst in Stadt und Region wichtig ist.",
+     "liste": [
+      "<b>Regiobus-Streik heute:</b> Der Betriebshof Eldagsen wird ganztägig bestreikt. Fahrten in Springe, Wennigsen, Pattensen, Barsinghausen, Hemmingen und Ronnenberg können ausfallen.",
+      "<b>Üstra am Wochenende:</b> Wegen der Sperrung der Legionsbrücke fahren die Linien 3, 7 und 13 von Sa ca. 5 Uhr bis Mo ca. 3 Uhr Umleitung. Auf den Linien 4 und 5 ersetzen von heute Abend bis So früh Busse die Bahnen zwischen Herrenhäuser Gärten und Garbsen bzw. Stöcken.",
+      "<b>Samstag viel Blaulicht:</b> Feuerwehr und Hilfsdienste proben im ganzen Stadtgebiet einen großen Stromausfall. Gefahr besteht nicht.",
+      "<b>Fury-Zusatzshow:</b> Der Vorverkauf für das dritte Jubiläumskonzert in der ZAG Arena (November 2027) startet heute um 10 Uhr.",
+      "<b>Markthalle:</b> Zum zweiten Mal in fünf Wochen wurde eingebrochen, 16 Händler sind betroffen.",
+      "<b>Südstadt:</b> Einer 91-Jährigen wurde die Handtasche geraubt, die Polizei sucht Zeugen.",
+      "<b>Rechte Gewalt:</b> In Niedersachsen wurden 81 Angriffe dokumentiert, nach 68 im Vorjahr.",
+      "<b>Kommunen klamm:</b> Der Landesrechnungshof beziffert die Schulden der niedersächsischen Kommunen auf rund 43 Milliarden Euro."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Betriebshof Eldagsen",
+       "suche": "Regiobus Betriebshof Eldagsen"
+      },
+      {
+       "name": "Legionsbrücke",
+       "suche": "Legionsbrücke Hannover"
+      },
+      {
+       "name": "Markthalle",
+       "suche": "Markthalle Hannover"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit kleineren Meldungen aus Stadt und Region."
+     ],
+     "einschaetzung": "Angaben von hannover.de und Radio Hannover.",
+     "quellen": [
+      {
+       "name": "hannover.de: Regiobus-Streik",
+       "url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Aktuelle-Service%C2%ADin%C2%ADfor%C2%ADma%C2%ADtio%C2%ADnen-aus-Stadt-und-Re%C2%ADgion-Hannover/Regiobus-am-Frei%C2%ADtag-von-Streik-be%C2%ADtrof%C2%ADfen"
+      },
+      {
+       "name": "Üstra",
+       "url": "https://www.uestra.de"
+      },
+      {
+       "name": "Radio Hannover: Übung",
+       "url": "https://www.radio-hannover.de/hannover-news/am-samstag-grosse-katastrophenschutzuebung-in-hannover"
+      },
+      {
+       "name": "Radio Hannover: Rechnungshof",
+       "url": "https://www.radio-hannover.de/hannover-news/rechnungshof-kommunen-in-niedersachsen-unter-druck"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "Hubert Aiwanger ist tot",
+     "kurz": "Der Bundesvorsitzende der Freien Wähler und bayerische Vize-Regierungschef wurde in einem <b>Berliner Hotel</b> tot aufgefunden. Er wurde 55 Jahre alt.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Berlin",
+       "suche": "Berlin"
+      }
+     ],
+     "lang": [
+      "Nach dem vorläufigen Obduktionsergebnis gibt es keine Hinweise auf Fremdeinwirkung, weitere Untersuchungen laufen. Die Freien Wähler haben ihren für den 14. November geplanten Bundesparteitag in Geiselwind abgesagt und wollen ihn voraussichtlich 2027 nachholen.",
+      "Über die Nachfolge will die Partei erst nach der Beisetzung reden. Vize-Chef Joachim Streit sagte sinngemäß, man sei eine Aiwanger-Partei gewesen. In Bayern verliert die Koalition mit der CSU ihr bekanntestes Gesicht neben Söder."
+     ],
+     "einschaetzung": "Von ZDFheute, AP und NZZ gemeldet. Zu den Todesumständen gibt es bewusst nur vorläufige Angaben.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "NZZ",
+       "url": "https://www.nzz.ch/international/bayerns-wirtschaftsminister-aiwanger-tot-in-berliner-hotel-gefunden-ld.10054634"
+      },
+      {
+       "name": "Just Security (AP-Zusammenfassung)",
+       "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+      }
+     ]
+    },
+    {
+     "titel": "Führerschein: Bundestag beschließt ersten Teil der Reform",
+     "kurz": "Fahrschulen werden entlastet, und Fahrschüler dürfen künftig auch mit <b>Eltern oder anderen Angehörigen</b> üben. Der Bundesrat muss noch zustimmen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Bundestag",
+       "suche": "Reichstagsgebäude Berlin"
+      }
+     ],
+     "lang": [
+      "Ziel ist ein billigerer Führerschein, der heute oft mehrere tausend Euro kostet. Der Regierungsentwurf vom Mai sah unter anderem vor: Begleitetes Üben nach bestandener Theorie und sechs Fahrstunden, Theorie per App statt Pflicht-Unterricht, weniger Prüfungsfragen und weniger Sonderfahrten. Große Teile sollen Anfang 2027 greifen.",
+      "Fahrlehrerverbände und der Verkehrssicherheitsrat sehen vor allem die Laienausbildung kritisch. Welche Details genau im beschlossenen Paket stehen, haben wir am Gesetzestext nicht geprüft."
+     ],
+     "einschaetzung": "Beschluss von ZDFheute gemeldet; die Einzelheiten stammen aus dem Kabinettsentwurf und können sich verschoben haben.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "ZDFheute: Die Pläne im Überblick",
+       "url": "https://www.zdfheute.de/politik/deutschland/fuehrerschein-reform-plaene-ueberblick-schnieder-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Rheinmetall-Aktie bricht ein",
+     "kurz": "Der Rüstungskonzern wächst kräftig, senkt aber seine Jahresprognose auf rund <b>13,2 Milliarden Euro</b> Umsatz. Die Aktie fiel zeitweise um mehr als 17 Prozent.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Düsseldorf",
+       "suche": "Rheinmetall Düsseldorf"
+      }
+     ],
+     "lang": [
+      "Im dritten Quartal stieg der Umsatz um gut 30 Prozent, das operative Ergebnis sogar um gut 60 Prozent. Trotzdem verschieben sich Großaufträge: Ein Boxer-Radpanzer-Auftrag der Bundeswehr dürfte erst 2027 kommen, auch Munitionsabnahmen verzögern sich.",
+      "Es ist schon die zweite Prognosesenkung in diesem Jahr. Der Kurs hat seit Januar fast die Hälfte verloren, auch andere europäische Rüstungsaktien gaben nach."
+     ],
+     "einschaetzung": "Unternehmenszahlen, von Euronews und ZDFheute berichtet.",
+     "quellen": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/05/rheinmetall-shares-plunge-more-than-17-after-profit-warning-over-order-delays"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Deutschland und dem Nachbarland.",
+     "liste": [
+      "<b>Benko erneut verurteilt:</b> Das Landesgericht Innsbruck verhängt zwei Jahre Zusatzstrafe wegen Betrugs an einem Investor, nicht rechtskräftig.",
+      "<b>Schlachthöfe:</b> Der Bundestag wollte am Donnerstagabend über eine Videopflicht für über 90 Prozent der Schlachtungen abstimmen.",
+      "<b>Rückruf:</b> dm ruft bestimmte Chargen Pinienkerne (60 g) wegen möglicher Salmonellen zurück.",
+      "<b>Ukraine-Hilfe:</b> Die EU überweist 4,36 Milliarden Euro, davon 658 Millionen für Militärausrüstung.",
+      "<b>Bundespräsidentin?</b> Niedersachsens Ministerpräsident Lies wünscht sich eine Frau im Amt, gewählt wird am 30. Januar."
+     ],
+     "bewertung": "gesichert",
+     "orte": [],
+     "lang": [
+      "Sammelkarte mit kleineren Meldungen."
+     ],
+     "einschaetzung": "Meldungen aus dem ZDFheute-Ticker und von Radio Hannover.",
+     "quellen": [
+      {
+       "name": "ZDFheute: Benko-Urteil",
+       "url": "https://www.zdfheute.de/wirtschaft/benko-betrug-urteil-zwei-jahre-100.html"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "Ukraine: 42 Tote in Komyschuwacha, neue Gesprächsrunde in Sicht",
+     "kurz": "Nach dem russischen Angriff auf eine Hilfsausgabe im Gebiet Saporischschja ist die Zahl der Toten laut Reuters auf <b>42</b> gestiegen. Parallel bereiten USA, Ukraine und Russland Dreiergespräche vor.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Komyschuwacha",
+       "suche": "Komyshuvakha Zaporizhzhia Oblast"
+      },
+      {
+       "name": "Abu Dhabi",
+       "suche": "Abu Dhabi"
+      }
+     ],
+     "lang": [
+      "Unter den Trümmern wurden zuletzt noch über 30 Menschen vermutet. Die Opferzahl ist seit dem Angriff Anfang der Woche mehrfach nach oben korrigiert worden.",
+      "Diplomatisch tut sich etwas: Selenskyj traf in Brüssel die US-Gesandten Witkoff und Kushner, dreiseitige Gespräche sollen am 10. und 11. November stattfinden, laut Euronews in Abu Dhabi. Zur Vorbereitung empfängt Melania Trump Vertreter beider Länder im Weißen Haus."
+     ],
+     "einschaetzung": "Opferzahlen stammen von ukrainischer Seite und ändern sich noch; die Gesprächstermine sind angekündigt, nicht gesichert.",
+     "quellen": [
+      {
+       "name": "Just Security (Reuters, The Hill)",
+       "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+      },
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house"
+      }
+     ]
+    },
+    {
+     "titel": "Frankreich: Hunderttausende gegen den Sparhaushalt",
+     "kurz": "Beim landesweiten Protesttag zählte das Innenministerium schon am Mittag rund <b>270.000</b> Teilnehmende. Der Eiffelturm blieb wegen des Streiks zu.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Paris",
+       "suche": "Paris"
+      },
+      {
+       "name": "Lyon",
+       "suche": "Lyon"
+      }
+     ],
+     "lang": [
+      "Die Gewerkschaften wehren sich gegen den Sparkurs der Regierung, die das hohe Defizit drücken will. In Lyon setzte die Polizei Tränengas ein.",
+      "Für Reisende heißt das: Bei Fahrten nach Frankreich mit Ausfällen bei Bahn und Nahverkehr rechnen, solange die Proteste anhalten."
+     ],
+     "einschaetzung": "Behördenzahl über ZDFheute, Bilder aus Lyon von Reuters; Gewerkschaften nennen meist höhere Zahlen.",
+     "quellen": [
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/05/france-braces-for-nationwide-strike-as-government-backs-austerity-budget-to-rein-in-soarin"
+      }
+     ]
+    },
+    {
+     "titel": "Hongkong: Zehn weitere Jahre Haft für Joshua Wong",
+     "kurz": "Der Demokratie-Aktivist wurde wegen <b>Kollusion mit ausländischen Kräften</b> verurteilt. Eigentlich hätte er im Januar freikommen sollen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Hongkong",
+       "suche": "Hong Kong"
+      }
+     ],
+     "lang": [
+      "Das Gericht stützte sich auf das von Peking eingeführte Sicherheitsgesetz. Wong soll sich um Sanktionen gegen Hongkong und China bemüht haben. Wegen seines Geständnisses wurde die Strafe von 13 auf 10 Jahre reduziert, möglich gewesen wäre lebenslang.",
+      "Human Rights Watch nannte das Urteil grausam und ungerecht, Taiwan sprach von endloser politischer Verfolgung. Die Hongkonger Polizei begrüßte es."
+     ],
+     "einschaetzung": "Gerichtsurteil, von Euronews und BBC berichtet.",
+     "quellen": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years-for-collusion"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "liste": [
+      "<b>Ostsee-Kabel:</b> Ein Gericht in Helsinki schickt den russischen Kapitän der „Fitburg“ für 3,5 Jahre in Haft.",
+      "<b>USA:</b> Die Demokraten holen laut „State Navigate“ in mindestens elf Bundesstaaten auch die Parlamentsmehrheit. Hakeem Jeffries will Sprecher des Repräsentantenhauses werden.",
+      "<b>Israel:</b> Netanjahus Lager ist geschwächt, Präsident Herzog muss bis 11. November einen Kandidaten für die Regierungsbildung benennen.",
+      "<b>G7:</b> Das Außenministertreffen wird aus logistischen Gründen von Marseille nach Paris verlegt.",
+      "<b>PFAS:</b> Der US-Konzern 3M einigt sich auf einen Vergleich über 7,35 Milliarden Dollar."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Helsinki",
+       "suche": "Helsinki District Court"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit kleineren Meldungen."
+     ],
+     "einschaetzung": "Agenturmeldungen (Reuters, AP), gesammelt über Euronews, ZDFheute und Just Security.",
+     "quellen": [
+      {
+       "name": "Euronews: Kabel-Urteil",
+       "url": "https://www.euronews.com/2026/11/05/finnish-court-jails-russian-captain-over-baltic-sea-cable-sabotage"
+      },
+      {
+       "name": "Just Security",
+       "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+      },
+      {
+       "name": "ZDFheute Newsticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "hinweis": "Zu Scorpions und Indians fanden wir keine verlässlich datierten neuen Ergebnisse. Ob Freiburg in der Europa League gewonnen hat, konnten wir nicht mit zwei Quellen bestätigen.",
+   "meldungen": [
+    {
+     "titel": "96 nach dem Befreiungsschlag: Sonntag in Heidenheim",
+     "kurz": "Nach dem <b>2:1 gegen Dresden</b>, dem ersten Sieg unter Sandro Wagner, muss Hannover am Sonntag um <b>13:30 Uhr</b> beim Absteiger Heidenheim ran.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Voith-Arena",
+       "suche": "Voith-Arena Heidenheim"
+      }
+     ],
+     "lang": [
+      "Davor lief es zäh: 1:1 gegen St. Pauli, dann ein 0:2 im Derby in Braunschweig. Der Heimsieg gegen Dynamo hat nach unruhigen Tagen etwas Druck genommen.",
+      "In Heidenheim zeigt sich, ob der neue Trainer mehr als einen Stimmungsumschwung bringt. Danach ist Länderspielpause."
+     ],
+     "einschaetzung": "Ergebnisse und Anstoßzeit stimmen bei hessenschau und Radio Hannover überein.",
+     "quellen": [
+      {
+       "name": "hessenschau Ergebnisse",
+       "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/aufatmen-bei-96-wichtiger-heimsieg-nach-chaostagen"
+      }
+     ]
+    },
+    {
+     "titel": "Klopp holt Füllkrug zurück und setzt auf einen 17-Jährigen",
+     "kurz": "Der Bundestrainer beruft <b>24 Spieler</b>. Neu dabei ist der Gladbacher <b>Wael Mohya</b>, Woltemade, Raum und Adeyemi fehlen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Belgrad",
+       "suche": "Belgrad Stadion"
+      },
+      {
+       "name": "Olympiastadion Berlin",
+       "suche": "Olympiastadion Berlin"
+      }
+     ],
+     "lang": [
+      "Füllkrug war seit Juni 2025 nicht mehr dabei. Auch Finn Jeltsch und Brajan Gruda stehen ohne Länderspiel im Aufgebot. Nach dem 44-Mann-Kader beim Debüt ist Klopps Auswahl nun deutlich kompakter.",
+      "Es geht um viel: Deutschland ist in seiner Nations-League-Gruppe nur Dritter. Am 13. November geht es ohne Zuschauer in Belgrad gegen Serbien, am 16. in Berlin gegen die Niederlande."
+     ],
+     "einschaetzung": "Offizielle DFB-Nominierung, von ZDFheute, Sportschau und ran berichtet.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/sport/fussball-nations-league/dfb-kader-nominierung-klopp-fuellkrug-100.html"
+      },
+      {
+       "name": "ran",
+       "url": "https://ran.joyn.de/sports/fussball/nations-league-a/dfb-kader-juergen-klopp-holt-fuellkrug-zurueck-gladbacher-debuetant-nominiert-212230"
+      }
+     ]
+    },
+    {
+     "titel": "Leverkusens Serie reißt, Hoffenheim spät erlöst",
+     "kurz": "Bayer verliert in der Europa League daheim <b>0:1 gegen Marseille</b>, Gouiri trifft in der 77. Minute. Hoffenheim gleicht bei Crystal Palace in der Nachspielzeit zum 1:1 aus.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "BayArena",
+       "suche": "BayArena Leverkusen"
+      }
+     ],
+     "lang": [
+      "Für Leverkusen ist es die erste Niederlage im Wettbewerb in dieser Saison. Hoffenheim lag in London früh zurück, Daichi Kamada rettete den Punkt.",
+      "Am Wochenende geht es in der Bundesliga weiter: Bayern muss Samstag nach Mainz, Leverkusen spielt Sonntag in Köln."
+     ],
+     "einschaetzung": "Spielbericht der UEFA, Ergebnis auch auf bundesliga.com.",
+     "quellen": [
+      {
+       "name": "UEFA",
+       "url": "https://de.uefa.com/uefaeuropaleague/news/02ab-22004d21c8e9-d493623bef23-1000--4-spieltag-der-europa-league-leverkusens-serie-reisst-hoffen/"
+      },
+      {
+       "name": "bundesliga.com",
+       "url": "https://www.bundesliga.com/en/bundesliga/news/bayer-leverkusen-marseille-live-europa-league-blog-preview-report-maza-quansah-39793"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Hannovers Teams und das Wochenende.",
+     "liste": [
+      "<b>Recken:</b> Nach dem 27:21 gegen den Bergischen HC haben die Handballer Pause, weiter geht es am 15. November in Gummersbach.",
+      "<b>Bundesliga, 9. Spieltag:</b> Heute 20:30 Uhr HSV gegen Gladbach. Bayern und Dortmund stehen punktgleich (18) vorn.",
+      "<b>Formel 1:</b> Am Sonntag steigt der Große Preis von São Paulo in Interlagos.",
+      "<b>Pferdeturm:</b> Die Machbarkeitsstudie für das Eisstadion läuft, Ergebnis in etwa sechs Monaten."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Eisstadion am Pferdeturm",
+       "suche": "Eisstadion am Pferdeturm Hannover"
+      }
+     ],
+     "lang": [
+      "Sammelkarte mit kleineren Sportmeldungen."
+     ],
+     "einschaetzung": "Vereinsspielplan, hessenschau-Tabelle und Radio Hannover.",
+     "quellen": [
+      {
+       "name": "Die Recken",
+       "url": "https://www.die-recken.de/spielplan/"
+      },
+      {
+       "name": "hessenschau Bundesliga",
+       "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-9.html"
+      },
+      {
+       "name": "RacingNews365",
+       "url": "https://racingnews365.com/2026-f1-brazilian-grand-prix"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/aktuell/news"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit (r/hannover) war für unsere Abfrage gesperrt, heise.de lieferte nur veraltete Inhalte. Wir haben keine Umwege genutzt.",
+   "trends": [
+    {
+     "begriff": "die bergretter mia",
+     "volumen": "10000+",
+     "anlass": "ZDF-Serie, neue Folge"
+    },
+    {
+     "begriff": "felipe vi.",
+     "volumen": "1000+",
+     "anlass": "Selenskyj in Madrid"
+    },
+    {
+     "begriff": "hochstaufen",
+     "volumen": "500+",
+     "anlass": "Bergrettung im Neuschnee"
+    },
+    {
+     "begriff": "carolin kebekus",
+     "volumen": "500+",
+     "anlass": "Show mit Hazel Brugger"
+    },
+    {
+     "begriff": "hund",
+     "volumen": "500+",
+     "anlass": "Debatte um Qualzucht"
+    },
+    {
+     "begriff": "sarah tacke",
+     "volumen": "200+",
+     "anlass": "Friedrichs-Preis verliehen"
+    },
+    {
+     "begriff": "markus lanz heute gäste zdf",
+     "volumen": "200+",
+     "anlass": "Talkshow am Donnerstag"
+    },
+    {
+     "begriff": "vanessa brahimi",
+     "volumen": "100+",
+     "anlass": "Reality-Show „Promihof“"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "„Die Bergretter“ gehen weiter",
+     "kurz": "Die Serie ist mit <b>über 10.000 Suchanfragen</b> Spitzenreiter. Das ZDF hat bestätigt, dass Staffel 19 gedreht wird, ab 2027 auch mit Gebärdensprache.",
+     "bewertung": "plausibel",
+     "orte": [],
+     "lang": [
+      "Staffel 18 läuft seit Ende Oktober donnerstags um 20:15 Uhr, die Folge um Mias Unfall hat viele Fans umgetrieben. Laut Produktionsangaben stehen die Darsteller seit September für neue Folgen vor der Kamera.",
+      "Wann Staffel 19 ausgestrahlt wird, ist noch offen."
+     ],
+     "einschaetzung": "ZDF-Sprecherin zitiert, Drehdetails aber nur aus Branchenangaben.",
+     "quellen": [
+      {
+       "name": "Joyn",
+       "url": "https://www.joyn.de/bts/serien/die-bergretter/die-bergretter-zdf-ueberrascht-mit-grossen-plaenen-fuer-die-zukunft-der-serie-208562"
+      },
+      {
+       "name": "Google Trends",
+       "url": "https://trends.google.de/trending/rss?geo=DE"
+      }
+     ]
+    },
+    {
+     "titel": "Friedrichs-Preis für Hayali und Tacke",
+     "kurz": "Die beiden ZDF-Journalistinnen haben in Hamburg den <b>Hanns-Joachim-Friedrichs-Preis</b> bekommen, einen der wichtigsten Preise für Fernsehjournalismus.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Hamburg",
+       "suche": "Hamburg"
+      }
+     ],
+     "lang": [
+      "Die Jury unter Sandra Maischberger lobt Hayali dafür, seit Jahren trotz Hasswellen im Netz präsent zu bleiben, und Tacke für eine Arbeit, die politisch sei, ohne zu politisieren.",
+      "Im Netz wird die Ehrung auch kritisch diskutiert: Kritiker werfen den Öffentlich-Rechtlichen vor, sich gegenseitig Preise zu verleihen."
+     ],
+     "einschaetzung": "Preisvergabe offiziell; die Quelle ZDF berichtet über eigene Mitarbeiterinnen.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/in-eigener-sache/hayali-tacke-hanns-joachim-friedrichs-preis-zdf-100.html"
+      },
+      {
+       "name": "Horizont",
+       "url": "https://www.horizont.net/medien/nachrichten/hanns-joachim-friedrichs-preis-auszeichnung-fuer-zdf-journalistinnen-dunja-hayali-und-sarah-tacke-236058"
+      }
+     ]
+    },
+    {
+     "titel": "Winter in den Alpen: Rettungen am Hochstaufen",
+     "kurz": "Nach Neuschnee holten Bergwacht und ein Hüttenwirt laut Medienberichten <b>mehrere Bergsteiger</b> vom Hochstaufen bei Bad Reichenhall, am Hohen Göll saß ein Paar nachts fest.",
+     "bewertung": "vorsicht",
+     "orte": [
+      {
+       "name": "Hochstaufen",
+       "suche": "Hochstaufen Bad Reichenhall"
+      }
+     ],
+     "lang": [
+      "Die Schlagzeilen im Trend-Feed beschreiben vereiste Steige und junge Leute, die im Winterwetter nicht mehr weiterkamen. Verletzte werden dort nicht erwähnt.",
+      "Die Botschaft gilt auch für Flachlandwanderer im Urlaub: Im November können Wege in den Bergen über Nacht vereisen."
+     ],
+     "einschaetzung": "Wir kennen nur Schlagzeilen aus dem Trend-Feed, die Artikel selbst konnten wir nicht prüfen.",
+     "quellen": [
+      {
+       "name": "Google Trends (Schlagzeilen regionaler Medien)",
+       "url": "https://trends.google.de/trending/rss?geo=DE"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Melania-Treffen:</b> Euronews nennt als Termin „Donnerstag, 6. November“. Der 6. ist aber ein Freitag. Wann genau Vertreter beider Kriegsparteien im Weißen Haus sind, bleibt unklar.",
+  "<b>Komyschuwacha:</b> Die Opferzahl stieg in den Berichten von 18 über 26 auf 42. Solche Zahlen ändern sich in den Tagen nach einem Angriff oft noch.",
+  "<b>Aiwanger:</b> Das Obduktionsergebnis ist vorläufig. Spekulationen über die Todesumstände in sozialen Netzwerken sind durch nichts gedeckt.",
+  "<b>Formel 1:</b> Eine Schlagzeile deutet an, Kimi Antonelli sei schon Weltmeister. Das konnten wir nicht bestätigen."
+ ],
+ "woche": [
+  {
+   "wann": "Fr 6. Nov",
+   "titel": "Aufklarend, Regiobus-Streik",
+   "text": "Wolken lockern auf, trocken bei <b>1 bis 7 Grad</b>, mäßiger Ostwind. Regiobus-Streik ab Betriebshof Eldagsen den ganzen Tag. <b>10 Uhr:</b> Vorverkauf Fury-Zusatzshow. Ab abends Busse statt Bahnen auf den Linien 4 und 5. <b>20:30 Uhr:</b> HSV gegen Gladbach eröffnet den Bundesliga-Spieltag."
+  },
+  {
+   "wann": "Sa 7. Nov",
+   "titel": "Trüb, viel Blaulicht",
+   "text": "Meist bedeckt und trocken bei <b>3 bis 6 Grad</b>. Linien 3, 7 und 13 fahren Umleitung (Legionsbrücke gesperrt). Bis in den Nachmittag Stromausfall-Übung der Feuerwehr im ganzen Stadtgebiet, keine Gefahr. <b>15:30 Uhr:</b> Mainz gegen Bayern, Dortmund gegen Elversberg."
+  },
+  {
+   "wann": "So 8. bis Fr 13. Nov",
+   "titel": "96 in Heidenheim, Länderspiele",
+   "text": "Sonntag <b>2 bis 9 Grad</b>, leichter Regen möglich, danach meist grau, Donnerstag nass. <b>So 13:30 Uhr:</b> Heidenheim gegen 96, Formel 1 in São Paulo. <b>Mo:</b> DFB-Team trifft sich, Klimakonferenz in Antalya beginnt. <b>Di/Mi:</b> Ukraine-Gespräche geplant. <b>Fr:</b> Serbien gegen Deutschland in Belgrad."
+  }
+ ]
+}
