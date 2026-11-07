@@ -1,0 +1,617 @@
+{
+ "stand": "Stand: Samstag, 3 Uhr",
+ "kurz": [
+  "<b>Machtwechsel im Weißen Haus:</b> Nach der Wahlschlappe der Republikaner ersetzt Trump seine Stabschefin Susie Wiles durch den Hardliner <b>Stephen Miller</b>.",
+  "<b>Erste Bundespräsidentin?</b> CDU-Chef Merz will laut dpa am Wochenende <b>Ilse Aigner</b> vorschlagen, die SPD signalisiert Zustimmung.",
+  "<b>Bombendrohungen über Europa:</b> Erneut mussten Passagierjets umgeleitet werden, gefunden wurde nirgends Sprengstoff. Spanien spricht von einem <b>hybriden Angriff</b>.",
+  "<b>Streik im Umland:</b> Am Sonntag und Montag steht der Regiobus weitgehend still, montags fallen auch einige <b>Üstra-Buslinien</b> aus.",
+  "<b>KI-Kater an der Börse:</b> Der Dax rutscht um knapp 2 Prozent auf <b>25.820 Punkte</b>, nachdem Chipwerte weltweit eingebrochen sind.",
+  "<b>96 auf der Ostalb:</b> Nach dem ersten Sieg unter Sandro Wagner geht es am Sonntag um <b>13:30 Uhr</b> nach Heidenheim. Der HSV schlägt Gladbach <b>3:1</b>."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "meldungen": [
+    {
+     "titel": "Regiobus-Streik am Sonntag und Montag, auch Üstra betroffen",
+     "kurz": "Verdi legt am <b>Sonntag und Montag</b> den Regiobus-Verkehr im Umland lahm. Am Montag streikt auch der Üstra-Betriebshof <b>Mittelfeld</b>, einige Stadtbuslinien fallen aus.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Üstra-Betriebshof Mittelfeld",
+       "suche": "Üstra Betriebshof Mittelfeld Hannover"
+      },
+      {
+       "name": "Regiobus-Betriebshof Eldagsen",
+       "suche": "Regiobus Betriebshof Eldagsen Springe"
+      }
+     ],
+     "lang": [
+      "Nach dem Warnstreik am Betriebshof Eldagsen am Freitag, der Springe, Wennigsen, Pattensen, Barsinghausen, Hemmingen und Ronnenberg traf, weitet Verdi den Ausstand aus: Am Sonntag und Montag soll der Regiobus im ganzen Umland bestreikt werden. Am Montag macht zusätzlich der Üstra-Betriebshof Mittelfeld mit, sodass auch in der Stadt einzelne Buslinien ausfallen. Welche Linien genau, war bis Redaktionsschluss nicht veröffentlicht.",
+      "Verdi fordert unter anderem 6,5 Prozent mehr Lohn. Unabhängig vom Streik fahren auf den Stadtbahnlinien 4 und 5 zwischen Herrenhäuser Gärten und Garbsen beziehungsweise Stöcken wegen Bauarbeiten noch bis Sonntagfrüh Ersatzbusse."
+     ],
+     "einschaetzung": "Gesichert durch mehrere Meldungen von Radio Hannover; Details zu einzelnen Linien vor Fahrtantritt bei Üstra und Regiobus prüfen.",
+     "quellen": [
+      {
+       "name": "Radio Hannover: Ersatzverkehr und Streiks",
+       "url": "https://www.radio-hannover.de/hannover-news/stadtbahnlinien-4-und-5-ersatzverkehr-regiobus-und-uestra-streiks"
+      },
+      {
+       "name": "Radio Hannover: Regiobus-Streik Eldagsen",
+       "url": "https://www.radio-hannover.de/hannover-news/erneuter-regiobus-streik-diesmal-betriebshof-eldagsen-betroffen"
+      }
+     ]
+    },
+    {
+     "titel": "Vahrenwalder Straße am Sonntag teilweise gesperrt",
+     "kurz": "Wegen einer Spurensicherung von Kripo und LKA ist die Vahrenwalder Straße stadtauswärts am Sonntag von <b>12 bis etwa 15 Uhr</b> zwischen Werderstraße und Rolandstraße dicht.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Vahrenwalder Straße / Werderstraße",
+       "suche": "Vahrenwalder Straße Werderstraße Hannover"
+      }
+     ],
+     "lang": [
+      "Der Zentrale Kriminaldienst arbeitet dort gemeinsam mit dem Landeskriminalamt Niedersachsen. Auch aus Werderstraße und Philipsbornstraße kann man in der Zeit nicht in die Vahrenwalder Straße einbiegen. Eine ausgeschilderte Umleitung nennt die Polizei nicht, Autofahrer sollen den Bereich weiträumig meiden.",
+      "Fußgänger, Radfahrer und Bahnen sind nicht betroffen. Um welchen Fall es geht, sagt die Polizei nicht. Spekulationen über einen Zusammenhang mit anderen Ermittlungen im Stadtteil sind durch die Mitteilung nicht gedeckt."
+     ],
+     "einschaetzung": "Offizielle Polizeimeldung, der Anlass bleibt allerdings offen.",
+     "quellen": [
+      {
+       "name": "Polizeidirektion Hannover (Presseportal)",
+       "url": "https://www.presseportal.de/blaulicht/pm/66841/6385105"
+      },
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101515672/hannover-polizei-sperrt-vahrenwalder-strasse-am-sonntag-der-grund.html"
+      }
+     ]
+    },
+    {
+     "titel": "Gedenkort für ermordete Sinti und Roma am Opernplatz",
+     "kurz": "Direkt neben dem Holocaust-Mahnmal soll bis spätestens <b>2028</b> ein Mahnmal für die im Nationalsozialismus ermordeten Sinti und Roma entstehen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Opernplatz",
+       "suche": "Holocaust-Mahnmal Opernplatz Hannover"
+      }
+     ],
+     "lang": [
+      "Den Siegerentwurf „Die Stimme der Abwesenden“ hat die polnische Roma-Künstlerin Małgorzata Mirga-Tas gestaltet. Vorgestellt haben ihn Oberbürgermeister Belit Onay, Regionspräsidentin Eva Bender, Romani Rose vom Zentralrat Deutscher Sinti und Roma sowie Michael Fürst vom Landesverband der Jüdischen Gemeinden.",
+      "Für den Bau fehlen noch Spenden im mittleren sechsstelligen Bereich. Eine genaue Summe wurde nicht genannt."
+     ],
+     "einschaetzung": "Öffentlich vorgestellter Entwurf mit klaren Beteiligten; offen ist vor allem die Finanzierung.",
+     "quellen": [
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101516276/hannover-plant-gedenkort-fuer-ermordete-sinti-und-roma.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Was sonst in Stadt und Region wichtig ist.",
+     "bewertung": "gesichert",
+     "liste": [
+      "<b>Metall-Tarif:</b> Auch die dritte Verhandlungsrunde in Niedersachsen endete ohne Ergebnis. Die Arbeitgeber bieten nur eine Einmalzahlung von 660 Euro, die IG Metall will 5 Prozent.",
+      "<b>Mäc Geiz:</b> Die Filialen Adolf-Emmelmann-Straße und Roderbruchmarkt bleiben, schließen sollen unter anderem Lehrte, Neustadt und Springe. Die Gläubiger entscheiden voraussichtlich im Dezember.",
+      "<b>Neustadt am Rübenberge:</b> Nach der Auto-Attacke auf eine Menschengruppe laden Stadt und Polizei zu Bürgersprechstunden im Rathaus ein, am Dienstag und am 20. November.",
+      "<b>Rehburg-Loccum:</b> Autozulieferer Bayrak schließt Ende Januar sein Werk, rund 270 Jobs fallen weg.",
+      "<b>Altersarmut:</b> Der Sozialverband warnt, die geplante Wohngeldreform treffe rund 64.500 Rentnerinnen und Rentner in Niedersachsen.",
+      "<b>Lehrte-Klinikgelände:</b> Ermittlungen gegen Berlins SPD-Chef Steffen Krach rund um den Verkauf ruhen wegen seiner Immunität."
+     ],
+     "lang": [
+      "Kleinere Meldungen aus Hannover und der Region, gesammelt aus Radio Hannover, t-online und dem ZDF-Ticker."
+     ],
+     "einschaetzung": "Alle Punkte stammen aus aktuellen Meldungen etablierter Medien.",
+     "quellen": [
+      {
+       "name": "Radio Hannover: Metall-Tarifrunde",
+       "url": "https://www.radio-hannover.de/hannover-news/metall-und-elektroindustrie-dritte-tarifrunde-ergebnislos"
+      },
+      {
+       "name": "t-online: Mäc Geiz",
+       "url": "https://hannover.t-online.de/region/hannover/id_101516866/insolvenz-von-maec-geiz-so-geht-es-mit-den-filialen-in-hannover-weiter.html"
+      },
+      {
+       "name": "Radio Hannover: Neustadt",
+       "url": "https://www.radio-hannover.de/hannover-news/polizei-und-stadt-richten-buergersprechstunde-nach-auto-angriff-in-neustadt-ein"
+      },
+      {
+       "name": "t-online: Bayrak",
+       "url": "https://hannover.t-online.de/region/hannover/id_101516082/autozulieferer-bayrak-schliesst-werk-in-niedersachsen-270-jobs-fallen-weg.html"
+      },
+      {
+       "name": "Radio Hannover: Altersarmut",
+       "url": "https://www.radio-hannover.de/hannover-news/sozialverband-warnt-vor-altersarmut-in-niedersachsen"
+      },
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "Ilse Aigner soll Bundespräsidentin werden",
+     "kurz": "Kanzler Merz will die bayerische Landtagspräsidentin laut dpa am Wochenende den CDU-Gremien vorschlagen. SPD-Chef Klingbeil sagt <b>Unterstützung</b> zu.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Schloss Bellevue",
+       "suche": "Schloss Bellevue Berlin"
+      }
+     ],
+     "lang": [
+      "CSU-Chef Söder hatte Aigner schon im Frühjahr ins Gespräch gebracht, Merz hatte lange gezögert. Nun soll es schnell gehen: Klingbeil lobte Aigners verbindende Art. Auch Niedersachsens Ministerpräsident Olaf Lies sprach sich für eine Frau an der Staatsspitze und eine gemeinsame Kandidatin der demokratischen Parteien aus.",
+      "Die Bundesversammlung wählt am 30. Januar einen Nachfolger oder eine Nachfolgerin für Frank-Walter Steinmeier. Aigner wäre die erste Frau in diesem Amt."
+     ],
+     "einschaetzung": "Der Vorschlag beruht auf dpa-Informationen, offiziell nominiert ist Aigner noch nicht.",
+     "quellen": [
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Radio Hannover: Lies für Bundespräsidentin",
+       "url": "https://www.radio-hannover.de/hannover-news/lies-fuer-bundespraesidentin"
+      }
+     ]
+    },
+    {
+     "titel": "KI-Ausverkauf zieht den Dax nach unten",
+     "kurz": "Einen Tag nach dem Rekordhoch verliert der Dax knapp 2 Prozent und schließt bei <b>25.820 Punkten</b>. In den USA war der Chip-Index zuvor um <b>12 Prozent</b> abgestürzt.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Frankfurter Wertpapierbörse",
+       "suche": "Frankfurter Wertpapierbörse"
+      }
+     ],
+     "lang": [
+      "Auslöser war ein heftiger Abverkauf von KI- und Halbleiteraktien an der Wall Street: Nvidia verlor über 9 Prozent, AMD sogar 17. Anleger fürchten, dass nach dem Wahlsieg der Demokraten neue Rechenzentren in einigen US-Bundesstaaten gebremst werden. Dazu kommen Zweifel, ob sich die gewaltigen KI-Investitionen rechnen.",
+      "Ob das der Anfang vom Platzen einer KI-Blase ist, ist offen. Analysten verweisen darauf, dass sich die Nasdaq nach den meisten Korrekturen der letzten Jahre binnen Monaten erholt hat."
+     ],
+     "einschaetzung": "Kursdaten sind gesichert, die Deutung der Ursachen bleibt Einschätzung von Marktbeobachtern.",
+     "quellen": [
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "onvista",
+       "url": "https://www.onvista.de/news/2026/11-06-die-wichtigsten-antworten-zum-brutalen-tech-abverkauf-41122522-19-26573444"
+      }
+     ]
+    },
+    {
+     "titel": "Union droht mit Blockade der Steuerreform",
+     "kurz": "Die Unionsfraktion will die Einkommensteuerreform nur mittragen, wenn es ein praktikables Modell für Personengesellschaften gibt, die zur <b>Körperschaftsteuer</b> wechseln wollen.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Reichstagsgebäude",
+       "suche": "Reichstagsgebäude Berlin"
+      }
+     ],
+     "lang": [
+      "Die Warnung kam von Fraktionsvize Mathias Middelberg im Handelsblatt und richtet sich an den Koalitionspartner SPD. Es geht um die Frage, wie Familienunternehmen und Mittelständler steuerlich mit Kapitalgesellschaften gleichgestellt werden können.",
+      "Für viele Beschäftigte ist die Reform wichtig, weil sie die Einkommensteuer betrifft. Ein Zeitplan, bis wann man sich einigen will, wurde nicht genannt."
+     ],
+     "einschaetzung": "Eine Drohung über ein Interview, kein Beschluss; solche Signale gehören oft zur Verhandlungstaktik.",
+     "quellen": [
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Deutschland.",
+     "bewertung": "gesichert",
+     "liste": [
+      "<b>A2 bei Magdeburg:</b> Ein Kleinflugzeug stürzte auf die Autobahn, zwei Insassen starben. Die Richtung Hannover war gesperrt.",
+      "<b>Weltklimarat:</b> Der Bundestag lehnte einen AfD-Antrag auf Austritt aus dem IPCC ab. Kanzler Merz fährt nicht zur Klimakonferenz.",
+      "<b>Rückruf:</b> Der Hersteller Peter Faden ruft Rindfleischsalami in 500- und 1.000-Gramm-Packungen wegen Bakterien zurück.",
+      "<b>Babynahrung:</b> Die EU legt Grenzwerte für das Bakteriengift Cereulid fest, nach den Rückrufen zu Jahresbeginn.",
+      "<b>Bundespolizei:</b> Großfahndung an Bahnhöfen und Flughäfen in Niedersachsen, Hamburg und Bremen."
+     ],
+     "lang": [
+      "Kleinere Meldungen des Tages, überwiegend aus dem ZDF-Newsticker."
+     ],
+     "einschaetzung": "Kurzmeldungen aus dem Ticker eines öffentlich-rechtlichen Senders.",
+     "quellen": [
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "t-online: Bundespolizei-Fahndung",
+       "url": "https://hannover.t-online.de/region/hannover/id_101515554/bundespolizei-hannover-startet-fahndung-an-bahnhoefen-und-flughaefen.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "Trump tauscht die Stabschefin aus: Miller statt Wiles",
+     "kurz": "Drei Tage nach der Niederlage bei den Zwischenwahlen muss Susie Wiles gehen. Nachfolger wird <b>Stephen Miller</b>, laut ZDF ab Montag.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Weißes Haus",
+       "suche": "White House Washington"
+      }
+     ],
+     "lang": [
+      "Trump verkündete den Wechsel selbst in sozialen Netzwerken. Miller gilt als Architekt der harten Migrationspolitik und als einer der engsten Vertrauten des Präsidenten. Gründe für Wiles' Abgang nannte Trump nicht, über ihre Ablösung war seit Wochen spekuliert worden.",
+      "Die Demokraten haben bei der Wahl am Dienstag laut Hochrechnungen beide Kongresskammern gewonnen, im Senat unter anderem Sitze in Texas, Ohio und Maine. Trump hatte erklärt, er habe nicht selbst auf dem Stimmzettel gestanden."
+     ],
+     "einschaetzung": "Von Trump selbst verkündet und von mehreren großen Medien berichtet.",
+     "quellen": [
+      {
+       "name": "ABC News",
+       "url": "https://abcnews.com/Politics/trump-chief-staff-susie-wiles-miller-replace/story?id=137921244"
+      },
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "ZDFheute: Midterms",
+       "url": "https://www.zdfheute.de/politik/ausland/midterms-usa-wahl-kongress-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Neue Welle von Bombendrohungen gegen Flugzeuge",
+     "kurz": "Quer durch Europa wurden erneut Passagierjets umgeleitet und durchsucht, Sprengstoff fand sich <b>nirgends</b>. Spaniens Außenminister sieht einen hybriden Angriff.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Flughafen Wien",
+       "suche": "Flughafen Wien-Schwechat"
+      },
+      {
+       "name": "Flughafen Sofia",
+       "suche": "Flughafen Sofia"
+      }
+     ],
+     "lang": [
+      "Betroffen waren unter anderem Flüge von Aer Lingus, Wizz Air, Finnair und LOT. Maschinen landeten außerplanmäßig in Wien, Sofia, Plovdiv und auf einem französischen Militärflugplatz, teils begleitet von Kampfjets. In Prag und Kopenhagen untersuchten Spezialisten Flugzeuge am Boden. Schon in den Tagen zuvor hatte es eine ähnliche Serie gegeben.",
+      "José Manuel Albares sprach von einem Angriff autokratischer Kräfte auf Europas Demokratien, nannte aber kein Land. Belege für eine Steuerung aus dem Ausland gibt es laut Sicherheitskreisen bisher nicht."
+     ],
+     "einschaetzung": "Die Vorfälle sind gut belegt, wer dahintersteckt, ist dagegen völlig offen.",
+     "quellen": [
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/nachrichten/panorama/ungluecke/id_101514036/bombendrohung-auf-flieger-passagierflugzeuge-aendern-route.html"
+      },
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Israel: Eisenkot vor dem Auftrag zur Regierungsbildung",
+     "kurz": "<b>67 von 120</b> Abgeordneten haben Gadi Eisenkot als Regierungschef empfohlen, 46 Netanjahu. Präsident Herzog will ihn am Sonntag beauftragen.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Knesset",
+       "suche": "Knesset Jerusalem"
+      }
+     ],
+     "lang": [
+      "Die Mehrheit der Empfehlungen kommt nur zustande, weil arabische Parteien Eisenkot unterstützen. Eine stabile Koalition ist das noch nicht: Avigdor Liberman will nicht von arabischen Stimmen abhängen, eine Einheitsregierung mit dem Likud lehnt Eisenkots Lager ab.",
+      "Eisenkot hätte 28 Tage Zeit, die Frist kann um 14 Tage verlängert werden. Scheitern alle Versuche, drohen Neuwahlen. Bis dahin bleibt Netanjahu geschäftsführend im Amt."
+     ],
+     "einschaetzung": "Die Zahlen sind belegt, ob daraus eine Regierung wird, ist ungewiss.",
+     "quellen": [
+      {
+       "name": "Kreisbote (dpa-Bericht)",
+       "url": "https://www.kreisbote.de/politik/israel-nach-der-wahl-eisenkot-vor-regierungsauftrag-zr-94577585.html"
+      },
+      {
+       "name": "Israel Heute",
+       "url": "https://www.israelheute.com/erfahren/regierungsbildung-in-israel-67-abgeordnete-unterstuetzen-eisenkot-46-netanjahu"
+      },
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "bewertung": "gesichert",
+     "liste": [
+      "<b>Ukraine:</b> Für den 10. und 11. November sind Gespräche zwischen USA, Ukraine und Russland in Abu Dhabi geplant. Merz und Trump telefonierten dazu.",
+      "<b>Klimakonferenz:</b> Die COP31 in Antalya beginnt am Montag, der Gipfelteil folgt Mittwoch und Donnerstag.",
+      "<b>El Niño:</b> Die EU gibt 13,5 Millionen Euro, damit sich Ost- und Südafrika auf das erwartete starke Wetterphänomen vorbereiten können.",
+      "<b>Türkei:</b> Eine frühere Familienministerin und AKP-Vizechefin sitzt wegen eines Investmentfonds-Skandals in U-Haft."
+     ],
+     "lang": [
+      "Kleinere internationale Meldungen, vor allem aus den Tickern von ZDFheute."
+     ],
+     "einschaetzung": "Ticker-Meldungen eines öffentlich-rechtlichen Senders.",
+     "quellen": [
+      {
+       "name": "ZDFheute Schlagzeilen",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "ZDFheute Ukraine-Ticker",
+       "url": "https://www.zdfheute.de/politik/ausland/ukraine-russland-konflikt-blog-102.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "hinweis": "Zu Scorpions und Indians fanden wir keine verlässlich datierten neuen Ergebnisse. Die Recken spielen erst wieder am 15. November.",
+   "meldungen": [
+    {
+     "titel": "96 in Heidenheim: Bei den heimstarken Absteigern nachlegen",
+     "kurz": "Nach dem <b>2:1 gegen Dresden</b> muss Hannover am Sonntag um <b>13:30 Uhr</b> bei Bundesliga-Absteiger Heidenheim ran, der daheim noch ungeschlagen ist.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Voith-Arena",
+       "suche": "Voith-Arena Heidenheim"
+      }
+     ],
+     "lang": [
+      "Es ist die weiteste Auswärtsfahrt der Saison, rund 1.500 Fans reisen mit. Lars Gindorf fällt weiter aus, hinter Maurice Neubauer steht ein Fragezeichen. Mustapha Bundu ist nach langer Pause wieder eine Option, Benjamin Källman soll im Sturm beginnen.",
+      "Trainer Sandro Wagner nennt den Sieg gegen Dresden einen ersten kleinen Schritt und lobt Heidenheims Coach Frank Schmidt, der nach 20 Jahren aufhören will. Mit 11 Punkten aus 10 Spielen braucht 96 dringend Konstanz."
+     ],
+     "einschaetzung": "Anstoßzeit und Personal decken sich in zwei unabhängigen Quellen.",
+     "quellen": [
+      {
+       "name": "leinetal24",
+       "url": "https://www.leinetal24.de/sport/lokalsport/96-in-heidenheim-94577907.html"
+      },
+      {
+       "name": "hessenschau Spielplan 96",
+       "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"
+      },
+      {
+       "name": "Sportschau",
+       "url": "https://www.sportschau.de/regional/ndr/herausforderung-auf-der-ostalb-hannover-96-zu-gast-in-heidenheim,hannover-1364.html"
+      }
+     ]
+    },
+    {
+     "titel": "HSV schlägt Gladbach 3:1 und schickt Borussia tiefer in die Krise",
+     "kurz": "Zum Auftakt des 9. Spieltags gewinnt der HSV das Kellerduell durch Tore von <b>Muheim, Nandja und Grönbaek</b>. Gladbach spielte nach Gelb-Rot gegen Itakura lange zu zehnt.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Volksparkstadion",
+       "suche": "Volksparkstadion Hamburg"
+      }
+     ],
+     "lang": [
+      "Muheim traf in der 11. Minute mit einem Sonntagsschuss, Scally glich kurz vor der Pause aus. Nach Itakuras Platzverweis (49.) legten Nandja und Grönbaek nach. Der HSV hatte vor dem Spiel auf Platz 15 gestanden, Gladbach mit 4 Punkten auf dem letzten Rang.",
+      "Das Spiel stand im Zeichen von Uwe Seeler, der am Donnerstag 90 Jahre alt geworden wäre. Heute geht es um 15:30 Uhr unter anderem mit Mainz gegen Bayern und Dortmund gegen Elversberg weiter."
+     ],
+     "einschaetzung": "Ergebnis von Verein und Sportschau übereinstimmend gemeldet.",
+     "quellen": [
+      {
+       "name": "HSV",
+       "url": "https://www.hsv.de/en/news/3-1-home-win-against-gladbach-featuring-stunning-goals-and-a-maiden-bundesliga-strike"
+      },
+      {
+       "name": "Sportschau",
+       "url": "https://www.sportschau.de/fussball/bundesliga/hsv-schickt-gladbach-zurueck-in-die-krise,spielbericht-hamburger-sv-borussia-moenchengladbach-102.html"
+      }
+     ]
+    },
+    {
+     "titel": "Weltmeister Antonelli auch in São Paulo vorn",
+     "kurz": "Der Mercedes-Pilot fuhr im zweiten Training in Interlagos Bestzeit vor Norris und Verstappen. Mit <b>380 Punkten</b> steht er als Weltmeister fest.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Interlagos",
+       "suche": "Autódromo José Carlos Pace São Paulo"
+      }
+     ],
+     "lang": [
+      "Kimi Antonelli lag am Freitag rund eine Viertelsekunde vor Lando Norris, dahinter folgten Verstappen, Russell und Piastri. In diesem Jahr gibt es in Brasilien keinen Sprint, heute steht das Qualifying an, am Sonntag das Rennen.",
+      "Antonelli führt die WM laut den Fachportalen mit 380 Punkten vor Verstappen (261) an. Damit ist der Titel des Italieners rechnerisch entschieden."
+     ],
+     "einschaetzung": "Trainingsergebnis gesichert, den genauen Zeitpunkt der Titelentscheidung konnten wir nicht prüfen.",
+     "quellen": [
+      {
+       "name": "GPblog",
+       "url": "https://www.gpblog.com/en/breaking-news/world-champion-antonelli-sets-the-pace-on-in-brazil-ahead-norris-and-verstappen"
+      },
+      {
+       "name": "Motorsport Week FP2",
+       "url": "https://www.motorsportweek.com/2026/11/06/f1-2026-sao-paulo-grand-prix-fp2-results/"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Hannovers Teams und das Wochenende.",
+     "bewertung": "gesichert",
+     "liste": [
+      "<b>Recken:</b> Nach dem 27:21 gegen den Bergischen HC haben die Handballer frei, nächstes Spiel am 15. November um 18 Uhr in Gummersbach.",
+      "<b>Bundesliga heute, 15:30 Uhr:</b> Mainz gegen Bayern, Dortmund gegen Elversberg, Leipzig gegen Augsburg, Paderborn gegen Frankfurt. <b>18:30 Uhr:</b> Stuttgart gegen Bremen.",
+      "<b>Sonntag:</b> Köln gegen Leverkusen (15:30), Freiburg gegen Union (17:30), Hoffenheim gegen Schalke (19:30).",
+      "<b>Tabelle vor dem Spieltag:</b> Bayern und Dortmund punktgleich mit je 18 Zählern vorn."
+     ],
+     "lang": [
+      "Termine und Ergebnisse rund um Hannovers Teams und die Bundesliga."
+     ],
+     "einschaetzung": "Spielplandaten aus offiziellen Spielplänen.",
+     "quellen": [
+      {
+       "name": "Die Recken: Spielplan",
+       "url": "https://www.die-recken.de/spielplan/"
+      },
+      {
+       "name": "hessenschau: 9. Spieltag",
+       "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-9.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, heise.de lieferte nur veraltete Inhalte. Wir haben keine Umwege genutzt.",
+   "trends": [
+    {
+     "begriff": "sebastián lelio",
+     "volumen": "10000+",
+     "anlass": "Oscar-Regisseur gestorben"
+    },
+    {
+     "begriff": "bombendrohungen flugzeug",
+     "volumen": "2000+",
+     "anlass": "Neue Drohwelle in Europa"
+    },
+    {
+     "begriff": "uwe seeler",
+     "volumen": "200+",
+     "anlass": "Wäre 90 geworden"
+    },
+    {
+     "begriff": "nz vs ind",
+     "volumen": "200+",
+     "anlass": "Cricket-Länderspiel in Wellington"
+    },
+    {
+     "begriff": "hornets – celtics",
+     "volumen": "200+",
+     "anlass": "NBA am Freitagabend"
+    },
+    {
+     "begriff": "hm",
+     "volumen": "100+",
+     "anlass": "Weihnachtskollektion mit Disney"
+    },
+    {
+     "begriff": "ramayana movie",
+     "volumen": "100+",
+     "anlass": "Teuerster indischer Film startet"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "Oscar-Regisseur Sebastián Lelio gestorben",
+     "kurz": "Der Chilene, der mit <b>„Eine fantastische Frau“</b> den Auslands-Oscar gewann, ist mit 52 Jahren gestorben. Er ist Spitzenreiter der Google-Trends.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Santiago de Chile",
+       "suche": "Santiago de Chile"
+      }
+     ],
+     "lang": [
+      "Seine Partnerin machte den Tod am Freitag öffentlich, die Familie spricht von gesundheitlichen Komplikationen. Lelio wurde laut Berichten zu Hause gefunden. Sein Film über eine trans Frau feierte 2017 auf der Berlinale Premiere und gewann 2018 den Oscar.",
+      "Bekannt wurde er auch mit „Gloria“ und „Das Wunder“ mit Florence Pugh. Er arbeitete zuletzt an einem Film über Carl Sagan mit Andrew Garfield."
+     ],
+     "einschaetzung": "Von mehreren großen Filmmedien übereinstimmend berichtet.",
+     "quellen": [
+      {
+       "name": "TheWrap",
+       "url": "https://www.thewrap.com/creative-content/movies/sebastian-lelio-dead-obit-a-fantastic-woman-director/"
+      },
+      {
+       "name": "Google Trends",
+       "url": "https://trends.google.com/trending?geo=DE"
+      }
+     ]
+    },
+    {
+     "titel": "„Uns Uwe“ wäre 90 geworden",
+     "kurz": "Am Donnerstag jährte sich der Geburtstag von Uwe Seeler zum <b>90. Mal</b>. Hamburg erinnert mit Talkrunde, Sondersendung und einer Silbermünze.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Seeler-Fuß am Volksparkstadion",
+       "suche": "Uwe Seeler Fuß Volksparkstadion Hamburg"
+      }
+     ],
+     "lang": [
+      "Der HSV-Ehrenspielführer starb vor vier Jahren. Der NDR zeigt eine Hommage, außerdem ist eine neue Biografie erschienen. Vor dem Volksparkstadion steht der vier Tonnen schwere Bronze-Fuß, der beim Heimspiel gegen Gladbach Anlaufpunkt vieler Fans war.",
+      "Dass eine neue U-Bahn-Station seinen Namen bekommen könnte, ist bislang nur eine Idee aus Medienberichten, beschlossen ist nichts."
+     ],
+     "einschaetzung": "Gedenkveranstaltungen sind belegt, die U-Bahn-Benennung ist reine Spekulation.",
+     "quellen": [
+      {
+       "name": "Sport1",
+       "url": "https://www.sport1.de/news/fussball/bundesliga/2026/11/unvergessen-seeler-waere-am-donnerstag-90-jahre-alt-geworden"
+      },
+      {
+       "name": "t-online Hamburg",
+       "url": "https://hamburg.t-online.de/region/hamburg/id_101513680/ndr-in-hamburg-erinnert-an-uns-uwe-zum-runden-geburtstag.html"
+      }
+     ]
+    },
+    {
+     "titel": "Platzt die KI-Blase? Chipwerte im freien Fall",
+     "kurz": "Der US-Halbleiterindex verlor am Donnerstag <b>12,3 Prozent</b>, so viel wie seit März 2020 nicht mehr. Im Netz wird über das Ende des KI-Booms debattiert.",
+     "bewertung": "vorsicht",
+     "orte": [
+      {
+       "name": "Nasdaq",
+       "suche": "Nasdaq MarketSite New York"
+      }
+     ],
+     "lang": [
+      "Nvidia, AMD, Intel und TSMC rutschten zweistellig oder knapp darunter ab, auch Speicherhersteller verloren bis zu 20 Prozent. Ein Analyst rechnet damit, dass bis zu ein Fünftel der geplanten KI-Rechenzentren nie gebaut wird.",
+      "Ob das eine Trendwende ist, weiß niemand. Kurseinbrüche dieser Art werden in sozialen Netzwerken schnell zum Weltuntergang erklärt, historisch folgte darauf meist eine Erholung."
+     ],
+     "einschaetzung": "Die Zahlen sind belegt, die Rede von der geplatzten Blase ist dagegen Spekulation.",
+     "quellen": [
+      {
+       "name": "onvista",
+       "url": "https://www.onvista.de/news/2026/11-06-die-wichtigsten-antworten-zum-brutalen-tech-abverkauf-41122522-19-26573444"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Korrektur:</b> Gestern schrieben wir, Kimi Antonelli sei als Weltmeister nicht bestätigt. Fachportale führen ihn inzwischen mit 380 zu 261 Punkten vor Verstappen und bezeichnen ihn als Weltmeister.",
+  "<b>Bombendrohungen:</b> Spanien spricht von einem hybriden Angriff, nennt aber keinen Staat. Belege für eine Steuerung aus dem Ausland liegen bisher nicht vor.",
+  "<b>US-Senat:</b> Einzelne Rennen wie in Mississippi sind extrem knapp, dort ist eine Neuauszählung möglich. Die Gesamtmehrheit der Demokraten beruht auf Hochrechnungen.",
+  "<b>Israel:</b> 67 Empfehlungen für Eisenkot sind noch keine Koalition. Ohne die arabischen Parteien hat sein Lager nur 48 Sitze."
+ ],
+ "woche": [
+  {
+   "wann": "Sa 7. Nov",
+   "titel": "Kühl, Bundesliga-Samstag",
+   "text": "Sonne und Wolken, trocken bei <b>2 bis 6 Grad</b>, schwacher Südostwind. Linien 3, 7 und 13 fahren wegen der gesperrten Legionsbrücke bis Montagfrüh Umleitung, auf den Linien 4 und 5 bis Sonntagfrüh Ersatzbusse. Bis zum Nachmittag Katastrophenschutz-Übung mit viel Blaulicht, keine Gefahr. <b>15:30 Uhr:</b> Mainz gegen Bayern, Dortmund gegen Elversberg. <b>18:30 Uhr:</b> Stuttgart gegen Bremen."
+  },
+  {
+   "wann": "So 8. Nov",
+   "titel": "96 in Heidenheim, Regiobus-Streik",
+   "text": "Wolkig, abends Schauer möglich, <b>2 bis 8 Grad</b>. Regiobus wird ganztägig bestreikt. <b>12 bis 15 Uhr:</b> Vahrenwalder Straße stadtauswärts gesperrt. <b>13:30 Uhr:</b> Heidenheim gegen 96. Formel-1-Rennen in São Paulo, in Israel will Herzog den Regierungsauftrag vergeben."
+  },
+  {
+   "wann": "Mo 9. bis Fr 13. Nov",
+   "titel": "Streik, Klimagipfel, Länderspiel",
+   "text": "Montag teils heiter, <b>2 bis 9 Grad</b>, danach meist grau. <b>Mo:</b> Regiobus und Üstra-Betriebshof Mittelfeld im Streik, COP31 in Antalya beginnt, Miller übernimmt im Weißen Haus. <b>Di:</b> Bürgersprechstunde in Neustadt. <b>Di/Mi:</b> Ukraine-Gespräche in Abu Dhabi. <b>Fr:</b> Serbien gegen Deutschland in Belgrad."
+  }
+ ]
+}
