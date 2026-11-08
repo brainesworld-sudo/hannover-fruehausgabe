@@ -1,0 +1,357 @@
+{
+  "stand": "Stand: Sonntag, 3 Uhr",
+  "kurz": [
+    "<b>Bluttat in Krakau:</b> Ein Schütze feuert aus dem Auto auf Menschen am Hauptmarkt, <b>sechs Tote</b>, 16 Verletzte. In seiner Wohnung liegen drei weitere Leichen, die Regierung spricht von rechtsextremem Hintergrund.",
+    "<b>Streik heute und morgen:</b> Der Regiobus steht im Umland ganztägig still, am Montag fallen auch Üstra-Busse vom Betriebshof <b>Mittelfeld</b> aus. Stadtbahnen fahren.",
+    "<b>Aigner-Entscheidung am Montag:</b> Die CDU-Gremien sollen über Ilse Aigner als Bundespräsidentin beraten. Gewählt wird am <b>30. Januar</b>.",
+    "<b>96 in Heidenheim:</b> Anpfiff <b>13:30 Uhr</b>, der Tabellen-15. trifft auf den Siebten. In der Bundesliga gewinnen Bayern (2:1 in Mainz) und Dortmund (2:1 gegen Elversberg) im Gleichschritt.",
+    "<b>Formel 1 im Regen:</b> Norris holt in São Paulo nach 84 Minuten Pause die Pole, Hülkenberg startet als <b>Vierter</b>. Rennstart <b>18 Uhr</b>.",
+    "<b>Mäc Geiz:</b> Beide Filialen in Hannover bleiben, in <b>Lehrte, Neustadt und Springe</b> wird dagegen geschlossen."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Streik: Regiobus heute und Montag lahmgelegt, Üstra-Busse am Montag betroffen",
+          "kurz": "Verdi hat Regiobus für <b>Sonntag und Montag</b> ganztägig zum Warnstreik aufgerufen. Am Montag streikt aus Solidarität auch der Üstra-Betriebshof <b>Mittelfeld</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Üstra-Betriebshof Mittelfeld", "suche": "Üstra Betriebshof Mittelfeld Hannover"}],
+          "lang": [
+            "Im Umland fallen heute und morgen große Teile des Busverkehrs aus, betroffen sind auch die Schnellbuslinien sprintH 300, 400, 500, 600, 700 und 900. Fahrten von Subunternehmern sollen weitgehend laufen, Ausfälle sind trotzdem möglich. S-Bahn, Regionalzüge und der Rufbus sprinti fahren normal.",
+            "Am Montag kommen in der Stadt rund zwei Dutzend Üstra-Buslinien dazu, darunter die 100, 200, 121 und 800. Die Stadtbahnen fahren. Was tatsächlich unterwegs ist, zeigt sich laut Üstra erst morgens in der Fahrplanauskunft."
+          ],
+          "einschaetzung": "Ankündigung von Verdi, übereinstimmend von mehreren Lokalportalen und der Region berichtet.",
+          "quellen": [
+            {"name": "citynews Hannover", "url": "https://hannover.citynews-online.de/aktuelles/warnstreik-bei-regiobus-hannover-busse-im-umland-am-8-und-9-november-still-auch-sprinth-betroffen/"},
+            {"name": "Langenhagener News", "url": "https://langenhagener-news.de/regiobus-warnstreiks-am-8-und-9-november-treffen-hannovers-umland/"}
+          ]
+        },
+        {
+          "titel": "Mäc Geiz: Hannovers Filialen bleiben, drei im Umland schließen",
+          "kurz": "Der insolvente Discounter behält <b>123 von 183</b> Läden. In Hannover bleiben die Filialen an der Adolf-Emmelmann-Straße und am Roderbruchmarkt.",
+          "bewertung": "gesichert",
+          "orte": ["Zuckerpassage Lehrte", "Marktstraße Neustadt am Rübenberge", "Zum Oberntor Springe"],
+          "lang": [
+            "Geschlossen werden sollen in der Region die Läden in der Lehrter Zuckerpassage, an der Marktstraße in Neustadt am Rübenberge und Zum Oberntor in Springe. Wahrscheinlich trifft es auch Nordstemmen und Peine. Bundesweit bleiben etwa 850 Arbeitsplätze erhalten, im Sommer waren es noch rund 1.175.",
+            "Endgültig ist das noch nicht: Die Gläubiger müssen den Plänen zustimmen, voraussichtlich im Dezember. Konkrete Schließtermine gibt es bislang nicht."
+          ],
+          "einschaetzung": "Unternehmensangaben vom Freitag, von mehreren Medien bestätigt; die Gläubigerentscheidung steht noch aus.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101516866/insolvenz-von-maec-geiz-so-geht-es-mit-den-filialen-in-hannover-weiter.html"},
+            {"name": "ariva/dpa-AFX", "url": "https://www.ariva.de/news/etwa-60-filialen-von-maec-geiz-schliessen-123-bleiben-12198036"}
+          ]
+        },
+        {
+          "titel": "88 Jahre nach der Pogromnacht: Gedenken an der Roten Reihe",
+          "kurz": "Am Montag um <b>12 Uhr</b> legt die Stadt am Mahnmal für die zerstörte Synagoge Kränze nieder. Schülerinnen und Schüler der Heisterbergschule erinnern an eine verfolgte Familie aus Hannover.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Mahnmal Neue Synagoge", "suche": "Mahnmal ehemalige Synagoge Rote Reihe Hannover"}],
+          "lang": [
+            "In der Nacht zum 10. November 1938 brannte auch Hannovers Neue Synagoge in der Calenberger Neustadt. Das zentrale Gedenken dauert eine halbe Stunde, der Eintritt ist frei.",
+            "Die Heisterbergschule hat die Patenschaft für das Mahnmal übernommen und gestaltet den Redebeitrag. Erst am Freitag hatte die Stadt angekündigt, am Opernplatz einen Gedenkort für die ermordeten Sinti und Roma zu schaffen."
+          ],
+          "einschaetzung": "Offizielle Ankündigung der Stadt Hannover.",
+          "quellen": [
+            {"name": "hannover.de", "url": "https://www.hannover.de/Kultur-Freizeit/Geschichte-Geschichten/Erinnerungskultur/ZeitZentrum-Zivilcourage/Aktuelles-Veranstaltungen/GEDENKEN-AN-DIE-OPFER-DER-POGROMNACHT"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in Stadt und Region wichtig ist.",
+          "liste": [
+            "<b>Vahrenwalder Straße:</b> Heute von 12 bis etwa 15 Uhr stadtauswärts teilweise gesperrt, Kripo und LKA sichern Spuren.",
+            "<b>Legionsbrücke:</b> Die Gleisbaustelle soll Montag gegen 3 Uhr enden, dann fahren die Linien 3, 7 und 13 wieder normal.",
+            "<b>Bayrak:</b> Der Autozulieferer schließt Ende Januar sein Werk in Rehburg-Loccum, rund <b>270 Stellen</b> fallen weg.",
+            "<b>Heisterbergallee:</b> Eine 96-jährige Fußgängerin mit Rollator wurde am Freitag von einem Taxi erfasst und schwer verletzt.",
+            "<b>Glätte:</b> In der Nacht kann es auf Straßen und Wegen glatt werden."
+          ],
+          "bewertung": "gesichert",
+          "orte": ["Vahrenwalder Straße Hannover", "Legionsbrücke Hannover", "Heisterbergallee Hannover"],
+          "lang": ["Sammelmeldung aus Polizeiberichten, Üstra-Hinweisen und Lokalmedien."],
+          "einschaetzung": "Amtliche Meldungen von Polizei und Üstra, Bayrak von mehreren Medien bestätigt.",
+          "quellen": [
+            {"name": "Polizeidirektion Hannover", "url": "https://www.presseportal.de/blaulicht/nr/66841"},
+            {"name": "Üstra", "url": "https://www.uestra.de"},
+            {"name": "t-online Hannover (Bayrak)", "url": "https://hannover.t-online.de/region/hannover/id_101516082/autozulieferer-bayrak-schliesst-werk-in-niedersachsen-270-jobs-fallen-weg.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Montag fällt die Vorentscheidung über Aigner",
+          "kurz": "Kanzler Merz will Ilse Aigner laut dpa den CDU-Gremien als Bundespräsidentin vorschlagen. Sein Büro verweist nur auf die Sitzungen am <b>Montag</b>.",
+          "bewertung": "plausibel",
+          "orte": ["Konrad-Adenauer-Haus Berlin"],
+          "lang": [
+            "Die CSU-Politikerin und bayerische Landtagspräsidentin hätte breite Rückendeckung: SPD-Chef Klingbeil und Fraktionschef Miersch haben Zustimmung signalisiert, auch mehrere CDU-Landeschefs sind dafür. Offiziell bestätigt hat Merz die Personalie aber nicht.",
+            "Die Bundesversammlung wählt Steinmeiers Nachfolge am 30. Januar 2027. Union und SPD haben dort nach Berechnungen rund 50 Stimmen Mehrheit. Aigner wäre die erste Frau im Amt."
+          ],
+          "einschaetzung": "Mehrere übereinstimmende Berichte aus Unionskreisen, aber noch kein formaler Beschluss.",
+          "quellen": [
+            {"name": "SRF", "url": "https://www.srf.ch/news/international/hoechstes-amt-in-deutschland-ilse-aigner-soll-bundespraesidentin-werden"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/aigner-bundespraesidentin-cdu-unterstuetzer-frei-woidke-100.html"}
+          ]
+        },
+        {
+          "titel": "Klingbeil lässt offen, ob er SPD-Chef bleiben will",
+          "kurz": "Vor der Ruhr-SPD in Bochum sagte der Vizekanzler, er klebe <b>„nicht am Stuhl“</b>. Gewählt wird auf dem Parteitag Mitte Januar.",
+          "bewertung": "gesichert",
+          "orte": ["Bochum"],
+          "lang": [
+            "Klingbeil betont, er sei gern Vorsitzender, kenne aber die Kritik an ihm. Die Entscheidung treffe er nicht allein, einen Zeitplan nannte er nicht. Seit Bärbel Bas Mitte Oktober als Co-Chefin und Arbeitsministerin zurückgetreten ist, ist die Doppelspitze ohnehin neu zu besetzen.",
+            "Ex-Arbeitsminister Hubertus Heil schließt eine Kandidatur nicht aus, Mecklenburg-Vorpommerns Regierungschefin Manuela Schwesig gilt als Kandidatin für eine Doppelspitze."
+          ],
+          "einschaetzung": "dpa-Bericht mit direktem Zitat, mehrfach veröffentlicht.",
+          "quellen": [
+            {"name": "Tagesspiegel/dpa", "url": "https://www.tagesspiegel.de/politik/dpa-klingbeil-bei-ruhr-spd-frage-um-spd-vorsitz-klingbeil-klebe-nicht-am-stuhl-16255858.html"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Metall-Tarifstreit: Montag wird es ernst",
+          "kurz": "Die IG Metall will bis <b>Montag</b> Antworten der Arbeitgeber auf ihren Vorschlag zur Standortsicherung. Dann wird in Düsseldorf weiterverhandelt.",
+          "bewertung": "gesichert",
+          "orte": ["Düsseldorf"],
+          "lang": [
+            "Die Gewerkschaft schlägt befristete Tarifverträge vor, die Investitionen an Zusagen für Standorte, Jobs und Ausbildung koppeln. Südwestmetall nannte das interessant, bei Lohn und Laufzeit liegen beide Seiten aber weit auseinander: 5 Prozent mehr gegen eine Einmalzahlung plus 1,3 Prozent im Jahr 2028.",
+            "Bis zum Montagmittag gehen die Warnstreiks weiter, auch in Niedersachsen endete die dritte Runde ohne Ergebnis. Danach droht die IG Metall mit ganztägigen Streiks."
+          ],
+          "einschaetzung": "dpa-Bericht und Lokalmedien übereinstimmend; Ausgang offen.",
+          "quellen": [
+            {"name": "inFranken/dpa", "url": "https://www.infranken.de/deutschland/in-dritter-verhandlung-ig-metall-macht-loesungsvorschlag-art-6408988,PRINT"},
+            {"name": "radio hannover", "url": "https://www.radio-hannover.de"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Wehrpflicht:</b> Söder fordert ihre Rückkehr, Verteidigungsminister Pistorius hält die freiwilligen Maßnahmen weiter für ausreichend.",
+            "<b>Geheimdienste:</b> Union und SPD haben sich laut ZDF auf neue Befugnisse für die Nachrichtendienste geeinigt.",
+            "<b>Berlin:</b> Im Fall einer seit über einer Woche vermissten 13-Jährigen aus Marzahn ermittelt die Mordkommission.",
+            "<b>Freie Wähler:</b> Partei nahm in München gemeinsam Abschied vom verstorbenen Vorsitzenden Hubert Aiwanger."
+          ],
+          "bewertung": "plausibel",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Ticker vom Samstag; Details zur Geheimdienst-Einigung stehen noch aus."],
+          "einschaetzung": "Einzelquelle Nachrichtenticker, Inhalte der Einigung noch nicht veröffentlicht.",
+          "quellen": [
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Krakau: Schütze tötet sechs Menschen am Hauptmarkt",
+          "kurz": "Ein Mann feuerte am Samstagnachmittag aus dem Auto auf Passanten, <b>sechs Tote</b> und 16 Verletzte. In seiner Wohnung fand die Polizei drei weitere Leichen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Hauptmarkt Krakau", "suche": "Rynek Główny Kraków"}],
+          "lang": [
+            "Gegen 15 Uhr fuhr der Täter in die Altstadt und schoss mit einer militärischen Langwaffe, auch eine Straßenbahn wurde getroffen. Unter den Opfern ist eine Britin, unter den Verletzten zwei Polizisten. Beamte schossen den Mann an und nahmen ihn fest, laut Polizei handelte er allein.",
+            "Bei den drei Toten in seiner Wohnung handelt es sich nach Worten von Regierungschef Tusk wohl um enge Angehörige. Innenminister Kierwiński sieht Hinweise auf rechtsextreme Ansichten des 25-Jährigen, ein Motiv ist nicht bestätigt."
+          ],
+          "einschaetzung": "Von AP, ABC, ZDF und weiteren übereinstimmend berichtet; Opferzahlen wurden im Laufe des Abends mehrfach angepasst.",
+          "quellen": [
+            {"name": "ABC News", "url": "https://abcnews.com/International/5-killed-injured-shooting-polish-market-square/story?id=137941731"},
+            {"name": "PBS/AP", "url": "https://www.pbs.org/newshour/world/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Israel: Herzog beauftragt heute Eisenkot",
+          "kurz": "Am <b>Sonntagnachmittag</b> soll Oppositionspolitiker Gadi Eisenkot den Auftrag zur Regierungsbildung erhalten. Für Netanjahu wäre das ein schwerer Rückschlag.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Präsidentenresidenz Jerusalem", "suche": "Beit HaNassi Jerusalem"}],
+          "lang": [
+            "Bei der Wahl am 27. Oktober bekam keines der Lager eine eigene Mehrheit. Eine Mehrheit der Abgeordneten empfahl Präsident Herzog dennoch den früheren Generalstabschef statt des amtierenden Premiers.",
+            "Ob Eisenkot daraus eine stabile Koalition schmieden kann, ist offen: Ohne die arabischen Parteien reicht es für sein Lager nicht."
+          ],
+          "einschaetzung": "Ankündigung des Präsidialamts, von ZDF und Agenturen berichtet.",
+          "quellen": [
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Devdiscourse/Reuters", "url": "https://www.devdiscourse.com/article/international/4002324-netanyahu-weakened-as-rival-eisenkot-secures-broad-backing-to-try-to-form-government"}
+          ]
+        },
+        {
+          "titel": "Frankreich: Mélenchon will raus aus der Nato",
+          "kurz": "Der Linkspolitiker hat sein Programm für die Präsidentschaftswahl 2027 vorgestellt, mit dem <b>Nato-Austritt</b> als zentralem Punkt. Umfragen sehen ihn in einer möglichen Stichwahl gegen Le Pen.",
+          "bewertung": "plausibel",
+          "orte": ["Paris"],
+          "lang": [
+            "Der 75-Jährige will zudem mit Russland reden und Frankreichs Verteidigung eigenständig aufstellen. Für Deutschland und die EU wäre ein Nato-Austritt der einzigen EU-Atommacht ein Beben.",
+            "Parallel dazu ebben die Straßenproteste ab: Am Samstag zählte das Innenministerium nur noch rund 7.000 Demonstrierende, die nächste Runde ist für Dienstag geplant."
+          ],
+          "einschaetzung": "Programmvorstellung belegt; Stichwahl-Szenario beruht auf Umfragen fünf Monate vor der Wahl.",
+          "quellen": [
+            {"name": "Public Sénat", "url": "https://www.publicsenat.fr/article/politique/defense-melenchon-veut-sortir-de-l-otan-et-parler-avec-la-russie-58102"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Jemen:</b> Die Huthi melden mindestens 22 Tote durch Luftangriffe auf Sanaa und beschuldigen Saudi-Arabien, eine Bestätigung fehlt.",
+            "<b>Straße von Hormus:</b> Laut iranischem Militär ist erneut ein Tanker nach einem Minentreffer in Brand geraten.",
+            "<b>Ukraine:</b> Selenskyj nennt Trumps Idee einer neuen Sicherheitsordnung mit Russland potenziell gefährlich, erst müsse der Krieg enden.",
+            "<b>USA:</b> Drei Masern-Tote in einer Woche, die CDC zählt in diesem Jahr rund 5.200 Fälle.",
+            "<b>Italien:</b> Außenminister Tajani macht prorussische Hacker für die Veröffentlichung seiner Daten verantwortlich."
+          ],
+          "bewertung": "vorsicht",
+          "orte": ["Sanaa", "Straße von Hormus"],
+          "lang": ["Sammelmeldung; Angaben aus Jemen und Iran stammen von Kriegsparteien und sind nicht unabhängig überprüft."],
+          "einschaetzung": "Opferzahlen und Schiffsmeldungen beruhen auf Angaben von Huthi bzw. iranischem Militär.",
+          "quellen": [
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu Scorpions und Indians fanden wir keine verlässlich datierten neuen Ergebnisse. Die Recken spielen erst am 15. November in Gummersbach.",
+      "meldungen": [
+        {
+          "titel": "96 in Heidenheim: Der nächste kleine Schritt soll folgen",
+          "kurz": "Anpfiff ist heute um <b>13:30 Uhr</b> in der Voith-Arena. 96 ist mit 11 Punkten 15., Heidenheim mit 15 Punkten Siebter.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Voith-Arena", "suche": "Voith-Arena Heidenheim"}],
+          "lang": [
+            "Sandro Wagner nannte das 2:1 gegen Dresden einen kleinen Schritt, dem weitere folgen müssten. Den Bundesliga-Absteiger hält er für eine Topmannschaft der Liga, gefährlich vor allem über Standards und die Flügel.",
+            "Stürmer Benjamin Källman lobte der Trainer ausdrücklich, unabhängig von Toren. Bei Heidenheim läuft eine Ära aus: Frank Schmidt hört nach 20 Jahren als Trainer auf."
+          ],
+          "einschaetzung": "Termine und Tabelle aus Vereins- und Ligadaten, Aussagen aus der offiziellen Pressekonferenz.",
+          "quellen": [
+            {"name": "hannover96.de", "url": "https://www.hannover96.de/newscenter/news/details/ab-1430-uhr-live-die-pressekonferenz-vor-unserem-auswaertsspiel-in-heidenheim.html"},
+            {"name": "t-online Liveticker", "url": "https://www.t-online.de/sport/live-ticker/fussball/2-bundesliga/sdc_fm-59680/heidenheim-hannover-2-bundesliga-im-liveticker.html"}
+          ]
+        },
+        {
+          "titel": "Bayern und BVB im Gleichschritt, Neuer verletzt",
+          "kurz": "Bayern gewinnt <b>2:1 in Mainz</b>, Dortmund <b>2:1 gegen Elversberg</b>. Leipzig schlägt Augsburg 5:2, Stuttgart Bremen 1:0.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "MEWA Arena", "suche": "MEWA Arena Mainz"}, {"name": "Home Deluxe Arena", "suche": "Home Deluxe Arena Paderborn"}],
+          "lang": [
+            "Kimmich und Lennart Karl trafen für die Bayern, Mainz verkürzte erst in der Nachspielzeit. Manuel Neuer musste kurz vor der Pause mit einer Fußverletzung raus, er war mit 40 Jahren und 225 Tagen ältester Bayern-Spieler der Bundesliga-Geschichte. Beim BVB traf Felix Nmecha doppelt.",
+            "In Paderborn rettete Jonathan Burkardt Frankfurt in der 93. Minute per Hacke ein 2:2, in Unterzahl. Das Spiel war überschattet von einem Frankfurter Fan, der im Gästeblock stürzte und ins Krankenhaus kam, beide Kurven verzichteten danach auf Gesänge."
+          ],
+          "einschaetzung": "Ergebnisse von Bundesliga.com, SRF, ZDF und dpa übereinstimmend.",
+          "quellen": [
+            {"name": "bundesliga.com", "url": "https://www.bundesliga.com/de/bundesliga/news/1-fsv-mainz-05-fc-bayern-muenchen-spieltag-9-spielbericht-highlights-39915"},
+            {"name": "SRF", "url": "https://www.srf.ch/sport/fussball/internationale-ligen/bundesliga-am-samstag-bayern-muenchen-und-dortmund-im-gleichschritt"},
+            {"name": "Tagesspiegel/dpa", "url": "https://www.tagesspiegel.de/sport/dpa-fussball-bundesliga-stille-nach-notarzteinsatz-burkardts-hacke-rettet-frankfurt-16256466.html"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-vfb-stuttgart-werder-bremen-mittelstaedt-100.html"}
+          ]
+        },
+        {
+          "titel": "Regenchaos in São Paulo: Norris auf Pole, Hülkenberg Vierter",
+          "kurz": "Nach einer Unterbrechung von <b>84 Minuten</b> sicherte sich Lando Norris die Pole. Nico Hülkenberg startet dank Strafen gegen andere von <b>Platz 4</b>, ein Bestwert für Audi.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Interlagos", "suche": "Autódromo José Carlos Pace São Paulo"}],
+          "lang": [
+            "Sturzregen stoppte das Qualifying schon nach zwei Minuten, später musste nach einem Unfall von Haas-Neuling Rafael Camara noch die Streckenbegrenzung repariert werden. Weil Russell Motorstrafen kassiert, rückt Weltmeister Antonelli neben Norris in Reihe eins. Verstappen startet nach einem Motorwechsel von hinten.",
+            "Mercedes kann heute den Konstrukteurstitel perfekt machen, den ersten seit 2021. Das Rennen beginnt um 18 Uhr deutscher Zeit."
+          ],
+          "einschaetzung": "Ergebnis aus mehreren Fachportalen; die genaue Startaufstellung kann sich durch weitere Strafen noch verschieben.",
+          "quellen": [
+            {"name": "SRF", "url": "https://www.srf.ch/sport/motorsport/formel-1/formel-1-gp-brasilien-verregnetes-qualifying-spuelt-norris-auf-die-pole-huelkenberg-4"},
+            {"name": "Speedcafe", "url": "https://speedcafe.com/f1-news-2026-sao-paulo-brazil-brazilian-grand-prix-qualifying-results-pole-position-lando-norris-george-russell-kimi-antonelli/"},
+            {"name": "Motorsport-Magazin", "url": "https://www.motorsport-magazin.com/formel1/news-301151-sternstunde-im-brasilien-qualifying-huelkenberg-sorgt-fuer-neuen-audi-rekord-in-der-formel-1/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Hannovers Teams und der Sonntag.",
+          "liste": [
+            "<b>Bundesliga heute:</b> 15:30 Köln – Leverkusen, 17:30 Freiburg – Union, 19:30 Hoffenheim – Schalke.",
+            "<b>HSV:</b> Der HSV hatte am Freitag Gladbach 3:1 geschlagen.",
+            "<b>Recken:</b> Pause bis Sonntag, 15. November, 18 Uhr in Gummersbach.",
+            "<b>Eishockey-WM 2027:</b> Nach dem CAS-Urteil zur Rückkehr Russlands drohen mehrere Nationen mit Boykott, der DEB prüft die Rückgabe des Turniers."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Termine und Ergebnisse aus Liga- und Vereinsangaben."],
+          "einschaetzung": "Offizielle Spielpläne.",
+          "quellen": [
+            {"name": "t-online Bundesliga", "url": "https://www.t-online.de/sport/ergebnisse-tabelle/fussball/bundesliga/ergebnisse/sdc_fmdo-22/bundesliga-aktueller-spieltag.html"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, heise.de ebenfalls. Wir haben keine Umwege genutzt.",
+      "trends": [
+        {"begriff": "lottozahlen samstag ziehung", "volumen": "20000+", "anlass": "Ziehung mit 3-Mio.-Jackpot"},
+        {"begriff": "krankenkasse", "volumen": "2000+", "anlass": "Risiko-Briefe an Versicherte"},
+        {"begriff": "nico hülkenberg", "volumen": "2000+", "anlass": "Startplatz 4 in São Paulo"},
+        {"begriff": "gerhard porsche gestorben", "volumen": "1000+", "anlass": "Berichte über Tod mit 88"},
+        {"begriff": "keira knightley", "volumen": "200+", "anlass": "Staffel 2 von „Black Doves“"},
+        {"begriff": "fortnite", "volumen": "200+", "anlass": "Ärger um seltene Belohnung"},
+        {"begriff": "eishockey wm 2027", "volumen": "100+", "anlass": "Boykott-Drohungen wegen Russland"},
+        {"begriff": "angelique kerber", "volumen": "100+", "anlass": "Ehrung beim Sportpresseball"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Post von der Krankenkasse: Kaum jemand reagiert",
+          "kurz": "Kassen haben rund <b>1,5 Millionen</b> Versicherte auf mögliche Gesundheitsrisiken hingewiesen, ausgewertet aus Abrechnungsdaten. Nur etwa 110.000 nahmen ein konkretes Angebot an.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Grundlage ist ein Gesetz von 2024, das Kassen erlaubt, ohne Einwilligung nach Impflücken, gefährlichen Arzneimittel-Kombinationen oder Hinweisen auf schwere Krankheiten zu suchen. Bei Impfhinweisen ließ sich nur etwa jeder Zehnte tatsächlich impfen.",
+            "Laut einer Forsa-Umfrage kennen 71 Prozent die Regel nicht. Wer das nicht will, kann formlos widersprechen, nach einem Kassenwechsel aber erneut. Verbraucherschützer raten, sich die zugrunde liegenden Daten zeigen zu lassen und mit dem Arzt zu besprechen."
+          ],
+          "einschaetzung": "Zahlen vom GKV-Spitzenverband, Rechtslage von mehreren Fachmedien bestätigt.",
+          "quellen": [
+            {"name": "echo24", "url": "https://www.echo24.de/verbraucher/krankenkassen-gesundheitsdaten-auswertung-15-millionen-versicherte-kontaktiert-gesetz-gkv-daten-widerspruch-moeglichkeit-94541349.html"},
+            {"name": "GKV-Spitzenverband", "url": "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2290915.jsp"}
+          ]
+        },
+        {
+          "titel": "Heim-WM in Gefahr: Eishockey-Europa rebelliert gegen Russland",
+          "kurz": "Nach einem CAS-Urteil müsste Russland wieder zugelassen werden. Finnland, Schweden, Tschechien, Dänemark und Norwegen wollen <b>nicht gegen Russland spielen</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "SAP Arena", "suche": "SAP Arena Mannheim"}, "PSD Bank Dome Düsseldorf"],
+          "lang": [
+            "Die WM ist vom 13. bis 30. Mai 2027 in Mannheim, Düsseldorf und Gelsenkirchen geplant. DEB-Präsident Frank Lutz sagt, man müsse sich auch mit einer Rückgabe beschäftigen, die Sicherheitskosten seien kaum zu stemmen.",
+            "Erste Sponsoren ziehen sich zurück. Kanadas Premier kündigte an, Russen keine Einreise zur Junioren-WM zu gewähren."
+          ],
+          "einschaetzung": "Mehrere Verbandsstimmen mit Zitaten; eine Entscheidung des Weltverbands steht aus.",
+          "quellen": [
+            {"name": "leinetal24", "url": "https://www.leinetal24.de/sport/eishockey-wm-2027-in-gefahr-boykott-wegen-russland-droht-zr-94573858.html"},
+            {"name": "ran", "url": "https://ran.joyn.de/sports/eishockey/wm/eishockey-wm2027-norwegen-folgt-finnaland-und-tschechien-und-droht-mit-boykott-gegen-russland-211186"}
+          ]
+        },
+        {
+          "titel": "Gerhard Porsche: Trend ohne seriöse Bestätigung",
+          "kurz": "Boulevardmedien in Deutschland und Österreich melden den Tod des Porsche-Enkels mit <b>88 Jahren</b>. Eine Bestätigung durch Familie oder Unternehmen fanden wir bis Redaktionsschluss nicht.",
+          "bewertung": "vorsicht",
+          "lang": [
+            "Der Begriff steht mit über 1.000 Suchanfragen weit oben in den Google-Trends. Verlinkt sind dort Berichte von Bild, Kronen Zeitung und Heute.",
+            "Wir geben die Meldung deshalb nur als Trend wieder und tragen nach, sobald eine offizielle Stellungnahme vorliegt."
+          ],
+          "einschaetzung": "Nur Boulevardquellen, keine zweite unabhängige Bestätigung.",
+          "quellen": [
+            {"name": "Google Trends DE", "url": "https://trends.google.com/trending/rss?geo=DE"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Krakau:</b> Die Zahl der Toten stieg im Laufe des Samstags von drei über fünf auf sechs, Verletzte werden mit 15 oder 16 angegeben. Das Alter des Täters (25) nennt bislang vor allem das ZDF.",
+    "<b>Aigner:</b> Alles beruht auf Berichten aus Unionskreisen. Merz selbst hat nichts bestätigt, der Beschluss soll erst am Montag fallen.",
+    "<b>Jemen und Hormus:</b> Opferzahlen von den Huthi und Schiffsmeldungen vom iranischen Militär lassen sich nicht unabhängig prüfen.",
+    "<b>Eishockey-WM:</b> Ältere Schlagzeilen, Russland bleibe ausgeschlossen, sind durch das CAS-Urteil überholt."
+  ],
+  "woche": [
+    {"wann": "So 8. Nov", "titel": "96 in Heidenheim, Regiobus-Streik", "text": "Wolkig, meist trocken, <b>3 bis 10 Grad</b>, böiger Südostwind, nachts Glätte möglich. Regiobus ganztägig bestreikt. <b>12 bis 15 Uhr:</b> Vahrenwalder Straße stadtauswärts gesperrt. <b>13:30 Uhr:</b> Heidenheim gegen 96. <b>15:30 Uhr:</b> Köln gegen Leverkusen. Nachmittags Regierungsauftrag an Eisenkot in Israel. <b>18 Uhr:</b> Formel 1 in São Paulo."},
+    {"wann": "Mo 9. Nov", "titel": "Streik, Gedenken, Aigner-Entscheidung", "text": "Heiter, kaum Wind, um <b>9 Grad</b>. Regiobus und Üstra-Busse vom Betriebshof Mittelfeld im Streik, Stadtbahnen fahren, Legionsbrücke ab etwa 3 Uhr wieder frei. <b>12 Uhr:</b> Pogromnacht-Gedenken an der Roten Reihe. CDU-Gremien beraten über Aigner, Metall-Tarifrunde in Düsseldorf, Miller übernimmt im Weißen Haus."},
+    {"wann": "Di 10. bis Fr 13. Nov", "titel": "Grau und kühl, Länderspiel", "text": "Meist grau mit wenig Sonne, <b>1 bis 11 Grad</b>, kaum Regen. <b>Di:</b> Neue Proteste in Frankreich, Bürgersprechstunde in Neustadt. <b>Di/Mi:</b> Ukraine-Gespräche in Abu Dhabi. Klimagipfel COP31 in Antalya läuft. <b>Fr:</b> Serbien gegen Deutschland in Belgrad."}
+  ]
+}
