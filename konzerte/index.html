@@ -4,46 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Konzert-Radar – Metal & Rock rund um Hannover</title>
-<meta name="description" content="Tägliches Konzert-Radar mit neuen Metal-, Rock- und Punk-Terminen in Hannover und bis rund 300 km Umkreis.">
+<meta name="description" content="Tägliches Konzert-Radar: neue Metal- und Rock-Termine in Hannover und bis 300 km Umkreis, mit Hörtipps, Hintergründen und Warnungen.">
 <link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/">
 <style>
-:root{--bg:#f7f3ea;--paper:#fffdf7;--ink:#211d17;--muted:#6b6357;--line:#e4dccb;--red:#9b1c1c;--petrol:#0f6470;--ocker:#a8741a;--violett:#5b3b8c;--grau:#4a4f57;--c:var(--red)}
-@media (prefers-color-scheme: dark){:root{--bg:#16140f;--paper:#1f1c16;--ink:#ece6d8;--muted:#a69d8c;--line:#3a352b;--red:#e06a6a;--petrol:#4fb3bf;--ocker:#e0aa4f;--violett:#b195e3;--grau:#aab0b8}}
+:root{--bg:#f7f3ea;--paper:#fffdf7;--ink:#1f1b16;--muted:#6b6257;--line:#e3dccd;--box:#efe8d8;
+--red:#8e1b1b;--petrol:#1f6a6e;--ocker:#a8741a;--violett:#5b3a8c;--warn:#b2421d;--blue:#2c5a8a;--c:var(--red)}
+@media (prefers-color-scheme: dark){:root{--bg:#16130f;--paper:#1f1b16;--ink:#ece5d8;--muted:#a89e90;--line:#3a332a;--box:#262019;
+--red:#e0726a;--petrol:#5fb3b6;--ocker:#e0aa4f;--violett:#b398e6;--warn:#f08a5d;--blue:#86b2e0}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif;-webkit-text-size-adjust:100%}
-.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
-header{border-bottom:3px double var(--line);padding-bottom:14px;margin-bottom:22px}
-.kicker,.pill,.chip,.meta,.date,footer,.bl,.sp,h2{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:22px 16px 48px}
+header{border-bottom:3px double var(--line);padding-bottom:12px;margin-bottom:18px}
+.kicker,.pill,.meta,.chip,h2,.box h3,footer,.date{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
 .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
-h1{font-size:44px;line-height:1.05;margin:6px 0 6px;letter-spacing:-.01em}
+h1{font-size:44px;line-height:1.05;margin:4px 0 6px;letter-spacing:-.01em}
 .date{font-size:14px;color:var(--muted)}
 .lead{font-size:18px;margin:10px 0 0}
-section{margin:34px 0 0}
-h2{display:flex;align-items:center;gap:10px;font-size:15px;text-transform:uppercase;letter-spacing:.1em;margin:0 0 14px}
-.pill{background:var(--c);color:var(--paper);padding:4px 12px;border-radius:999px;font-size:12.5px;font-weight:700}
-.rule{flex:1;height:1px;background:var(--line)}
-.box{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:16px 18px}
-.box ul{margin:6px 0 0;padding-left:20px}
-.box li{margin:6px 0}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:14px 16px}
-.card h3{margin:0 0 4px;font-size:21px;line-height:1.2}
-.card h3 small{font-weight:400;color:var(--muted);font-size:15px}
+section{margin:30px 0}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px;display:flex;align-items:center;gap:10px}
+.pill{display:inline-block;background:var(--c);color:var(--paper);font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:999px;letter-spacing:.08em}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:36px}}
+.card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:8px;padding:14px 16px}
+.card h3{margin:0 0 4px;font-size:20px;line-height:1.25}
 .meta{font-size:13px;color:var(--muted);margin:0 0 8px}
 .card p{margin:8px 0}
-.chip{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;border:1.5px solid var(--c);color:var(--c);margin-bottom:4px}
-details{margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}
+.chip{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:4px;border:1.5px solid currentColor}
+.ok{color:var(--petrol)}.vvk{color:var(--blue)}.hot{color:var(--warn)}.open{color:var(--ocker)}
+details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
 summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}
 details p{font-size:15.5px}
 .src{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-a{color:var(--c)}
+.src a,.card a,.box a{color:var(--c)}
 .sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
 .bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
-.neu{--c:var(--red)}.fest{--c:var(--petrol)}.erin{--c:var(--ocker)}.tipp{--c:var(--violett)}.warn{--c:var(--grau)}.woche{--c:var(--petrol)}.top{--c:var(--red)}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-footer{margin-top:44px;border-top:3px double var(--line);padding-top:14px;font-size:13.5px;color:var(--muted)}
-footer a{color:var(--muted)}
-@media (max-width:640px){h1{font-size:34px}.grid,.two{grid-template-columns:1fr}body{font-size:16.5px}}
+.box{background:var(--box);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:8px;padding:14px 18px}
+.box h3{margin:0 0 8px;font-size:14px;text-transform:uppercase;letter-spacing:.1em;color:var(--c)}
+.box ul{margin:0;padding-left:20px}.box li{margin:6px 0}
+.red{--c:var(--red)}.pet{--c:var(--petrol)}.ock{--c:var(--ocker)}.vio{--c:var(--violett)}.wrn{--c:var(--warn)}.blu{--c:var(--blue)}
+footer{border-top:3px double var(--line);margin-top:36px;padding-top:14px;font-size:13px;color:var(--muted)}
+footer a{color:var(--ink)}
 </style>
 </head>
 <body>
@@ -51,195 +51,217 @@ footer a{color:var(--muted)}
 <header>
 <div class="kicker">Metal · Rock · Punk · rund um Hannover</div>
 <h1>Konzert-Radar</h1>
-<div class="date">Sonntag, 8. November 2026 · Stand: 03:40 Uhr</div>
-<p class="lead">Eine Deathcore-Wucht im Klubformat für Hannover, Psych-Rock aus Tirol, Doom aus Chicago auf einem Schiff – und ein Thüringer Festival, das schon jetzt nach Old-School-Death-Metal riecht.</p>
+<div class="date">Montag, 9. November 2026 · Stand: 03:40 Uhr</div>
+<p class="lead">Ägyptischer Death Metal in Essen, Baroque-Wahnsinn in Leipzig, Weihnachts-Punk in Köln – und eine Absage in Braunschweig, die man kennen sollte.</p>
 </header>
 
-<section class="top">
-<h2><span class="pill">Das Wichtigste in 60 Sekunden</span><span class="rule"></span></h2>
-<div class="box">
+<div class="box red">
+<h3>Das Wichtigste in 60 Sekunden</h3>
 <ul>
-<li><strong>Thy Art Is Murder</strong> spielen am 25. Februar im <strong>MusikZentrum Hannover</strong> – eine bewusst kleine Tour mit neuem Sänger. Der Vorverkauf läuft seit Freitag.</li>
-<li><strong>Mother's Cake</strong> sind diese Woche in Bremen (Mi.) und Braunschweig (Sa.), im Februar dann in der Glocksee.</li>
-<li><strong>REZN + Coltaine</strong> bringen im März zähen Psych-Doom auf die <strong>MS Stubnitz</strong> in Hamburg.</li>
-<li><strong>Party.San 2027</strong> steht: Nile, Vader, Primordial, Mgła. Die günstigen First-Strike-Tickets sind laut Veranstalter fast weg.</li>
-<li>Prog-Fans aufgepasst: <strong>RPWL</strong> spielen im April in der <strong>Blues Garage Isernhagen</strong>, direkt vor den Toren Hannovers.</li>
+<li><strong>Abgesagt:</strong> Hardline (mit Johnny Gioeli) spielen am 17.11. <strong>nicht</strong> in der KufA Braunschweig.</li>
+<li><strong>Nile</strong> bringen ihren Ägypten-Death-Metal am <strong>14.12. ins Turock Essen</strong> – einzige NRW-Show der Dezember-Tour.</li>
+<li><strong>Igorrr</strong> kommt im März 2027 mit Secret Chiefs 3 und Fange – nächste Station: <strong>Leipzig, 30.3.</strong></li>
+<li><strong>Velvet Rush</strong> aus Hamburg stellen ihr Frontiers-Album „Black Storm“ am <strong>3.4.27 im Lux Hannover</strong> vor.</li>
+<li>Neues Festival-Ziel zwischen den Jahren: <strong>Masters of Cassel</strong> am 26./27.12. in der Goldgrube Kassel.</li>
 </ul>
 </div>
-</section>
 
-<section class="neu">
-<h2><span class="pill">Neu entdeckt</span><span class="rule"></span></h2>
+<section class="red">
+<h2><span class="pill">Neu entdeckt</span></h2>
 <div class="grid">
 
 <article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Mother's Cake</h3>
-<p class="meta">Mi., 11.11.2026 · Tower Musikclub, Bremen · ca. 125 km · außerdem Sa., 14.11. B58 Braunschweig (ca. 65 km), 2.2.2027 Molotow Hamburg, 3.2.2027 Café Glocksee Hannover</p>
-<p>Die Tiroler mischen Psychedelic, Stoner und Prog zu langen, schweißtreibenden Jams. Gleich zwei Chancen in der Nähe: <strong>noch diese Woche in Bremen und Braunschweig, dann im Februar in der Glocksee</strong>.</p>
-<p><strong>Hörtipp:</strong> „One Of These Days“ <a class="sp" href="https://open.spotify.com/search/Mother%27s%20Cake%20One%20Of%20These%20Days" target="_blank" rel="noopener">▶ Spotify</a> – zeigt, wie hypnotisch und zugleich druckvoll das Trio klingen kann.</p>
-<p class="bl"><a href="https://www.motherscake.com" target="_blank" rel="noopener">Website</a></p>
+<h3>Medieval Steel + Templar</h3>
+<p class="meta">Do, 10.12.2026 · Bambi Galore, Hamburg · ca. 155 km · VVK 25 €, AK 28 €</p>
+<span class="chip ok">Bestätigt</span>
+<p>US-Kult trifft schwedischen Old-School-Stahl: Eine Nacht für alle, die <strong>Epic Heavy Metal der frühen 80er</strong> lieben – im kleinen Club statt in der Halle.</p>
+<p><strong>Hörtipp:</strong> „Medieval Steel“ <a class="sp" href="https://open.spotify.com/search/Medieval%20Steel%20Medieval%20Steel" target="_blank" rel="noopener">▶ Spotify</a> – die Hymne, nach der sich die Band benannt hat.</p>
 <details><summary>Mehr über die Band</summary>
-<p>Mother's Cake stammen aus Innsbruck und gelten seit Jahren als einer der spannendsten Live-Acts der europäischen Psych-Rock-Szene. Ihr viertes Album „Ultrabliss“ greift Krautrock, Classic Rock und Prog auf.</p>
-<p>Live ist die Band inzwischen zu viert: Raphael Neikes ist an Keyboard und Gitarre fest dabei, am Schlagzeug sitzt Alex Kerbl statt Gründungsmitglied Jan Haußels.</p>
-<p class="src">Quellen: <a href="https://songkick.com/artists/4467763-mothers-cake/calendar" target="_blank" rel="noopener">Songkick (Tourdaten)</a> · <a href="https://hannover-living.de/en/events-2/mothers-cake-the-tazers" target="_blank" rel="noopener">hannover-living.de</a> · <a href="https://doomed-nation.com/austrian-progressive-psychedelic-space-rockers-mothers-cake-return-with-new-single-and-music-video-one-of-these-days/" target="_blank" rel="noopener">Doomed Nation</a> · Tickets über die Venues bzw. <a href="https://songkick.com/artists/4467763-mothers-cake/calendar" target="_blank" rel="noopener">Songkick</a></p>
+<p>Medieval Steel stammen aus den USA und gelten seit den frühen Achtzigern als Geheimtipp des epischen Heavy Metal: wenige Veröffentlichungen, aber großer Einfluss auf spätere Power-Metal-Generationen.</p>
+<p>Templar aus Schweden spielen klassischen Heavy Metal mit Pathos und Twin-Guitar-Fokus – der passende Partner für einen Abend ohne moderne Spielereien. Dazu gibt es ein Sozialticket für 13 €.</p>
+<p class="src">Quellen: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/medieval-steel-templar/" target="_blank" rel="noopener">hamburg-tourism.de</a> · <a href="https://www.rockhard.de/live/tourdaten" target="_blank" rel="noopener">Rock Hard Tourdaten</a> · Tickets: <a href="https://rausgegangen.de/en/events/medieval-steel-templar-0/" target="_blank" rel="noopener">rausgegangen.de</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Heavysaurus</h3>
-<p class="meta">Fr., 18.12.2026 · CD-Kaserne, Celle · ca. 45 km · weitere Termine: 21.12. Große Freiheit 36 Hamburg, 10.4.2027 Hallenbad Wolfsburg, Sa., 29.5.2027 Pavillon Hannover (ab ca. 48 €)</p>
-<p>Metal für die Kleinsten: Musiker in Dinokostümen, echte Gitarrenwände, kindgerechte Texte. Hannover bekommt seinen Termin am <strong>29. Mai im Pavillon, Einlass schon um 13 Uhr</strong>.</p>
-<p><strong>Hörtipp:</strong> Querbeet durch die Dino-Hits <a class="sp" href="https://open.spotify.com/search/Heavysaurus" target="_blank" rel="noopener">▶ Spotify</a> – am besten gemeinsam mit dem Nachwuchs testen.</p>
+<h3>Vlad in Tears</h3>
+<p class="meta">Do, 10.12.2026 · EXIL, Göttingen · ca. 120 km · ab 24,75 € · auch Sa, 12.12. Bastard Club, Osnabrück</p>
+<span class="chip ok">Bestätigt</span>
+<p>Die Gothic-Rocker gehen mit dem Doppelalbum <strong>„Undead“</strong> auf Tour – Göttingen und Osnabrück sind die nächsten Stopps zu Hannover.</p>
+<p><strong>Hörtipp:</strong> „Never Fear The Pain“ <a class="sp" href="https://open.spotify.com/search/Vlad%20in%20Tears%20Never%20Fear%20The%20Pain" target="_blank" rel="noopener">▶ Spotify</a> – die aktuelle Single aus „Undead“.</p>
 <details><summary>Mehr über die Band</summary>
-<p>Heavysaurus kommt ursprünglich aus Finnland und tourt seit Jahren mit einer deutschsprachigen Besetzung durch Hallen und Festivals. Das Konzept: richtige Rockshow, aber Lautstärke, Länge und Uhrzeit sind auf Familien zugeschnitten.</p>
-<p>Die Tour 2027 ist dicht getaktet; im Norden stehen außerdem Osterholz-Scharmbeck (10.1.), Buchholz (16.5.) und die Seebühne Bremen (11.7.) im Kalender.</p>
-<p class="src">Quellen: <a href="https://www.songkick.com/concerts/43349091-heavysaurus-at-kulturzentrum-pavillon" target="_blank" rel="noopener">Songkick (Hannover, Pavillon)</a> · <a href="https://www.regioactive.de/heavysaurus/tour-termine-tickets" target="_blank" rel="noopener">regioactive Tourübersicht</a> · Tickets: <a href="https://www.songkick.com/concerts/43349091-heavysaurus-at-kulturzentrum-pavillon" target="_blank" rel="noopener">Ticketlinks via Songkick</a></p>
+<p>Vlad in Tears verbinden düsteren Gothic Rock mit metallischen Gitarren und eingängigen Refrains. 2025 erschien „Hide Inside“, jetzt folgt mit „Undead“ ein Doppelalbum bei Metalville.</p>
+<p>Die neue Single dreht sich ums Durchhalten trotz Narben – live dürfte das die emotionale Mitte des Sets werden. Achtung: Für den 4.12. kursieren zwei verschiedene Städte (siehe „Hier genau hinschauen“).</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/goettingen/veranstaltungen/vlad-in-tears-undead-tour-2026-exil-goettingen/" target="_blank" rel="noopener">mvp.de Göttingen</a> · <a href="https://www.regioactive.de/konzert/vlad-in-tears-undead-tour-2026-osnabrueck-bastard-club-2026-12-12-tickets-3wQlXdXsbn" target="_blank" rel="noopener">regioactive Osnabrück</a> · <a href="https://snoozecontrol.be/english/14179/" target="_blank" rel="noopener">snoozecontrol.be</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Svartsot</h3>
-<p class="meta">Di., 16.2.2027 · Logo, Hamburg · ca. 155 km</p>
-<p>Dänischer Folk Metal mit Flöte, Mandoline und tiefem Grunzen – und das im <strong>verschwitzten Logo mit wenigen hundert Plätzen</strong>.</p>
-<p><strong>Hörtipp:</strong> „Gravøl“ <a class="sp" href="https://open.spotify.com/search/Svartsot%20Grav%C3%B8l" target="_blank" rel="noopener">▶ Spotify</a> – die Trinkhymne, bei der jedes Folk-Metal-Publikum mitspringt.</p>
+<h3>Nile + Intrepid, Redsphere, Orecus</h3>
+<p class="meta">Mo, 14.12.2026 · Turock, Essen · ca. 250 km · Preis offen</p>
+<span class="chip ok">Bestätigt</span>
+<p>Technischer Death Metal mit Pharaonen-Thematik: Nile spielen <strong>nur drei Deutschland-Shows</strong> – Essen ist die nächste zu Hannover.</p>
+<p><strong>Hörtipp:</strong> „Sarcophagus“ <a class="sp" href="https://open.spotify.com/search/Nile%20Sarcophagus" target="_blank" rel="noopener">▶ Spotify</a> – zeigt, wie schwer und episch die Band zugleich klingt.</p>
 <details><summary>Mehr über die Band</summary>
-<p>Svartsot kommen aus Dänemark und singen auf Dänisch über Geschichte und Sagen des Nordens. Die Mischung aus Melodic Death Metal und Volksmusik-Instrumenten macht sie zu einer der eigenständigeren Bands im Genre.</p>
-<p>Auftritte in Deutschland sind eher selten – Clubshows wie diese sind die Gelegenheit, die Band aus nächster Nähe zu erleben.</p>
-<p class="src">Quelle: <a href="https://www.songkick.com/metro-areas/28498-germany-hamburg/2027/genre/metal" target="_blank" rel="noopener">Songkick Hamburg 2027</a> · Tickets: <a href="https://www.eventim.de/city/hamburg-7/konzerte-1/hard-heavy-2/" target="_blank" rel="noopener">Eventim Hamburg Hard &amp; Heavy</a></p>
+<p>Nile wurden 1993 in Greenville, South Carolina, gegründet und mischen brutalen mit technischem Death Metal. Texte und Atmosphäre schöpfen aus Ägyptologie und alten Mythen des Nahen Ostens.</p>
+<p>Das aktuelle Album „The Underworld Awaits Us All“ (Napalm Records) liefert das Material für die Setlist, ergänzt um Klassiker. Mit Intrepid (Estland), Redsphere (Frankreich) und Orecus (Schweden) ist der Abend ein volles Extrem-Paket.</p>
+<p class="src">Quellen: <a href="https://chaoszine.net/nile-reveals-european-headlining-tour-for-december-2026/" target="_blank" rel="noopener">Chaoszine</a> · <a href="https://nextmosh.com/nile-announce-december-2026-european-tour/" target="_blank" rel="noopener">NextMosh</a> · Termine: <a href="https://www.songkick.com/artists/209511-nile" target="_blank" rel="noopener">Songkick</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip">Vorverkauf läuft</span>
-<h3>Thy Art Is Murder</h3>
-<p class="meta">Do., 25.2.2027 · MusikZentrum, Hannover · 0 km · (24.2. Club Volta Köln)</p>
-<p>Australiens Deathcore-Schwergewichte spielen eine „Underplay“-Tour durch kleine Clubs, um ihren <strong>neuen Sänger Jerry Grimefeld</strong> vorzustellen. Hannover ist einer von nur sieben Deutschland-Terminen.</p>
-<p><strong>Hörtipp:</strong> „Squeeze“ <a class="sp" href="https://open.spotify.com/search/Thy%20Art%20Is%20Murder%20Squeeze" target="_blank" rel="noopener">▶ Spotify</a> – die erste Single mit Grimefeld, ein brutaler Gruselkabinett-Ritt · „Reign Of Darkness“ <a class="sp" href="https://open.spotify.com/search/Thy%20Art%20Is%20Murder%20Reign%20Of%20Darkness" target="_blank" rel="noopener">▶ Spotify</a> – der Klassiker zum Vergleich.</p>
+<h3>New Model Army + Special Guests</h3>
+<p class="meta">Sa, 19.12.2026 · Palladium, Köln · ca. 290 km · ab 62,15 €</p>
+<span class="chip hot">Fast ausverkauft?</span>
+<p>Das traditionelle <strong>Weihnachtskonzert</strong> der Briten – bei Eventim sind Tickets aktuell als „nicht verfügbar“ markiert.</p>
+<p><strong>Hörtipp:</strong> „51st State“ <a class="sp" href="https://open.spotify.com/search/New%20Model%20Army%2051st%20State" target="_blank" rel="noopener">▶ Spotify</a> – der Mitsing-Klassiker jeder NMA-Show.</p>
+<p class="bl"><a href="https://www.newmodelarmy.org" target="_blank" rel="noopener">Website</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Thy Art Is Murder aus Sydney zählen seit über 15 Jahren zur Spitze des Deathcore. Große Festivalbühnen sind die Band gewohnt – umso bemerkenswerter, dass sie jetzt bewusst kleine Säle wie das MusikZentrum ansteuert.</p>
-<p>Grimefeld sang zuvor bei Honest Crooks und Vengeance und stand mit der Band im Sommer schon beim Wacken Open Air auf der Bühne. „Squeeze“ ist seine erste Studioaufnahme mit Thy Art Is Murder. Weitere Deutschland-Termine: Jena, Augsburg, Nürnberg, Wiesbaden und Saarbrücken.</p>
-<p class="src">Quellen: <a href="https://paranoyd-magazin.de/tourdaten/thy-art-is-murder-squeeze-tour-2027/" target="_blank" rel="noopener">Paranoyd Magazin</a> · <a href="https://www.metalglory.com/news-thy-art-is-murder-erste-single-squeeze-mit-neuem-saenger-underplay-tour-im-februar-2027/" target="_blank" rel="noopener">Metalglory</a> · <a href="https://www.impericon.com/de/blogs/magazine/thy-art-is-murder-release-first-single-with-new-vocalist-jerry-grimefeld-squeeze" target="_blank" rel="noopener">Impericon</a> · Tickets: <a href="https://www.ticketonline.de/artist/thy-art-is-murder/" target="_blank" rel="noopener">ticketonline.de</a></p>
+<p>New Model Army kommen aus Bradford in England und spielen seit 1980 eine eigenwillige Mischung aus Punk, Post-Punk, Folk und Rock – Schubladen hat die Band immer abgelehnt.</p>
+<p>Die Kölner Dezember-Shows im Palladium sind für viele Fans ein festes Ritual. Wer noch keine Karte hat: nur über offizielle Kanäle nachsehen, ob Kontingente zurückkommen.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/koeln/veranstaltungen/new-model-army-special-guests-weihnachtskonzert-2026-koeln/" target="_blank" rel="noopener">mvp.de Köln</a> · <a href="https://www.koeln.de/event/new-model-army-special-guests-weihnachtskonzert-2026/" target="_blank" rel="noopener">koeln.de</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip">Bestätigt</span>
-<h3>REZN <small>+ Coltaine</small></h3>
-<p class="meta">Fr., 5.3.2027 · MS Stubnitz, Hamburg · ca. 155 km · (7.3. Neue Zukunft Berlin)</p>
-<p>Zäher, psychedelischer Doom mit Saxofon-Schwaden – auf einem alten Fischtrawler im Hafen. Mehr Atmosphäre geht kaum: <strong>Schiff, Sludge und Space-Rock an einem Abend</strong>.</p>
-<p><strong>Hörtipp:</strong> „Chasm“ <a class="sp" href="https://open.spotify.com/search/REZN%20Chasm" target="_blank" rel="noopener">▶ Spotify</a> – der Song, mit dem REZN ihren Wechsel zu Sargent House einläuteten.</p>
+<h3>Bombus</h3>
+<p class="meta">Fr, 5.3.2027 · Betty, Hamburg · ca. 155 km · auch So, 14.3. Hyde Park, Osnabrück</p>
+<span class="chip ok">Bestätigt</span>
+<p>Schwedischer Heavy Rock mit Punk-Kante: Bombus kündigen das Album <strong>„No Magic“</strong> für Anfang 2027 an und touren direkt danach.</p>
+<p><strong>Hörtipp:</strong> „(You Are All Just) Human Beings“ <a class="sp" href="https://open.spotify.com/search/Bombus%20You%20Are%20All%20Just%20Human%20Beings" target="_blank" rel="noopener">▶ Spotify</a> – rotziger Groove, perfekter Einstieg.</p>
+<p class="bl"><a href="https://www.bombusmusic.com/" target="_blank" rel="noopener">Website</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>REZN stammen aus Chicago und bewegen sich zwischen Doom, Sludge und Psychedelic. Mit dem Wechsel zum Label Sargent House sind sie in der Szene deutlich sichtbarer geworden, ihre Platte „Burden“ bekam viel Lob.</p>
-<p>Coltaine aus Deutschland ergänzen das perfekt: düster, langsam, fast rituell. Wer Bands wie Neurosis oder frühe Cult of Luna mag, sollte hier hinhören.</p>
-<p class="src">Quellen: <a href="https://www.songkick.com/metro-areas/28498-germany-hamburg/2027/genre/metal" target="_blank" rel="noopener">Songkick Hamburg 2027</a> · <a href="https://www.songkick.com/de/concerts/43344837-rezn-at-neue-zukunft" target="_blank" rel="noopener">Songkick Berlin</a> · <a href="https://www.brooklynvegan.com/chicago-sludge-psych-band-rezn-sign-to-sargent-house-for-new-lp-share-chasm/" target="_blank" rel="noopener">BrooklynVegan</a> · <a href="https://sargenthouse.com/blogs/rezn" target="_blank" rel="noopener">Label-Seite Sargent House</a> · Tickets: <a href="https://www.songkick.com/de/concerts/43344837-rezn-at-neue-zukunft" target="_blank" rel="noopener">via Songkick</a></p>
+<p>Bombus stammen aus Schweden und verbinden Heavy Metal, Rock'n'Roll und Punk zu einem dreckigen, schnörkellosen Sound. Das neue Album erscheint bei Black Lodge Records, ein genaues Datum steht noch aus.</p>
+<p>Die Tour wird von Rock Hard und Slam präsentiert und führt außerdem nach Berlin (6.3.) und Bochum (11.3.).</p>
+<p class="src">Quellen: <a href="https://doomed-nation.com/swedish-rockers-bombus-to-release-new-album-no-magic-in-early-2027/" target="_blank" rel="noopener">Doomed Nation</a> · <a href="https://www.mvp.de/osnabrueck/veranstaltungen/bombus-no-magic-album-tour-2027-hyde-park-club-osnabrueck/" target="_blank" rel="noopener">mvp.de Osnabrück</a> · <a href="https://www.mvp.de/hamburg/veranstaltungen/bombus-european-album-no-magic-tour-2027-betty-hamburg/" target="_blank" rel="noopener">mvp.de Hamburg</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip">Bestätigt</span>
-<h3>RPWL</h3>
-<p class="meta">So., 11.4.2027 · Zentrum Altenberg, Oberhausen · ca. 260 km · Mo., 12.4. Logo Hamburg · Do., 22.4. Blues Garage Isernhagen (ca. 15 km)</p>
-<p>Die bayerischen Prog-Rocker gehen mit ihrem Programm „Human“ auf Tour. Für Hannover der Pflichttermin: <strong>die Blues Garage in Isernhagen, quasi um die Ecke</strong>.</p>
-<p><strong>Hörtipp:</strong> „Victim Of Desire“ <a class="sp" href="https://open.spotify.com/search/RPWL%20Victim%20Of%20Desire" target="_blank" rel="noopener">▶ Spotify</a> – zeigt die melodische, Pink-Floyd-nahe Seite der Band.</p>
+<h3>Igorrr + Secret Chiefs 3, Fange</h3>
+<p class="meta">Di, 30.3.2027 · Felsenkeller, Leipzig · ca. 260 km · auch 31.3. Wiesbaden</p>
+<span class="chip ok">Bestätigt</span>
+<p>Barockmusik, Breakcore und Black Metal in einem Set: Igorrr ist <strong>live eines der irrsten Erlebnisse der Szene</strong> – und bringt Trey Spruances Secret Chiefs 3 mit.</p>
+<p><strong>Hörtipp:</strong> „ieuD“ <a class="sp" href="https://open.spotify.com/search/Igorrr%20ieuD" target="_blank" rel="noopener">▶ Spotify</a> – Oper trifft Blastbeat, das Igorrr-Prinzip in sechs Minuten.</p>
+<p class="bl"><a href="https://igorrr.com" target="_blank" rel="noopener">Website</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>RPWL kommen aus Freising und haben sich über drei Jahrzehnte einen festen Platz in der europäischen Prog-Szene erarbeitet. Ihre Wurzeln liegen hörbar bei Pink Floyd, später kamen dunklere, konzeptlastige Alben wie „Crime Scene“ dazu.</p>
-<p>Live setzen RPWL auf lange Spannungsbögen, ausgefeilten Sound und Visuals – ideal für die intime Blues Garage.</p>
-<p class="src">Quellen: <a href="https://www.songkick.com/metro-areas/34498-germany-hannover/2027/genre/metal" target="_blank" rel="noopener">Songkick Hannover 2027</a> · <a href="https://www.mvp.de/oberhausen/veranstaltungen/rpwl-human-live-tour-2027-zentrum-altenberg-oberhausen/" target="_blank" rel="noopener">mvp.de (Oberhausen)</a> · <a href="https://progreport.com/rpwl-announce-new-album-titled-crime-scene-and-first-single-victim-of-desire/" target="_blank" rel="noopener">Prog Report</a> · Tickets: <a href="https://www.regioactive.de/konzert/rpwl-human-tour-2027-hamburg-logo-2027-04-12-6ywFqc3VXc" target="_blank" rel="noopener">regioactive (Hamburg)</a></p>
+<p>Hinter Igorrr steckt der französische Komponist Gautier Serre. Sein Projekt springt zwischen Extreme Metal, Elektronik, Klassik und Trip-Hop – Kritiker sprechen von „Baroquecore“.</p>
+<p>Das aktuelle Album „Amen“ (Metal Blade) ist dunkler als die Vorgänger, mit echtem Kirchenchor und Gästen wie Scott Ian. Der Vorgänger schaffte es in Deutschland auf Platz 12 der Charts.</p>
+<p class="src">Quellen: <a href="https://blabbermouth.net/news/igorrr-announces-european-headline-tour-for-march-2027" target="_blank" rel="noopener">Blabbermouth</a> · <a href="https://www.mvp.de/leipzig/veranstaltungen/igorrr-european-2027-tour/" target="_blank" rel="noopener">mvp.de Leipzig</a></p>
+</details>
+</article>
+
+<article class="card">
+<h3>Velvet Rush + Sweet Electric</h3>
+<p class="meta">Sa, 3.4.2027 · Lux, Hannover · 0 km · ab 28,20 €</p>
+<span class="chip ok">Bestätigt</span>
+<p>Female-fronted Hardrock aus Hamburg: Die junge Band stellt ihr zweites Album <strong>„Black Storm“</strong> vor – laut Band roher und härter als das Debüt.</p>
+<p><strong>Hörtipp:</strong> „Nature Of The Beast“ <a class="sp" href="https://open.spotify.com/search/Velvet%20Rush%20Nature%20Of%20The%20Beast" target="_blank" rel="noopener">▶ Spotify</a> – der Song, mit dem der Frontiers-Deal verkündet wurde.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Velvet Rush gründeten sich 2023 in Hamburg um Sängerin Sandra Lian. 2025 erschien das Debüt „Trail of Gold“, produziert wurde in Hamburg mit Eike Freese.</p>
+<p>„Black Storm“ kommt 2027 beim italienischen Hardrock-Label Frontiers. Das Lux ist der ideale Raum, um eine Band kurz vor dem möglichen Durchbruch aus nächster Nähe zu sehen.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/velvet-rush-black-storm-tour-2027-lux-hannover/" target="_blank" rel="noopener">mvp.de Hannover</a> · <a href="https://screamermagazine.com/press-releases/video-german-rock-force-velvet-rush-officially-signs-with-frontiers-music-srl/" target="_blank" rel="noopener">Screamer Magazine</a> · <a href="https://www.rockhard.de/live/tourdaten" target="_blank" rel="noopener">Rock Hard Tourdaten</a></p>
+</details>
+</article>
+
+<article class="card">
+<h3>Bokassa</h3>
+<p class="meta">Sa, 8.5.2027 · Betty, Hamburg · ca. 155 km · Preis offen</p>
+<span class="chip ok">Bestätigt</span>
+<p>Die Norweger, die schon mit Metallica tourten, kommen mit Album Nr. 5 <strong>„Anomalies“</strong> (erscheint 12.3.2027) in den Club.</p>
+<p><strong>Hörtipp:</strong> „Molotov Rocktail“ <a class="sp" href="https://open.spotify.com/search/Bokassa%20Molotov%20Rocktail" target="_blank" rel="noopener">▶ Spotify</a> – „Stonerpunk“ in Reinform.</p>
+<p class="bl"><a href="https://bokassaband.com" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Bokassa stammen aus Trondheim und nennen ihren Mix aus Stoner Rock und Hardcore-Punk selbst „Stonerpunk“. Touren mit Clutch, Mastodon und Metallica haben ihren Live-Ruf geprägt.</p>
+<p>In Norwegen gewannen sie einen Preis für ihre Bühnenqualitäten. „Anomalies“ wurde von Adrian Bushby produziert.</p>
+<p class="src">Quellen: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/bokassa-anomalies-tour/" target="_blank" rel="noopener">hamburg-tourism.de</a> · <a href="https://en.wikipedia.org/wiki/Bokassa_(band)" target="_blank" rel="noopener">Wikipedia</a></p>
 </details>
 </article>
 
 </div>
 </section>
 
-<section class="fest">
-<h2><span class="pill">Festivals &amp; Tour-Ankündigungen</span><span class="rule"></span></h2>
+<section class="pet">
+<h2><span class="pill">Festivals & Tour-Ankündigungen</span></h2>
 <div class="grid">
 <article class="card">
-<span class="chip">Fast ausverkauft (First Strike)</span>
-<h3>Party.San Open Air 2027</h3>
-<p class="meta">5.–7.8.2027 · Flugplatz Obermehler-Schlotheim (Thüringen) · ca. 190 km · regulär ca. 176 € + Gebühren</p>
-<p>Das Extreme-Metal-Festival zwischen Mühlhausen und Sondershausen hat 16 Bands bestätigt: <strong>Nile, Vader, Primordial, Mgła, Taake, Deserted Fear</strong> und eine einmalige Bathory-Hommage namens Blood Fire Death.</p>
-<p><strong>Hörtipp:</strong> Nile – „Black Seeds Of Vengeance“ <a class="sp" href="https://open.spotify.com/search/Nile%20Black%20Seeds%20Of%20Vengeance" target="_blank" rel="noopener">▶ Spotify</a> – ägyptischer Death Metal in Reinform · Primordial – „Empire Falls“ <a class="sp" href="https://open.spotify.com/search/Primordial%20Empire%20Falls" target="_blank" rel="noopener">▶ Spotify</a> – Gänsehaut unter freiem Himmel.</p>
-<details><summary>Mehr zum Festival</summary>
-<p>Party.San gilt als eines der wichtigsten Festivals für Death, Black und Thrash in Deutschland – familiär, staubig, ohne Mainstream-Beiwerk. Das limitierte First-Strike-Kontingent (1.666 Tickets mit Shirt) ist laut Veranstalter beinahe vergriffen; danach greift die nächste Preisstufe.</p>
-<p>Weitere Namen: Winterfylleth, Dragged Into Sunlight, Infernal Presence, Grimming, Non Est Deus, Oxygen Destroyer, Seth, Svarttjern, Victim. Mehr Bands sollen folgen.</p>
-<p class="src">Quellen: <a href="https://www.festivalhopper.de/festival/partysan-open-air-2027" target="_blank" rel="noopener">Festivalhopper</a> · <a href="https://www.festivalhopper.de/news/2026/08/10/partysan-metal-festival-2027-erste-bands/" target="_blank" rel="noopener">Festivalhopper News</a></p>
-</details>
-</article>
-<article class="card">
-<span class="chip">Details offen</span>
-<h3>Black Metal Howling Festival 2027</h3>
-<p class="meta">Sa., 6.2.2027 · Hellraiser, Leipzig-Engelsdorf · ca. 260 km · ab ca. 74 €</p>
-<p>Ein ganzer Tag Black Metal ab Nachmittag – nur: <strong>das Line-up ist bei den Ticketanbietern noch nicht veröffentlicht</strong>. Vor dem Kauf abwarten, wer spielt.</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/leipzig/veranstaltungen/black-metal-howling-festival-2027-hellraiser-leipzig-leipzig-engelsdorf/" target="_blank" rel="noopener">mvp.de</a></p>
+<h3>Masters of Cassel – X-Mas Festival</h3>
+<p class="meta">Sa/So, 26./27.12.2026 · Goldgrube, Kassel · ca. 165 km · ab 38,04 €</p>
+<span class="chip ok">Bestätigt</span>
+<p>Die <strong>15. Ausgabe</strong> des Underground-Weihnachtsfestivals, präsentiert vom Rock Hard: Tag 1 abends mit Steelpreacher, Antipeewee und Runner, Tag 2 als Matinee mit Reil of Violence (Kreator-Tribute mit Ur-Drummer Ventor), Burden of Grief und Bitter Price.</p>
+<p><strong>Hörtipp:</strong> „Drinking with the Devil“ <a class="sp" href="https://open.spotify.com/search/Steelpreacher%20Drinking%20with%20the%20Devil" target="_blank" rel="noopener">▶ Spotify</a> – Steelpreacher in typischer Bier-und-Metal-Laune.</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/kassel/veranstaltungen/masters-of-cassel-x-mas-festival-2026-goldgrube-kassel/" target="_blank" rel="noopener">mvp.de Kassel</a> · <a href="https://www.regioactive.de/konzert/masters-of-cassel-x-mas-festival-2026-kassel-goldgrube-2026-12-26-sWLb2ySRbv" target="_blank" rel="noopener">regioactive</a></p>
 </article>
 </div>
 </section>
 
-<section class="erin">
-<h2><span class="pill">Nochmal zur Erinnerung</span><span class="rule"></span></h2>
+<section class="ock">
+<h2><span class="pill">Nochmal zur Erinnerung</span></h2>
 <div class="grid">
 <article class="card">
-<h3>Nailed to Obscurity <small>+ Nephylim</small></h3>
-<p class="meta">Do., 19.11.2026 · Café Glocksee, Hannover · (20.11. Bochum)</p>
-<p>Ostfriesischer Melodic Doom/Death, der live <strong>tonnenschwer und trotzdem zart</strong> wirkt.</p>
-<p><strong>Hörtipp:</strong> „Black Frost“ <a class="sp" href="https://open.spotify.com/search/Nailed%20to%20Obscurity%20Black%20Frost" target="_blank" rel="noopener">▶ Spotify</a> – der Titelsong ihres Durchbruchsalbums.</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hannover</a></p>
+<h3>Pro-Pain</h3>
+<p class="meta">Do, 19.11.2026 · Schön & Frölich, Braunschweig · ca. 65 km</p>
+<span class="chip ok">Bestätigt</span>
+<p>New Yorker Hardcore-Metal-Veteranen im kleinen Rahmen – nah, laut, kurz vor der Haustür.</p>
+<p><strong>Hörtipp:</strong> „Make War (Not Love)“ <a class="sp" href="https://open.spotify.com/search/Pro-Pain%20Make%20War%20Not%20Love" target="_blank" rel="noopener">▶ Spotify</a> – Groove-Abrissbirne.</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/braunschweig/veranstaltungen/konzert-rock-pop/" target="_blank" rel="noopener">mvp.de Braunschweig</a></p>
+</article>
+<article class="card">
+<h3>dARTAGNAN + Storm Seeker, Doppelbock</h3>
+<p class="meta">Fr, 20.11.2026 · Capitol, Hannover · 0 km</p>
+<span class="chip ok">Bestätigt</span>
+<p>Musketier-Folkrock mit Piraten-Support – ein Abend zum Mitsingen.</p>
+<p><strong>Hörtipp:</strong> „Seit an Seit“ <a class="sp" href="https://open.spotify.com/search/dArtagnan%20Seit%20an%20Seit" target="_blank" rel="noopener">▶ Spotify</a> – die Band-Hymne.</p>
+<p class="src">Quelle: <a href="https://www.rockhard.de/live/tourdaten" target="_blank" rel="noopener">Rock Hard Tourdaten</a></p>
+</article>
+<article class="card">
+<h3>Morbidfest: I Am Morbid, Atheist, Cancer</h3>
+<p class="meta">Do, 26.11.2026 · MS Stubnitz, Hamburg (Line-up dort unbestätigt) · auch 24.11. Berlin</p>
+<span class="chip open">Details offen</span>
+<p>Death-Metal-Geschichte auf einer Bühne – für Hamburg fehlt weiter eine klare Line-up-Bestätigung.</p>
+<p><strong>Hörtipp:</strong> „Chapel of Ghouls“ <a class="sp" href="https://open.spotify.com/search/Morbid%20Angel%20Chapel%20of%20Ghouls" target="_blank" rel="noopener">▶ Spotify</a> – der Klassiker, den I Am Morbid live zelebrieren.</p>
+<p class="src">Quelle: <a href="https://www.rockhard.de/live/tourdaten" target="_blank" rel="noopener">Rock Hard Tourdaten</a></p>
 </article>
 <article class="card">
 <h3>Caliban</h3>
-<p class="meta">Di., 29.12.2026 · MusikZentrum, Hannover · „Darkness Over Xmas“</p>
-<p>Der traditionelle Jahresend-Abriss der Metalcore-Veteranen aus dem Ruhrpott – <strong>zwischen den Feiertagen</strong>.</p>
-<p><strong>Hörtipp:</strong> „Nebel“ <a class="sp" href="https://open.spotify.com/search/Caliban%20Nebel" target="_blank" rel="noopener">▶ Spotify</a> – deutschsprachig und gnadenlos.</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hannover</a></p>
-</article>
-<article class="card">
-<h3>The Black Dahlia Murder</h3>
-<p class="meta">So., 24.1.2027 · Faust (60er-Jahre-Halle), Hannover · „Two Decades Of Nocturnal“</p>
-<p>Melodic Death Metal aus Detroit, mit dem Jubiläum ihres Kultalbums <strong>„Nocturnal“</strong> im Gepäck.</p>
-<p><strong>Hörtipp:</strong> „What A Horrible Night To Have A Curse“ <a class="sp" href="https://open.spotify.com/search/The%20Black%20Dahlia%20Murder%20What%20A%20Horrible%20Night%20To%20Have%20A%20Curse" target="_blank" rel="noopener">▶ Spotify</a> – der Opener, der alles sagt.</p>
-<p class="src">Quelle: <a href="https://www.eventim.de/city/hannover-8/konzerte-1/hard-heavy-2/" target="_blank" rel="noopener">Eventim Hannover</a></p>
-</article>
-<article class="card">
-<h3>Grave Digger <small>+ Motorjesus, Warwolf</small></h3>
-<p class="meta">Sa., 6.2.2027 · MusikZentrum, Hannover · „Legends Never Die Tour '27“</p>
-<p>Teutonischer Heavy Metal seit über vier Jahrzehnten – <strong>Hymnen zum Mitbrüllen garantiert</strong>.</p>
-<p><strong>Hörtipp:</strong> „Rebellion (The Clans Are Marching)“ <a class="sp" href="https://open.spotify.com/search/Grave%20Digger%20Rebellion" target="_blank" rel="noopener">▶ Spotify</a> – der Dauerbrenner jeder Setlist.</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hannover</a></p>
+<p class="meta">Di, 29.12.2026 · MusikZentrum, Hannover · 0 km</p>
+<span class="chip ok">Bestätigt</span>
+<p>Metalcore-Urgesteine aus dem Ruhrpott als Jahresabschluss in Vahrenwald.</p>
+<p><strong>Hörtipp:</strong> „Paralyzed“ <a class="sp" href="https://open.spotify.com/search/Caliban%20Paralyzed" target="_blank" rel="noopener">▶ Spotify</a> – Breakdown-Garantie.</p>
+<p class="src">Quelle: <a href="https://songkick.com/metro-areas/34498-germany-hannover/genre/metal" target="_blank" rel="noopener">Songkick Hannover</a></p>
 </article>
 </div>
 </section>
 
 <section>
-<div class="two">
-<div class="box tipp">
-<h2><span class="pill">Tipp des Tages</span><span class="rule"></span></h2>
-<p><strong>Thy Art Is Murder, 25.2.2027, MusikZentrum Hannover.</strong> Eine Band, die sonst Festival-Mainstages füllt, im Club mit neuem Frontmann – solche Abende sind selten und meist schnell weg. Wer Deathcore mag, sollte sich früh Tickets sichern.</p>
-</div>
-<div class="box warn">
-<h2><span class="pill">Hier genau hinschauen</span><span class="rule"></span></h2>
-<ul>
-<li><strong>Mother's Cake in Hannover:</strong> Ein Stadtportal führt noch einen älteren Glocksee-Termin mit The Tazers; aktuell gelistet ist der <strong>3.2.2027</strong> – vor dem Kauf bei der Glocksee prüfen.</li>
-<li><strong>Iron Maiden 2027:</strong> Die neuen Shows sind reine Nordamerika-Termine; Europa bleibt laut Metal Hammer außen vor. Angebote für „Deutschland 2027“ sind unseriös.</li>
-<li><strong>Scorpions 2027:</strong> Metal Hammer nennt Stuttgart, Dortmund, Frankfurt und München – frühere Meldungen mit Oberhausen sind mit Vorsicht zu genießen.</li>
-<li><strong>Zweitmarkt:</strong> Bei kleinen Club-Shows (Thy Art Is Murder, Svartsot) nur über offizielle Vorverkaufsstellen kaufen – überteuerte Resale-Angebote tauchen oft schon Tage nach VVK-Start auf.</li>
-</ul>
-</div>
+<div class="box vio">
+<h3>Tipp des Tages</h3>
+<p><strong>Igorrr in Leipzig (30.3.2027).</strong> Kaum eine Show bringt so viele Welten zusammen: Opernstimmen, Cembalo-Läufe, Breakcore und Blastbeats – plus Secret Chiefs 3 als Support, die man in Deutschland selten sieht. Für die Fahrt nach Leipzig lohnt sich das allemal. <a href="https://www.mvp.de/leipzig/veranstaltungen/igorrr-european-2027-tour/" target="_blank" rel="noopener">Termin-Infos</a></p>
 </div>
 </section>
 
-<section class="woche">
-<h2><span class="pill">Diese Woche im Blick</span><span class="rule"></span></h2>
-<div class="box">
+<section>
+<div class="box wrn">
+<h3>Hier genau hinschauen</h3>
 <ul>
-<li><strong>So., 8.11.:</strong> Mother's Finest – Matrix, Bochum</li>
-<li><strong>Di., 10.11.:</strong> The Meffs – Tower, Bremen · Walls of Jericho – SO36, Berlin</li>
-<li><strong>Mi., 11.11.:</strong> Mother's Cake – Tower, Bremen · Shakra – EXIL, Göttingen</li>
-<li><strong>Sa., 14.11.:</strong> Mother's Cake – B58, Braunschweig · Blasting The Mountains Fest – Harzlandhalle, Ilsenburg</li>
-<li><strong>Vorverkauf läuft:</strong> Thy Art Is Murder (Hannover, 25.2.) seit Freitag, 6.11.</li>
+<li><strong>Hardline, Braunschweig 17.11.:</strong> Die Show in der KufA ist laut Veranstaltungskalender <strong>abgesagt</strong>. Ticketinhaber beim Vorverkaufsportal nach Erstattung fragen. <a href="https://www.mvp.de/braunschweig/veranstaltungen/hardline-european-album-tour-2026-pt-2-kufa-haus/" target="_blank" rel="noopener">mvp.de</a></li>
+<li><strong>Amaranthe in Hannover?</strong> Ein Tourkalender führt für den 15.12. im MusikZentrum „Amaranthe, Ankor“. Ticketportale nennen dort aber die Co-Headline-Tour von <strong>Ankor & Self Deception</strong> – von Amaranthe keine Spur. Vor dem Kauf genau prüfen. <a href="https://www.eventworld.com/ankor-and-self-deception-eu-uk-co-headline-tour-hannover-tickets-15-12-2026/event/474746" target="_blank" rel="noopener">Eventworld</a></li>
+<li><strong>Nile in Oberhausen?</strong> Ein Kalender listet den 8.12. im Helvete Oberhausen. Die offizielle Tourankündigung nennt für diesen Tag Mannheim; NRW-Termin ist <strong>Essen, 14.12.</strong> <a href="https://chaoszine.net/nile-reveals-european-headlining-tour-for-december-2026/" target="_blank" rel="noopener">Chaoszine</a></li>
+<li><strong>Vlad in Tears am 4.12.:</strong> Braunschweig (KufA) oder Krefeld (Kulturfabrik)? Die Angaben widersprechen sich – Göttingen (10.12.) und Osnabrück (12.12.) sind eindeutig. <a href="https://www.regioactive.de/konzert/vlad-in-tears-undead-tour-2026-krefeld-kulturfabrik-2026-12-04-tickets-VgjwSssWnL" target="_blank" rel="noopener">regioactive</a></li>
+<li><strong>New Model Army Köln:</strong> Wenn Erstverkauf „nicht verfügbar“ meldet, blühen Zweitmarkt-Angebote. Nur über Eventim-Fanbörse oder Veranstalter kaufen, nie per Vorkasse an Privatpersonen.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<div class="box blu">
+<h3>Diese Woche im Blick (9.–15. November)</h3>
+<ul>
+<li><strong>Mi, 11.11.</strong> – Walls of Jericho, Factory Magdeburg (ca. 150 km) · <a href="https://www.rockhard.de/live/tourdaten" target="_blank" rel="noopener">Rock Hard</a></li>
+<li><strong>Mi, 11.11.</strong> – Mother's Cake, Tower Bremen; <strong>Sa, 14.11.</strong> B58 Braunschweig</li>
+<li><strong>Fr, 13.11.</strong> – The New Roses + Massive Wagons, Harsh, Rosenhof Osnabrück (Hannover folgt am 11.12. im MusikZentrum)</li>
+<li><strong>Sa, 14.11.</strong> – Gloryhammer + Majestica, Arion, Hellraiser Leipzig · <a href="https://www.rockhard.de/live/tourdaten" target="_blank" rel="noopener">Rock Hard</a></li>
+<li>Keine bestätigten Vorverkaufsstarts in dieser Woche gefunden.</li>
 </ul>
 </div>
 </section>
@@ -247,8 +269,10 @@ footer a{color:var(--muted)}
 <footer>
 <p><a href="/konzerte/archiv/">Radar-Archiv</a></p>
 <p><a href="/">Hannover Frühausgabe</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a></p>
-<p>Alle Termine ohne Gewähr. Bitte vor dem Ticketkauf beim Veranstalter oder der Venue prüfen, ob Datum, Ort und Preis noch stimmen.</p>
+<p>Alle Termine ohne Gewähr. Bitte vor dem Ticketkauf beim Veranstalter prüfen, ob Datum, Venue und Preis noch aktuell sind.</p>
 </footer>
 </div>
 </body>
 </html>
+
+</body></html>

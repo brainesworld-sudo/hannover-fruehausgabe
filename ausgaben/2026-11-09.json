@@ -1,0 +1,372 @@
+{
+  "stand": "Stand: Montag, 3 Uhr",
+  "kurz": [
+    "<b>Aigner-Tag in Berlin:</b> CDU-Präsidium (9 Uhr) und Vorstand (11 Uhr) sollen die CSU-Politikerin als Bundespräsidentin nominieren, gegen <b>13 Uhr</b> treten Merz und Aigner gemeinsam auf. Die SPD signalisiert Zustimmung.",
+    "<b>Busstreik in der Region:</b> Regiobus steht auch heute still, dazu fallen Üstra-Busse vom Betriebshof <b>Mittelfeld</b> aus. Stadtbahnen fahren, die Legionsbrücke ist wieder frei.",
+    "<b>Krakau:</b> Polen ermittelt wegen Terrors. Unter den sechs Toten am Hauptmarkt ist eine <b>Österreicherin</b>, auch ein Deutscher wurde verletzt. Der Täter soll rechtsextrem fasziniert gewesen sein.",
+    "<b>96 holt einen Punkt:</b> 2:2 in Heidenheim nach 0:1-Rückstand, Thórdarson und Hugonet treffen. Die Roten haben jetzt <b>12 Punkte</b>, weiter geht es erst am 21. November.",
+    "<b>Norris gewinnt im Regen von São Paulo</b>, Verstappen rast von Startplatz 21 auf Rang 2. Hülkenberg rettet trotz Zeitstrafe <b>einen Punkt</b>, Mercedes ist Konstrukteurs-Weltmeister.",
+    "<b>Klimagipfel startet:</b> Ab heute verhandeln in Antalya knapp 200 Staaten bei der <b>COP31</b>, erstmals mit Australien als Verhandlungsführer neben dem Gastgeber Türkei."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Zweiter Streiktag: Regiobus steht, Üstra-Busse aus Mittelfeld fallen aus",
+          "kurz": "Verdi lässt den Warnstreik bei Regiobus heute weiterlaufen. Neu dazu kommt der Üstra-Betriebshof <b>Mittelfeld</b>, dessen Buslinien ebenfalls ausfallen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Üstra-Betriebshof Mittelfeld", "suche": "Üstra Betriebshof Mittelfeld Hannover"}],
+          "lang": [
+            "Wer heute im Umland auf den Bus angewiesen ist, braucht einen Plan B: Viele Regiobus-Linien bleiben den ganzen Tag im Depot. In der Stadt trifft es die Busse, die in Mittelfeld starten. Stadtbahnen, S-Bahn und Regionalzüge sind nicht betroffen. Verdi fordert unter anderem 6,5 Prozent mehr Geld.",
+            "Eine gute Nachricht für Stadtbahn-Pendler: Die Umleitung der Linien 3, 7 und 13 an der Legionsbrücke sollte laut Üstra gegen 3 Uhr morgens enden, die Bahnen fahren wieder ihre normalen Wege."
+          ],
+          "einschaetzung": "Streikplan seit Freitag angekündigt, von Üstra und Lokalradio übereinstimmend gemeldet; welche Fahrten wirklich ausfallen, zeigt erst die Fahrplanauskunft am Morgen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/stadtbahnlinien-4-und-5-ersatzverkehr-regiobus-und-uestra-streiks"},
+            {"name": "Üstra", "url": "https://www.uestra.de"}
+          ]
+        },
+        {
+          "titel": "88 Jahre Pogromnacht: Schüler erinnern an der Roten Reihe",
+          "kurz": "Um <b>12 Uhr</b> gedenkt Hannover am Mahnmal der ehemaligen Synagoge der Opfer vom 9. November 1938. Schülerinnen und Schüler der <b>Heisterbergschule</b> erzählen die Geschichte einer verfolgten Familie aus der Stadt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Mahnmal Rote Reihe", "suche": "Mahnmal ehemalige Synagoge Rote Reihe 6 Hannover"}],
+          "lang": [
+            "In der Calenberger Neustadt stand bis 1938 Hannovers große Synagoge, in der Pogromnacht wurde sie angezündet. Heute erinnert dort ein Mahnmal an die Zerstörung und an die Deportierten.",
+            "Das Gedenken dauert eine halbe Stunde, danach werden Kränze niedergelegt. Der Eintritt ist frei, jede und jeder kann dazukommen."
+          ],
+          "einschaetzung": "Offizieller Termin der Landeshauptstadt.",
+          "quellen": [{"name": "hannover.de", "url": "https://www.hannover.de/Kultur-Freizeit/Geschichte-Geschichten/Erinnerungskultur/ZeitZentrum-Zivilcourage/Aktuelles-Veranstaltungen/GEDENKEN-AN-DIE-OPFER-DER-POGROMNACHT"}]
+        },
+        {
+          "titel": "Stromausfall geprobt: 500 Helfer, 43 Notfall-Infopunkte",
+          "kurz": "Die Feuerwehr zieht eine positive Bilanz ihrer Großübung vom Samstag. Erstmals standen alle <b>43 Notfallinformationspunkte</b> der Stadt gleichzeitig.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Diakovere Friederikenstift", "suche": "Diakovere Friederikenstift Hannover"},
+            {"name": "Schulzentrum Ahlem", "suche": "Schulzentrum Ahlem Hannover"}
+          ],
+          "lang": [
+            "Rund 500 Kräfte mit 110 Fahrzeugen spielten einen tagelangen Blackout durch. Statisten mimten Bewohner eines Pflegeheims, die ins notstromversorgte Friederikenstift verlegt wurden, ebenso Menschen mit Beatmungsgeräten zu Hause. Am Schulzentrum Ahlem hängte das THW kritische Technik an Generatoren.",
+            "Die Notfallinformationspunkte sollen im Ernstfall Anlaufstellen sein, wenn Telefon und Internet ausfallen. Die Technik funktionierte, offen ist aber noch, wer sie besetzt: Dafür sollen Beschäftigte der Stadtverwaltung einspringen. Dauerhaft startklar sein sollen die Punkte ab Mitte 2027."
+          ],
+          "einschaetzung": "Pressemitteilung der Feuerwehr selbst, die Auswertung mit möglichen Schwachstellen steht noch aus.",
+          "quellen": [
+            {"name": "Feuerwehr Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/pm/169586/6386025"},
+            {"name": "citynews Hannover", "url": "https://hannover.citynews-online.de/aktuelles/katastrophenschutzuebung-in-hannover-feuerwehr-trainiert-stromausfall-im-stadtgebiet/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in Stadt und Region los war.",
+          "liste": [
+            "<b>Polizeiwagen umgekippt:</b> Auf Einsatzfahrt mit Blaulicht stieß am Samstagabend ein Streifenwagen an einer Kreuzung mit einem Auto zusammen und landete auf der Seite. Drei Leichtverletzte.",
+            "<b>Metall-Tarif ohne Einigung:</b> Auch die dritte Runde für Niedersachsen endete am Freitag ergebnislos. Die Arbeitgeber bieten eine Einmalzahlung von 660 Euro, die IG Metall will 5 Prozent mehr.",
+            "<b>Grünkohl wird teurer:</b> Die Landwirtschaftskammer erwartet eine ordentliche Ernte, aber höhere Kosten für Diesel, Dünger und Beregnung. Hauptsaison ab Buß- und Bettag.",
+            "<b>B 3 bei Hemmingen:</b> Nach einem Unfall mit drei Autos und drei Verletzten sucht die Polizei Zeugen."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kleinere Meldungen aus Polizeiberichten und Lokalmedien vom Freitag bis Sonntag."],
+          "einschaetzung": "Polizei- und Verbandsangaben, von Lokalmedien übernommen.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101518324/unfall-in-hannover-polizeiauto-kippt-um-drei-maenner-verletzt.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/metall-und-elektroindustrie-dritte-tarifrunde-ergebnislos"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101514834/niedersachsen-gruenkohl-preis-koennte-dieses-jahr-steigen-gruende.html"},
+            {"name": "Polizei Hannover", "url": "https://www.presseportal.de/blaulicht/pm/66841/6385853"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Heute wird Aigner offiziell: Erste Frau aus der CSU fürs Schloss Bellevue",
+          "kurz": "Merz hat Ilse Aigner am Sonntagabend dem CDU-Präsidium vorgeschlagen. Heute sollen die Gremien zustimmen, gegen <b>13 Uhr</b> stellen sich beide der Presse.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Konrad-Adenauer-Haus", "suche": "Konrad-Adenauer-Haus Berlin"}],
+          "lang": [
+            "Die bayerische Landtagspräsidentin wäre die erste Bundespräsidentin und die erste Christsoziale im Amt. Aus Niedersachsen hatte Ministerpräsident Olaf Lies (SPD) schon vergangene Woche für eine Frau an der Staatsspitze geworben.",
+            "Union und SPD kommen in der Bundesversammlung am 30. Januar zusammen auf eine Mehrheit von rund 50 Stimmen, die SPD-Spitze hat Unterstützung in Aussicht gestellt. Damit gilt Aigners Wahl als sehr wahrscheinlich."
+          ],
+          "einschaetzung": "Nicht mehr nur Gerüchte aus Parteikreisen: ZDF und dpa berichten übereinstimmend vom Vorschlag und vom Zeitplan.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/aigner-merz-bundespraesidentin-zeitplan-100.html"},
+            {"name": "Stuttgarter Zeitung (dpa)", "url": "https://www.stuttgarter-zeitung.de/politik/kandidatur-fuer-staatsspitze-merz-schlaegt-aigner-den-cdu-gremien-offiziell-vor-79679213.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/lies-fuer-bundespraesidentin"}
+          ]
+        },
+        {
+          "titel": "Plastiksteuer ist vom Tisch",
+          "kurz": "Unionsfraktionschef Thorsten Frei hat im ZDF erklärt, die Koalition werde die geplante Abgabe auf Plastikverpackungen <b>nicht umsetzen</b>.",
+          "bewertung": "plausibel",
+          "orte": [],
+          "lang": [
+            "Die Steuer war seit dem Herbst ein Zankapfel: Dutzende Unionsabgeordnete hatten den Plan als nicht zustimmungsfähig bezeichnet, Handel und Verbände liefen Sturm. Frei begründete das Aus jetzt damit, die Abgabe sei wirtschaftlich wie ökologisch der falsche Weg.",
+            "Offen ist, wie die Lücke im Haushalt geschlossen wird, die die Einnahmen stopfen sollten, und ob die SPD die Absage so mitträgt."
+          ],
+          "einschaetzung": "Klare Aussage eines Koalitionsspitzenpolitikers, eine Reaktion von SPD und Finanzministerium fehlt bislang.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "heidelberg24 (Hintergrund)", "url": "https://www.heidelberg24.de/politik-und-wirtschaft/plastiksteuer-24-abgeordnete-der-union-blockieren-koalitionsplan-zr-94541894.html"}
+          ]
+        },
+        {
+          "titel": "Palästinafahne am Reichstag: Klöckner fordert mehr Schutz",
+          "kurz": "Ein 22-Jähriger kletterte am Sonntagvormittag den Fahnenmast hoch, holte die Deutschlandflagge herunter und hisste eine <b>Palästinafahne</b>. Rund eine Stunde blieb er oben.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Reichstagsgebäude", "suche": "Reichstagsgebäude Berlin"}],
+          "lang": [
+            "Zwei Helfer filmten die Aktion vom Boden aus, eine Gruppe namens „Peacefully Against Genocide“ bekannte sich. Die Feuerwehr nahm die Fahne mittags ab, der Staatsschutz ermittelt unter anderem wegen Verunglimpfung staatlicher Symbole und Hausfriedensbruchs.",
+            "Bundestagspräsidentin Julia Klöckner sieht auch das Land Berlin beim Schutz des Umfelds in der Pflicht. Innenminister Dobrindt sprach von einer geplanten Aktion linker Chaoten."
+          ],
+          "einschaetzung": "Polizeiangaben, von ZDF und weiteren Medien übereinstimmend berichtet.",
+          "quellen": [{"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/palaestinenser-flagge-reichstag-100.html"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus dem Bund.",
+          "liste": [
+            "<b>Bremen:</b> Aus der Forensik des Klinikums Bremen-Ost ist ein als gefährlich eingestufter 49-Jähriger entkommen. Die Polizei warnt, sich ihm zu nähern.",
+            "<b>Nvidia:</b> Der Chipkonzern lässt prüfen, ob Chef Jensen Huang Ziel ausländischer Spionage war.",
+            "<b>Karikaturenpreis:</b> Jan Klocke gewinnt den Deutschen Karikaturenpreis 2026.",
+            "<b>Präsidenten-Petition:</b> Hape Kerkeling wünscht Aigner Glück, eine Petition für ihn selbst hatte über 165.000 Unterschriften."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Klinikum Bremen-Ost", "suche": "Klinikum Bremen-Ost"}],
+          "lang": ["Kurzmeldungen vom Sonntag, überwiegend aus dem ZDF-Ticker."],
+          "einschaetzung": "Tickermeldungen, Details teils noch dünn.",
+          "quellen": [
+            {"name": "buten un binnen", "url": "https://www.butenunbinnen.de/audios/bremen-polizei-fahndung-warnung-102.html"},
+            {"name": "ZDFheute (Nvidia)", "url": "https://www.zdfheute.de/wirtschaft/unternehmen/huang-nvidia-chef-spionage-china-100.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Krakau: Polen ermittelt wegen Terror, Österreicherin unter den Toten",
+          "kurz": "Nach den Schüssen am Hauptmarkt stuft die Staatsanwaltschaft die Tat als <b>terroristisch</b> ein. Sechs Menschen starben in der Altstadt, drei weitere Leichen lagen in der Wohnung des Täters.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Hauptmarkt Krakau", "suche": "Rynek Główny Kraków"}],
+          "lang": [
+            "Unter den Toten ist eine 51-jährige Urlauberin aus Niederösterreich, ihr Mann wurde verletzt. Verletzte stammen außerdem aus Großbritannien, Portugal, Russland und Deutschland, das Auswärtige Amt bestätigt einen verletzten Deutschen. Zwölf Menschen schweben in Lebensgefahr.",
+            "Der mutmaßliche Schütze, ein junger Pole in Tarnkleidung, wurde von der Polizei angeschossen und festgenommen. Laut Innenminister war er von rechtsextremen Ideologien fasziniert, die Ermittler gehen von einem Einzeltäter aus. Polen trauert heute den zweiten Tag offiziell."
+          ],
+          "einschaetzung": "Behördenangaben, von ZDF und ORF übereinstimmend berichtet; Alter des Täters und Verletztenzahl schwanken leicht.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/polen-krakau-schuesse-schuetze-tote-verletzte-100.html"},
+            {"name": "ORF", "url": "https://orf.at/stories/3447628/"}
+          ]
+        },
+        {
+          "titel": "Israel: Eisenkot hat 28 Tage für eine Regierung",
+          "kurz": "Präsident Herzog hat Oppositionsführer Gadi Eisenkot am Sonntag offiziell mit der Regierungsbildung beauftragt. <b>67 von 120</b> Abgeordneten hatten ihn empfohlen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Knesset", "suche": "Knesset Jerusalem"}],
+          "lang": [
+            "Der frühere Generalstabschef verspricht, das Land aus der tiefen Krise zu führen. Eine Empfehlung ist aber noch keine Koalition: Ob die bunte Mehrheit gegen Netanjahu zusammenhält, ist offen. Beobachter rechnen mit Manövern aus dessen Lager.",
+            "Reichen die vier Wochen nicht, kann Herzog um 14 Tage verlängern. Scheitern alle Versuche, droht eine weitere Neuwahl."
+          ],
+          "einschaetzung": "Offizieller Akt des Präsidenten, mehrfach bestätigt.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Stuttgarter Zeitung (dpa)", "url": "https://www.stuttgarter-zeitung.de/politik/eisenkot-regierungsauftrag-israel-herzog-79672224.html"}
+          ]
+        },
+        {
+          "titel": "Klimagipfel COP31 in Antalya beginnt",
+          "kurz": "Bis 20. November verhandeln Delegationen aus fast 200 Staaten. Erwartet werden rund <b>100.000 Teilnehmende</b>, der Gipfel der Staats- und Regierungschefs folgt am Mittwoch und Donnerstag.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Expo-Gelände Antalya", "suche": "Antalya Expo Park"}],
+          "lang": [
+            "Ungewöhnlich ist die Arbeitsteilung: Die Türkei richtet aus, Australien führt die Verhandlungen. Im Mittelpunkt steht, was aus den alten Versprechen wird, vor allem beim Geld für ärmere Länder und beim Abschied von Kohle, Öl und Gas.",
+            "Die Ausgangslage ist ernüchternd: Laut UN-Auswertung senken die bisherigen nationalen Klimapläne den Ausstoß bis 2035 nur um etwa 6 Prozent gegenüber 2019."
+          ],
+          "einschaetzung": "Termine und Zahlen aus offiziellen UN- und Regierungsangaben.",
+          "quellen": [
+            {"name": "news.at", "url": "https://www.news.at/umwelt/weltklimakonferenz-cop31-antalya-worum-es-geht"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in der Welt passiert ist.",
+          "liste": [
+            "<b>Südafrika:</b> Der ANC fällt bei den Kommunalwahlen auf 30,8 Prozent, sein schlechtestes Ergebnis überhaupt.",
+            "<b>Iran:</b> Trump nennt neue große US-Angriffe „höchst unwahrscheinlich“, solange Gespräche vorankommen.",
+            "<b>Frankreich:</b> Premier Lecornu trifft heute Gewerkschaften und Arbeitgeber, für Dienstag ist ein weiterer Protesttag angekündigt.",
+            "<b>Ukraine:</b> Das AKW Saporischschja hängt erneut am Notstrom, Kiews beschädigte Nordbrücke ist eingeschränkt wieder offen.",
+            "<b>Senegal und Ägypten:</b> Mindestens 21 Tote bei einem Bootsunglück, mindestens 4 Tote bei einem Zugunglück in Giseh."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Kernkraftwerk Saporischschja", "suche": "Saporischschja Kernkraftwerk Enerhodar"}],
+          "lang": ["Tickermeldungen vom Sonntag."],
+          "einschaetzung": "Agenturmeldungen, Opferzahlen können sich noch ändern.",
+          "quellen": [{"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu Scorpions und Indians fanden wir keine verlässlich datierten Wochenend-Ergebnisse.",
+      "meldungen": [
+        {
+          "titel": "96 dreht kurz das Spiel, am Ende bleibt ein 2:2 in Heidenheim",
+          "kurz": "Nach 0:1 zur Pause drehen <b>Thórdarson (55.)</b> und <b>Hugonet (63.)</b> die Partie, drei Minuten später gleicht Zivzivadze per Kopf aus. 96 hat nun 12 Punkte.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Voith-Arena", "suche": "Voith-Arena Heidenheim"}],
+          "lang": [
+            "In der ersten Halbzeit war 96 in Heidenheim das gefährlichere Team, geriet aber kurz vor der Pause nach einem Standard durch Siersleben in Rückstand. Thórdarson glich mit einem Distanzschuss aus, Hugonet köpfte nach einer Ecke zur Führung. Die hielt nur drei Minuten. Kurz vor Schluss traf Heidenheims Okon noch den Pfosten.",
+            "Mit 12 Punkten aus 11 Spielen ist der Abstand nach unten kein Ruhekissen. Jetzt folgt die Länderspielpause, weiter geht es am <b>21. November um 13 Uhr</b> zu Hause gegen Greuther Fürth."
+          ],
+          "einschaetzung": "Ergebnis und Torschützen von news.de und t-online übereinstimmend, Spielplan laut hessenschau.",
+          "quellen": [
+            {"name": "news.de", "url": "https://www.news.de/sport/860170090/1-fc-heidenheim-vs-hannover-96-am-08-11-2026-in-der-2-bundesliga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1/"},
+            {"name": "t-online", "url": "https://t-online.de/sport/live-ticker/fussball/2-bundesliga/sdc_fm-59680/ausgleich-1-fc-heidenheim-vs-hannover-96-live-2-2-2-liga-im-ticker.html"},
+            {"name": "hessenschau", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+          ]
+        },
+        {
+          "titel": "Freiburg springt auf Platz drei, Leverkusen siegt im Derby",
+          "kurz": "Freiburg schlägt Union <b>2:0</b> und ist Dritter, Leverkusen gewinnt in Köln <b>2:1</b>. Hoffenheim besiegt Schalke 2:1, das tiefer in den Keller rutscht.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "RheinEnergieStadion", "suche": "RheinEnergieStadion Köln"}],
+          "lang": [
+            "Im Rheinderby brachte Aleix García Bayer schon nach sieben Minuten per Freistoß in Führung, Schick legte spät nach. Kölns Anschluss durch Saïd El Mala in der Nachspielzeit, aufgelegt von Bruder Malek, kam zu spät.",
+            "Oben bleibt alles eng: Bayern und Dortmund haben je 21 Punkte, Freiburg 19, Leipzig 18. Unten steht Gladbach mit 4 Punkten, davor Schalke (6) und Union (7)."
+          ],
+          "einschaetzung": "Ergebnisse von hessenschau und ZDF übereinstimmend.",
+          "quellen": [
+            {"name": "hessenschau", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100.html"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/sport/fussball-bundesliga/1-fc-koeln-bayer-leverkusen-liveticker-bundesliga-highlights-saison-2026-27-100.html"}
+          ]
+        },
+        {
+          "titel": "Norris siegt im Regen, Verstappen fliegt von 21 auf 2",
+          "kurz": "Lando Norris gewinnt in São Paulo vor <b>Verstappen</b> und Hadjar. Mercedes holt drei Rennen vor Schluss den Konstrukteurstitel, Hülkenberg wird Zehnter.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Interlagos", "suche": "Autódromo José Carlos Pace São Paulo"}],
+          "lang": [
+            "Norris verlor den Start, übernahm aber nach einem Dreher von Weltmeister Antonelli die Spitze und gab sie nicht mehr her. Verstappen startete nach einer Strafe ganz hinten und kämpfte sich durchs Feld, Red Bull ließ ihn per Stallorder an Hadjar vorbei.",
+            "Hülkenberg lag auf Punktekurs für Platz neun, kassierte aber zehn Strafsekunden, weil er abseits der Strecke einen Vorteil herausgefahren hatte. Für den Audi-Piloten blieb ein Punkt. Leclerc fiel durch eine Zeitstrafe hinter Lawson auf Rang acht."
+          ],
+          "einschaetzung": "Offizielles Ergebnis der Formel 1 und Rennbericht von motorsport-total decken sich.",
+          "quellen": [
+            {"name": "Formula1.com", "url": "https://www.formula1.com/en/results/2026/races/1299/brazil/race-result"},
+            {"name": "motorsport-total", "url": "https://www.motorsport-total.com/formel-1/news/trotz-verstappen-aufholjagd-lando-norris-gewinnt-im-regen-von-sao-paulo-26110817"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Hannovers Teams in dieser Woche.",
+          "liste": [
+            "<b>Recken:</b> Nach dem 27:21 gegen den Bergischen HC geht es am Sonntag, 15. November, um 18 Uhr nach Gummersbach.",
+            "<b>Indians:</b> Am Freitag, 13. November, kommt Herford an den Pferdeturm.",
+            "<b>Heidenheim:</b> Trainer Frank Schmidt hat angekündigt, nach 20 Jahren zum Saisonende aufzuhören.",
+            "<b>Dortmund und Bayern</b> haben punktgleich je 21 Zähler, die Münchner führen nur dank der Tordifferenz."
+          ],
+          "bewertung": "gesichert",
+          "orte": [{"name": "Eissporthalle am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}],
+          "lang": ["Termine laut Vereinsspielplänen und Veranstaltungskalendern."],
+          "einschaetzung": "Spielpläne der Vereine; Anstoßzeit der Indians bitte vorab beim Verein prüfen.",
+          "quellen": [
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "regioactive", "url": "https://www.regioactive.de/sport/ec-hannover-indians-herforder-ice-dragons-eissporthalle-pferdeturm-2026-11-13-CjqYH7CtrZ"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101518764/2-bundesliga-heidenheim-und-hannover-96-schenken-sich-nichts-krise.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, ebenso NDR und Bild. heise.de lieferte keine aktuellen Inhalte. Wir haben keine Umwege genutzt.",
+      "trends": [
+        {"begriff": "fahndung", "volumen": "1000+", "anlass": "Gefährlicher Mann aus Bremer Forensik geflohen"},
+        {"begriff": "königsfamilie", "volumen": "500+", "anlass": "Harry und Meghan zeigen sich wieder"},
+        {"begriff": "lol worlds", "volumen": "200+", "anlass": "Gen.G erster Finalist der WM"},
+        {"begriff": "fortnite shop", "volumen": "200+", "anlass": "Ärger um Drop-Raten im Piraten-Shop"},
+        {"begriff": "задержание", "volumen": "200+", "anlass": "Massenfestnahmen in Moskau"},
+        {"begriff": "limbach-oberfrohna", "volumen": "200+", "anlass": "Hubschrauber über der Stadt"},
+        {"begriff": "duckduckgo", "volumen": "100+", "anlass": "Googles KI-Kurs an US-Schulen"},
+        {"begriff": "rachel weisz", "volumen": "100+", "anlass": "„Verleugnung“ im Ersten"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Google an US-Schulen: Suche gibt's nur mit KI",
+          "kurz": "Schulen in den USA, die Googles KI-Funktionen ablehnen, sollen künftig auch die <b>normale Suche</b> verlieren. Viele schauen sich deshalb nach Alternativen wie DuckDuckGo um.",
+          "bewertung": "plausibel",
+          "orte": [],
+          "lang": [
+            "Google begründet den Schritt damit, dass Suche und KI inzwischen untrennbar seien: Auch ohne Gemini-Zusatzprodukte bleiben KI-Zusammenfassungen Teil der Treffer. Ab Anfang 2027 sollen die KI-Funktionen für Schüler zunächst aus sein und von den Schulen aktiv eingeschaltet werden.",
+            "Kritik kommt unter anderem von New Yorks Bürgermeister Mamdani, der Google Missbrauch seiner Marktmacht vorwirft. Für Schulen in Deutschland ist bisher keine solche Regel bekannt."
+          ],
+          "einschaetzung": "Von der New York Times und deutschen Tech-Medien berichtet; die genauen Bedingungen hängen von Googles Verträgen mit den Schulbezirken ab.",
+          "quellen": [
+            {"name": "TECHBOOK", "url": "https://www.techbook.de/pc-mac/web-pc-mac/ki-suche-google-schulen-druck"},
+            {"name": "New York Times", "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"}
+          ]
+        },
+        {
+          "titel": "Razzia in Moskau: Jugendliche festgenommen, Einberufung im Gepäck",
+          "kurz": "Am Samstagabend nahm die Polizei an der Metrostation <b>Kitai-gorod</b> massenhaft junge Leute aus Subkulturen fest. Volljährigen wurde ein Vertrag mit der Armee angeboten.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Kitai-gorod", "suche": "Kitai-gorod Moskau"}],
+          "lang": [
+            "Je nach Quelle wurden 150 bis 300 Menschen in Gefangenentransporter gesetzt, später auch am Park „Gorka“. Betroffene schildern, sie hätten stundenlang weder Wasser noch Toilette bekommen, ein junger Mann sei geschlagen worden.",
+            "Auf den Wachen gab es Einberufungsbescheide und Protokolle wegen Ungehorsams gegenüber der Polizei. Viele Jugendliche holten ihre Eltern erst tief in der Nacht ab."
+          ],
+          "einschaetzung": "Exilmedien und DW berichten übereinstimmend, die Zahlen beruhen aber auf Schätzungen von Augenzeugen.",
+          "quellen": [
+            {"name": "Meduza (russisch)", "url": "https://meduza.io/feature/2026/11/08/chto-zabirali-tolko-neformalov-nepravda"},
+            {"name": "DW (russisch)", "url": "https://www.dw.com/ru/do-300-celovek-zaderzali-posle-rejda-u-kitajgoroda-v-moskve/a-79889244"}
+          ]
+        },
+        {
+          "titel": "Royals und Esport: Was Deutschland am Sonntag noch suchte",
+          "kurz": "Das erste gemeinsame Auftreten von <b>Harry und Meghan</b> seit ihrer Rückkehr trieb die Suche nach der Königsfamilie. Esport-Fans verfolgten, wie <b>Gen.G</b> das LoL-Halbfinale glatt gewann.",
+          "bewertung": "plausibel",
+          "orte": [],
+          "lang": [
+            "Rund um die Royals kursieren neben dem Auftritt vor allem Enthüllungsgeschichten aus Boulevardblättern, die sich kaum überprüfen lassen.",
+            "Bei der League-of-Legends-Weltmeisterschaft zog das koreanische Team Gen.G mit einem 3:0 gegen Invictus Gaming als erstes ins Finale ein."
+          ],
+          "einschaetzung": "Trend-Anlässe aus dem Google-Feed; Boulevard-Details zu den Royals mit Vorsicht lesen.",
+          "quellen": [
+            {"name": "SZ", "url": "https://www.sueddeutsche.de/panorama/harry-und-meghan-zeigen-sich-erstmals-seit-rueckkehr-li.3576475"},
+            {"name": "Inven Global", "url": "https://www.invenglobal.com/articles/28308/4-level-jungle-gap-canyon-dominates-the-rift-geng-takes-game-1-of-semifinals-against-ig"},
+            {"name": "Google Trends", "url": "https://trends.google.com/trending/rss?geo=DE"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Krakau:</b> Das Alter des Täters wird mit 24 (Polizei) oder 25 (Innenministerium) angegeben, die Zahl der Verletzten mit 15 oder 16, je nachdem ob der Täter mitgezählt wird.",
+    "<b>Aigner:</b> Die Nominierung ist angekündigt, aber erst mit dem Beschluss der Gremien heute offiziell. Gewählt wird am 30. Januar.",
+    "<b>Plastiksteuer:</b> Bisher gibt es nur die Ansage von Unionsfraktionschef Frei, eine Bestätigung von SPD oder Finanzministerium steht aus.",
+    "<b>96-Tabelle:</b> news.de führt 96 nach dem Remis auf Platz 11, vor dem Spieltag war es Platz 15. Bei so engem Feld kann sich das nach den restlichen Spielen noch verschieben.",
+    "<b>Moskau:</b> Die Zahl der Festgenommenen schwankt zwischen 150 und 300, offizielle Angaben gibt es nicht."
+  ],
+  "woche": [
+    {
+      "wann": "Mo 9. Nov",
+      "titel": "Streik, Gedenken, Aigner-Nominierung",
+      "text": "Wolkig und trocken, <b>3 bis 10 Grad</b>, schwacher Wind. Regiobus und Üstra-Busse aus Mittelfeld im Streik, Stadtbahnen fahren. <b>9 und 11 Uhr:</b> CDU-Gremien zu Aigner, <b>gegen 13 Uhr</b> Auftritt mit Merz. <b>12 Uhr:</b> Pogromnacht-Gedenken an der Roten Reihe. Klimagipfel COP31 beginnt, Lecornu trifft Sozialpartner."
+    },
+    {
+      "wann": "Di 10. Nov",
+      "titel": "Heiter und kühl",
+      "text": "Heiter, trocken, kaum Wind, bis <b>8 Grad</b>, nachts frisch. In Frankreich weiterer Protesttag der Bildungsgewerkschaften. Länderspielpause in den Fußball-Ligen."
+    },
+    {
+      "wann": "Mi 11. bis So 15. Nov",
+      "titel": "Grau, Elfter Elfter, Recken in Gummersbach",
+      "text": "Meist bewölkt, tags <b>6 bis 8 Grad</b>, nachts 1 bis 3 Grad, zum Wochenende wechselhafter. <b>Mi/Do:</b> Staats- und Regierungschefs beim Klimagipfel in Antalya. <b>Mi 11.11.:</b> Start der Karnevalssession. <b>Fr:</b> Indians gegen Herford am Pferdeturm. <b>So 18 Uhr:</b> Gummersbach gegen die Recken."
+    }
+  ]
+}
