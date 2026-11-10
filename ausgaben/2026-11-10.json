@@ -1,0 +1,373 @@
+{
+  "stand": "Stand: Dienstag, 3 Uhr",
+  "kurz": [
+    "<b>Aigner ist offiziell Kandidatin:</b> CDU-Vorstand und SPD-Präsidium stellen sich hinter die CSU-Politikerin. Die Linke will einen <b>eigenen Vorschlag</b> machen, gewählt wird am 30. Januar.",
+    "<b>Nächster Abgang bei 96:</b> Nach Jonas Boldt muss auch Sportdirektor <b>Ralf Becker</b> gehen. Die neue sportliche Leitung soll noch im November stehen.",
+    "<b>Trump zweifelt an den Midterms:</b> Nach der klaren Niederlage seiner Partei spricht er ohne Belege von einer womöglich unfairen Wahl und fordert <b>Ermittlungen gegen Demokraten</b>.",
+    "<b>Nvidia-Chef unter Druck:</b> Jensen Huang räumt eine Affäre mit einer Managerin ein, die laut US-Medien für China spioniert haben soll. Die Aktie schloss gut <b>4 Prozent</b> tiefer.",
+    "<b>Frankreich beschuldigt Iran:</b> Hacker der Revolutionsgarden sollen Kühlanlagen an rund <b>700 Standorten</b> sabotiert haben, Paris will Haftbefehle und EU-Sanktionen.",
+    "<b>Klopp startet Freitag in Belgrad:</b> Die Nationalelf spielt in der Nations League in Serbien (<b>20.45 Uhr, RTL</b>), wegen einer Uefa-Strafe ohne Zuschauer."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Busstreik vorbei, Tarifstreit nicht: Nächste Runde am 16. November",
+          "kurz": "Zwei Tage lang standen viele Regiobusse im Depot, am Montag auch Üstra-Busse aus <b>Mittelfeld</b>. Verdi will Druck machen, bis die Arbeitgeber ein besseres Angebot vorlegen.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Üstra-Betriebshof Mittelfeld", "suche": "Üstra Betriebshof Mittelfeld Hannover"}
+          ],
+          "lang": [
+            "Nach Gewerkschaftsangaben legten am Montag 350 bis 400 Beschäftigte die Arbeit nieder, betroffen waren vor allem die Orte im Umland und die Schnellbus-Linien sprintH. Verdi verlangt 6,5 Prozent mehr Geld und 100 Euro extra für Auszubildende bei zwölf Monaten Laufzeit. Die Arbeitgeber bieten 270 Euro Einmalzahlung plus 3 und 2 Prozent in zwei Stufen über 26 Monate.",
+            "Die Gewerkschaft wirft der Gegenseite vor, in der ersten Runde ganz ohne Angebot erschienen zu sein. Weiterverhandelt wird am 16. November. Für heute war bis Redaktionsschluss kein weiterer Streiktag angekündigt, ein Blick in die Fahrplanauskunft vor dem Losgehen schadet trotzdem nicht."
+          ],
+          "einschaetzung": "Zahlen und Forderungen von dpa und Lokalradio übereinstimmend; dass heute normal gefahren wird, ist nur daraus abgeleitet, dass kein neuer Streikaufruf bekannt ist.",
+          "quellen": [
+            {"name": "nord24 (dpa)", "url": "https://www.nord24.de/niedersachsen/warnstreik-bei-regiobus-in-der-region-hannover-laeuft-429330.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/warnstreik-bei-regiobus-ver-di-will-druck-auf-arbeitgeberverband-erhoehen"}
+          ]
+        },
+        {
+          "titel": "Halle 1 fällt: Einst größte ebenerdige Messehalle der Welt wird abgerissen",
+          "kurz": "Seit 2014 steht der Koloss von 1970 leer, jetzt rücken die Abrissbagger an. Bis <b>Ostern</b> soll die rund <b>80.000 Quadratmeter</b> große Halle verschwunden sein.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Messegelände Hannover", "suche": "Messegelände Hannover Halle 1"}
+          ],
+          "lang": [
+            "Die Halle galt schon seit etwa 15 Jahren als marode. Nach dem Rückbau wird die Fläche bis zum Herbst vorbereitet, was dort entsteht, ist noch offen.",
+            "Die Deutsche Messe arbeitet an einem Masterplan für das ganze Gelände mit mehreren Ideen zur Nachnutzung. Ein Sanierungskonzept soll bis Jahresende vorliegen."
+          ],
+          "einschaetzung": "Angaben der Messegesellschaft, vom Lokalradio berichtet; Kosten wurden nicht genannt.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/jahrelanger-leerstand-deutsche-messe-laesst-halle-1-abreissen"}
+          ]
+        },
+        {
+          "titel": "„Brüder“-Satz: Grünen-Spitzenkandidatin greift CDU-Chef Lechner an",
+          "kurz": "CDU-Landeschef Sebastian Lechner sprach vor der Jungen Union über Clankriminalität und die Autoattacke in <b>Neustadt am Rübenberge</b>. Vize-Ministerpräsidentin Julia Willie Hamburg fordert, er solle seine Worte zurücknehmen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Neustadt am Rübenberge", "suche": "Neustadt am Rübenberge"}
+          ],
+          "lang": [
+            "In Cuxhaven sagte Lechner am Samstag über kriminelle Clanmitglieder: „Ich möchte diese Brüder nicht auf meiner Straße stehen sehen“. Er bezog sich auf den Angriff Ende Oktober in seiner Heimatstadt, bei dem ein Auto in eine Gruppe fuhr und fünf Menschen verletzte. Die Polizei vermutet einen Streit zwischen Großfamilien dahinter.",
+            "Hamburg, die die Grünen am Wochenende einstimmig zur Spitzenkandidatin für die Landtagswahl 2027 gekürt haben, nennt das eine verbale Entgleisung, die Gewaltfantasien bediene. Der Schlagabtausch zeigt: Der Landtagswahlkampf hat begonnen."
+          ],
+          "einschaetzung": "Zitat und Reaktion sind dokumentiert; t-online bezeichnet Lechner anfangs fälschlich als Innenminister, er ist CDU-Landeschef und will Ministerpräsident werden.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101519200/niedersachsen-hamburg-entsetzt-ueber-clan-aussage-von-lechner.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in Stadt und Region los war.",
+          "liste": [
+            "<b>Kitas im Visier:</b> Die Zahl der Einbrüche in Kitas der Region hat sich laut Polizei in vier Jahren verdoppelt. Die Stadt hat eine Arbeitsgruppe zum besseren Schutz eingesetzt.",
+            "<b>Vinnhorst:</b> Bei einem Streit zweier Gruppen junger Männer am Freitag wurden zwei Männer durch Messer und Hammer schwer verletzt. Die Polizei sucht Zeugen.",
+            "<b>Wald unter Stress:</b> Laut Waldzustandsbericht erholen sich Niedersachsens Bäume kaum, die Kronenverlichtung liegt bei rund 23 Prozent.",
+            "<b>Mellendorf:</b> Unbekannte kappten die Kabel einer E-Auto-Ladesäule, Schaden rund 10.000 Euro."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kleinere Meldungen aus Polizeiberichten und Lokalmedien vom Wochenende und Montag."
+          ],
+          "einschaetzung": "Polizei- und Behördenangaben, vom Lokalradio übernommen.",
+          "quellen": [
+            {"name": "Radio Hannover (Kitas)", "url": "https://www.radio-hannover.de/hannover-news/kleine-beute-grosser-schaden-einbrecher-steigen-haeufiger-in-kitas-ein"},
+            {"name": "Polizei Hannover (Vinnhorst)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6386213"},
+            {"name": "Radio Hannover (Wald)", "url": "https://www.radio-hannover.de/hannover-news/waldzustandsbericht-trockenheit-belastet-niedersachsens-waelder"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Aigner nominiert: „Signal gegen extremistische Kräfte“",
+          "kurz": "Der CDU-Bundesvorstand hat Ilse Aigner auf Merz' Vorschlag nominiert, das SPD-Präsidium zieht mit. Union und SPD haben in der Bundesversammlung rund <b>50 Stimmen Vorsprung</b>.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Konrad-Adenauer-Haus", "suche": "Konrad-Adenauer-Haus Berlin"}
+          ],
+          "lang": [
+            "Die bayerische Landtagspräsidentin will eine Kandidatin der Mitte sein, die Gräben überbrückt und klar spricht. Die Grünen zeigen Sympathie, haben aber noch nicht entschieden. Die AfD will einen eigenen, chancenlosen Bewerber aufstellen.",
+            "Die Bundesversammlung aus 630 Bundestagsabgeordneten und ebenso vielen Ländervertretern tritt am 30. Januar zusammen. Eine Wahl im ersten Durchgang gilt als sehr wahrscheinlich, Steinmeiers Amtszeit endet am 18. März."
+          ],
+          "einschaetzung": "Beschlüsse gefasst und von dpa und ZDF übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/politik/dpa-als-kandidatin-fur-bundesprasidentenamt-nominiertaigner-spricht-von-wichtigem-signal-gegen-extremistische-krafte-in-unserem-land-16259352.html"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/aigner-merz-bundespraesidentin-zeitplan-100.html"}
+          ]
+        },
+        {
+          "titel": "Linke will eigenen Kandidaten fürs Schloss Bellevue",
+          "kurz": "Parteichef Luigi Pantisano kritisiert die Absprache von Union und SPD als <b>„Parteiengeschacher“</b>. Einen Namen gibt es noch nicht, die Gremien beraten in den nächsten Tagen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Pantisano meint, das Amt brauche eine überparteiliche Persönlichkeit, Aigner werde es eher parteipolitisch prägen. Bis Weihnachten sei Zeit für einen Vorschlag.",
+            "Beim letzten Mal schickte die Linke den parteilosen Sozialmediziner Gerhard Trabert ins Rennen. Chancen auf den Sieg hat ihr Kandidat auch diesmal nicht, es geht um ein Zeichen."
+          ],
+          "einschaetzung": "Ankündigung vor Journalisten, von dpa verbreitet.",
+          "quellen": [
+            {"name": "Stuttgarter Zeitung (dpa)", "url": "https://www.stuttgarter-zeitung.de/politik/wahl-zum-staatsoberhaupt-linke-will-eigenen-bundespraesidenten-kandidaten-aufstellen-79681997.html"}
+          ]
+        },
+        {
+          "titel": "SPD sucht neue Spitze: Vorschlag bis Dezember",
+          "kurz": "Nach dem Rücktritt von Bärbel Bas will die Parteiführung spätestens im Dezember einen Personalvorschlag machen. Gewählt wird auf dem Parteitag in <b>Bremen am 16. und 17. Januar</b>.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Bremen", "suche": "Bremen"}
+          ],
+          "lang": [
+            "Generalsekretär Tim Klüssendorf führt die Gespräche mit Landesverbänden und Bezirken. Möglich seien eine Doppelspitze oder eine Frau allein, ein Mann allein dagegen nicht.",
+            "Ob Lars Klingbeil wieder antritt, ist offen. Hubertus Heil hat Interesse signalisiert, Manuela Schwesig wird genannt, hält sich aber zurück. Offiziell beworben hat sich noch niemand."
+          ],
+          "einschaetzung": "Zeitplan offiziell, Personalien bisher Spekulation.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/spd-vorstand-vorschlag-kluessendorf-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus dem Bund.",
+          "liste": [
+            "<b>Aldi Süd</b> hebt seinen hauseigenen Mindestlohn ab Dezember von 15 auf <b>16 Euro</b> pro Stunde.",
+            "<b>Trauer um Krakau:</b> Sachsen hat Trauerbeflaggung für die Opfer der Schüsse angeordnet.",
+            "<b>Konjunktur:</b> Das Sentix-Barometer zeigt zum zweiten Mal in Folge sinkendes Vertrauen der Anleger in eine Erholung der Eurozone.",
+            "<b>Merkel</b> nennt Aigners Nominierung „historisch“."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen aus dem ZDF-Newsticker und von dpa vom Montag."
+          ],
+          "einschaetzung": "Tickermeldungen ohne Hintergrund, inhaltlich unstrittig.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/politik/dpa-kandidatin-fur-das-bundesprasidentenamt-merkel-wurdigt-aigners-nominierung-als-historisch-16259352.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Trump stellt Midterm-Niederlage infrage",
+          "kurz": "Die Demokraten holen im Januar Mehrheiten in <b>beiden Kammern</b>. Trump spricht nun von einer womöglich unfairen Wahl und will Ermittlungen gegen Demokraten.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Washington", "suche": "Weißes Haus Washington"}
+          ],
+          "lang": [
+            "Direkt nach der Wahl hatte Trump noch erklärt, er akzeptiere das Ergebnis. Inzwischen fragt er auf Truth Social, wie die Umfragen so falsch liegen konnten, dabei hatten sie einen klaren Sieg der Demokraten vorhergesagt. Er macht Wahlmaschinen verantwortlich und fordert, den Republikaner Dan Sullivan in Alaska zum Sieger zu erklären, wo die Demokratin Mary Peltola knapp vorn liegt.",
+            "Zudem soll das Justizministerium gegen demokratische Politiker ermitteln, die Großspendern mit Untersuchungen gedroht hätten. Belege für Wahlbetrug legte er nicht vor. Mit Hardliner Stephen Miller als neuem Stabschef stellt er sich auf Konfrontation ein."
+          ],
+          "einschaetzung": "Dass Trump das sagt, ist belegt; seine Behauptungen über die Wahl sind es nicht.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/internationales/dpa-trump-spricht-von-unfairer-wahl-us-prasident-schurt-zweifel-an-midterms--und-droht-demokraten-mit-ermittlungen-16256981.html"},
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/international/nach-us-midterms-trump-zweifelt-ergebnis-der-midterms-an/29669594.html"}
+          ]
+        },
+        {
+          "titel": "Kühlschränke als Waffe: Frankreich macht Irans Revolutionsgarden verantwortlich",
+          "kurz": "Hacker manipulierten im Oktober die Temperatursteuerung von Kühlanlagen an rund <b>700 Orten</b>, manche Geräte fingen Feuer. Paris beantragt Haftbefehle gegen drei Offiziere.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Paris", "suche": "Quai d'Orsay Paris"}
+          ],
+          "lang": [
+            "Supermärkte mussten verdorbenes Fleisch wegwerfen, auch Kühlschränke von Blutbanken waren betroffen. Eine Supermarktkette schätzt den Schaden landesweit auf einen zweistelligen Millionenbetrag. Im November folgte eine zweite Welle gegen mehr als 100 Anlagen in Europa.",
+            "Außenminister Jean-Noël Barrot spricht vom ersten großen Sabotage-Cyberangriff auf französischem Boden und kündigt EU-Sanktionen an. Der iranische Botschafter wird einbestellt, eine Reaktion aus Teheran lag zunächst nicht vor."
+          ],
+          "einschaetzung": "Offizielle Zuschreibung durch Frankreichs Regierung und Justiz; die Beweise sind öffentlich nicht einsehbar.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/frankreich-kuehlsysteme-attacken-iran-revolutionsgarden-100.html"}
+          ]
+        },
+        {
+          "titel": "Ukraine: Stromausfälle vor neuen Gesprächen in Abu Dhabi",
+          "kurz": "Nach russischen Angriffen sind im Osten über <b>600.000 Menschen</b> ohne Strom. Diese Woche sollen Russland, die Ukraine und die USA in Abu Dhabi verhandeln.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Abu Dhabi", "suche": "Abu Dhabi"},
+            {"name": "Region Dnipropetrowsk", "suche": "Dnipro Ukraine"}
+          ],
+          "lang": [
+            "Russland traf erneut Energieanlagen in mehreren Regionen, in der Region Odessa starben drei Menschen. Die Ukraine griff ihrerseits eine Raffinerie bei St. Petersburg an. Am AKW Saporischschja ist laut IAEA eine weitere Stromleitung ausgefallen, das Werk läuft auf Notgeneratoren.",
+            "Der Kreml spricht von einem Dreierformat ohne Europäer, Frankreichs Außenminister kündigt dagegen eigene Unterhändler an. US-Außenminister Rubio meldet Fortschritte bei Sicherheitsfragen. In Polen beginnt die erste Übung einer europäischen Ukraine-Truppe mit rund 2.800 Soldaten, auch aus Deutschland."
+          ],
+          "einschaetzung": "Angriffe gut belegt; Termin und Teilnehmer der Gespräche widersprüchlich.",
+          "quellen": [
+            {"name": "ZDFheute Liveblog", "url": "https://www.zdfheute.de/politik/ausland/ukraine-russland-konflikt-blog-102.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in der Welt passiert ist.",
+          "liste": [
+            "<b>COP31 gestartet:</b> In Antalya ringen fast 200 Staaten vor allem ums Geld für Klimaanpassung; die Eröffnung begann wegen Streits um die Tagesordnung anderthalb Stunden zu spät.",
+            "<b>Spanien</b> erwägt eine vorübergehende TikTok-Sperre, nachdem Rechercheure über 1.000 Missbrauchsvideos auf der Plattform fanden.",
+            "<b>Kreta:</b> Bei vier Bootsunglücken starben mindestens 20 Migranten, 133 wurden gerettet.",
+            "<b>London:</b> Russell Brand muss wegen Vergewaltigung und sexueller Nötigung mehr als zehn Jahre in Haft.",
+            "<b>Buenos Aires:</b> Rund 2,5 Millionen Menschen feierten laut Vatikan die Messe mit Papst Leo XIV."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen vom Montag aus dem ZDF-Newsticker, AFP und LTO."
+          ],
+          "einschaetzung": "Agentur- und Tickermeldungen; Besucherzahl der Papstmesse ist eine Vatikan-Angabe.",
+          "quellen": [
+            {"name": "Tageblatt (AFP) zur COP31", "url": "https://www.tageblatt.lu/International/Streit-ums-Geld-und-Aufrufe-zum-Handeln-praegen-Start-der-Klimakonferenz-114452.html"},
+            {"name": "LTO zu TikTok", "url": "https://www.lto.de/recht/nachrichten/n/spanien-tiktok-sperre-kindesmissbrauch-dsa-ermittlungen"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Scorpions fanden wir keine verlässlich datierten neuen Ergebnisse. Den Formel-1-WM-Stand konnten wir nicht mit zwei Quellen abgleichen und lassen ihn deshalb weg.",
+      "meldungen": [
+        {
+          "titel": "96 räumt weiter auf: Auch Sportdirektor Becker muss gehen",
+          "kurz": "Neun Tage nach Sportchef Jonas Boldt stellt Hannover 96 auch <b>Ralf Becker</b> frei. Sein Vertrag lief bis Juni 2027.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Heinz von Heiden Arena", "suche": "Heinz von Heiden Arena Hannover"}
+          ],
+          "lang": [
+            "Geschäftsführer Henning Bindzus spricht von einer strukturierten Neuaufstellung im Sport. Becker selbst findet die Trennung nach eigenen Worten folgerichtig. Wie Boldt wird ihm die missglückte Kaderplanung im Sommer angelastet.",
+            "Die Nachfolge ist offen, die neue sportliche Leitung soll laut Medienberichten noch im November stehen. Sportlich hängt 96 nach elf Spieltagen auf Platz 11 fest, nur einen Punkt vor dem Relegationsrang. Weiter geht es nach der Länderspielpause am 21. November."
+          ],
+          "einschaetzung": "Vom Verein bestätigt, von SID, dpa und Lokalradio berichtet.",
+          "quellen": [
+            {"name": "t-online Hannover (SID)", "url": "https://hannover.t-online.de/region/hannover/id_101519608/hannover-96-fussball-verein-stellt-sportdirektor-ralf-becker-frei.html"},
+            {"name": "absolutfussball", "url": "https://www.absolutfussball.com/deutschland/2-bundesliga/naechste-trennung-sportdirektor-becker-verlaesst-hannover-96-zr-94580748.html"}
+          ]
+        },
+        {
+          "titel": "Geisterspiel in Belgrad: Klopps Elf startet in die November-Länderspiele",
+          "kurz": "Am Freitag spielt Deutschland in der Nations League in Serbien, Anpfiff <b>20.45 Uhr</b>, RTL überträgt. Wegen rassistischer Vorfälle muss Serbien <b>ohne Zuschauer</b> spielen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Stadion Rajko Mitić", "suche": "Stadion Rajko Mitić Belgrad"},
+            {"name": "Olympiastadion Berlin", "suche": "Olympiastadion Berlin"}
+          ],
+          "lang": [
+            "Die Uefa hat den serbischen Verband bestraft, deshalb dürfen auch deutsche Fans nicht ins Stadion. Bundestrainer ist Jürgen Klopp.",
+            "Am Montag, 16. November, folgt das Heimspiel gegen die Niederlande in Berlin, die laut Fachportal ohne Kapitän Virgil van Dijk anreisen."
+          ],
+          "einschaetzung": "Termin und Übertragung von mehreren Portalen übereinstimmend angegeben.",
+          "quellen": [
+            {"name": "heidelberg24", "url": "https://www.heidelberg24.de/sport/fussball/serbien-gegen-deutschland-nations-league-live-im-tv-und-stream-94582131.html"},
+            {"name": "DAZN", "url": "https://www.dazn.com/de-DE/news/fussball/nations-league-sender-serbien-vs-deutschland-tv-live-stream/18c17olc72m7x1988y6ovui87u"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Hannovers Teams in dieser Woche.",
+          "liste": [
+            "<b>Indians in Form:</b> Fünf Siege in Folge, zuletzt 4:2 in Halle, damit Platz 5. Freitag <b>20 Uhr</b> gegen Herford am Pferdeturm, Sonntag <b>15 Uhr</b> beim Spitzenreiter Tilburg.",
+            "<b>Recken:</b> Spielfrei bis Sonntag, dann um <b>18 Uhr</b> beim VfL Gummersbach. Zuletzt gab es ein 27:21 gegen den Bergischen HC.",
+            "<b>96:</b> Länderspielpause, nächstes Ligaspiel am 21. November.",
+            "<b>Kubica</b> verlässt nach dem WEC-Finale das Hypercar-Team von AF Corse."
+          ],
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Eisstadion am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}
+          ],
+          "lang": [
+            "Termine aus den Spielplänen der Vereine. Den Indians-Lauf meldet der Verein selbst, das Datum des Spiels in Halle nennt er nicht."
+          ],
+          "einschaetzung": "Vereinsangaben, nicht unabhängig gegengeprüft.",
+          "quellen": [
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"},
+            {"name": "Die Recken – Spielplan", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "Motorsport.com (Kubica)", "url": "https://www.motorsport.com/wec/news/robert-kubica-announces-exit-from-af-corses-privateer-hypercar-in-wec/10873173/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, ebenso chip.de und derwesten.de. heise.de lieferte keine aktuellen Inhalte. Wir haben keine Umwege genutzt.",
+      "trends": [
+        {"begriff": "sparkasse", "volumen": "500+", "anlass": "Änderungen bei der Kartenzahlung"},
+        {"begriff": "ps5 pro", "volumen": "500+", "anlass": "Preis-Vergleich mit der Xbox"},
+        {"begriff": "saturn", "volumen": "200+", "anlass": "Black-Friday-Angebote starten früh"},
+        {"begriff": "tagesgeld zinsen", "volumen": "200+", "anlass": "Festgeld auf 14-Jahres-Hoch"},
+        {"begriff": "vikings – bills", "volumen": "200+", "anlass": "NFL Monday Night Football"},
+        {"begriff": "oilers – rangers", "volumen": "200+", "anlass": "NHL, McDavids Punkteserie"},
+        {"begriff": "robert kubica", "volumen": "100+", "anlass": "Abschied von AF Corse"},
+        {"begriff": "crunchyroll", "volumen": "100+", "anlass": "Anime-Kampagne im November"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Nvidia-Chef gesteht Affäre, Spionageverdacht drückt die Aktie",
+          "kurz": "Jensen Huang räumte per Mail an die Belegschaft eine Affäre ein. Die Frau, eine frühere Managerin eines Nvidia-Kunden aus Singapur, soll laut <b>New York Times</b> für China spioniert haben.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Nvidia-Zentrale", "suche": "Nvidia Headquarters Santa Clara"}
+          ],
+          "lang": [
+            "Zuerst hatte Huang die Beziehung bestritten, am Sonntag gab er sie zu und entschuldigte sich. Der Verwaltungsrat hat eine Untersuchung gestartet, sieht aber bisher keine Hinweise, dass Firmengeheimnisse oder die nationale Sicherheit der USA betroffen sind, und stellt sich hinter ihn.",
+            "Die Aktie verlor zeitweise fast 9 Prozent und schloss gut 4 Prozent im Minus. China weist den Spionageverdacht als Verleumdung zurück."
+          ],
+          "einschaetzung": "Die Affäre ist eingestanden, der Spionagevorwurf beruht auf Medienberichten und ist unbestätigt.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3447708/"},
+            {"name": "t-online", "url": "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101518958/nvidia-aktien-einbruch-nach-affaeren-gestaendnis-von-ceo-jensen-huang-.html"}
+          ]
+        },
+        {
+          "titel": "Spanien droht TikTok mit Sperre",
+          "kurz": "Das Jugendministerium hat die Generalstaatsanwaltschaft eingeschaltet. Eine Recherche fand über <b>1.000 Missbrauchsvideos</b> mit zusammen mehr als 48 Millionen Aufrufen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Madrid", "suche": "Madrid"}
+          ],
+          "lang": [
+            "Das Faktencheck-Portal Maldita.es stieß zudem auf über 20.000 Profile, die solches Material verbreitet oder verkauft haben sollen. Von 50 gemeldeten Videos löschte TikTok nur fünf vollständig, so die Rechercheure.",
+            "Ob und auf welcher Rechtsgrundlage Spanien eine Sperre durchsetzen könnte, ist offen. Die zuständige Ministerin will die Plattform zu einem Krisengespräch holen. Parallel prüft die EU-Kommission, ob TikToks Empfehlungsalgorithmus gegen das Digitalgesetz DSA verstößt."
+          ],
+          "einschaetzung": "Antrag des Ministeriums bestätigt; eine Sperre ist bisher nur eine Option.",
+          "quellen": [
+            {"name": "LTO", "url": "https://www.lto.de/recht/nachrichten/n/spanien-tiktok-sperre-kindesmissbrauch-dsa-ermittlungen"},
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/gesellschaft/panorama/dpa-beliebte-plattform-medien-spanien-erwagt-tiktok-sperre-wegen-kindesmissbrauchs-16261450.html"}
+          ]
+        },
+        {
+          "titel": "Sparkasse, Black Friday, Zinsen: Wonach Deutschland am Montag suchte",
+          "kurz": "Viele Sparkassen-Kunden googelten nach angekündigten <b>Änderungen bei der Kartenzahlung</b>. Dazu lockten Saturn und Media Markt schon jetzt mit Black-Friday-Rabatten.",
+          "bewertung": "vorsicht",
+          "lang": [
+            "Zur Sparkasse kursieren vor allem Ratgeberartikel, teils mit zugespitzten Überschriften; die großen Portale dazu waren für uns gesperrt. Was konkret gilt, erfährt man verlässlich nur bei der eigenen Sparkasse, nicht über Links in Mails oder SMS.",
+            "Wer Geld parkt, schaut auf die Zinsen: Laut heise-Tarifrechner liegen zehnjährige Festgeldzinsen auf dem höchsten Stand seit 14 Jahren. Und das frühe Black-Friday-Rennen der Elektronikmärkte hat begonnen, Preisvergleiche lohnen sich."
+          ],
+          "einschaetzung": "Trend-Anlässe aus Schlagzeilen abgeleitet; Details zur Sparkassen-Umstellung konnten wir nicht selbst prüfen.",
+          "quellen": [
+            {"name": "Google Trends", "url": "https://trends.google.com/trending?geo=DE"},
+            {"name": "heise Tarifrechner Festgeld", "url": "https://www.heise.de/tarifrechner/finanzen/festgeld/festgeldzinsen-10-jahre"},
+            {"name": "t-online zu Media Markt", "url": "https://www.t-online.de/ratgeber/deals/technik-deals/id_101501458/black-friday-bei-mediamarkt-im-check-welche-angebote-lohnen-sich-.html"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Nvidia:</b> Eingeräumt hat Huang nur die Affäre. Dass die Frau für China spioniert hat, ist ein unbestätigter Medienbericht, Nvidias Verwaltungsrat sieht bisher keinen Schaden.",
+    "<b>Trump:</b> Für seine Zweifel an der Wahl legt er keine Belege vor. Offen ist nur das Senatsrennen in Alaska, weil dort noch ausgezählt wird.",
+    "<b>Ukraine-Gespräche:</b> Kreml und Paris widersprechen sich, ob Europäer mit am Tisch sitzen. Einen festen Termin gibt es öffentlich nicht.",
+    "<b>Busverkehr heute:</b> Ein neuer Streikaufruf war bis Redaktionsschluss nicht bekannt, Verdi kündigt Streiks aber oft kurzfristig an. Vor der Fahrt in die Fahrplanauskunft schauen."
+  ],
+  "woche": [
+    {"wann": "Di 10. Nov", "titel": "Nebel, dann Sonne und Wolken", "text": "Morgens Nebel, danach freundlicher, trocken, <b>2 bis 7 Grad</b>, kaum Wind. Busse sollten wieder normal fahren. Klimagipfel in Antalya geht weiter, Ukraine-Gespräche in Abu Dhabi im Lauf der Woche erwartet."},
+    {"wann": "Mi 11. Nov", "titel": "Grauer Elfter Elfter", "text": "Meist bedeckt, morgens etwas Regen möglich, <b>2 bis 6 Grad</b>. <b>11.11 Uhr:</b> Start der Karnevalssession. Staats- und Regierungschefs beim Klimagipfel (Mi/Do)."},
+    {"wann": "Do 12. bis So 15. Nov", "titel": "Länderspiel, Indians, Recken", "text": "Donnerstag <b>2 bis 8 Grad</b> mit einigen Sonnenstunden, danach wechselhafter, Vorhersage noch unsicher. <b>Fr 20 Uhr:</b> Indians gegen Herford am Pferdeturm. <b>Fr 20.45 Uhr:</b> Serbien gegen Deutschland (RTL). <b>So 15 Uhr:</b> Indians in Tilburg, <b>So 18 Uhr:</b> Gummersbach gegen die Recken. <b>Mo 16.:</b> Deutschland gegen die Niederlande und nächste Tarifrunde bei Regiobus."}
+  ]
+}
