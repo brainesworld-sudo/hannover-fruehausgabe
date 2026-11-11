@@ -1,0 +1,391 @@
+{
+  "stand": "Stand: Mittwoch, 3 Uhr",
+  "kurz": [
+    "<b>Abu Dhabi, Tag zwei:</b> Ukraine und Russland verhandeln erstmals seit Monaten wieder direkt, unter US-Vermittlung. Erwartet werden höchstens <b>Teil-Einigungen</b>, etwa Feuerpausen für Hilfslieferungen.",
+    "<b>Schüsse an der Elbphilharmonie:</b> In der Hamburger Hafencity wurden zwei Menschen verletzt, der <b>68-jährige</b> Tatverdächtige wurde tot im Hotel des Konzerthauses gefunden.",
+    "<b>Tanken wird billiger:</b> Brent fällt erstmals seit August unter <b>90 Dollar</b>, E10 kostet im Schnitt knapp unter 2 Euro. Trump nennt den Iran-Krieg „effektiv vorüber“.",
+    "<b>Gasspeicher so leer wie nie:</b> Deutschlands Speicher sind nur zu knapp <b>60 Prozent</b> gefüllt, der Branchenverband warnt für einen sehr kalten Winter vor Engpässen.",
+    "<b>EuroTier läuft:</b> Rund <b>2.100 Aussteller</b> aus 55 Ländern zeigen bis Freitag auf dem Messegelände Technik für Tierhaltung, Üstra-Linien 2, 6 und 8 fahren hin.",
+    "<b>96 testet Donnerstag:</b> Um <b>12 Uhr</b> geht es im Eilenriedestadion gegen Drittligist TSV Havelse, während elf 96-Profis mit ihren Nationalteams unterwegs sind."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "EuroTier: Die Landwirtschaft trifft sich auf dem Messegelände",
+          "kurz": "Seit Dienstag läuft die Weltleitmesse für Tierhaltung, zusammen mit der EnergyDecentral. Rund <b>2.100 Aussteller aus 55 Ländern</b> sind bis Freitag dabei.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Messegelände Hannover", "suche": "Messegelände Hannover"}
+          ],
+          "lang": [
+            "Im Mittelpunkt stehen Fütterung, Grünland- und Gülletechnik, Melkroboter und Wege, Emissionen im Stall zu senken. Auch alternative Eiweißquellen und Energie vom eigenen Hof sind Thema. Neu sind unter anderem ein Innovations-Boulevard und eine Tierarzt-Konferenz.",
+            "Für Pendler heißt das: Rund um die Messe wird es voller. Die Üstra empfiehlt die Stadtbahnlinien 2, 6 und 8 und bietet ein eigenes Messe-Ticket an."
+          ],
+          "einschaetzung": "Termine und Zahlen vom Veranstalter, über Fachpresse und Üstra bestätigt.",
+          "quellen": [
+            {"name": "profi (Messe-Ticker)", "url": "https://www.profi.de/aktuell/neuheiten/eurotier-2026-techniktrends-ticker-messe-c-20030874.html"},
+            {"name": "Üstra", "url": "https://www.uestra.de/aktuelles/neuigkeiten/aktuelle-meldungen/news-detail/mit-den-linien-2-6-und-8-zur-eurotier-2026/"}
+          ]
+        },
+        {
+          "titel": "Rossmann zieht ins alte Sportscheck-Haus",
+          "kurz": "Das Eckhaus an der <b>Karmarschstraße/Osterstraße</b> bekommt einen neuen Mieter: Im Frühjahr 2027 eröffnet dort eine Rossmann-Filiale mit rund <b>1.100 Quadratmetern</b> auf zwei Etagen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Karmarschstraße/Osterstraße", "suche": "Karmarschstraße Osterstraße Hannover"}
+          ],
+          "lang": [
+            "Damit wird der Laden fast doppelt so groß wie eine durchschnittliche Rossmann-Filiale. Das Gebäude wird gerade saniert und bekommt einen neuen Kundenaufzug, die oberen Etagen werden für Lager und Büros genutzt. Eine Sprecherin der Drogeriekette hat die Pläne bestätigt.",
+            "Sportscheck war im Sommer nach rund 30 Jahren ausgezogen und hat Ende August einen größeren Laden in der Georgstraße eröffnet. Bis 1998 war in dem Haus das Teppichhaus Germania."
+          ],
+          "einschaetzung": "Vom Unternehmen bestätigt; zuerst hatte die HAZ berichtet.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101521678/ehemaliges-sportscheck-haus-in-hannover-diese-kette-zieht-ein.html"}
+          ]
+        },
+        {
+          "titel": "Clan-Debatte: Lechner verteidigt sich, auch die Polizeigewerkschaft ist irritiert",
+          "kurz": "Der CDU-Landeschef sagt, er habe nur eine <b>übliche Festnahmetechnik</b> beschrieben. Die Gewerkschaft der Polizei nennt seine Worte trotzdem „martialisch“.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Neustadt am Rübenberge", "suche": "Neustadt am Rübenberge"}
+          ],
+          "lang": [
+            "Lechner hatte vor der Jungen Union gesagt, er wolle kriminelle Clanmitglieder am Boden sehen, mit einem knienden Polizisten darauf. Im Radio erklärte er nun, Gewalttäter würden in Niedersachsen oft so festgenommen und danach sofort wieder aufgerichtet. Gewalt sei nie das erste Mittel. Den Grünen wirft er vor, der Polizei den Rückhalt gegen Clankriminalität zu entziehen.",
+            "Die GdP warnt vor dem Eindruck, Zwang und Abschiebung seien die ersten Werkzeuge. Grünen-Spitzenkandidatin Julia Willie Hamburg bleibt bei ihrer Forderung, er solle zurückrudern. Laut HAZ hat die Polizeidirektion für Neustadt eine eigene Ermittlungsgruppe gegen Clankriminalität eingerichtet."
+          ],
+          "einschaetzung": "Aussagen dokumentiert; die Taskforce-Angabe stammt aus einem Zeitungsbericht.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101522160/niedersachsen-cdu-mann-lechner-verteidigt-aussage-zur-clankriminalitaet.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in Stadt und Region los war.",
+          "liste": [
+            "<b>Ronnenberg:</b> Ein rückwärts fahrender Muldenkipper erfasste am Montag auf einer Baustelle an der K 234 Richtung Empelde einen Bauarbeiter, er ist lebensgefährlich verletzt.",
+            "<b>Glück in Niedersachsen:</b> Zwei Tipper aus dem Land holten bei der Eurojackpot-Ziehung am Dienstag je gut <b>158.000 Euro</b>, der Jackpot bleibt liegen.",
+            "<b>Regiobus:</b> Die nächste Tarifrunde ist am Montag, 16. November. Ein neuer Streikaufruf war bis Redaktionsschluss nicht bekannt."
+          ],
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "K 234 Ronnenberg", "suche": "Ronnenberg Empelde"}
+          ],
+          "lang": [
+            "Kleinere Meldungen aus Polizeibericht und Lokalmedien."
+          ],
+          "einschaetzung": "Polizei- und Lotto-Angaben, ohne Namen.",
+          "quellen": [
+            {"name": "Polizei Hannover (Ronnenberg)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6387139"},
+            {"name": "t-online Hannover (Eurojackpot)", "url": "https://hannover.t-online.de/region/hannover/id_101522612/niedersachsen-sechsstelliger-eurojackpot-gewinn-bei-ziehung-am-dienstag.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Schüsse an der Elbphilharmonie: Tatverdächtiger tot im Hotel gefunden",
+          "kurz": "Am Dienstagmorgen fielen in der Hamburger <b>Hafencity</b> Schüsse, zwei Menschen wurden verletzt. Spezialkräfte fanden den <b>68-Jährigen</b> kurz darauf tot in einem Zimmer des Elbphilharmonie-Hotels.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Elbphilharmonie", "suche": "Elbphilharmonie Hamburg"},
+            {"name": "Eningen unter Achalm", "suche": "Eningen unter Achalm"}
+          ],
+          "lang": [
+            "Die Polizei geht davon aus, dass er sich selbst getötet hat. Weil man nicht wusste, ob er weitere Waffen oder gefährliche Stoffe dabeihatte, rückten Einsatzkräfte in Schutzanzügen an. Das Konzerthaus wurde nicht geräumt, im kleinen Saal lief gerade ein Kinderkonzert, Besucher waren laut Polizei nie in Gefahr.",
+            "Das Motiv liegt nach ersten Hinweisen wohl im familiären Umfeld. In Eningen bei Reutlingen wurden am selben Tag zwei Tote in einer Wohnung entdeckt, die Polizei prüft einen Zusammenhang mit Hamburg."
+          ],
+          "einschaetzung": "Ablauf von der Polizei bestätigt; Motiv und Verbindung nach Eningen sind noch nicht geklärt.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/panorama/kriminalitaet/schiesserei-hamburg-elbphilharmonie-100.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Gasspeicher auf Rekordtief: Branche warnt vor kaltem Winter",
+          "kurz": "Die deutschen Speicher sind nur zu knapp <b>59 Prozent</b> gefüllt, das gesetzliche Ziel von 70 Prozent zum 1. November wurde klar verfehlt. Erdgas gehörte am Dienstag zu den Top-Suchbegriffen.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Gasspeicher Rehden", "suche": "Gasspeicher Rehden"}
+          ],
+          "lang": [
+            "Der Speicherverband Ines spricht von einem erheblichen Risiko. In einem normalen Winter wären die Speicher Anfang April noch zu etwa 28 Prozent gefüllt. Bei extremer Kälte wie 2010 könnte an einzelnen Januartagen aber Gas fehlen, weil Pipelines und LNG-Terminals die Spitzen nicht decken.",
+            "Wirtschaftsministerin Katherina Reiche hat den Betreiber des großen Speichers im niedersächsischen Rehden zum Gaskauf verpflichtet. Der Großhandelspreis war Ende Oktober kurz über 100 Euro je Megawattstunde gestiegen und liegt jetzt um 83 Euro."
+          ],
+          "einschaetzung": "Füllstand aus offiziellen Speicherdaten; ob es wirklich eng wird, hängt vor allem vom Wetter ab.",
+          "quellen": [
+            {"name": "WirtschaftsWoche", "url": "https://www.wiwo.de/unternehmen/energie/gasspeicher-historisch-leer-droht-deutschland-ein-gasmangel/100268648.html"},
+            {"name": "WELT", "url": "https://www.welt.de/politik/deutschland/article6af2a55bd0fb1ac9ce0ed470/gas-speicher-nur-zu-61-prozent-gefuellt-dringender-handlungsbedarf.html"}
+          ]
+        },
+        {
+          "titel": "Öl unter 90 Dollar: Benzin so günstig wie seit Juli nicht",
+          "kurz": "Brent fiel am Dienstag um fast 3 Prozent auf <b>89,92 Dollar</b>. E10 kostete laut ADAC im Schnitt <b>1,991 Euro</b>, Diesel 2,236 Euro.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Auslöser ist die Hoffnung auf ein Ende des Iran-Kriegs, nachdem Trump ihn als „effektiv vorüber“ bezeichnet hat. Morgens gab es an manchen Tankstellen schon Preise unter 1,90 Euro, Diesel gibt deutlich langsamer nach.",
+            "Ganz entspannt ist die Lage nicht: Die Straße von Hormus ist weiter praktisch blockiert, und eine wichtige saudische Ölpipeline soll erneut angegriffen worden sein."
+          ],
+          "einschaetzung": "Preise und ADAC-Werte von mehreren Wirtschaftsmedien übereinstimmend gemeldet.",
+          "quellen": [
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/deutschland/energie-oelpreis-faellt-erstmals-seit-august-unter-90-dollar/100268778.html"},
+            {"name": "Stuttgarter Nachrichten", "url": "https://www.stuttgarter-nachrichten.de/wirtschaft/hoffnungen-auf-ende-des-iran-kriegs-oelpreis-faellt-erstmals-seit-august-unter-90-dollar-79685933.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus dem Bund.",
+          "liste": [
+            "<b>Rente:</b> Der Beitrag bleibt 2027 bei 18,6 Prozent, für 2028 werden <b>19,7 Prozent</b> erwartet, weil die Rücklage schrumpft.",
+            "<b>Metall-Tarif:</b> Nach der ergebnislosen dritten Runde prüft die IG Metall ganztägige Warnstreiks.",
+            "<b>Notaufnahmen:</b> 2025 wurden 13,2 Millionen ambulante Notfälle behandelt, so viele wie nie seit 2018.",
+            "<b>Mecklenburg-Vorpommern:</b> SPD, Linke und Grüne haben ihren Koalitionsvertrag fertig, die Basis muss noch zustimmen.",
+            "<b>Mordfall Fabian:</b> Das Landgericht Rostock verurteilte die Angeklagte zu lebenslanger Haft und stellte die besondere Schwere der Schuld fest."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen aus dem ZDF-Newsticker vom Dienstag."
+          ],
+          "einschaetzung": "Tickermeldungen, inhaltlich unstrittig; die Rentenwerte sind Schätzungen.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "ZDFheute (Fabian)", "url": "https://www.zdfheute.de/panorama/kriminalitaet/mordfall-fabian-urteil-taeterin-motiv-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Abu Dhabi: Erste direkte Ukraine-Russland-Gespräche seit Monaten",
+          "kurz": "Unter Vermittlung der US-Gesandten <b>Witkoff und Kushner</b> verhandeln beide Seiten bis heute. Einen Waffenstillstand erwartet niemand, wohl aber kleine Schritte.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Abu Dhabi", "suche": "Abu Dhabi"}
+          ],
+          "lang": [
+            "Kiew hofft auf regionale Feuerpausen für Hilfslieferungen und eine Waffenruhe auf See, damit Getreide sicher verschifft werden kann. Moskau hat seine Delegation um Leute aus Außen- und Verteidigungsministerium und den Geheimdiensten erweitert und beharrt auf Neutralität der Ukraine und dem Donbass.",
+            "Deutschland, Frankreich, Italien, Großbritannien und die EU sitzen nicht mit am Tisch, sind aber vor Ort. Laut ZDF-Ticker ist ein weiterer Gefangenenaustausch geplant."
+          ],
+          "einschaetzung": "Treffen bestätigt; Inhalte und Ziele beruhen auf Aussagen der Beteiligten.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/verhandlungen-ukraine-russland-abu-dhabi-ukraine-krieg-usa-100.html"}
+          ]
+        },
+        {
+          "titel": "Hegseth wehrt sich gegen Amtsenthebungsantrag",
+          "kurz": "Der Republikaner <b>Thomas Massie</b> wirft dem US-Verteidigungsminister vor, ohne Zustimmung des Kongresses Truppen in den Iran-Krieg geschickt zu haben. Hegseth spricht von einer „Farce“.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Pentagon", "suche": "Pentagon Arlington"}
+          ],
+          "lang": [
+            "Es war Hegseths erste Pressekonferenz seit einem halben Jahr. Er verteidigte den Iran-Einsatz und die tödlichen Angriffe auf mutmaßliche Drogenboote in Karibik und Pazifik. Trump stellte sich hinter ihn und nannte Massie einen Verlierer.",
+            "Die Hürden sind hoch: Bis Januar tagt noch der alte Kongress, Massie braucht deshalb auch republikanische Stimmen. Das Repräsentantenhaus soll sich noch diese Woche damit befassen."
+          ],
+          "einschaetzung": "Antrag und Reaktionen öffentlich dokumentiert; Erfolgsaussichten gering.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/hegseth-usa-amtsenthebung-pressekonferenz-100.html"}
+          ]
+        },
+        {
+          "titel": "Massenkarambolage im Nebel: Viele Tote auf Bulgariens Autobahn",
+          "kurz": "Auf der Trakia-Autobahn bei <b>Jambol</b> krachten am Dienstagmorgen mehr als <b>50 Fahrzeuge</b> in zwei Serienunfällen ineinander. Gemeldet werden mindestens zehn bis zwölf Tote.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Trakia-Autobahn bei Jambol", "suche": "Trakia Autobahn Jambol Bulgarien"}
+          ],
+          "lang": [
+            "Drohnenbilder zeigen, dass die Sicht wegen dichten Nebels sehr schlecht war. Die Autobahn Richtung Schwarzes Meer wurde in beide Richtungen gesperrt, Dutzende Menschen wurden verletzt.",
+            "Die Opferzahlen gehen auseinander: Der ZDF-Ticker nennt 11 Tote und 48 Schwerverletzte, Euronews mindestens zehn bis zwölf Tote. Offizielle Angaben zur Ursache gibt es noch nicht."
+          ],
+          "einschaetzung": "Unglück gesichert, die Zahl der Opfer ist noch nicht endgültig.",
+          "quellen": [
+            {"name": "Euronews", "url": "https://de.euronews.com/2026/11/10/massencrash-auf-der-autobahn-mit-mehr-als-50-fahrzeugen"},
+            {"name": "Stuttgarter Nachrichten (dpa)", "url": "https://www.stuttgarter-nachrichten.de/panorama/autobahn-in-bulgarien-massenkarambolage-bei-nebel-elf-tote-und-dutzende-verletzte-79687135.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in der Welt passiert ist.",
+          "liste": [
+            "<b>Tschernobyl:</b> Bei einer Konferenz in Paris kamen <b>303 Millionen Euro</b> für die Reparatur der beschädigten Schutzhülle zusammen.",
+            "<b>Polen:</b> Der Inlandsgeheimdienst nahm zwei Ukrainer fest, die für russische Dienste spioniert und Sabotage vorbereitet haben sollen.",
+            "<b>Golfstaaten:</b> Die sechs Länder des Golf-Kooperationsrats planen einen gemeinsamen Kommandoposten in Kuwait.",
+            "<b>COP31:</b> UN-Chef Guterres drängt die Gastgeber Türkei und Australien, ihre Versprechen zum Abschied von fossilen Brennstoffen umzusetzen.",
+            "<b>Iran-Sabotage:</b> Teheran weist den Vorwurf Frankreichs zurück, hinter den Hackerangriffen auf Kühlanlagen zu stecken."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen vom Dienstag aus dem ZDF-Newsticker und internationalen Medien."
+          ],
+          "einschaetzung": "Agentur- und Tickermeldungen ohne eigene Prüfung im Detail.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "The Guardian (COP31)", "url": "https://www.theguardian.com/environment/2026/nov/10/un-antonio-guterres-cop31-fossil-fuels-turkey-australia"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Scorpions fanden wir keine verlässlich datierten neuen Ergebnisse, die Ergebnisseiten waren nicht abrufbar.",
+      "meldungen": [
+        {
+          "titel": "96 nutzt die Pause: Test gegen Havelse, elf Profis auf Reisen",
+          "kurz": "Am Donnerstag um <b>12 Uhr</b> spielt Hannover 96 im <b>Eilenriedestadion</b> gegen Drittligist TSV Havelse, Tickets ab 5 Euro. Viele Stammkräfte fehlen wegen Länderspielen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Eilenriedestadion", "suche": "Eilenriedestadion Hannover"},
+            {"name": "Heinz von Heiden Arena", "suche": "Heinz von Heiden Arena Hannover"}
+          ],
+          "lang": [
+            "Unterwegs sind unter anderem Benjamin Källman (Finnland), Stefan Teitur Thordarson (Island), Virgil Ghita (Rumänien) und Ime Okon (Südafrika), dazu Nachwuchsleute bei U19 und U20. 96TV will den Test auf YouTube zeigen.",
+            "In der Liga geht es am Samstag, 21. November, um 13 Uhr gegen Greuther Fürth weiter. Nach den Trennungen von Boldt und Becker sucht der Klub weiter eine neue sportliche Leitung, Namen gibt es noch keine."
+          ],
+          "einschaetzung": "Termine und Nominierungen vom Verein; zur Nachfolge gibt es keine bestätigten Informationen.",
+          "quellen": [
+            {"name": "Hannover 96 (Test)", "url": "https://www.hannover96.de/newscenter/news/details/in-der-laenderspielpause-96-testet-im-eilenriedestadion-gegen-den-tsv-havelse.html"},
+            {"name": "Hannover 96 (Länderspiele)", "url": "https://www.hannover96.de/newscenter/news/details/new6af1a72a81145238035106-letzte-laenderspielpause-des-jahres-zahlreiche-96-profis-mit-ihren-nationalmannschaften-unterwegs.html"},
+            {"name": "Sportschau (NDR)", "url": "https://www.sportschau.de/regional/ndr/Zweite-Bundesliga-Hannover-96-Becker,hannover-1392.html"}
+          ]
+        },
+        {
+          "titel": "Kronen-Jubel: BVB will, dass Nmecha aufhört",
+          "kurz": "Nach seinen zwei Toren gegen Elversberg legte <b>Felix Nmecha</b> erneut eine Krone auf den Rasen, eine Geste aus der Kampagne eines evangelikalen Netzwerks. Präsident Watzke soll ihn zum Verzicht aufgefordert haben.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Westfalenhalle", "suche": "Westfalenhalle Dortmund"}
+          ],
+          "lang": [
+            "Die Fanabteilung kritisiert, das Netzwerk vertrete ein Weltbild, das Menschen etwa wegen ihrer sexuellen Orientierung abwerte. Auch DFB und BVB-Geschäftsführung wollen mit dem Spieler reden, der Club möchte zudem nicht, dass das Netzwerk mit Nmecha wirbt.",
+            "Nmecha schreibt auf Instagram von Missverständnissen, er wolle für keine Organisation werben und habe nie Intoleranz verbreitet. Das Thema könnte bei der Mitgliederversammlung am 22. November auf den Tisch kommen. „felix nmecha“ war am Dienstag ein Top-Suchbegriff."
+          ],
+          "einschaetzung": "Watzkes Forderung beruht auf einem WDR-Bericht, der Club hat sich offiziell nicht geäußert.",
+          "quellen": [
+            {"name": "Sportschau (WDR)", "url": "https://www.sportschau.de/regional/wdr/wdr-bvb-fordert-nmecha-zu-torjubel-verzicht-auf-100.html"}
+          ]
+        },
+        {
+          "titel": "Serbien ohne Vlahović gegen Klopps Elf",
+          "kurz": "Der Stürmer sagt für das Nations-League-Spiel am Freitag (<b>20.45 Uhr</b>, Belgrad) ab, laut Nationaltrainer aus persönlichen Gründen. Es ist seine zweite Absage in Folge.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Stadion Rajko Mitić", "suche": "Stadion Rajko Mitić Belgrad"}
+          ],
+          "lang": [
+            "Vlahović hat für Beşiktaş in dieser Saison neun Tore in 14 Pflichtspielen erzielt, beim Hinspiel fehlte er verletzt. Serbien wartet in der Gruppe noch auf die ersten Punkte.",
+            "Das Spiel findet wegen einer Uefa-Strafe ohne Zuschauer statt. Am Montag folgt für Deutschland das Heimspiel gegen die Niederlande in Berlin."
+          ],
+          "einschaetzung": "Absage vom serbischen Trainer bestätigt.",
+          "quellen": [
+            {"name": "t-online", "url": "https://t-online.de/sport/fussball/international/id_101521058/vor-nations-league-spiel-gegen-deutschland-vlahovic-sagt-serbien-ab.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>Indians:</b> Andy Reiss kehrt an den Pferdeturm zurück, weil zwei Spieler verletzt fehlen. Freitag <b>20 Uhr</b> gegen Herford, Sonntag <b>15 Uhr</b> in Tilburg.",
+            "<b>Recken:</b> Sonntag <b>18 Uhr</b> in Gummersbach, 12. Spieltag der Handball-Bundesliga.",
+            "<b>Formel 1:</b> Nach dem Sieg von Lando Norris in Brasilien führt Kimi Antonelli die WM mit <b>390 Punkten</b> vor Verstappen (279). Drei Rennen bleiben, als Nächstes Las Vegas."
+          ],
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Eisstadion am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}
+          ],
+          "lang": [
+            "Termine aus den Vereinsseiten; der F1-WM-Stand ist mit zwei Quellen abgeglichen."
+          ],
+          "einschaetzung": "Vereinsangaben und zwei übereinstimmende F1-Tabellen.",
+          "quellen": [
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "formel1.de", "url": "https://www.formel1.de/rennergebnisse/wm-stand/2026/fahrerwertung"},
+            {"name": "F1-Insider", "url": "https://f1-insider.com/formel-1-wm-stand-fahrer-teams-2026-90108/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, ebenso heise.de, bild.de und sueddeutsche.de. Wir haben keine Umwege genutzt.",
+      "trends": [
+        {"begriff": "schnee wetter", "volumen": "10.000+", "anlass": "Erste Flocken im Flachland"},
+        {"begriff": "lottozahlen eurojackpot heute", "volumen": "2.000+", "anlass": "Ziehung am Dienstag"},
+        {"begriff": "felix nmecha", "volumen": "2.000+", "anlass": "Debatte um Kronen-Jubel"},
+        {"begriff": "in aller freundschaft kaminski", "volumen": "2.000+", "anlass": "Serienfigur in Lebensgefahr"},
+        {"begriff": "rannischer platz", "volumen": "1.000+", "anlass": "Schwerer Tram-Unfall in Halle"},
+        {"begriff": "2026", "volumen": "1.000+", "anlass": "Knappe US-Senatswahl in Mississippi"},
+        {"begriff": "climate news today", "volumen": "200+", "anlass": "Klimagipfel COP31"},
+        {"begriff": "erdgas", "volumen": "100+", "anlass": "Gasspeicher auf Rekordtief"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Erster Schnee: Brandenburg wird weiß, Hannover bleibt grau",
+          "kurz": "Mehr als <b>10.000 Suchen</b> nach Schnee: Am Dienstagmorgen schneite es östlich von Berlin bis an die Oder. Liegen bleibt davon wenig.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Beeskow", "suche": "Beeskow Brandenburg"}
+          ],
+          "lang": [
+            "Ein abziehendes Tief brachte eine dünne Schneedecke, mildere Luft dürfte sie schnell wieder verschwinden lassen. Kräftiger schneien soll es in der Nacht zu Freitag in den Alpen, mit 10 bis 20 Zentimetern.",
+            "Für Hannover sagen die Wetterdienste keinen Schnee voraus: heute 2 bis 6 Grad und grau, Donnerstag und Freitag bis 8 oder 9 Grad, mit etwas Regen zum Wochenende hin."
+          ],
+          "einschaetzung": "DWD-Angaben über t-online; die Hannover-Prognose von Wetterdiensten, die sich in Details unterscheiden.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/panorama/wetter/id_101521460/schnee-in-deutschland-erste-flocken-fallen-im-flachland.html"},
+            {"name": "wetterdienst.de Hannover", "url": "https://www.wetterdienst.de/Deutschlandwetter/Hannover/"}
+          ]
+        },
+        {
+          "titel": "OpenAI holt 11 Milliarden Dollar, aber weniger als geplant",
+          "kurz": "Laut Bloomberg sammelte der ChatGPT-Entwickler im ersten Teil einer Finanzierungsrunde <b>11 Milliarden Dollar</b> ein, bei einer Bewertung von <b>1,25 Billionen</b>.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Insgesamt könnten es bis zu 20 Milliarden werden, der Rest soll in den nächsten Wochen folgen. Ursprünglich soll OpenAI mehr als 30 Milliarden bei einer Bewertung von rund 1,4 Billionen angestrebt haben.",
+            "Dass die Pläne kleiner ausfallen, wird mit dem jüngsten Ausverkauf bei KI-Aktien begründet: Anleger zweifeln, ob sich die riesigen Ausgaben für Rechenzentren rechnen."
+          ],
+          "einschaetzung": "Beruht auf Insider-Angaben gegenüber Bloomberg; OpenAI selbst hat keine Zahlen bestätigt.",
+          "quellen": [
+            {"name": "Horizont", "url": "https://horizont.at/digital/open-ai-wird-nun-mit-mehr-als-1-billion-dollar-bewertet-443924"},
+            {"name": "Let's Data Science", "url": "https://letsdatascience.com/news/openai-reportedly-closes-11-billion-first-portion-of-round-a-43b7bec2"}
+          ]
+        },
+        {
+          "titel": "Tram schleift Frau mit: Halle sucht nach Antworten",
+          "kurz": "Über <b>1.000 Suchen</b> nach dem Rannischen Platz: In Halle verfing sich eine Frau in der Kupplung einer Straßenbahn und wurde mitgeschleift. Sie ist lebensgefährlich verletzt.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Rannischer Platz", "suche": "Rannischer Platz Halle (Saale)"}
+          ],
+          "lang": [
+            "Der Unfall geschah im Bereich Steinweg, mehrere Medien berichten übereinstimmend. Wie es dazu kommen konnte, ist noch unklar.",
+            "Solche Unfälle sind selten, zeigen aber, wie gefährlich der Bereich zwischen zwei Wagen oder an der Kupplung ist. Auch in Hannover gilt: Nie zwischen Bahnteilen hindurchgehen."
+          ],
+          "einschaetzung": "Nur Überschriften und Anrisse aus dem Trends-Feed ausgewertet, Hergang offen.",
+          "quellen": [
+            {"name": "tagesschau.de (MDR)", "url": "https://www.tagesschau.de/inland/regional/sachsenanhalt/rannischer-platz-steinweg,strassenbahn-unfall-156.html"},
+            {"name": "Google Trends", "url": "https://trends.google.com/trending?geo=DE"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Bulgarien:</b> Die Zahl der Toten schwankt je nach Quelle zwischen zehn und zwölf, offizielle Endzahlen fehlen noch.",
+    "<b>Hamburg/Eningen:</b> Ein Zusammenhang zwischen den Schüssen und den beiden Toten bei Reutlingen wird nur geprüft, bestätigt ist er nicht. Auch das Motiv ist offiziell offen.",
+    "<b>Gasspeicher:</b> Je nach Stichtag liest man 61 oder knapp 59 Prozent. Beides stimmt, die Speicher leeren sich seit Oktober.",
+    "<b>OpenAI:</b> Die Milliardenzahlen stammen von anonymen Insidern, nicht vom Unternehmen."
+  ],
+  "woche": [
+    {"wann": "Mi 11. Nov", "titel": "Grauer Elfter Elfter", "text": "Meist bedeckt, vormittags vereinzelt etwas Regen möglich, <b>2 bis 6 Grad</b>, schwacher Ostwind. <b>11.11 Uhr:</b> Start der Karnevalssession. EuroTier auf dem Messegelände, Ukraine-Gespräche in Abu Dhabi enden."},
+    {"wann": "Do 12. Nov", "titel": "Etwas Sonne, 96 testet", "text": "Mix aus Sonne und Wolken, <b>2 bis 8 Grad</b>, je nach Dienst auch leichter Regen. <b>12 Uhr:</b> Hannover 96 gegen TSV Havelse im Eilenriedestadion. Abends <b>20.45 Uhr</b>: Albanien gegen Finnland mit 96-Stürmer Källman."},
+    {"wann": "Fr 13. bis So 15. Nov", "titel": "Länderspiel, Indians, Recken", "text": "Freitag bis <b>8 oder 9 Grad</b>, später etwas Regen, Wochenende kühler um <b>3 bis 7 Grad</b> und meist trocken. <b>Fr 20 Uhr:</b> Indians gegen Herford am Pferdeturm. <b>Fr 20.45 Uhr:</b> Serbien gegen Deutschland (RTL). EuroTier endet Freitag. <b>So 15 Uhr:</b> Indians in Tilburg, <b>So 18 Uhr:</b> Recken in Gummersbach. <b>Mo 16.:</b> Deutschland gegen die Niederlande, Tarifrunde bei Regiobus."}
+  ]
+}
