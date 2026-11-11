@@ -21,6 +21,8 @@ Sie legen ihre Ausgabe auf Claude-Seiten ab. Ein Chat bringt sie von dort auf di
 
 ## Instagram-Post zum Tipp des Tages (nach dem Veröffentlichen)
 1. Aus konzerte/index.html den „Tipp des Tages“ nehmen (Band, Support, Termine, Hörtipp).
-2. Instagram-Handles NUR aus den Band-Links der Radar-Seite oder von offizieller Band-/Label-/Agentur-Seite übernehmen, nie raten. Ohne bestätigten Handle: Band nicht markieren.
+2. Instagram-Handles NUR übernehmen, wenn bestätigt: verifiziertes Profil (blauer Haken) in der Instagram-Suche, Band-Link der Radar-Seite, offizielle Band-/Label-/Agentur-Seite oder Link von Hilmer. Nie raten. Ohne bestätigten Handle: nicht markieren, Hilmer nach dem Link fragen.
 3. post.json schreiben und `python3 werkzeuge/insta_post.py post.json insta_post_JJJJ-MM-TT.jpg` (pip: fonttools brotli; Schriften lädt das Skript selbst).
-4. Bild per SendUserFile schicken; per SendUserMessage: Bildunterschrift (eigene Worte, Termine, Hörtipp, @-Markierungen, Hinweis „Link in Bio“, „Termine ohne Gewähr“, 8–12 Hashtags) und je markierter Band eine kurze englische Direktnachricht. Hilmer postet selbst.
+4. Bild per SendUserFile schicken; per SendUserMessage: Bildunterschrift zum Kopieren (eigene Worte, Termine, Hörtipp, Hinweis „Link in Bio“, „Termine ohne Gewähr“, 8–12 Hashtags) plus Uhrzeit-Empfehlung (wochentags ca. 18:30, Sa/So ca. 11:00).
+5. Hilmer lädt in der Instagram-App hoch, fügt die Bildunterschrift ein und plant den Beitrag über „Erweiterte Einstellungen → Diesen Beitrag planen“ auf die empfohlene Uhrzeit.
+6. send_later auf Uhrzeit + 5 Min legen. Dann im Browser (konzert_radar_hannover): neuesten Beitrag öffnen, Bildunterschrift prüfen, bestätigte Handles markieren (Beitrag → ⋯ → Bearbeiten → aufs Foto klicken), DMs an Band(s) und Veranstaltungsort (deutsche Bands/Orte auf Deutsch, sonst Englisch). Manche Konten erlauben keine Markierung (z. B. frozencrownofficial) – dann nur DM. EXIL Göttingen nimmt keine DMs an.
