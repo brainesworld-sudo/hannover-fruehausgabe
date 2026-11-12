@@ -1,0 +1,347 @@
+{
+  "stand": "Stand: Donnerstag, 3 Uhr",
+  "kurz": [
+    "<b>Abu Dhabi ohne Durchbruch:</b> Ukraine und Russland vereinbaren nur einen großen Gefangenenaustausch, laut Moskau <b>mehr als 1.000</b> pro Seite. Heute reisen die US-Vermittler zu Putin.",
+    "<b>Wirtschaftsweise schlagen Alarm:</b> Die Konjunktur zieht mit <b>1,3 Prozent</b> an, doch dem Staat droht laut Gutachten eine Schuldenlücke historischen Ausmaßes.",
+    "<b>VW kippt „Gamechanger“:</b> Das geplante Großguss-Zentrum in Wolfsburg kommt nicht. Der Betriebsrat spricht von einem klaren Bruch der Vereinbarung von 2024.",
+    "<b>Auto rast in Gruppe in Empelde:</b> Drei Männer verletzt, einer schwer. Der Fahrer ist <b>flüchtig</b>, die Kripo ermittelt.",
+    "<b>16.200 Wohnungen fehlen</b> in Stadt und Region Hannover, sagt der neue Bau-Monitor. Gebaut wurden zuletzt nur rund 2.100 pro Jahr.",
+    "<b>96 testet heute um 12 Uhr</b> im Eilenriedestadion gegen Drittliga-Schlusslicht Havelse, die Indians jagen Freitag gegen Herford den <b>sechsten Sieg in Folge</b>."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Empelde: Auto fährt in Menschengruppe, Fahrer flüchtet",
+          "kurz": "Am Mittwochabend gegen <b>22 Uhr</b> erfasste ein Wagen an der Straße Am Sportpark drei Männer. Einer wurde <b>schwer verletzt</b>, der Fahrer fuhr davon.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Am Sportpark, Empelde", "suche": "Am Sportpark Ronnenberg Empelde"}],
+          "lang": [
+            "Nach ersten Erkenntnissen war das Auto deutlich zu schnell unterwegs, als es in die Gruppe fuhr. Zwei Verletzte kamen ins Krankenhaus, einer davon mit schweren Verletzungen. Ein dritter Mann wurde vor Ort versorgt.",
+            "Die Polizei rückte mit vielen Kräften an, die Feuerwehr leuchtete den Bereich für die Spurensuche aus. Fahrer und Fahrzeug waren in der Nacht noch unbekannt, ebenso, ob es ein Unfall oder eine gezielte Tat war."
+          ],
+          "einschaetzung": "Bislang nur ein Medienbericht und noch keine Polizeimeldung; Hintergründe sind völlig offen.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101524544/bei-hannover-auto-rast-in-personengruppe-drei-verletzte-fahrer-fluechtig.html"}]
+        },
+        {
+          "titel": "Nach Autoattacke: Polizei startet Clan-Taskforce in Neustadt",
+          "kurz": "Die Polizeidirektion Hannover reagiert auf den Angriff von Ende Oktober mit einer Taskforce, die <b>zunächst ein Jahr</b> lang mehr Präsenz und Kontrollen in Neustadt am Rübenberge bringen soll.",
+          "bewertung": "gesichert",
+          "orte": ["Neustadt am Rübenberge"],
+          "lang": [
+            "Damals soll ein 36-Jähriger absichtlich in eine Gruppe gefahren sein, fünf Männer wurden verletzt. Er sitzt wegen fünffachen versuchten Totschlags in U-Haft. Vorausgegangen sein soll ein eskalierter Streit zwischen zwei Großfamilien.",
+            "Neben Kontrollen setzt die Taskforce auf Prävention gemeinsam mit Stadt, Schulen und Vereinen. Politisch passt das in die laufende Clan-Debatte, die CDU-Landeschef Lechner mit seinen Äußerungen angeheizt hatte."
+          ],
+          "einschaetzung": "Offizielle Maßnahme der Polizei, von Radio Hannover berichtet; die Ermittlungen zum Angriff selbst laufen noch.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/nach-autoattacke-in-neustadt-polizei-gruendet-taskforce"},
+            {"name": "t-online (Neustadt, Oktober)", "url": "https://www.t-online.de/nachrichten/panorama/ungluecke/id_101498880/neustadt-am-ruebenberge-auto-rast-in-menschenmenge-was-bisher-bekannt-ist.html"}
+          ]
+        },
+        {
+          "titel": "Bau-Monitor: In Stadt und Region fehlen 16.200 Wohnungen",
+          "kurz": "Laut Pestel-Institut ist der Bestand zwar seit 15 Jahren um gut <b>43.000 Wohnungen</b> gewachsen, doch zuletzt entstanden nur noch rund <b>2.100</b> neue im Jahr.",
+          "bewertung": "gesichert",
+          "orte": ["Region Hannover"],
+          "lang": [
+            "Die Zahl der Beschäftigten in der Region stieg im selben Zeitraum um etwa 27 Prozent, der Wohnungsbau hielt nicht Schritt. Das Institut sieht Neubau als wichtigste Antwort.",
+            "Der Baustoff-Fachhandel, der die Studie mitträgt, wirbt für den sogenannten Gebäudetyp E mit abgespeckten Standards. Damit ließe sich bis zu ein Drittel der Baukosten sparen, heißt es."
+          ],
+          "einschaetzung": "Die Zahlen sind seriös errechnet, die Studie hat aber einen Auftraggeber mit eigenem Interesse am Bauen.",
+          "quellen": [{"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/bau-monitor-in-hannover-fehlen-16-200-wohnungen"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in Stadt und Region los ist.",
+          "liste": [
+            "<b>S4 fällt aus:</b> Vom 18. bis 25. November fährt die S-Bahn zwischen Hannover und Hildesheim wegen Brückenarbeiten nicht. Der RE10 hält zusätzlich in Messe/Laatzen, Rethen, Barnten und Emmerke.",
+            "<b>Gleidingen dicht:</b> Ab Montag ist die Kreuzung B6/K266 bis voraussichtlich 23. Dezember voll gesperrt, Linie 390 wird umgeleitet.",
+            "<b>Drogen im ICE nach Hannover:</b> Der Zoll fand in Bad Bentheim hinter einer Toiletten-Klappe Ketamin und Ecstasy im Wert von rund <b>115.000 Euro</b>.",
+            "<b>A2 bei Barsinghausen:</b> Der Fahrer eines Transporters ist nach dem Unfall vom Dienstag im Krankenhaus gestorben.",
+            "<b>Stadionsingen:</b> Am 15. Dezember sollen über 40.000 Menschen in der 96-Arena Weihnachtslieder singen, der Erlös geht an Bedürftige."
+          ],
+          "bewertung": "gesichert",
+          "orte": ["Gleidingen Laatzen", "Bahnhof Bad Bentheim"],
+          "lang": ["Kleinere Meldungen aus Hannover und dem Umland, alle aus den letzten 48 Stunden."],
+          "einschaetzung": "Angaben von Polizei, Zoll, Verkehrsbetrieben und Veranstaltern.",
+          "quellen": [
+            {"name": "Radio Hannover (S4)", "url": "https://www.radio-hannover.de/hannover-news/s-bahn-hannover-s4-ausfall-wegen-brueckenarbeiten"},
+            {"name": "Radio Hannover (Gleidingen)", "url": "https://www.radio-hannover.de/hannover-news/vollsperrung-in-gleidingen-ab-montag"},
+            {"name": "Radio Hannover (Zoll)", "url": "https://www.radio-hannover.de/hannover-news/zoll-findet-drogen-im-zug-nach-hannover"},
+            {"name": "Polizei Hannover (A2)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6387828"},
+            {"name": "Radio Hannover (Stadionsingen)", "url": "https://www.radio-hannover.de/hannover-news/singen-fuer-den-guten-zweck-5-stadionsingen-mit-ueber-40-000-menschen-geplant"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Wirtschaftsweise: Aufschwung ja, aber eine Schuldenlücke droht",
+          "kurz": "Der Sachverständigenrat hebt die Prognose für 2026 auf <b>1,3 Prozent</b> Wachstum. Ohne Kurswechsel könnte die Schuldenquote bis 2040 aber Richtung <b>100 Prozent</b> steigen.",
+          "bewertung": "gesichert",
+          "orte": ["Berlin"],
+          "lang": [
+            "Für 2027 erwarten die Ökonomen rund 1 Prozent Wachstum und mehr Inflation. Das Problem sind die schuldenfinanzierten Verteidigungsausgaben: Selbst wenn sie in den normalen Haushalt wandern, fehlen 2040 laut Gutachten rund 300 Milliarden Euro im Jahr. Die Vorsitzende Monika Schnitzer spricht von einem Problem „historischen Ausmaßes“.",
+            "Die Liste der Vorschläge tut weh: Rente mit 63 abschaffen, Mütterrente nicht ausweiten, Dienstwagenprivileg und Pendlerpauschale überprüfen. Vier der fünf Weisen halten auch Steuererhöhungen für nötig. Parallel ringt die Koalition in Sondersitzungen um den Haushalt 2027."
+          ],
+          "einschaetzung": "Offizielles Jahresgutachten, von mehreren Medien übereinstimmend wiedergegeben.",
+          "quellen": [
+            {"name": "Euronews", "url": "https://de.euronews.com/2026/11/11/wirtschaftsweise-schlagen-alarm-deutschland-schuldenkrise"},
+            {"name": "dpa via Rhein-Zeitung", "url": "https://www.rhein-zeitung.de/deutschland-welt/wirtschaft/blick-in-abgrund-wirtschaftsweise-warnen-vor-schulden_arid-4169429.html"}
+          ]
+        },
+        {
+          "titel": "VW stoppt „Gamechanger“: Betriebsrat schäumt",
+          "kurz": "Das geplante <b>Großguss-Zentrum in Wolfsburg</b> wird nicht gebaut. Betriebsratschefin Cavallo spricht von einem Offenbarungseid der Konzernführung.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "VW-Werk Wolfsburg", "suche": "Volkswagen Werk Wolfsburg"}],
+          "lang": [
+            "Der Plan war Teil des Sanierungsdeals vom Dezember 2024: Wolfsburg sollte mit großen Gussteilen günstiger E-Autos auf der neuen SSP-Plattform bauen, der Verbrenner-Golf dafür nach Mexiko gehen. VW verweist nun auf die schwierige Lage, alle Investitionen stünden auf dem Prüfstand. Die E-Modelle sollen trotzdem kommen, nur konventionell gefertigt.",
+            "Für die Region ist das eine schlechte Nachricht. Der Betriebsrat will den Golf-Umzug blockieren, bis klar ist, wie viele Leute und Stückzahlen Wolfsburg künftig hat. Gerade erst hat die IG Metall in der Metallbranche ganztägige Warnstreiks beantragt."
+          ],
+          "einschaetzung": "Von VW bestätigt; welche Jobs betroffen sind, ist noch unklar.",
+          "quellen": [
+            {"name": "onvista (dpa-AFX)", "url": "https://www.onvista.de/news/2026/11-11-vw-stoppt-produktionsprojekt-gamechanger-0-20-26575142"},
+            {"name": "t-online Braunschweig", "url": "https://braunschweig.t-online.de/region/braunschweig/id_101524070/-eklatanter-bruch-vw-stoppt-millionenprojekt-golf-zukunft-in-wolfsburg-.html"}
+          ]
+        },
+        {
+          "titel": "Kabinett beschließt nationale Gasreserve, Kunden zahlen mit",
+          "kurz": "Nach dem Rekordtief der Speicher will die Regierung eine <b>Notfall-Reserve</b> aufbauen. Finanziert werden soll sie über eine <b>Umlage</b> auf die Gasrechnung.",
+          "bewertung": "gesichert",
+          "orte": ["Berlin"],
+          "lang": [
+            "Die Reserve soll nur bei einer konkreten Versorgungskrise angezapft werden. Der Gesetzentwurf geht jetzt in den Bundestag.",
+            "Hintergrund: Die Speicher sind nur gut zur Hälfte gefüllt, das gesetzliche Ziel für den 1. November wurde verfehlt. Wie hoch die Umlage pro Haushalt ausfällt, hängt vom Gesetzgebungsverfahren ab."
+          ],
+          "einschaetzung": "Kabinettsbeschluss, offiziell bestätigt; die Kosten für Verbraucher stehen noch nicht fest.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "beck-aktuell (Entwurf, Oktober)", "url": "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/gasreserve-wirtschaftsministerium-reiche-umlage-2026-10-13"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus dem Bund.",
+          "liste": [
+            "<b>Unterhaltsvorschuss:</b> Familienministerin Prien will ihn Alleinerziehenden mit mehr als <b>40.000 Euro</b> Jahreseinkommen streichen, der Entwurf ist in der Ressortabstimmung.",
+            "<b>IG Metall:</b> Die Gewerkschaft beantragt ganztägige Warnstreiks in einzelnen Betrieben, heute entscheidet die Spitze.",
+            "<b>Razzien gegen „Kollektiv Zwickau“:</b> Durchsuchungen in Sachsen, Sachsen-Anhalt und Thüringen, ermittelt wird gegen 20 Beschuldigte aus dem linksextremen Milieu.",
+            "<b>Dax:</b> Plus 1,2 Prozent, knapp unter dem Rekordhoch.",
+            "<b>Mecklenburg-Vorpommern:</b> Schwesig soll am Montag wiedergewählt werden."
+          ],
+          "bewertung": "gesichert",
+          "orte": [],
+          "lang": ["Kurzmeldungen vom Mittwoch."],
+          "einschaetzung": "Alle Punkte aus dem ZDF-Newsticker.",
+          "quellen": [{"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Abu Dhabi: Gefangenenaustausch statt Durchbruch",
+          "kurz": "Nach zwei Tagen enden die direkten Gespräche ohne Einigung über Grenzen. Laut russischem Generalstab sollen binnen Wochen <b>mehr als 1.000 Gefangene</b> je Seite freikommen.",
+          "bewertung": "gesichert",
+          "orte": ["Abu Dhabi", "Moskau", "Dublin"],
+          "lang": [
+            "Russlands Chefunterhändler Medinski schloss einen Gebietstausch aus und kündigte an, die Pufferzone an der Grenze auszuweiten. Der Ukrainer Arachamija hält dennoch eine Lösung noch vor dem Jahreswechsel für möglich. US-Vermittler Kushner sprach von der bisher größten humanitären Freilassung.",
+            "Heute fliegen Kushner und Witkoff zu Putin nach Moskau und treffen danach Selenskyj in Dublin. Washington will die Europäer an den Tisch holen, Moskau lehnt das ab. Am Freitag tagen die EU-Staats- und Regierungschefs."
+          ],
+          "einschaetzung": "Ergebnis übereinstimmend berichtet; die genaue Zahl der Gefangenen soll erst heute festgelegt werden.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3447922/"},
+            {"name": "Tageblatt (dpa)", "url": "https://www.tageblatt.lu/International/Russland-und-Ukraine-einigen-sich-auf-Gefangenenaustausch-Gespraeche-bleiben-schwierig-114516.html"}
+          ]
+        },
+        {
+          "titel": "Spanien: Generalstreik gegen die Wohnungsnot",
+          "kurz": "Erstmals seit 14 Jahren legte ein ganztägiger Streik Teile des Landes lahm. In Barcelona eskalierte es am Abend, landesweit gab es <b>Dutzende Festnahmen</b>.",
+          "bewertung": "gesichert",
+          "orte": ["Puerta del Sol Madrid", "Barcelona"],
+          "lang": [
+            "In Madrid zählten die Behörden rund 120.000 Demonstrierende, die Mietervereine sprachen von 600.000. Auslöser war die Räumung einer 87-Jährigen im September, die kurz darauf im Krankenhaus starb. Spanien baut heute nur einen Bruchteil der Wohnungen aus Boomzeiten, die Zentralbank schätzt das Defizit auf rund 750.000.",
+            "Politisch ist es heikel: Am 29. November wird neu gewählt, Umfragen sehen die konservative PP und die rechte Vox vorn. Die Arbeitgeber nannten die Beteiligung am Streik minimal, die Gewerkschaften einen vollen Erfolg."
+          ],
+          "einschaetzung": "Streik und Ausschreitungen sicher belegt; Teilnehmer- und Festnahmezahlen gehen weit auseinander.",
+          "quellen": [
+            {"name": "boerse.de (dpa-AFX)", "url": "https://boerse.de/nachrichten/ROUNDUP-2-Massenproteste-gegen-Wohnkrise-kurz-vor-Neuwahl-in-Spanien/38716352"},
+            {"name": "SRF", "url": "https://srf.ch/news/international/wohnungsnot-in-spanien-generalstreik-legt-weite-teile-des-landes-lahm"}
+          ]
+        },
+        {
+          "titel": "Warschau: Präsident Nawrocki marschiert mit Nationalisten",
+          "kurz": "Am Unabhängigkeitstag führte Polens Präsident den umstrittenen Marsch an. Regierungschef <b>Tusk blieb fern</b> und rief zur Einheit auf.",
+          "bewertung": "plausibel",
+          "orte": ["Warschau"],
+          "lang": [
+            "Organisiert wird der Marsch von nationalistischen und rechtsextremen Gruppen. Nawrocki forderte einen starken Staat und griff Eliten an, die gegen den Volkswillen handelten. Zwischenfälle wurden zunächst nicht gemeldet.",
+            "Der Auftritt verschärft den Machtkampf zwischen Präsident und Regierung, der sich zuletzt am Streit um das Verfassungsgericht entzündet hatte."
+          ],
+          "einschaetzung": "Der Ablauf ist belegt, die Teilnehmerzahl nicht: Organisatoren nennen Hunderttausende, der ORF Zehntausende.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3447925/"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst in der Welt passiert ist.",
+          "liste": [
+            "<b>Gaza:</b> UN-Nothilfekoordinator Fletcher warnt, wegen blockierter Lieferungen fehle Winterhilfe, Menschen könnten erfrieren.",
+            "<b>Papst Leo XIV.</b> beendet seinen Argentinien-Besuch mit einer Messe in Luján und reist nach Peru weiter.",
+            "<b>Türkei:</b> Der Chef der Bankenaufsicht tritt nach einem Börsenskandal mit rund 455.000 betroffenen Anlegern zurück.",
+            "<b>Österreich:</b> Wien will Spionage auch gegen internationale Organisationen unter Strafe stellen."
+          ],
+          "bewertung": "gesichert",
+          "orte": [],
+          "lang": ["Kurzmeldungen vom Mittwoch."],
+          "einschaetzung": "Alle Punkte aus dem ZDF-Newsticker.",
+          "quellen": [{"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Hannover Scorpions fanden wir keine verlässlich datierten neuen Ergebnisse.",
+      "meldungen": [
+        {
+          "titel": "96 testet heute gegen Havelse, Wagner verteilt Spielzeit",
+          "kurz": "Anpfiff ist um <b>12 Uhr</b> im Eilenriedestadion, Karten kosten 5 bis 10 Euro, 96TV zeigt das Spiel live auf YouTube.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Eilenriedestadion", "suche": "Eilenriedestadion Hannover"}],
+          "lang": [
+            "Trainer Sandro Wagner gibt den Stammkräften frei und lässt Spieler mit wenig Einsatzzeit ran. Lars Gindorf könnte nach seiner Virusinfektion erstmals seit Anfang Oktober spielen, auch Maurice Neubauer soll nach Krankheit Minuten sammeln. Kapitän Thordarson ist mit Island unterwegs.",
+            "Gegner Havelse ist Tabellenletzter der 3. Liga mit zehn Punkten aus 13 Spielen. Abseits des Platzes sucht 96 weiter einen Sportdirektor."
+          ],
+          "einschaetzung": "Alle Angaben vom Verein selbst.",
+          "quellen": [{"name": "hannover96.de", "url": "https://www.hannover96.de/newscenter/news/details/new6af449e43da07921873278-im-96tv-livestream-oder-vor-ort-96-empfaengt-den-tsv-havelse-zum-test-in-der-laenderspielpause.html"}]
+        },
+        {
+          "titel": "Neuer 96-Sportdirektor aus Southampton?",
+          "kurz": "Laut Bild ist <b>Tim Lederer</b>, Chefscout beim FC Southampton, Kandidat für den Posten. Es wäre sein erster Job als Sportdirektor im Profifußball.",
+          "bewertung": "vorsicht",
+          "orte": ["Heinz-von-Heiden-Arena Hannover"],
+          "lang": [
+            "Nach dem Abgang von Geschäftsführer Boldt und Sportdirektor Becker ist der Posten offen. Lederer, 37, plante zuvor bei Hoffenheim die Nachwuchsteams, die U19 holte 2024 das Double.",
+            "Trainer Wagner soll bei der Auswahl eingebunden sein, das letzte Wort hat Martin Kind. Vom Verein gibt es keine Bestätigung."
+          ],
+          "einschaetzung": "Beruht auf einem kostenpflichtigen Bild-Bericht, den t-online weitergibt; offiziell ist nichts.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101523184/hannover-96-sucht-sportdirektor-kommt-tim-lederer-vom-fc-southampton-.html"}]
+        },
+        {
+          "titel": "Indians wollen gegen Herford Serie ausbauen",
+          "kurz": "Nach <b>fünf Siegen in Folge</b> empfangen die Indians am Freitag um <b>20 Uhr</b> die Herforder Ice Dragons am Pferdeturm.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Eisstadion am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}],
+          "lang": [
+            "Hannover steht mit 23 Punkten auf Platz fünf der Oberliga Nord, knapp vor den Hammer Eisbären. Das Hinspiel in Herford gewannen die Indians im Oktober 5:1.",
+            "Die Gäste kommen angeschlagen: Aus den letzten fünf Spielen holten sie nur drei Punkte, dazu fallen mehrere Spieler aus. Am Sonntag spielen die Indians in Tilburg."
+          ],
+          "einschaetzung": "Termin vom Verein, Tabellenstand aus Herforder Lokalpresse.",
+          "quellen": [
+            {"name": "Lippe-Kick", "url": "https://www.lippe-kick.de/2026/11/11/hev-kleines-derby-in-hannover-und-grosses-derby-gegen-hamm"},
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>Recken:</b> Nach der Pause geht es am Sonntag um <b>18 Uhr</b> in Gummersbach weiter, am 20. November kommt Stuttgart.",
+            "<b>Nationalteam:</b> Freitag um 20.45 Uhr Serbien gegen Deutschland, die Niederlande müssen am Montag ohne Virgil van Dijk antreten.",
+            "<b>Holstein Kiel:</b> Mitch Kniat folgt auf den freigestellten Tim Walter.",
+            "<b>Formel 1:</b> Norris gewann in Brasilien, Antonelli ist bereits Weltmeister. Weiter geht es am 22. November in Las Vegas.",
+            "<b>Eishockey:</b> Die deutschen Frauen stehen nach einem knappen Sieg gegen Tschechien im WM-Viertelfinale."
+          ],
+          "bewertung": "gesichert",
+          "orte": [],
+          "lang": ["Kurzmeldungen aus dem Sport."],
+          "einschaetzung": "Termine und Ergebnisse aus Vereins- und Sportschau-Angaben.",
+          "quellen": [
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "Sportschau (Kiel)", "url": "https://www.sportschau.de/regional/ndr/nach-walter-aus-holstein-kiel-holt-kniat-als-neuen-trainer,kiel-1020.html"},
+            {"name": "Sportschau (Niederlande)", "url": "https://www.sportschau.de/fussball/nationsleague/niederlande-ohne-van-dijk-gegen-deutschland,niederelande-van-dijk-100.html"},
+            {"name": "F1-Insider (WM-Stand)", "url": "https://f1-insider.com/formel-1-wm-stand-fahrer-teams-2026-90108/"},
+            {"name": "Sportschau (Eishockey)", "url": "https://www.sportschau.de/eishockey/wm/welcke-zwillinge-fuehren-deutschland-ins-wm-viertelfinale,deutschland-tschechien-spielbericht-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war für unsere Abfrage gesperrt, ebenso tagesschau.de und chip.de. Wir haben keine Umwege genutzt.",
+      "trends": [
+        {"begriff": "happy hotty", "volumen": "500+", "anlass": "TV-Wärmflasche jetzt bei Lidl"},
+        {"begriff": "mannheim news", "volumen": "200+", "anlass": "Polizeieinsatz in den Quadraten"},
+        {"begriff": "pep guardiola", "volumen": "200+", "anlass": "Gerüchte um US-Nationalteam"},
+        {"begriff": "mowky", "volumen": "200+", "anlass": "Influencerin äußert sich zu Streit"},
+        {"begriff": "ben white", "volumen": "200+", "anlass": "Arsenal-Profi fehlt bei England"},
+        {"begriff": "avengers doomsday", "volumen": "100+", "anlass": "Marvel-Serie leitet zum Film über"},
+        {"begriff": "vollmond november 2026", "volumen": "100+", "anlass": "Vollmond am 24. November"},
+        {"begriff": "lidl online", "volumen": "100+", "anlass": "Singles-Day-Rabatte am 11.11."}
+      ],
+      "meldungen": [
+        {
+          "titel": "Sonntag im Fernsehen, Montag im Regal: Lidl und „Die Millionenidee“",
+          "kurz": "Die neue Sat.1-Show mit Ralf Dümmel verkauft ihre Gewinnerprodukte direkt bei Lidl. Gesucht wird gerade vor allem die Wärmflasche <b>„Happy Hotty“</b> für 7,99 Euro.",
+          "bewertung": "plausibel",
+          "orte": [],
+          "lang": [
+            "Das Prinzip: Erfinder brauchen nur eine Idee, Dümmel und Lidl suchen die Sieger aus, die Produkte gehen nach der Sendung online und am Montag in über 3.000 Filialen. Auch eine Malerrolle aus Detmold hat es so ins Regal geschafft.",
+            "Die Premiere am 8. November sahen laut DWDL rund 0,85 Millionen Menschen, beim jüngeren Publikum blieb die Quote unter 5 Prozent."
+          ],
+          "einschaetzung": "Konzept und Quote gut belegt; der Preis stammt aus Handelsberichten und kann sich ändern.",
+          "quellen": [
+            {"name": "DWDL", "url": "https://www.dwdl.de/zahlenzentrale/108500/solider_start_fuer_duemmels_millionenidee_ebaychallenge_floppt/"},
+            {"name": "mobiflip", "url": "https://www.mobiflip.de/vom-fernsehen-ins-regal-lidl-startet-ungewoehnliches-konzept/"},
+            {"name": "Neue Westfälische", "url": "https://www.nw.de/lokal/kreis_lippe/uebersicht/24458843_Erfindung-Rollfix-aus-Detmold-gibt-es-jetzt-in-mehr-als-3.000-Lidl-Filialen.html"}
+          ]
+        },
+        {
+          "titel": "Großeinsatz in Mannheim: Mann verbarrikadiert sich",
+          "kurz": "Ein Mann in einem mutmaßlich <b>psychischen Ausnahmezustand</b> warf im Quadrat E7 Gegenstände auf die Straße. Er wurde festgenommen, die Sperrungen sind aufgehoben.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Quadrat E7 Mannheim", "suche": "E7 Mannheim"}],
+          "lang": [
+            "Polizei, Feuerwehr und Rettungsdienst rückten am Dienstag an, Straßenbahnen und Autos konnten zwischen den Quadraten D und E nicht fahren.",
+            "Die Polizei geht nach bisherigem Stand von einer psychischen Krise aus, nicht von einer gezielten Tat gegen andere. Ob jemand verletzt wurde, blieb offen."
+          ],
+          "einschaetzung": "Offizielle Polizeimeldung; zu Verletzten lagen keine Angaben vor.",
+          "quellen": [
+            {"name": "Polizei Mannheim", "url": "https://www.presseportal.de/blaulicht/pm/14915/6387763"},
+            {"name": "Die Rheinpfalz", "url": "https://www.rheinpfalz.de/lokal/ludwigshafen_artikel,-gro%C3%9Feinsatz-in-e7-ein-mann-festgenommen-_arid,5947096.html"}
+          ]
+        },
+        {
+          "titel": "Guardiola als US-Nationaltrainer? Bisher nur ein Gerücht",
+          "kurz": "Laut <b>The Athletic</b> wäre Pep Guardiola Wunschkandidat des US-Verbands, falls Mauricio Pochettino zu Manchester United geht.",
+          "bewertung": "vorsicht",
+          "orte": [],
+          "lang": [
+            "Pochettino hat noch einen Vertrag und bereitet die nächsten Spiele vor. Ob Guardiola überhaupt Interesse hat, ist offen, ein Start käme ohnehin frühestens Anfang 2027 infrage.",
+            "Bestätigt ist davon nichts, es ist eine Kette aus Wenns: Erst müsste Pochettino gehen, dann Guardiola zusagen."
+          ],
+          "einschaetzung": "Reine Medienberichte über Gerüchte, keine Stellungnahme der Beteiligten.",
+          "quellen": [{"name": "TUDN", "url": "https://www.tudn.com/futbol/josep-guardiola-es-el-objetivo-de-la-seleccion-de-estados-unidos-como-director-tecnico"}]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Gefangenenaustausch:</b> „Mehr als 1.000 pro Seite“ ist eine Angabe aus Moskau. Die genaue Zahl soll erst heute festgelegt werden.",
+    "<b>Spanien:</b> Die Zahlen gehen weit auseinander: 120.000 oder 600.000 Demonstrierende in Madrid, mindestens 23 oder 52 Festnahmen je nach Stand und Quelle.",
+    "<b>Warschau:</b> „Hunderttausende“ ist eine Angabe der Organisatoren, unabhängige Berichte sprechen von Zehntausenden.",
+    "<b>96-Sportdirektor:</b> Der Name Lederer stammt aus einem Bild-Bericht, der Verein hat nichts bestätigt."
+  ],
+  "woche": [
+    {"wann": "Do 12. Nov", "titel": "Wolken, 96 testet", "text": "Wechselnd bewölkt, meist trocken, <b>3 bis 7 Grad</b>, je nach Dienst auch etwas Regen möglich. <b>12 Uhr:</b> Hannover 96 gegen TSV Havelse im Eilenriedestadion. US-Vermittler bei Putin in Moskau. EuroTier läuft auf dem Messegelände."},
+    {"wann": "Fr 13. Nov", "titel": "Indians und Länderspiel", "text": "Sonne und Wolken, auffrischender Westwind, <b>3 bis 8 Grad</b>. Letzter EuroTier-Tag, EU-Gipfel in Brüssel. <b>20 Uhr:</b> Indians gegen Herford am Pferdeturm. <b>20.45 Uhr:</b> Serbien gegen Deutschland."},
+    {"wann": "Sa 14. bis Mi 18. Nov", "titel": "Recken, Gleidingen, S4-Pause", "text": "Samstag freundlich bei <b>2 bis 8 Grad</b>, Sonntag kühler, Montag wieder bis 9 Grad. <b>So 18 Uhr:</b> Recken in Gummersbach. <b>Mo 16.:</b> Vollsperrung in Gleidingen beginnt, Deutschland gegen die Niederlande. <b>Ab Mi 18.:</b> S4 Hannover–Hildesheim fällt eine Woche aus."}
+  ]
+}
