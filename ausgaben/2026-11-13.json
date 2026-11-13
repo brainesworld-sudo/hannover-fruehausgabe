@@ -1,0 +1,578 @@
+{
+ "stand": "Stand: Freitag, 13. November, 3 Uhr",
+ "kurz": [
+  "<b>Autoangriff in Empelde:</b> Ein Wagen fuhr Mittwochabend in eine Gruppe junger Männer, ein <b>20-Jähriger</b> schwebt in Lebensgefahr. Der 22-jährige Verdächtige stellte sich in Wuppertal, ermittelt wird wegen versuchten Totschlags.",
+  "<b>Putin bietet Mini-Feuerpause:</b> Für <b>Kostjantyniwka</b> schlägt er eine befristete Waffenruhe zur Evakuierung vor, bleibt aber bei seinen Gebietsforderungen. In Dublin verzichten die Europäer vorerst auf einen gemeinsamen Chefverhandler.",
+  "<b>Microsoft stundenlang gestört:</b> Outlook, Teams und Copilot fielen am Donnerstagabend weltweit teils <b>mehr als fünf Stunden</b> aus. Microsoft nennt überlastete Server als Ursache.",
+  "<b>Metaller vor Ganztagsstreiks:</b> Die IG Metall bereitet <b>24-Stunden-Warnstreiks</b> vor, auch in Niedersachsen. Arbeitgeber sprechen von Eskalation.",
+  "<b>Hannovers Kasse unter Druck:</b> Die Stadt rechnet 2026 mit rund <b>260 Millionen Euro</b> Defizit statt 90 Millionen und will den Kreditrahmen auf 1,2 Milliarden Euro erhöhen.",
+  "<b>96 schießt sich warm, DFB-Team muss liefern:</b> Testsieg mit <b>6:1</b> gegen Havelse, Hattrick von Tom Hobrecht. Heute <b>20.45 Uhr</b> spielt Deutschland in Belgrad gegen Serbien (RTL), ein Sieg ist Pflicht."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "meldungen": [
+    {
+     "titel": "Auto rast in Personengruppe: Mordkommission ermittelt in Empelde",
+     "kurz": "Am Mittwochabend gegen 22 Uhr fuhr ein SUV in Ronnenberg-Empelde in drei junge Männer. Ein <b>20-Jähriger</b> ist lebensgefährlich verletzt, der mutmaßliche Fahrer hat sich gestellt.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Am Sportpark, Empelde",
+       "suche": "Am Sportpark Ronnenberg Empelde"
+      }
+     ],
+     "lang": [
+      "Der Wagen erfasste die Gruppe in der Straße Am Sportpark mit hohem Tempo, der Fahrer flüchtete zunächst. Neben dem 20-Jährigen wurden zwei 19-Jährige verletzt, einer davon schwer. Am Donnerstagmorgen meldete sich ein 22-Jähriger bei der Polizei in Wuppertal, er wurde festgenommen, das Auto sichergestellt.",
+      "Die Ermittler gehen von Absicht aus und werten die Tat als versuchtes Tötungsdelikt. Ein Motiv ist offiziell nicht bekannt. Einen Zusammenhang mit dem Autoangriff in Neustadt am Rübenberge vor gut zwei Wochen sieht die Polizei nach jetzigem Stand nicht. Innenministerin Daniela Behrens (SPD) verurteilte die Tat scharf: Wer ein Auto als Waffe nutze, gehöre hinter Gitter."
+     ],
+     "einschaetzung": "Polizeiliche Angaben, von Radio Hannover und ZDFheute übereinstimmend berichtet; das Motiv ist offen.",
+     "quellen": [
+      {
+       "name": "Polizeidirektion Hannover (Presseportal)",
+       "url": "https://www.presseportal.de/blaulicht/nr/66841"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/nach-autoangriff-in-empelde-tatverdaechtiger-stellt-sich-polizei"
+      },
+      {
+       "name": "Radio Hannover (Behrens)",
+       "url": "https://www.radio-hannover.de/hannover-news/behrens-verurteilt-auto-attacke-von-empelde"
+      }
+     ]
+    },
+    {
+     "titel": "Stadt braucht mehr Kreditspielraum: Defizit fast dreimal so hoch wie geplant",
+     "kurz": "Hannover erwartet für dieses Jahr ein Minus von rund <b>260 Millionen Euro</b>, eingeplant waren 90 Millionen. Der Rat soll Ende November einen Nachtragshaushalt beschließen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Neues Rathaus",
+       "suche": "Neues Rathaus Hannover"
+      }
+     ],
+     "lang": [
+      "Die Verwaltung will den Rahmen für kurzfristige Kassenkredite um 215 Millionen auf insgesamt <b>1,2 Milliarden Euro</b> anheben. Damit soll die Stadt im kommenden Jahr laufende Rechnungen bezahlen können.",
+      "Als Gründe nennt die Stadt geringere Einnahmen sowie steigende Ausgaben für Personal und Sozialleistungen. Kassenkredite sind eine Art Dispo der Kommune, teuer und eigentlich nur für Engpässe gedacht."
+     ],
+     "einschaetzung": "Zahlen aus der Vorlage der Stadtverwaltung, berichtet von Radio Hannover.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/stadtverwaltung-legt-rat-einen-nachtragshaushalt-vor"
+      }
+     ]
+    },
+    {
+     "titel": "Aha weist Überwachungsvorwurf zurück",
+     "kurz": "Der Entsorger Aha bestreitet, Beschäftigte mit der Forensik-Software <b>Velociraptor</b> überwacht zu haben. Man habe auf wenigen Rechnern gezielt Spuren gesucht.",
+     "bewertung": "plausibel",
+     "lang": [
+      "Hintergrund ist ein Angriff von innen auf die IT des Unternehmens, bei dem Daten unbefugt gelöscht oder verändert wurden. Zusätzlich steht ein strafrechtlicher Verdacht im Raum, der ebenfalls über die Firmenrechner aufgeklärt werden soll.",
+      "Laut Aha wurde ein Mitglied des Personalrats in den eingesetzten Krisenstab gewählt, Gespräche mit der Belegschaft laufen. Wie weit die Untersuchung reichte, lässt sich von außen nicht prüfen."
+     ],
+     "einschaetzung": "Es spricht bisher nur das Unternehmen selbst; eine unabhängige Bewertung fehlt.",
+     "quellen": [
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/aha-haben-keine-mitarbeiter-ueberwacht"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Stadt und Region.",
+     "liste": [
+      "<b>Talanx:</b> Der Hannoveraner Versicherungskonzern (HDI) erwartet 2026 mehr als <b>2,8 Milliarden Euro</b> Gewinn und peilt für 2027 erstmals über 3 Milliarden an.",
+      "<b>Isernhagen:</b> Die Gemeinde zahlt künftig bis zu <b>6 Euro</b> Zuschuss pro nächtlicher Taxifahrt im Gemeindegebiet, auch für Fahrdienste. Antrag online binnen drei Tagen mit Beleg.",
+      "<b>Strompreis:</b> Ministerpräsident Olaf Lies will bei den Netzentgelten ansetzen, um Strom billiger zu machen.",
+      "<b>96-Laternenumzug:</b> Rund <b>4.000 Menschen</b> zogen für den guten Zweck ums Stadion."
+     ],
+     "bewertung": "gesichert",
+     "lang": [
+      "Kurzmeldungen aus Radio Hannover und vom Verein, jeweils vom 12. November."
+     ],
+     "einschaetzung": "Unternehmens-, Gemeinde- und Vereinsangaben.",
+     "quellen": [
+      {
+       "name": "Radio Hannover (Talanx)",
+       "url": "https://www.radio-hannover.de/hannover-news/versicherer-talanx-schraubt-gewinn-hoch"
+      },
+      {
+       "name": "Radio Hannover (Isernhagen)",
+       "url": "https://www.radio-hannover.de/hannover-news/gemeinde-isernhagen-fuehrt-nachttaxi-zuschuss-ein"
+      },
+      {
+       "name": "Radio Hannover (Lies)",
+       "url": "https://www.radio-hannover.de/hannover-news/lies-fuer-guenstigeren-strompreis-bei-den-netzentgelten-ansetzen"
+      },
+      {
+       "name": "Hannover 96",
+       "url": "https://www.hannover96.de/newscenter/news/details/new6af4a4a9544c2866548661-rund-ums-stadion-4000-menschen-kommen-zum-grossen-96-laternenumzug-fuer-den-guten-zweck.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "IG Metall rüstet zum Ganztagsstreik, auch in Niedersachsen",
+     "kurz": "Die Gewerkschaft will in der Metall- und Elektroindustrie <b>24 Stunden</b> am Stück streiken lassen, erstmals seit 2018. Gefordert sind 5 Prozent mehr Lohn.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Die regionalen Tarifkommissionen haben einstimmig zugestimmt, der Vorstand sollte am Donnerstag entscheiden. Betroffen wären hunderte Betriebe, in Niedersachsen und Sachsen-Anhalt zusammen etwa 140.000 Beschäftigte im Tarifgebiet. Volkswagen hat einen eigenen Haustarif, dort beginnen die Gespräche am 24. November.",
+      "Die Arbeitgeber bieten bundesweit eine Einmalzahlung von 1 Prozent des Jahresbruttos und eine Erhöhung um 1,3 Prozent. NiedersachsenMetall nennt die Streikpläne eine völlig unangemessene Eskalation in einer Zeit, in der viele Zulieferer um Aufträge kämpfen."
+     ],
+     "einschaetzung": "Gewerkschafts- und Verbandsangaben, von dpa und ZDFheute bestätigt; konkrete Streiktage standen zuletzt noch nicht fest.",
+     "quellen": [
+      {
+       "name": "t-online Hannover (dpa)",
+       "url": "https://hannover.t-online.de/region/hannover/id_101524950/streiks-in-niedersachsen-ig-metall-droht-mit-24-stunden-ausstand.html"
+      },
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Radio Hannover",
+       "url": "https://www.radio-hannover.de/hannover-news/arbeitgeber-der-metall-und-elektroindustrie-kritisieren-geplanten-24-stunden-streik"
+      }
+     ]
+    },
+    {
+     "titel": "Bundestag beschließt Entwicklungstests für Vierjährige",
+     "kurz": "Kita-Kinder sollen bundesweit mit <b>vier Jahren</b> auf Sprache und Entwicklung getestet und bei Bedarf vor der Einschulung gefördert werden. Die Länder drohen mit dem Vermittlungsausschuss.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Reichstagsgebäude",
+       "suche": "Reichstagsgebäude Berlin"
+      }
+     ],
+     "lang": [
+      "Das Gesetz legt erstmals verbindliche bundesweite Qualitätsstandards für Kitas fest. Getestet werden neben Sprache auch erste Mathe-Fähigkeiten und Selbstregulation. Der Bund gibt dafür bis 2034 rund <b>neun Milliarden Euro</b>.",
+      "Pro Jahr ist das weniger als die zuletzt gezahlten zwei Milliarden für Kita-Qualität. Länder, Grüne, Linke und Sozialverbände halten das für zu wenig. Weil der Bundesrat zustimmen muss, dürfte das Gesetz noch nachverhandelt werden."
+     ],
+     "einschaetzung": "Bundestagsbeschluss, von ZDFheute ausführlich dargestellt.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/politik/deutschland/startchancengesetz-kita-bundestag-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Schuldneratlas: 7,36 Millionen Erwachsene überschuldet",
+     "kurz": "Laut Creditreform sind <b>10,58 Prozent</b> der Erwachsenen überschuldet, rund 293.000 mehr als im Vorjahr. Am schnellsten wächst die Gruppe unter 30.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Der Großteil des Anstiegs geht auf frühe Zahlungsprobleme zurück, also Mahnungen und Inkasso. Creditreform nennt Lebenshaltungs-, Energie- und Wohnkosten sowie einen schwächeren Arbeitsmarkt als Treiber. Am höchsten ist die Quote in Bremen, am niedrigsten in Bayern.",
+      "Wichtig: Die Studie nutzt eine neue Datenbasis. Vorjahreswerte wurden umgerechnet, ein direkter Vergleich mit älteren Ausgaben ist daher nur eingeschränkt möglich."
+     ],
+     "einschaetzung": "Originalzahlen der Herausgeberin, mehrfach von dpa übernommen.",
+     "quellen": [
+      {
+       "name": "Creditreform",
+       "url": "https://www.creditreform.de/aktuelles-wissen/pressemeldungen-fachbeitraege/news-details/show/schuldneratlas-2026-ueberschuldung-steigt-auf-736-millionen-betroffene"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus Deutschland.",
+     "liste": [
+      "<b>Dax-Rekord:</b> Der Leitindex sprang zeitweise erstmals über <b>27.000 Punkte</b>, getrieben von Friedenshoffnungen im Iran-Konflikt und sinkendem Ölpreis.",
+      "<b>Bünde:</b> Eine Explosion zerstörte ein Wohnhaus bei Bielefeld, vier Menschen kamen ins Krankenhaus. Möglicherweise war eine Gasflasche die Ursache.",
+      "<b>Radio:</b> HR, SWR und SR senden ab 4. Januar werktags von 9 bis 16 Uhr ein gemeinsames Inforadio.",
+      "<b>Stromsteuer:</b> Die Grünen werfen Kanzler Merz vor, die versprochene Senkung für alle nicht umzusetzen."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Bünde",
+       "suche": "Bünde Westfalen"
+      }
+     ],
+     "lang": [
+      "Meldungen aus dem ZDFheute-Ticker vom 12. November."
+     ],
+     "einschaetzung": "Agenturmeldungen, Ursache in Bünde noch vorläufig.",
+     "quellen": [
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "Putin schlägt Feuerpause für Kostjantyniwka vor, Europa ringt um seine Rolle",
+     "kurz": "Nach einem Treffen mit den US-Gesandten Witkoff und Kushner bietet Putin eine <b>befristete Waffenruhe</b> für die Donbass-Stadt an, um Zivilisten herauszuholen. An seinen Gebietsforderungen hält er fest.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Kostjantyniwka",
+       "suche": "Kostjantyniwka Ukraine"
+      },
+      {
+       "name": "Dublin",
+       "suche": "Dublin Irland"
+      }
+     ],
+     "lang": [
+      "Russland will nach eigenen Worten fünf Tage Ruhe, um das Gebiet zu entminen, und internationale Medien zuschauen lassen. Kiew ist skeptisch: Bei der ähnlichen Pause in Oleschky im Oktober habe Russland Soldaten und Waffen nachgeschoben. Wer die Stadt tatsächlich kontrolliert, ist umstritten, beide Seiten beanspruchen sie.",
+      "Beim Gipfel der Europäischen Politischen Gemeinschaft in Dublin einigten sich rund 40 Staats- und Regierungschefs nicht auf einen gemeinsamen Ukraine-Unterhändler. Vorerst sollen Deutschland, Frankreich und Großbritannien die Gespräche mit den USA führen. Heute treffen sich die EU-Chefs in Dublin noch einmal informell."
+     ],
+     "einschaetzung": "Mehrere Agenturberichte stimmen überein; Putins Angaben zur Lage vor Ort sind nicht unabhängig prüfbar.",
+     "quellen": [
+      {
+       "name": "t-online (dpa)",
+       "url": "https://www.t-online.de/nachrichten/ukraine/id_101526262/putin-schlaegt-waffenruhe-fuer-kostjantyniwka-vor-vorbild-oleschky.html"
+      },
+      {
+       "name": "Handelsblatt",
+       "url": "https://www.handelsblatt.com/politik/international/gipfel-in-dublin-europaeer-benennen-vorerst-keinen-ukraine-chefverhandler/100269283.html"
+      },
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Hormus: Iran meldet erneut Explosionen an Supertankern",
+     "kurz": "Die Revolutionsgarden berichten den dritten Tag in Folge von Detonationen, diesmal an <b>zwei Supertankern</b> mit zusammen über vier Millionen Barrel Öl. Unabhängig bestätigt ist das nicht.",
+     "bewertung": "vorsicht",
+     "orte": [
+      {
+       "name": "Straße von Hormus",
+       "suche": "Straße von Hormus"
+      }
+     ],
+     "lang": [
+      "Nach iranischer Darstellung sollen die Schiffe auf einer nicht genehmigten Route auf Seeminen gelaufen sein. Seit Sonntag seien zehn Schiffe betroffen. Namen der Tanker nannte Teheran nicht.",
+      "Die Meldungen passen schlecht zu den Friedenshoffnungen, die gleichzeitig die Börsen beflügeln. Seit Kriegsbeginn im Februar ist die Meerenge ein Druckmittel Irans, die US-Marine eskortiert Handelsschiffe."
+     ],
+     "einschaetzung": "Einzige Quelle sind die Revolutionsgarden, also eine Kriegspartei.",
+     "quellen": [
+      {
+       "name": "t-online (dpa)",
+       "url": "https://www.t-online.de/nachrichten/ausland/krisen/id_101526308/strasse-von-hormus-supertanker-brennen-laut-revolutionsgarden-nahost.html"
+      },
+      {
+       "name": "onvista (dpa-AFX)",
+       "url": "https://www.onvista.de/news/2026/11-12-iran-meldet-explosionen-an-zwei-supertankern-0-10-26575553"
+      }
+     ]
+    },
+    {
+     "titel": "Indonesiens Vizepräsident tritt im Streit um Schulabschluss zurück",
+     "kurz": "Gibran Rakabuming Raka, Sohn des früheren Präsidenten Joko Widodo, gibt sein Amt auf. Gerichte hatten seine <b>Bildungsnachweise</b> als unzureichend für die Kandidatur gewertet.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Jakarta",
+       "suche": "Jakarta Indonesien"
+      }
+     ],
+     "lang": [
+      "Präsident Prabowo Subianto nahm den Rücktritt nach eigenen Worten schweren Herzens an. Eine Neuwahl gibt es nicht: Die Beratende Volksversammlung wählt binnen 60 Tagen einen Nachfolger aus zwei Kandidaten, die der Präsident vorschlägt.",
+      "Das Land steckt ohnehin in einer Krise mit Protesten gegen Wirtschaftsnot, Korruption und den Umgang mit Waldbränden. Der ZDFheute-Ticker meldete zudem ein Rücktrittsschreiben Prabowos beim Parlament; internationale Medien berichten davon bislang nichts."
+     ],
+     "einschaetzung": "Gibrans Rücktritt ist mehrfach belegt, die Angabe zu Prabowo nicht.",
+     "quellen": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+      },
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "liste": [
+      "<b>Kiew:</b> Russland griff die Hauptstadt nachts mit Raketen und Drohnen an, eine Frau starb, fünf Menschen wurden verletzt.",
+      "<b>COP31:</b> Greta Thunberg warf Regierungen und Konzernen auf der Klimakonferenz in der Türkei Realitätsverlust vor.",
+      "<b>Arlington:</b> Ein Wachsoldat mahnte eine Gruppe um US-Verteidigungsminister Hegseth am Grab des unbekannten Soldaten zur Ruhe, nachdem dort laut gelacht wurde.",
+      "<b>Starshield:</b> Laut Selenskyj ist das US-Satelliteninternet erneut gedrosselt, was die Abwehr schneller Drohnen erschwert."
+     ],
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Kiew",
+       "suche": "Kiew Ukraine"
+      }
+     ],
+     "lang": [
+      "Meldungen aus dem ZDFheute-Ticker vom 12. November; die Starshield-Angabe stammt allein von der ukrainischen Seite."
+     ],
+     "einschaetzung": "Agenturmeldungen, teils mit Angaben nur einer Seite.",
+     "quellen": [
+      {
+       "name": "ZDFheute Ticker",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "hinweis": "Die Seiten der Hannover Scorpions waren heute nicht abrufbar.",
+   "meldungen": [
+    {
+     "titel": "Hobrecht-Hattrick: 96 fegt Havelse mit 6:1 weg",
+     "kurz": "Im Test im Eilenriedestadion traf Nachwuchsmann <b>Tom Hobrecht</b> dreimal vor der Pause. Lars Gindorf gab nach rund sechs Wochen sein Comeback und legte das 6:1 auf.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Eilenriedestadion",
+       "suche": "Eilenriedestadion Hannover"
+      }
+     ],
+     "lang": [
+      "Vor 550 Zuschauern trafen außerdem Franz Roggow, Kevin Ahlberg und Kolja Oudenne, für den Drittligisten verkürzte Robin Müller. Trainer Sandro Wagner nutzte die Länderspielpause, um Spielern mit wenig Einsatzzeit Praxis zu geben, und lobte die mutigen Auftritte der Talente.",
+      "Jetzt gibt es drei freie Tage, dann geht der Blick auf Greuther Fürth: am <b>Samstag, 21. November, 13 Uhr</b> in der Heinz-von-Heiden-Arena. Parallel sucht 96 einen neuen Sportdirektor; laut Bild ist Southamptons Chefscout Tim Lederer ein Kandidat."
+     ],
+     "einschaetzung": "Spielbericht des Vereins; die Personalie Lederer beruht nur auf einem Medienbericht.",
+     "quellen": [
+      {
+       "name": "Hannover 96",
+       "url": "https://www.hannover96.de/newscenter/news/details/37704-hobrecht-hattrick-bei-gindorf-comeback-hannover-96-gewinnt-testspiel-gegen-den-tsv-havelse-mit-61.html"
+      },
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101523184/hannover-96-sucht-sportdirektor-kommt-tim-lederer-vom-fc-southampton-.html"
+      }
+     ]
+    },
+    {
+     "titel": "Endspiel in Belgrad: Klopps Elf muss gegen Serbien gewinnen",
+     "kurz": "Heute um <b>20.45 Uhr</b> spielt Deutschland in der Nations League bei Serbien. Mit 5 Punkten liegt das Team drei Zähler hinter den Niederlanden und Griechenland.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Stadion Rajko Mitić",
+       "suche": "Stadion Rajko Mitić Belgrad"
+      }
+     ],
+     "lang": [
+      "Serbien ist nach vier Niederlagen punktlos, ohne Sieg rückt das Viertelfinale für Deutschland aber in weite Ferne. Laut DAZN findet die Partie wegen einer UEFA-Strafe gegen den serbischen Verband ohne Zuschauer statt. Adeyemi und Bisseck fehlen, Waldemar Anton sagte verletzt ab, der 17-jährige Wael Mohya ist erstmals dabei.",
+      "RTL überträgt frei empfangbar. Am Montag folgt das Gruppenfinale gegen die Niederlande im Berliner Olympiastadion."
+     ],
+     "einschaetzung": "Termin und Tabelle gesichert; Geisterspiel und Personallage nur aus je einer Vorberichtsquelle.",
+     "quellen": [
+      {
+       "name": "DAZN",
+       "url": "https://www.dazn.com/de-DE/news/fussball/dfb-team-kader-aufstellung-personal-gegen-serbien-nations-league/iui6cmc8sy1o109o8tji18ybd"
+      },
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/sport/fussball/nationalmannschaft-deutschland/id_101520210/nations-league-live-wann-und-wo-serbien-gegen-deutschland-im-tv-laeuft.html"
+      }
+     ]
+    },
+    {
+     "titel": "Manchester United feuert Carrick, Pochettino soll kommen",
+     "kurz": "Nach nur einem Sieg aus zehn Ligaspielen ist der Klub auf <b>Platz 18</b> abgerutscht. Als Nachfolger gilt US-Nationaltrainer Mauricio Pochettino.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Old Trafford",
+       "suche": "Old Trafford Manchester"
+      }
+     ],
+     "lang": [
+      "Die Trennung von Michael Carrick ist offiziell, United steckt im schlechtesten Saisonstart seit Jahrzehnten. Pochettino soll sich laut The Athletic mit dem Klub einig sein, die Gespräche mit dem US-Verband laufen noch.",
+      "Kompliziert wird es durch den Kalender: Die USA spielen am 14. und 18. November noch gegen Haiti, und Pochettinos Vertrag läuft eigentlich bis zur WM 2030."
+     ],
+     "einschaetzung": "Entlassung bestätigt, der Nachfolger bisher nur berichtet.",
+     "quellen": [
+      {
+       "name": "Sportschau",
+       "url": "https://www.sportschau.de/fussball/premier-league/manunited-entlaesst-carrick-und-will-pochettino,manchester-united-pochettino-carrick-100.html"
+      },
+      {
+       "name": "t-online",
+       "url": "https://t-online.de/sport/fussball/international/id_101525416/england-manchester-united-trennt-sich-von-trainer-michael-carrick.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Sportmeldungen.",
+     "liste": [
+      "<b>Indians:</b> Nach fünf Siegen in Folge heute <b>20 Uhr</b> gegen die Herforder Ice Dragons am Pferdeturm, Sonntag <b>15 Uhr</b> beim Tabellenführer Tilburg.",
+      "<b>Recken:</b> Sonntag <b>18 Uhr</b> in Gummersbach, am 20. November kommt Stuttgart.",
+      "<b>Formel 1:</b> Nächste Station ist Las Vegas, das Rennen startet in der Nacht auf Sonntag, <b>22. November</b> (5 Uhr deutscher Zeit).",
+      "<b>Darts:</b> In der Super League in Hildesheim geht es um Tickets für die WM."
+     ],
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Eisstadion am Pferdeturm",
+       "suche": "Eisstadion am Pferdeturm Hannover"
+      }
+     ],
+     "lang": [
+      "Termine von den Vereinsseiten und vom F1-Zeitplan."
+     ],
+     "einschaetzung": "Vereins- und Veranstalterangaben.",
+     "quellen": [
+      {
+       "name": "Hannover Indians",
+       "url": "https://www.hannover-indians.de/"
+      },
+      {
+       "name": "Die Recken",
+       "url": "https://www.die-recken.de/spielplan/"
+      },
+      {
+       "name": "Formula 1",
+       "url": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+   "trends": [
+    {
+     "begriff": "microsoft störung outlook",
+     "volumen": "5.000+",
+     "anlass": "Weltweiter Ausfall bei Microsoft 365"
+    },
+    {
+     "begriff": "chris tall catch us",
+     "volumen": "2.000+",
+     "anlass": "Finale der ProSieben-Jagdshow"
+    },
+    {
+     "begriff": "bornheim",
+     "volumen": "2.000+",
+     "anlass": "Festnahme nach tödlicher Unfallflucht"
+    },
+    {
+     "begriff": "stefan raab",
+     "volumen": "1.000+",
+     "anlass": "Regina Halmich stellt Biografie vor"
+    },
+    {
+     "begriff": "geld",
+     "volumen": "1.000+",
+     "anlass": "Debatte über teures Leben mit 30"
+    },
+    {
+     "begriff": "vw",
+     "volumen": "500+",
+     "anlass": "Studie: 12 Euro Gewinn pro Auto"
+    },
+    {
+     "begriff": "super league darts",
+     "volumen": "500+",
+     "anlass": "WM-Tickets in Hildesheim"
+    },
+    {
+     "begriff": "o2",
+     "volumen": "100+",
+     "anlass": "Schwache Quartalszahlen"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "Outlook und Teams down: Microsoft-Cloud stundenlang gestört",
+     "kurz": "Am Donnerstagabend fielen Outlook, Teams und Copilot weltweit aus, in der Spitze gab es rund <b>130.000 Störungsmeldungen</b> allein bei Outlook. Die Probleme dauerten über fünf Stunden.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Laut Microsoft waren mehrere Server unerwartet nicht verfügbar und ein Teil der Infrastruktur überlastet, und das ausdrücklich nicht wegen mehr Datenverkehrs. Deskmodder berichtet, ausgelöst habe das offenbar ein Fehler bei automatisierten Systemprüfungen. Microsoft leitete den Verkehr um, abends erholten sich die Dienste schrittweise.",
+      "Betroffen waren auch Schnittstellen zu KI-Diensten. In den USA warnten Schulen und Kliniken vor eingeschränkter Kommunikation. Wer heute früh noch hängende Mails hat: Abwarten und Outlook neu starten hilft meist."
+     ],
+     "einschaetzung": "Microsoft bestätigt den Ausfall; die genaue Ursache ist noch nicht abschließend erklärt.",
+     "quellen": [
+      {
+       "name": "Handelsblatt",
+       "url": "https://www.handelsblatt.com/technik/it-internet/stoerung-stundenlanger-ausfall-bei-microsoft-beeintraechtigt-outlook-und-teams/100269552.html"
+      },
+      {
+       "name": "Deskmodder",
+       "url": "https://www.deskmodder.de/blog/2026/11/13/microsoft-365-weltweite-stoerungen-bei-outlook-teams-und-copilot/"
+      }
+     ]
+    },
+    {
+     "titel": "Zwölf Euro pro Auto: Studie zeigt VWs Gewinnflaute",
+     "kurz": "Laut Center of Automotive Management blieben Volkswagen zuletzt nur rund <b>12 Euro</b> Gewinn je verkauftem Auto. Mercedes kommt auf 4.198 Euro.",
+     "bewertung": "plausibel",
+     "lang": [
+      "Hauptgrund sind Sonderbelastungen von 8,7 Milliarden Euro. Die Studienautoren sagen selbst, die Null-Marge zeichne ein zu düsteres Bild, bereinigt liege VW bei 3,8 Prozent Rendite. Der Branchenschnitt sank auf 1.363 Euro pro Auto.",
+      "Für Niedersachsen ist das mehr als eine Zahl: VW verhandelt ab 24. November über den Haustarif, und die Zahl dürfte in beiden Lagern als Argument auftauchen."
+     ],
+     "einschaetzung": "Seriöses Institut, aber eine Momentaufnahme mit Sondereffekten; kein Wert aus VWs eigener Rechnung.",
+     "quellen": [
+      {
+       "name": "Tagesspiegel (Reuters)",
+       "url": "https://www.tagesspiegel.de/wirtschaft/reuters-wegen-sonderbelastungen-in-hohe-von-87-milliarden-euro-vw-verdient-nur-noch-zwolf-euro-pro-verkauftem-auto-16278609.html"
+      },
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101526386/vw-krise-volkswagen-verdient-offenbar-nur-noch-zwoelf-euro-pro-auto.html"
+      }
+     ]
+    },
+    {
+     "titel": "O2 schrumpft weiter und streicht jeden sechsten Job",
+     "kurz": "Telefónica Deutschland meldet für das dritte Quartal <b>2,9 Prozent</b> weniger Umsatz und knapp 10 Prozent weniger operativen Gewinn. Rund 1.100 Stellen fallen dieses Jahr weg.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Immerhin gewann O2 49.000 Vertragskunden im Mobilfunk, mehr als Vodafone, aber weit weniger als die Telekom. Belastet wird das Geschäft noch immer vom Wechsel des Großkunden 1&1 ins Vodafone-Netz.",
+      "Weitere 60 Shops schließen, im kommenden Jahr soll auch im Kundenservice gespart werden. Profitabel wachsen will O2 erst wieder im Lauf von 2027, unter anderem mit neuen Netzpartnern."
+     ],
+     "einschaetzung": "Offizielle Quartalszahlen, von Fachpresse übereinstimmend berichtet.",
+     "quellen": [
+      {
+       "name": "teltarif",
+       "url": "https://www.teltarif.de/quartalszahlen-o2-telefonica-mobilfunk/news/107565.html"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Korrektur:</b> Gestern hieß es zu Empelde, ein Mann sei schwer verletzt und der Fahrer flüchtig. Inzwischen ist klar: Ein 20-Jähriger schwebt in Lebensgefahr, der Verdächtige hat sich gestellt. Das EU-Treffen am Freitag findet zudem in <b>Dublin</b> statt, nicht in Brüssel.",
+  "<b>Kimmich gegen Serbien:</b> Manche Vorberichte planen ohne ihn, DAZN sieht ihn in der Startelf. Erst die Aufstellung am Abend klärt das.",
+  "<b>Hormus:</b> Die Explosionsmeldungen stammen ausschließlich von den Revolutionsgarden, weder Reedereien noch Schiffsnamen sind bekannt.",
+  "<b>Indonesien:</b> Der Rücktritt des Vizepräsidenten ist sicher. Ein Rücktrittsschreiben von Präsident Prabowo meldet nur ein Ticker, internationale Berichte zeigen ihn weiter im Amt.",
+  "<b>Empelde:</b> Ein Motiv ist nicht bekannt. Gerüchte über Verbindungen zu anderen Taten weist die Polizei bisher zurück."
+ ],
+ "woche": [
+  {
+   "wann": "Fr 13. Nov",
+   "titel": "Länderspiel und Eishockey",
+   "text": "Wolken mit Sonne, meist trocken, <b>3 bis 9 Grad</b>, frischer Westwind mit Böen. EuroTier endet auf dem Messegelände. <b>20 Uhr:</b> Indians gegen Herford am Pferdeturm. <b>20.45 Uhr:</b> Serbien gegen Deutschland (RTL). EU-Chefs beraten in Dublin über die Ukraine."
+  },
+  {
+   "wann": "Sa 14. Nov",
+   "titel": "Sonnigster Tag",
+   "text": "Rund <b>6 Stunden Sonne</b>, trocken, <b>1 bis 9 Grad</b>, morgens frisch. Bundesliga und 2. Liga pausieren wegen der Länderspiele."
+  },
+  {
+   "wann": "So 15. bis Do 19. Nov",
+   "titel": "Recken, Oranje, Las Vegas",
+   "text": "Sonntag bis <b>10 Grad</b>, ab dem Abend Regen, der in den Montag reicht; danach wechselhaft um 9 bis 10 Grad. <b>So 15 Uhr:</b> Indians in Tilburg, <b>So 18 Uhr:</b> Recken in Gummersbach. <b>Mo 16.:</b> Deutschland gegen die Niederlande in Berlin. <b>Do 19.:</b> Erstes Training in Las Vegas. Vorschau: 96 empfängt Fürth am <b>Sa 21. um 13 Uhr</b>."
+  }
+ ]
+}
