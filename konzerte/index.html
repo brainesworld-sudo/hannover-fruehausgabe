@@ -4,72 +4,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Konzert-Radar – Metal & Rock rund um Hannover</title>
-<meta name="description" content="Tägliches Konzert-Radar für Metal, Rock, Punk und Hardcore in Hannover und bis rund 300 km Umkreis – neue Termine, Tourankündigungen, Vorverkaufsstarts und ein 14-Tage-Kalender.">
+<meta name="description" content="Tägliches Konzert-Radar: neue Metal-, Rock- und Punk-Termine in Hannover und im Umkreis von rund 300 Kilometern.">
 <link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/">
 <style>
-:root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#2a2622;--muted:#6f675d;--line:#e4dccd;--red:#9b1c1c;--petrol:#0f6b72;--ocker:#a8741a;--violet:#6b3fa0;--green:#2f7a45;--warn:#b4441f;--slate:#3c4a5c}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#181614;--paper:#221f1c;--ink:#ece6dc;--muted:#a69d90;--line:#3a352f;--red:#e06a6a;--petrol:#4fb3ba;--ocker:#e0aa4a;--violet:#b48ee6;--green:#6cc58a;--warn:#f08a5d;--slate:#9fb2c8}}
-:root[data-theme="dark"]{--bg:#181614;--paper:#221f1c;--ink:#ece6dc;--muted:#a69d90;--line:#3a352f;--red:#e06a6a;--petrol:#4fb3ba;--ocker:#e0aa4a;--violet:#b48ee6;--green:#6cc58a;--warn:#f08a5d;--slate:#9fb2c8}
+:root{--bg:#f7f3ec;--paper:#fffdf9;--ink:#211d18;--muted:#6f665b;--line:#e6ddcf;--red:#9b1c1c;--petrol:#0f6b72;--ocker:#a8730f;--violet:#6a3fa0;--green:#2f7a3e;--warn:#b4441c;--c:var(--red)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17150f;--paper:#211e17;--ink:#ede6da;--muted:#a89e90;--line:#3a352b;--red:#e06a5e;--petrol:#4fb3ba;--ocker:#e0aa45;--violet:#b18ae6;--green:#6cc47c;--warn:#f08a5d}}
+:root[data-theme="dark"]{--bg:#17150f;--paper:#211e17;--ink:#ede6da;--muted:#a89e90;--line:#3a352b;--red:#e06a5e;--petrol:#4fb3ba;--ocker:#e0aa45;--violet:#b18ae6;--green:#6cc47c;--warn:#f08a5d}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style",Georgia,"Times New Roman",serif;-webkit-text-size-adjust:100%}
-.wrap{max-width:980px;margin:0 auto;padding:28px 16px 40px}
-a{color:var(--c,var(--petrol))}
-header .eyebrow{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
-h1{font-size:44px;line-height:1.05;margin:4px 0 6px;letter-spacing:-.01em}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:980px;margin:0 auto;padding:28px 16px 48px}
+a{color:var(--c)}
+.eyebrow,.sec h2,.chip,.meta,.dh,.tag,.box h3,footer{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+header h1{font-size:44px;line-height:1.05;margin:4px 0 6px;letter-spacing:-.01em}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:700}
 .date{font:600 14px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;text-decoration:none;color:var(--green)}
-.lead{margin:12px 0 0;color:var(--muted);font-size:16px}
-.core{background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--ink);border-radius:12px;padding:16px 18px;margin:24px 0}
-.core h2,.box h2{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px}
-.core ul{margin:0;padding-left:20px}.core li{margin:5px 0}
-section{margin:34px 0}
-.sec{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--green);text-decoration:none}
+.box{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:14px 18px;margin:22px 0}
+.box h3{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--c)}
+.box ul{margin:0;padding-left:18px}.box li{margin:4px 0}
+.core{--c:var(--ink)}
+section{margin-top:34px}
+.sec{display:flex;align-items:center;gap:10px;margin-bottom:12px}
 .pill{font:800 12px "Helvetica Neue",Helvetica,Arial,sans-serif;background:var(--c);color:var(--paper);border-radius:999px;padding:3px 10px;letter-spacing:.06em}
-.sec h2{margin:0;font-size:24px}
-.s-new{--c:var(--red)}.s-fest{--c:var(--petrol)}.s-rem{--c:var(--ocker)}.s-tip{--c:var(--violet)}
+.sec h2{margin:0;font-size:20px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media(max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:36px}}
 .card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:14px 16px}
 .card h3{margin:0 0 4px;font-size:20px;line-height:1.2}
-.card h3 small{font-weight:400;color:var(--muted);font-size:15px}
-.meta{font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0 0 8px}
+.meta{font-size:13px;color:var(--muted);margin:0 0 8px}
 .card p{margin:6px 0}
-.chip{display:inline-block;font:800 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--c);border:1.5px solid var(--c);border-radius:6px;padding:1px 6px;margin-bottom:6px}
+.chip{display:inline-block;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--c);color:var(--c);border-radius:6px;padding:1px 7px;margin-bottom:6px}
 details{margin-top:8px}
 summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}
-details p{font-size:15.5px}
 .src{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-.src a{color:var(--muted)}
+.src a{color:var(--c)}
 .sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
 .bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
-.box{border-radius:12px;padding:16px 18px;margin:30px 0;border:1px solid var(--line);background:var(--paper)}
-.tip{border-left:5px solid var(--violet)}.tip h2{color:var(--violet)}
-.warn{border-left:5px solid var(--warn)}.warn h2{color:var(--warn)}
-.warn ul{margin:0;padding-left:20px}.warn li{margin:6px 0}
-.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}@media(max-width:640px){.day{grid-template-columns:1fr;gap:2px}}
-.cal details summary{padding:4px 0}
-footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.s-new{--c:var(--red)}.s-fest{--c:var(--petrol)}.s-rem{--c:var(--ocker)}.tipp{--c:var(--violet)}.warn{--c:var(--warn)}
+.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}
+footer{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 footer a{color:var(--muted)}
+@media(max-width:640px){.grid{grid-template-columns:1fr}header h1{font-size:36px}.day{grid-template-columns:1fr;gap:2px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
-<div class="eyebrow">Metal · Rock · Punk · Hardcore rund um Hannover</div>
+<div class="eyebrow">Metal · Rock · Punk · rund um Hannover</div>
 <h1>Konzert-Radar</h1>
-<div class="date">Freitag, 13. November 2026 · Stand: 03:44 Uhr</div>
+<div class="date">Samstag, 14. November 2026 · Stand: 03:44 Uhr</div>
 <a class="jump" href="#kalender">→ Kalender der nächsten 14 Tage</a>
-<p class="lead">Neurosis kommen zurück, Fall Out Boy holen A Day To Remember in die Zitadelle, und nächste Woche gibt es New Yorker Hardcore-Geschichte zum Anfassen – in Vechta.</p>
 </header>
 
-<div class="core">
-<h2>Das Wichtigste in 60 Sekunden</h2>
+<div class="box core">
+<h3>Das Wichtigste in 60 Sekunden</h3>
 <ul>
-<li><b>Neurosis</b> spielen 2027 vier Deutschland-Shows – nächstgelegen sind <b>Berlin (22.6.)</b> und <b>Essen (24.8.)</b>. Erste Tour mit Aaron Turner am Mikro.</li>
-<li><b>Fall Out Boy</b> mit A Day To Remember und Neck Deep: <b>12.6.2027 Berlin, Zitadelle</b>. Der Vorverkauf läuft bereits seit dieser Woche.</li>
-<li><b>Murphy's Law</b>, NYHC-Urgestein seit 1982, spielt am <b>Donnerstag, 19.11., im Gulfhaus Vechta</b> – Clubshow, kurze Anfahrt.</li>
-<li><b>Blackgold</b>, maskierter Nu Metal aus London, gibt am <b>22.11. im Hamburger Logo</b> eine von nur vier Deutschland-Shows.</li>
-<li>Die Bundesregierung plant einen <b>Preisdeckel für Ticket-Weiterverkauf</b> – noch ist das nur ein Entwurf (Details unten).</li>
+<li><b>Revocation</b> feiern 20 Jahre mit Defeated Sanity, Gorod und Carnosus – frisch angekündigt, nächster Halt <b>Hamburg, Logo, 11. April</b>.</li>
+<li><b>Oathbreaker</b> spielen zum 10. Geburtstag von „Rheia“ – Berlin wurde wegen Nachfrage <b>ins größere Kesselhaus verlegt</b> (9.12.), dazu Köln am 8.12.</li>
+<li>Norwegischer Black Metal: <b>Nordjevel</b> mit Svarttjern und Malphas am <b>28.3. in Bochum</b> und am <b>1.4. in Hamburg</b>.</li>
+<li>Kurzfristig: <b>Currents & ERRA</b> beenden ihre Europatour am <b>24.11. im Berliner Astra</b>.</li>
+<li>Death Metal für 25 €: Das <b>Grafschafter Metalfest</b> holt am <b>13.3.2027 Bodyfarm und Varg nach Nordhorn</b>.</li>
 </ul>
 </div>
 
@@ -79,82 +72,82 @@ footer a{color:var(--muted)}
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Murphy's Law <small>+ Clobber</small></h3>
-<p class="meta">Do 19.11.2026 · Gulfhaus, Vechta · ca. 130 km</p>
-<p>Eine der ältesten New-York-Hardcore-Bands überhaupt kommt in ein Jugend- und Kulturzentrum – <b>Sänger Jimmy G ist das letzte Gründungsmitglied</b> und trägt die Partystimmung der Band seit über 40 Jahren.</p>
-<p><strong>Hörtipp:</strong> Album „Back with a Bong!“ <a class="sp" href="https://open.spotify.com/search/Murphy%27s%20Law%20Back%20with%20a%20Bong" target="_blank" rel="noopener">▶ Spotify</a> – Crossover zwischen Hardcore, Skate-Punk und Thrash in Reinform</p>
-<p class="bl"><a href="https://murphyslawnyhc.com" target="_blank" rel="noopener">Website</a></p>
-<details><summary>Mehr über die Band</summary>
-<p>Gegründet 1982 in Astoria, Queens, gehören Murphy's Law zur ersten Welle des NYHC rund um das CBGB. Statt Straßenernst setzten sie früh auf Humor, Bier und Skate-Kultur – das machte sie zur Party-Fraktion der Szene.</p>
-<p>Das letzte Studioalbum „The Party's Over“ stammt von 2001; ein neues Album ist laut Wikipedia bei Trust Records in Arbeit, aber noch nicht erschienen. Live zählt ohnehin der Backkatalog.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=40" target="_blank" rel="noopener">mvp.de Terminliste</a> · <a href="https://en.wikipedia.org/wiki/Murphy%27s_Law_(band)" target="_blank" rel="noopener">Wikipedia</a></p>
+<h3>Currents & ERRA <small>+ Caskets, Aviana</small></h3>
+<p class="meta">Di 24.11.2026 · Astra Kulturhaus, Berlin · ca. 285 km</p>
+<p>Zwei US-Metalcore-Schwergewichte im Doppelpack auf der „The Silence Follows Tour“ – <b>Berlin ist die letzte Deutschland-Station</b>, Hamburg, Leipzig und Köln sind schon gelaufen.</p>
+<p><strong>Hörtipp:</strong> „Gungrave“ (ERRA) <a class="sp" href="https://open.spotify.com/search/ERRA%20Gungrave" target="_blank" rel="noopener">▶ Spotify</a> · „Remember Me“ (Currents) <a class="sp" href="https://open.spotify.com/search/Currents%20Remember%20Me" target="_blank" rel="noopener">▶ Spotify</a> – Djent-Riffs treffen auf große Refrains.</p>
+<details><summary>Mehr über die Bands</summary>
+<p>ERRA haben im März 2026 ihr Album „silence outlives the earth“ veröffentlicht und verbinden technisches Gitarrenspiel mit melodischem Klargesang. Currents bringen ihre EP „All That Follows“ mit, die den Weg von „The Way It Ends“ fortsetzt.</p>
+<p>Als Support sind die britischen Post-Hardcore-Band Caskets und die schwedischen Metalcore-Band Aviana auf der gesamten Tour dabei – ein Abend ohne Durchhänger für Fans moderner Breakdowns.</p>
+<p class="src">Quellen: <a href="https://themosh.net/erra-currents-european-tour-2026-caskets-aviana/" target="_blank" rel="noopener">The Mosh</a> · <a href="https://www.impericon.com/blogs/magazine/currents-erra-announce-joint-europe-tour-dates-for-2026" target="_blank" rel="noopener">Impericon Magazin</a> · <a href="https://www.berlin.de/tickets/pop-rock/erra-currents-the-silence-follows-tour/2026-11-24-currents-erra-the-silence-follows-tour-56eab66f-3e4b-4d0d-a787-76ec26d9ab05/" target="_blank" rel="noopener">Tickets (berlin.de)</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Shakra</h3>
-<p class="meta">Do 19.11.2026 · Kulturwerk, Herford · ca. 95 km · ab 36 €</p>
-<p>Die Schweizer Hardrocker sind mit ihrem ersten Frontiers-Album <b>„Just Live Loud!“ (seit 4. September draußen)</b> unterwegs – Einlass 18 Uhr, Beginn 18:45 Uhr.</p>
-<p><strong>Hörtipp:</strong> „Just Live Loud!“ <a class="sp" href="https://open.spotify.com/search/Shakra%20Just%20Live%20Loud" target="_blank" rel="noopener">▶ Spotify</a> – der Titelsong zeigt die Richtung · „Wasteland Warriors“ <a class="sp" href="https://open.spotify.com/search/Shakra%20Wasteland%20Warriors" target="_blank" rel="noopener">▶ Spotify</a> – die härtere Seite</p>
+<h3>Diary of Dreams</h3>
+<p class="meta">Sa 28.11.2026 · Kulturzentrum Lagerhaus, Bremen · ca. 125 km · ca. 47 €</p>
+<p>Die Düsseldorfer Darkwave-Gothic-Rocker sind im <b>36. Bandjahr</b> unterwegs und spielen mit vier Musikern komplett handgemacht.</p>
+<p><strong>Hörtipp:</strong> „The Curse“ <a class="sp" href="https://open.spotify.com/search/Diary%20of%20Dreams%20The%20Curse" target="_blank" rel="noopener">▶ Spotify</a> – düsterer Clubklassiker, live mit Gitarrenwand.</p>
 <details><summary>Mehr über die Band</summary>
-<p>Shakra stehen für klassischen europäischen Hardrock mit großen Refrains, angereichert um modernere, schwerere Gitarren. Das neue Album bündelt 13 Songs zwischen Hymne, Ballade und Tempo-Rocker.</p>
-<p>Kurios: Sänger Mark Fox hat seine Parts allein im eigenen Keller eingesungen. Gitarrist Thomas Muster nennt es das Album, das er schon immer machen wollte.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/nordrhein-westfalen/veranstaltungen/shakra-just-live-loud-tour-2026-kulturwerk-herford/" target="_blank" rel="noopener">mvp.de (Tickets)</a> · <a href="https://www.frontiers.it/album/6126" target="_blank" rel="noopener">Frontiers Music</a></p>
+<p>Diary of Dreams um Mastermind Adrian Hates gehören seit Ende der Achtziger zu den prägenden Namen der deutschen Dark-Szene. Seit Oktober 2025 erscheint eine Reihe von Mini-Alben, gestartet mit „Dead End Dreams“, das sich um apokalyptische Themen dreht.</p>
+<p>Für Metal-Fans mit Faible für Atmosphäre ein guter Ausflug in die Nachbarszene – das Lagerhaus ist klein genug, dass die Show dicht wirkt.</p>
+<p class="src">Quellen: <a href="https://www.regioactive.de/konzert/diary-of-dreams-tour-2026-bremen-kulturzentrum-lagerhaus-2026-11-28-tickets-sFWqnvny8S" target="_blank" rel="noopener">regioactive (Tickets)</a> · <a href="https://www.mvp.de/bremen/veranstaltungen/diary-of-dreams-tour-2026-kulturzentrum-lagerhaus-bremen/" target="_blank" rel="noopener">mvp.de</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Stahlmann</h3>
-<p class="meta">Fr 20.11.2026 · Hyde Park, Osnabrück · ca. 140 km</p>
-<p>Neue Deutsche Härte mit symphonischem Unterbau: Die „Schwarz wie der Tod“-Tour macht <b>einmal in der Nähe von Hannover Station</b>.</p>
-<p><strong>Hörtipp:</strong> „Dämonen“ <a class="sp" href="https://open.spotify.com/search/Stahlmann%20D%C3%A4monen" target="_blank" rel="noopener">▶ Spotify</a> – zeigt, wie viel Bühnendruck auf dem aktuellen Album steckt</p>
+<h3>Oathbreaker & Portrayal of Guilt</h3>
+<p class="meta">Di 08.12.2026 · Gebäude 9, Köln · ca. 290 km — Mi 09.12.2026 · Kesselhaus, Berlin · ca. 285 km · 34,90 €</p>
+<p>Die Belgier feiern <b>zehn Jahre „Rheia“</b>; in Berlin ist die Show <b>vom Lido ins Kesselhaus umgezogen</b>, gekaufte Tickets bleiben gültig.</p>
+<p><strong>Hörtipp:</strong> „Second Son of R.“ <a class="sp" href="https://open.spotify.com/search/Oathbreaker%20Second%20Son%20of%20R." target="_blank" rel="noopener">▶ Spotify</a> – Flüstern, Schrei, Explosion: der Rheia-Bogen in sieben Minuten.</p>
+<p class="bl"><a href="https://oathbreakerband.bandcamp.com/album/rheia" target="_blank" rel="noopener">Bandcamp</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Stahlmann spielen kantigen NDH-Metal, der sich klar an Rammstein-Tradition anlehnt, aber stärker auf Synthies und Orchester-Flächen setzt.</p>
-<p>Das aktuelle Album „Schwarz wie der Tod“ erschien am 27. Februar 2026; im Titelsong schreit Gastsängerin Bianca Herrmann (About Monsters). Das Orkus-Magazin beschreibt die Platte als sehr live-tauglich.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=40" target="_blank" rel="noopener">mvp.de Terminliste</a> · <a href="https://www.eventim.de/en/artist/stahlmann/stahlmann-schwarz-wie-der-tod-tour-2026-4109097/" target="_blank" rel="noopener">Eventim (Tickets)</a> · <a href="https://orkus1.com/en/?p=38961" target="_blank" rel="noopener">Orkus</a></p>
+<p>Oathbreaker stammen aus Gent und gehören zum Umfeld der Church of Ra rund um Amenra. Aus dem Hardcore kommend, hat sich die Band mit „Rheia“ (2016) Richtung Black Metal, Blackgaze und Post-Metal bewegt – Sängerin Caro Tanghe wechselt zwischen zerbrechlich und brutal.</p>
+<p>Live gibt es die Band nur selten zu sehen, deshalb sind diese Jubiläumsshows besonders. Portrayal of Guilt aus Texas liefern dazu rabiaten, schwarz gefärbten Post-Hardcore.</p>
+<p class="src">Quellen: <a href="https://chaoszine.net/oathbreaker-announce-european-headlining-shows/" target="_blank" rel="noopener">Chaoszine</a> · <a href="https://www.lido-berlin.de/events/2026-12-09-oathbreaker" target="_blank" rel="noopener">Lido Berlin (Verlegung, Tickets)</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Blackgold</h3>
-<p class="meta">So 22.11.2026 · Logo, Hamburg · ca. 155 km</p>
-<p>Maskierter Nu Metal aus London mit Hip-Hop-Attitüde – <b>nur vier Deutschland-Termine</b>, Hamburg ist der einzige im Norden.</p>
-<p><strong>Hörtipp:</strong> „Back With Another One“ <a class="sp" href="https://open.spotify.com/search/Blackgold%20Back%20With%20Another%20One" target="_blank" rel="noopener">▶ Spotify</a> – fasst den Sound in drei Minuten zusammen</p>
-<details><summary>Mehr über die Band</summary>
-<p>Das Quintett aus den Londoner Vororten trägt Masken auf der Bühne und klingt eher nach Limp Bizkit trifft Body Count als nach Slipknot. Die Graspop-Bühne 2023, Supportslots für Limp Bizkit und Skindred haben den Ruf als Live-Abrissbirne gefestigt.</p>
-<p>Die weiteren Termine: Köln (20.11.), Berlin (24.11.), Nürnberg (1.12.). Ein Support ist bisher nicht genannt.</p>
-<p class="src">Quellen: <a href="https://www.metalglory.com/news-blackgold-im-november-2026-fuer-vier-shows-in-deutschland-auf-tour/" target="_blank" rel="noopener">Metalglory</a> · <a href="https://www.graspop.be/fr/bands/blackgold" target="_blank" rel="noopener">Graspop</a> · <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=40" target="_blank" rel="noopener">mvp.de</a></p>
+<h3>Arkona <small>+ Seth, The Great Old Ones</small></h3>
+<p class="meta">Mo 14.12.2026 · Musikbrauerei, Berlin · ca. 285 km · Beginn 19 Uhr</p>
+<p>Drei Bands, drei Farben: <b>Pagan-Folk-Metal aus Russland</b>, französischer Black/Death und kosmischer Post-Black im Stil von Lovecraft.</p>
+<p><strong>Hörtipp:</strong> „Yarilo“ <a class="sp" href="https://open.spotify.com/search/Arkona%20Yarilo" target="_blank" rel="noopener">▶ Spotify</a> – Flöten, Chöre und Masha Scream in Hochform.</p>
+<details><summary>Mehr über die Bands</summary>
+<p>Arkona um Sängerin Masha „Scream“ verbinden slawische Folklore mit hartem Metal und wurden über die Jahre immer düsterer. Seth gehören zu den Urgesteinen des französischen Black Metal, The Great Old Ones vertonen den Cthulhu-Mythos als langsam walzende Klangwand.</p>
+<p>Ein Montagabend-Paket für alle, die es atmosphärisch und finster mögen – Stehplätze, kompakte Halle.</p>
+<p class="src">Quellen: <a href="https://www.berlin.de/en/tickets/rock-pop/arkona-seth-the-great-old-ones-mor-karachun-tour-2026/2026-12-14-arkona-seth-the-great-old-ones-bac165e2-d5fa-4add-b0c4-1565252c9d27/" target="_blank" rel="noopener">berlin.de (Tickets)</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Avatar <small>+ Neckbreakker</small></h3>
-<p class="meta">Do 3.12.2026 · Turbinenhalle, Oberhausen · ca. 270 km</p>
-<p>Die schwedische Zirkus-Metal-Truppe spielt nur drei Deutschland-Shows – <b>Oberhausen ist die einzige im Norden</b>. Dazu die dänischen Death-Metal-Newcomer Neckbreakker.</p>
-<p><strong>Hörtipp:</strong> „Don't Go in the Forest“ <a class="sp" href="https://open.spotify.com/search/Avatar%20Don%27t%20Go%20in%20the%20Forest" target="_blank" rel="noopener">▶ Spotify</a> – Titelsong des aktuellen Albums · „Hail the Apocalypse“ <a class="sp" href="https://open.spotify.com/search/Avatar%20Hail%20the%20Apocalypse" target="_blank" rel="noopener">▶ Spotify</a> – der Live-Klassiker</p>
-<p class="bl"><a href="https://avatarmetal.com" target="_blank" rel="noopener">Website</a></p>
+<h3>Nordjevel <small>+ Svarttjern, Malphas, Unviâr</small></h3>
+<p class="meta">So 28.03.2027 · Matrix, Bochum · ca. 250 km — Do 01.04.2027 · Bambi Galore, Hamburg · ca. 150 km</p>
+<p>Norwegischer Black Metal mit <b>Ex-Morbid-Angel-Gitarrist Destructhor</b>; die „Incantation Tour“ ist die erste Runde nach dem Wechsel zu Season of Mist.</p>
+<p><strong>Hörtipp:</strong> Album „Necrogenesis“ <a class="sp" href="https://open.spotify.com/search/Nordjevel%20Necrogenesis" target="_blank" rel="noopener">▶ Spotify</a> – kalt, dicht, mit Death-Metal-Wucht.</p>
+<p class="bl"><a href="https://www.season-of-mist.com/bands/nordjevel/" target="_blank" rel="noopener">Label-Seite</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Avatar stammen aus Göteborg und verbinden Melodic Death, Groove Metal und Theater – Sänger Johannes Eckerström tritt als geschminkter Zeremonienmeister auf. Live gelten sie als eine der unterhaltsamsten Metal-Shows Europas.</p>
-<p>Album Nummer zehn, „Don't Go in the Forest“ (Oktober 2025), kreist um Träume und ihre Bedeutung. Eckerström nennt die Songs die rhythmisch vertracktesten und zugleich eingängigsten der Bandgeschichte. Weitere DE-Termine: Ulm (10.12.), Frankfurt (13.12.).</p>
-<p class="src">Quellen: <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-avatar-6-2519635/" target="_blank" rel="noopener">Metal Hammer</a> · <a href="https://blabbermouth.net/news/avatar-announces-november-december-2026-european-tour" target="_blank" rel="noopener">Blabbermouth</a></p>
+<p>Nordjevel wurden 2015 gegründet, das Debüt klang noch melodisch und folkig. Seit Destructhor 2018 einstieg, ist der Sound deutlich härter und death-lastiger geworden; Texte drehen sich um Krieg, Tod und nordische Mythen. Neue Musik ist angekündigt.</p>
+<p>Svarttjern stehen für rotzigen, rockenden Black Metal aus Norwegen – im Bambi Galore wird es entsprechend eng und laut. Der 27.3. ist noch offen.</p>
+<p class="src">Quellen: <a href="https://distortedsoundmag.com/nordjevel-announce-european-tour/" target="_blank" rel="noopener">Distorted Sound</a> · <a href="https://www.season-of-mist.com/?p=71162" target="_blank" rel="noopener">Season of Mist</a></p>
 </details>
 </article>
 
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Fjørt</h3>
-<p class="meta">Do 28.1.2027 · Westand, Braunschweig · ca. 65 km</p>
-<p>Zweite Runde zum Chart-Zweier <b>„Belle Époque“</b>: Die Aachener Post-Hardcore-Band spielt in Braunschweig, später auch <b>Bielefeld (11.2., Forum)</b>.</p>
-<p><strong>Hörtipp:</strong> Album „Belle Époque“ <a class="sp" href="https://open.spotify.com/search/Fj%C3%B8rt%20Belle%20%C3%89poque" target="_blank" rel="noopener">▶ Spotify</a> – das bisher erfolgreichste Album der Band</p>
-<p class="bl"><a href="https://fjort.de" target="_blank" rel="noopener">Website</a></p>
+<h3>Revocation <small>+ Defeated Sanity, Gorod, Carnosus</small></h3>
+<p class="meta">Sa 10.04.2027 · Junkyard, Dortmund · ca. 210 km — So 11.04.2027 · Logo, Hamburg · ca. 150 km</p>
+<p>„20 Years Of Torment Part II“: Tech-Death-Gipfeltreffen, bei dem <b>Defeated Sanity „Psalms Of The Moribund“ komplett spielen</b>. Erst am 12.11. angekündigt.</p>
+<p><strong>Hörtipp:</strong> „Sarcophagi of the Soul“ <a class="sp" href="https://open.spotify.com/search/Revocation%20Sarcophagi%20of%20the%20Soul" target="_blank" rel="noopener">▶ Spotify</a> – aktuelle Single, Griffbrett-Akrobatik mit Groove.</p>
+<p class="bl"><a href="https://revocationband.com/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/revocation/" target="_blank" rel="noopener">Instagram @revocation</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Fjørt gründeten sich 2012 in Aachen und spielen deutschsprachigen Post-Hardcore zwischen Wut und Weite – Screamo-Ausbrüche, Post-Rock-Flächen, Texte mit Haltung.</p>
-<p>„Belle Époque“ (Februar 2026) ist ihr fünftes Album, landete auf Platz 2 der deutschen Charts und war bei VISIONS Platte des Monats. Live sind sie als Trio bekannt laut und kompromisslos.</p>
-<p class="src">Quellen: <a href="https://www.visions.de/news/tour-ankuendigung-fjort-fuer-januar-2027/" target="_blank" rel="noopener">VISIONS</a> · <a href="https://en.wikipedia.org/wiki/Fj%C3%B8rt" target="_blank" rel="noopener">Wikipedia</a></p>
+<p>Revocation kommen aus Boston und werden von Gitarrist und Sänger Dave Davidson angeführt. Das aktuelle Album „New Gods, New Masters“ (Metal Blade) beschäftigt sich mit künstlicher Intelligenz und ihren Folgen für den Menschen.</p>
+<p>Gorod aus Frankreich und Defeated Sanity aus Deutschland machen das Paket zum Pflichttermin für Technik-Fans; im kleinen Logo steht man nah an den Gitarrenhälsen.</p>
+<p class="src">Quellen: <a href="https://blabbermouth.net/news/revocation-announces-2027-20-years-of-torment-part-ii-european-tour" target="_blank" rel="noopener">Blabbermouth</a> · <a href="https://revocationband.com/band/biography" target="_blank" rel="noopener">Band-Biografie</a></p>
 </details>
 </article>
 
@@ -162,116 +155,81 @@ footer a{color:var(--muted)}
 </section>
 
 <section class="s-fest">
-<div class="sec"><span class="pill">TOUR</span><h2>Festivals & Tour-Ankündigungen</h2></div>
+<div class="sec"><span class="pill">FEST</span><h2>Festivals & Tour-Ankündigungen</h2></div>
 <div class="grid">
-
 <article class="card">
 <span class="chip">Bestätigt</span>
-<h3>Neurosis</h3>
-<p class="meta">22.6.2027 Huxleys Neue Welt, Berlin (ca. 285 km) · 24.8.2027 Weststadthalle, Essen (ca. 255 km) · außerdem Wiesbaden, München</p>
-<p>Die Post-Metal-Pioniere sind zurück – <b>erstmals mit Aaron Turner (Isis, Sumac)</b> an Gesang und Gitarre. Angekündigt am 12. November, Support noch offen.</p>
-<p><strong>Hörtipp:</strong> „Through Silver in Blood“ <a class="sp" href="https://open.spotify.com/search/Neurosis%20Through%20Silver%20in%20Blood" target="_blank" rel="noopener">▶ Spotify</a> – der Klassiker · Album „An Undying Love for a Burning World“ <a class="sp" href="https://open.spotify.com/search/Neurosis%20An%20Undying%20Love%20for%20a%20Burning%20World" target="_blank" rel="noopener">▶ Spotify</a> – das Comeback</p>
-<p class="bl"><a href="https://www.neurosis.com" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/neurosisoakland/" target="_blank" rel="noopener">Instagram @neurosisoakland</a></p>
-<details><summary>Mehr über die Band</summary>
-<p>Neurosis aus Oakland haben den Post-Metal mit erfunden: tonnenschwere Riffs, Tribal-Drums und lange, hypnotische Spannungsbögen. Nach zehn Jahren Funkstille erschien im März 2026 überraschend „An Undying Love for a Burning World“.</p>
-<p>Neben Turner stehen Steve Von Till, Jason Roeder, Dave Edwardson und Noah Landis auf der Bühne. Wer die Band noch nie live gesehen hat: Lautstärke und Intensität sind legendär.</p>
-<p class="src">Quellen: <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-neurosis-3-2560989/" target="_blank" rel="noopener">Metal Hammer</a> · <a href="https://www.neurosis.com/about" target="_blank" rel="noopener">neurosis.com</a></p>
-</details>
+<h3>Grafschafter Metalfest 2027</h3>
+<p class="meta">Sa 13.03.2027 · Alte Weberei, Nordhorn · ca. 230 km · ab 25 € · Beginn 14 Uhr</p>
+<p>Eintagesfestival mit neun Bands, oben auf dem Plakat <b>Bodyfarm und Varg</b>, dazu u. a. Fleshless, Godskill und Imprisoned in Flesh – Death Metal satt zum kleinen Preis.</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/grafschafter-metalfest-2027-alte-weberei-nordhorn/" target="_blank" rel="noopener">mvp.de</a></p>
 </article>
-
-<article class="card">
-<span class="chip">Bestätigt</span>
-<h3>Fall Out Boy <small>+ A Day To Remember, Neck Deep</small></h3>
-<p class="meta">Sa 12.6.2027 · Zitadelle, Berlin · ca. 285 km · außerdem 28.5. Mönchengladbach</p>
-<p>Die „Twilight Of The Punks“-Tour bringt ein <b>Pop-Punk-Paket mit zwei Headliner-tauglichen Supports</b> unter freien Himmel. Neue Single „Aces“ ist draußen.</p>
-<p><strong>Hörtipp:</strong> „Aces“ <a class="sp" href="https://open.spotify.com/search/Fall%20Out%20Boy%20Aces" target="_blank" rel="noopener">▶ Spotify</a> – erster neuer Einzelsong seit über drei Jahren</p>
-<details><summary>Mehr über die Tour</summary>
-<p>36 Konzerte in Europa, Großbritannien und Nordamerika; A Day To Remember und Neck Deep spielen auf den Europa- und UK-Terminen. Ob ein neues Album folgt, ist offen.</p>
-<p>Presale lief ab Mittwoch, 11.11., der allgemeine Verkauf ab Donnerstag, jeweils 12 Uhr – Karten also nur noch über offizielle Kanäle kaufen.</p>
-<p class="src">Quellen: <a href="https://www.metal1.info/metal-news/fall-out-boy-bringen-aces-und-gehen-2027-auf-twilight-of-the-punks-tour/" target="_blank" rel="noopener">Metal1.info</a> · <a href="https://www.visions.de/news/fall-out-boy-neue-single-tour-2027-angekuendigt/" target="_blank" rel="noopener">VISIONS</a></p>
-</details>
-</article>
-
 </div>
 </section>
 
 <section class="s-rem">
-<div class="sec"><span class="pill">NOCHMAL</span><h2>Nochmal zur Erinnerung</h2></div>
+<div class="sec"><span class="pill">ERINN.</span><h2>Nochmal zur Erinnerung</h2></div>
 <div class="grid">
-<article class="card">
-<h3>Master Boot Record & Fulci</h3>
-<p class="meta">Sa 21.11.2026 · Logo, Hamburg</p>
-<p>Chiptune-Metal trifft Horror-Death-Metal – <b>eine der ungewöhnlichsten Paarungen des Monats</b>.</p>
-<p><strong>Hörtipp:</strong> Master Boot Record <a class="sp" href="https://open.spotify.com/search/Master%20Boot%20Record" target="_blank" rel="noopener">▶ Spotify</a> – Synth-Shred zum Reinhören</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=40" target="_blank" rel="noopener">mvp.de</a></p>
-</article>
-<article class="card">
-<h3>John Coffey</h3>
-<p class="meta">Do 26.11.2026 · Knust, Hamburg</p>
-<p>Die Utrechter Punkrocker gelten als <b>eine der wildesten Liveshows der Niederlande</b>.</p>
-<p><strong>Hörtipp:</strong> John Coffey <a class="sp" href="https://open.spotify.com/search/John%20Coffey" target="_blank" rel="noopener">▶ Spotify</a> – Künstlerseite</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=80" target="_blank" rel="noopener">mvp.de</a></p>
-</article>
 <article class="card">
 <h3>Wisborg <small>+ The Fright</small></h3>
 <p class="meta">Fr 27.11.2026 · Subkultur, Hannover</p>
-<p>Gothic Rock auf der „Phantomschmerz“-Tour – <b>Heimspiel-Atmosphäre im kleinen Club</b>.</p>
-<p><strong>Hörtipp:</strong> Wisborg <a class="sp" href="https://open.spotify.com/search/Wisborg" target="_blank" rel="noopener">▶ Spotify</a> – Künstlerseite</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=80" target="_blank" rel="noopener">mvp.de</a></p>
-</article>
-<article class="card">
-<h3>Allt <small>+ Avralize, Bite Down</small></h3>
-<p class="meta">Sa 28.11.2026 · Béi Chéz Heinz, Hannover</p>
-<p>Schwedischer Prog-Metalcore auf der „Ataraxia“-Tour, <b>Club-Größe statt Halle</b>.</p>
-<p><strong>Hörtipp:</strong> Allt <a class="sp" href="https://open.spotify.com/search/Allt%20Ataraxia" target="_blank" rel="noopener">▶ Spotify</a> – passend zur Tour</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=80" target="_blank" rel="noopener">mvp.de</a></p>
+<p>Gothic Rock im kleinen Club – <b>Heimspiel-Atmosphäre</b> garantiert.</p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Wisborg" target="_blank" rel="noopener">▶ Spotify</a></p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de</a></p>
 </article>
 <article class="card">
 <h3>Half Me</h3>
 <p class="meta">Sa 28.11.2026 · MusikZentrum, Hannover</p>
-<p>Deutscher Metalcore auf „European Crusade“ – frisch auch fürs <b>Impericon Festival 2027</b> bestätigt.</p>
-<p><strong>Hörtipp:</strong> Half Me <a class="sp" href="https://open.spotify.com/search/Half%20Me" target="_blank" rel="noopener">▶ Spotify</a> – Künstlerseite</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=80" target="_blank" rel="noopener">mvp.de</a> · <a href="https://www.metalglory.com/news-impericon-festival-2027-zehn-weitere-bands-bestaetigt/" target="_blank" rel="noopener">Metalglory</a></p>
+<p>Deutschsprachiger Metalcore; am selben Abend spielen <b>Allt im Béi Chéz Heinz</b> – Doppelprogramm möglich.</p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Half%20Me" target="_blank" rel="noopener">▶ Spotify</a></p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de</a></p>
+</article>
+<article class="card">
+<h3>Dayseeker <small>+ Northlane</small></h3>
+<p class="meta">Do 10.12.2026 · Capitol, Hannover</p>
+<p>Emotionaler Post-Hardcore trifft <b>australischen Elektro-Metalcore</b>.</p>
+<p><strong>Hörtipp:</strong> „Without Me“ (Dayseeker) <a class="sp" href="https://open.spotify.com/search/Dayseeker%20Without%20Me" target="_blank" rel="noopener">▶ Spotify</a> · „4D“ (Northlane) <a class="sp" href="https://open.spotify.com/search/Northlane%204D" target="_blank" rel="noopener">▶ Spotify</a></p>
+<p class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de</a> · <a href="https://songkick.com/metro-areas/34498-germany-hannover/genre/metal" target="_blank" rel="noopener">Songkick</a></p>
+</article>
+<article class="card">
+<h3>Excrementory Grindfuckers</h3>
+<p class="meta">Fr 11.12.2026 · Béi Chéz Heinz, Hannover</p>
+<p>Hannovers Spaß-Grind-Institution im <b>Heimspiel vor Weihnachten</b>.</p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Excrementory%20Grindfuckers" target="_blank" rel="noopener">▶ Spotify</a></p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de</a></p>
+</article>
+<article class="card">
+<h3>Ankor & Self Deception <small>+ Lauren Babic</small></h3>
+<p class="meta">Di 15.12.2026 · MusikZentrum, Hannover</p>
+<p>Spanischer Modern Metal und schwedischer Alternative – <b>Rock Hard listete hier zeitweise fälschlich Amaranthe</b>.</p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Ankor" target="_blank" rel="noopener">▶ Spotify</a></p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de</a></p>
 </article>
 </div>
 </section>
 
-<div class="box tip">
-<h2>Tipp des Tages</h2>
-<p><b>Murphy's Law + Clobber, Donnerstag 19.11., Gulfhaus Vechta.</b> Eine Band, die seit 1982 den New-York-Hardcore mitprägt, in einem Jugendzentrum statt in einer Halle – näher kommt man dieser Geschichte kaum. Gut eine Stunde ab Hannover, und der Abend dürfte eher Party als Pflichttermin werden.</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=40" target="_blank" rel="noopener">mvp.de</a></p>
+<div class="box tipp">
+<h3>Tipp des Tages</h3>
+<p><b>Allt + Avralize, Bite Down · Sa 28.11.2026 · Béi Chéz Heinz, Hannover.</b> Schwedischer Progressive Metalcore mit viel Melodie im kleinsten guten Club der Stadt – drei Bands, kurzer Heimweg, wenig Geld. <span class="src">Quelle: <a href="https://songkick.com/concerts/43062429-allt-at-bei-chez-heinz" target="_blank" rel="noopener">Songkick</a> · <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de</a></span></p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Allt" target="_blank" rel="noopener">▶ Spotify</a></p>
 </div>
 
 <div class="box warn">
-<h2>Hier genau hinschauen</h2>
+<h3>Hier genau hinschauen</h3>
 <ul>
-<li><b>Ticket-Preisdeckel ist noch kein Gesetz:</b> Der Entwurf eines „Ticketschutzgesetzes“ sieht vor, dass Wiederverkäufer höchstens 20 % bzw. 20 € auf den Originalpreis aufschlagen dürfen (der niedrigere Wert zählt). Er wird erst innerhalb der Regierung abgestimmt – bis dahin gelten Zweitmarkt-Preise ungebremst. <a href="https://www.metal1.info/metal-news/ticket-weiterverkauf-bundesregierung-plant-preisdeckel-fuer-resale-angebote/" target="_blank" rel="noopener">Metal1.info</a></li>
-<li><b>Fall Out Boy:</b> Der reguläre Vorverkauf läuft schon. Angebote auf Resale-Plattformen mit deutlichem Aufschlag meiden und nur beim offiziellen Ticketpartner kaufen.</li>
-<li><b>Hardline</b> in Braunschweig (17.11., KufA Haus) bleibt <b>abgesagt</b>.</li>
-<li><b>Neurosis und Blackgold:</b> Support-Bands sind noch nicht bekannt gegeben.</li>
-<li><b>Murphy's Law:</b> Ein neues Album ist zwar angekündigt, aber noch nicht erschienen – wer im Netz „neue“ Songs sieht, sollte genau prüfen.</li>
+<li><b>Ticketschutzgesetz:</b> Der Entwurf aus dem Justizministerium sieht beim Weiterverkauf höchstens 20 € bzw. 20 % Aufschlag vor (der niedrigere Wert zählt). Beschlossen ist das noch nicht – bis dahin gilt: Tickets nur beim Veranstalter oder über offizielle Fan-Börsen kaufen. <span class="src"><a href="https://www.leinetal24.de/verbraucher/ticket-wucher-hubig-plant-preisdeckel-fuer-konzerte-und-sportevents-zr-94583993.html" target="_blank" rel="noopener">leinetal24</a></span></li>
+<li><b>Metal Rendezvous Part 1 (Acid, Warrant, Axe Victims):</b> Eine Ticketseite nennt den 12.12.2026 in der Bochumer Matrix, eine andere den 19.03.2027 im Rockpalast. Vor dem Kauf beim Veranstalter prüfen. <span class="src"><a href="https://www.regioactive.de/konzert/metal-rendezvous-part-1-bochum-matrix-2026-12-12-tickets-JzkPsD0H0H" target="_blank" rel="noopener">regioactive</a> · <a href="https://www.mvp.de/niedersachsen/veranstaltungen/konzert-metal-hard-rock/?from=400" target="_blank" rel="noopener">mvp.de</a></span></li>
+<li><b>Oathbreaker Berlin:</b> Neuer Ort Kesselhaus statt Lido – Tickets behalten ihre Gültigkeit.</li>
+<li><b>Hardline</b> in Braunschweig (17.11.) ist abgesagt; Rückerstattung über die Vorverkaufsstelle.</li>
 </ul>
 </div>
 
-<section class="s-cal" id="kalender"><div class="sec"><span class="pill">KAL</span><h2>Kalender: die nächsten 14 Tage</h2></div>
-<div class="cal">
-<div class="day"><div class="dh">Fr 13.11. <span>heute</span></div><ul>
-<li><b>Korn + Architects · ZAG Arena, Hannover</b></li>
-<li><b>Ignite + Cancer Bats · Faust, Hannover</b></li>
-<li><b>ITCHY + The Meffs · Capitol, Hannover</b></li>
-<li><b>Madsen · Swiss Life Hall, Hannover</b></li>
-<li><b>Krashkarma · Faust Mephisto, Hannover</b></li>
-<li><b>Die Kammer · SubKultur, Hannover</b></li>
-<li>Against The Current · Große Freiheit 36, Hamburg</li>
-<li>Black Hawk + Razor Punch · Marias Ballroom, Hamburg</li>
-<li>Vorverkauf: Powerwolf (allgemein), 11 Uhr</li>
-<li>Vorverkauf: Dritte Wahl (Eventim), 13 Uhr</li>
-</ul></div>
-<div class="day"><div class="dh">Sa 14.11. <span>morgen</span></div><ul>
+<section class="s-cal" id="kalender"><div class="sec"><span class="pill">KAL</span><h2>Kalender: die nächsten 14 Tage</h2></div><div class="cal">
+<div class="day"><div class="dh">Sa 14.11. <span>heute</span></div><ul>
 <li><b>Hämatom + J.B.O. · Swiss Life Hall, Hannover</b></li>
 <li><b>Tanzwut + Sagenbringer · MusikZentrum, Hannover</b></li>
 <li>Mother's Cake · B58, Braunschweig</li>
-<li>Blasting The Mountains Fest · Harzlandhalle, Ilsenburg</li>
+<li>Blasting The Mountains Fest Pt. 1 · Harzlandhalle, Ilsenburg</li>
 <li>Colour Haze & My Sleeping Karma · Tower, Bremen</li>
 <li>BIG|BRAVE + otay:onii · MS Stubnitz, Hamburg</li>
 <li>Messa · Rockpalast, Bochum</li>
@@ -281,7 +239,6 @@ footer a{color:var(--muted)}
 <li><b>Prong · MusikZentrum, Hannover</b></li>
 <li>Hatebreed & Life of Agony · Markthalle, Hamburg</li>
 <li>Archspire + Crown Magnetar · Gruenspan, Hamburg</li>
-<li>Vorverkauf: Dritte Wahl (allgemein), 10 Uhr</li>
 </ul></div>
 <div class="day"><div class="dh">Di 17.11.</div><ul>
 <li><b>Ersatzkopf · Béi Chéz Heinz, Hannover</b></li>
@@ -300,10 +257,9 @@ footer a{color:var(--muted)}
 <li><b>Nailed to Obscurity + Nephylim · Glocksee, Hannover</b></li>
 <li>Pro-Pain · Schön & Frölich, Braunschweig</li>
 <li>Shakra · Kulturwerk, Herford</li>
-<li>Murphy's Law + Clobber · Gulfhaus, Vechta <span class="tag">Tipp des Tages</span></li>
+<li>Murphy's Law + Clobber · Gulfhaus, Vechta</li>
 <li>Despised Icon + Carnifex + Suffocation · Gruenspan, Hamburg</li>
 </ul></div>
-<details><summary>Die Woche danach</summary>
 <div class="day"><div class="dh">Fr 20.11.</div><ul>
 <li><b>dARTAGNAN + Storm Seeker · Capitol, Hannover</b></li>
 <li><b>Massendefekt · MusikZentrum, Hannover</b></li>
@@ -319,18 +275,20 @@ footer a{color:var(--muted)}
 <div class="day"><div class="dh">Sa 21.11.</div><ul>
 <li><b>Hannover Hardcore Fest (SPY, Combust) · Béi Chéz Heinz, Hannover</b></li>
 <li>Master Boot Record & Fulci · Logo, Hamburg</li>
-<li>Black Tides Fest V · LMC, Hinte/Emden</li>
+<li>Black Tides Fest V · LMC, Hinte</li>
 </ul></div>
+<details><summary>Die Woche danach</summary>
 <div class="day"><div class="dh">So 22.11.</div><ul>
 <li>Blackgold · Logo, Hamburg</li>
 <li>Youth of Today + Risk It · Felsenkeller, Leipzig</li>
 </ul></div>
 <div class="day"><div class="dh">Mo 23.11.</div><ul>
-<li>Beast in Black + Frozen Crown, Sonata Arctica · Inselpark Arena, Hamburg</li>
+<li>Beast in Black + Frozen Crown · Inselpark Arena, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Di 24.11.</div><ul>
 <li>Chelsea Wolfe + A.A. Williams · Große Freiheit 36, Hamburg</li>
 <li>Long Distance Calling · Markthalle, Hamburg</li>
+<li>Currents & ERRA · Astra, Berlin <span class="tag">neu</span></li>
 </ul></div>
 <div class="day"><div class="dh">Mi 25.11.</div><ul>
 <li><b>Health · MusikZentrum, Hannover</b></li>
@@ -339,14 +297,19 @@ footer a{color:var(--muted)}
 <li>Grift + Zwischenlichten · Bambi Galore, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Do 26.11.</div><ul>
-<li>Morbidfest · MS Stubnitz, Hamburg</li>
 <li>John Coffey · Knust, Hamburg</li>
 <li>Terror + Bane · Fabrik, Hamburg</li>
+<li>Morbidfest · MS Stubnitz, Hamburg</li>
 <li>Týr + Twilight Force · Matrix, Bochum</li>
 </ul></div>
+<div class="day"><div class="dh">Fr 27.11.</div><ul>
+<li><b>Wisborg + The Fright · Subkultur, Hannover</b></li>
+<li>Hiraes · Kulturwerk, Herford <span class="tag">Datum unklar</span></li>
+<li>Perkele · Aladin Music Hall, Bremen</li>
+<li>Black Oak County · Monkeys, Hamburg</li>
+</ul></div>
 </details>
-</div>
-</section>
+</div></section>
 
 <footer>
 <p><a href="/konzerte/archiv/">Radar-Archiv</a></p>

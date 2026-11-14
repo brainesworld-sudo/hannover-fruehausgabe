@@ -1,0 +1,375 @@
+{
+  "stand": "Stand: Samstag, 14. November, 3 Uhr",
+  "kurz": [
+    "<b>Beben bei Nvidia:</b> Gründer Jensen Huang ist als Chef und aus dem Verwaltungsrat zurückgetreten, Finanzchefin <b>Colette Kress</b> übernimmt vorerst. Die Aktie verlor zeitweise rund 13 Prozent.",
+    "<b>Europa sitzt mit am Tisch:</b> Die EU bildet ein Verhandlungsteam für Ukraine-Gespräche, Deutschland ist fest dabei. Das Weiße Haus kündigt für nächste Woche ein <b>Treffen Trump, Xi und Putin</b> in China an.",
+    "<b>Rekordhaushalt und Investitionsstopp:</b> Der Haushaltsausschuss billigte für 2027 rund <b>560,9 Milliarden Euro</b> Ausgaben. Mercedes stoppt alle neuen Investitionen an deutschen Standorten.",
+    "<b>Zeugnis-Panne in Niedersachsen:</b> Die Landesprüfung fand <b>886 fehlerhafte Abschlüsse</b> an 52 Schulen. Betroffene mit zu schlechtem Zeugnis bekommen den erweiterten Abschluss nachträglich.",
+    "<b>Bahn-Wochenende mit Lücke:</b> Von heute <b>21 Uhr</b> bis Montag 6 Uhr fahren S1, S2 und S5 nicht zwischen Hauptbahnhof und Weetzen, es gibt Busersatz.",
+    "<b>Sieg im Regen, Sieg am Pferdeturm:</b> Das DFB-Team gewinnt in Belgrad <b>3:1</b> und kann am Montag gegen die Niederlande alles klarmachen. Die Indians drehen gegen Herford ein 1:2 in ein <b>6:2</b>."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Empelde: Haftbefehl beantragt, 20-Jähriger außer Lebensgefahr",
+          "kurz": "Nach der Autoattacke auf drei junge Männer soll der <b>22-jährige</b> Verdächtige in U-Haft. Der schwer verletzte 20-Jährige schwebt laut Radio Hannover nicht mehr in Lebensgefahr.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Am Sportpark, Empelde", "suche": "Am Sportpark Ronnenberg Empelde"}
+          ],
+          "lang": [
+            "Die Staatsanwaltschaft Hannover wirft dem Mann versuchten Totschlag, gefährliche Körperverletzung und einen gefährlichen Eingriff in den Straßenverkehr vor. Er hatte sich nach der Tat am Mittwochabend in Wuppertal gestellt und sollte einem Haftrichter vorgeführt werden.",
+            "Am Tatort fanden Ermittler eine Patrone, offenbar für eine Schreckschusswaffe. Ob sie mit der Tat zu tun hat, ist offen. Zum Motiv schweigen die Behörden weiter, die Mordkommission ermittelt."
+          ],
+          "einschaetzung": "Angaben von Polizei und Staatsanwaltschaft; der neue Gesundheitszustand stammt aus dem Bericht von Radio Hannover.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/auto-angriff-in-empelde-staatsanwaltschaft-beantragt-untersuchungshaft"},
+            {"name": "Polizeidirektion Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6389190"}
+          ]
+        },
+        {
+          "titel": "Fast 900 falsche Abschlusszeugnisse: Land räumt Fehler im System ein",
+          "kurz": "Niedersachsen hat 30.500 Abschlüsse aus zehn Jahren nachgeprüft, <b>886</b> waren fehlerhaft. Betroffen sind 44 von 94 Oberschulen und 8 von 96 Gesamtschulen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Kultusministerium Niedersachsen", "suche": "Niedersächsisches Kultusministerium Hannover"}
+          ],
+          "lang": [
+            "Auslöser war die Oberschule in Vechta, wo sämtliche Zeugnisse falsch waren. Der Kern des Problems: Regeln, nach denen eine schwache Note durch eine gute in einem anderen Fach ausgeglichen werden darf, wurden vielerorts falsch angewendet. Kultusministerin Julia Willie Hamburg (Grüne) sieht die Verantwortung im ganzen System, auch beim Ministerium, das die Verordnung bis 2017 uneinheitlich ausgelegt habe.",
+            "Wer ein zu schlechtes Zeugnis bekam, erhält den erweiterten Sekundarabschluss I nachträglich, der den Weg in die gymnasiale Oberstufe öffnet, dazu eine Entschuldigung. Schadenersatz gegen das Land ist möglich. Zu gute Zeugnisse werden nicht nach unten korrigiert. Gemessen an allen 204.000 Abschlüssen liegt die Fehlerquote bei 0,43 Prozent."
+          ],
+          "einschaetzung": "Zahlen aus dem Prüfbericht des Kultusministeriums, von dpa/t-online und Radio Hannover übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "t-online (dpa)", "url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101528060/zeugnis-panne-in-niedersachsen-fast-900-falsche-dokumente-ausgestellt.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/zeugnisskandal-in-niedersachsen-fast-900-fehlerhafte-abschluesse"}
+          ]
+        },
+        {
+          "titel": "S-Bahn: Hannover–Weetzen übers Wochenende dicht",
+          "kurz": "Wegen Weichen- und Gleisarbeiten fallen <b>S1, S2 und S5</b> zwischen Hauptbahnhof und Weetzen von Samstag <b>21 Uhr</b> bis Montag <b>6 Uhr</b> aus. S21 und S51 fahren sogar bis Donnerstag nicht.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Hauptbahnhof Hannover", "suche": "Hauptbahnhof Hannover"},
+            {"name": "Bahnhof Weetzen", "suche": "Bahnhof Weetzen Ronnenberg"}
+          ],
+          "lang": [
+            "Der Betreiber setzt Ersatzbusse ein. Wer am Sonntag nach Ronnenberg, Barsinghausen oder Richtung Deister will, sollte deutlich mehr Zeit einplanen.",
+            "Erst am Donnerstag hatte ein Stellwerksausfall in Langenhagen die S4 und S5 zum Flughafen stundenlang ausgebremst, der Fehler war mittags behoben."
+          ],
+          "einschaetzung": "Betreiberangaben, berichtet von Radio Hannover und t-online; Fahrplanauskunft vor der Fahrt prüfen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/diese-s-bahnen-fallen-jetzt-aus"},
+            {"name": "t-online Hannover (Stellwerk)", "url": "https://hannover.t-online.de/region/hannover/id_101525714/s-bahnen-zum-flughafen-hannover-fahren-wieder-stellwerkstoerung-behoben.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Stadt, Region und Land.",
+          "liste": [
+            "<b>Kommunale Schulden:</b> Niedersachsens Städte und Gemeinden stehen mit <b>41,4 Milliarden Euro</b> in der Kreide, 13 Prozent mehr als im Vorjahr. Hannover führt auf dem Festland mit rund 11.000 Euro pro Kopf.",
+            "<b>Opernplatz:</b> Heute um <b>14 Uhr</b> beginnt eine Demo, die eine Prüfung rechtsextremer Parteien durch das Bundesverfassungsgericht fordert.",
+            "<b>Zeugen gesucht:</b> Ein Autofahrer zog am Dienstag an der Vahrenwalder Straße/Niedersachsenring abrupt vor einen Bus, bei der Vollbremsung stürzte eine Frau. Der Fahrer flüchtete.",
+            "<b>Stadionsingen:</b> Das Weihnachtssingen am <b>15. Dezember</b> in der Heinz von Heiden Arena ist mit über 41.000 Tickets ausverkauft.",
+            "<b>Wochenende:</b> Max Raabe spielt im Kuppelsaal, auf der Neuen Bult ist Flohmarkt."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen von Radio Hannover, Polizei, Hannover 96 und hannover.de vom 12. und 13. November."
+          ],
+          "einschaetzung": "Amtliche Statistik, Polizei- und Veranstalterangaben.",
+          "quellen": [
+            {"name": "Radio Hannover (Schulden)", "url": "https://www.radio-hannover.de/hannover-news/kommunale-schulden-in-niedersachsen-auf-rekordhoch"},
+            {"name": "Radio Hannover (Demo)", "url": "https://www.radio-hannover.de/hannover-news/pruef-demo-auf-dem-opernplatz"},
+            {"name": "Polizeidirektion Hannover", "url": "https://www.presseportal.de/blaulicht/pm/66841/6389583"},
+            {"name": "Hannover 96", "url": "https://www.hannover96.de/newscenter/news/details/37710-41000-stimmen-in-der-heinz-von-heiden-arena-das-fuenfte-stadionsingen-ist-ausverkauft.html"},
+            {"name": "hannover.de", "url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Tipps-fürs-Wochenende"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Haushalt 2027 steht: Mehr Ausgaben, mehr Schulden",
+          "kurz": "Der Haushaltsausschuss hat in der Nacht zu Freitag den Etat für 2027 gebilligt: rund <b>560,9 Milliarden Euro</b> Ausgaben, knapp 123 Milliarden Euro neue Kredite im Kernhaushalt.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Bundestag", "suche": "Reichstagsgebäude Berlin"}
+          ],
+          "lang": [
+            "Das sind etwa vier Milliarden Euro mehr Schulden als im ersten Entwurf von Finanzminister Klingbeil. Rechnet man die Sondertöpfe für Infrastruktur und Bundeswehr dazu, dürfte der Bund 2027 mehr als 200 Milliarden Euro leihen. Die geplante Plastiksteuer ist gestrichen.",
+            "Offen bleibt die Stromsteuer: Kanzler Merz will sie ab 2027 für alle auf das EU-Minimum senken, Klingbeil verlangt eine solide Gegenfinanzierung für rund fünf Milliarden Euro. Der Koalitionsausschuss soll am Dienstag entscheiden, der Bundestag stimmt Ende November endgültig ab. Die AfD kritisiert, fast jeder dritte Euro sei geliehen."
+          ],
+          "einschaetzung": "Beschluss des Ausschusses, berichtet vom Bundestag und ZDFheute.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/haushalt-haushaltsausschuss-bundestag-union-spd-100.html"},
+            {"name": "Deutscher Bundestag", "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-haushalt-1231890"}
+          ]
+        },
+        {
+          "titel": "Mercedes friert Investitionen in Deutschland ein",
+          "kurz": "Der Vorstand hat beschlossen, <b>alle weiteren Investitionen</b> in die deutschen Werke zu stoppen. Grund sind festgefahrene Verhandlungen mit der Arbeitnehmerseite über Kostensenkungen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Produktionsvorstand Michael Schiebe verkündete den Schritt im Intranet. Der Konzern verweist auf Arbeitsstunden, die in Deutschland teils fünfmal so viel kosten wie in Osteuropa, dazu Zölle, Preisdruck und Konkurrenz aus China. Im Gespräch ist die 40-Stunden-Woche ohne Lohnausgleich, für Betriebsrat und IG Metall ist die 35-Stunden-Woche eine rote Linie.",
+            "Schon vor Wochen hatte Mercedes mit der Schließung eines Aufbau- und eines Antriebswerks gedroht, falls die Kosten nicht sinken. Die Pkw-Sparte kam von Januar bis September auf 3,3 Prozent Rendite. Der Schritt fällt mitten in eine Tarifrunde, in der die IG Metall gerade ganztägige Warnstreiks vorbereitet."
+          ],
+          "einschaetzung": "Interne Ankündigung, von ZDFheute und Handelsblatt übereinstimmend berichtet; wie lange der Stopp gilt, ist offen.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/wirtschaft/unternehmen/mercedes-sparmassnahmen-100.html"},
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-mercedes-stoppt-alle-investitionen-in-deutschland/100269485.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>DHL:</b> Ab Januar kostet ein Päckchen S in der Filiale <b>5,19 Euro</b>, einen Euro mehr. Online gekauft sind es 4,49 Euro.",
+            "<b>Sprit:</b> E10 kostete im Tagesmittel 1,949 Euro, Diesel 2,188 Euro, beide gut sechs Cent weniger als vor einer Woche.",
+            "<b>Bundeswehr:</b> Der Bundestag verlängert den Nato-Einsatz „Sea Guardian“ im Mittelmeer bis Ende November 2027, mit höchstens <b>440</b> statt 550 Soldaten.",
+            "<b>Merkel:</b> Die Altkanzlerin sagt, sie würde heute für die Ehe für alle stimmen. 2017 hatte sie dagegen votiert.",
+            "<b>BSI-Warnung:</b> Schwachstellen in Danfoss-Steuerungen für Industriekühlanlagen. Geräte sollen nicht direkt am Internet hängen."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen aus dem ZDFheute-Ticker vom 13. November."
+          ],
+          "einschaetzung": "Unternehmens-, Behörden- und Parlamentsangaben.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Ukraine: EU stellt Verhandlungsteam, Trump plant Gipfel mit Xi und Putin",
+          "kurz": "Beim EU-Treffen in Dublin einigten sich die Chefs auf ein Team aus Kommission, Rat und den <b>E5</b> (Deutschland, Frankreich, Großbritannien, Italien, Polen). Witkoff spricht nach dem Kreml-Besuch von Fortschritten.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Dublin", "suche": "Dublin Irland"},
+            {"name": "Kreml", "suche": "Kreml Moskau"}
+          ],
+          "lang": [
+            "Kanzler Merz sagte, Deutschland sei bei Gesprächen mit Russland gesetzt. Kleinere Staaten wie Estland und Luxemburg hätten lieber EU-Spitzen wie Ratspräsident Costa vorne gesehen, setzten sich aber nicht durch. Nächste Woche lädt Merz die Koalition der Willigen nach Berlin, es geht um Geld für die Ukraine im kommenden Jahr. Der Kreml hat über eine größere Gesprächsrunde noch nicht entschieden.",
+            "Zuvor hatten die US-Gesandten Witkoff und Kushner Putin in Moskau getroffen, nachdem in Abu Dhabi erstmals seit Monaten Ukrainer und Russen direkt verhandelt hatten. Ein weiterer Termin sei vereinbart, sagt Witkoff. In der Nacht kündigte das Weiße Haus für nächste Woche ein Dreiertreffen von Trump, Xi und Putin in China an, Thema sollen Atomwaffen sein."
+          ],
+          "einschaetzung": "EU-Beschluss und Kreml-Treffen sind gut belegt; das Dreiertreffen ist bisher nur eine Ankündigung aus Washington ohne Bestätigung aus Moskau oder Peking.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3448115/"},
+            {"name": "news.de (dpa)", "url": "https://www.news.de/politik/860184331/witkoff-spricht-nach-putin-treffen-von-fortschritten-wladimir-putin-news-der-dpa-aktuell-zu-konflikte-krieg-und-diplomatie/1/"},
+            {"name": "Handelsblatt (Live-Blog)", "url": "https://www.handelsblatt.com/politik/international/ukraine-weisses-haus-kuendigt-dreiertreffen-trumps-mit-xi-und-putin-an/27982126.html"}
+          ]
+        },
+        {
+          "titel": "Niederlande: Koalition rettet sich nach sieben Stunden Krisengespräch",
+          "kurz": "Die Minderheitsregierung von Rob Jetten stand wegen einer <b>Millionärsteuer</b> vor dem Aus. Nun wollen die Partner einen Neustart versuchen, wie der aussieht, ist offen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Den Haag", "suche": "Binnenhof Den Haag"}
+          ],
+          "lang": [
+            "D66 und CDA hatten die Steuer mit der rot-grünen Oppositionspartei Pro durchs Parlament gebracht. Die rechtsliberale VVD sah darin einen Bruch des Koalitionsvertrags und drohte mit dem Austritt. Jetten räumte ein, das Verhältnis müsse inhaltlich und persönlich besser werden, am Wochenende wird weiter verhandelt.",
+            "Ein Bruch wäre heikel: Das Parlament ist in 17 Fraktionen zersplittert, radikal rechte Parteien haben fast ein Drittel der Sitze, und in knapp fünf Jahren sind schon drei Regierungen vorzeitig gescheitert."
+          ],
+          "einschaetzung": "dpa-Bericht, von Tagesspiegel und Handelsblatt verbreitet; die Lage kann am Wochenende kippen.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/internationales/dpa-regierung-in-der-krise-koalition-in-niederlanden-vorerst-gerettet-16281919.html"},
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/international/regierung-in-der-krise-koalition-in-niederlanden-vorerst-gerettet/100269753.html"}
+          ]
+        },
+        {
+          "titel": "Schüsse in Washington: Streit im Wohnhaus endet tödlich",
+          "kurz": "Im Stadtteil Logan Circle erschoss ein Mieter den Hausverwalter und verletzte <b>vier Menschen</b>. Danach verschanzte er sich, legte Feuer und tötete sich selbst.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Logan Circle, Washington", "suche": "Logan Circle Washington DC"}
+          ],
+          "lang": [
+            "Die Schüsse fielen im Fitnessraum des Wohnkomplexes und von einem Balkon im siebten Stock, unter den Verletzten sind Bauarbeiter einer benachbarten Baustelle. Ein Opfer schwebt in Lebensgefahr. Der Schütze feuerte auch durch die Wohnungstür auf Polizisten.",
+            "Als Motiv nennt die Polizei einen langen Streit mit der Eigentümergemeinschaft über Instandhaltung. Der Ort liegt rund anderthalb Kilometer vom Weißen Haus entfernt, einen politischen Hintergrund sehen die Ermittler nicht."
+          ],
+          "einschaetzung": "Polizeiangaben, von mehreren Medien übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Vorarlberg Online (APA/dpa)", "url": "https://www.vol.at/schuesse-in-washington-schuetze-war-veraergerter-mieter/11104466"},
+            {"name": "nord24 (dpa)", "url": "https://www.nord24.de/blaulicht/medien-mehrere-menschen-in-washington-angeschossen-430238.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Iran:</b> Teheran lehnt Gespräche über neue IAEA-Inspektionen vorerst ab und verweist auf die Sicherheitslage. Zuletzt durfte nur das Kraftwerk Buschehr besucht werden.",
+            "<b>COP31:</b> Auf der Klimakonferenz in der Türkei sind laut einem Bündnis Vertreter von <b>60 Verbänden</b> der fossilen Industrie akkreditiert.",
+            "<b>Moskau:</b> Zweite Autoexplosion binnen zwei Tagen, verletzt wurde ein früherer Berater des Ex-Regierungschefs Asarow.",
+            "<b>Grönland:</b> Der größte Teil der Insel stellt im Herbst 2027 auf UTC-3 um, zu Deutschland sind es dann <b>vier Stunden</b>."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen aus dem ZDFheute-Ticker vom 13. November."
+          ],
+          "einschaetzung": "Agenturmeldungen; die Angaben zur Lobby-Akkreditierung stammen von einer Kampagnengruppe.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Die Seiten der Hannover Scorpions waren heute nicht abrufbar.",
+      "meldungen": [
+        {
+          "titel": "3:1 im Regen von Belgrad: Endspiel gegen Oranje",
+          "kurz": "Das DFB-Team gewinnt in Serbien durch ein Eigentor, <b>Florian Wirtz</b> und den ersten Länderspieltreffer von <b>Brajan Gruda</b>. Ein Sieg am Montag in Berlin sichert das Viertelfinale.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Belgrad", "suche": "Belgrad Serbien"},
+            {"name": "Olympiastadion Berlin", "suche": "Olympiastadion Berlin"}
+          ],
+          "lang": [
+            "Nach einer Ecke lenkte Srdjan Babic einen Havertz-Kopfball schon in der 3. Minute ins eigene Tor, Wirtz legte nach einer Viertelstunde nach. Gruda traf kurz nach der Pause, Babic verkürzte für Serbien. Wegen einer UEFA-Strafe fand das Spiel fast ohne Zuschauer statt. Serbien beendete es zu neunt, eine Rote Karte gab es nach einem harten Foul an Joshua Kimmich.",
+            "Die Niederlande führen die Gruppe mit 11 Punkten an, Deutschland und Griechenland haben je 8. Gewinnt Klopps Team am Montag um <b>20.45 Uhr</b> im Olympiastadion (Das Erste), ist es im März beim Viertelfinale dabei. Bei einem Remis kommt es auf Griechenland an."
+          ],
+          "einschaetzung": "Ergebnis und Torschützen von ZDFheute und Sky übereinstimmend; die Minute der ersten Roten Karte wird unterschiedlich angegeben.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/sport/fussball-nations-league-serbien-deutschland-tore-ergebnis-100.html"},
+            {"name": "Sky Sport", "url": "https://sport.sky.de/fussball/serbien-vs-deutschland/spielbericht/554099"},
+            {"name": "sportnews.bz (Tabelle)", "url": "https://www.sportnews.bz/artikel/fussball/international/nationalteams/im-regen-von-belgrad-deutschland-erkaempft-sich-endspiel"}
+          ]
+        },
+        {
+          "titel": "Indians drehen das Spiel im Schlussdrittel",
+          "kurz": "Nach 1:2 im ersten Drittel schossen die Indians gegen Herford im letzten Abschnitt <b>fünf Tore</b> und gewannen 6:2. Schingoethe traf doppelt, <b>4.115 Fans</b> am Pferdeturm.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Eisstadion am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}
+          ],
+          "lang": [
+            "Die weiteren Tore erzielten Kabitzky, Alderson, Zawatsky und Neugebauer. Das Spiel war hitzig: 20 Strafminuten für Hannover, 18 für Herford.",
+            "Sonntag ab 15 Uhr wartet die schwerste Aufgabe: Auswärts beim Tabellenführer Tilburg Trappers. Am Freitag, 20. November, kommen die Hammer Eisbären an den Pferdeturm."
+          ],
+          "einschaetzung": "Ergebnis laut Verein; eine unabhängige zweite Quelle lag beim Redaktionsschluss noch nicht vor.",
+          "quellen": [
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"}
+          ]
+        },
+        {
+          "titel": "Recken verlieren ihren Torhüter zum Saisonende",
+          "kurz": "<b>Simon Gade</b> kehrt im Sommer nach Dänemark zurück. Vor dem Abschied geht es Sonntag um <b>18 Uhr</b> zum Schwergewicht Gummersbach.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Schwalbe-Arena", "suche": "Schwalbe Arena Gummersbach"}
+          ],
+          "lang": [
+            "Der 29-Jährige kam 2023 aus Aalborg und bestritt 108 Bundesligaspiele für die TSV Hannover-Burgdorf. Einen neuen Verein nannten die Recken nicht.",
+            "Nach Gummersbach folgt am Freitag, 20. November, um 19 Uhr das Heimspiel gegen Stuttgart, Ende des Monats geht es zu den Füchsen nach Berlin."
+          ],
+          "einschaetzung": "Vereinsmitteilung, berichtet von Radio Hannover; Termine laut Spielplan.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/torhueter-simon-gade-verlaesst-die-recken"},
+            {"name": "Die Recken (Spielplan)", "url": "https://www.die-recken.de/spielplan/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>Hannover 96:</b> Nach dem 6:1 gegen Havelse hat das Team bis Wochenende frei. Neubauer und Gindorf sind nach Krankheit zurück. Nächstes Ligaspiel: <b>Sa 21. November, 13 Uhr</b> gegen Fürth.",
+            "<b>96-Profis unterwegs:</b> Ghita spielt heute 20.45 Uhr mit Rumänien gegen Polen, Reinhold mit der U19 um 17 Uhr in Portugal.",
+            "<b>Tennis:</b> Die ATP Finals in Turin starten Sonntag. Alexander Zverev trifft frühestens <b>14 Uhr</b> auf Rafael Jódar, in der Gruppe warten außerdem Shelton und Fils.",
+            "<b>BVB:</b> Dortmund verlängert den Sponsorvertrag mit Rheinmetall nicht, er endet im Sommer 2027 nach anhaltender Fankritik."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen von Vereinen, sport1 und ZDFheute."
+          ],
+          "einschaetzung": "Vereins- und Veranstalterangaben.",
+          "quellen": [
+            {"name": "Hannover 96", "url": "https://www.hannover96.de/newscenter/news/details/37709-luettjes-vom-tage-die-96-kurznachrichten-vom-freitag.html"},
+            {"name": "Hannover 96 (Nationalspieler)", "url": "https://www.hannover96.de/newscenter/news/details/new6af1a72a81145238035106-letzte-laenderspielpause-des-jahres-zahlreiche-96-profis-mit-ihren-nationalmannschaften-unterwegs.html"},
+            {"name": "sport1", "url": "https://www.sport1.de/news/tennis/atp/2026/11/atp-finals-zverev-am-sonntagmittag-gefordert"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+      "trends": [
+        {"begriff": "künstliche intelligenz", "volumen": "1.000+", "anlass": "Nvidia nach Huang-Rücktritt"},
+        {"begriff": "mario basler", "volumen": "500+", "anlass": "Hilft bei Reanimation nach A63-Unfall"},
+        {"begriff": "bill gates", "volumen": "200+", "anlass": "Ranking teurer Promi-Scheidungen"},
+        {"begriff": "nintendo switch 2 black friday", "volumen": "200+", "anlass": "Bundles mit Mario Kart und Zelda"},
+        {"begriff": "prozess", "volumen": "200+", "anlass": "Depardieu zieht Berufung zurück"},
+        {"begriff": "magic – bucks", "volumen": "200+", "anlass": "NBA-Cup-Spiel in Orlando"},
+        {"begriff": "kaulitz & kaulitz", "volumen": "100+", "anlass": "Netflix-Serie der Kaulitz-Brüder"},
+        {"begriff": "kick", "volumen": "100+", "anlass": "Musical „Kick Like a Woman“ in Köln"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Nvidia ohne Huang: Gründer geht, Aktie stürzt",
+          "kurz": "Jensen Huang hat als Chef, Präsident und Mitglied des Verwaltungsrats <b>mit sofortiger Wirkung</b> aufgehört. Übergangschefin ist Finanzchefin <b>Colette Kress</b>.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Nvidia-Zentrale", "suche": "Nvidia Headquarters Santa Clara"}
+          ],
+          "lang": [
+            "Huang hatte den Chipkonzern 1993 mitgegründet und zum wichtigsten Lieferanten der KI-Branche gemacht. Vorausgegangen waren Berichte über zwei Affären und eine interne Untersuchung. Eine der Frauen soll US-Geheimdiensten zufolge für China gearbeitet haben. Die Aktie fiel am Donnerstag zeitweise um rund 13 Prozent, Analysten senkten reihenweise ihre Kursziele.",
+            "Neuer Verwaltungsratschef ist Harvey Jones, ein dauerhafter Chef wird intern und extern gesucht. Der Chef des Bankenausschusses im US-Senat will ihn zu Sicherheitsfragen beim Chip-Export befragen. Am <b>17. November</b> legt Nvidia wie geplant Quartalszahlen vor, das wird der erste Härtetest."
+          ],
+          "einschaetzung": "Rücktritt durch Nvidia-Mitteilung und Börsenpflichtmeldung belegt; der Spionageverdacht ist nicht bewiesen.",
+          "quellen": [
+            {"name": "Nvidia (Mitteilung)", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"},
+            {"name": "Der Aktionär", "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-huang-ist-raus-20441366.html"},
+            {"name": "Yahoo Finanzen (Reuters)", "url": "https://de.finance.yahoo.com/nachrichten/nvidia-aktie-bricht-bericht-%C3%BC-075617934.html"}
+          ]
+        },
+        {
+          "titel": "GTA 6 kommt Donnerstag, Deutschland nimmt frei",
+          "kurz": "Für den <b>19. November</b>, den Starttag von GTA 6, haben laut Personio <b>38 Prozent</b> mehr Beschäftigte Urlaub eingetragen als vor einem Jahr.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Das Spiel erscheint für PlayStation 5 und Xbox Series X. Wer Donnerstag und Freitag freinimmt, hat mit dem Wochenende vier Tage am Stück, entsprechend voll dürften die Urlaubskalender sein.",
+            "Einen Rechtsanspruch auf Sonderurlaub fürs Zocken gibt es natürlich nicht. Ratgeber verweisen darauf, dass es allein auf das Entgegenkommen des Arbeitgebers ankommt."
+          ],
+          "einschaetzung": "Die Urlaubszahl stammt von einem HR-Softwareanbieter und deckt nur dessen Kunden ab.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "netzwelt", "url": "https://www.netzwelt.de/news/259400-urlaub-gta-6-19-november-australische-regierung-gibt-tipps-deutschen-fans-helfen.html"}
+          ]
+        },
+        {
+          "titel": "Switch 2 im Black-Friday-Bundle",
+          "kurz": "Händler bieten die Konsole schon vor dem Black Friday im Paket mit <b>Mario Kart</b> oder <b>Zelda</b> an, die Suchanfragen steigen.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Laut t-online hat Mediamarkt Bundles reduziert, Sammlerseiten nennen für das Zelda-Paket knapp 560 Euro. Black Friday ist am 27. November, viele Aktionen laufen schon jetzt.",
+            "Vor dem Kauf lohnt der Preisvergleich: Frühe Angebote sind nicht automatisch die günstigsten der Saison."
+          ],
+          "einschaetzung": "Angebotsartikel mit Händlerpreisen, die sich täglich ändern können.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/ratgeber/deals/technik-deals/id_101526590/black-friday-nintendo-switch-2-bundles-mit-mario-und-zelda-bei-mediamarkt.html"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Nachtrag:</b> Gestern stand, der 20-Jährige aus Empelde schwebe in Lebensgefahr. Laut Radio Hannover ist er inzwischen außer Lebensgefahr, aber weiter im Krankenhaus.",
+    "<b>Nvidia:</b> Dass eine Bekannte Huangs für China spioniert habe, ist ein Verdacht aus US-Geheimdienstkreisen. Präsident Trump sagte selbst, das sei noch nicht geklärt.",
+    "<b>Gipfel in China:</b> Das Dreiertreffen Trump, Xi, Putin hat bisher nur das Weiße Haus angekündigt. Weder Datum noch Bestätigung aus Moskau oder Peking liegen vor.",
+    "<b>Indians:</b> Das 6:2 stammt bislang nur vom Verein selbst, unabhängige Spielberichte fehlten beim Redaktionsschluss."
+  ],
+  "woche": [
+    {"wann": "Sa 14. Nov", "titel": "Sonne, Demo, Bahnlücke", "text": "Rund <b>6 Stunden Sonne</b>, trocken, <b>1 bis 8 Grad</b>, schwacher Wind. Flohmarkt auf der Neuen Bult. <b>14 Uhr:</b> Demo auf dem Opernplatz. <b>Ab 21 Uhr:</b> S1, S2, S5 zwischen Hauptbahnhof und Weetzen gesperrt, Busersatz. Abends Max Raabe im Kuppelsaal."},
+    {"wann": "So 15. Nov", "titel": "Volkstrauertag mit Eis und Handball", "text": "Wenig Sonne, bis <b>10 Grad</b>, ab dem Abend Regen. <b>Ab 14 Uhr:</b> Zverev gegen Jódar bei den ATP Finals. <b>15 Uhr:</b> Indians in Tilburg. <b>18 Uhr:</b> Recken in Gummersbach."},
+    {"wann": "Mo 16. bis Fr 20. Nov", "titel": "Oranje, GTA, Heimspiele", "text": "Montag Schauer bei <b>4 bis 9 Grad</b>, Dienstag nass und windig. <b>Mo 6 Uhr:</b> S-Bahn nach Weetzen fährt wieder, S21/S51 erst ab Donnerstag. <b>Mo 20.45 Uhr:</b> Deutschland gegen Niederlande (Das Erste). <b>Di:</b> Koalitionsausschuss zur Stromsteuer, abends US-Zeit Nvidia-Quartalszahlen. <b>Do:</b> GTA 6 erscheint. <b>Fr 19 Uhr:</b> Recken gegen Stuttgart, <b>20 Uhr:</b> Indians gegen Hamm. Vorschau: 96 gegen Fürth am <b>Sa 21. um 13 Uhr</b>."}
+  ]
+}
