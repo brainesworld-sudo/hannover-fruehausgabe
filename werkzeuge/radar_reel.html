@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar-Reel – Tipp des Tages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0c0b;--p1:#171412;--p2:#201c19;--ln:#332c27;--tx:#efe6d6;--mu:#a59a8a;--red:#d23a2c;--r:12px}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 Barlow,system-ui,sans-serif}
+header.top{display:flex;align-items:baseline;gap:14px;padding:16px 22px;border-bottom:1px solid var(--ln)}
+header.top h1{margin:0;font:600 22px Oswald,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+header.top h1 b{color:var(--red);font-weight:600}
+header.top span{color:var(--mu);font-size:14px}
+.wrap{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:22px;padding:22px;max-width:1200px;margin:0 auto}
+@media(max-width:820px){.wrap{grid-template-columns:1fr;padding:14px}}
+.panel{background:var(--p1);border:1px solid var(--ln);border-radius:var(--r);padding:16px}
+.panel h2{margin:0 0 10px;font:500 13px Oswald,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+.panel+.panel{margin-top:14px}
+label{display:block;font-size:13px;color:var(--mu);margin:10px 0 4px}
+input,textarea{width:100%;background:var(--p2);border:1px solid var(--ln);border-radius:8px;color:var(--tx);font:15px Barlow,sans-serif;padding:9px 10px;outline:none}
+input:focus,textarea:focus{border-color:var(--red)}
+textarea{resize:vertical;min-height:62px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.geo{margin-top:8px;font-size:13px;color:var(--mu)}
+.geo.bad{color:#ff8b7e}
+details{margin-top:8px;font-size:13px;color:var(--mu)}
+details summary{cursor:pointer}
+.chk{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:14px;color:var(--tx)}
+.chk input{width:auto}
+.stage{display:flex;flex-direction:column;align-items:center;gap:12px}
+.cv{position:relative;height:min(78vh,800px);aspect-ratio:9/16;max-width:100%;border-radius:14px;overflow:hidden;border:1px solid var(--ln);background:#000}
+.cv canvas{width:100%;height:100%;display:block}
+.cv .safe{position:absolute;inset:0;pointer-events:none;display:none}
+.cv .safe.on{display:block}
+.cv .safe i{position:absolute;background:rgba(80,180,255,.16);border:1px dashed rgba(120,200,255,.6)}
+.ctl{display:flex;align-items:center;gap:10px;width:min(100%,460px)}
+.ctl input[type=range]{flex:1;accent-color:var(--red);padding:0;background:none;border:0}
+.ctl .tm{font:500 13px Oswald,sans-serif;color:var(--mu);min-width:62px;text-align:right}
+button{font:500 15px Oswald,sans-serif;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--ln);background:var(--p2);color:var(--tx);border-radius:9px;padding:10px 14px;cursor:pointer}
+button:hover{border-color:var(--mu)}
+button.pri{background:var(--red);border-color:var(--red);color:#fff}
+button:disabled{opacity:.5;cursor:default}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;width:min(100%,460px)}
+.btns button{flex:1 1 150px}
+.status{min-height:22px;font-size:14px;color:var(--mu);text-align:center;width:min(100%,460px)}
+.status.err{color:#ff8b7e}.status.ok{color:#9fd9a0}
+.bar{height:4px;width:min(100%,460px);background:var(--p2);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--red);transition:width .1s linear}
+.hint{font-size:13px;color:var(--mu);margin-top:8px}
+</style>
+</head>
+<body>
+<header class="top"><h1>Konzert-<b>Radar</b> · Reel</h1><span>Tipp des Tages als Radar-Reel (9:16)</span></header>
+<div class="wrap">
+  <div>
+    <form class="panel" id="f" autocomplete="off">
+      <h2>Tipp des Tages</h2>
+      <label for="band">Band</label>
+      <input id="band" required>
+      <label for="support">Support (optional)</label>
+      <input id="support" placeholder="+ Vorband">
+      <div class="row">
+        <div><label for="date">Datum</label><input id="date" type="date"></div>
+        <div><label for="club">Club</label><input id="club"></div>
+      </div>
+      <label for="city">Ort</label>
+      <input id="city" list="cities">
+      <datalist id="cities"></datalist>
+      <div class="geo" id="geo"></div>
+      <details id="coordBox"><summary>Koordinaten von Hand</summary>
+        <div class="row"><div><label for="lat">Breite</label><input id="lat" inputmode="decimal"></div><div><label for="lon">Länge</label><input id="lon" inputmode="decimal"></div></div>
+      </details>
+      <label for="line">Warum hingehen? (1–2 Sätze)</label>
+      <textarea id="line" rows="3"></textarea>
+      <label for="hoer">Hörtipp (Songtitel)</label>
+      <input id="hoer">
+      <label for="note">Hinweis (optional, z. B. „Eintritt frei“)</label>
+      <input id="note">
+    </form>
+    <div class="panel">
+      <h2>Darstellung</h2>
+      <label class="chk"><input type="checkbox" id="optCities" checked> Städte als Orientierung im Radar</label>
+      <label class="chk"><input type="checkbox" id="optSafe"> Instagram-Safe-Zone einblenden</label>
+      <p class="hint">Musik legst du beim Hochladen in der Instagram-App aus der Musikbibliothek drüber, am besten den Hörtipp. Das Video selbst ist stumm.</p>
+    </div>
+  </div>
+  <div class="stage">
+    <div class="cv"><canvas id="cv" width="1080" height="1920"></canvas>
+      <div class="safe" id="safe"><i style="left:0;right:0;top:0;height:11.5%"></i><i style="left:0;right:0;bottom:0;height:20%"></i><i style="right:0;width:13%;top:52%;bottom:20%"></i></div>
+    </div>
+    <div class="ctl"><button id="play" type="button">▶</button><input type="range" id="scrub" min="0" max="10.5" step="0.01" value="0"><span class="tm" id="tm">0,0 s</span></div>
+    <div class="btns">
+      <button class="pri" id="exp" type="button">Video exportieren</button>
+      <button id="png" type="button">Titelbild (PNG)</button>
+    </div>
+    <div class="bar"><i id="prog"></i></div>
+    <div class="status" id="st"></div>
+  </div>
+</div>
+<script>
+(function(){
+'use strict';
+const W=1080,H=1920,D=10.5;
+const BG='#0e0c0b',CREAM='239,230,214',RED='210,58,44';
+const HOME={name:'Hannover',lat:52.3759,lon:9.7320};
+const CITIES={
+'hannover':[52.3759,9.7320],'hamburg':[53.5511,9.9937],'bremen':[53.0793,8.8017],'berlin':[52.5200,13.4050],'köln':[50.9375,6.9603],
+'leipzig':[51.3397,12.3731],'braunschweig':[52.2689,10.5268],'göttingen':[51.5413,9.9158],'kassel':[51.3127,9.4797],'osnabrück':[52.2799,8.0472],
+'bielefeld':[52.0302,8.5325],'magdeburg':[52.1205,11.6276],'münster':[51.9607,7.6261],'dortmund':[51.5136,7.4653],'bochum':[51.4818,7.2162],
+'essen':[51.4556,7.0116],'oberhausen':[51.4963,6.8638],'gelsenkirchen':[51.5177,7.0857],'düsseldorf':[51.2277,6.7735],'kiel':[54.3233,10.1228],
+'lübeck':[53.8655,10.6866],'oldenburg':[53.1435,8.2146],'vechta':[52.7306,8.2864],'hameln':[52.1040,9.3561],'celle':[52.6226,10.0805],
+'hildesheim':[52.1508,9.9511],'wolfsburg':[52.4227,10.7865],'salzgitter':[52.1508,10.3593],'goslar':[51.9060,10.4290],'lüneburg':[53.2464,10.4115],
+'uelzen':[52.9659,10.5585],'nienburg':[52.6410,9.2080],'minden':[52.2896,8.9145],'herford':[52.1152,8.6734],'detmold':[51.9387,8.8790],
+'paderborn':[51.7189,8.7575],'erfurt':[50.9848,11.0299],'halle (saale)':[51.4969,11.9688],'jena':[50.9271,11.5892],'ilsenburg':[51.8667,10.6833],
+'rheine':[52.2756,7.4400],'coesfeld':[51.9461,7.1678],'emden':[53.3670,7.2061],'hinte':[53.4167,7.1833],'leer':[53.2310,7.4610],
+'nordenham':[53.4867,8.4833],'northeim':[51.7066,9.9997],'isernhagen':[52.4340,9.8650],'sulingen':[52.6833,8.8000],'wacken':[54.0219,9.3769],
+'scheeßel':[53.1700,9.4830],'bremervörde':[53.4833,9.1333],'langwedel':[52.9970,9.1820],'dannenberg':[53.0974,11.0989],'ballenstedt':[51.7193,11.2346],
+'peine':[52.3203,10.2336],'gehrden':[52.3130,9.6000],'stade':[53.5995,9.4761],'cuxhaven':[53.8615,8.6944],'wilhelmshaven':[53.5300,8.1100],
+'lingen':[52.5230,7.3230],'gifhorn':[52.4889,10.5469],'stadthagen':[52.3240,9.2060],'rinteln':[52.1890,9.0780],'holzminden':[51.8250,9.4530],
+'einbeck':[51.8200,9.8680],'osterode':[51.7290,10.2520],'wernigerode':[51.8352,10.7851],'halberstadt':[51.8958,11.0467],'quedlinburg':[51.7891,11.1418],
+'stendal':[52.6040,11.8580],'schwerin':[53.6355,11.4012],'rostock':[54.0924,12.0991],'potsdam':[52.3906,13.0645],'obermehler':[51.2700,10.5970],
+'garbsen':[52.4180,9.5980],'laatzen':[52.3150,9.7970],'langenhagen':[52.4400,9.7400],'burgwedel':[52.4930,9.8600],'wunstorf':[52.4240,9.4350],
+'springe':[52.2080,9.5540],'lehrte':[52.3720,9.9770],'sarstedt':[52.2380,9.8600],'bad nenndorf':[52.3360,9.3720],'walsrode':[52.8610,9.5930],
+'soltau':[52.9860,9.8430],'verden':[52.9230,9.2350],'delmenhorst':[53.0510,8.6310],'bremerhaven':[53.5396,8.5809],'flensburg':[54.7937,9.4469]
+};
+const MAP=[['Hamburg',53.5511,9.9937],['Bremen',53.0793,8.8017],['Berlin',52.52,13.405],['Leipzig',51.3397,12.3731],['Köln',50.9375,6.9603],
+['Kassel',51.3127,9.4797],['Göttingen',51.5413,9.9158],['Braunschweig',52.2689,10.5268],['Osnabrück',52.2799,8.0472],['Bielefeld',52.0302,8.5325],
+['Magdeburg',52.1205,11.6276],['Dortmund',51.5136,7.4653],['Kiel',54.3233,10.1228]];
+const DIRS=['N','NNO','NO','ONO','O','OSO','SO','SSO','S','SSW','SW','WSW','W','WNW','NW','NNW'];
+const $=id=>document.getElementById(id);
+const cv=$('cv'),c=cv.getContext('2d');
+const F=['band','support','date','club','city','lat','lon','line','hoer','note'];
+const DEF={band:"Murphy's Law",support:'+ Clobber',date:'2026-11-19',club:'Gulfhaus',city:'Vechta',lat:'',lon:'',line:'NYHC-Urgestein seit 1982 – Partystimmung garantiert.',hoer:'Back with a Bong!',note:''};
+const KEY='konzert-radar-reel-v1';
+
+// ---------- geo ----------
+const rad=d=>d*Math.PI/180;
+function geo(lat,lon){
+  const R=6371,p1=rad(HOME.lat),p2=rad(lat),dp=p2-p1,dl=rad(lon-HOME.lon);
+  const a=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;
+  const dist=2*R*Math.asin(Math.sqrt(a));
+  const y=Math.sin(dl)*Math.cos(p2),x=Math.cos(p1)*Math.sin(p2)-Math.sin(p1)*Math.cos(p2)*Math.cos(dl);
+  const brg=(Math.atan2(y,x)*180/Math.PI+360)%360;
+  return {dist,brg,dir:DIRS[Math.round(brg/22.5)%16]};
+}
+const norm=s=>s.trim().toLowerCase().replace(/\s+/g,' ');
+function lookup(name){
+  const k=norm(name);if(!k)return null;
+  if(CITIES[k])return CITIES[k];
+  const hit=Object.keys(CITIES).find(n=>n.split(' ')[0]===k.split(' ')[0]||n.startsWith(k));
+  return hit?CITIES[hit]:null;
+}
+$('cities').innerHTML=Object.keys(CITIES).map(n=>'<option value="'+n.replace(/(^|[\s(])\S/g,m=>m.toUpperCase())+'">').join('');
+
+// ---------- state ----------
+let S={};
+function read(){
+  F.forEach(k=>S[k]=$(k).value);
+  S.cities=$('optCities').checked;
+  let lat=parseFloat(String(S.lat).replace(',','.')),lon=parseFloat(String(S.lon).replace(',','.'));
+  let src='manual';
+  if(!(isFinite(lat)&&isFinite(lon))){const l=lookup(S.city);if(l){lat=l[0];lon=l[1];src='list';}else{lat=NaN;lon=NaN;}}
+  const g=$('geo');
+  if(isFinite(lat)&&isFinite(lon)){
+    S.g=geo(lat,lon);
+    const d=Math.round(S.g.dist);
+    g.className='geo';
+    g.textContent=d<5?'Liegt direkt in Hannover.':(d+' km '+S.g.dir+' von Hannover'+(d>300?' – außerhalb der 300 km, steht am Rand':'')+(src==='manual'?' (Koordinaten von Hand)':''));
+  }else{
+    S.g=null;g.className='geo bad';g.textContent=S.city.trim()?'Ort nicht in der Liste – bitte unter „Koordinaten von Hand“ eintragen.':'';
+    if(S.city.trim())$('coordBox').open=true;
+  }
+  try{localStorage.setItem(KEY,JSON.stringify(Object.assign({},S,{g:undefined})))}catch(e){}
+}
+function load(){
+  let d=DEF;
+  try{const j=JSON.parse(localStorage.getItem(KEY)||'null');if(j&&j.band!==undefined)d=Object.assign({},DEF,j)}catch(e){}
+  F.forEach(k=>$(k).value=d[k]||'');
+  if(d.cities===false)$('optCities').checked=false;
+}
+function dateLabel(v){
+  if(!v)return '';
+  const [y,m,dd]=v.split('-').map(Number);const dt=new Date(y,m-1,dd);
+  return ['So','Mo','Di','Mi','Do','Fr','Sa'][dt.getDay()]+' '+String(dd).padStart(2,'0')+'.'+String(m).padStart(2,'0')+'.';
+}
+
+// ---------- drawing helpers ----------
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const eo=x=>1-Math.pow(1-clamp(x),3);
+const eio=x=>{x=clamp(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const col=(rgb,a)=>'rgba('+rgb+','+a+')';
+function font(w,s,fam){c.font=w+' '+s+'px '+(fam||'Oswald')+',"Arial Narrow",sans-serif'}
+function spaced(t,x,y,sp,align){
+  const chars=[...t];let w=0;chars.forEach(ch=>w+=c.measureText(ch).width+sp);w-=sp;
+  let cx=align==='center'?x-w/2:align==='right'?x-w:x;
+  const old=c.textAlign;c.textAlign='left';
+  chars.forEach(ch=>{c.fillText(ch,cx,y);cx+=c.measureText(ch).width+sp});
+  c.textAlign=old;return w;
+}
+function wrap(t,maxW){
+  const words=t.split(/\s+/).filter(Boolean),lines=[];let cur='';
+  words.forEach(w=>{const tst=cur?cur+' '+w:w;if(c.measureText(tst).width>maxW&&cur){lines.push(cur);cur=w}else cur=tst});
+  if(cur)lines.push(cur);return lines;
+}
+function fitLines(text,maxW,maxS,minS,weight,fam){
+  for(let s=maxS;s>=minS;s-=4){font(weight,s,fam);if(c.measureText(text).width<=maxW)return {s,lines:[text]}}
+  for(let s=maxS;s>=minS*.8;s-=4){font(weight,s,fam);const l=wrap(text,maxW);if(l.length<=2&&l.every(x=>c.measureText(x).width<=maxW))return {s,lines:l}}
+  const s=Math.round(minS*.8);font(weight,s,fam);return {s,lines:wrap(text,maxW).slice(0,3)};
+}
+
+// grain
+const grain=document.createElement('canvas');grain.width=grain.height=256;
+(function(){const g=grain.getContext('2d'),im=g.createImageData(256,256);for(let i=0;i<im.data.length;i+=4){const v=Math.random()*255;im.data[i]=im.data[i+1]=im.data[i+2]=v;im.data[i+3]=255}g.putImageData(im,0,0)})();
+let grainPat=null;
+
+// ---------- timeline ----------
+const CX=520,CY=870,R=400;
+const T_HIT=2.7,T_OUT=3.9,T_CARD=4.15,T_CARD_END=8.65,T_END=8.95;
+const OMEGA=2*Math.PI/1.7;
+const rOf=d=>R*Math.sqrt(clamp(d,0,330)/300);
+const angOf=b=>rad(b)-Math.PI/2;
+function targetAng(){return S.g?angOf(S.g.brg):-Math.PI/2+0.9}
+function sweepAng(t){return targetAng()-OMEGA*(T_HIT-t)}
+
+function drawRadar(t,alpha,scale){
+  if(alpha<=0.003)return;
+  c.save();c.globalAlpha=alpha;
+  c.translate(CX,CY);c.scale(scale,scale);c.translate(-CX,-CY);
+  // disc
+  const g=c.createRadialGradient(CX,CY,0,CX,CY,R);g.addColorStop(0,'rgba(40,30,26,.55)');g.addColorStop(1,'rgba(20,16,14,.15)');
+  c.fillStyle=g;c.beginPath();c.arc(CX,CY,R,0,Math.PI*2);c.fill();
+  // rings
+  const rings=[50,100,200,300];
+  rings.forEach((d,i)=>{
+    const p=eio((t-0.05-i*0.09)/0.55);if(p<=0)return;
+    c.strokeStyle=col(CREAM,i===3?.42:.2);c.lineWidth=i===3?3:2;
+    c.beginPath();c.arc(CX,CY,rOf(d),-Math.PI/2,-Math.PI/2+Math.PI*2*p);c.stroke();
+    font(400,24,'Barlow');c.fillStyle=col(CREAM,.5*p);c.textAlign='left';
+    c.fillText(d+(i===3?' km':''),CX+8,CY-rOf(d)+28);
+  });
+  // cross
+  const pc=eo((t-0.3)/0.5);
+  c.strokeStyle=col(CREAM,.1*pc);c.lineWidth=2;
+  c.beginPath();c.moveTo(CX-R,CY);c.lineTo(CX+R,CY);c.moveTo(CX,CY-R);c.lineTo(CX,CY+R);c.stroke();
+  font(500,30);c.fillStyle=col(CREAM,.55*pc);c.textAlign='center';c.fillText('N',CX,CY-R-22);
+  // sweep
+  const sa=sweepAng(t),sv=clamp((t-0.3)/0.4);
+  if(sv>0){
+    c.save();c.beginPath();c.arc(CX,CY,R,0,Math.PI*2);c.clip();
+    const trail=1.15,n=40;
+    for(let i=0;i<n;i++){
+      const a1=sa-trail*i/n,a0=sa-trail*(i+1)/n;
+      c.fillStyle=col(CREAM,sv*.16*Math.pow(1-i/n,2.2));
+      c.beginPath();c.moveTo(CX,CY);c.arc(CX,CY,R,a0,a1);c.closePath();c.fill();
+    }
+    c.strokeStyle=col(CREAM,.85*sv);c.lineWidth=4;
+    c.beginPath();c.moveTo(CX,CY);c.lineTo(CX+R*Math.cos(sa),CY+R*Math.sin(sa));c.stroke();
+    c.restore();
+  }
+  // reference cities
+  if(S.cities){
+    MAP.forEach(([n,la,lo])=>{
+      const q=geo(la,lo);if(q.dist>330)return;
+      const a=angOf(q.brg),r=rOf(q.dist),x=CX+r*Math.cos(a),y=CY+r*Math.sin(a);
+      let delta=((sa-a)%(Math.PI*2)+Math.PI*2)%(Math.PI*2);
+      const glow=sv>0?Math.exp(-delta/1.1):0;
+      const base=.16*pc;
+      if(S.g&&Math.abs(q.dist-S.g.dist)<6&&Math.abs(q.brg-S.g.brg)<4)return;
+      c.fillStyle=col(CREAM,base+.55*glow);c.beginPath();c.arc(x,y,5,0,Math.PI*2);c.fill();
+      font(400,22,'Barlow');c.fillStyle=col(CREAM,(base+.45*glow)*.9);
+      c.textAlign=x<CX?'right':'left';c.fillText(n,x+(x<CX?-10:10),y+7);
+    });
+  }
+  // home
+  c.fillStyle=col(CREAM,.95*pc);c.beginPath();c.arc(CX,CY,8,0,Math.PI*2);c.fill();
+  font(500,24);c.fillStyle=col(CREAM,.8*pc);c.textAlign='left';spaced('HANNOVER',CX+16,CY+34,3);
+  // target
+  if(t>=T_HIT){
+    const k=t-T_HIT;
+    const d=S.g?S.g.dist:0,a=targetAng(),r=d<5?0:rOf(d);
+    const x=CX+r*Math.cos(a),y=CY+r*Math.sin(a);
+    if(r>0){
+      const lp=eo(k/0.45);
+      c.setLineDash([10,10]);c.strokeStyle=col(RED,.8);c.lineWidth=3;
+      c.beginPath();c.moveTo(CX,CY);c.lineTo(CX+(x-CX)*lp,CY+(y-CY)*lp);c.stroke();c.setLineDash([]);
+    }
+    for(let i=0;i<3;i++){
+      const ph=(k*0.85+i/3)%1;
+      c.strokeStyle=col(RED,.75*(1-ph));c.lineWidth=4;
+      c.beginPath();c.arc(x,y,14+80*ph,0,Math.PI*2);c.stroke();
+    }
+    const pop=1+0.6*Math.max(0,1-k/0.25);
+    c.shadowColor=col(RED,1);c.shadowBlur=30;
+    c.fillStyle=col(RED,1);c.beginPath();c.arc(x,y,15*pop,0,Math.PI*2);c.fill();
+    c.shadowBlur=0;
+  }
+  c.restore();
+}
+
+function header(t){
+  const a=eo(t/0.5);
+  c.textAlign='left';
+  font(500,34);c.fillStyle=col(CREAM,.95*a);const w=spaced('KONZERT-',90,262,5);
+  c.fillStyle=col(RED,a);spaced('RADAR',90+w+5,262,5);
+  font(400,26,'Barlow');c.fillStyle=col(CREAM,.55*a);c.fillText('Metal & Rock rund um Hannover · bis 300 km',90,302);
+}
+
+function sceneScan(t){
+  // status + found info below radar
+  const out=1-eo((t-T_OUT)/0.45);
+  if(out<=0)return;
+  c.save();c.globalAlpha=out;c.textAlign='left';
+  const y0=1370;
+  if(t<T_HIT){
+    font(500,34);c.fillStyle=col(CREAM,.75*eo((t-0.4)/0.4));
+    const dots='.'.repeat(1+Math.floor(t*3)%3);
+    spaced('SCANNE BIS 300 KM'+dots,90,y0,4);
+  }else{
+    const k=t-T_HIT;
+    font(500,34);c.fillStyle=col(RED,eo(k/0.25));spaced('SIGNAL ERKANNT',90,y0,4);
+    const name=(S.g&&S.g.dist<5)?'MITTEN IN HANNOVER':(S.city||'').toUpperCase();
+    const ft=fitLines(name,800,120,64,700);
+    const p=eo((k-0.12)/0.45);
+    c.fillStyle=col(CREAM,p);font(700,ft.s);
+    ft.lines.forEach((l,i)=>c.fillText(l,90,y0+ft.s*1.05+i*ft.s*1.02+(1-p)*30));
+    if(S.g&&S.g.dist>=5){
+      font(400,38,'Barlow');c.fillStyle=col(CREAM,.7*eo((k-0.3)/0.4));
+      c.fillText(Math.round(S.g.dist)+' km '+S.g.dir+' von Hannover',90,y0+ft.s*1.05+(ft.lines.length-1)*ft.s*1.02+62);
+    }
+  }
+  c.restore();
+}
+
+function sceneCard(t){
+  if(t<T_CARD-0.01||t>T_CARD_END+0.4)return;
+  const out=1-eo((t-T_CARD_END)/0.35);
+  c.save();c.globalAlpha=out;c.textAlign='left';
+  const X=90,MW=820;let y=540;let i=0;
+  const item=(fn,h)=>{const p=eo((t-T_CARD-i*0.17)/0.5);i++;if(p>0){c.save();c.globalAlpha*=p;c.translate(0,(1-p)*40);fn(y);c.restore()}y+=h};
+  item(yy=>{font(500,46);c.fillStyle=col(RED,1);spaced('TIPP DES TAGES',X,yy,8)},40);
+  const bt=fitLines((S.band||'').toUpperCase(),MW,210,100,700);
+  y+=bt.s*1.0+10;
+  item(yy=>{font(700,bt.s);c.fillStyle=col(CREAM,1);bt.lines.forEach((l,j)=>c.fillText(l,X-4,yy+j*bt.s*1.0))},(bt.lines.length-1)*bt.s*1.0+20);
+  if(S.support.trim()){y+=48;item(yy=>{font(400,58);c.fillStyle=col(CREAM,.72);c.fillText(S.support.trim(),X,yy)},10)}
+  y+=40;
+  item(yy=>{c.fillStyle=col(RED,1);c.fillRect(X,yy,150,8)},8);
+  const dl=[dateLabel(S.date),S.club.trim()].filter(Boolean).join(' · ');
+  if(dl){const ft=fitLines(dl,MW,70,48,500);y+=ft.s+34;item(yy=>{font(500,ft.s);c.fillStyle=col(CREAM,1);ft.lines.forEach((l,j)=>c.fillText(l,X,yy+j*ft.s*1.05))},(ft.lines.length-1)*ft.s*1.05)}
+  const loc=(S.g&&S.g.dist>=5)?(S.city.trim()+' · '+Math.round(S.g.dist)+' km von Hannover'):(S.g?S.city.trim()+' · mitten in Hannover':S.city.trim());
+  if(loc){y+=56;item(yy=>{font(400,40,'Barlow');c.fillStyle=col(CREAM,.62);c.fillText(loc,X,yy)},0)}
+  if(S.line.trim()){
+    font(400,50,'Barlow');const ls=wrap(S.line.trim(),MW).slice(0,4);
+    y+=110;item(yy=>{font(400,50,'Barlow');c.fillStyle=col(CREAM,.9);ls.forEach((l,j)=>c.fillText(l,X,yy+j*66))},(ls.length-1)*66);
+  }
+  if(S.hoer.trim()){
+    y+=120;item(yy=>{font(500,32);c.fillStyle=col(RED,1);spaced('HÖRTIPP',X,yy,6);
+      font('italic 400',44,'Barlow');c.fillStyle=col(CREAM,.95);const ls=wrap('„'+S.hoer.trim()+'“',MW).slice(0,2);ls.forEach((l,j)=>c.fillText(l,X,yy+56+j*56))},56);
+  }
+  if(S.note.trim()){
+    y+=92;item(yy=>{font(500,36);const tw=c.measureText(S.note.trim().toUpperCase()).width+40;
+      c.fillStyle=col(RED,1);c.beginPath();c.roundRect?c.roundRect(X,yy-40,tw+S.note.length*2,56,28):c.rect(X,yy-40,tw,56);c.fill();
+      c.fillStyle='#fff';spaced(S.note.trim().toUpperCase(),X+20,yy,2)},0);
+  }
+  c.restore();
+}
+
+function sceneEnd(t){
+  if(t<T_END)return;
+  const k=t-T_END;c.save();c.textAlign='center';const X=520;
+  const step=(i,fn)=>{const p=eo((k-i*0.16)/0.5);if(p<=0)return;c.save();c.globalAlpha=p;c.translate(0,(1-p)*36);fn();c.restore()};
+  step(0,()=>{font(400,46,'Barlow');c.fillStyle=col(CREAM,.75);c.fillText('Alle Konzerte rund um Hannover',X,760)});
+  step(1,()=>{const ft=fitLines('KALENDER',860,190,120,700);font(700,ft.s);c.fillStyle=col(CREAM,1);c.fillText('KALENDER',X,960)});
+  step(2,()=>{font(500,84);c.fillStyle=col(RED,1);spaced('→ LINK IN BIO',X,1080,6,'center')});
+  step(3,()=>{font(400,40,'Barlow');c.fillStyle=col(CREAM,.6);c.fillText('@konzert_radar_hannover',X,1170)});
+  c.restore();
+}
+
+function draw(t){
+  c.save();c.setTransform(1,0,0,1,0,0);
+  c.fillStyle=BG;c.fillRect(0,0,W,H);
+  const v=c.createRadialGradient(CX,CY,100,CX,CY,1250);v.addColorStop(0,'#1d1714');v.addColorStop(1,'#080706');
+  c.fillStyle=v;c.fillRect(0,0,W,H);
+  // radar layer
+  let ra=1,rs=1;
+  if(t>T_OUT){const k=eio((t-T_OUT)/0.7);ra=1-0.9*k;rs=1+0.15*k}
+  if(t>T_END){const k=eio((t-T_END)/0.6);ra=0.1+0.1*k;rs=1.15-0.1*k}
+  drawRadar(t,ra,rs);
+  header(t);
+  sceneScan(t);sceneCard(t);sceneEnd(t);
+  // grain
+  if(!grainPat)grainPat=c.createPattern(grain,'repeat');
+  c.save();c.globalAlpha=.045;c.globalCompositeOperation='overlay';
+  const ox=Math.floor(t*60)*37%256,oy=Math.floor(t*60)*53%256;c.translate(-ox,-oy);c.fillStyle=grainPat;c.fillRect(0,0,W+256,H+256);c.restore();
+  c.restore();
+}
+
+// ---------- playback ----------
+let playing=false,t0=0,cur=0,raf=0,busy=false;
+function setT(t){cur=t;$('scrub').value=t;$('tm').textContent=t.toFixed(1).replace('.',',')+' s';draw(t)}
+function loop(now){if(!playing)return;let t=(now-t0)/1000;if(t>D){t0=now;t=0}setT(t);raf=requestAnimationFrame(loop)}
+function play(){if(busy)return;playing=true;t0=performance.now()-cur*1000;$('play').textContent='❚❚';raf=requestAnimationFrame(loop)}
+function pause(){playing=false;cancelAnimationFrame(raf);$('play').textContent='▶'}
+$('play').onclick=()=>playing?pause():play();
+$('scrub').oninput=e=>{pause();setT(parseFloat(e.target.value))};
+$('f').addEventListener('input',()=>{read();if(!playing)draw(cur)});
+$('f').addEventListener('submit',e=>e.preventDefault());
+$('optCities').onchange=()=>{read();if(!playing)draw(cur)};
+$('optSafe').onchange=e=>$('safe').classList.toggle('on',e.target.checked);
+
+// ---------- saving ----------
+let dlNs;const dlReady=(window.claude&&window.claude.use)?window.claude.use('downloads').then(n=>dlNs=n).catch(()=>dlNs=null):Promise.resolve(null);
+function status(m,cls){const s=$('st');s.textContent=m;s.className='status'+(cls?' '+cls:'')}
+async function save(name,blob){
+  await Promise.race([dlReady,new Promise(r=>setTimeout(r,1500))]);
+  if(dlNs){
+    try{await dlNs.save({filename:name,data:blob});return 'ok'}
+    catch(e){if(e&&e.code==='declined')return 'declined';if(e&&e.code==='rate_limited')return 'busy'}
+  }
+  try{const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),60000);return 'ok'}
+  catch(e){return 'fail'}
+}
+function slug(){return ((S.band||'tipp').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'tipp')+(S.date?'-'+S.date:'')}
+function pickMime(){
+  if(!window.MediaRecorder)return null;
+  const L=['video/mp4;codecs=avc1.640028','video/mp4;codecs=avc1.42E01E','video/mp4;codecs=avc1','video/mp4','video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'];
+  return L.find(m=>{try{return MediaRecorder.isTypeSupported(m)}catch(e){return false}})||null;
+}
+$('exp').onclick=async()=>{
+  if(busy)return;read();
+  const mime=pickMime();
+  if(!mime||!cv.captureStream){status('Dieser Browser kann kein Video aufnehmen. Bitte Chrome am Rechner nutzen.','err');return}
+  pause();busy=true;$('exp').disabled=$('png').disabled=true;
+  status('Nehme auf … ('+D.toFixed(1).replace('.',',')+' s, bitte Tab offen lassen)');
+  const stream=cv.captureStream(30);const chunks=[];
+  let rec;try{rec=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:12000000})}catch(e){rec=new MediaRecorder(stream)}
+  rec.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data)};
+  const done=new Promise(r=>rec.onstop=r);
+  draw(0);rec.start(250);
+  const start=performance.now();
+  await new Promise(res=>{function f(now){const t=(now-start)/1000;if(t>=D+0.15){draw(D);res();return}draw(Math.min(t,D));$('prog').style.width=(100*t/D)+'%';requestAnimationFrame(f)}requestAnimationFrame(f)});
+  rec.stop();await done;stream.getTracks().forEach(tr=>tr.stop());
+  const ext=mime.startsWith('video/mp4')?'mp4':'webm';
+  const blob=new Blob(chunks,{type:mime.split(';')[0]});
+  $('prog').style.width='100%';
+  const r=await save('tipp-des-tages-'+slug()+'.'+ext,blob);
+  busy=false;$('exp').disabled=$('png').disabled=false;setTimeout(()=>$('prog').style.width='0',800);
+  if(r==='ok')status(ext==='mp4'?'Video gespeichert (MP4, '+(blob.size/1048576).toFixed(1).replace('.',',')+' MB).':'Video gespeichert als WebM. Für Instagram besser in Chrome am Rechner exportieren (dann MP4).','ok');
+  else if(r==='declined')status('Speichern abgebrochen.');
+  else status('Speichern hat nicht geklappt. Bitte noch einmal versuchen.','err');
+  setT(cur);
+};
+$('png').onclick=async()=>{
+  if(busy)return;read();pause();const keep=cur;draw(6.6);
+  cv.toBlob(async b=>{setT(keep);if(!b){status('Bild konnte nicht erzeugt werden.','err');return}
+    const r=await save('titelbild-'+slug()+'.png',b);
+    status(r==='ok'?'Titelbild gespeichert.':r==='declined'?'Speichern abgebrochen.':'Speichern hat nicht geklappt.',r==='ok'?'ok':'');
+  },'image/png');
+};
+
+// ---------- start ----------
+load();read();
+const fontsReady=Promise.all(['700 100px Oswald','500 40px Oswald','400 40px Oswald','400 40px Barlow','italic 400 40px Barlow'].map(f=>document.fonts.load(f).catch(()=>{})));
+Promise.race([fontsReady,new Promise(r=>setTimeout(r,2500))]).then(()=>{setT(0);play()});
+window.__radar={draw,read,S:()=>S,pause,set:o=>{pause();F.forEach(k=>{if(o[k]!==undefined&&o[k]!==null)$(k).value=String(o[k])});if(o.cities!==undefined)$('optCities').checked=!!o.cities;read();draw(0);return S.g?{dist:Math.round(S.g.dist),dir:S.g.dir}:null}};
+})();
+</script>
+</body>
+</html>
