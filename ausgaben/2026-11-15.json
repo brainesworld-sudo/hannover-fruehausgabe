@@ -1,0 +1,391 @@
+{
+  "stand": "Stand: Sonntag, 15. November, 3 Uhr",
+  "kurz": [
+    "<b>Nato gegen Donbass?</b> Laut Selenskyj haben US-Unterhändler erstmals einen Nato-Beitritt der Ukraine gegen einen Rückzug aus dem Donbass ins Spiel gebracht. Kiew lehnt Gebietsverzicht ab, eine <b>Volksabstimmung</b> über ein Gesamtpaket schließt Selenskyj aber nicht aus.",
+    "<b>Lechner gegen Lies:</b> Die CDU Niedersachsen hat in Hannover <b>Sebastian Lechner</b> einstimmig zum Spitzenkandidaten für die Landtagswahl am <b>26. September 2027</b> gewählt.",
+    "<b>Abschied von Aiwanger:</b> Mit Requiem und Trauerstaatsakt im Münchner Liebfrauendom hat Bayern seinen verstorbenen Vize-Regierungschef verabschiedet. Er wurde <b>55 Jahre</b> alt.",
+    "<b>Weltmeister als Kandidat:</b> Die AfD schickt den parteilosen <b>Thomas Berthold</b>, Fußball-Weltmeister von 1990, ins Rennen um das Amt des Bundespräsidenten.",
+    "<b>Chaos am US-Himmel wirkt nach:</b> Nach dem mehr als vierstündigen landesweiten Flugstopp am Freitag wurden in den USA über <b>4.700 Flüge</b> gestrichen, auch am Samstag fielen Hunderte aus.",
+    "<b>Aicher siegt in Levi:</b> Emma Aicher gewinnt einen Tag nach ihrem 23. Geburtstag ihren <b>ersten Weltcup-Slalom</b>. Heute spielen die Recken um <b>18 Uhr</b> in Gummersbach, die Indians um 15 Uhr in Tilburg."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Lechner soll die CDU zurück an die Macht führen",
+          "kurz": "Ohne Gegenkandidat und mit <b>100 Prozent</b> Zustimmung hat der Landesausschuss der CDU Niedersachsen Sebastian Lechner zum Spitzenkandidaten gekürt. Gewählt wird am <b>26. September 2027</b>.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Hannover", "suche": "Hannover Innenstadt"}
+          ],
+          "lang": [
+            "Der 45-Jährige führt die Landespartei und die Fraktion im Landtag. Vorgeschlagen hat ihn Vize-Landeschefin Gitta Connemann, die auf seine Erfahrung als Unternehmer und Kommunalpolitiker verwies, das Rennen aber ausdrücklich offen nannte. Als Gastredner trat NRW-Ministerpräsident Hendrik Wüst auf und sagte der Partei einen Sieg voraus.",
+            "Ziel ist die Ablösung der rot-grünen Landesregierung von Ministerpräsident Olaf Lies (SPD). 2022 lag die SPD mit 33,4 Prozent vor der CDU mit 28,1 Prozent. Die Grünen hatten eine Woche zuvor Kultusministerin Julia Willie Hamburg zur Spitzenkandidatin gemacht."
+          ],
+          "einschaetzung": "dpa-Meldung, von mehreren Portalen übereinstimmend verbreitet.",
+          "quellen": [
+            {"name": "news.de (dpa)", "url": "https://www.news.de/politik/860188087/lechner-einstimmig-zum-cdu-spitzenkandidaten-gewaehlt-promi-news-der-dpa-aktuell-zu-partei-wahl-und-personalien/1/"},
+            {"name": "onvista (dpa-AFX)", "url": "https://www.onvista.de/news/2026/11-14-niedersachsen-lechner-einstimmig-zum-cdu-spitzenkandidaten-gewaehlt-0-10-26576376"}
+          ]
+        },
+        {
+          "titel": "Narren übernehmen das Neue Rathaus",
+          "kurz": "Hannovers Karnevalisten haben am Samstagvormittag das Rathaus gestürmt. Bürgermeisterin <b>Uta Engelhardt</b> übergab den Stadtschlüssel, regiert wird jetzt bis Aschermittwoch.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Neues Rathaus", "suche": "Neues Rathaus Hannover"}
+          ],
+          "lang": [
+            "Das Komitee Hannoverscher Karneval stellte das neue Prinzenpaar der Session 2026/27 vor: Madeleine I. und Karsten I., dazu ein Kinderprinzenpaar. Gestellt hat die Tollitäten diesmal die Hannoversche Funkengarde aus Döhren-Wülfel, die ihr 55-jähriges Bestehen feiert.",
+            "Ein rührender Moment: Ein Verein überreichte der Prinzessin ihr erstes Kinderkostüm im Rahmen, was ihr die Tränen in die Augen trieb. Danach folgten Einzug, Garde-Auftritt und das dreifache Helau."
+          ],
+          "einschaetzung": "Bericht eines Lokalportals vom Ort, Termin vorab von Radio Hannover angekündigt.",
+          "quellen": [
+            {"name": "Stadtreporter", "url": "https://stadtreporter.de/hannover/hannovers-narren-stuermten-das-rathaus-buergermeisterin-engelhardt-uebergab-den-stadtschluessel/"},
+            {"name": "Radio Hannover (Ankündigung)", "url": "https://www.radio-hannover.de/aktuell/news"}
+          ]
+        },
+        {
+          "titel": "Zoo heute zu, ab Dienstag leuchtet es",
+          "kurz": "Der Erlebnis-Zoo bleibt am Sonntag für normale Gäste geschlossen, Tages- und Jahreskarten gelten nicht. Am Dienstag startet das neue Winterevent <b>ZooLights</b>.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Erlebnis-Zoo Hannover", "suche": "Erlebnis-Zoo Hannover"}
+          ],
+          "lang": [
+            "Grund ist eine Sonderveranstaltung nur für geladene Gäste, welche genau, sagt der Zoo nicht. Montag ist ohnehin Ruhetag, erst am Dienstag um 9 Uhr öffnen die Kassen wieder.",
+            "Die Lichtershow läuft bis 2. Februar 2027: Einlass ab 17 Uhr, letzter Einlass 21 Uhr, Licht aus um 22 Uhr. Sie ersetzt in diesem Jahr den Christmas Garden, der 2026 im Zoo nicht stattfindet."
+          ],
+          "einschaetzung": "Angaben des Zoos, berichtet von t-online Hannover.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101528108/erlebnis-zoo-hannover-bleibt-am-sonntag-fuer-besucher-geschlossen-grund.html"},
+            {"name": "t-online Hannover (Christmas Garden)", "url": "https://hannover.t-online.de/region/hannover/id_101491116/kein-christmas-garden-im-zoo-hannover-2026-das-ist-der-grund.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Stadt, Region und Land.",
+          "liste": [
+            "<b>Empelde:</b> Der 22-Jährige, der mit einem Auto in eine Gruppe junger Männer gefahren sein soll, sitzt jetzt in <b>Untersuchungshaft</b>.",
+            "<b>Uetze:</b> Ein seit Ende September gesuchter 44-Jähriger ist festgenommen, ihm wird versuchter Totschlag vorgeworfen. Die Öffentlichkeitsfahndung ist beendet.",
+            "<b>„Maschsee-Mörder“:</b> Der 2013 wegen Mordes verurteilte Mann geht gegen sein neues Urteil aus Düsseldorf in Revision. Dort hatte er <b>zehn Jahre</b> Haft plus Sicherungsverwahrung bekommen.",
+            "<b>LKA Niedersachsen:</b> Ermittler sollen sich künftig im Netz als Kinder ausgeben, um Cybergroomern auf die Spur zu kommen.",
+            "<b>S-Bahn:</b> Bis Montag <b>6 Uhr</b> fahren S1, S2 und S5 nicht zwischen Hauptbahnhof und Weetzen, Busse ersetzen die Züge."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen von Polizei, LKA, t-online und Radio Hannover vom 13. und 14. November."
+          ],
+          "einschaetzung": "Behördenangaben und Agenturberichte.",
+          "quellen": [
+            {"name": "Polizeidirektion Hannover (Empelde)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6390325"},
+            {"name": "Polizeidirektion Hannover (Uetze)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6390230"},
+            {"name": "t-online Hannover (Revision)", "url": "https://hannover.t-online.de/region/hannover/id_101528748/verurteilter-maschsee-moerder-zieht-vor-bgh-und-legt-revision-ein.html"},
+            {"name": "LKA Niedersachsen", "url": "https://www.presseportal.de/blaulicht/pm/105578/6390075"},
+            {"name": "Radio Hannover (S-Bahn)", "url": "https://www.radio-hannover.de/hannover-news/diese-s-bahnen-fallen-jetzt-aus"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Bayern nimmt Abschied von Hubert Aiwanger",
+          "kurz": "Mit einem Requiem von Kardinal Marx und einem Trauerstaatsakt im <b>Liebfrauendom</b> wurde der Freie-Wähler-Chef in München verabschiedet. Eingeladen hatte Ministerpräsident Söder.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Liebfrauendom", "suche": "Frauenkirche München"}
+          ],
+          "lang": [
+            "Aiwanger war zehn Tage zuvor leblos in seinem Berliner Hotelzimmer gefunden worden, kurz nachdem er einen Termin krankheitsbedingt abgesagt hatte. Die Obduktion ergab einen natürlichen Tod, die Staatsanwaltschaft sieht keinen Hinweis auf eine Straftat.",
+            "Nach der Feier wurde der Sarg auf dem Domplatz verabschiedet. Beigesetzt wird der 55-Jährige in seiner niederbayerischen Heimat. Wer ihm als Parteichef und Vize-Regierungschef nachfolgt, ist weiter offen."
+          ],
+          "einschaetzung": "Bericht von ZDFheute, Ablauf vom Wirtschaftsministerium Bayern angekündigt.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/aiwanger-staatsakt-trauerfeier-100.html"},
+            {"name": "Bayerisches Wirtschaftsministerium", "url": "https://www.stmwi.bayern.de/veranstaltungen/58676-trauerstaatsakt-fuer-staatsminister-hubert-aiwanger/"}
+          ]
+        },
+        {
+          "titel": "AfD nominiert Thomas Berthold fürs Schloss Bellevue",
+          "kurz": "Der <b>62-jährige</b> Weltmeister von 1990 soll für die AfD bei der Wahl des Bundespräsidenten am <b>30. Januar</b> antreten. Er ist kein Parteimitglied.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Weidel und Chrupalla gaben die Personalie auf X bekannt, beschlossen wurde sie von Bundesvorstand und Landeschefs. Berthold spielte unter anderem für Frankfurt, Bayern und Stuttgart, arbeitete später als Manager und TV-Experte und fiel in der Pandemie als Gegner der Corona-Maßnahmen auf.",
+            "Chancen hat er kaum: Favoritin für die Nachfolge von Frank-Walter Steinmeier ist CSU-Politikerin Ilse Aigner, die Union und SPD in der Bundesversammlung eine sichere Mehrheit bringen. Politiker beider Parteien zweifelten an Bertholds Eignung."
+          ],
+          "einschaetzung": "Ankündigung der AfD-Spitze, von mehreren Medien übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/afd-nominiert-thomas-berthold-als-bundespraesidenten-kandidaten-10597540"},
+            {"name": "Spox", "url": "https://www.spox.com/fussball/news/er-spielte-62-mal-fuer-deutschland-afd-ernennt-weltmeister-von-1990-zum-kandidaten-fuer-bundespraesidentenwahl/blt3aa1416fca5acb05"}
+          ]
+        },
+        {
+          "titel": "Wer früher in Rente geht, soll mehr verlieren",
+          "kurz": "CSU-Landesgruppenchef Alexander Hoffmann kündigt höhere Abschläge an: <b>0,4 statt 0,3 Prozent</b> pro Monat, möglichst ab 2027. Wer ein Jahr früher geht, verlöre damit 4,8 Prozent.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Hintergrund ist, dass der Bund seinen Zuschuss an die Rentenkasse 2027 um drei Milliarden Euro kürzen will. Die höheren Abschläge sollen einen Teil davon auffangen, damit der Beitragssatz nicht stärker steigt als ohnehin geplant. Der Satz von 0,3 Prozent gilt seit Mitte der Neunziger unverändert.",
+            "Außerdem will die CSU an die Rente nach 45 Beitragsjahren ran, die Hoffmann einen teuren Konstruktionsfehler nennt. In der SPD gibt es dagegen starken Widerstand. Den Zeitplan soll das Arbeitsministerium vorlegen."
+          ],
+          "einschaetzung": "Ankündigung eines Koalitionspolitikers im RND-Interview; ein Kabinettsbeschluss liegt noch nicht vor.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/hoehere-rentenabschlaege-fuer-fruehrentner-csu-10596983"},
+            {"name": "ad-hoc-news", "url": "https://www.ad-hoc-news.de/wirtschaft/fruehrente-alexander-hoffmann-will-abschlaege-auf-0-4-prozent-pro-monat-erhoehen/70513235"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Geheimdienste:</b> Der Bundestag hat die Reform des Nachrichtendienstrechts beschlossen (308 Ja, 190 Nein). BND und Verfassungsschutz dürfen künftig in engen Grenzen <b>aktiv eingreifen</b>, etwa Server staatlicher Hacker abschalten.",
+            "<b>Mecklenburg-Vorpommern:</b> SPD, Linke und Grüne haben in Greifswald den ersten rot-rot-grünen Koalitionsvertrag des Landes unterschrieben. Schwesig soll am <b>Montag</b> wiedergewählt werden.",
+            "<b>Glühwein:</b> Auf großen Weihnachtsmärkten dürfte ein Becher rund <b>5 Euro</b> kosten, 2025 waren es im Schnitt 4,54 Euro.",
+            "<b>Bahnhöfe:</b> Einen Monat nach Start des bundesweiten Alkoholverbots hat das Sicherheitspersonal über <b>15.000 Menschen</b> angesprochen.",
+            "<b>Berlin:</b> In Tiergarten stürzte ein Kind mit dem Fahrrad und wurde von einem Linienbus überrollt, es starb noch am Unfallort. Die Polizei ermittelt."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen vom 13. und 14. November."
+          ],
+          "einschaetzung": "Parlaments-, Partei- und Verbandsangaben sowie Polizeiangaben.",
+          "quellen": [
+            {"name": "Deutscher Bundestag", "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530"},
+            {"name": "ad-hoc-news (MV)", "url": "https://www.ad-hoc-news.de/politik/mecklenburg-vorpommern-spd-linke-und-gruene-besiegeln-buendnis/70512577"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Tagesspiegel (Berlin)", "url": "https://www.tagesspiegel.de/berlin/todlicher-unfall-in-berlin-kind-sturzt-mit-rad-und-wird-von-bus-uberrollt-16285790.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Nato-Beitritt gegen Donbass: Selenskyj berichtet von US-Vorstoß",
+          "kurz": "Bei den Gesprächen in Abu Dhabi hätten US-Unterhändler gefragt, ob die Ukraine den Donbass räumen würde, wenn sie <b>in die Nato</b> dürfte. So eine Verknüpfung sei neu, sagt Selenskyj.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Abu Dhabi", "suche": "Abu Dhabi"}
+          ],
+          "lang": [
+            "Selenskyj bleibt dabei: Besetzte Gebiete als russisch anerkennen werde Kiew nicht. Gäbe es aber ein belastbares Paket aus Sicherheitsgarantien, einer starken Armee und finanziertem Wiederaufbau, wolle er die Bevölkerung in einer Volksabstimmung entscheiden lassen. Allein könne er so etwas nicht beschließen.",
+            "Aus Moskau gibt es dazu bisher keine Reaktion. Putin hat einen Nato-Beitritt der Ukraine stets als rote Linie bezeichnet. US-Gesandter Kushner will die Europäer bei der nächsten Runde mit am Tisch haben, räumt aber große Differenzen ein."
+          ],
+          "einschaetzung": "Die Darstellung stammt allein von Selenskyj; eine Bestätigung aus Washington liegt nicht vor.",
+          "quellen": [
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/international/ukraine-usa-schlagen-laut-selenskyj-donbass-rueckzug-gegen-nato-beitritt-vor/100269908.html"},
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/selenskyj-usa-nato-beitritt-ukraine-donbass-rueckzug-verhandlungen-10597122"}
+          ]
+        },
+        {
+          "titel": "USA: Überlastete Flugsicherung legt den Luftverkehr lahm",
+          "kurz": "Mehr als <b>vier Stunden</b> durfte am Freitag in den USA kein Flugzeug starten. Über 4.700 Flüge fielen aus, rund 10.000 waren verspätet, auch Lufthansa war betroffen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Washington", "suche": "FAA Headquarters Washington DC"}
+          ],
+          "lang": [
+            "Nach Angaben von Verkehrsminister Sean Duffy waren Router und Switches der Fluglotsenzentren mit Daten überlastet und fielen aus, ein komplettes Funk- oder Radarloch habe es nicht gegeben. Ein Cyberangriff wird ausgeschlossen. Duffy fordert 50 Milliarden Dollar für die Modernisierung, ein Prüfbericht hatte schon im September vor veralteter Technik gewarnt.",
+            "Auch am Samstag wurden Hunderte Flüge gestrichen, weil Maschinen und Crews am falschen Ort standen. Laut Lufthansa liefen die meisten USA-Verbindungen der Gruppe dennoch planmäßig, Betroffene bekamen automatisch Umbuchungen."
+          ],
+          "einschaetzung": "Behördenangaben und Flugdaten-Dienste, von Al Jazeera und dpa übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"},
+            {"name": "WNOZ (dpa, Lufthansa)", "url": "https://www.wnoz.de/nachrichten/baden-wuerttemberg-und-hessen/lufthansa-startverbot-in-den-usa-traf-gruppe-nur-begrenzt-1178544.html"}
+          ]
+        },
+        {
+          "titel": "Trump droht Kuba, Havanna rüstet zur Verteidigung",
+          "kurz": "Trump sagte in einem Radiointerview, er wolle die Kuba-Frage vor Ende seiner Amtszeit <b>erledigt</b> haben, ein Militäreinsatz sei denkbar. Präsident Díaz-Canel kündigte Widerstand an.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Havanna", "suche": "Havanna Kuba"}
+          ],
+          "lang": [
+            "Die Drohung fällt nicht aus dem Nichts: Im Januar hatten US-Truppen in Venezuela Präsident Maduro festgenommen und in die USA gebracht. Seitdem hält Kuba regelmäßig Manöver ab und schult Zivilisten militärisch.",
+            "Díaz-Canel sprach am Tag der nationalen Verteidigung vor Militärführung und Parteikadern. Kuba sei friedlich und keine Gefahr für die USA, jeden Angriff werde man abwehren. Trump nannte er dabei nicht beim Namen."
+          ],
+          "einschaetzung": "Aussagen beider Seiten sind dokumentiert; ob aus der Drohung Taten folgen, ist offen.",
+          "quellen": [
+            {"name": "Wirtschaftswoche", "url": "https://www.wiwo.de/politik/ausland/kuba-und-donald-trump-karibikstaat-bereitet-sich-auf-moeglichen-angriff-der-usa-vor/100269869.html"},
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/trump-schliesst-militaereinsatz-nicht-aus-ich-will-kuba-erledigt-haben-bevor-ich-gehe-10593179"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Gipfel in Shenzhen:</b> Laut Weißem Haus treffen sich Trump, Xi und Putin am Rand des <b>Apec-Gipfels</b> (Mittwoch und Donnerstag). Thema: weniger Atomwaffen. Peking und Moskau haben noch nicht bestätigt.",
+            "<b>Ungarn:</b> Ermittler stellten bei Razzien rund <b>17,6 Millionen Euro</b> Bargeld sicher, mutmaßlich Schmiergeld eines früheren Ministers.",
+            "<b>COP31:</b> Zur Halbzeit der Klimakonferenz in der Türkei drängt UN-Klimachef Stiell die Delegationen zu Kompromissen.",
+            "<b>USA:</b> Die Zahl der Masern-Todesfälle ist in diesem Jahr auf <b>zehn</b> gestiegen.",
+            "<b>Russland:</b> Bei einem ukrainischen Drohnenangriff im Gebiet Belgorod starb eine dreiköpfige Familie."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen von ZDFheute und Al Jazeera vom 14. November."
+          ],
+          "einschaetzung": "Agenturmeldungen; die Angaben aus Belgorod stammen von russischen Behörden.",
+          "quellen": [
+            {"name": "ZDFheute (Gipfel)", "url": "https://www.zdfheute.de/politik/ausland/usa-dreiertreffen-trump-xi-putin-china-100.html"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Al Jazeera (Masern)", "url": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Die Seiten der Hannover Scorpions und von Hannover 96 waren heute nicht abrufbar.",
+      "meldungen": [
+        {
+          "titel": "Aicher feiert ersten Slalomsieg im Weltcup",
+          "kurz": "Emma Aicher gewinnt in Levi vor Lara Colturi (<b>+0,43</b>) und Katharina Truppe (+0,50). Am Tag zuvor war sie 23 geworden.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Levi", "suche": "Levi Black Ski Stadium Finnland"}
+          ],
+          "lang": [
+            "Die Allrounderin führte schon nach dem ersten Durchgang mit 0,36 Sekunden und brachte den Vorsprung ins Ziel. Mikaela Shiffrin war nicht am Start. Für die Österreicherin Truppe, die im zweiten Lauf Bestzeit fuhr, war es das erste Podium seit 2019.",
+            "Für Colturi war es der zweite zweite Platz zum Saisonstart in Folge. Der nächste Slalom steigt am kommenden Samstag in Gurgl."
+          ],
+          "einschaetzung": "Ergebnis laut Weltverband FIS und Sky Sport Austria übereinstimmend.",
+          "quellen": [
+            {"name": "FIS", "url": "https://www.fis-ski.com/alpine-skiing/news/2026-27/-a-good-birthday-present-aicher-wins-first-world-cup-slalom"},
+            {"name": "Sky Sport Austria", "url": "https://www.skysportaustria.at/aicher-gewinnt-levi-slalom-truppe-am-podest/"}
+          ]
+        },
+        {
+          "titel": "Hannovers Sonntag: Recken beim Schwergewicht, Indians beim Spitzenreiter",
+          "kurz": "Die Recken spielen um <b>18 Uhr</b> beim VfL Gummersbach, die Indians ab <b>15 Uhr</b> bei Tabellenführer Tilburg. Beide Teams kommen mit einem Sieg im Rücken.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Schwalbe-Arena", "suche": "Schwalbe Arena Gummersbach"},
+            {"name": "IJssportcentrum Tilburg", "suche": "IJssportcentrum Tilburg"}
+          ],
+          "lang": [
+            "Für die TSV Hannover-Burgdorf ist es das erste Spiel nach der Nachricht, dass Torhüter Simon Gade im Sommer nach Dänemark zurückkehrt. Zuletzt gewannen die Recken 27:21 gegen den Bergischen HC. Am Freitag um 19 Uhr kommt Stuttgart in die Halle.",
+            "Die Indians haben nach dem 6:2 gegen Herford Rückenwind und standen zuletzt auf Rang fünf der Oberliga Nord. Weil Tom-Eric Bappert lange und Luca Trinkberger vorerst fehlen, ist Andy Reiss an den Pferdeturm zurückgekehrt. Freitag um 20 Uhr geht es am Pferdeturm gegen Hamm."
+          ],
+          "einschaetzung": "Termine und Ergebnisse laut Vereinsseiten.",
+          "quellen": [
+            {"name": "Die Recken (Spielplan)", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"}
+          ]
+        },
+        {
+          "titel": "Vor dem Endspiel: Oranje schießt sich warm",
+          "kurz": "Am Montag um <b>20.45 Uhr</b> braucht das DFB-Team in Berlin gegen die Niederlande einen Sieg, dann ist das Viertelfinale sicher. Oranje kommt mit einem <b>7:0</b> gegen Griechenland.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Olympiastadion Berlin", "suche": "Olympiastadion Berlin"}
+          ],
+          "lang": [
+            "Bei einem Remis hinge alles an Griechenland: Gewinnen die Griechen gegen Serbien, wären sie wegen des direkten Vergleichs vor Deutschland. Die Niederlande führen die Gruppe an.",
+            "Am Samstag sicherten sich Österreich (1:0 gegen Irland) und Schweden (3:2 gegen Bosnien) den Aufstieg in die Liga A. Rumänien schlug Polen 2:1, Dänemark gewann sogar 4:1 in Portugal."
+          ],
+          "einschaetzung": "Ergebnisse laut UEFA, Szenarien laut Sportschau.",
+          "quellen": [
+            {"name": "UEFA", "url": "https://de.uefa.com/uefanationsleague/news/02ab-220e6733ce32-abbbb9282af2-1000--uefa-nations-league-spieltag-5-danemark-siegt-in-portugal-/"},
+            {"name": "Sportschau", "url": "https://www.sportschau.de/fussball/nationalmannschaft/so-erreicht-klopp-mit-dem-dfb-team-noch-viertelfinale,artikel-nations-league-viertelfinale-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>ATP Finals:</b> Alexander Zverev startet heute in Turin, frühestens um <b>14 Uhr</b> gegen Rafael Jódar.",
+            "<b>WTA Finals:</b> Aryna Sabalenka ist nach der Niederlage gegen Elina Svitolina raus und entschuldigte sich für einen Fluch-Ausbruch während des Spiels.",
+            "<b>Hannover 96:</b> Länderspielpause, das nächste Ligaspiel steigt am <b>Samstag, 21. November, um 13 Uhr</b> gegen Fürth.",
+            "<b>Frauen-Bundesliga:</b> Pause wegen Länderspielen. Bayern führt mit 30 Punkten vor Wolfsburg (24)."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen von Veranstaltern, Vereinen und Agenturen."
+          ],
+          "einschaetzung": "Termin- und Ergebnisangaben aus Vereins- und Verbandsquellen.",
+          "quellen": [
+            {"name": "sport1 (ATP Finals)", "url": "https://www.sport1.de/news/tennis/atp/2026/11/atp-finals-zverev-am-sonntagmittag-gefordert"},
+            {"name": "Reuters via WTVB", "url": "https://wtvbam.com/2026/11/14/tennis-sabalenka-apologies-for-outburst-during-loss-to-svitolina/"},
+            {"name": "t-online (96-Liveticker)", "url": "https://www.t-online.de/sport/live-ticker/fussball/2-bundesliga/sdc_fm-59694/hannover-fuerth-2-bundesliga-im-liveticker.html"},
+            {"name": "hessenschau (Tabelle)", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-182~_matchday-11.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+      "trends": [
+        {"begriff": "potsdamer straße", "volumen": "2.000+", "anlass": "Tödlicher Busunfall in Berlin"},
+        {"begriff": "ufc", "volumen": "2.000+", "anlass": "UFC 334 mit Gane gegen Hokit"},
+        {"begriff": "lol worlds 2026", "volumen": "200+", "anlass": "BLG wird Weltmeister"},
+        {"begriff": "sabalenka", "volumen": "200+", "anlass": "Entschuldigung nach Ausbruch"},
+        {"begriff": "lippstadt", "volumen": "200+", "anlass": "Fahndung nach Messerangriff"},
+        {"begriff": "maple leafs – oilers", "volumen": "200+", "anlass": "McDavid-Serie in Toronto"},
+        {"begriff": "cavaliers – mavericks", "volumen": "100+", "anlass": "Cavs nach Flugchaos geschwächt"}
+      ],
+      "meldungen": [
+        {
+          "titel": "LoL-WM: Bilibili Gaming holt erstmals den Titel",
+          "kurz": "Im Finale in New York drehte BLG ein 0:1 gegen Gen.G zum <b>3:1</b>. Damit endet die Serie von vier koreanischen WM-Titeln in Folge.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Barclays Center", "suche": "Barclays Center Brooklyn New York"}
+          ],
+          "lang": [
+            "Gen.G gewann das erste Spiel, danach kippte die Serie: Ein 53-Minuten-Marathon brachte den Ausgleich, die Spiele drei und vier dominierte das chinesische Team. Zwei Jahre nach der Finalniederlage 2024 ist es der erste WM-Titel für die Organisation.",
+            "Für Mid-Laner Knight, der zum besten Spieler des Turniers gekürt wurde, ist es der erste WM-Titel. ADC Viper ist jetzt zweifacher Weltmeister."
+          ],
+          "einschaetzung": "Ergebnis von SBS und GosuGamers übereinstimmend; die MVP-Wahl laut Esport-Fachportal Sheep Esports.",
+          "quellen": [
+            {"name": "SBS News", "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008846354"},
+            {"name": "GosuGamers", "url": "https://www.gosugamers.net/lol/news/79501-bilibili-gaming-defeat-gen-g-to-be-crowned-worlds-2026-champions"},
+            {"name": "Sheep Esports (MVP)", "url": "https://www.sheepesports.com/en/articles/knight-named-as-worlds-2026-most-valuable-player/en"}
+          ]
+        },
+        {
+          "titel": "Nach dem Microsoft-Ausfall: Bitkom warnt vor Abhängigkeit",
+          "kurz": "Outlook, Teams und Copilot waren in <b>74 Ländern</b> mehr als einen Tag gestört. Bitkom-Präsident Ralf Wintergerst mahnt, sich nicht zu sehr auf einen Anbieter zu verlassen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Probleme begannen Donnerstagnachmittag, später fielen auch SharePoint, Planner und das Sicherheitswerkzeug Defender aus. Microsoft sprach zunächst von hoher Last, dann von Servern, die unerwartet nicht erreichbar waren. Eine endgültige Ursache steht aus, Hinweise auf einen Angriff oder Datenverlust gibt es nicht.",
+            "Praktischer Tipp: Betrüger nutzen solche Ausfälle gern für gefälschte Support-Mails. Aufforderungen, sich neu anzumelden oder das Passwort zurückzusetzen, besser nicht ungeprüft folgen."
+          ],
+          "einschaetzung": "Microsoft-Angaben laut Euronews; die Bitkom-Warnung aus dem ZDFheute-Ticker.",
+          "quellen": [
+            {"name": "Euronews", "url": "https://www.euronews.com/2026/11/13/microsoft-outage-explained-what-went-wrong-and-is-your-data-at-risk"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Teslas Robotaxi für zu Hause",
+          "kurz": "Ausgewählte US-Kunden können den <b>Cybercab</b> jetzt für den Privatgebrauch vorbestellen: rund 29.990 Dollar plus <b>299 Dollar</b> im Monat für das autonome Fahren.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Ausgeliefert werden soll ab Dezember. Das Auto ohne Lenkrad und Pedale war ursprünglich als Fahrzeug für Teslas eigenen Fahrdienst gedacht.",
+            "Ob die Software ohne Fahrer überall zugelassen wird, ist offen. Teslas Zeitpläne für autonomes Fahren haben sich in der Vergangenheit oft verschoben."
+          ],
+          "einschaetzung": "Bisher nur eine Agenturmeldung im ZDFheute-Ticker, Preise können sich ändern.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Nachtrag:</b> Gestern hieß es, der Verdächtige aus Empelde solle in U-Haft. Polizei und Staatsanwaltschaft bestätigen inzwischen: Er sitzt in Untersuchungshaft.",
+    "<b>Nato gegen Donbass:</b> Den US-Vorschlag kennt man bisher nur aus Selenskyjs Schilderung. Weder Washington noch Moskau haben sich dazu geäußert.",
+    "<b>Gipfel in China:</b> Das Dreiertreffen Trump, Xi, Putin ist weiter nur eine Ankündigung des Weißen Hauses, ohne Bestätigung aus Peking oder Moskau.",
+    "<b>Frührente:</b> Die höheren Abschläge sind ein Vorstoß der CSU, kein Beschluss. Die SPD hat noch nicht zugestimmt."
+  ],
+  "woche": [
+    {"wann": "So 15. Nov", "titel": "Volkstrauertag mit Handball und Eis", "text": "Sonne und Wolken im Wechsel, <b>1 bis 9 Grad</b>, ab dem Abend Regen, schwacher Südwind. Volkstrauertag, der Zoo hat für Besucher geschlossen. S-Bahn nach Weetzen weiter gesperrt. <b>Ab 14 Uhr:</b> Zverev bei den ATP Finals. <b>15 Uhr:</b> Indians in Tilburg. <b>18 Uhr:</b> Recken in Gummersbach."},
+    {"wann": "Mo 16. Nov", "titel": "Grau, nass, Endspiel", "text": "Dicht bewölkt, zeitweise Regen, <b>5 bis 9 Grad</b>, böiger Westwind. <b>6 Uhr:</b> S1, S2, S5 fahren wieder bis Weetzen, S21/S51 erst ab Donnerstag. Schwesig stellt sich im Schweriner Landtag zur Wiederwahl. <b>20.45 Uhr:</b> Deutschland gegen die Niederlande (Das Erste)."},
+    {"wann": "Di 17. bis Fr 20. Nov", "titel": "Lichter, Gipfel, Heimspiele", "text": "Dienstag Schauer bei <b>3 bis 10 Grad</b> und böigem Wind, danach bleibt es nach bisherigen Vorhersagen wechselhaft. <b>Di:</b> Zoo öffnet wieder, abends Start der ZooLights; Koalitionsausschuss zur Stromsteuer; Nvidia-Quartalszahlen. <b>Mi/Do:</b> Apec-Gipfel in Shenzhen. <b>Do:</b> GTA 6 erscheint. <b>Fr 19 Uhr:</b> Recken gegen Stuttgart, <b>20 Uhr:</b> Indians gegen Hamm. Vorschau: 96 gegen Fürth am <b>Sa 21. um 13 Uhr</b>."}
+  ]
+}
