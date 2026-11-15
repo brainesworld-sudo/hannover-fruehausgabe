@@ -224,7 +224,7 @@ let grainPat=null;
 
 // ---------- timeline ----------
 const CX=520,CY=870,R=400;
-const T_HIT=2.7,T_OUT=3.9,T_CARD=4.15,T_CARD_END=8.65,T_LISTEN=9.0,T_LISTEN_END=18.35,T_END=18.7;
+const T_HIT=2.7,T_OUT=3.9,T_CARD=4.15,T_CARD_END=8.65,T_LISTEN=9.0,T_LISTEN_END=16.6,T_END=16.9;
 const OMEGA=2*Math.PI/1.7;
 const rOf=d=>R*Math.sqrt(clamp(d,0,330)/300);
 const angOf=b=>rad(b)-Math.PI/2;
@@ -468,10 +468,11 @@ function sceneEnd(t){
   if(t<T_END)return;
   const k=t-T_END;c.save();c.textAlign='center';const X=520;
   const step=(i,fn)=>{const p=eo((k-i*0.16)/0.5);if(p<=0)return;c.save();c.globalAlpha=p;c.translate(0,(1-p)*36);fn();c.restore()};
-  step(0,()=>{font(400,46,'Barlow');c.fillStyle=col(CREAM,.75);c.fillText('Alle Konzerte rund um Hannover',X,760)});
-  step(1,()=>{const ft=fitLines('KALENDER',860,190,120,700);font(700,ft.s);c.fillStyle=col(CREAM,1);c.fillText('KALENDER',X,960)});
-  step(2,()=>{font(500,84);c.fillStyle=col(RED,1);spaced('→ LINK IN BIO',X,1080,6,'center')});
-  step(3,()=>{font(400,40,'Barlow');c.fillStyle=col(CREAM,.6);c.fillText('@konzert_radar_hannover',X,1170)});
+  step(0,()=>{font(400,46,'Barlow');c.fillStyle=col(CREAM,.75);c.fillText('Mehr Konzerte rund um Hannover?',X,700)});
+  step(1,()=>{font(500,46);c.fillStyle=col(RED,1);spaced('DAS RADAR',X,790,10,'center')});
+  step(2,()=>{const ft=fitLines('JEDEN TAG NEU',800,160,100,700);font(700,ft.s);c.fillStyle=col(CREAM,1);c.fillText('JEDEN TAG NEU',X,950)});
+  step(3,()=>{font(400,50,'Barlow');c.fillStyle=col(CREAM,.85);c.fillText('inkl. Kalender aller Termine',X,1040)});
+  step(4,()=>{font(500,84);c.fillStyle=col(RED,1);spaced('→ LINK IN BIO',X,1170,6,'center')});
   c.restore();
 }
 
