@@ -85,7 +85,8 @@ button:disabled{opacity:.5;cursor:default}
       <h2>Darstellung</h2>
       <label class="chk"><input type="checkbox" id="optCities" checked> Städte als Orientierung im Radar</label>
       <label class="chk"><input type="checkbox" id="optSafe"> Instagram-Safe-Zone einblenden</label>
-      <p class="hint">Musik legst du beim Hochladen in der Instagram-App aus der Musikbibliothek drüber, am besten den Hörtipp. Das Video selbst ist stumm.</p>
+      <label class="chk"><input type="checkbox" id="optSnd" checked> Radar-Sound (Sonar-Pings, Ziel-Signal)</label>
+      <p class="hint">Der Radar-Sound ist im exportierten Video mit drin. Legst du in der Instagram-App noch Musik drüber, kannst du dort den Originalton leiser stellen.</p>
     </div>
   </div>
   <div class="stage">
@@ -130,9 +131,13 @@ const CITIES={
 const MAP=[['Hamburg',53.5511,9.9937],['Bremen',53.0793,8.8017],['Berlin',52.52,13.405],['Leipzig',51.3397,12.3731],['Köln',50.9375,6.9603],
 ['Kassel',51.3127,9.4797],['Göttingen',51.5413,9.9158],['Braunschweig',52.2689,10.5268],['Osnabrück',52.2799,8.0472],['Bielefeld',52.0302,8.5325],
 ['Magdeburg',52.1205,11.6276],['Dortmund',51.5136,7.4653],['Kiel',54.3233,10.1228]];
+// kleinere Städte im Nahbereich, erscheinen erst beim Reinzoomen
+const NEAR=[['Celle',52.6226,10.0805],['Hildesheim',52.1508,9.9511],['Wolfsburg',52.4227,10.7865],['Hameln',52.104,9.3561],['Nienburg',52.641,9.208],['Minden',52.2896,8.9145],['Lüneburg',53.2464,10.4115],['Uelzen',52.9659,10.5585]];
 const DIRS=['N','NNO','NO','ONO','O','OSO','SO','SSO','S','SSW','SW','WSW','W','WNW','NW','NNW'];
 const $=id=>document.getElementById(id);
-const cv=$('cv'),c=cv.getContext('2d');
+const cv=$('cv'),mainC=cv.getContext('2d');let c=mainC;
+// Radar-Ebene wird separat gezeichnet und weich ausgeblendet (Zoom ragt sonst in die Texte)
+const rl=document.createElement('canvas');rl.width=W;rl.height=H;const rlC=rl.getContext('2d');
 const F=['band','support','date','club','city','lat','lon','line','hoer','note'];
 const DEF={band:"Murphy's Law",support:'+ Clobber',date:'2026-11-19',club:'Gulfhaus',city:'Vechta',lat:'',lon:'',line:'NYHC-Urgestein seit 1982 – Partystimmung garantiert.',hoer:'Back with a Bong!',note:''};
 const KEY='konzert-radar-reel-v1';
@@ -225,10 +230,22 @@ const rOf=d=>R*Math.sqrt(clamp(d,0,330)/300);
 const angOf=b=>rad(b)-Math.PI/2;
 function targetAng(){return S.g?angOf(S.g.brg):-Math.PI/2+0.9}
 function sweepAng(t){return targetAng()-OMEGA*(T_HIT-t)}
+// Kamera: zoomt während der Suche rein (Richtung Mitte zwischen Hannover und Ziel), beim Wechsel zur Karte wieder raus
+const ZOOM=1.65,VX=540,VY=815,Z_IN0=0.35,Z_IN1=2.1;
+function zoomK(t){return t<T_OUT?eio((t-Z_IN0)/(Z_IN1-Z_IN0)):1-eio((t-T_OUT)/0.7)}
+function targetXY(){const d=S.g?S.g.dist:0,a=targetAng(),r=d<5?0:rOf(d);return [CX+r*Math.cos(a),CY+r*Math.sin(a)]}
+function camera(t){
+  const k=zoomK(t),[tx,ty]=targetXY();
+  const fx=CX+(tx-CX)*0.5*k,fy=CY+(ty-CY)*0.5*k;
+  return {k,s:1+(ZOOM-1)*k,fx,fy,vx:CX+(VX-CX)*k,vy:CY+(VY-CY)*k};
+}
 
 function drawRadar(t,alpha,scale){
   if(alpha<=0.003)return;
-  c.save();c.globalAlpha=alpha;
+  const cam=camera(t);
+  c=rlC;c.setTransform(1,0,0,1,0,0);c.clearRect(0,0,W,H);
+  c.save();
+  c.translate(cam.vx,cam.vy);c.scale(cam.s,cam.s);c.translate(-cam.fx,-cam.fy);
   c.translate(CX,CY);c.scale(scale,scale);c.translate(-CX,-CY);
   // disc
   const g=c.createRadialGradient(CX,CY,0,CX,CY,R);g.addColorStop(0,'rgba(40,30,26,.55)');g.addColorStop(1,'rgba(20,16,14,.15)');
@@ -274,6 +291,16 @@ function drawRadar(t,alpha,scale){
       font(400,22,'Barlow');c.fillStyle=col(CREAM,(base+.45*glow)*.9);
       c.textAlign=x<CX?'right':'left';c.fillText(n,x+(x<CX?-10:10),y+7);
     });
+    if(cam.k>0.01)NEAR.forEach(([n,la,lo])=>{
+      const q=geo(la,lo);
+      if(S.g&&Math.abs(q.dist-S.g.dist)<6&&Math.abs(q.brg-S.g.brg)<6)return;
+      const a=angOf(q.brg),r=rOf(q.dist),x=CX+r*Math.cos(a),y=CY+r*Math.sin(a);
+      let delta=((sa-a)%(Math.PI*2)+Math.PI*2)%(Math.PI*2);
+      const glow=sv>0?Math.exp(-delta/1.1):0,ka=eo(cam.k)*pc;
+      c.fillStyle=col(CREAM,(.14+.5*glow)*ka);c.beginPath();c.arc(x,y,3.5,0,Math.PI*2);c.fill();
+      font(400,17,'Barlow');c.fillStyle=col(CREAM,(.14+.42*glow)*ka*.9);
+      c.textAlign=x<CX?'right':'left';c.fillText(n,x+(x<CX?-8:8),y+6);
+    });
   }
   // home
   c.fillStyle=col(CREAM,.95*pc);c.beginPath();c.arc(CX,CY,8,0,Math.PI*2);c.fill();
@@ -299,6 +326,15 @@ function drawRadar(t,alpha,scale){
     c.shadowBlur=0;
   }
   c.restore();
+  // weiche Kante oben/unten, damit der gezoomte Radar nicht in Kopfzeile und Text läuft
+  c.save();c.setTransform(1,0,0,1,0,0);c.globalCompositeOperation='destination-in';
+  const m=c.createLinearGradient(0,0,0,H);
+  const oa='rgba(0,0,0,'+(1-cam.k).toFixed(3)+')';
+  m.addColorStop(0,oa);m.addColorStop(318/H,oa);m.addColorStop(392/H,'rgba(0,0,0,1)');
+  m.addColorStop(1262/H,'rgba(0,0,0,1)');m.addColorStop(1328/H,oa);m.addColorStop(1,oa);
+  c.fillStyle=m;c.fillRect(0,0,W,H);c.restore();
+  c=mainC;
+  c.save();c.globalAlpha=alpha;c.drawImage(rl,0,0);c.restore();
 }
 
 function header(t){
@@ -398,13 +434,118 @@ function draw(t){
   c.restore();
 }
 
+
+// ---------- sound (Sonar-Suche) ----------
+const SR=48000;
+let sndCache={key:'',buf:null,p:null};
+function sndKey(){return JSON.stringify([S.g?[Math.round(S.g.dist*10),Math.round(S.g.brg*10)]:0,S.cities])}
+function blipTimes(){
+  const out=[];if(!S.cities)return out;
+  const add=(list,near)=>list.forEach(([n,la,lo])=>{
+    const q=geo(la,lo);if(q.dist>330)return;
+    if(S.g&&Math.abs(q.dist-S.g.dist)<6&&Math.abs(q.brg-S.g.brg)<6)return;
+    const a=angOf(q.brg);let d0=((targetAng()-a)%(2*Math.PI)+2*Math.PI)%(2*Math.PI);
+    for(let n2=0;n2<4;n2++){const t=T_HIT-(d0+2*Math.PI*n2)/OMEGA;
+      if(t<0.4||t>T_HIT-0.08)continue;
+      if(near&&zoomK(t)<0.35)continue;
+      out.push({t,dist:q.dist,near});}
+  });
+  add(MAP,false);add(NEAR,true);return out;
+}
+function noiseBuf(ctx,sec){const b=ctx.createBuffer(2,Math.floor(SR*sec),SR);for(let ch=0;ch<2;ch++){const d=b.getChannelData(ch);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1}return b}
+function irBuf(ctx,sec,decay){const n=Math.floor(SR*sec),b=ctx.createBuffer(2,n,SR);
+  for(let ch=0;ch<2;ch++){const d=b.getChannelData(ch);let lp=0;for(let i=0;i<n;i++){lp+= (Math.random()*2-1-lp)*0.35;d[i]=lp*Math.pow(1-i/n,decay)}}return b}
+async function renderSound(){
+  const ctx=new OfflineAudioContext(2,Math.ceil(SR*D),SR);
+  const comp=ctx.createDynamicsCompressor();comp.threshold.value=-16;comp.knee.value=10;comp.ratio.value=3;comp.attack.value=0.004;comp.release.value=0.25;
+  const master=ctx.createGain();master.gain.value=0.9;master.connect(comp);comp.connect(ctx.destination);
+  const rev=ctx.createConvolver();rev.buffer=irBuf(ctx,2.6,3.2);const revG=ctx.createGain();revG.gain.value=0.42;rev.connect(revG);revG.connect(master);
+  const dl=ctx.createDelay(1);dl.delayTime.value=0.26;const fb=ctx.createGain();fb.gain.value=0.34;const dlf=ctx.createBiquadFilter();dlf.type='lowpass';dlf.frequency.value=2600;
+  const dlG=ctx.createGain();dlG.gain.value=0.5;dl.connect(dlf);dlf.connect(fb);fb.connect(dl);dlf.connect(dlG);dlG.connect(master);dlG.connect(rev);
+  const nz=noiseBuf(ctx,2);
+  const env=(g,t,peak,att,dec)=>{g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(peak,t+att);g.gain.exponentialRampToValueAtTime(0.0001,t+att+dec)};
+  const out=(node,dry,echo,verb)=>{const a=ctx.createGain();a.gain.value=dry;node.connect(a);a.connect(master);
+    if(echo){const e=ctx.createGain();e.gain.value=echo;node.connect(e);e.connect(dl)}
+    if(verb){const v=ctx.createGain();v.gain.value=verb;node.connect(v);v.connect(rev)}};
+  // Sonar-Ping: klarer Sinus mit leichtem Obertonglanz, langem Ausklang, Echo und Hall
+  function ping(t,f,peak,dec){
+    const bus=ctx.createGain();env(bus,t,peak,0.006,dec);
+    [[1,1],[2.003,0.14],[0.5,0.12],[3.01,0.04]].forEach(([m,a])=>{const o=ctx.createOscillator();o.type='sine';
+      o.frequency.setValueAtTime(f*m*1.012,t);o.frequency.exponentialRampToValueAtTime(f*m,t+0.12);
+      const g=ctx.createGain();g.gain.value=a;o.connect(g);g.connect(bus);o.start(t);o.stop(t+dec+0.1)});
+    out(bus,0.85,0.55,0.7);
+  }
+  function blip(t,f,peak){const o=ctx.createOscillator();o.type='triangle';o.frequency.value=f;const g=ctx.createGain();env(g,t,peak,0.003,0.07);
+    o.connect(g);o.start(t);o.stop(t+0.12);out(g,0.8,0.25,0.35)}
+  // Grundrauschen: tiefes Brummen + rotierendes Rausch-Wischen im Takt des Sweeps
+  const humEnd=T_OUT+0.6;
+  {const g=ctx.createGain();g.gain.setValueAtTime(0.0001,0);g.gain.exponentialRampToValueAtTime(0.11,0.7);g.gain.setValueAtTime(0.11,T_OUT);g.gain.exponentialRampToValueAtTime(0.0001,humEnd);
+   const lp=ctx.createBiquadFilter();lp.type='lowpass';lp.frequency.value=260;lp.connect(g);
+   [[55,'sine',1],[110.4,'sawtooth',0.18],[164.8,'sine',0.12]].forEach(([f,ty,a])=>{const o=ctx.createOscillator();o.type=ty;o.frequency.value=f;const og=ctx.createGain();og.gain.value=a;o.connect(og);og.connect(lp);o.start(0);o.stop(humEnd+0.1)});
+   out(g,1,0,0.15);}
+  {const src=ctx.createBufferSource();src.buffer=nz;src.loop=true;const bp=ctx.createBiquadFilter();bp.type='bandpass';bp.frequency.value=1400;bp.Q.value=0.8;
+   const t1=0.3,t2=T_OUT+0.4,N=400,pc=new Float32Array(N),fc=new Float32Array(N);
+   for(let i=0;i<N;i++){const t=t1+(t2-t1)*i/(N-1),a=sweepAng(t);pc[i]=0.65*Math.cos(a);fc[i]=1200+500*(0.5+0.5*Math.sin(a))}
+   const pan=ctx.createStereoPanner();pan.pan.setValueCurveAtTime(pc,t1,t2-t1);bp.frequency.setValueCurveAtTime(fc,t1,t2-t1);
+   const g=ctx.createGain();g.gain.setValueAtTime(0.0001,t1);g.gain.exponentialRampToValueAtTime(0.05,0.9);g.gain.setValueAtTime(0.05,T_HIT);g.gain.exponentialRampToValueAtTime(0.0001,T_OUT+0.3);
+   src.connect(bp);bp.connect(pan);pan.connect(g);src.start(t1);src.stop(t2);
+   out(g,1,0,0.4);}
+  // Such-Pings
+  [0.42,1.27,2.12].forEach((t,i)=>ping(t,1180,0.42,1.7));
+  // kurze Echos, wenn der Zeiger über eine Stadt streicht
+  blipTimes().forEach(b=>blip(b.t,b.near?3100:2500-Math.min(b.dist,300)*2,b.near?0.05:0.075));
+  // Ziel erfasst: Doppel-Piep, tiefer Ping, Bass-Impuls
+  const th=T_HIT;
+  [0,0.11].forEach(d=>{const o=ctx.createOscillator();o.type='square';o.frequency.value=1660;const lp=ctx.createBiquadFilter();lp.type='lowpass';lp.frequency.value=4200;
+    const g=ctx.createGain();g.gain.setValueAtTime(0.0001,th+d);g.gain.exponentialRampToValueAtTime(0.13,th+d+0.004);g.gain.setValueAtTime(0.13,th+d+0.06);g.gain.exponentialRampToValueAtTime(0.0001,th+d+0.085);
+    o.connect(lp);lp.connect(g);o.start(th+d);o.stop(th+d+0.1);out(g,0.9,0.3,0.4)});
+  ping(th+0.02,880,0.5,2.4);
+  {const o=ctx.createOscillator();o.type='sine';o.frequency.setValueAtTime(130,th);o.frequency.exponentialRampToValueAtTime(42,th+0.35);
+   const g=ctx.createGain();env(g,th,0.6,0.005,0.5);o.connect(g);o.start(th);o.stop(th+0.6);out(g,1,0,0.1)}
+  // Übergang zur Tipp-Karte: Luftzug
+  {const t=T_OUT-0.15,src=ctx.createBufferSource();src.buffer=nz;const bp=ctx.createBiquadFilter();bp.type='bandpass';bp.Q.value=1.2;
+   bp.frequency.setValueAtTime(350,t);bp.frequency.exponentialRampToValueAtTime(3200,t+0.55);
+   const g=ctx.createGain();g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(0.16,t+0.32);g.gain.exponentialRampToValueAtTime(0.0001,t+0.75);
+   src.connect(bp);bp.connect(g);src.start(t);src.stop(t+0.8);out(g,0.9,0,0.5)}
+  // Abspann: leiser Ping
+  ping(T_END+0.05,1320,0.18,1.4);
+  return ctx.startRendering();
+}
+function getSound(){
+  const k=sndKey();
+  if(sndCache.key===k&&(sndCache.buf||sndCache.p))return sndCache.buf?Promise.resolve(sndCache.buf):sndCache.p;
+  const p=renderSound().then(b=>{if(sndCache.key===k){sndCache.buf=b;sndCache.p=null}return b});
+  sndCache={key:k,buf:null,p};return p;
+}
+function wavBytes(buf){
+  const n=buf.length,ch=buf.numberOfChannels,ab=new ArrayBuffer(44+n*ch*2),v=new DataView(ab);
+  const w=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i))};
+  w(0,'RIFF');v.setUint32(4,36+n*ch*2,true);w(8,'WAVE');w(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,ch,true);
+  v.setUint32(24,SR,true);v.setUint32(28,SR*ch*2,true);v.setUint16(32,ch*2,true);v.setUint16(34,16,true);w(36,'data');v.setUint32(40,n*ch*2,true);
+  const data=[...Array(ch)].map((_,i)=>buf.getChannelData(i));let o=44;
+  for(let i=0;i<n;i++)for(let c2=0;c2<ch;c2++){const x=Math.max(-1,Math.min(1,data[c2][i]));v.setInt16(o,x<0?x*0x8000:x*0x7FFF,true);o+=2}
+  return new Uint8Array(ab);
+}
+let ac=null,live=null;
+function sndOn(){return $('optSnd').checked}
+function liveStop(){if(live){try{live.stop()}catch(e){}live=null}}
+async function liveStart(at){
+  liveStop();if(!sndOn())return;
+  try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();if(ac.state!=='running')await ac.resume();if(ac.state!=='running')return;
+    const b=await getSound();if(!playing)return;
+    const src=ac.createBufferSource();src.buffer=b;src.connect(ac.destination);
+    const off=Math.min(Math.max(0,(performance.now()-t0)/1000),D-0.01);src.start(0,off);live=src;}catch(e){}
+}
+
 // ---------- playback ----------
 let playing=false,t0=0,cur=0,raf=0,busy=false;
 function setT(t){cur=t;$('scrub').value=t;$('tm').textContent=t.toFixed(1).replace('.',',')+' s';draw(t)}
-function loop(now){if(!playing)return;let t=(now-t0)/1000;if(t>D){t0=now;t=0}setT(t);raf=requestAnimationFrame(loop)}
-function play(){if(busy)return;playing=true;t0=performance.now()-cur*1000;$('play').textContent='❚❚';raf=requestAnimationFrame(loop)}
-function pause(){playing=false;cancelAnimationFrame(raf);$('play').textContent='▶'}
-$('play').onclick=()=>playing?pause():play();
+function loop(now){if(!playing)return;let t=(now-t0)/1000;if(t>D){t0=now;t=0;if(userPlay)liveStart()}setT(t);raf=requestAnimationFrame(loop)}
+let userPlay=false;
+function play(){if(busy)return;playing=true;t0=performance.now()-cur*1000;$('play').textContent='❚❚';raf=requestAnimationFrame(loop);if(userPlay)liveStart()}
+function pause(){playing=false;cancelAnimationFrame(raf);$('play').textContent='▶';liveStop()}
+$('play').onclick=()=>{userPlay=true;playing?pause():play()};
+$('optSnd').onchange=()=>{if(playing&&userPlay)liveStart();else liveStop()};
 $('scrub').oninput=e=>{pause();setT(parseFloat(e.target.value))};
 $('f').addEventListener('input',()=>{read();if(!playing)draw(cur)});
 $('f').addEventListener('submit',e=>e.preventDefault());
@@ -424,25 +565,30 @@ async function save(name,blob){
   catch(e){return 'fail'}
 }
 function slug(){return ((S.band||'tipp').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'tipp')+(S.date?'-'+S.date:'')}
-function pickMime(){
+function pickMime(snd){
   if(!window.MediaRecorder)return null;
-  const L=['video/mp4;codecs=avc1.640028','video/mp4;codecs=avc1.42E01E','video/mp4;codecs=avc1','video/mp4','video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'];
+  const A=['video/mp4;codecs=avc1.640028,mp4a.40.2','video/mp4;codecs=avc1.42E01E,mp4a.40.2','video/mp4;codecs=avc1,mp4a.40.2','video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus'];
+  const L=(snd?A:[]).concat(['video/mp4;codecs=avc1.640028','video/mp4;codecs=avc1.42E01E','video/mp4;codecs=avc1','video/mp4','video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm']);
   return L.find(m=>{try{return MediaRecorder.isTypeSupported(m)}catch(e){return false}})||null;
 }
 $('exp').onclick=async()=>{
   if(busy)return;read();
-  const mime=pickMime();
+  pause();
+  let snd=null,eac=null;
+  if(sndOn()){try{status('Erzeuge Radar-Sound …');snd=await getSound();eac=new (window.AudioContext||window.webkitAudioContext)();await eac.resume()}catch(e){snd=null}}
+  const mime=pickMime(!!snd);
   if(!mime||!cv.captureStream){status('Dieser Browser kann kein Video aufnehmen. Bitte Chrome am Rechner nutzen.','err');return}
-  pause();busy=true;$('exp').disabled=$('png').disabled=true;
+  busy=true;$('exp').disabled=$('png').disabled=true;
   status('Nehme auf … ('+D.toFixed(1).replace('.',',')+' s, bitte Tab offen lassen)');
-  const stream=cv.captureStream(30);const chunks=[];
+  const stream=cv.captureStream(30);const chunks=[];let asrc=null;
+  if(snd&&eac&&/opus|mp4a/.test(mime)){const dst=eac.createMediaStreamDestination();asrc=eac.createBufferSource();asrc.buffer=snd;asrc.connect(dst);dst.stream.getAudioTracks().forEach(tr=>stream.addTrack(tr))}
   let rec;try{rec=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:12000000})}catch(e){rec=new MediaRecorder(stream)}
   rec.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data)};
   const done=new Promise(r=>rec.onstop=r);
-  draw(0);rec.start(250);
+  draw(0);rec.start(250);if(asrc)asrc.start();
   const start=performance.now();
   await new Promise(res=>{function f(now){const t=(now-start)/1000;if(t>=D+0.15){draw(D);res();return}draw(Math.min(t,D));$('prog').style.width=(100*t/D)+'%';requestAnimationFrame(f)}requestAnimationFrame(f)});
-  rec.stop();await done;stream.getTracks().forEach(tr=>tr.stop());
+  rec.stop();await done;stream.getTracks().forEach(tr=>tr.stop());if(eac)eac.close().catch(()=>{});
   const ext=mime.startsWith('video/mp4')?'mp4':'webm';
   const blob=new Blob(chunks,{type:mime.split(';')[0]});
   $('prog').style.width='100%';
@@ -465,7 +611,8 @@ $('png').onclick=async()=>{
 load();read();
 const fontsReady=Promise.all(['700 100px Oswald','500 40px Oswald','400 40px Oswald','400 40px Barlow','italic 400 40px Barlow'].map(f=>document.fonts.load(f).catch(()=>{})));
 Promise.race([fontsReady,new Promise(r=>setTimeout(r,2500))]).then(()=>{setT(0);play()});
-window.__radar={draw,read,S:()=>S,pause,set:o=>{pause();F.forEach(k=>{if(o[k]!==undefined&&o[k]!==null)$(k).value=String(o[k])});if(o.cities!==undefined)$('optCities').checked=!!o.cities;read();draw(0);return S.g?{dist:Math.round(S.g.dist),dir:S.g.dir}:null}};
+window.__radar={draw,read,S:()=>S,pause,
+  audioWav:async()=>{const b=await getSound(),u=wavBytes(b);let s2='';for(let i=0;i<u.length;i+=0x8000)s2+=String.fromCharCode.apply(null,u.subarray(i,i+0x8000));return btoa(s2)},set:o=>{pause();F.forEach(k=>{if(o[k]!==undefined&&o[k]!==null)$(k).value=String(o[k])});if(o.cities!==undefined)$('optCities').checked=!!o.cities;read();draw(0);return S.g?{dist:Math.round(S.g.dist),dir:S.g.dir}:null}};
 })();
 </script>
 </body>

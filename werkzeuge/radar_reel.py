@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Baut das Radar-Reel (1080x1920, MP4, stumm) und ein Titelbild zum Tipp des Tages.
+"""Baut das Radar-Reel (1080x1920, MP4 mit Radar-Sound) und ein Titelbild zum Tipp des Tages.
 
 Aufruf:  python3 werkzeuge/radar_reel.py post.json reel_JJJJ-MM-TT.mp4
          (legt zusätzlich reel_JJJJ-MM-TT_titel.png daneben)
@@ -91,12 +91,16 @@ def main():
             open(os.path.join(bilder, f"{i:04d}.png"), "wb").write(base64.b64decode(url.split(",", 1)[1]))
         url = pg.evaluate(f"(window.__radar.draw({TITEL_T}), document.getElementById('cv').toDataURL('image/png'))")
         open(titel, "wb").write(base64.b64decode(url.split(",", 1)[1]))
+        ton = os.path.join(arbeit, "ton.wav")
+        open(ton, "wb").write(base64.b64decode(pg.evaluate("window.__radar.audioWav()")))
         b.close()
         if fehler:
             sys.exit("Fehler in der Vorlage: " + "; ".join(fehler))
 
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(bilder, "%04d.png"),
+                    "-i", ton, "-map", "0:v", "-map", "1:a",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest",
                     "-movflags", "+faststart", ziel], check=True)
     shutil.rmtree(arbeit, ignore_errors=True)
     print(f"Reel: {ziel}  ({geo['dist']} km {geo['dir']} von Hannover)\nTitelbild: {titel}")
