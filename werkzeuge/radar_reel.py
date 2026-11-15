@@ -24,7 +24,7 @@ Benötigt: python3-playwright mit Chromium, ffmpeg, npm (für die Schriften übe
 import base64, json, os, shutil, subprocess, sys, tempfile
 
 HIER = os.path.dirname(os.path.abspath(__file__))
-FPS, DAUER, TITEL_T = 30, 10.5, 6.6
+FPS, TITEL_T = 30, 6.6
 SCHRIFTEN = [  # (Familie, Stil, Gewicht, Paket, Datei)
     ("Oswald", "normal", 400, "oswald", "oswald-latin-400-normal.woff2"),
     ("Oswald", "normal", 500, "oswald", "oswald-latin-500-normal.woff2"),
@@ -85,7 +85,7 @@ def main():
         geo = pg.evaluate("o=>window.__radar.set(o)", daten(d))
         if not geo:
             sys.exit("Ort nicht erkannt: reel.lat und reel.lon in post.json eintragen.")
-        n = int(round(DAUER * FPS))
+        n = int(round(pg.evaluate("window.__radar.D") * FPS))
         for i in range(n + 1):
             url = pg.evaluate(f"(window.__radar.draw({i / FPS:.4f}), document.getElementById('cv').toDataURL('image/png'))")
             open(os.path.join(bilder, f"{i:04d}.png"), "wb").write(base64.b64decode(url.split(",", 1)[1]))
