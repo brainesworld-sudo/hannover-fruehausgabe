@@ -1,0 +1,354 @@
+{
+  "stand": "Stand: Montag, 16. November, 3 Uhr",
+  "kurz": [
+    "<b>Heil gegen Klingbeil:</b> Der frühere Arbeitsminister Hubertus Heil will im Januar SPD-Chef werden. Ministerpräsident Olaf Lies mahnt eine <b>geschlossene Führung</b> an, denn beide Bewerber kommen aus Niedersachsen.",
+    "<b>Tanker in Flammen:</b> Irans Revolutionsgarden melden zwei Öltanker, die in der <b>Straße von Hormus</b> auf Seeminen gelaufen seien, einer sei gesunken. Unabhängig bestätigt ist bisher nur ein Angriff auf einen Tanker.",
+    "<b>Prag auf der Straße:</b> Hunderttausende protestierten gegen die Pläne der Regierung Babiš, die <b>Rundfunkgebühr</b> abzuschaffen und die Sender aus dem Staatshaushalt zu bezahlen.",
+    "<b>Klarna & Co. werden Kredit:</b> Ab <b>Freitag, 20. November</b>, müssen Anbieter von Ratenkauf und „Später bezahlen“ vorher die Zahlungsfähigkeit prüfen, auch bei kleinen Beträgen.",
+    "<b>Recken verlieren:</b> In Gummersbach unterliegt Hannover-Burgdorf mit <b>29:33</b>, zur Pause stand es 18:18. Die Scorpions gewinnen 7:3 gegen Duisburg, die Indians verlieren 5:8 in Tilburg.",
+    "<b>Endspiel in Berlin:</b> Heute um <b>20.45 Uhr</b> braucht das DFB-Team von Jürgen Klopp einen Sieg gegen die Niederlande, dann ist das Nations-League-Viertelfinale sicher. Zverev startet in Turin mit 6:4, 6:4."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Zwei Niedersachsen, ein Parteivorsitz: Lies will Geschlossenheit",
+          "kurz": "Nach der Kandidatur von <b>Hubertus Heil</b> (Peine) für den SPD-Vorsitz fordert Ministerpräsident Olaf Lies eine Entscheidung, die die ganze Partei trägt. Amtsinhaber <b>Lars Klingbeil</b> hat sich noch nicht erklärt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Niedersächsischer Landtag", "suche": "Niedersächsischer Landtag Hannover"}],
+          "lang": [
+            "Heil hat seine Bewerbung am Samstag in einem dreiseitigen Brief an Landesverbände und Parteivorstand erklärt. Gewählt wird auf dem Parteitag Mitte Januar in Bremen, die komplette Spitze wird neu bestimmt, seit Co-Chefin Bärbel Bas Mitte Oktober zurückgetreten ist. Heils Argument zielt auf Klingbeil, der zugleich Vizekanzler und Finanzminister ist: Eine Volkspartei brauche jemanden, der sich voll auf sie konzentrieren kann.",
+            "Lies, selbst SPD-Landeschef, begrüßt Wettbewerb grundsätzlich, warnt aber vor Selbstbeschäftigung, gerade mit Blick auf die Landtagswahl im September 2027. Der Parteivorstand will bis 16. Dezember einen Personalvorschlag machen. Umweltminister Carsten Schneider und Fraktionschef Matthias Miersch haben sich bereits hinter Klingbeil gestellt."
+          ],
+          "einschaetzung": "dpa-Meldung und t-online-Bericht stimmen in den Fakten überein; wie die Mehrheiten auf dem Parteitag liegen, ist offen.",
+          "quellen": [
+            {"name": "nord24 (dpa)", "url": "https://www.nord24.de/niedersachsen/lies-nach-heils-kandidatur-spd-braucht-geschlossene-fuehrung-430835.html"},
+            {"name": "t-online", "url": "https://t-online.de/nachrichten/deutschland/innenpolitik/id_101529262/hubertus-heil-bewirbt-sich-auf-spd-parteivorsitz.html"}
+          ]
+        },
+        {
+          "titel": "List: Golf rammt Motorradfahrerin und flüchtet",
+          "kurz": "Am Samstagabend gegen <b>21.25 Uhr</b> erfasste ein Auto an der Podbielskistraße eine 18-Jährige auf einem Leichtkraftrad und fuhr davon. Der Wagen verlor dabei vermutlich ein Kennzeichen mit <b>„SZ“</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Podbielskistraße / Grethe-Jürgens-Straße", "suche": "Podbielskistraße Grethe-Jürgens-Straße Hannover"}],
+          "lang": [
+            "Die junge Frau bog aus der Grethe-Jürgens-Straße ein, als ein VW Golf, vermutlich hell oder champagnerfarben, laut Zeugen bei Rot in die Kreuzung fuhr. Der Fahrer setzte mit Warnblinker seine Fahrt Richtung Innenstadt fort. Die Verletzte kam mit Notarzt ins Krankenhaus, am Motorrad entstand rund 7.500 Euro Schaden.",
+            "Das Auto dürfte vorne deutlich beschädigt sein. Zeugen sahen später bei Langenhagen ein ähnlich demoliertes Fahrzeug als Falschfahrer. Hinweise nimmt der Verkehrsunfalldienst unter 0511 109-1888 entgegen."
+          ],
+          "einschaetzung": "Offizielle Pressemitteilung der Polizeidirektion Hannover.",
+          "quellen": [
+            {"name": "Polizei Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6390779"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101529792/hannover-autofahrer-fluechtet-nach-unfall-verliert-aber-kennzeichen.html"}
+          ]
+        },
+        {
+          "titel": "Stadionsingen ausverkauft: über 41.000 Stimmen",
+          "kurz": "Das 5. Adventssingen in der Heinz-von-Heiden-Arena am <b>15. Dezember</b> ist ausverkauft. Mit über <b>41.000</b> Menschen wird es das größte bisher.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Heinz-von-Heiden-Arena", "suche": "Heinz von Heiden Arena Hannover"}],
+          "lang": [
+            "Die Zahl wächst seit Jahren rasant: 2022 kamen rund 7.000, 2025 schon 31.500 Menschen. Heinz Rudolf Kunze eröffnet das Vorprogramm gegen 17.15 Uhr, gemeinsam gesungen wird ab 18 Uhr, Einlass ist ab 16 Uhr.",
+            "Veranstalter ist der evangelisch-lutherische Kirchenkreis Hannover mit Hannover 96. Überschüsse und Spenden gehen an die Ökumenische Essenausgabe und die HAZ-Weihnachtshilfe."
+          ],
+          "einschaetzung": "Angaben der Veranstalter, berichtet von t-online, Planung zuvor auch von Radio Hannover gemeldet.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101529152/hannover-96-stadionsingen-mit-rekordzahl-ausverkauft-rocksaenger-dabei.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/singen-fuer-den-guten-zweck-5-stadionsingen-mit-ueber-40-000-menschen-geplant"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Verkehr und Termine für die Woche in Stadt und Region.",
+          "liste": [
+            "<b>S-Bahn:</b> S1, S2 und S5 fahren seit <b>6 Uhr</b> wieder bis Weetzen. Für S21 und S51 gilt der Ersatzverkehr laut Radio Hannover noch bis Donnerstag.",
+            "<b>S4:</b> Vom <b>18. bis 25. November</b> fällt die S4 zwischen Hannover und Hildesheim aus, der RE10 hält zusätzlich.",
+            "<b>Gleidingen:</b> Ab heute ist die Ortsdurchfahrt voll gesperrt, voraussichtlich bis Ende Dezember. Die Buslinie 390 wird umgeleitet, Pendelbusse fahren.",
+            "<b>Wind:</b> Für heute gilt laut Vorhersage eine amtliche Warnung vor <b>Böen bis 70 km/h</b> zwischen 9 und 18 Uhr.",
+            "<b>Kröpcke:</b> Die 18 Meter hohe Weihnachtspyramide steht, der Weihnachtsmarkt öffnet am <b>23. November</b>."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus Verkehrsinfos von Üstra und Radio Hannover sowie dem Wetterdienst."],
+          "einschaetzung": "Angaben der Verkehrsbetriebe und Lokalmedien; kurzfristige Änderungen in der Fahrplanauskunft prüfen.",
+          "quellen": [
+            {"name": "Üstra", "url": "https://www.uestra.de/"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/aktuell/news"},
+            {"name": "wetterdienst.de", "url": "https://www.wetterdienst.de/Deutschlandwetter/Hannover/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Facharzttermin gegen Geld? Lauterbach attackiert Kassenärzte-Chef",
+          "kurz": "KBV-Chef Andreas Gassen erwartet, dass Fachärzte Kassenpatienten künftig öfter <b>Selbstzahlertermine</b> anbieten. Ex-Gesundheitsminister Karl Lauterbach nennt ihn einen „hoch bezahlten Lobbyisten“.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Gassens Idee: Wer schnell einen Termin will, zahlt privat. Lauterbach (SPD) hält dagegen, damit werde die Not von Patienten zu Geld gemacht. Statt Bezahlterminen brauche es weniger Bürokratie in den Praxen, sagte er der Rheinischen Post.",
+            "Auch SPD-Gesundheitspolitiker Christos Pantazis spricht von einem Angriff auf die solidarische Versorgung und wirft Gassen vor, mit Wartezeiten Druck für höhere Honorare zu machen."
+          ],
+          "einschaetzung": "Mehrere Medien berichten übereinstimmend; Gassens genauer Wortlaut liegt uns nicht vor.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101530064/facharzttermin-gegen-geld-lauterbach-kritisiert-aerzte-chef-gassen-scharf.html"},
+            {"name": "WirtschaftsWoche", "url": "https://www.wiwo.de/politik/deutschland/krankenkasse-kassenaerzte-chef-schlaegt-selbstzahler-termine-fuer-kassenpatienten-vor/100269861.html"}
+          ]
+        },
+        {
+          "titel": "VW-Chef Blume verspricht Rekordrendite bis 2030",
+          "kurz": "Volkswagen soll 2030 rund <b>neun Millionen</b> Fahrzeuge verkaufen und <b>neun Prozent</b> Rendite schaffen, so viel wie nie. Den Abbau von mehr als 100.000 Stellen verteidigt Oliver Blume.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "VW-Werk Wolfsburg", "suche": "Volkswagen Werk Wolfsburg"}],
+          "lang": [
+            "Zum Vergleich: 2025 lieferte der Konzern knapp neun Millionen Autos aus, bei nur 2,8 Prozent operativer Rendite. Für dieses Jahr wird höchstens ein Prozent erwartet. Der Weg zur Rekordmarge ist also weit.",
+            "Den Stellenabbau nennt Blume im Bild-Interview keinen Radikalschnitt, VW investiere Milliarden auch in Abfindungen. Als Problem nennt er Personalkosten in deutschen Werken, die etwa doppelt so hoch seien wie anderswo in Europa."
+          ],
+          "einschaetzung": "dpa-Zusammenfassung eines Bild-Interviews, von ZDFheute ebenso gemeldet; es handelt sich um Ziele, nicht um Prognosen.",
+          "quellen": [
+            {"name": "nord24 (dpa)", "url": "https://www.nord24.de/wirtschaft/vw-chef-blume-will-2030-rekordrendite-erreichen-430817.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Volkstrauertag mit Gast aus Wien",
+          "kurz": "Österreichs Bundespräsident <b>Alexander Van der Bellen</b> hielt die Gedenkrede im Bundestag, Österreich ist Partnerland des Volkstrauertags 2026.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Neue Wache", "suche": "Neue Wache Berlin"}],
+          "lang": [
+            "Gemeinsam mit Bundespräsident Frank-Walter Steinmeier legte Van der Bellen an der Neuen Wache einen Kranz nieder. Leitfrage der Feierstunde des Volksbunds war, wie Frieden gelingen kann; Van der Bellen warb dabei für mehr Mitgefühl.",
+            "Das Totengedenken schließt seit dem Vorjahr auch Menschen ein, die im Nationalsozialismus wegen ihrer geschlechtlichen oder sexuellen Identität verfolgt wurden, sowie im Dienst getötete Polizistinnen und Polizisten."
+          ],
+          "einschaetzung": "Öffentliche Gedenkveranstaltung, von ZDFheute berichtet.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/volkstrauertag-gedenken-krieg-veranstaltung-gedenktag-berlin-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Baden-Baden:</b> Ein Auto stürzte rund zehn Meter von einer Brücke, <b>drei Menschen</b> starben, zwei Insassinnen wurden leicht verletzt.",
+            "<b>Elbphilharmonie:</b> Seit die Plaza <b>5 Euro</b> Eintritt kostet, kamen im Oktober rund 145.000 Besucher, 31 Prozent weniger als vor einem Jahr.",
+            "<b>Berlin:</b> Bodo Ramelow fordert die Abgeordnete Vanessa Emde auf, die Linken-Fraktion zu verlassen. Sie habe ein Sondierungspapier unterschrieben und tags darauf das Gegenteil erklärt.",
+            "<b>Wetter:</b> Der Deutsche Wetterdienst erwartet eine trübe, nasse und windige Woche."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Newsticker vom Sonntag."],
+          "einschaetzung": "Agenturmeldungen im ZDF-Ticker, Details teils knapp.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "ZDFheute (Ramelow)", "url": "https://www.zdfheute.de/politik/deutschland/ramelow-linke-koalition-berlin-emde-fraktionsausschluss-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Straße von Hormus: Tanker sollen auf Minen gelaufen sein",
+          "kurz": "Irans Revolutionsgarden melden Explosionen an <b>zwei Öltankern</b>, einer sei gesunken. Die britische Seebehörde UKMTO bestätigt Beschuss auf einen Tanker, die Crew sei in Sicherheit.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Straße von Hormus", "suche": "Straße von Hormus"}],
+          "lang": [
+            "Laut Teheran hatten die Schiffe ihre Ortungssysteme ausgeschaltet und wurden vom US-Militär begleitet. Iran meldet seit dem 13. November mehrere Tankerbrände, überprüfen ließ sich davon bisher wenig. Parallel behauptet Iran, Drohnen auf eine US-Radaranlage in Bahrain abgefeuert zu haben; die USA und Bahrain bestätigen das nicht.",
+            "Diplomatisch bewegt sich etwas: Der Kreml hat bestätigt, dass Putin am Donnerstag am Rande des Apec-Gipfels in Shenzhen mit Trump und Xi zusammenkommt. Laut Washington soll es auch um den Iran-Krieg gehen. Die Internationale Energieagentur meldet erstmals seit Kriegsbeginn mehr Öl auf dem Markt als Nachfrage."
+          ],
+          "einschaetzung": "Hauptquelle sind iranische Angaben; unabhängig bestätigt ist nur ein Angriff auf einen Tanker.",
+          "quellen": [
+            {"name": "ZDFheute Liveblog", "url": "https://www.zdfheute.de/politik/ausland/iran-israel-usa-angriff-liveblog-100.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Prag: Massenprotest für den öffentlichen Rundfunk",
+          "kurz": "Auf der Letná-Ebene demonstrierten nach Angaben der Veranstalter bis zu <b>400.000 Menschen</b> gegen die Rundfunkreform der Regierung Babiš.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Letná-Ebene", "suche": "Letenská pláň Praha"}],
+          "lang": [
+            "Die Regierung will die Gebühr von 205 Kronen (rund 8,50 Euro) pro Haushalt abschaffen, die Sender aus dem Staatshaushalt finanzieren und das Budget zugleich um 15 Prozent kürzen. Kritiker fürchten politischen Zugriff auf Fernsehen und Hörfunk und ziehen Vergleiche mit Ungarn. Babiš spricht von einer Entlastung der Bürger.",
+            "Der Entwurf hat die erste Hürde im Parlament genommen. Die EU-Kommission beobachtet das Vorhaben mit Blick auf das europäische Medienfreiheitsgesetz. Schon Ende Oktober waren Zehntausende auf der Straße, Anfang November streikten Beschäftigte der Sender."
+          ],
+          "einschaetzung": "Protest unstrittig; die Teilnehmerzahl stammt von den Veranstaltern und wurde im Tagesverlauf von 250.000 auf 400.000 erhöht.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/tschechien-demo-medien-reform-protest-100.html"}
+          ]
+        },
+        {
+          "titel": "Estland: Brandanschlag auf Drohnenfirma, Grenze zu Russland wird dicht",
+          "kurz": "Nach einem vereitelten Anschlag auf den Drohnenhersteller <b>Threod Systems</b> bei Tallinn sitzen acht Verdächtige fest. Ab <b>1. Dezember</b> schließt Estland alle Übergänge nach Russland.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Viimsi", "suche": "Viimsi Estland"}, {"name": "Narva", "suche": "Narva Grenzübergang"}],
+          "lang": [
+            "Der Werkschutz stoppte den Brandversuch in der Nacht zu Samstag, der Schaden blieb gering. Die Firma liefert Aufklärungs- und Kampfdrohnen auch an die Ukraine. Die Verdächtigen leben in Lettland, gegen fünf liegen Haftbefehle vor.",
+            "Geheimdienstchef und Außenminister machen den russischen Militärgeheimdienst GRU verantwortlich. Bis Monatsende bleiben noch Narva, Luhamaa und Koidula für Fußgänger und Fracht offen. Moskau spricht von Russophobie."
+          ],
+          "einschaetzung": "Festnahmen offiziell; die GRU-Urheberschaft ist eine Aussage estnischer Behörden, Beweise sind nicht öffentlich.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/estland-grenze-russland-sabotage-drohnenhersteller-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Tatarstan:</b> Ukrainische Drohnen trafen in Nischnekamsk, mehr als <b>1.000 Kilometer</b> hinter der Grenze, einen Petrochemie-Komplex und eine Raffinerie. Russland bestätigt Schäden und sechs Verletzte.",
+            "<b>Kanaren:</b> Binnen zwei Tagen kamen fast <b>2.200 Migranten</b> an, die meisten auf El Hierro.",
+            "<b>Belgien:</b> Auf dem Weihnachtsmarkt in Anhée explodierte eine Gasflasche, fünf Menschen wurden verletzt, zwei schwer.",
+            "<b>Klimagipfel:</b> Umweltminister Carsten Schneider reist zur COP31 in die Türkei und soll mit Indien zwischen den Lagern vermitteln. Ende ist für Freitag geplant."
+          ],
+          "bewertung": "plausibel",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Ticker und der Berliner Zeitung."],
+          "einschaetzung": "Angaben zu Kriegsschäden stammen von Konfliktparteien und sind nur teilweise bestätigt.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://berliner-zeitung.de/article/ukraine-angriffe-russland-raffinerie-tatarstan-brjansk-10599442"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Die Seite von Hannover 96 haben wir heute nicht gesondert geprüft; die 2. Liga pausiert wegen der Länderspiele.",
+      "meldungen": [
+        {
+          "titel": "Recken bleiben in Gummersbach ohne Punkte",
+          "kurz": "Nach <b>18:18</b> zur Pause verliert Hannover-Burgdorf beim VfL mit <b>29:33</b> und bleibt mit 12:12 Punkten Neunter.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Schwalbe Arena", "suche": "Schwalbe Arena Gummersbach"}],
+          "lang": [
+            "Lange war es ein offenes Spiel, Renars Uscins brachte die Recken kurz vor der Pause sogar in Führung. Nach dem Wechsel zog Gummersbach mit einem Lauf davon, Hannover blieb mehr als sechs Minuten ohne Tor. Am Ende fehlte die Kraft, VfL-Torwart Bertram Obling parierte 16 Würfe, Miro Schluroff traf neunmal.",
+            "Beste Recken-Werfer waren Leif Tissier und Uscins mit je fünf Toren. Am Freitag um 19 Uhr kommt der TVB Stuttgart in die ZAG Arena."
+          ],
+          "einschaetzung": "Ergebnis von Vereinsseite und NDR/Sportschau übereinstimmend.",
+          "quellen": [
+            {"name": "Die Recken", "url": "https://www.die-recken.de/recken-muessen-sich-umkaempfter-partie-in-gummersbach-geschlagen-geben/"},
+            {"name": "Sportschau (NDR)", "url": "https://www.sportschau.de/regional/ndr/tsv-hannover-burgdorf-verliert-beim-vfl-gummersbach,recken-hannover-260.html"}
+          ]
+        },
+        {
+          "titel": "Eishockey: Scorpions jubeln, Indians-Serie reißt",
+          "kurz": "Die Scorpions schlagen Duisburg im Verfolgerduell <b>7:3</b>. Die Indians verlieren beim Spitzenreiter Tilburg trotz 3:1-Führung <b>5:8</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "IJssportcentrum Tilburg", "suche": "IJssportcentrum Tilburg"}],
+          "lang": [
+            "Die Scorpions führten nach 14 Minuten 3:0 und bauten das im zweiten Drittel auf 7:1 aus, je zweimal trafen Pascal Aquin und Nicholas Miglio.",
+            "In Tilburg traf Alec Zawatsky für die Indians zweimal binnen 25 Sekunden, doch im Schlussdrittel drehte Marco Cavalleri mit drei Toren das Spiel. Damit endet die Indians-Serie von sechs Siegen. Am Freitag um 20 Uhr spielen sie gegen Hamm am Pferdeturm."
+          ],
+          "einschaetzung": "Spielberichte von eishockey.info; das Tilburg-Ergebnis bestätigt auch die Trappers-Seite.",
+          "quellen": [
+            {"name": "eishockey.info", "url": "https://www.eishockey.info/eishockey/ol/story/scorpions-siegen-deutlich-im-verfolgerduell-gegen-duisburg/62157"},
+            {"name": "Tilburg Trappers", "url": "https://www.trappers.nl/"}
+          ]
+        },
+        {
+          "titel": "Alles oder nichts: DFB-Team gegen Oranje",
+          "kurz": "Mit einem Sieg im Olympiastadion (<b>20.45 Uhr</b>) ist Deutschland im Viertelfinale. Bei einer Niederlage ist die Nations League für Klopps Team vorbei.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Olympiastadion Berlin", "suche": "Olympiastadion Berlin"}],
+          "lang": [
+            "Vor dem letzten Gruppenspiel führen die Niederlande mit 11 Punkten, Deutschland und Griechenland haben je 8, die Griechen gewinnen aber den direkten Vergleich. Ein Remis reicht nur, wenn Griechenland gegen Serbien verliert.",
+            "Selbst als Gruppendritter droht Ungemach: Gewinnt Norwegen am Dienstag gegen Dänemark, könnte Deutschland in die Playoffs um den Klassenerhalt im März rutschen. Zuletzt gewann das Team 2:0 in Serbien."
+          ],
+          "einschaetzung": "Tabellenlage aus t-online und Sportschau übereinstimmend.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/sport/fussball/nationalmannschaft-deutschland/id_101528552/nations-league-dfb-elf-vor-endspiel-um-das-viertelfinale-gegen-niederlande.html"},
+            {"name": "Sportschau", "url": "https://www.sportschau.de/fussball/nationalmannschaft/dfb-team-mit-druck-vor-endspiel-gegen-die-niederlande,fussball-dfb-team-abschlusstraining-vor-niederlande-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>Tennis:</b> Der Weltranglistenerste Alexander Zverev startet bei den ATP Finals in Turin mit <b>6:4, 6:4</b> gegen Debütant Rafael Jódar. Weitere Gegner: Arthur Fils und Ben Shelton.",
+            "<b>Ski alpin:</b> Lucas Pinheiro Braathen gewinnt den Slalom in Levi vor Clément Noël (+0,56). Linus Straßer wird <b>13.</b>",
+            "<b>Hannover 96:</b> Nach Ralf Becker sucht der Verein weiter einen neuen Sportdirektor. Nächstes Spiel: <b>Samstag, 13 Uhr</b>, gegen Fürth.",
+            "<b>Recken:</b> Torwart Simon Gade verlässt den Verein zum Saisonende."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus Sportschau, Sport1 und Radio Hannover."],
+          "einschaetzung": "Ergebnisse mit zwei Quellen abgeglichen.",
+          "quellen": [
+            {"name": "Sportschau (Zverev)", "url": "https://www.sportschau.de/tennis/zverev-gewinnt-auftakt-bei-atp-finals,zverev-jodar-100.html"},
+            {"name": "ESPN (Zverev)", "url": "https://www.espn.com/tennis/story/_/id/50490503/alexander-zverev-opens-atp-finals-win-rafael-jodar"},
+            {"name": "Sport1 (Levi)", "url": "https://www.sport1.de/news/wintersport/ski-alpin/2026/11/slalom-in-levi-braathen-mit-zweitem-saisonsieg"},
+            {"name": "Sportschau (96)", "url": "https://www.sportschau.de/regional/ndr/Zweite-Bundesliga-Hannover-96-Becker,hannover-1392.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+      "trends": [
+        {"begriff": "russland brand", "volumen": "10.000+", "anlass": "Drohnentreffer in Tatarstan"},
+        {"begriff": "nvidia chef jensen huang", "volumen": "500+", "anlass": "Rücktritt nach Affäre"},
+        {"begriff": "jen-hsun huang", "volumen": "500+", "anlass": "Spionageverdacht im Umfeld"},
+        {"begriff": "klarna", "volumen": "200+", "anlass": "Bonitätsprüfung ab 20. November"},
+        {"begriff": "quentin tarantino", "volumen": "200+", "anlass": "Casting-Anekdote zu „Basterds“"},
+        {"begriff": "flyers – oilers", "volumen": "200+", "anlass": "McDavid-Punkteserie"},
+        {"begriff": "h&m", "volumen": "200+", "anlass": "Herbstmode und Deko"},
+        {"begriff": "uma thurman", "volumen": "200+", "anlass": "Interview zur Lebensmitte"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Der Fall Jensen Huang: Affäre, Chips und Spionageverdacht",
+          "kurz": "Nvidias Gründer ist als Chef zurückgetreten. Im Zentrum steht eine Geschäftsfrau, die zeitweise bei <b>Megaspeed</b> arbeitete, einem Großkunden für Nvidia-Chips, der Exportregeln umgangen haben soll.",
+          "bewertung": "vorsicht",
+          "lang": [
+            "Nach Berichten der New York Times über zwei Affären legte Huang vergangene Woche sein Amt nieder. Die Frau soll laut US-Berichten seit Längerem beobachtet worden sein, ob sie gezielt spionierte, ist offen. Megaspeed in Singapur kaufte Nvidia-Technik für Milliarden; US-Behörden prüfen, ob Chips nach China weitergereicht wurden. Peking nennt die Vorwürfe Verleumdung.",
+            "Das FBI ermittelt, Nvidia prüft intern, Huang soll vor einem Senatsausschuss aussagen. Trump nahm ihn in Schutz. Laut Megaspeed hat die Frau das Unternehmen bereits im August 2025 verlassen."
+          ],
+          "einschaetzung": "Rücktritt gesichert, der Spionageverdacht ist unbestätigt und stützt sich auf Medienberichte.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/panorama/kriminalitaet/spionage-nvidia-huang-liebesfalle-historisch-100.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Ratenkauf wird Kredit: Was sich am Freitag ändert",
+          "kurz": "Ab <b>20. November</b> gelten „Buy now, pay later“-Angebote von Klarna, PayPal und Ratepay rechtlich als Kredit. Vorher wird die Zahlungsfähigkeit geprüft, auch bei Beträgen unter <b>200 Euro</b>.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Grundlage ist die neue EU-Verbraucherkreditrichtlinie, deren deutsche Umsetzung der Bundesrat im Mai gebilligt hat. Fällt die Prüfung negativ aus, gibt es keinen Ratenkauf. Social-Media-Posts und Gesundheitsdaten dürfen nicht einfließen. Neu ist ein 14-tägiges Widerrufsrecht, Kosten und Folgen bei Verzug müssen vorab offengelegt werden.",
+            "Der klassische Kauf auf Rechnung beim Händler ist meist nicht betroffen. Verbraucherschützer raten, offene Raten zu prüfen, eine zweite Zahlungsart zu hinterlegen und Mails zu angeblichen Bonitätsprüfungen zu ignorieren, weil Betrüger das Thema nutzen."
+          ],
+          "einschaetzung": "Gesetzliche Neuregelung, von mehreren Medien übereinstimmend erklärt.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/ab-20-november-pflicht-was-klarna-und-paypal-kunden-vor-dem-black-friday-erledigen-sollten-10600215"},
+            {"name": "t3n", "url": "https://t3n.de/news/klarna-paypal-miete-auskunft-1772382/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst im Netz lief.",
+          "liste": [
+            "<b>Frankreich:</b> Bei einem Cyberangriff im September auf die Post-Tochter Maileva wurden Namen und Adressen von <b>22 Millionen</b> Menschen erbeutet, Bankdaten laut AFP nicht.",
+            "<b>Tarantino:</b> Der Regisseur erzählt, warum er Mélanie Laurent beim Casting für „Inglourious Basterds“ zunächst aussortierte.",
+            "<b>NHL:</b> Connor McDavid geht mit einer Serie von <b>21 Spielen</b> mit Scorerpunkt in das Duell der Oilers in Philadelphia."
+          ],
+          "bewertung": "plausibel",
+          "lang": ["Kurzmeldungen zu Google-Trends-Themen."],
+          "einschaetzung": "Agentur- und Fachmedienberichte, nicht einzeln gegengeprüft.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "IMDb News", "url": "https://www.imdb.com/news/ni66112887/"},
+            {"name": "NHL.com", "url": "https://www.nhl.com/news/nhl-on-tap-news-and-notes-november-15-2026"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Nachtrag:</b> Gestern hieß es, das Dreiertreffen Trump, Xi, Putin sei nur eine Ankündigung des Weißen Hauses. Der Kreml hat Putins Teilnahme am Donnerstag in Shenzhen inzwischen bestätigt; eine Bestätigung aus Peking haben wir nicht gefunden.",
+    "<b>Hormus:</b> Dass ein Tanker gesunken ist, sagen bisher nur Irans Revolutionsgarden. Die britische UKMTO spricht von Beschuss auf einen Tanker mit unversehrter Crew.",
+    "<b>Prag:</b> Die Teilnehmerzahl stammt allein von den Veranstaltern, die sie im Tagesverlauf von 250.000 auf 400.000 anhoben. Eine Polizeizahl liegt nicht vor.",
+    "<b>Nvidia:</b> Der Spionageverdacht im Fall Huang ist nicht bestätigt; belegt sind Rücktritt, Affären und die laufenden Ermittlungen zu Chipexporten."
+  ],
+  "woche": [
+    {"wann": "Mo 16. Nov", "titel": "Böen, Regen, Endspiel", "text": "Grau und nass, bis etwa <b>10 Grad</b>, Warnung vor Böen bis 70 km/h von 9 bis 18 Uhr. S1, S2, S5 fahren wieder bis Weetzen, Bus 390 ab heute mit Umleitung in Gleidingen. <b>20.45 Uhr:</b> Deutschland gegen die Niederlande in Berlin."},
+    {"wann": "Di 17. Nov", "titel": "Viel Regen, dann Lichter", "text": "Kräftiger Regen vor allem mittags, <b>3 bis 11 Grad</b>, böiger Wind. Der Erlebnis-Zoo öffnet wieder um 9 Uhr, <b>ab 17 Uhr</b> erster Abend der ZooLights. Norwegen gegen Dänemark entscheidet mit über Deutschlands Nations-League-Platz."},
+    {"wann": "Mi 18. bis So 22. Nov", "titel": "Gipfel, Ratenkauf-Regeln, Heimspiele", "text": "Mittwoch Schauer bei 7 bis 10 Grad, Do/Fr weiter nass, Samstag meist trocken bei <b>7 Grad</b>. <b>Ab Mi:</b> S4 Hannover–Hildesheim fällt bis 25.11. aus. <b>Do:</b> Treffen Trump, Xi, Putin in Shenzhen. <b>Fr:</b> neue Regeln für Ratenkauf; <b>19 Uhr</b> Recken gegen Stuttgart, <b>20 Uhr</b> Indians gegen Hamm. <b>Sa 13 Uhr:</b> 96 gegen Fürth. Vorschau: Weihnachtsmarkt ab Mo 23.11."}
+  ]
+}
