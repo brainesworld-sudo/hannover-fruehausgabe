@@ -1,0 +1,359 @@
+{
+  "stand": "Stand: Dienstag, 17. November, 3 Uhr",
+  "kurz": [
+    "<b>5:0 gegen Oranje:</b> Das DFB-Team brauchte einen Sieg mit fünf Toren Unterschied und lieferte genau das. Wirtz traf doppelt, Deutschland ist <b>Gruppensieger</b> und im Nations-League-Viertelfinale.",
+    "<b>Stromsteuer runter für alle?</b> Kanzler Merz rechnet heute im Koalitionsausschuss mit einer Einigung: Ab <b>2027</b> soll die Steuer auch für Privathaushalte aufs EU-Minimum sinken. Die SPD will wissen, wie das bezahlt wird.",
+    "<b>Fehlerhafte Zeugnisse:</b> Landesweit erhielten fast <b>900</b> Schülerinnen und Schüler zu schlechte Abschlüsse, <b>53</b> davon in der Region Hannover, die meisten an der Oberschule Berenbostel.",
+    "<b>Neuer Sportdirektor:</b> Hannover 96 holt <b>Gabor Ruhr</b> (38) von Norwich City. Am Samstag um 13 Uhr kommt Fürth.",
+    "<b>Stahlgipfel in Salzgitter:</b> Mehr als <b>2.000</b> Beschäftigte protestierten laut IG Metall vor dem Treffen mit Ministerin Reiche und den Regierungschefs Lies und Wüst. Konkrete Beschlüsse gab es nicht.",
+    "<b>Hormus und Ukraine:</b> Ein dritter US-Flugzeugträger ist in Nahost, Iran meldet weitere Tankerschäden. Am <b>Donnerstag</b> treffen sich Trump, Xi und Putin in Shenzhen."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Zeugnis-Panne: 53 falsche Abschlüsse in der Region",
+          "kurz": "Eine Prüfung des Kultusministeriums deckt fast <b>900</b> fehlerhafte Abschlusszeugnisse aus zehn Jahren auf. In der Region trifft es vor allem die <b>Oberschule Berenbostel</b> in Garbsen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Oberschule Berenbostel", "suche": "Oberschule Berenbostel Garbsen"}, {"name": "IGS Burgdorf", "suche": "IGS Rudolf Bembenneck Burgdorf"}],
+          "lang": [
+            "In Garbsen sind 33 Jugendliche betroffen, an der IGS Rudolf-Bembenneck in Burgdorf 16 und an der Peter-Ustinov-Oberschule in Hannover vier. Offenbar wurden Ausgleichsregeln bei den Noten falsch angewandt. Folge: Manche bekamen einen niedrigeren Abschluss als verdient, in Einzelfällen blieb ihnen dadurch der Weg in die gymnasiale Oberstufe versperrt.",
+            "Alle Betroffenen sollen korrigierte Zeugnisse bekommen. Das Ministerium will die Regeln vereinfachen und die Abschlussvergabe künftig zusätzlich digital prüfen lassen."
+          ],
+          "einschaetzung": "Zahlen aus einer Prüfung des Kultusministeriums, berichtet von HAZ und Radio Hannover; wie Betroffene für verpasste Chancen entschädigt werden, ist offen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/zeugnisskandal-auch-schulen-aus-der-region-hannover-betroffen"}
+          ]
+        },
+        {
+          "titel": "Barsinghausen: Heute Plädoyers im Hammer-Prozess",
+          "kurz": "Ein 49-Jähriger soll im März seine Frau im Schlaf mit einem Hammer getötet und die <b>13-jährige Tochter</b> schwer verletzt haben. Heute plädieren Anklage und Verteidigung, ein Urteil ist noch am selben Tag möglich.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Landgericht Hannover", "suche": "Landgericht Hannover"}],
+          "lang": [
+            "Laut Anklage griff der Mann seine schlafende Frau an. Die Tochter, die nach ihrer Mutter sehen wollte, wurde ebenfalls schwer verletzt. Der Angeklagte bestreitet die Tat.",
+            "Ein psychiatrischer Gutachter sah keine Hinweise auf eine verminderte Schuldfähigkeit. Das Gericht will nach den Schlussvorträgen beraten und, wenn möglich, direkt urteilen."
+          ],
+          "einschaetzung": "Bericht von Radio Hannover; das Gericht nennt der Bericht nicht ausdrücklich, Strafprozesse dieser Art laufen am Landgericht Hannover.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/mordprozess-barsinghausen-urteil-erwartet"}
+          ]
+        },
+        {
+          "titel": "Kein Glühwein über den Dächern: Rooftop-Markt abgesagt",
+          "kurz": "Der Weihnachtsmarkt auf dem Parkhausdach an der <b>Röselerstraße</b> fällt in diesem Jahr aus. Die Innenstadtmärkte öffnen wie geplant am <b>23. November</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Parkhaus Röselerstraße", "suche": "Röselerstraße Parkhaus Hannover"}],
+          "lang": [
+            "Betrieben wurde der Markt in der sechsten Etage von der Dachbar „Schöne Aussichten 360°“. Die Betreiber nennen organisatorische Gründe, ohne sie genauer zu erklären. Ob es nächstes Jahr weitergeht, ist offen.",
+            "Wer Alternativen sucht: Rund um die Marktkirche läuft der Markt ab Montag bis zum 22. Dezember, dazu kommen kleinere Angebote wie das Weihnachtsdorf am Lindener Turm."
+          ],
+          "einschaetzung": "Angaben des Betreibers, berichtet von t-online Hannover.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101530352/-faellt-uns-nicht-leicht-weihnachtsmarkt-in-hannover-abgesagt.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Stadt und Region.",
+          "liste": [
+            "<b>Sicherheitsaktionstag:</b> Polizei und Stadt kontrollierten an 14 Stellen mehr als <b>400</b> Personen und Fahrzeuge und ahndeten rund 390 Verstöße. Am häufigsten: Radfahrer auf der falschen Straßenseite.",
+            "<b>Hauptbahnhof:</b> Drei Nächte lang kontrollierte die Bundespolizei mehr als <b>300</b> Menschen, fünf gefährliche Gegenstände wurden sichergestellt.",
+            "<b>S3 und S7:</b> Eine Weichenstörung zwischen Ahlten und Lehrte sorgte am Montag für Ausfälle, Halte in Misburg und Kleefeld entfielen. Vor der Fahrt die Auskunft prüfen.",
+            "<b>Gleidingen:</b> Die Kreuzung B6/K266 bleibt voraussichtlich bis <b>23. Dezember</b> voll gesperrt.",
+            "<b>Landtagswahl 2027:</b> Die CDU hat Sebastian Lechner einstimmig zum Spitzenkandidaten gewählt.",
+            "<b>Stadtfinanzen:</b> Per Nachtragshaushalt soll der Kreditrahmen der Stadt um <b>215 Millionen Euro</b> steigen."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen von Radio Hannover, t-online und der Stadt Hannover."],
+          "einschaetzung": "Angaben von Polizei, Stadt und Lokalmedien; die Bilanz des Aktionstags ist vorläufig.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/aktuell/news"},
+            {"name": "Polizei Hannover (Presseportal)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6391585"},
+            {"name": "t-online (Hauptbahnhof)", "url": "https://hannover.t-online.de/region/hannover/id_101530950/hannover-hauptbahnhof-drei-naechte-grosskontrolle-die-bilanz.html"},
+            {"name": "Stadt Hannover", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Stromsteuer: Merz verspricht Entlastung für alle",
+          "kurz": "Heute tagt der Koalitionsausschuss. Der Kanzler ist sicher, dass die Stromsteuer ab <b>2027</b> auch für Privathaushalte aufs <b>EU-Minimum</b> sinkt. Finanzminister Klingbeil will eine Gegenfinanzierung.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Kanzleramt", "suche": "Bundeskanzleramt Berlin"}],
+          "lang": [
+            "Bislang profitieren nur Industrie und Landwirtschaft von der niedrigeren Steuer, obwohl der Koalitionsvertrag eine Senkung für alle versprach. Merz kündigte nach einem Treffen mit CSU-Chef Söder in München an, die Beratung dazu werde kurz. Die CSU lehnt es ab, dafür die Mütterrente anzutasten.",
+            "Auf dem Tisch liegen außerdem Rente, Wahlrecht und die steuerliche Freistellung des Existenzminimums. Söder will zusätzlich einen Ausgleich für die kalte Progression."
+          ],
+          "einschaetzung": "Merz' Ankündigung ist belegt; ob die SPD zustimmt und wie es bezahlt wird, entscheidet sich erst heute.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/merz-koalition-stromsteuer-100.html"},
+            {"name": "Handelsblatt", "url": "https://handelsblatt.com/politik/deutschland/haushalt-merz-setzt-klingbeil-bei-senkung-der-stromsteuer-unter-zugzwang/100270123.html"}
+          ]
+        },
+        {
+          "titel": "Stahlgipfel in Salzgitter: Viel Druck, keine Beschlüsse",
+          "kurz": "Vor dem Gipfel in einer Halle der Salzgitter AG demonstrierten laut IG Metall mehr als <b>2.000</b> Stahlarbeiter. Ministerin Reiche verwies auf den neuen <b>Industriestrompreis</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Salzgitter AG", "suche": "Salzgitter AG Eisenhüttenstraße Salzgitter"}],
+          "lang": [
+            "Mit dabei waren Niedersachsens Regierungschef Olaf Lies, sein NRW-Kollege Hendrik Wüst und die IG Metall; Beschäftigte kamen auch aus Bremen und Sachsen-Anhalt. Die Branche fordert verlässlich günstige Strompreise, Schutz vor Billigimporten und eine Bevorzugung europäischen Stahls bei öffentlichen Aufträgen. Lies betonte, heimischer Stahl sei eine Frage der Sicherheit.",
+            "Reiche sagte, die Regierung habe den Industriestrompreis gegen Widerstand aus Brüssel durchgesetzt. Die Gewerkschaft hatte vorab einen Gipfel der Umsetzung statt neuer Analysen verlangt. Messbare Zusagen meldete danach kein Bericht."
+          ],
+          "einschaetzung": "dpa-Bericht im Handelsblatt, Vorbericht von Radio Bremen; Teilnehmerzahl nach Gewerkschaftsangabe.",
+          "quellen": [
+            {"name": "Handelsblatt (dpa)", "url": "https://www.handelsblatt.com/politik/deutschland/branchengipfel-in-salzgitter-stahl-soll-zukunft-bleiben-aber-wie/100270254.html"},
+            {"name": "buten un binnen", "url": "https://www.butenunbinnen.de/nachrichten/stahlgipfel-stahlwerk-bremen-protest-100.html"}
+          ]
+        },
+        {
+          "titel": "Weltmeister als AfD-Kandidat: DFB-Chef kritisiert Berthold",
+          "kurz": "Die AfD schickt den Weltmeister von 1990, <b>Thomas Berthold</b>, ins Rennen ums Bundespräsidentenamt. DFB-Präsident Bernd Neuendorf hat die Kandidatur öffentlich kritisiert.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Bundesversammlung wählt am <b>30. Januar</b>. Union und SPD haben sich auf CSU-Politikerin Ilse Aigner geeinigt, die als klare Favoritin gilt. Bertholds Kandidatur gilt daher eher als Symbol.",
+            "Berthold bestritt 62 Länderspiele und spielte für Frankfurt, Bayern und Stuttgart. In der Corona-Zeit kritisierte er die Schutzmaßnahmen scharf und trat bei einer Querdenken-Veranstaltung auf. Neuendorfs Kritik am Montag machte den Namen des DFB-Chefs zu einem der meistgesuchten Begriffe des Abends."
+          ],
+          "einschaetzung": "Nominierung und Wahltermin aus dpa-Bericht bei t-online; Neuendorfs Kritik laut ZEIT und Bild, deren Wortlaut wir nicht abrufen konnten.",
+          "quellen": [
+            {"name": "t-online (dpa)", "url": "https://www.t-online.de/sport/fussball/id_101528146/bundespraesidenten-wahl-afd-will-den-weltmeister-thomas-berthold-nominieren.html"},
+            {"name": "ZEIT", "url": "https://www.zeit.de/politik/deutschland/2026-11/afd-thomas-berthold-bundespraesident-bernd-neuendorf"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Asyl:</b> Deutschland, Österreich und drei weitere EU-Staaten verhandeln über ein Rückkehrzentrum in <b>Ruanda</b>, ab 2027 sollen abgelehnte Asylbewerber dorthin gebracht werden.",
+            "<b>Bahn:</b> Verkehrsminister Steffen Bilger will Manager-Boni an Ziele koppeln und verfehlte Ziele bestrafen. Am Mittwoch stellt er eine Vereinbarung mit der InfraGO vor.",
+            "<b>Tesla:</b> In Grünheide sollen <b>3 Milliarden Euro</b> in den Ausbau fließen, langfristig sind bis zu eine Million Cybercabs möglich.",
+            "<b>Karlsruhe:</b> Das Verfassungsgericht weist Beschwerden von drei Kabelnetzbetreibern gegen das Sonderkündigungsrecht für TV-Verträge ab.",
+            "<b>BundID:</b> Hacker versuchten massenhaft automatisierte Logins in Bürgerkonten. Schutzmaßnahmen griffen, das ganze Ausmaß ist unklar."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Newsticker vom Montag."],
+          "einschaetzung": "Agenturmeldungen, Details teils knapp.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "hinweis": "tagesschau.de und Spiegel waren für uns heute nicht abrufbar.",
+      "meldungen": [
+        {
+          "titel": "Iran-Krieg: Dritter US-Träger, neue Minenmeldungen",
+          "kurz": "Die <b>USS Theodore Roosevelt</b> ist in Nahost eingetroffen, die USA haben dort nun drei Flugzeugträger. Irans Revolutionsgarden sprechen von <b>sechs</b> Tankern, die seit Sonntag auf Minen gelaufen seien.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Straße von Hormus", "suche": "Straße von Hormus"}],
+          "lang": [
+            "Laut iranischem Staatsfernsehen gerieten drei Tanker am Montagmorgen in Brand. Unabhängig bestätigt ist davon bisher wenig. Teheran warnt, die von den USA gesicherte Route bleibe gefährlich, und deutet an, notfalls zuerst zuzuschlagen. Inspektoren der Atomenergiebehörde IAEA sollen bis Kriegsende keinen Zugang bekommen.",
+            "Pakistan will weiter zwischen Washington und Teheran vermitteln. US-Finanzminister Bessent erwartet, dass Irans Wirtschaft binnen eines Jahres um ein Viertel schrumpft."
+          ],
+          "einschaetzung": "Die Tankerzahlen stammen allein von den Revolutionsgarden; die Ankunft des Trägers melden mehrere Medien übereinstimmend.",
+          "quellen": [
+            {"name": "ZDFheute Liveblog", "url": "https://www.zdfheute.de/politik/ausland/iran-israel-usa-angriff-liveblog-100.html"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack"}
+          ]
+        },
+        {
+          "titel": "Ukraine: Angriffe auf Brücken, Gespräche vor Shenzhen",
+          "kurz": "Die Ukraine hat laut russischen Besatzungsbehörden erneut die <b>Krim-Brücke</b> angegriffen, in Kiew trafen russische Raketen zwei Dnipro-Brücken. Am <b>Donnerstag</b> will Trump in China mit Putin und Xi über den Krieg reden.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Krim-Brücke", "suche": "Krim-Brücke Kertsch"}, {"name": "Kiew", "suche": "Kiew"}],
+          "lang": [
+            "Der Verkehr über die Brücke von Kertsch wurde zeitweise gestoppt, Moskau spricht von geringen Schäden. Über Nacht meldete Moskaus Bürgermeister Hunderte Drohnen im Anflug. Selenskyj behauptet, mehr als die Hälfte der russischen Raffineriekapazität sei ausgeschaltet; überprüfen lässt sich das nicht.",
+            "US-Gesandter Jared Kushner berichtet von Fortschritten, es gehe um Sicherheitsgarantien und einen EU-Beitrittspfad. Kremlberater Uschakow klagt dagegen, Europa sei nicht eingebunden. Die EU-Außenminister beschlossen neue Sanktionen, unter anderem gegen fast 50 russische Banken."
+          ],
+          "einschaetzung": "Angaben beider Kriegsparteien, nur teils unabhängig bestätigt; Gipfeltermin vom Kreml bestätigt.",
+          "quellen": [
+            {"name": "ZDFheute Ukraine-Ticker", "url": "https://www.zdfheute.de/politik/ausland/ukraine-russland-konflikt-blog-102.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Israel: Eisenkot fordert Netanjahus sofortigen Abgang",
+          "kurz": "Nach Berichten über mutmaßliche Wahlbeeinflussung durch Netanjahus Büro sagt Oppositionsführer <b>Gadi Eisenkot</b>, der Premier dürfe keine Minute länger regieren. Der Likud spricht von Hetze.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Knesset", "suche": "Knesset Jerusalem"}],
+          "lang": [
+            "Laut Kanal 12 löste eine Beschwerde aus Netanjahus Umfeld am Wahltag Razzien gegen drei Mitglieder der arabischen Ra'am-Partei aus; die Vorwürfe erwiesen sich als haltlos. Zudem soll der Inlandsgeheimdienst das Abhören arabischer Abgeordneter beantragt haben, was abgelehnt wurde.",
+            "Seit der Wahl am 27. Oktober hat kein Lager die nötigen 61 Sitze, arabisch geführte Parteien holten mit 19 Mandaten ein Rekordergebnis. Eisenkot hat den Auftrag zur Regierungsbildung und bestätigt Gespräche auch mit dem Likud."
+          ],
+          "einschaetzung": "Die Vorwürfe beruhen auf einem TV-Bericht und sind nicht gerichtlich geprüft.",
+          "quellen": [
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>USA:</b> Nach dem knapp vierstündigen landesweiten Flugstopp am Freitag mit mehr als <b>9.000</b> Ausfällen fällt der Blick auf die Technik: Ein defekter Router soll das Netz der Flugaufsicht FAA überlastet haben.",
+            "<b>Lettland:</b> Premier Andris Kulbergs hat eine Zwei-Parteien-Koalition mit <b>51 von 100</b> Sitzen geschmiedet.",
+            "<b>Südchinesisches Meer:</b> Asean und China einigen sich weiter nicht auf einen Verhaltenskodex.",
+            "<b>Haiti:</b> Martine Moïse, Witwe des ermordeten Präsidenten, will bei der Präsidentenwahl antreten.",
+            "<b>Genf:</b> Bundesregierung und UN-Generalsekretär Guterres fordern verbindliche Regeln für autonome Waffensysteme."
+          ],
+          "bewertung": "plausibel",
+          "lang": ["Kurzmeldungen aus Al Jazeera und dem ZDFheute-Ticker."],
+          "einschaetzung": "Agenturmeldungen; die Ursache des US-Flugstopps wird noch untersucht.",
+          "quellen": [
+            {"name": "Al Jazeera (Flugstopp)", "url": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions"},
+            {"name": "Al Jazeera (Asean)", "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "Wie im Rausch: 5:0 gegen die Niederlande",
+          "kurz": "Weil Griechenland Serbien schlug, brauchte Deutschland in Berlin einen Sieg mit <b>fünf Toren</b> Abstand. Es klappte exakt: Das DFB-Team ist <b>Gruppensieger</b> und steht im Viertelfinale.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Olympiastadion Berlin", "suche": "Olympiastadion Berlin"}],
+          "lang": [
+            "Derry Scherhant traf kurz vor der Pause zu seinem ersten Länderspieltor. Nach dem Wechsel legten Florian Wirtz (60., 71.), Nico Schlotterbeck (65.) und Brajan Gruda (77.) nach. Am Ende hatten Deutschland, die Niederlande und Griechenland je 11 Punkte, die Tordifferenz entschied.",
+            "Auch Oranje kommt als Zweiter weiter, Griechenland bleibt draußen. Die Viertelfinals werden am Freitag ausgelost und im März in Hin- und Rückspiel ausgetragen."
+          ],
+          "einschaetzung": "Ergebnis und Torschützen von ESPN und Sportschau übereinstimmend.",
+          "quellen": [
+            {"name": "ESPN", "url": "https://www.espn.com/soccer/report/_/gameId/401861185"},
+            {"name": "Sportschau", "url": "https://www.sportschau.de/fussball/nationalmannschaft/klopp-setzt-auf-schlotterbeck-und-brown,deutschland-niederlande-spielbericht-102.html"}
+          ]
+        },
+        {
+          "titel": "96 hat seinen Sportdirektor: Gabor Ruhr kommt aus Norwich",
+          "kurz": "Der <b>38-Jährige</b> leitete zuletzt die Scouting-Abteilung von Norwich City. Er wird Sportdirektor, aber nicht Geschäftsführer.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Heinz-von-Heiden-Arena", "suche": "Heinz von Heiden Arena Hannover"}],
+          "lang": [
+            "Ruhr soll sich um Profis, Kaderplanung, Verträge und das Nachwuchsleistungszentrum kümmern. Vorher arbeitete er unter anderem beim 1. FC Köln, bei Eintracht Frankfurt und Hertha BSC. Martin Kind nannte ihn seinen Wunschkandidaten.",
+            "Sportlich wartet nach der Länderspielpause am <b>Samstag um 13 Uhr</b> Greuther Fürth. Zuletzt holte 96 ein 2:2 in Heidenheim."
+          ],
+          "einschaetzung": "Vereinsentscheidung, von Radio Hannover und t-online gemeldet; der Starttermin war im Bericht nicht genannt.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/nachfolge-geklaert-hannover-96-verpflichtet-neuen-sportchef"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101530930/hannover-96-hat-einen-neuen-sportdirektor-dann-startet-er-beim-verein.html"},
+            {"name": "hessenschau (Spielplan)", "url": "https://hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+          ]
+        },
+        {
+          "titel": "FIFA-Wahl: Uefa schickt Diallo gegen Infantino",
+          "kurz": "Frankreichs Verbandschef <b>Philippe Diallo</b> tritt mit einstimmiger Rückendeckung des Uefa-Exekutivkomitees gegen Gianni Infantino an. Gewählt wird am <b>18. März</b> in Rabat.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Rabat", "suche": "Rabat Marokko"}],
+          "lang": [
+            "Der 63-jährige Jurist führt den französischen Verband seit 2023. Arsène Wenger hatte abgewunken. Bewerbungen müssen bis Mittwoch um Mitternacht eingehen und von mindestens fünf Verbänden gestützt werden.",
+            "Infantino gilt dennoch als klarer Favorit: Südamerika, Afrika und Ozeanien sowie viele Verbände aus Asien und Nordamerika stehen hinter ihm."
+          ],
+          "einschaetzung": "Sportschau-Bericht, Kandidatur auch vom ZDF-Ticker gemeldet.",
+          "quellen": [
+            {"name": "Sportschau", "url": "https://www.sportschau.de/fussball/uefa-vor-der-entscheidung-franzose-diallo-moeglicher-kandidat,infantino-gegenkandidat-100.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Sportmeldungen.",
+          "liste": [
+            "<b>Nations League:</b> England beendet in Madrid mit <b>3:2</b> Spaniens Serie von 43 Spielen ohne Niederlage, Italien verpasst das Viertelfinale.",
+            "<b>ATP Finals:</b> Alcaraz schlägt Tiafoe <b>6:2, 6:2</b>, Medvedev gewinnt gegen Cobolli. Im Doppel siegen Krawietz/Pütz glatt 6:1, 6:3.",
+            "<b>FC Bayern:</b> Vincent Kompany leitete rund drei Wochen nach seinem Zusammenbruch wieder das Training.",
+            "<b>Recken:</b> Freitag, <b>19 Uhr</b>, Heimspiel gegen den TVB Stuttgart in der ZAG Arena."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus Sky Sports, ATP Tour, ZDFheute und dem Recken-Spielplan."],
+          "einschaetzung": "Ergebnisse aus offiziellen Seiten und Fachmedien.",
+          "quellen": [
+            {"name": "Sky Sports", "url": "https://www.skysports.com/football/news/13612611/spain-2-3-england-talking-points-thomas-tuchel-learns-lessons-from-argentina-as-harry-kane-ben-white-and-lewis-hall-shine"},
+            {"name": "ATP Tour", "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+      "trends": [
+        {"begriff": "bernd neuendorf", "volumen": "500+", "anlass": "Kritik an AfD-Kandidat Berthold"},
+        {"begriff": "gta 6 countdown", "volumen": "200+", "anlass": "Release am Donnerstag"},
+        {"begriff": "united airlines", "volumen": "200+", "anlass": "Systemausfall, Abflüge verspätet"},
+        {"begriff": "nvda", "volumen": "200+", "anlass": "Nvidia nach Huang-Rücktritt"},
+        {"begriff": "infantino", "volumen": "200+", "anlass": "Uefa stellt Gegenkandidaten"},
+        {"begriff": "thomas tuchel", "volumen": "200+", "anlass": "England siegt in Spanien"},
+        {"begriff": "fortnite shop", "volumen": "200+", "anlass": "Jagd auf Piraten-Token"},
+        {"begriff": "lukaku", "volumen": "100+", "anlass": "Rücktritt aus Belgiens Team"}
+      ],
+      "meldungen": [
+        {
+          "titel": "GTA 6 kommt Donnerstag: Countdown läuft",
+          "kurz": "Nach mehreren Verschiebungen erscheint „Grand Theft Auto VI“ am <b>Donnerstag, 19. November</b>. Die Alterseinstufung liegt bei <b>USK 18</b>.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Freigeschaltet werden soll das Spiel laut Fan- und Branchenseiten um Mitternacht Ortszeit. Medien rechnen mit einem der größten Starts der Branchengeschichte, schon der Soundtrack sorgt für Gesprächsstoff.",
+            "Live-Ticker großer Tech-Portale sammeln seit Tagen Details zu Preis, Editionen und Hardware. Wer am Donnerstag losspielen will, sollte den Vorab-Download nicht auf den letzten Abend schieben."
+          ],
+          "einschaetzung": "Termin von mehreren Medien übereinstimmend genannt; Freischaltzeit und Details haben wir nur aus Branchen- und Fanseiten.",
+          "quellen": [
+            {"name": "RP Online", "url": "https://rp-online.de/digitales/games/gta-6-release-preis-usk-18-und-hardware-im-ueberblick_aid-158467831"},
+            {"name": "Chip Live-Ticker", "url": "https://www.chip.de/news/software/gta-6-live-ticker-alle-news-infos-und-der-countdown-zum-release_11665404-9d87-4ab8-b5d5-227069309f57.html"}
+          ]
+        },
+        {
+          "titel": "Nvidia-Affäre: Megaspeed weist Vorwürfe zurück",
+          "kurz": "Die Firma aus Singapur, die im Zentrum des Falls steht, betont: Die Frau, um die es geht, habe sie bereits am <b>30. August 2025</b> verlassen. Ein US-Anwaltsbüro soll nun alle GPUs zählen.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Singapur", "suche": "Singapur"}],
+          "lang": [
+            "Jensen Huang hatte vergangene Woche als Nvidia-Chef und Vorstandsmitglied aufgehört. US-Beamte werfen der Geschäftsfrau vor, für Chinas Staatssicherheit gearbeitet zu haben, Peking nennt das haltlos. Megaspeed bestreitet Berichte über Exportverstöße und lässt die Einhaltung der Regeln extern prüfen.",
+            "Singapur ermittelt wegen mutmaßlich falscher Angaben zu Serverkäufen und hat der Frau die Wiedereinreise verboten. Laut Financial Times spricht Huang mit Vertrauten über eine Rückkehr, bestätigt ist das nicht."
+          ],
+          "einschaetzung": "Firmenangaben und Behördenmaßnahmen belegt; Spionagevorwurf und Comeback-Gerüchte sind unbestätigt.",
+          "quellen": [
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025"},
+            {"name": "Financial Times", "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Was sonst im Netz lief.",
+          "liste": [
+            "<b>Microsoft 365:</b> Den weltweiten Ausfall der Vorwoche verursachte ein seit Juli schlummernder Softwarefehler. In Labortests fiel er nicht auf, weil dort ältere Hardware lief.",
+            "<b>United Airlines:</b> Ein rund <b>90-minütiger</b> Systemausfall verzögerte am Montag Abflüge in den USA, inzwischen läuft der Betrieb wieder.",
+            "<b>James Bond:</b> Laut offiziellem 007-Account wird <b>Robert Pattinson</b> der nächste Bond, Regie führt Denis Villeneuve.",
+            "<b>Lukaku:</b> Romelu Lukaku beendet seine Karriere in Belgiens Nationalteam."
+          ],
+          "bewertung": "plausibel",
+          "lang": ["Kurzmeldungen zu Google-Trends-Themen und aus dem ZDFheute-Ticker."],
+          "einschaetzung": "Agenturmeldungen; die Bond-Nachricht stammt aus dem ZDF-Ticker, eine Mitteilung von Amazon MGM haben wir nicht selbst gesehen.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "CNN (United)", "url": "https://edition.cnn.com/2026/11/16/us/united-airlines-outage"},
+            {"name": "BBC Sport (Lukaku)", "url": "https://www.bbc.com/sport/football/articles/cwlymxr0ge8zo"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Präzisierung:</b> Gestern schrieben wir, die Ortsdurchfahrt Gleidingen sei bis Ende Dezember gesperrt. Gesperrt ist die Kreuzung B6/K266, laut aktueller Angabe voraussichtlich bis <b>23. Dezember</b>.",
+    "<b>Hormus:</b> Die Zahl von sechs verminten Tankern stammt allein von Irans Revolutionsgarden, unabhängig bestätigt ist sie nicht.",
+    "<b>Stromsteuer:</b> Dass die Senkung für alle kommt, ist bislang eine Ankündigung des Kanzlers. Die Finanzierung ist offen, entschieden wird erst heute Abend.",
+    "<b>Nvidia:</b> Weder der Spionagevorwurf gegen die Geschäftsfrau noch ein mögliches Huang-Comeback sind bestätigt; sicher ist nur der Rücktritt."
+  ],
+  "woche": [
+    {"wann": "Di 17. Nov", "titel": "Dauerregen und Koalitionsrunde", "text": "Glätte bis etwa 9 Uhr möglich, dann Regen, nachmittags kräftig, <b>3 bis 9 Grad</b>. In Berlin tagt der Koalitionsausschuss zur Stromsteuer. Im Barsinghausen-Prozess Plädoyers, Urteil möglich. Erlebnis-Zoo: erster ZooLights-Abend <b>ab 17 Uhr</b>."},
+    {"wann": "Mi 18. Nov", "titel": "Nass, S4 fällt aus", "text": "Vormittags Regen, abends Schauer, <b>7 bis 10 Grad</b>. <b>Ab heute</b> fällt die S4 Hannover–Hildesheim bis 25. November aus, der RE10 hält zusätzlich. Verkehrsminister Bilger stellt neue Bahn-Ziele vor. Bewerbungsschluss für die FIFA-Wahl um Mitternacht."},
+    {"wann": "Do 19. bis So 22. Nov", "titel": "Gipfel, GTA und Heimspiele", "text": "Do Schauer bei 4 bis 9 Grad, danach kühler; fürs Wochenende lagen uns noch keine verlässlichen Werte für Hannover vor. <b>Do:</b> Trump, Xi und Putin in Shenzhen, GTA 6 erscheint. <b>Fr:</b> neue Regeln für Ratenkauf, Nations-League-Auslosung, <b>19 Uhr</b> Recken gegen Stuttgart, <b>20 Uhr</b> Indians gegen Hamm. <b>Sa 13 Uhr:</b> 96 gegen Fürth. Vorschau: Weihnachtsmärkte in der City ab Mo 23.11."}
+  ]
+}
