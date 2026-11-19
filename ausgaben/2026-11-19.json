@@ -1,0 +1,362 @@
+{
+  "stand": "Stand: Donnerstag, 19. November, 3 Uhr",
+  "kurz": [
+    "<b>Gipfel in Shenzhen:</b> Trump und Putin haben sich am Mittwoch die Hand gegeben, heute folgt das <b>erste Dreiertreffen</b> mit Xi. Im Mittelpunkt sollen Atomwaffen stehen, ein Durchbruch gilt als unwahrscheinlich.",
+    "<b>Stromsteuer sinkt für alle:</b> Die Koalition hat sich in der Nacht zum Mittwoch geeinigt. Bezahlt ist das aber nur für <b>2027</b>, dazu kommt ein Spritpreisdeckel. Die Wirtschaftsweisen sind wenig begeistert.",
+    "<b>A352 halb gesperrt:</b> Ein <b>Riss an der Wietzebrücke</b> legt die Fahrtrichtung Hamburg zwischen Kaltenweide und Dreieck Hannover-Nord lahm, voraussichtlich bis Mitte nächster Woche.",
+    "<b>VW Stöcken:</b> Konzernchef Blume verspricht den bedrohten Werken Klarheit <b>spätestens im Sommer</b>. Am Dienstag beginnen die Tarifgespräche mit der IG Metall.",
+    "<b>Aus für die Marke DPD:</b> Der Paketdienst geht in Deutschland mit <b>GLS</b> zusammen. Das neue Unternehmen käme auf rund 700 Millionen Zustellungen im Jahr, das Kartellamt muss noch zustimmen.",
+    "<b>Sport:</b> Alcaraz steht trotz Oberschenkelproblemen im Halbfinale von Turin, <b>Zverev</b> spielt heute frühestens um 20.30 Uhr um den Gruppensieg. Am Samstag empfängt <b>96</b> im direkten Duell den punktgleichen Nachbarn Fürth."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Riss an der Wietzebrücke: A352 Richtung Hamburg dicht",
+          "kurz": "Bei einer Brückenprüfung fiel ein <b>Riss am Widerlager</b> auf, die Fahrbahn hat sich abgesenkt. Richtung Dortmund rollt der Verkehr wieder, Richtung Hamburg soll spätestens <b>Mitte nächster Woche</b> frei sein.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "A352 Langenhagen-Kaltenweide", "suche": "Anschlussstelle Langenhagen-Kaltenweide A352"}, {"name": "Dreieck Hannover-Nord", "suche": "Autobahndreieck Hannover-Nord"}],
+          "lang": [
+            "Am Mittwoch war der Abschnitt zwischen Langenhagen-Kaltenweide und dem Dreieck Hannover-Nord zunächst in beiden Richtungen voll gesperrt. Am Abend gab die Autobahn GmbH die Fahrbahn Richtung Dortmund wieder frei. Wer von der A2 aus Dortmund zur A7 nach Hamburg will, fährt nun über das Kreuz Hannover-Ost.",
+            "Der Riss soll schnell verschlossen werden, ein Hilfslager unter dem Bauwerk soll weitere Schäden verhindern. Die abgesackten Stellen werden am Wochenende <b>21./22. November</b> saniert, bis dahin steht die Brücke unter Dauerbeobachtung."
+          ],
+          "einschaetzung": "Angaben der Autobahn GmbH, übereinstimmend bei Stadt, Lokalradio und Lokalpresse; der Freigabetermin ist eine Prognose.",
+          "quellen": [
+            {"name": "Autobahn GmbH", "url": "https://www.autobahn.de/betrieb-verkehr/verkehrsmeldung/a352-sperrung-der-fahrbahn-in-beide-fahrtrichtungen"},
+            {"name": "Langenhagener News", "url": "https://langenhagener-news.de/update-a352-richtung-dortmund-wieder-frei/"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/a352-voll-gesperrt-schaeden-an-wietzebruecke"}
+          ]
+        },
+        {
+          "titel": "VW Stöcken: Blume will schneller entscheiden",
+          "kurz": "Für die bedrohten Standorte soll es <b>spätestens im Sommer</b> Klarheit geben, möglichst früher. Neben Hannover geht es um Emden, Zwickau und Neckarsulm, zusammen mehr als <b>40.000</b> Beschäftigte.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "VW-Werk Stöcken", "suche": "Volkswagen Nutzfahrzeuge Werk Hannover Stöcken"}],
+          "lang": [
+            "Oliver Blume kündigte beim NDR an, jedes Werk einzeln zu bewerten. VW und Audi prüfen dafür mehrere Wege, auch eine Fertigung für die Rüstung ist nach seinen Worten nicht ausgeschlossen.",
+            "Am kommenden <b>Dienstag</b> starten die Tarifverhandlungen mit der IG Metall. Wie lange sie dauern, wollte Blume nicht einschätzen."
+          ],
+          "einschaetzung": "Aussagen des Konzernchefs, von Radio Hannover und ZDF übereinstimmend wiedergegeben; eine Entscheidung ist damit noch nicht gefallen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/vw-werk-stoecken-soll-spaetestens-im-sommer-klarheit-haben"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Fernwärme: Enercity kontert Verbraucherschützer",
+          "kurz": "Die Verbraucherzentrale Niedersachsen rügt Preissteigerungen von rund <b>20 Prozent</b> und mangelnde Transparenz. Enercity hält dagegen: Die Preise seien öffentlich einsehbar.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Für Haushalte kann das Mehrkosten im unteren dreistelligen Bereich pro Jahr bedeuten. Der Versorger begründet die neue Preisstruktur mit der Wärmewende, bis 2040 will er rund <b>1,5 Milliarden Euro</b> investieren. Außerdem verweist er auf einen Rabatt, der sich am Gas-Grundversorgungspreis orientiert.",
+            "Die Preisgestaltung kontrolliert die Landeskartellbehörde."
+          ],
+          "einschaetzung": "Der Streit ist belegt, die Zahlen stammen jeweils von einer der beiden Seiten.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/enercity-weist-kritik-an-fernwaermepreisen-zurueck"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Stadt und Region.",
+          "liste": [
+            "<b>Kleines Fest:</b> Das Ticket für 2027 kostet <b>45 statt 37 Euro</b>, die Üstra-Fahrt ist dafür inklusive. Gespielt wird vom 8. bis 25. Juli im Großen Garten, Vorverkauf ab <b>25. November, 11 Uhr</b>.",
+            "<b>Landtag:</b> SPD und Grüne wollen Polizisten bei Demos und Fußballspielen zwei Jahre lang testweise anonym kennzeichnen. Die Abstimmung war für Mittwochabend geplant, ein Ergebnis lag uns nicht vor.",
+            "<b>Sehnde:</b> Ein 65-Jähriger floh vor einer Kontrolle und prallte im Müllinger Holz gegen einen Baum. Die Feuerwehr befreite ihn schwer verletzt.",
+            "<b>Lehrte-Immensen:</b> Eine Autofahrerin bemerkte am späten Dienstagabend Feuer an einem Rinderstall. <b>49</b> Einsatzkräfte stoppten die Flammen, die rund 120 Kühe blieben unverletzt.",
+            "<b>Nordstadt:</b> Ein Mitarbeiter eines Pflegedienstes soll eine 86-Jährige beraubt haben. Der Verdächtige wurde gefasst, die Goldkette ist sichergestellt.",
+            "<b>Burgdorf:</b> Spatenstich für die Förderschule „Schule am Wasserwerk“, rund <b>68 Millionen Euro</b> für 196 Schülerinnen und Schüler.",
+            "<b>Abgesagt:</b> Der Dach-Weihnachtsmarkt an der Röselerstraße fällt aus. Auch Rapper Zuna streicht seine Tour samt Capitol-Konzert am <b>11. Dezember</b>."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen von Radio Hannover und t-online Hannover."],
+          "einschaetzung": "Angaben von Polizei, Feuerwehr, Veranstaltern und Lokalmedien; beim Fall Nordstadt gilt die Unschuldsvermutung.",
+          "quellen": [
+            {"name": "Radio Hannover (Kleines Fest)", "url": "https://www.radio-hannover.de/hannover-news/kleines-fest-im-grossen-garten-wird-teurer"},
+            {"name": "Radio Hannover (Landtag)", "url": "https://www.radio-hannover.de/hannover-news/landtag-beraet-ueber-kennzeichnung-von-polizisten"},
+            {"name": "Radio Hannover (Sehnde)", "url": "https://www.radio-hannover.de/hannover-news/sehnde-verfolgungsfahrt-endet-mit-schwerem-unfall"},
+            {"name": "Radio Hannover (News)", "url": "https://www.radio-hannover.de/aktuell/news"},
+            {"name": "t-online (Immensen)", "url": "https://hannover.t-online.de/region/hannover/id_101533756/region-hannover-hoflader-brennt-in-rinderstall-feuerwehr-rettet-120-kuehe.html"},
+            {"name": "t-online (Weihnachtsmarkt)", "url": "https://hannover.t-online.de/region/hannover/id_101530352/weihnachtsmarkt-in-hannover-faellt-aus-das-ist-die-begruendung.html"},
+            {"name": "t-online (Zuna)", "url": "https://hannover.t-online.de/region/hannover/id_101533614/zuna-sagt-tour-ab-auch-konzert-im-capitol-hannover-hintergruende-unklar.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Stromsteuer sinkt, aber vorerst nur für ein Jahr",
+          "kurz": "Nach rund achteinhalb Stunden Koalitionsausschuss steht die Einigung: Ab <b>1. Januar 2027</b> sinkt die Stromsteuer für alle. Das Geld ist allerdings nur für dieses eine Jahr gesichert. Dazu kommt ein <b>Spritpreisdeckel</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Kanzleramt", "suche": "Bundeskanzleramt Berlin"}],
+          "lang": [
+            "Laut news.de fällt der Satz von 2,05 auf <b>0,1 Cent</b> je Kilowattstunde, ein Vier-Personen-Haushalt spart rund 100 Euro im Jahr. Dauerhaft soll das nur gelten, wenn der Haushalt 2028 eine Gegenfinanzierung hergibt, im Raum steht eine Lücke von 5,4 Milliarden Euro jährlich. Beim Sprit soll das Wirtschaftsministerium Höchstpreise festlegen.",
+            "Die Wirtschaftsweisen reagieren kühl. Ratschefin Monika Schnitzer hält die Senkung im Grundsatz für sinnvoll, nennt sie befristet aber „eine teure, kurzfristige Entlastungsmaßnahme“. Veronika Grimm warnt, der Deckel könne entweder die Versorgung oder die Staatskasse belasten."
+          ],
+          "einschaetzung": "Einigung und Kritik sind über dpa-AFX belegt; Cent-Betrag und Ersparnis fanden wir nur bei news.de, die Details zum Spritdeckel sind noch offen.",
+          "quellen": [
+            {"name": "WirtschaftsWoche (dpa)", "url": "https://www.wiwo.de/politik/konjunktur/bundesregierung-wirtschaftsweise-kritisieren-koalitionsausschuss-beschluesse/100270939.html"},
+            {"name": "finanznachrichten (dpa-AFX)", "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70165735-wirtschaftsweise-kritisieren-koalitionsausschuss-beschluesse-016.htm"},
+            {"name": "news.de", "url": "https://www.news.de/politik/860198035/spritpreisbremse-und-stromsteuersenkung-beschlossen-von-union-und-spd-stromsteuer-sinkt-nur-2027-gegenfinanzierung-im-haushalt-fraglich/1/"}
+          ]
+        },
+        {
+          "titel": "Deutsche Bank: Sewing gibt sich selbstkritisch",
+          "kurz": "Nach dem Datenleck mit mehr als <b>15 Millionen</b> internen Dokumenten sagt der Vorstandschef: „Ich bin nicht fehlerfrei.“ Am Kurs der Bank hält er fest, Hessens Datenschutzbeauftragter hat eine Prüfung eingeleitet.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Deutsche Bank Zentrale", "suche": "Deutsche Bank Taunusanlage Frankfurt"}],
+          "lang": [
+            "Christian Sewing räumt ein, man könne im Rückblick fragen, ob die Bank anders hätte handeln müssen. Zu verbergen habe sie aber nichts. Kontonummern, Kontostände und Zugangsdaten seien nach bisherigen Erkenntnissen nicht betroffen. In Geldwäsche-Bekämpfung und Regeltreue seien rund <b>7 Milliarden Euro</b> geflossen.",
+            "Die beteiligten Medien werfen der Bank vor, Kontrollen über Jahre dem Gewinn untergeordnet und ihr Russland-Geschäft kurz vor dem Überfall auf die Ukraine noch ausgebaut zu haben. Der Datenschutzbeauftragte Alexander Roßnagel prüft, ob Betroffene rechtzeitig informiert wurden."
+          ],
+          "einschaetzung": "Sewings Aussagen sind über dpa belegt; die Vorwürfe stammen aus einer Medienrecherche und sind nicht gerichtlich geprüft.",
+          "quellen": [
+            {"name": "finanzen.at (dpa-AFX)", "url": "https://www.finanzen.at/nachrichten/aktien/roundup-deutsche-bank-chef-sewing-raumt-nach-datenleck-fehler-ein-1036779136"}
+          ]
+        },
+        {
+          "titel": "Kabinett: Strengerer Unterhaltsvorschuss, Bibliotheken am Sonntag",
+          "kurz": "Ab <b>2029</b> sollen Alleinerziehende mit mehr als <b>4.500 Euro brutto</b> im Monat keinen Unterhaltsvorschuss mehr bekommen. Wer als Elternteil nicht zahlt, muss mit Bußgeld oder Fahrverbot rechnen.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Die Leistung kostete 2024 rund 3,2 Milliarden Euro. Außerdem beschloss das Kabinett Änderungen im Arbeitsrecht, damit Bibliotheken sonntags öffnen dürfen.",
+            "Für die Spitze von Unicef schlägt die Bundesregierung die frühere Ministerin <b>Svenja Schulze</b> (SPD) vor. Entscheiden muss der UN-Generalsekretär."
+          ],
+          "einschaetzung": "Kabinettsbeschlüsse aus dem ZDF-Ticker; der Bundestag kann die Pläne noch ändern.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>DAZN:</b> Das Oberlandesgericht Hamm erklärt die Preiserhöhungen von <b>2021 und 2022</b> für unzulässig, die zugrunde liegende Klausel benachteilige Kunden.",
+            "<b>Cannabis:</b> Der Drogenbeauftragte Hendrik Streeck (CDU) zeigt sich offen für den Verkauf in Apotheken.",
+            "<b>Bahn:</b> Eine Störung des Zugfunks legte den Nürnberger Hauptbahnhof mehr als <b>zwei Stunden</b> lahm, auch die Strecke Berlin–München war betroffen.",
+            "<b>Scheuer-Prozess:</b> Das Urteil gegen den früheren Verkehrsminister wegen mutmaßlicher Falschaussage könnte am <b>18. Dezember</b> fallen.",
+            "<b>Patente:</b> Weltweit gab es <b>3,9 Millionen</b> Anmeldungen, Deutschland liegt auf Platz fünf."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Newsticker vom Mittwoch."],
+          "einschaetzung": "Agenturmeldungen, Details teils knapp.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "hinweis": "NPR, NBC und France 24 waren für uns heute nicht abrufbar. Zu den Gesprächen vom Donnerstag lagen bei Redaktionsschluss noch keine Ergebnisse vor.",
+      "meldungen": [
+        {
+          "titel": "Shenzhen: Handschlag gestern, Dreiergipfel heute",
+          "kurz": "Trump und Putin sind sich am Rand des APEC-Gipfels erstmals seit <b>August 2025</b> wieder begegnet. Heute spricht Trump zuerst mit Xi, danach kommt Putin dazu. Es ist das erste Treffen der drei in dieser Runde.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Shenzhen", "suche": "Shenzhen China"}],
+          "lang": [
+            "Laut US-Seite geht es vor allem um die Eindämmung von <b>Atomwaffen</b>, Trump will auch den Iran-Krieg ansprechen. Neue Abkommen erwartet Washington nicht. Ob die Ukraine Thema wird, bleibt umstritten: Ein US-Vertreter schloss das für die Dreierrunde aus, Trump und der Kreml halten es für möglich.",
+            "Auch ein Vieraugengespräch ist im Gespräch. Das ZDF meldet es für Donnerstag, Kremlsprecher Peskow sprach schon von einem informellen Treffen am Mittwoch, Putin-Berater Uschakow bestätigte das nicht. Europa sitzt nicht mit am Tisch."
+          ],
+          "einschaetzung": "Programm und Themen sind mehrfach belegt; die Angaben zum Vieraugengespräch und zur Ukraine widersprechen sich.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3448567/"},
+            {"name": "CBS News", "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"},
+            {"name": "Kyiv Independent", "url": "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/"},
+            {"name": "Fox News (Liveblog)", "url": "https://www.foxnews.com/live-news/trump-to-meet-xi-in-shenzhen-ahead-of-high-stakes-trilateral-talks-with-putin"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Krim-Brücke: Kiew legt seinen Angriffsplan offen",
+          "kurz": "Rund einen <b>Monat</b> soll die Vorbereitung gedauert haben. Erst seien Flugabwehr und Störsysteme getroffen worden, dann habe eine Drohnenwelle die Abwehr überlastet, am Ende trafen Raketendrohnen die Straßenbrücke.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Krim-Brücke", "suche": "Krim-Brücke Kertsch"}],
+          "lang": [
+            "Nach ukrainischer Darstellung planten Geheimdienst SBU und Generalstab die Operation gemeinsam, eingesetzt wurden auch Flamingo- und Neptun-Raketen. Der Straßenteil sei unpassierbar. Russland bestätigt Schäden, die Bahn fährt wieder auf einem Gleis.",
+            "Der von Moskau eingesetzte Krim-Gouverneur spricht von <b>zwei Toten</b>. Wie viele Waffen abgefangen wurden und in welcher Reihenfolge die Treffer lagen, ist weiter offen."
+          ],
+          "einschaetzung": "Die Details stammen fast nur von ukrainischen Stellen und sind nicht unabhängig bestätigt.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/ukraine/id_101533994/russlands-angriffskrieg-krim-bruecke-teils-zerstoert-kiew-enthuellt-details.html"}
+          ]
+        },
+        {
+          "titel": "Iran-Krieg: Bahrain und Kuwait melden Abwehr",
+          "kurz": "Bahrain meldet abgewehrte iranische Luftangriffe und rief die Bevölkerung <b>zweimal</b> zum Schutzsuchen auf. Auch Kuwait fing nach eigenen Angaben Drohnen ab.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Manama", "suche": "Manama Bahrain"}, {"name": "Kuwait-Stadt", "suche": "Kuwait City"}],
+          "lang": [
+            "Beide Male gab das Innenministerium in Bahrain später Entwarnung. Die Streitkräfte werfen Teheran systematische Feindseligkeit vor. Über Schäden lagen uns keine Angaben vor.",
+            "Der Krieg dürfte heute auch in Shenzhen eine Rolle spielen: Ein ranghoher US-Vertreter kündigte an, Trump werde ihn dort ansprechen."
+          ],
+          "einschaetzung": "Angaben der betroffenen Staaten aus dem ZDF-Liveblog, der zuletzt am Mittwochmorgen aktualisiert wurde.",
+          "quellen": [
+            {"name": "ZDFheute Liveblog", "url": "https://www.zdfheute.de/politik/ausland/iran-israel-usa-angriff-liveblog-100.html"},
+            {"name": "CBS News", "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Venezuela:</b> US-Verteidigungsminister Hegseth traf in Caracas Übergangspräsidentin Delcy Rodríguez und meldet ein Militärabkommen. Inhalte sind noch nicht bekannt.",
+            "<b>Nordkorea:</b> IAEA-Chef Grossi sagt, Pjöngjang baue in <b>Yongbyon</b> eine Anlage zur Urananreicherung aus.",
+            "<b>Gaza:</b> Israelische Panzer rückten im Zentrum des Streifens westlich der sogenannten Gelben Linie vor.",
+            "<b>USA:</b> Die Demokraten nominieren <b>Hakeem Jeffries</b> mit 251 von 262 Stimmen für das Amt des Speakers, gewählt wird am 3. Januar.",
+            "<b>Paris:</b> Frankreich beschlagnahmt die auf 36 Millionen Euro geschätzte Villa eines in der Ukraine gesuchten Unternehmers, der die Vorwürfe politisch nennt."
+          ],
+          "bewertung": "plausibel",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Newsticker vom Mittwochabend."],
+          "einschaetzung": "Teils Angaben einzelner Beteiligter, etwa beim Abkommen in Caracas.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Hannover Scorpions fanden wir keine aktuellen, belastbaren Ergebnisse.",
+      "meldungen": [
+        {
+          "titel": "96 gegen Fürth: Nachbarn in der Tabelle, Duell ums Mittelfeld",
+          "kurz": "Am <b>Samstag um 13 Uhr</b> treffen der Elfte und der Zehnte aufeinander. Beide haben <b>12 Punkte</b> und ein Torverhältnis von minus 6, Fürth liegt nur dank mehr erzielter Tore vorn.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Heinz-von-Heiden-Arena", "suche": "Heinz von Heiden Arena Hannover"}],
+          "lang": [
+            "Nach unten ist die Tabelle eng: Platz 16 hat nur einen Punkt weniger als 96. Nach oben fehlen schon <b>19 Punkte</b> auf Spitzenreiter Hertha BSC. Aus den letzten fünf Spielen holte Hannover fünf Zähler.",
+            "Danach geht es Schlag auf Schlag: am 28. November nach Osnabrück, am 5. Dezember kommt Hertha."
+          ],
+          "einschaetzung": "Termin und Ergebnisse vom hessenschau-Datencenter, Tabelle von bundesliga.com.",
+          "quellen": [
+            {"name": "bundesliga.com (Tabelle)", "url": "https://www.bundesliga.com/en/2bundesliga/matchday/2026-2027/12/hannover-96-vs-spvgg-greuther-fuerth/table"},
+            {"name": "hessenschau (Spielplan)", "url": "https://hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+          ]
+        },
+        {
+          "titel": "Turin: Alcaraz weiter, Sorge um den Oberschenkel",
+          "kurz": "Carlos Alcaraz schlägt Daniil Medwedew <b>6:2, 6:4</b> und steht im Halbfinale, ließ sich aber im zweiten Satz behandeln. <b>Zverev</b> spielt heute nicht vor 20.30 Uhr gegen Arthur Fils um Platz eins.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Inalpi Arena Turin", "suche": "Inalpi Arena Turin"}],
+          "lang": [
+            "Der Spanier sprach von einem kleinen Problem am hinteren Oberschenkel und will nun mit seinem Team die Erholung angehen. Sein Einzug stand fest, als Frances Tiafoe gegen Flavio Cobolli <b>7:6, 6:0</b> gewann und damit den Italiener aus dem Turnier warf. Den zweiten Platz machen Medwedew und Tiafoe unter sich aus.",
+            "Zverev reicht ein Satzgewinn zum Gruppensieg, falls Ben Shelton zuvor Rafael Jodar schlägt. Auch das deutsche Doppel <b>Krawietz/Pütz</b> steht nach einem Sieg im Match-Tiebreak im Halbfinale. Die Halbfinals sind am Samstag."
+          ],
+          "einschaetzung": "Ergebnisse von ATP Tour und ESPN übereinstimmend, Ansetzung laut Sky.",
+          "quellen": [
+            {"name": "ATP Tour", "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"},
+            {"name": "ESPN", "url": "https://espn.com/tennis/story/_/id/50521030/alcaraz-cruises-medvedev-atp-finals-leg-issue"},
+            {"name": "Sky Sport", "url": "https://sport.sky.de/tennis/artikel/atp-finals-alexander-zverev-gegen-arthur-fils-terminiert-duell-um-den-gruppensieg-in-turin/13613595/35311"}
+          ]
+        },
+        {
+          "titel": "Las Vegas: Antonelli reist mit großem Polster an",
+          "kurz": "Mercedes-Pilot Kimi Antonelli führt die WM mit <b>390 Punkten</b> an, Max Verstappen folgt mit 279. Das Rennen startet in der Nacht zu Sonntag um <b>5 Uhr</b> deutscher Zeit.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Las Vegas Strip Circuit", "suche": "Las Vegas Strip Circuit"}],
+          "lang": [
+            "Hinter Verstappen ist es eng: George Russell hat 262 Punkte, Lewis Hamilton 261, Charles Leclerc 249 und Lando Norris 246.",
+            "Die ersten beiden Trainings laufen am Freitag um 1.30 und 5 Uhr, das Qualifying am Samstag um 5 Uhr."
+          ],
+          "einschaetzung": "Punktestand und Zeiten aus einer Quelle (ran), die Zeitzone ist dort nicht ausdrücklich genannt.",
+          "quellen": [
+            {"name": "ran", "url": "https://ran.joyn.de/sports/motorsport/formel1/formel1-live-der-grosse-preis-von-las-vegas-alle-infos-zu-tv-uebertragungen-livestream-ticker-dreikampf-hinter-mercedes-90705"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Termine fürs Wochenende.",
+          "liste": [
+            "<b>Recken:</b> Nach dem 29:33 in Gummersbach kommt am <b>Freitag um 19 Uhr</b> der TVB Stuttgart nach Hannover.",
+            "<b>Indians:</b> Freitag, <b>20 Uhr</b>, Heimspiel gegen die Hammer Eisbären am Pferdeturm.",
+            "<b>Bundesliga:</b> Der 10. Spieltag beginnt am Freitag um <b>20.30 Uhr</b> mit Bayern gegen Köln. Bayern und Dortmund liegen mit je 21 Punkten vorn.",
+            "<b>Nordderby:</b> Werder empfängt den HSV am Sonntag um <b>17.30 Uhr</b>."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Termine aus Vereins- und Ergebnisseiten."],
+          "einschaetzung": "Spielpläne der Vereine und des hessenschau-Datencenters.",
+          "quellen": [
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "Stadt Hannover (Indians)", "url": "https://www.hannover.de/Veranstaltungskalender/Sport/Hannover-Indians-vs.-Hammer-Eisbären"},
+            {"name": "hessenschau (Bundesliga)", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-10.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar. Auch heise, WDR, Chip und Zeit konnten wir nicht abrufen.",
+      "trends": [
+        {"begriff": "erkelenz leichenfund", "volumen": "5000+", "anlass": "Fund an der Brüsseler Allee"},
+        {"begriff": "gls dpd", "volumen": "2000+", "anlass": "Fusion in Deutschland"},
+        {"begriff": "gta 6 startet nicht", "volumen": "2000+", "anlass": "PSN-Störung zum Start"},
+        {"begriff": "phoenix", "volumen": "1000+", "anlass": "Waymo zieht sich von Autobahnen zurück"},
+        {"begriff": "gta 6 mandy", "volumen": "500+", "anlass": "Figur begeistert die Fans"},
+        {"begriff": "glam pen", "volumen": "500+", "anlass": "Nagellackstift aus „Die Millionenidee“"},
+        {"begriff": "magic – 76ers", "volumen": "200+", "anlass": "NBA in Orlando"}
+      ],
+      "meldungen": [
+        {
+          "titel": "GLS schluckt DPD in Deutschland",
+          "kurz": "Die beiden Paketdienste legen ihr Deutschlandgeschäft zusammen, die Marke <b>DPD verschwindet</b>. Der GLS-Eigentümer hält 80 Prozent, der DPD-Eigentümer 20 Prozent.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Das neue Unternehmen käme auf rund <b>700 Millionen</b> Zustellungen, mehr als 4 Milliarden Euro Umsatz und etwa 15.000 Beschäftigte an rund 150 Standorten. Geplant sind Investitionen von 500 Millionen Euro. Zum Vergleich: DHL stellte zuletzt etwa 2 Milliarden Pakete in Deutschland zu.",
+            "Hinter GLS steht über eine Beteiligung der tschechische Investor Daniel Křetínský, DPD gehört zur französischen La Poste. Die Behörden müssen noch zustimmen."
+          ],
+          "einschaetzung": "Angaben der Unternehmen, übereinstimmend bei ZDF und Tagesspiegel; die Kartellprüfung steht aus.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/wirtschaft/unternehmen/dpd-gls-paket-dienstleister-fusion-100.html"},
+            {"name": "Tagesspiegel (dpa/AFP)", "url": "https://www.tagesspiegel.de/wirtschaft/dpa-afp-mehr-komfort-auswahl-und-flexibilitat-fur-verbraucher-paketzusteller-dpd-und-gls-verschmelzen-ihr-deutschlandgeschaft-16300333.html"}
+          ]
+        },
+        {
+          "titel": "GTA 6 ist da, das PlayStation Network wackelte",
+          "kurz": "Stunden vor dem Start fiel das PSN am Mittwochabend ab etwa <b>19 Uhr</b> deutscher Zeit aus. Wer spielen wollte, kam ohne Lizenzabruf nicht weiter. Nach rund <b>45 Minuten</b> schien sich die Lage zu beruhigen.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Sony zeigte die Probleme kurz auf seiner Statusseite, eine Ursache nannte der Konzern in den von uns gelesenen Berichten nicht. Gemeldet wurden Ausfälle weltweit, auch dort, wo das Spiel noch gar nicht freigeschaltet war.",
+            "Freigeschaltet wird nach Ortszeit um Mitternacht, in Deutschland läuft das Spiel seit dieser Nacht. Im Netz dreht sich schon vieles um die Nebenfigur Mandy."
+          ],
+          "einschaetzung": "Ablauf aus AOL und Mein-MMO; ob der Ansturm auf GTA 6 die Störung ausgelöst hat, ist nicht belegt.",
+          "quellen": [
+            {"name": "AOL", "url": "https://www.aol.com/articles/psn-down-playstation-network-not-195911000.html"},
+            {"name": "Mein-MMO", "url": "https://mein-mmo.de/psn-down-gta6-release"},
+            {"name": "GameStar (Liveticker)", "url": "https://gamestar.de/artikel/gta-6-release-unser-launch-countdown-zeigt-exakt-wie-lange-es-noch-bis-zum-start-in-deutschland-dauert,3457128.html"}
+          ]
+        },
+        {
+          "titel": "Waymo muss von Kaliforniens Autobahnen runter",
+          "kurz": "Die Verkehrsbehörde DMV stuft die fahrerlosen Autobahnfahrten als <b>akute Gefahr</b> ein. Waymo schränkt sie daraufhin auch in seinen anderen Märkten ein. Darum drehen sich die Meldungen zum Trend „Phoenix“.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "San Francisco", "suche": "San Francisco Kalifornien"}, {"name": "Phoenix", "suche": "Phoenix Arizona"}],
+          "lang": [
+            "Anfang November fuhren drei Robotaxis bei Burlingame in eine aktive Baustellensperrung, verletzt wurde dabei niemand. Einen Tag später versuchte ein weiteres in San Francisco, an Streifenwagen der Highway Patrol vorbeizukommen. Die Auflage gilt seit dem <b>11. November</b> und ohne festes Enddatum.",
+            "Im normalen Stadtverkehr fährt Waymo weiter und nennt dort mehr als eine halbe Million Fahrten pro Woche."
+          ],
+          "einschaetzung": "Details aus einem Bericht von Fox Business, die Kernaussage stützen Überschriften von WSJ und BBC, deren Texte wir nicht lesen konnten.",
+          "quellen": [
+            {"name": "Fox Business", "url": "https://www.foxbusiness.com/fox-news-travel/california-dmv-boots-waymo-robotaxis-off-state-freeways-after-string-incidents"},
+            {"name": "BBC (Video)", "url": "https://www.bbc.com/news/videos/cmx2ryw97x4go"},
+            {"name": "Google Trends", "url": "https://trends.google.com/trending?geo=DE"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Korrektur:</b> Gestern schrieben wir, Trump wolle in Shenzhen mit Putin und Xi über den Ukraine-Krieg reden. Laut einem US-Vertreter steht der Krieg nicht auf der Agenda des Dreiertreffens, Trump und der Kreml halten Gespräche darüber aber für möglich.",
+    "<b>Shenzhen:</b> Die Gespräche lagen bei Redaktionsschluss noch vor uns. Ob es ein förmliches Vieraugengespräch zwischen Trump und Putin gibt oder schon gab, melden die Quellen unterschiedlich.",
+    "<b>Stromsteuer:</b> Beschlossen ist die Senkung, bezahlt aber nur für 2027. Die 100 Euro Ersparnis sind ein Richtwert aus einer einzelnen Quelle, wie der Spritdeckel aussieht, ist offen.",
+    "<b>Krim-Brücke:</b> Der genaue Ablauf des Angriffs stammt vor allem aus Kiew und ist nicht unabhängig geprüft."
+  ],
+  "woche": [
+    {"wann": "Do 19. Nov", "titel": "Regen und Weltpolitik", "text": "Nass bei <b>4 bis 9 Grad</b>, rund 6 bis 15 Liter Regen, wenig Wind. Trump, Xi und Putin treffen sich in Shenzhen, Beginn am deutschen Vormittag möglich. A352 Richtung Hamburg gesperrt, S4 Hannover–Hildesheim fällt aus. ATP Finals: Zverev gegen Fils <b>nicht vor 20.30 Uhr</b>."},
+    {"wann": "Fr 20. Nov", "titel": "Trocken, Heimspiele satt", "text": "Trocken, <b>2 bis 6 Grad</b>, schwacher Wind. Heizkraftwerk Linden leuchtet zum Tag der Kinderrechte blau. <b>19 Uhr</b> Recken gegen Stuttgart, <b>20 Uhr</b> Indians gegen Hamm, <b>20.30 Uhr</b> Bayern gegen Köln. Formel-1-Training in Las Vegas um 1.30 und 5 Uhr."},
+    {"wann": "Sa 21. bis So 22. Nov", "titel": "96, Vegas, Nordderby", "text": "Sa <b>3 bis 6 Grad</b>, einzelne Schauer, windiger. Für Sonntag lag uns keine Tagesprognose vor. <b>Sa 13 Uhr:</b> 96 gegen Fürth. <b>Sa:</b> Halbfinals in Turin, Brückensanierung an der A352. <b>So 5 Uhr:</b> Formel 1 in Las Vegas. <b>So 17.30 Uhr:</b> Werder gegen HSV. Vorschau: Weihnachtsmarkt in der City ab <b>Mo 23.11., 11 Uhr</b>."}
+  ]
+}

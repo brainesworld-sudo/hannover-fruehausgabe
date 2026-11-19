@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konzert-Radar – Metal & Rock rund um Hannover</title>
+<meta name="description" content="Tägliches Konzert-Radar für Metal-, Rock- und Punkfans in und um Hannover: neue Tourdaten, Vorverkaufsstarts und der Kalender der nächsten 14 Tage.">
+<link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/2026-11-19/">
+<style>
+:root{--bg:#f7f3ec;--paper:#fffdf8;--ink:#23201b;--muted:#6f675c;--line:#e4dccf;--red:#9b1c1c;--teal:#14707a;--ochre:#a8701a;--violet:#6a3fa0;--green:#2f7a3e;--warn:#b4441c;--start:#2f6f4f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17150f;--paper:#211e17;--ink:#ece6da;--muted:#a69d8f;--line:#3a352b;--red:#e06a5e;--teal:#4fb7c0;--ochre:#d9a24a;--violet:#b291e3;--green:#6cc07d;--warn:#ec8a5c;--start:#69b892}}
+:root[data-theme="dark"]{--bg:#17150f;--paper:#211e17;--ink:#ece6da;--muted:#a69d8f;--line:#3a352b;--red:#e06a5e;--teal:#4fb7c0;--ochre:#d9a24a;--violet:#b291e3;--green:#6cc07d;--warn:#ec8a5c;--start:#69b892}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style",Georgia,"Times New Roman",serif}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 16px 40px}
+header h1{font:800 40px/1.05 "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:-.02em;margin:0 0 4px}
+.eyebrow{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--red)}
+.date{font:600 14px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:2px 0}
+.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--green);text-decoration:none}
+.jump:hover{text-decoration:underline}
+.lead{margin:12px 0 0;color:var(--muted)}
+.box{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:22px 0}
+.box h2{font:800 15px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px}
+.core{border-left:6px solid var(--red)}
+.core ul{margin:0;padding-left:20px}.core li{margin:5px 0}
+section{margin:34px 0}
+.sec{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.sec h2{font:800 22px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0}
+.pill{font:800 11px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.08em;color:#fff;background:var(--c);border-radius:999px;padding:4px 10px}
+.s-new{--c:var(--red)}.s-fest{--c:var(--teal)}.s-rem{--c:var(--ochre)}.s-tip{--c:var(--violet)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:14px 16px}
+.card h3{font:800 18px/1.25 "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0 0 4px}
+.meta{font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0 0 8px}
+.card p{margin:6px 0}
+.chip{display:inline-block;font:800 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;border-radius:6px;padding:2px 7px;margin-bottom:6px;border:1px solid currentColor}
+.ok{color:var(--green)}.vvk{color:var(--violet)}.hot{color:var(--warn)}.open{color:var(--muted)}
+details{margin-top:8px}
+summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}
+details p{font-size:15.5px}
+.src{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.src a,.card a{color:var(--c)}
+.sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
+.bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
+.tip{--c:var(--violet);border-left:6px solid var(--violet)}
+.tip h2{color:var(--violet)}
+.warn{border-left:6px solid var(--warn)}.warn h2{color:var(--warn)}
+.warn ul{margin:0;padding-left:20px}.warn li{margin:5px 0}
+.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font:13px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+footer a{color:var(--ink)}
+@media(max-width:640px){.grid{grid-template-columns:1fr}header h1{font-size:32px}.day{grid-template-columns:1fr;gap:2px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="eyebrow">Metal · Rock · Punk · rund um Hannover</div>
+<h1>Konzert-Radar</h1>
+<p class="date">Donnerstag, 19. November 2026 · Stand: 03:46 Uhr</p>
+<a class="jump" href="#kalender">→ Kalender der nächsten 14 Tage</a>
+<p class="lead">Heute ist Vorverkaufstag: Metalcore-Veteranen und norwegischer Ritual-Black-Metal gehen in den Verkauf, dazu zwei neue Frühjahrstermine im MusikZentrum.</p>
+</header>
+
+<div class="box core">
+<h2>Das Wichtigste in 60 Sekunden</h2>
+<ul>
+<li><b>As I Lay Dying</b> kommen im April 2027 nach Deutschland – nächster Halt <b>Bochum, Matrix (28.4.)</b>. Lokaler Vorverkauf ab <b>heute 10 Uhr</b>, allgemeiner Verkauf ab Freitag 10 Uhr.</li>
+<li><b>Witch Club Satan</b> bringen ihre „Hard Healing“-Tour am <b>9.4.2027 auf die MS Stubnitz in Hamburg</b>. Freier Vorverkauf ab <b>Freitag, 20.11.</b></li>
+<li>Neu im Programm des MusikZentrums: <b>Rogers (15.4.27)</b> und <b>Fiddler's Green (15.5.27)</b>.</li>
+<li>Kurzfristig: <b>Kid Kapichi</b> spielen am Sonntag im Hamburger <b>Uebel & Gefährlich</b>.</li>
+<li>Morgen feiert <b>Massendefekt</b> 25 Jahre Bandgeschichte im MusikZentrum Hannover – unser Tipp des Tages.</li>
+</ul>
+</div>
+
+<section class="s-new">
+<div class="sec"><span class="pill">NEU</span><h2>Neu entdeckt</h2></div>
+<div class="grid">
+
+<article class="card">
+<span class="chip ok">Bestätigt</span>
+<h3>Kid Kapichi</h3>
+<p class="meta">So 22.11.2026 · Uebel & Gefährlich, Hamburg · ca. 150 km</p>
+<p>Wütender Gitarren-Punk von der englischen Südküste, jetzt als <b>Duo</b> unterwegs. Weitere Deutschland-Shows: Berlin SO36 (30.11.) und Köln Gebäude 9 (6.12.).</p>
+<p><strong>Hörtipp:</strong> „New England“ <a class="sp" href="https://open.spotify.com/search/Kid%20Kapichi%20New%20England" target="_blank" rel="noopener">▶ Spotify</a> – bissige Abrechnung mit dem britischen Alltag, live ein Mitbrüll-Moment.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Kid Kapichi stammen aus Hastings und mischen Punk, Garage-Rock und Indie mit sehr direkten, sozialkritischen Texten. Ihr viertes Album <b>„Fearless Nature“</b> erschien Anfang 2026.</p>
+<p>Nach dem Abschied von Gitarrist und Schlagzeuger tragen Sänger/Gitarrist Jack Wilson und Bassist Eddie Lewis die Band nun zu zweit – spannend, wie das live klingt.</p>
+<p class="src">Quelle: <a href="https://www.visions.de/tour/kid-kapichi-2/" target="_blank" rel="noopener">VISIONS – Tourdaten</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip vvk">Vorverkauf startet</span>
+<h3>Witch Club Satan + Otay:Onii, Krøyer</h3>
+<p class="meta">Fr 9.4.2027 · MS Stubnitz, Hamburg · ca. 150 km</p>
+<p>Norwegischer Black Metal als <b>feministisches Bühnenritual</b>. Freier Vorverkauf ab <b>Freitag, 20.11.</b>; weitere Termine u. a. Berlin Betonhalle (11.4.), Leipzig UT Connewitz (13.4.), Bochum Christuskirche (23.4.).</p>
+<p><strong>Hörtipp:</strong> „The Kids Will Kill Us“ <a class="sp" href="https://open.spotify.com/search/Witch%20Club%20Satan%20The%20Kids%20Will%20Kill%20Us" target="_blank" rel="noopener">▶ Spotify</a> – die aktuelle, verstörende Single.</p>
+<p class="bl"><a href="https://www.witchclubsatan.com/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/witchclubsatan/" target="_blank" rel="noopener">Instagram @witchclubsatan</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Das Trio aus Norwegen verbindet klassischen Black Metal mit Theater und Performance – Konzerte wirken eher wie Zeremonien als wie Gigs.</p>
+<p>Besonders: In Berlin gibt es am 10.4. zusätzlich eine kleine „Ritual“-Show an noch geheimem Ort, Zugang nur per Anmeldung über den Band-Newsletter. Im Sommer 2027 stehen sie außerdem in Wacken auf dem Plan.</p>
+<p class="src">Quellen: <a href="https://www.metal1.info/metal-news/witch-club-satan-kuendigen-hard-healing-tour-2027-an" target="_blank" rel="noopener">Metal1.info</a> · <a href="https://www.theprp.com/2026/11/18/news/witch-club-satan-announce-european-uk-tour-with-otayonii-ditte-kroyer/" target="_blank" rel="noopener">ThePRP</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip ok">Bestätigt</span>
+<h3>Rogers</h3>
+<p class="meta">Do 15.4.2027 · MusikZentrum, Hannover</p>
+<p>Düsseldorfer Punkrock mit großen Refrains – neu im Kalender des MusikZentrums, <b>direkt in Hannover</b>.</p>
+<p><strong>Hörtipp:</strong> Album „Rambazamba & Randale“ <a class="sp" href="https://open.spotify.com/search/Rogers%20Rambazamba%20%26%20Randale" target="_blank" rel="noopener">▶ Spotify</a> – die Platte, die es in die Top 10 geschafft hat.</p>
+<p class="bl"><a href="https://www.rogers.de/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/rogerspunkrock/" target="_blank" rel="noopener">Instagram @rogerspunkrock</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Rogers spielen rauen, eingängigen Punkrock mit klarer Haltung gegen Rechts. Thematisch geht es oft um psychische Gesundheit und gesellschaftlichen Druck.</p>
+<p>Live sind sie Festival-erprobt (u. a. Deichbrand seit vielen Jahren) – im Club wird das entsprechend eng und laut.</p>
+<p class="src">Quellen: <a href="https://musikzentrum-hannover.de/events/" target="_blank" rel="noopener">MusikZentrum – Programm</a> · <a href="https://www.eventworld.com/rogers-hannover-tickets-15-04-2027/event/578821" target="_blank" rel="noopener">Ticketlisting</a> · <a href="https://deichbrand.de/en/line-up/artist/rogers/" target="_blank" rel="noopener">Deichbrand-Bandprofil</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip vvk">Vorverkauf startet</span>
+<h3>As I Lay Dying</h3>
+<p class="meta">Mi 28.4.2027 · Matrix, Bochum · ca. 250 km</p>
+<p>Die Metalcore-Pioniere aus San Diego touren zum neuen, <b>selbstbetitelten Album</b>. Lokaler Vorverkauf ab <b>heute 10 Uhr</b>, allgemein ab Fr 20.11.; dazu Leipzig Hellraiser (30.4.).</p>
+<p><strong>Hörtipp:</strong> „Confined“ <a class="sp" href="https://open.spotify.com/search/As%20I%20Lay%20Dying%20Confined" target="_blank" rel="noopener">▶ Spotify</a> – Genre-Klassiker, der bis heute Pits öffnet.</p>
+<p class="bl"><a href="https://asilaydying.com/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/asilaydying/" target="_blank" rel="noopener">Instagram @asilaydying</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>As I Lay Dying haben den melodischen Metalcore der 2000er maßgeblich geprägt: schwedisch inspirierte Gitarrenläufe, harte Breakdowns, cleane Refrains.</p>
+<p>Das neue Album ist für den 5. Februar angekündigt. Die Europa-Tour läuft vom 20.4. bis 16.5.; Hamburg, Berlin und Köln fehlen diesmal, <b>Bochum ist der nächste Termin</b>.</p>
+<p class="src">Quellen: <a href="https://www.metal1.info/metal-news/as-i-lay-dying-kommen-2027-auf-europa-tour" target="_blank" rel="noopener">Metal1.info</a> · <a href="https://www.theprp.com/2026/11/18/news/as-i-lay-dying-announce-spring-2027-european-tour/" target="_blank" rel="noopener">ThePRP</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip open">Details offen</span>
+<h3>Fiddler's Green</h3>
+<p class="meta">Sa 15.5.2027 · MusikZentrum, Hannover</p>
+<p>Die Irish-Speedfolk-Institution ist für Mai im MusikZentrum gelistet. <b>Tourname und Preis</b> stehen noch nicht fest.</p>
+<p><strong>Hörtipp:</strong> „Folk's Not Dead“ <a class="sp" href="https://open.spotify.com/search/Fiddler%27s%20Green%20Folk%27s%20Not%20Dead" target="_blank" rel="noopener">▶ Spotify</a> – Programm in drei Wörtern.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Fiddler's Green aus Erlangen verbinden seit über 35 Jahren irische Folk-Melodien mit Punk- und Rock-Tempo. Wer Pogo zu Geige und Akkordeon mag, ist hier richtig.</p>
+<p>Zuletzt waren sie mit einer akustischen Jubiläums-Clubtour unterwegs; der Mai-Termin dürfte wieder die laute Variante sein – bestätigt ist das noch nicht.</p>
+<p class="src">Quellen: <a href="https://musikzentrum-hannover.de/events/" target="_blank" rel="noopener">MusikZentrum – Programm</a> · <a href="https://www.niedersachsen-tourism.com/event/fiddlers-green" target="_blank" rel="noopener">Niedersachsen Tourismus</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip vvk">Vorverkauf läuft</span>
+<h3>Palebloom</h3>
+<p class="meta">Sa 5.6.2027 · Helios37, Köln · ca. 290 km</p>
+<p>Junger Post-Hardcore aus Köln auf erster Headline-Tour; außerdem <b>Berlin, Badehaus (20.6.)</b>. Tickets seit gestern im Verkauf.</p>
+<p><strong>Hörtipp:</strong> „Maybe I'm Not That Alright“ <a class="sp" href="https://open.spotify.com/search/Palebloom%20Maybe%20I%27m%20Not%20That%20Alright" target="_blank" rel="noopener">▶ Spotify</a> – Titelsong der Debüt-EP.</p>
+<details><summary>Mehr über die Band</summary>
+<p>Das Quartett veröffentlichte am 30.10.2026 seine Debüt-EP mit fünf Songs. Inhaltlich geht es um sehr schwere persönliche Erfahrungen – ehrlich, emotional, laut.</p>
+<p>Kleine Clubs, frühe Phase: genau der Moment, eine Band zu sehen, bevor sie größer wird.</p>
+<p class="src">Quelle: <a href="https://www.morecore.de/news/palebloom-kuendigen-maybe-im-not-that-alright-tour-fuer-2027-an" target="_blank" rel="noopener">MoreCore</a></p>
+</details>
+</article>
+
+</div>
+</section>
+
+<section class="s-rem">
+<div class="sec"><span class="pill">ERINNERUNG</span><h2>Nochmal zur Erinnerung</h2></div>
+<div class="grid">
+
+<article class="card">
+<span class="chip ok">Bestätigt</span>
+<h3>SIXPACK Musikwettbewerb</h3>
+<p class="meta">Sa 5.12.2026 · MusikZentrum, Hannover</p>
+<p>Hannovers ältester Bandwettbewerb: sechs Nachwuchsbands aus der Region, <b>das Publikum stimmt mit ab</b>. Stilistisch gemischt, aber ideal, um die lokale Szene kennenzulernen.</p>
+<p class="src">Quelle: <a href="https://musikzentrum-hannover.de/veranstaltung/sixpack-musikwettbewerb/" target="_blank" rel="noopener">MusikZentrum</a></p>
+</article>
+
+<article class="card">
+<span class="chip ok">Bestätigt</span>
+<h3>Excrementory Grindfuckers</h3>
+<p class="meta">Fr 11.12.2026 · Béi Chéz Heinz, Hannover</p>
+<p>Hannovers <b>Party-Grind</b>-Lokalmatadoren – Humor und Blastbeats im Wechsel.</p>
+<p><strong>Hörtipp:</strong> Album „Fertigmachen, Szeneputzen“ <a class="sp" href="https://open.spotify.com/search/Excrementory%20Grindfuckers%20Fertigmachen%2C%20Szeneputzen" target="_blank" rel="noopener">▶ Spotify</a> – der Klassiker zum Einstimmen.</p>
+<p class="src">Quelle: <a href="https://www.beichezheinz.de/programm/2026/alles" target="_blank" rel="noopener">Béi Chéz Heinz – Programm</a></p>
+</article>
+
+<article class="card">
+<span class="chip ok">Bestätigt</span>
+<h3>Unzucht</h3>
+<p class="meta">Sa 12.12.2026 · MusikZentrum, Hannover</p>
+<p>Dunkler Rock mit Neue-Deutsche-Härte-Kante auf der <b>„Neon Dom“-Tour</b>; Hamburg (Logo) schon morgen.</p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Unzucht" target="_blank" rel="noopener">▶ Spotify</a> – einmal quer durch die Diskografie.</p>
+<p class="src">Quelle: <a href="https://www.regioactive.de/konzert/unzucht-neon-dom-tour-2026-hannover-musikzentrum-2026-12-12-tickets-8zwhpyZnxW" target="_blank" rel="noopener">regioactive</a></p>
+</article>
+
+<article class="card">
+<span class="chip ok">Bestätigt</span>
+<h3>Peter and the Test Tube Babies</h3>
+<p class="meta">Fr 18.12.2026 · Béi Chéz Heinz, Hannover</p>
+<p>Britischer Streetpunk-Urgestein, kurz vor Weihnachten im <b>kleinen Club</b>.</p>
+<p><strong>Hörtipp:</strong> „Banned from the Pubs“ <a class="sp" href="https://open.spotify.com/search/Peter%20and%20the%20Test%20Tube%20Babies%20Banned%20from%20the%20Pubs" target="_blank" rel="noopener">▶ Spotify</a> – Pflichtsong für jeden Tresen.</p>
+<p class="src">Quelle: <a href="https://www.beichezheinz.de/programm/2026/alles" target="_blank" rel="noopener">Béi Chéz Heinz – Programm</a></p>
+</article>
+
+</div>
+</section>
+
+<div class="box tip">
+<h2>Tipp des Tages</h2>
+<p><b>Massendefekt – „25 Live“</b> · Fr 20.11.2026 · MusikZentrum, Hannover</p>
+<p>Ein Vierteljahrhundert deutschsprachiger Punkrock, gefeiert mit einem Set quer durch alle Phasen – und das ohne Anreise, mitten in Hannover. Wer die Band nur von Festivalbühnen kennt, erlebt sie hier im Club deutlich näher und lauter.</p>
+<p><strong>Hörtipp:</strong> Bandprofil <a class="sp" href="https://open.spotify.com/search/Massendefekt" target="_blank" rel="noopener">▶ Spotify</a> – vorher einmal durch 25 Jahre hören.</p>
+<p class="src">Quellen: <a href="https://www.regioactive.de/konzert/massendefekt-25-live-hannover-musikzentrum-2026-11-20-tickets-vp5sMGgr6X" target="_blank" rel="noopener">regioactive</a> · <a href="https://musikzentrum-hannover.de/events/" target="_blank" rel="noopener">MusikZentrum</a></p>
+</div>
+
+<div class="box warn">
+<h2>Hier genau hinschauen</h2>
+<ul>
+<li><b>As I Lay Dying:</b> Support-Bands sind noch nicht genannt. Der heutige Vorverkauf gilt nur für ausgewählte Shows – Tickets nur über offizielle Kanäle kaufen, keine überteuerten Zweitmarkt-Angebote am ersten Tag.</li>
+<li><b>Witch Club Satan, Berlin 10.4.:</b> Die „Ritual“-Show ist nur per Newsletter-Anmeldung zugänglich. Angebote auf Ticketbörsen dafür sind mit Vorsicht zu genießen.</li>
+<li><b>Fiddler's Green:</b> Bislang nur im Venue-Kalender gelistet, ohne Preis und Tourname.</li>
+<li><b>Hiraes (27.11., Herford):</b> Das Datum ist weiterhin widersprüchlich – vorher beim Veranstalter prüfen.</li>
+<li><b>MusikZentrum:</b> „Musste Battlen!“ am 23.11. ist abgesagt; Morpheuz am 21.11. ist ausverkauft.</li>
+</ul>
+</div>
+
+<section class="s-cal" id="kalender">
+<div class="sec"><span class="pill">KAL</span><h2>Kalender: die nächsten 14 Tage</h2></div>
+<div class="cal">
+<div class="day"><div class="dh">Do 19.11. <span>heute</span></div><ul>
+<li><b>UK Subs + die ueblichen · Faust, Hannover</b></li>
+<li><b>Rising Insane + Pentastone · Béi Chéz Heinz, Hannover</b></li>
+<li><b>Nailed to Obscurity + Nephylim · Glocksee, Hannover</b></li>
+<li>Pro-Pain · Schön & Frölich, Braunschweig</li>
+<li>Shakra · Kulturwerk, Herford</li>
+<li>Murphy's Law + Clobber · Gulfhaus, Vechta</li>
+<li>Despised Icon + Carnifex, Suffocation · Gruenspan, Hamburg</li>
+<li>Accept · Haus Auensee, Leipzig</li>
+<li>Vorverkauf: As I Lay Dying (lokaler Presale), 10 Uhr</li>
+</ul></div>
+<div class="day"><div class="dh">Fr 20.11. <span>morgen</span></div><ul>
+<li><b>Massendefekt · MusikZentrum, Hannover</b> <span class="tag">Tipp des Tages</span></li>
+<li><b>dARTAGNAN + Storm Seeker · Capitol, Hannover</b></li>
+<li>Soulbound x Hell Boulevard · Sumpfblume, Hameln</li>
+<li>Daily Thompson + Constance Tomb · Bielefeld</li>
+<li>Stahlmann · Hyde Park, Osnabrück</li>
+<li>Gutalax · Factory, Magdeburg</li>
+<li>Papa Roach + Landmvrks · Barclays Arena, Hamburg</li>
+<li>The Obsessed + Sissies · Indra, Hamburg</li>
+<li>Unzucht · Logo, Hamburg</li>
+<li>Bloody X-Mas Markt · UKE, Hamburg</li>
+<li>The Ruins of Beverast + Esotheric · UT Connewitz, Leipzig</li>
+<li>Dust Bolt + Zerre · Moritzbastei, Leipzig</li>
+<li>Vorverkauf: Yonaka, 10 Uhr</li>
+<li>Vorverkauf: Foo Fighters + The Hives, 10 Uhr</li>
+<li>Vorverkauf: As I Lay Dying (allgemein), 10 Uhr</li>
+<li>Vorverkauf: Witch Club Satan</li>
+<li>Vorverkauf: Underoath + Saosin</li>
+</ul></div>
+<div class="day"><div class="dh">Sa 21.11.</div><ul>
+<li><b>Hannover Hardcore Fest · Béi Chéz Heinz, Hannover</b></li>
+<li>Master Boot Record & Fulci · Logo, Hamburg</li>
+<li>Bloody X-Mas Markt · UKE, Hamburg</li>
+<li>Black Tides Fest V · LMC, Emden</li>
+</ul></div>
+<div class="day"><div class="dh">So 22.11.</div><ul>
+<li>Kid Kapichi · Uebel & Gefährlich, Hamburg</li>
+<li>Blackgold · Logo, Hamburg</li>
+<li>Youth of Today + Risk It · Felsenkeller, Leipzig</li>
+</ul></div>
+<div class="day"><div class="dh">Mo 23.11.</div><ul>
+<li><b>Wet Cactus · Béi Chéz Heinz, Hannover</b></li>
+<li>Beast in Black + Frozen Crown · Inselpark Arena, Hamburg</li>
+</ul></div>
+<div class="day"><div class="dh">Di 24.11.</div><ul>
+<li>Chelsea Wolfe + A.A. Williams · Große Freiheit 36, Hamburg</li>
+<li>Long Distance Calling · Markthalle, Hamburg</li>
+<li>Currents & ERRA + Caskets · Astra, Berlin</li>
+</ul></div>
+<div class="day"><div class="dh">Mi 25.11.</div><ul>
+<li><b>Health + Vowws, Doodseskader · MusikZentrum, Hannover</b></li>
+<li>Slift · Knust, Hamburg</li>
+<li>Sevendust · Gruenspan, Hamburg</li>
+<li>Grift + Zwischenlichten · Bambi Galore, Hamburg</li>
+</ul></div>
+<details><summary>Die Woche danach</summary>
+<div class="day"><div class="dh">Do 26.11.</div><ul>
+<li><b>Penny & The Pits · Béi Chéz Heinz, Hannover</b></li>
+<li>Morbidfest · MS Stubnitz, Hamburg</li>
+<li>John Coffey · Knust, Hamburg</li>
+<li>Terror + Bane · Fabrik, Hamburg</li>
+<li>Týr + Twilight Force · Matrix, Bochum</li>
+</ul></div>
+<div class="day"><div class="dh">Fr 27.11.</div><ul>
+<li><b>Wisborg + The Fright · SubKultur, Hannover</b></li>
+<li>Hiraes · Kulturwerk, Herford <span class="tag">Datum unklar</span></li>
+<li>Perkele · Aladin Music Hall, Bremen</li>
+<li>Black Oak County · Monkeys, Hamburg</li>
+</ul></div>
+<div class="day"><div class="dh">Sa 28.11.</div><ul>
+<li><b>Allt + Avralize, Bite Down · Béi Chéz Heinz, Hannover</b></li>
+<li><b>Half Me · MusikZentrum, Hannover</b></li>
+<li><b>Pinhead · SubKultur, Hannover</b></li>
+<li>Diary of Dreams · Lagerhaus, Bremen</li>
+<li>Annisokay · Haus Auensee, Leipzig</li>
+</ul></div>
+<div class="day"><div class="dh">So 29.11.</div><ul>
+<li><b>Carbon Twin · Béi Chéz Heinz, Hannover</b></li>
+<li>Thrown · Große Freiheit 36, Hamburg</li>
+</ul></div>
+<div class="day"><div class="dh">Di 1.12.</div><ul>
+<li>Wednesday 13 · Knust, Hamburg</li>
+<li>Steve 'n' Seagulls · Fabrik, Hamburg</li>
+</ul></div>
+<div class="day"><div class="dh">Mi 2.12.</div><ul>
+<li>Polyphia + Perturbator · Docks, Hamburg</li>
+</ul></div>
+</details>
+</div>
+</section>
+
+<footer>
+  <p><a href="/konzerte/">zum aktuellen Konzert-Radar</a></p>
+<p><a href="/konzerte/archiv/">Radar-Archiv</a></p>
+<p><a href="/">Hannover Frühausgabe</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a></p>
+<p>Alle Termine ohne Gewähr – bitte vor dem Ticketkauf beim Veranstalter prüfen.</p>
+</footer>
+</div>
+</body>
+</html>
+
+</body></html>
