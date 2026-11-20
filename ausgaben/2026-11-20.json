@@ -1,0 +1,383 @@
+{
+  "stand": "Stand: Freitag, 20. November, 3 Uhr",
+  "kurz": [
+    "<b>Rücktritt in Hannover:</b> Niedersachsens Justizministerin <b>Kathrin Wahlmann</b> (SPD) gibt nach wochenlanger Kritik auf. Innenministerin Daniela Behrens führt das Ressort vorerst mit.",
+    "<b>Gipfel in Shenzhen:</b> Trump, Xi und Putin unterschreiben eine Erklärung zu <b>Atomrisiken</b>, die Ukraine kommt darin nicht vor. Gleich danach droht Putin Kiew mit einer harten Antwort auf die Angriffe auf die Krim-Brücke.",
+    "<b>Gegenprogramm in Berlin:</b> 26 Staats- und Regierungschefs der Koalition der Willigen sagen der Ukraine weitere Hilfe zu. Merz nennt das Treffen in China <b>vor allem einen Bildtermin</b>.",
+    "<b>Galeria wackelt:</b> Laut einem Medienbericht könnten bis zu <b>40 der 83 Warenhäuser</b> schließen, die Streichliste soll bis Ende Dezember stehen.",
+    "<b>Heute in der City:</b> Um 12 Uhr Schülerstreik gegen die Wehrpflicht, um <b>17 Uhr</b> Demo von „Gen Z regelt“ ab dem Steintor.",
+    "<b>Sport:</b> Zverev zieht <b>ohne Satzverlust</b> ins Halbfinale von Turin ein. Morgen um 13 Uhr empfängt 96 Fürth, das um Kapitän Felix Klaus bangt. Heute Abend spielen die Recken gegen Stuttgart."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Justizministerin Wahlmann tritt zurück",
+          "kurz": "Nach einer Serie von Vorwürfen der CDU legt <b>Kathrin Wahlmann</b> ihr Amt nieder. Kommissarisch übernimmt Innenministerin <b>Daniela Behrens</b> die Justiz.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Justizministerium Niedersachsen", "suche": "Niedersächsisches Justizministerium Am Waterlooplatz Hannover"}
+          ],
+          "lang": [
+            "Die Opposition hatte ihr unter anderem Probleme im Justizvollzug, eine überstürzte Einführung der elektronischen Akte und teure Auslandsreisen vorgehalten. Zuletzt ging es um eine falsche Auskunft ihres Hauses zu Akten im Fall eines inzwischen verurteilten Staatsanwalts, die das Ministerium erst im Rechtsausschuss richtigstellte. Wahlmann hatte die Vorwürfe stets zurückgewiesen und ihre Reisen etwa mit dem geplanten Gefängnisneubau in Hannover begründet.",
+            "Ministerpräsident Olaf Lies nannte den Schritt richtig: Der Dauerstreit habe das Ressort zunehmend belastet. Wer die Nachfolge antritt, ist offen. Bis zur Landtagswahl am <b>26. September 2027</b> bleibt gut zehn Monate Zeit."
+          ],
+          "einschaetzung": "Der Rücktritt ist von mehreren Medien bestätigt, die Begründung kommt bisher nur vom Ministerpräsidenten, nicht von Wahlmann selbst.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/justizministerin-wahlmann-tritt-zurueck"},
+            {"name": "Nord24 (dpa)", "url": "https://www.nord24.de/niedersachsen/daniela-behrens-uebernimmt-justizressort-kommissarisch-432042.html"},
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101537500/niedersachsen-spd-politikerin-wahlmann-gibt-amt-als-justizministerin-auf.html"}
+          ]
+        },
+        {
+          "titel": "Stadt Hannover muss mehr als 300 Millionen Euro einsparen",
+          "kurz": "Für <b>2028</b> klafft nach neuen Berechnungen eine Lücke von rund <b>170 Millionen Euro</b>. Ein überarbeitetes Sparkonzept soll im Dezember kommen.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Neues Rathaus", "suche": "Neues Rathaus Hannover"}
+          ],
+          "lang": [
+            "Die Stadtkasse leidet unter steigenden Ausgaben, schwächeren Steuereinnahmen und weniger Geld vom Land. Für das kommende Jahr fällt das Defizit zwar etwas kleiner aus als geplant, mittelfristig reicht das aber nicht.",
+            "Wo genau gekürzt wird, steht noch nicht fest. Oberbürgermeister Belit Onay möchte Bäder, Bibliotheken und Kultur möglichst verschonen, ausgeschlossen sind Einschnitte dort aber nicht."
+          ],
+          "einschaetzung": "Die Summen stammen aus der Stadtverwaltung; konkrete Maßnahmen gibt es noch nicht, deshalb bleibt vieles offen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/stadt-hannover-muss-mehr-als-300-millionen-euro-sparen"}
+          ]
+        },
+        {
+          "titel": "Zwei Demos heute in der Innenstadt",
+          "kurz": "Mittags ziehen Schülerinnen und Schüler gegen die <b>Wehrpflicht</b> durch die City, ab <b>17 Uhr</b> demonstriert die Initiative „Gen Z regelt“ vom Steintor zum Küchengarten.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Ernst-August-Platz", "suche": "Ernst-August-Platz Hannover"},
+            {"name": "Steintor", "suche": "Steintor Hannover"},
+            {"name": "Küchengarten", "suche": "Küchengarten Hannover Linden"}
+          ],
+          "lang": [
+            "Der Schülerstreik beginnt um 12 Uhr am Ernst-August-Platz vor dem Hauptbahnhof, die Polizei rechnet mit einer hohen dreistelligen Zahl. Bei „Gen Z regelt“ geht es um Sozialkürzungen, hohe Preise, Bildung, bezahlbares Wohnen und den Rechtsruck; die Polizei erwartet rund <b>2.000</b> Menschen, die Veranstalter eine niedrige vierstellige Zahl.",
+            "Bei der ersten Demo an Halloween kamen in der Spitze rund 5.800 Menschen, damals gab es Pyrotechnik und mehrere Verletzte. Die Initiative betont, friedlich bleiben zu wollen. Mit Behinderungen im Innenstadtverkehr am Nachmittag sollte man rechnen."
+          ],
+          "einschaetzung": "Termine und Treffpunkte decken sich bei Radio Hannover und t-online; die Teilnehmerzahlen sind Schätzungen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/gen-z-regelt-2000-teilnehmer-zur-demo-in-hannover-erwartet"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101536426/-gen-z-regelt-demo-am-freitag-in-hannover-das-fordert-die-initiative.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Stadt und Region.",
+          "liste": [
+            "<b>Umfrage Landtagswahl:</b> SPD 27, CDU 21, AfD 21, Grüne 15, Linke 5 Prozent (Infratest dimap für den NDR). Rot-Grün hätte keine Mehrheit mehr, <b>79 Prozent</b> wollen, dass VW seine deutschen Werke behält.",
+            "<b>VW-Tarifrunde:</b> Der Konzern will für 2027 und 2028 <b>Nullrunden</b>, die IG Metall fordert 5 Prozent. Auftakt ist am Dienstag, betroffen ist auch das Werk Stöcken.",
+            "<b>Bahn:</b> Ein defektes Stellwerk auf der Strecke Hannover–Göttingen bremste am Donnerstag viele ICE und IC Richtung Süden aus. Vor der Fahrt die Verbindung prüfen.",
+            "<b>Neustadt:</b> Die Behelfsbrücke an der <b>B6</b> ist frei, die Umleitung über Eilvese entfällt.",
+            "<b>Vinnhorst:</b> Der 51-jährige Radfahrer, der am Dienstag am Vinnhorster Weg gestürzt war, ist im Krankenhaus gestorben. Die Polizei vermutet einen medizinischen Notfall als Ursache.",
+            "<b>96 im Winter:</b> Das Trainingslager findet vom <b>3. bis 10. Januar</b> wieder in Belek statt, Eintracht Braunschweig logiert drei Kilometer entfernt."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen von Radio Hannover, t-online Hannover und der Polizeidirektion Hannover."
+          ],
+          "einschaetzung": "Angaben von Umfrageinstitut, Tarifparteien, Bahn, Polizei und Verein, wiedergegeben von Lokalmedien.",
+          "quellen": [
+            {"name": "t-online (Umfrage)", "url": "https://hannover.t-online.de/region/hannover/id_101535988/umfrage-in-niedersachsen-spd-mit-meisten-stimmen-afd-legt-zu.html"},
+            {"name": "Radio Hannover (VW)", "url": "https://www.radio-hannover.de/hannover-news/vw-verlangt-nullrunden-ig-metall-haelt-dagegen"},
+            {"name": "t-online (Stellwerk)", "url": "https://hannover.t-online.de/region/hannover/id_101535760/defektes-stellwerk-bei-hannover-stoert-fernverkehr-nach-sueddeutschland.html"},
+            {"name": "Radio Hannover (News)", "url": "https://www.radio-hannover.de/aktuell/news"},
+            {"name": "Polizei Hannover", "url": "https://www.presseportal.de/blaulicht/pm/66841/6393449"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Koalition der Willigen: Großes Treffen im Kanzleramt",
+          "kurz": "<b>26</b> Staats- und Regierungschefs kamen nach Berlin, so viele wie nie. Die Botschaft: Hilfe für die Ukraine, solange es nötig ist, und Europa will bei Verhandlungen mit am Tisch sitzen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Kanzleramt", "suche": "Bundeskanzleramt Berlin"}
+          ],
+          "lang": [
+            "Gastgeber Friedrich Merz schlug vor, Gebietsfragen von der heutigen Frontlinie aus zu verhandeln und Russlands Sanktionen nur schrittweise und unter Bedingungen zu lockern. Die Teilnehmer stellten sich weitgehend hinter einen EU-Vorschlag über zusätzliche <b>45 Milliarden Euro</b> für 2027, über den nächste Woche in Brüssel beraten wird. Selenskyj war zur Eröffnung da, aus Washington kam Sondergesandter Jared Kushner.",
+            "Laut Kushner wäre Moskau offen für Sicherheitsgarantien nach dem Vorbild von Nato-Artikel 5, eine Bestätigung aus Russland gibt es nicht. Parallel übt eine multinationale Truppe mit rund 2.800 Soldaten aus elf Ländern, darunter die Bundeswehr. Einen förmlichen gemeinsamen Beschluss gab es nicht."
+          ],
+          "einschaetzung": "Ablauf und Aussagen sind von dpa und weiteren Medien übereinstimmend berichtet; Kushners Aussage zu Russland ist unbestätigt.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/politik/dpa-gipfel-im-kanzleramt-merz-lastert-uber-bildtermin-von-trump-putin-und-xi-16302995.html"},
+            {"name": "Salzburger Nachrichten", "url": "https://www.sn.at/politik/weltpolitik/koalition-der-willigen-stellt-sich-hinter-ukraine-art-684820"},
+            {"name": "Bundesregierung", "url": "https://www.bundesregierung.de/breg-de/aktuelles/koalition-der-willigen-in-berlin-2461162"}
+          ]
+        },
+        {
+          "titel": "Galeria: Fast jedes zweite Warenhaus in Gefahr",
+          "kurz": "Nach einem Bericht der Süddeutschen Zeitung könnten bis zu <b>40 von 83</b> Filialen schließen. Die komplette Liste wird bis <b>Ende Dezember</b> erwartet.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Galeria Hannover", "suche": "Galeria Hannover Ernst-August-Platz"}
+          ],
+          "lang": [
+            "Zwei bis drei bereits angeschlagene Häuser sollen schon in dieser Woche das Aus erfahren. Bis Jahresende muss der vorläufige Insolvenzverwalter dem Gericht sagen, ob es eine Lösung mit einem Investor gibt. Von rund 20 Interessenten gelten nur etwa fünf als ernsthaft.",
+            "Die Zahlen sind schlecht: Im Geschäftsjahr bis September lag der bereinigte Verlust bei <b>248 Millionen Euro</b>, Anfang November brach der Umsatz um fast zehn Prozent ein. Ob das Haus in Hannover betroffen ist, geht aus den Berichten nicht hervor."
+          ],
+          "einschaetzung": "Die Zahlen stammen aus einem Medienbericht über interne Unterlagen; eine offizielle Streichliste gibt es noch nicht.",
+          "quellen": [
+            {"name": "schuhkurier", "url": "https://www.schuhkurier.de/galeria-schliessung-von-bis-zu-40-haeusern/"},
+            {"name": "Süddeutsche Zeitung", "url": "https://www.sueddeutsche.de/wirtschaft/galeria-insolvenz-filialen-schliessung-warenhauskette-streichliste-li.3582531"}
+          ]
+        },
+        {
+          "titel": "Deutsche-Bank-Leak: Tarnkonten für verdeckte Ermittler",
+          "kurz": "Laut einer Recherche von ZDF frontal und Partnern führte die Bank zeitweise <b>154 Konten</b> für verdeckte Ermittler, intern teils unverschlüsselt besprochen.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Deutsche Bank Zentrale", "suche": "Deutsche Bank Zentrale Taunusanlage Frankfurt"}
+          ],
+          "lang": [
+            "Grundlage ist ein Datenleck mit mehr als 15 Millionen internen Dokumenten. Darin tauchen Kontakte zu Zoll, BKA, Landeskriminalämtern, Verfassungsschutz und BND auf. Mitarbeitende sollen Tarnnamen und Ausweiskopien ohne Verschlüsselung per Mail getauscht haben.",
+            "Die Bank äußert sich grundsätzlich nicht zu Kundenbeziehungen oder Kontakten zu Behörden. Der Vorsitzende des Geheimdienst-Kontrollgremiums spricht von einem gravierenden Sicherheitsrisiko, die Grünen wollen den Nationalen Sicherheitsrat einberufen."
+          ],
+          "einschaetzung": "Die Recherche ist aufwendig belegt, die Bank hat die Einzelheiten aber weder bestätigt noch bestritten.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/wirtschaft/deutsche-bank-undercover-agenten-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Energiereformen:</b> Wirtschaftsministerin Reiche und Umweltminister Schneider warnen vor Mehrkosten durch die Pläne der eigenen Koalition. Kleine Solaranlagen bis <b>25 kW</b> sollen ihre Einspeisevergütung doch behalten, beim Netzpaket hakt es.",
+            "<b>Gasspeicher:</b> In der EU sind sie nur zu rund <b>70 Prozent</b> gefüllt, so wenig wie zu dieser Jahreszeit noch nie seit Beginn der Messungen 2011.",
+            "<b>Klima:</b> Laut Atmosfair hat die Passagierluftfahrt 2025 die Pariser Ziele verfehlt, die CO2-Effizienz stieg um weniger als ein Prozent."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen aus dem ZDF-Newsticker und von Nachrichtenagenturen."
+          ],
+          "einschaetzung": "Angaben von Ministerien, Verbänden und Bloomberg, von mehreren Medien wiedergegeben.",
+          "quellen": [
+            {"name": "onvista (dpa)", "url": "https://www.onvista.de/news/2026/11-19-reiche-und-schneider-warnen-vor-mehrkosten-bei-energiereformen-0-10-26578062"},
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/europas-preiskampf-um-lng-kippt-vier-us-tanker-aendern-ploetzlich-ihren-kurs-10615287"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Shenzhen: Atom-Dialog ja, Ukraine nein",
+          "kurz": "Nach rund <b>80 Minuten</b> Dreiergipfel bekennen sich Trump, Xi und Putin dazu, dass ein Atomkrieg nie geführt werden darf, und kündigen Gespräche über atomare Risiken an. Den Ukraine-Krieg und den Iran erwähnt die Erklärung nicht.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Shenzhen", "suche": "Shenzhen China"}
+          ],
+          "lang": [
+            "Das Papier sieht einen Dreierprozess zur Verringerung atomarer Gefahren vor, dazu mehr Raffinerieprodukte für den Weltmarkt. Auffällig: Internationale Gerichte wie der Strafgerichtshof sollen ihre Befugnisse nicht missbrauchen, gegen Putin liegt dort ein Haftbefehl vor. Trump sprach von einem historischen Treffen, nannte gemeinsame Abrüstung aber sehr schwierig. Xi mahnte Trump beim Thema Taiwan.",
+            "Putin nutzte die Pressekonferenz danach für scharfe Töne: Auf die Angriffe auf die Krim-Brücke werde Russland deutlich schmerzhafter antworten. Die Europäer lud er nach Moskau ein, Termine für weitere Gespräche gibt es nicht."
+          ],
+          "einschaetzung": "Inhalt der Erklärung und Putins Äußerungen sind von dpa, taz und ZDF übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/internationales/dpa-historischer-dreiergipfel-trump-xi-und-putin-erwahnen-die-ukraine-nicht--danach-aussert-sich-putin-ausfuhrlich-16301383.html"},
+            {"name": "taz", "url": "https://taz.de/-Treffen-von-Putin-Trump-und-XI-/!6231342/"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/apec-xi-jinping-zusammenarbeit-100.html"}
+          ]
+        },
+        {
+          "titel": "Weltgericht: Myanmar für Völkermord an Rohingya verantwortlich",
+          "kurz": "Der Internationale Gerichtshof in Den Haag stellt erstmals fest, dass ein Staat für einen <b>Völkermord</b> verantwortlich ist. Geklagt hatte Gambia.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Friedenspalast Den Haag", "suche": "Friedenspalast Den Haag"},
+            {"name": "Rakhine", "suche": "Rakhine State Myanmar"}
+          ],
+          "lang": [
+            "Die Richter sehen es als einzig vernünftigen Schluss aus den Beweisen, dass Myanmars Armee 2017 einen wesentlichen Teil der muslimischen Minderheit zerstören wollte. Nach Schätzung des Gerichts wurden damals rund <b>10.000</b> Menschen getötet, mehr als 700.000 flohen nach Bangladesch.",
+            "Welche Folgen das Urteil konkret hat, etwa Wiedergutmachung oder Sanktionen, war zunächst nicht bekannt. Gegen Junta-Chef Min Aung Hlaing läuft separat ein Haftbefehlsverfahren."
+          ],
+          "einschaetzung": "Ein Urteil des höchsten UN-Gerichts, berichtet von ZDF und dpa; offen sind nur die praktischen Folgen.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/myanmar-rohingya-voelkermord-internationaler-gerichtshof-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>Taiwan:</b> Während des Gipfels meldete Taipeh russische Militärflugzeuge in der Nähe der Insel.",
+            "<b>Kinder in Kriegsgebieten:</b> Laut Save the Children lebten 2025 rund <b>589 Millionen</b> Kinder in Konfliktzonen, fast jedes vierte Kind weltweit.",
+            "<b>Kunstrekord:</b> Van Goghs „Blühende Kastanienbäume“ brachte bei Sotheby's in New York <b>190,4 Millionen Dollar</b>, so viel wie nie ein Van Gogh. Vorausging eine Einigung mit den Erben einer jüdischen Familie.",
+            "<b>EU:</b> Methanregeln für Importeure von Öl, Gas und Kohle kommen wegen der Energiepreiskrise erst 2029 statt 2027."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Kurzmeldungen aus dem ZDF-Newsticker."
+          ],
+          "einschaetzung": "Agenturmeldungen, von ZDFheute übernommen.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "ZDFheute (Gipfel)", "url": "https://www.zdfheute.de/politik/ausland/apec-xi-jinping-zusammenarbeit-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Hannover Scorpions fanden wir keine aktuellen, belastbaren Meldungen. Radio Hannover Sport war nicht abrufbar.",
+      "meldungen": [
+        {
+          "titel": "96 gegen Fürth: Gegner bangt um seinen Torjäger",
+          "kurz": "Am <b>Samstag um 13 Uhr</b> kommt die SpVgg in die Heinz-von-Heiden-Arena. Hinter Kapitän <b>Felix Klaus</b>, der mehr als die Hälfte der Fürther Tore erzielt hat, steht ein dickes Fragezeichen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Heinz-von-Heiden-Arena", "suche": "Heinz von Heiden Arena Hannover"}
+          ],
+          "lang": [
+            "Fürth fehlen sicher Hendry Blank (Gelb-Rot-Sperre), Maxim Dahl und Stürmer Jordan Siebatcheu, der wohl in diesem Jahr nicht mehr spielt. Trainer Heiko Vogel, der am Spieltag Geburtstag hat, warnt dennoch: Die Tabelle lasse 96 schwächer aussehen, als es sei, die Einzelqualität gehöre zur Ligaspitze.",
+            "Für 96 unter Sandro Wagner steht nach elf Spielen eine Bilanz von drei Siegen, drei Remis und fünf Niederlagen, 12:18 Tore und <b>12 Punkte</b>, genauso viele wie Fürth. Zuletzt holte die Mannschaft ein 2:2 in Heidenheim."
+          ],
+          "einschaetzung": "Personallage aus der Fürther Pressekonferenz, Bilanz aus den Ergebnislisten; ob Klaus spielt, entscheidet sich kurzfristig.",
+          "quellen": [
+            {"name": "SpVgg Greuther Fürth", "url": "https://www.sgf1903.de/news/profis/maximal-truegerisch"},
+            {"name": "Radio Mainwelle", "url": "https://www.mainwelle.de/fuerth-bangt-gegen-hannover-um-kapitaen-und-torjaeger-klaus-2559459/"},
+            {"name": "hessenschau Ergebnisse", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+          ]
+        },
+        {
+          "titel": "Turin: Zverev makellos ins Halbfinale",
+          "kurz": "Mit <b>6:4, 7:6</b> gegen Arthur Fils gewinnt Alexander Zverev auch sein drittes Gruppenspiel. Am Samstag trifft er auf Medwedew oder Tiafoe.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Inalpi Arena Turin", "suche": "Inalpi Arena Turin"}
+          ],
+          "lang": [
+            "Der Gruppensieg stand schon vor dem Match fest, Zverev blieb trotzdem im Turnier ohne Satzverlust. Im zweiten Halbfinale trifft Ben Shelton, der Rafael Jodar 7:6, 7:5 schlug, auf Carlos Alcaraz.",
+            "Alcaraz spielt heute noch sein letztes Gruppenspiel gegen Flavio Cobolli, obwohl er sich wegen Oberschenkelproblemen per MRT untersuchen ließ. Wer Zverevs Gegner wird, entscheidet das Duell Medwedew gegen Tiafoe."
+          ],
+          "einschaetzung": "Ergebnisse von der ATP und dpa übereinstimmend gemeldet.",
+          "quellen": [
+            {"name": "ATP Tour", "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"},
+            {"name": "Volksstimme (dpa)", "url": "https://www.volksstimme.de/sport/gruppensieg-mit-makelloser-bilanz-zverev-trumpft-weiter-auf-4359468"},
+            {"name": "Blick", "url": "https://www.blick.ch/sport/tennis/zverev-und-shelton-in-den-halbfinals-der-atp-finals/1lbvmdn"}
+          ]
+        },
+        {
+          "titel": "Las Vegas: Erstes Training fällt ins Wasser",
+          "kurz": "Starkregen machte die erste Session auf dem Strip praktisch wertlos: <b>keine einzige Rundenzeit</b>. Verstappen verglich die Strecke mit einer Eisbahn.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Las Vegas Strip Circuit", "suche": "Las Vegas Strip Circuit"}
+          ],
+          "lang": [
+            "Die meisten Fahrer drehten nur Installationsrunden. Sergio Perez im Cadillac steht in manchen Listen ganz oben, aber nur, weil er als Erster eine Position bekam, nicht wegen einer Zeit. Für den Rest des Wochenendes wird trockenes Wetter erwartet.",
+            "Kimi Antonelli, Carlos Sainz und Oscar Piastri müssen wegen Strafen in der Startaufstellung zurück. Das Rennen startet in der Nacht zu <b>Sonntag um 5 Uhr</b> deutscher Zeit."
+          ],
+          "einschaetzung": "Mehrere Fachportale berichten übereinstimmend; die irreführende Perez-Spitze ist aufgeklärt.",
+          "quellen": [
+            {"name": "GrandPrix247", "url": "https://www.grandprix247.com/formula-1-news/las-vegas-grand-prix-fp1-nothing-to-report-actually-just-rain"},
+            {"name": "RacingNews365", "url": "https://racingnews365.com/2026-f1-las-vegas-grand-prix-free-practice-1-results"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Ergebnisse und Termine.",
+          "liste": [
+            "<b>Recken:</b> Heute um <b>19 Uhr</b> zu Hause gegen den TVB Stuttgart. Am Sonntag gab es ein 29:33 in Gummersbach.",
+            "<b>Indians:</b> Heute um 20 Uhr am Pferdeturm gegen die Hammer Eisbären.",
+            "<b>Bayern-Frauen:</b> <b>4:0</b> bei Austria Wien vor 9.124 Fans, Rekord für ein Frauen-Vereinsspiel in Österreich. Mit elf Punkten ist das Viertelfinale nah.",
+            "<b>Halbfinals Turin:</b> Samstag, Finale am Sonntag."
+          ],
+          "bewertung": "gesichert",
+          "lang": [
+            "Termine von Vereinen und Veranstaltern, Ergebnis von der Sportschau."
+          ],
+          "einschaetzung": "Offizielle Spielpläne und Spielberichte.",
+          "quellen": [
+            {"name": "Die Recken Spielplan", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "hannover.de (Indians)", "url": "https://www.hannover.de/Veranstaltungskalender/Sport/Hannover-Indians-vs.-Hammer-Eisbären"},
+            {"name": "Sportschau", "url": "https://www.sportschau.de/regional/br/br-klarer-sieg-im-rekordspiel-fc-bayern-fertigt-austria-wien-ab-102.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar. Auch tagesschau, n-tv, Welt, Bild, SZ, Deutschlandfunk und heise konnten wir nicht abrufen.",
+      "trends": [
+        {"begriff": "galeria kaufhof", "volumen": "20000+", "anlass": "bis zu 40 Filialen vor dem Aus"},
+        {"begriff": "spiele", "volumen": "10000+", "anlass": "GTA 6 treibt Konsolenpreise"},
+        {"begriff": "sport", "volumen": "2000+", "anlass": "Bayern-Frauen siegen in Wien"},
+        {"begriff": "flüssigerdgas", "volumen": "1000+", "anlass": "US-Tanker drehen nach Europa"},
+        {"begriff": "kaffee", "volumen": "500+", "anlass": "Studie zur Wirkung im Darm"},
+        {"begriff": "nike", "volumen": "200+", "anlass": "neuer Ausrüster der Formel 1"},
+        {"begriff": "fußball", "volumen": "200+", "anlass": "Guardiola schwärmt von Klopp"},
+        {"begriff": "manni l. perez", "volumen": "100+", "anlass": "Stimme von Lucia in GTA 6"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Anthropic: Rekord-Börsengang mit Kurssprung",
+          "kurz": "Der KI-Entwickler startete an der Nasdaq zu <b>83 Dollar</b> je Aktie, der erste Kurs lag bei 111,50 Dollar. Zum Handelsschluss blieb ein Plus von rund <b>17 Prozent</b>.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Nasdaq", "suche": "Nasdaq MarketSite New York"}
+          ],
+          "lang": [
+            "Es ist der größte Börsengang aller Zeiten und übertrifft den von SpaceX im Juni. Wie viel genau eingesammelt wurde, melden Medien unterschiedlich: Das ZDF nennt <b>81,3 Milliarden Dollar</b>, ein Finanzportal 107,3 Milliarden, vermutlich einschließlich Mehrzuteilung.",
+            "Den Gesamtmarkt zog das Debüt nicht mit: Die US-Börsen schlossen schwächer, ein Analysehaus startete die Aktie nur mit „Neutral“ und verwies auf langsameres Wachstum."
+          ],
+          "einschaetzung": "Der Börsengang ist gesichert, bei der Erlössumme widersprechen sich die Quellen.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "goldesel.de", "url": "https://goldesel.de/aktien/news/anthropic-aktie-rekord-ipo-schliesst-uber-ausgabepreis-markte-geraten-unter-druck"},
+            {"name": "Fast Company", "url": "https://www.fastcompany.com/91645598/anthropic-ipo-what-time-trading-start-stock-price-live-update"}
+          ]
+        },
+        {
+          "titel": "Gas-Tanker drehen um: Europa zahlt mehr als Asien",
+          "kurz": "Mindestens <b>vier US-Tanker</b> mit Flüssiggas haben laut Bloomberg Kurs auf Europa genommen, zwei davon wendeten vor Ägypten.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Port Said", "suche": "Port Said Ägypten"}
+          ],
+          "lang": [
+            "Grund ist der Preis: Weil Europas Speicher so leer sind wie lange nicht, ist LNG hier zuletzt teurer als in Asien, wo große Käufer weniger abnehmen. Ende Oktober hatte der europäische Gaspreis erstmals seit 2022 wieder die Marke von 100 Euro je Megawattstunde überschritten.",
+            "Hintergrund ist der Iran-Krieg, der Katars Exporte und die Straße von Hormus lahmgelegt hatte. Katar liefert inzwischen wieder mehr, die Versorgung bleibt aber knapp."
+          ],
+          "einschaetzung": "Schiffsdaten via Bloomberg, von der Berliner Zeitung aufbereitet; Kursänderungen können sich noch ändern.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/europas-preiskampf-um-lng-kippt-vier-us-tanker-aendern-ploetzlich-ihren-kurs-10615287"}
+          ]
+        },
+        {
+          "titel": "Nike steigt bei der Formel 1 ein",
+          "kurz": "Ab <b>2027</b> stattet Nike die Formel 1 offiziell aus, von Uniformen für das Personal bis zu eigenen Kollektionen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Partnerschaft ist langfristig angelegt, eine genaue Laufzeit nannten beide Seiten nicht. Auch die Nachwuchsserie F1 Academy gehört dazu. Neben Kleidung und Schuhen soll es Erlebnisse an Rennwochenenden geben.",
+            "Verkündet wurde der Deal pünktlich zum Wochenende in Las Vegas."
+          ],
+          "einschaetzung": "Offizielle Mitteilung von Formel 1 und Nike.",
+          "quellen": [
+            {"name": "Formula1.com", "url": "https://www.formula1.com/en/latest/article/formula-1-and-nike-join-forces-to-shape-the-future-of-sport-and-culture.W36MoCI5DL9I0evuX1xtd"},
+            {"name": "Nike Newsroom", "url": "https://about.nike.com/en/newsroom/releases/nike-and-formula-1-join-forces-in-long-term-global-partnership"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Korrektur:</b> Gestern schrieben wir, Zverev spiele gegen Fils um den Gruppensieg. Laut dpa stand dieser schon vor dem Match fest.",
+    "<b>Anthropic:</b> Die Erlössumme des Börsengangs wird mit 81,3 oder 107,3 Milliarden Dollar angegeben. Die höhere Zahl schließt vermutlich Zusatzaktien ein.",
+    "<b>Galeria:</b> Die Zahl von bis zu 40 Schließungen stammt aus einem Medienbericht über interne Unterlagen, nicht aus einer offiziellen Liste.",
+    "<b>Formel 1:</b> Wer Perez als Trainingsschnellsten liest: Im ersten Training wurde keine einzige Rundenzeit gefahren."
+  ],
+  "woche": [
+    {"wann": "Fr 20. Nov", "titel": "Demo-Tag und Heimspiele", "text": "Trocken, <b>2 bis 6 Grad</b>, schwacher Wind, abends gefühlt um null. <b>12 Uhr</b> Schülerstreik ab Ernst-August-Platz, <b>17 Uhr</b> „Gen Z regelt“ ab Steintor. <b>19 Uhr</b> Recken gegen Stuttgart, <b>20 Uhr</b> Indians gegen Hamm. ATP Finals: Alcaraz gegen Cobolli."},
+    {"wann": "Sa 21. Nov", "titel": "96 gegen Fürth", "text": "<b>3 bis 6 Grad</b>, windiger, abends einzelne Schauer. <b>13 Uhr:</b> 96 gegen Fürth. Halbfinals in Turin mit Zverev. Wochenende: Sanierung der Wietzebrücke an der A352."},
+    {"wann": "So 22. bis Do 26. Nov", "titel": "Kälter, Weihnachtsmarkt, VW-Tarifrunde", "text": "So <b>0 bis 5 Grad</b>, kaum Regen, nachts Glätte möglich. Danach wird es nach den Prognosen für Norddeutschland frostiger. <b>So 5 Uhr:</b> Formel 1 in Las Vegas, Finale der ATP Finals in Turin. <b>Mo 23.11., 11 Uhr:</b> Weihnachtsmarkt in der City öffnet. <b>Di:</b> VW-Tarifverhandlungen starten. <b>Mi 25.11., 11 Uhr:</b> Vorverkauf Kleines Fest."}
+  ]
+}
