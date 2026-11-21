@@ -1,0 +1,361 @@
+{
+  "stand": "Stand: Samstag, 21. November, 3 Uhr",
+  "kurz": [
+    "<b>Raketen über Polen:</b> Während eines Großangriffs auf die Ukraine schlagen russische Flugkörper an <b>drei Orten</b> im Südosten Polens ein, verletzt wird niemand. Warschau spricht von Provokation, die Nato lässt Jets aufsteigen.",
+    "<b>Kiew im Dunkeln:</b> Russland feuert laut Selenskyj über <b>110 Raketen und 400 Drohnen</b> ab, mindestens acht Menschen sterben. Zugleich lädt Moskau Deutschland, Frankreich und Großbritannien zu Gesprächen ein.",
+    "<b>Klimagipfel in der Verlängerung:</b> In Antalya ringen die Staaten weiter um einen Abschlusstext. Streitpunkt bleibt, ob der <b>Abschied von Öl, Gas und Kohle</b> überhaupt erwähnt wird.",
+    "<b>Briefe werden teurer:</b> Die Bundesnetzagentur gibt der Post den Weg frei, der Standardbrief soll ab Januar <b>1,15 Euro</b> statt 95 Cent kosten.",
+    "<b>Weihnachtsmarkt:</b> Am Montag um <b>16 Uhr</b> geht in der Altstadt das Licht an, der Glühwein kostet im Schnitt wie im Vorjahr 4,50 Euro.",
+    "<b>Sport:</b> Die Recken verspielen ein 27:21 und trennen sich <b>34:34</b> von Stuttgart, die Indians gewinnen 5:3 gegen Hamm. Heute um 13 Uhr empfängt 96 Fürth, um 20:30 Uhr spielt Zverev im Halbfinale von Turin gegen Medwedew."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Weihnachtsmarkt öffnet Montag – Glühweinpreis bleibt stabil",
+          "kurz": "Am <b>23. November um 16 Uhr</b> schaltet Oberbürgermeister Onay an der Marktkirche die Baumbeleuchtung ein. Der Becher Glühwein soll im Schnitt <b>4,50 Euro</b> kosten.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Marktkirche", "suche": "Marktkirche Hannover"},
+            {"name": "Schmiedestraße", "suche": "Schmiedestraße Hannover"}
+          ],
+          "lang": [
+            "Der Markt in Altstadt und City läuft 30 Tage bis zum 22. Dezember, nach dem Eröffnungsabend täglich von 11 bis 21 Uhr. Dass der Glühwein nicht teurer wird, begründet der Schaustellerverband mit stabilen Standgebühren der Stadt.",
+            "Die Polizei zeigt mehr Präsenz, betreibt eine mobile Wache und erinnert daran, dass Messer und Waffen auf Weihnachtsmärkten verboten sind, Bußgelder bis <b>10.000 Euro</b> sind möglich. Die Schmiedestraße wird zwischen Karmarschstraße und Parkhaus zur Fußgängerzone, die Zufahrt zum Parkhaus läuft über die Goethestraße."
+          ],
+          "einschaetzung": "Termine und Regeln stammen von der Polizei, der Preis vom Schaustellerverband; beides deckt sich mit Radio Hannover.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/weihnachtsmarkt-startet-montag-gluehwein-4-50-euro"},
+            {"name": "Polizei Hannover", "url": "https://www.presseportal.de/blaulicht/pm/66841/6394722"}
+          ]
+        },
+        {
+          "titel": "aha: Staatsanwaltschaft prüft Software auf Dienstrechnern",
+          "kurz": "Nach einer anonymen Anzeige schauen Staatsanwaltschaft und Landesdatenschutz auf den Einsatz des Programms <b>Velociraptor</b> auf mehr als <b>200 Rechnern</b> beim Abfallentsorger der Region.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Der Vorwurf in der Anzeige lautet, die Geschäftsführung habe Beschäftigte unerlaubt überwacht. aha widerspricht: Das Programm sei nach einem internen IT-Sicherheitsvorfall installiert worden, um gelöschte Daten wiederherzustellen.",
+            "Velociraptor ist ein frei verfügbares Werkzeug, mit dem IT-Teams Rechner nach Sicherheitsvorfällen untersuchen; es kann tief in Systeme hineinschauen. Ob der Einsatz rechtlich gedeckt war, ist genau die Frage, die die Behörden jetzt klären."
+          ],
+          "einschaetzung": "Dass geprüft wird, ist berichtet; ob an den Vorwürfen etwas dran ist, ist völlig offen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/aha-behoerden-pruefen-umstrittenen-einsatz-von-ueberwachungssoftware"}
+          ]
+        },
+        {
+          "titel": "PHP-Lücke: Land nimmt Ministeriums- und Polizeiseiten vom Netz",
+          "kurz": "Wegen einer Warnung vor schweren Schwachstellen in der Programmiersprache <b>PHP</b> hat Niedersachsen am Donnerstagabend die Internetauftritte der Ministerien und der Polizei abgeschaltet.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Es handelt sich um eine Vorsichtsmaßnahme, von konkreten Angriffen ist nichts bekannt. Am Freitag sollten die Sicherheitsupdates geprüft und so schnell wie möglich eingespielt werden. Niedersachsen und Bremen hatten wegen PHP-Lücken schon früher Seiten offline genommen.",
+            "Die Polizei bleibt über die <b>110</b> und in den Dienststellen erreichbar, nur Online-Angebote wie Hinweise und Pressemeldungen auf den eigenen Seiten fehlen zeitweise."
+          ],
+          "einschaetzung": "Mehrere Medien berichten übereinstimmend, die Angaben stammen vom Land.",
+          "quellen": [
+            {"name": "leinetal24", "url": "https://www.leinetal24.de/niedersachsen/php-sicherheitsluecke-webseiten-in-niedersachsen-offline-94599240.html"},
+            {"name": "buten un binnen", "url": "https://www.butenunbinnen.de/nachrichten/polizei-niedersachsen-offline-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Stadt und Region.",
+          "liste": [
+            "<b>Ronnenberg:</b> Ein maskierter Mann gab sich als Paketbote aus, fesselte eine <b>76-Jährige</b> in ihrer Wohnung und raubte sie aus. Sie befreite sich selbst, kam ins Krankenhaus; die Polizei sucht Zeugen.",
+            "<b>Esperke:</b> Zwei Männer erschlichen sich mit einer angeblichen Spendensammlung Zutritt zur Wohnung eines älteren Paares und stahlen Schmuck.",
+            "<b>List:</b> Die Polizei sucht Zeugen zu einem Angriff am 12. November nahe der <b>Dreifaltigkeitskirche</b>, ein 34-Jähriger erlitt lebensgefährliche Kopfverletzungen.",
+            "<b>Justizministerium:</b> Nach dem Rücktritt von Kathrin Wahlmann sucht die Landesregierung eine Nachfolge, bis dahin führt Innenministerin Behrens das Ressort mit.",
+            "<b>Kliniken:</b> Der Marburger Bund Niedersachsen will, dass schärfere Strafen für Angriffe auch Personal in Krankenhäusern und Praxen schützen.",
+            "<b>A352:</b> Richtung Hamburg bleibt die Autobahn wegen Fahrbahnschäden gesperrt, frei sein soll sie spätestens <b>Mitte nächster Woche</b>."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen von Radio Hannover, t-online Hannover und der Polizeidirektion Hannover."],
+          "einschaetzung": "Angaben von Polizei, Land, Verband und Autobahn GmbH, wiedergegeben von Lokalmedien.",
+          "quellen": [
+            {"name": "Polizei Hannover (Ronnenberg)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6394723"},
+            {"name": "Polizei Hannover (List)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6394812"},
+            {"name": "t-online (Justizministerium)", "url": "https://hannover.t-online.de/region/hannover/id_101538890/nach-ruecktritt-wahlmanns-niedersachsen-sucht-neue-justizministerin.html"},
+            {"name": "Radio Hannover (Marburger Bund)", "url": "https://www.radio-hannover.de/hannover-news/marburger-bund-fordert-besseren-schutz-fuer-klinikpersonal"},
+            {"name": "Radio Hannover (News)", "url": "https://www.radio-hannover.de/aktuell/news"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Briefporto steigt so stark wie nie",
+          "kurz": "Die Bundesnetzagentur erlaubt der Post für 2027 und 2028 ein Plus von rund <b>20 Prozent</b>. Der Standardbrief soll ab Januar <b>1,15 Euro</b> kosten.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Nach den Plänen der Post kosten auch Postkarten künftig 1,15 Euro, der Kompaktbrief 1,25 Euro, der Großbrief 2,35 Euro und ein Standardbrief ins Ausland 1,45 Euro. Im Schnitt rechnet das Unternehmen mit rund <b>75 Cent</b> Mehrkosten pro Haushalt und Monat.",
+            "Begründet wird der Sprung mit immer weniger Briefen bei steigenden Löhnen und Energiekosten: Die Fixkosten verteilen sich auf eine schrumpfende Menge. Die Preise für Privatpakete will die Post später bekanntgeben."
+          ],
+          "einschaetzung": "Die Freigabe meldet ZDFheute, die Einzelpreise stammen aus der Ankündigung der Post selbst.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Deutsche Post (Pressemitteilung)", "url": "https://group.dhl.com/de/presse/pressemitteilungen/2026/deutsche-post-ag-passt-briefporto-und-produkte-zum-ersten-januar-2027-an.html"}
+          ]
+        },
+        {
+          "titel": "Bundesrat: Notaufnahmen entlasten, Cyberabwehr verschärfen",
+          "kurz": "Die Länderkammer hat mehrere Gesetze passieren lassen: eine <b>Reform der Notfallversorgung</b>, eine <b>aktive Cyberabwehr</b> und den ersten Teil der Führerscheinreform.",
+          "bewertung": "gesichert",
+          "lang": [
+            "In Kliniken sollen gemeinsame Anlaufstellen künftig entscheiden, ob jemand in die Notaufnahme oder in eine Notdienstpraxis gehört; eine Ersteinschätzung gibt es auch telefonisch unter <b>116 117</b>. Die Sicherheitsbehörden bekommen eine Rechtsgrundlage, um Cyberangriffe nicht nur abzuwehren, sondern aktiv zu stören.",
+            "Fahrschüler sollen die Theorie künftig per App, hybrid oder klassisch lernen können, damit der Führerschein günstiger wird; ein zweiter Teil per Verordnung steht noch aus. Außerdem bitten die Länder den Bund, sich in der EU für <b>Tempo 60</b> statt 45 bei Mopeds einzusetzen."
+          ],
+          "einschaetzung": "Bundesratsbeschlüsse sind öffentlich dokumentiert; wann die Regeln im Alltag greifen, ist je Gesetz unterschiedlich.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "„Gen Z regelt“: Bundesweite Proteste am Freitag",
+          "kurz": "In vielen Städten gingen junge Leute gegen Sozialkürzungen, Preise und den Wehrdienst auf die Straße. Das BKA hatte vorab <b>keine Hinweise auf geplante Gewalt</b>.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Steintor", "suche": "Steintor Hannover"}],
+          "lang": [
+            "Bei früheren Demos der Initiative hatte es in Frankfurt und Köln Ausschreitungen gegeben, deshalb blickten die Behörden genau hin. In Hannover startete der Zug um 17 Uhr am Steintor, erwartet wurden rund 2.000 Menschen.",
+            "Belastbare Bilanzen zu Teilnehmerzahlen und Verlauf lagen bis Redaktionsschluss nicht vor."
+          ],
+          "einschaetzung": "Die BKA-Einschätzung ist belegt, zum Verlauf der Demos fehlten zur Nacht noch verlässliche Zahlen.",
+          "quellen": [
+            {"name": "ZDFheute Liveblog", "url": "https://www.zdfheute.de/politik/deutschland/gen-z-proteste-schulpolitik-militaerdienst-liveblog-100.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/gen-z-regelt-2000-teilnehmer-zur-demo-in-hannover-erwartet"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus Deutschland.",
+          "liste": [
+            "<b>Katar:</b> Das Emirat will seine Investitionen in Deutschland um <b>15 Milliarden Euro</b> aufstocken, Kanzler Merz begrüßt das. Gemeinsame Themen: KI, Chips, Luftfahrt, Sicherheit.",
+            "<b>Baerbock:</b> Die frühere Außenministerin berät künftig die Kommunikationsfirma FGS Global, zusätzlich zu ihrer Professur an der Columbia University.",
+            "<b>Wetter:</b> Der DWD erwartet ein trübes Wochenende mit <b>Nachtfrost und Glätte</b>, im Nordosten ist Schnee möglich.",
+            "<b>Hessen:</b> Ministerpräsident Rhein (CDU) wirft der Bundesregierung vor, die Länder mit herunterzuziehen."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Newsticker vom Freitag."],
+          "einschaetzung": "Agenturmeldungen, von ZDFheute zusammengefasst.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "ZDFheute Wetter", "url": "https://www.zdfheute.de/panorama/wetter-herbst-schauer-schnee-wochenende-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Russische Flugkörper schlagen in Polen ein",
+          "kurz": "An <b>drei Orten</b> im Südosten Polens gingen in der Nacht zu Freitag Trümmer nieder, vermutlich zwei Marschflugkörper und eine Drohne. Verletzt wurde niemand.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Nowy Lipowiec", "suche": "Nowy Lipowiec Polen"},
+            {"name": "Rudnik nad Sanem", "suche": "Rudnik nad Sanem Polen"},
+            {"name": "Mołodycz", "suche": "Mołodycz Polen"}
+          ],
+          "lang": [
+            "In Nowy Lipowiec, rund 60 Kilometer von der ukrainischen Grenze, fanden Ermittler Teile eines Marschflugkörpers vom Typ <b>Ch-101</b>. Verteidigungsminister Kosiniak-Kamysz hält den Zeitpunkt für kein Zufall: In der Nähe läuft eine Übung der „Koalition der Willigen“ mit Soldaten aus über einem Dutzend Ländern. Premier Tusk berief einen Krisenstab ein.",
+            "Nato-Generalsekretär Rutte verurteilte die Luftraumverletzung, Kampfjets stiegen auf. Auch EU-Kommission, Ratspräsident Costa und das Auswärtige Amt sprachen von einer Provokation. Eine russische Stellungnahme lag nicht vor."
+          ],
+          "einschaetzung": "Orte und Raketentyp nennen polnische Regierung und mehrere Medien übereinstimmend; beim dritten Objekt ist die Einordnung als Drohne noch vorläufig.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/ukraine/id_101538938/polen-tusk-prangert-russische-provokation-an-nato-reagiert.html"},
+            {"name": "Stuttgarter Zeitung (dpa)", "url": "https://www.stuttgarter-zeitung.de/politik/ukraine-krieg-polens-regierung-russische-flugobjekte-verletzen-luftraum-79733289.html"}
+          ]
+        },
+        {
+          "titel": "Großangriff auf Kiew – und eine Einladung nach Moskau",
+          "kurz": "Mindestens <b>acht Tote</b>, beschädigte Dnipro-Brücken und halb Kiew zeitweise ohne Strom, Wasser oder Fernwärme. Gleichzeitig bietet Moskau Berlin, Paris und London Gespräche an.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Kiew", "suche": "Kyiv Ukraine"}, {"name": "Lwiw", "suche": "Lviv Ukraine"}],
+          "lang": [
+            "Laut Präsident Selenskyj setzte Russland über 110 Raketen und mehr als 400 Drohnen ein, die meisten seien abgefangen worden. Getroffen wurden Brücken, Umspannwerke und Bahnanlagen, auch ein Bahnhof in Lwiw. Moskau spricht von Zielen, über die Waffen in den Donbass gelangten; Putin hatte nach Angriffen auf die Krim-Brücke Vergeltung angekündigt.",
+            "Vizeaußenminister Rjabkow sagte, ein Besuch der drei Europäer lasse sich rasch vorbereiten, eine Teilnahme an Friedensverhandlungen sei damit aber nicht gemeint. Verteidigungsminister Pistorius nannte eine Absage das falsche Signal."
+          ],
+          "einschaetzung": "Die Opferzahlen schwanken je nach Quelle und Uhrzeit zwischen drei und acht; wir nennen die jüngste Angabe aus Kiew.",
+          "quellen": [
+            {"name": "ARIVA (dpa-AFX Gesamt-Roundup)", "url": "https://www.ariva.de/news/gesamt-roundup-3-schwere-angriffe-auf-ukraine-moskau-laedt-12215586"},
+            {"name": "onvista (dpa-AFX)", "url": "https://www.onvista.de/news/2026/11-20-roundup-2-kiew-tote-nach-moskaus-angriffen-drei-bruecken-beschaedigt-0-10-26578788"}
+          ]
+        },
+        {
+          "titel": "Klimagipfel in Antalya überzieht",
+          "kurz": "Die COP31 hätte am Freitag um 16 Uhr deutscher Zeit enden sollen. Weil der Entwurf <b>fossile Energien gar nicht erwähnt</b>, wird weiterverhandelt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Antalya", "suche": "Antalya Türkei"}],
+          "lang": [
+            "Frankreich, Panama und rund ein Dutzend weitere Staaten verlangen eine klare Zusage zum geordneten Ausstieg aus Öl, Gas und Kohle; Panama droht, einem Text ohne diese Formulierung zu widersprechen. Die afrikanische Gruppe vermisst eine Verdreifachung der Anpassungshilfen. Beobachter sehen Förderländer wie Saudi-Arabien und Russland hinter der Blockade.",
+            "Die türkische Präsidentschaft setzt auf ein Elektrifizierungsziel: Der Stromanteil am Energieverbrauch soll von 23 auf <b>35 Prozent</b> steigen. Umweltverbände kritisieren, dass CO2-Speicherung ein eigenes Ziel bekommt, erneuerbare Energien aber nicht festgeschrieben sind. Ein Paket könnte am Samstag ins Plenum kommen."
+          ],
+          "einschaetzung": "Stand Freitagabend, UN-Nachrichtendienst und ORF berichten übereinstimmend; das Ergebnis kann sich über Nacht ändern.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3448795/"},
+            {"name": "UN News", "url": "https://news.un.org/en/story/2026/11/1168845"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Weitere Meldungen aus aller Welt.",
+          "liste": [
+            "<b>New York:</b> Bürgermeister Mamdani will das Gefängnis <b>Rikers Island</b> erst 2032 statt 2027 schließen. Die Kosten für vier Ersatzbauten haben sich auf rund 16 Milliarden Dollar fast verdoppelt.",
+            "<b>Frankreich:</b> Ex-Außenminister Dominique de Villepin will Präsident werden, das Bewerberfeld zählt damit mehr als 40 Namen.",
+            "<b>Vietnam:</b> Das Land schafft die Todesstrafe für sechs Delikte ab, darunter Drogenhandel; offene Urteile werden in lebenslange Haft umgewandelt.",
+            "<b>Italien:</b> Die Gewerkschaften um die CGIL rufen zu einem landesweiten Streik gegen die Regierung Meloni auf.",
+            "<b>Tunesien:</b> Die Menschenrechtlerin Sihem Bensedrine erhält weitere fünf Jahre Haft, Amnesty kritisiert das Urteil."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen aus dem ZDFheute-Newsticker und von t-online."],
+          "einschaetzung": "Agenturmeldungen, von mehreren Medien aufgegriffen.",
+          "quellen": [
+            {"name": "t-online (Rikers Island)", "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101539068/new-york-schliesst-beruechtigtes-gefaengnis-rikers-island-bis-2032.html"},
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Hannover Scorpions fanden wir keine aktuellen, belastbaren Meldungen. Das Qualifying in Las Vegas lief zu Redaktionsschluss noch nicht.",
+      "meldungen": [
+        {
+          "titel": "96 gegen Fürth: Duell der Punktgleichen",
+          "kurz": "Heute um <b>13 Uhr</b> kommt die SpVgg in die Heinz-von-Heiden-Arena. Beide Teams haben nach elf Spieltagen <b>12 Punkte</b> und dieselbe Tordifferenz.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Heinz-von-Heiden-Arena", "suche": "Heinz von Heiden Arena Hannover"}],
+          "lang": [
+            "Fürth fehlt die Konstanz: Siege gegen Braunschweig und Kiel wechselten sich zuletzt mit glatten 0:3-Niederlagen in Osnabrück und Dresden ab. Fast alles hängt an Kapitän <b>Felix Klaus</b>, der sieben der 13 Fürther Tore erzielt hat. Hendry Blank fehlt nach seiner Roten Karte in Dresden gesperrt.",
+            "Beim letzten Gastspiel in Hannover gewann Fürth 2:1, das Siegtor schoss spät ausgerechnet der frühere 96er Jannik Dehm. Das Spiel läuft bei Sky."
+          ],
+          "einschaetzung": "Zahlen aus der offiziellen Vorschau des Vereins, Anstoßzeit von der Sportschau bestätigt.",
+          "quellen": [
+            {"name": "Hannover 96", "url": "https://www.hannover96.de/newscenter/news/details/new6afadb8d43aa1645604974-gegner-spotlight-spvgg-greuther-fuerth-wenig-konstanz-beim-kleeblatt.html"},
+            {"name": "Sportschau (Spieltag)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-2-bundesliga/"}
+          ]
+        },
+        {
+          "titel": "Recken verschenken Sechs-Tore-Führung",
+          "kurz": "Gegen den TVB Stuttgart führte Hannover-Burgdorf schon <b>27:21</b>, am Ende stand ein <b>34:34</b>. Kai Häfner glich in der letzten halben Minute per Siebenmeter aus.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "ZAG Arena", "suche": "ZAG Arena Hannover"}],
+          "lang": [
+            "Vor 9.094 Fans lagen die Recken zur Pause noch 14:16 hinten, drehten dann auf und schienen das Spiel im Griff zu haben. Stuttgart kam Tor um Tor zurück, Leif Tissiers letzter Wurf wurde geblockt. Bester Werfer war <b>Renars Uscins</b> mit sieben Toren, Vilhelm Poulsen sah nach der dritten Zeitstrafe Rot.",
+            "Die Recken stehen damit auf Platz neun. Weiter geht es erst am <b>Montag, 30. November</b>, bei den Füchsen Berlin."
+          ],
+          "einschaetzung": "Ergebnis und Verlauf decken sich bei Verein und NDR.",
+          "quellen": [
+            {"name": "Die Recken", "url": "https://www.die-recken.de/recken-muessen-sich-nach-deutlicher-fuehrung-mit-einem-punkt-zufriedengeben/"},
+            {"name": "Sportschau/NDR", "url": "https://www.sportschau.de/regional/ndr/Handball-TSV-Hannover-Burgdorf-TVB-Stuttgart,recken-hannover-262.html"}
+          ]
+        },
+        {
+          "titel": "Turin: Zverev gegen seinen Angstgegner",
+          "kurz": "Im Halbfinale der ATP Finals trifft Alexander Zverev heute um <b>20:30 Uhr</b> auf Daniil Medwedew. Vorher spielt Alcaraz gegen Shelton.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Inalpi Arena", "suche": "Inalpi Arena Turin"}],
+          "lang": [
+            "Zverev hat alle drei Gruppenspiele ohne Satzverlust gewonnen, plagt sich laut Berichten aber mit Schmerzen. Medwedew gilt als unangenehmer Gegner für ihn. Das erste Halbfinale zwischen Carlos Alcaraz und Ben Shelton beginnt um 14:30 Uhr.",
+            "Um 18 Uhr spielen zudem Kevin Krawietz und Tim Pütz im Doppel-Halbfinale gegen Arribage/Olivetti. Das Finale steigt am Sonntag."
+          ],
+          "einschaetzung": "Ansetzungen laut dpa, mehrere Sportportale bestätigen den Gegner.",
+          "quellen": [
+            {"name": "news.de (dpa)", "url": "https://www.news.de/sport/860206891/zverev-spielt-im-halbfinale-gegen-medwedew-tennis-news-der-dpa-aktuell-zu-atp-finals/1/"},
+            {"name": "ran.de", "url": "https://ran.joyn.de/sports/tennis/atp/atp-finals-gefaehrlicher-medwedew-fordert-zverev-im-halbfinale-von-turin-220121"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "kurz": "Ergebnisse und Termine.",
+          "liste": [
+            "<b>Indians:</b> <b>5:3</b> gegen die Hammer Eisbären vor 3.806 Fans am Pferdeturm. Nächstes Heimspiel am 27. November gegen Neuwied.",
+            "<b>Bundesliga:</b> Bayern kommt gegen Köln nur zu einem <b>1:1</b>. Mikey Moore traf für Köln, Nathaniel Brown glich aus. Bayern bleibt ungeschlagen Erster.",
+            "<b>2. Liga:</b> Darmstadt dreht das Spiel gegen Heidenheim zum <b>3:1</b>, Magdeburg gewinnt 2:1 in Bielefeld und springt auf Platz drei.",
+            "<b>Heute 15:30 Uhr:</b> u. a. Gladbach gegen Dortmund und Leverkusen gegen Paderborn, um 18:30 Uhr Schalke gegen Stuttgart.",
+            "<b>Formel 1:</b> Das Rennen in Las Vegas startet in der Nacht zu Sonntag, nach deutscher Zeit gegen <b>5 Uhr</b> morgens."
+          ],
+          "bewertung": "gesichert",
+          "lang": ["Kurzmeldungen von Vereinen, t-online, news.de und der Sportschau."],
+          "einschaetzung": "Ergebnisse jeweils von mindestens zwei Quellen.",
+          "quellen": [
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"},
+            {"name": "news.de (Bayern–Köln)", "url": "https://www.news.de/sport/860206894/fc-bayern-muenchen-vs-1-fc-koeln-am-20-11-2026-in-der-bundesliga-26-27-tv-spielbericht-tore-aufstellung-und-tabelle-in-der-zusammenfassung/1/"},
+            {"name": "t-online (2. Liga)", "url": "https://www.t-online.de/sport/fussball/2-bundesliga/id_101539290/2-liga-magdeburg-springt-auf-platz-drei-darmstadt-dreht-spiel.html"},
+            {"name": "Sportschau (Bundesliga)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar. Auch die BBC und Eurosport konnten wir nicht abrufen.",
+      "trends": [
+        {"begriff": "rockstar games", "volumen": "200+", "anlass": "GTA 6 bricht Verkaufsrekord"},
+        {"begriff": "metacritic gta 6", "volumen": "500+", "anlass": "99 Punkte für GTA 6"},
+        {"begriff": "gta 6 radio songs", "volumen": "200+", "anlass": "Soundtrack mit 24 Sendern"},
+        {"begriff": "fortsetzung", "volumen": "500+", "anlass": "neuer „Kevin allein zu Haus“ geplant"},
+        {"begriff": "new yorker", "volumen": "100+", "anlass": "Rikers Island erst 2032 zu"},
+        {"begriff": "wetter münchen", "volumen": "200+", "anlass": "Bauernregeln zum Winter"},
+        {"begriff": "niki lauda", "volumen": "100+", "anlass": "Toto Wolff erinnert an Lauda"},
+        {"begriff": "ps5 controller", "volumen": "100+", "anlass": "Black-Friday-Angebote"}
+      ],
+      "meldungen": [
+        {
+          "titel": "GTA 6: 3,79 Milliarden Dollar am ersten Tag",
+          "kurz": "Laut Take-Two spielte Grand Theft Auto VI am Starttag <b>3,79 Milliarden Dollar</b> ein, nach Angaben des Konzerns ein Rekord für Unterhaltung aller Art. Mit dabei: Heinz Rudolf Kunzes „Lola“.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Schon vor dem Start am Donnerstag waren laut Hersteller <b>32,5 Millionen</b> Exemplare verkauft, auf Metacritic steht das Spiel bei 99 Punkten. Die Umsatzzahl ist eine Schätzung des Unternehmens, unabhängige Zahlen gibt es noch nicht.",
+            "Lokaler Dreh: Auf dem fiktiven Sender „Kaleidoscope FM“ läuft die deutsche Fassung von „Lola“, die der Hannoveraner Heinz Rudolf Kunze 1984 aus dem Kinks-Original übersetzt hatte, berichtet t-online unter Berufung auf Bild."
+          ],
+          "einschaetzung": "Die Rekordzahl stammt vom Hersteller selbst und ist geschätzt; deshalb nur plausibel.",
+          "quellen": [
+            {"name": "Take-Two (Pressemitteilung)", "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"},
+            {"name": "t-online Hannover (Kunze)", "url": "https://hannover.t-online.de/region/hannover/id_101537784/hannoveraner-rocker-in-gta-6-heinz-rudolf-kunzes-lola-laeuft-im-spiel.html"}
+          ]
+        },
+        {
+          "titel": "Anthropic-Aktie: Ernüchterung am zweiten Tag",
+          "kurz": "Nach dem Rekord-Börsengang fiel die Aktie am Freitag zeitweise um <b>mehr als 11 Prozent</b> und näherte sich dem Ausgabepreis von 83 Dollar.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Am ersten Tag hatte das Papier bei 97,17 Dollar geschlossen. Belastet wurde es von einem breiten Ausverkauf bei Tech-Werten: Der Nasdaq 100 fiel auf den tiefsten Stand seit April, Anleger fürchten überzogene KI-Ausgaben und höhere US-Zinsen.",
+            "Im Quartalsbericht stieg der Umsatz auf 17 Milliarden Dollar, unterm Strich stand aber ein operativer Verlust, unter anderem wegen teuer eingekaufter Rechenleistung."
+          ],
+          "einschaetzung": "Den Kursrutsch meldet ZDFheute; ein bestätigter Schlusskurs lag uns nicht vor, Zahlen aus Finanzportalen weichen leicht ab.",
+          "quellen": [
+            {"name": "ZDFheute Newsticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "ad-hoc-news", "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/anthropic-aktie-zweiter-handelstag-im-minus/70541239"}
+          ]
+        },
+        {
+          "titel": "Kevin kommt wieder – als Vater",
+          "kurz": "Macaulay Culkin soll für eine Fortsetzung von „Kevin – Allein zu Haus“ zurückkehren. Entwickelt wird sie bei Disney von <b>Seth Rogen</b> und Evan Goldberg.",
+          "bewertung": "vorsicht",
+          "lang": [
+            "Die Idee: Kevin ist erwachsen, lebt allein mit seinem Sohn, und der sperrt ihn aus und verteidigt das Haus mit Papas alten Fallen. Culkin soll die Geschichte selbst vorgeschlagen haben.",
+            "Offiziell bestätigt ist nichts. Die Meldung geht auf den Branchen-Insider Matt Belloni zurück, Starttermin oder Drehbeginn gibt es nicht."
+          ],
+          "einschaetzung": "Nur ein Insider-Bericht, vom Studio nicht bestätigt.",
+          "quellen": [
+            {"name": "Filmstarts", "url": "https://www.filmstarts.de/nachrichten/1000233493.html"},
+            {"name": "stern", "url": "https://www.stern.de/kultur/-kevin----allein-zu-haus---fortsetzung-geplant---mit-macaulay-culkin-38586070.html"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Korrektur:</b> Gestern schrieben wir, der Weihnachtsmarkt öffne am Montag um 11 Uhr. Laut Polizei und Schaustellern geht es am Eröffnungstag erst um <b>16 Uhr</b> los, ab Dienstag dann täglich von 11 Uhr an.",
+    "<b>Kiew:</b> Die Zahl der Toten wurde im Laufe des Freitags mehrfach nach oben korrigiert, Meldungen nennen drei, sieben oder acht. Wir geben die jüngste Angabe wieder.",
+    "<b>Polen:</b> Nur bei einem der drei Einschlagorte ist der Raketentyp bestätigt. Dass es sich beim dritten Objekt um eine Drohne handelt, ist eine erste Einschätzung.",
+    "<b>GTA 6:</b> „Größter Unterhaltungsstart der Geschichte“ ist eine Aussage des Herstellers, die 3,79 Milliarden Dollar sind dessen eigene Schätzung."
+  ],
+  "woche": [
+    {"wann": "Sa 21. Nov", "titel": "96, Turin und Bundesliga", "text": "Morgens Glätte möglich, über Mittag und abends Schauer, <b>2 bis 6 Grad</b>, mäßiger Westwind. <b>13 Uhr:</b> 96 gegen Fürth. <b>14:30 Uhr</b> Alcaraz–Shelton, <b>20:30 Uhr</b> Zverev–Medwedew in Turin. <b>15:30 Uhr</b> Gladbach–Dortmund."},
+    {"wann": "So 22. Nov", "titel": "Ruhiger, Finale in Turin", "text": "Sonne und Wolken, kaum Regen, <b>2 bis 4 Grad</b>, nachts Frost. <b>Gegen 5 Uhr:</b> Formel 1 in Las Vegas. <b>17:30 Uhr:</b> Werder gegen HSV. Abends Finale der ATP Finals."},
+    {"wann": "Mo 23. bis Fr 27. Nov", "titel": "Frost und Weihnachtsmarkt", "text": "Mo meist sonnig, <b>-2 bis 3 Grad</b>, danach bleibt es frostig mit Höchstwerten um 2 Grad. <b>Mo 16 Uhr:</b> Weihnachtsmarkt öffnet. <b>Di:</b> Auftakt der VW-Tarifverhandlungen. <b>Mi 25.11., 11 Uhr:</b> Vorverkauf Kleines Fest. <b>Fr 20 Uhr:</b> Indians gegen Neuwied."}
+  ]
+}

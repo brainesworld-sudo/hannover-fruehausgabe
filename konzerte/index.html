@@ -3,73 +3,70 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Konzert-Radar – Metal & Rock rund um Hannover</title>
-<meta name="description" content="Tägliches Konzert-Radar für Metal-, Rock- und Punkfans in und um Hannover: neue Tourdaten, Vorverkaufsstarts und der Kalender der nächsten 14 Tage.">
+<title>Konzert-Radar – Metal &amp; Rock rund um Hannover</title>
+<meta name="description" content="Tägliches Konzert-Radar für Metal-, Rock- und Punkfans in und um Hannover: neue Termine, Festivals, Erinnerungen und ein 14-Tage-Kalender.">
 <link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/">
 <style>
-:root{--bg:#f7f3ec;--paper:#fffdf8;--ink:#23201b;--muted:#6f675c;--line:#e4dccf;--red:#9b1c1c;--teal:#14707a;--ochre:#a8701a;--violet:#6a3fa0;--green:#2f7a3e;--warn:#b4441c;--start:#2f6f4f}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17150f;--paper:#211e17;--ink:#ece6da;--muted:#a69d8f;--line:#3a352b;--red:#e06a5e;--teal:#4fb7c0;--ochre:#d9a24a;--violet:#b291e3;--green:#6cc07d;--warn:#ec8a5c;--start:#69b892}}
-:root[data-theme="dark"]{--bg:#17150f;--paper:#211e17;--ink:#ece6da;--muted:#a69d8f;--line:#3a352b;--red:#e06a5e;--teal:#4fb7c0;--ochre:#d9a24a;--violet:#b291e3;--green:#6cc07d;--warn:#ec8a5c;--start:#69b892}
+:root{--bg:#f7f3ec;--paper:#fffdf8;--ink:#1f1b16;--muted:#6b6258;--line:#e4dccf;--red:#9b1c1c;--teal:#0f6b6b;--ochre:#a8700f;--violet:#5b3c99;--green:#2f7a3e;--warn:#b0401a;--c:var(--red)}
+@media (prefers-color-scheme:dark){:root{--bg:#16130f;--paper:#201c17;--ink:#eee6da;--muted:#a89c8c;--line:#3a332a;--red:#e0605a;--teal:#4fb5b0;--ochre:#e0a940;--violet:#a98be0;--green:#6fc27f;--warn:#f08050}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style",Georgia,"Times New Roman",serif}
-.wrap{max-width:1040px;margin:0 auto;padding:28px 16px 40px}
-header h1{font:800 40px/1.05 "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:-.02em;margin:0 0 4px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif}
+.wrap{max-width:980px;margin:0 auto;padding:28px 16px 40px}
+header h1{margin:0;font:800 clamp(34px,7vw,52px)/1.05 "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:-.02em}
 .eyebrow{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--red)}
-.date{font:600 14px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:2px 0}
-.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--green);text-decoration:none}
-.jump:hover{text-decoration:underline}
-.lead{margin:12px 0 0;color:var(--muted)}
+.date{font:600 14px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:8px 0 2px}
+.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif}
+.jump a{color:var(--green);text-decoration:none}
+a{color:var(--c)}
 .box{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:22px 0}
-.box h2{font:800 15px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px}
-.core{border-left:6px solid var(--red)}
-.core ul{margin:0;padding-left:20px}.core li{margin:5px 0}
-section{margin:34px 0}
+.box h2{margin:0 0 8px;font:800 15px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
+.core{border-top:5px solid var(--red)}
+.core ul{margin:0;padding-left:20px}.core li{margin:4px 0}
+section{margin:30px 0}
 .sec{display:flex;align-items:center;gap:10px;margin-bottom:12px}
-.sec h2{font:800 22px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0}
-.pill{font:800 11px "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:.08em;color:#fff;background:var(--c);border-radius:999px;padding:4px 10px}
+.sec h2{margin:0;font:800 21px "Helvetica Neue",Helvetica,Arial,sans-serif}
+.pill{background:var(--c);color:#fff;font:800 11px "Helvetica Neue",Helvetica,Arial,sans-serif;padding:4px 9px;border-radius:999px;letter-spacing:.08em}
+@media (prefers-color-scheme:dark){.pill{color:#16130f}}
 .s-new{--c:var(--red)}.s-fest{--c:var(--teal)}.s-rem{--c:var(--ochre)}.s-tip{--c:var(--violet)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.grid{grid-template-columns:1fr}}
 .card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:14px 16px}
-.card h3{font:800 18px/1.25 "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0 0 4px}
-.meta{font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0 0 8px}
+.card h3{margin:0 0 4px;font:800 18px/1.25 "Helvetica Neue",Helvetica,Arial,sans-serif}
+.meta{font:600 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin-bottom:6px}
 .card p{margin:6px 0}
-.chip{display:inline-block;font:800 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;border-radius:6px;padding:2px 7px;margin-bottom:6px;border:1px solid currentColor}
-.ok{color:var(--green)}.vvk{color:var(--violet)}.hot{color:var(--warn)}.open{color:var(--muted)}
-details{margin-top:8px}
+.chip{display:inline-block;font:700 11px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--c);border:1px solid currentColor;border-radius:6px;padding:1px 6px;margin-bottom:4px}
+details{margin-top:6px}
 summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}
-details p{font-size:15.5px}
 .src{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-.src a,.card a{color:var(--c)}
+.src a{color:var(--muted)}
 .sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
 .bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
-.tip{--c:var(--violet);border-left:6px solid var(--violet)}
-.tip h2{color:var(--violet)}.tip a{color:var(--violet)}
-.warn{border-left:6px solid var(--warn)}.warn h2{color:var(--warn)}
+.tip{--c:var(--violet);border-left:5px solid var(--violet)}
+.warn{border-left:5px solid var(--warn)}
+.warn h2{color:var(--warn)}.tip h2{color:var(--violet)}
 .warn ul{margin:0;padding-left:20px}.warn li{margin:5px 0}
-.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}
-footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font:13px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-footer a{color:var(--ink)}
-@media(max-width:640px){.grid{grid-template-columns:1fr}header h1{font-size:32px}.day{grid-template-columns:1fr;gap:2px}}
+.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}@media(max-width:640px){.day{grid-template-columns:1fr;gap:2px}}
+footer{margin-top:36px;border-top:1px solid var(--line);padding-top:14px;font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+footer a{color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
-<div class="eyebrow">Metal · Rock · Punk · rund um Hannover</div>
+<div class="eyebrow">Metal · Rock · Punk rund um Hannover</div>
 <h1>Konzert-Radar</h1>
-<p class="date">Freitag, 20. November 2026 · Stand: 03:44 Uhr</p>
-<a class="jump" href="#kalender">→ Kalender der nächsten 14 Tage</a>
-<p class="lead">Ein ruhigerer Nachrichtentag – aber mit einem Comeback aus Hannover: Thunderhead sind nach drei Jahrzehnten zurück. Dazu Vorverkaufsstarts für Underoath und Co. und eine volle Konzertwoche vor der Tür.</p>
+<p class="date">Samstag, 21. November 2026 · Stand: 03:40 Uhr</p>
+<p class="jump"><a href="#kalender">→ Kalender der nächsten 14 Tage</a></p>
 </header>
 
 <div class="box core">
 <h2>Das Wichtigste in 60 Sekunden</h2>
 <ul>
-<li><b>Thunderhead</b>, Hannovers Heavy-Metal-Band der späten 80er, ist mit neuer Besetzung zurück und spielt 2027 mit <b>Fargo</b>: <b>20.3. Nordenham</b>, <b>9.4. Dortmund</b>, im Juli beim <b>Stone Park Festival in Rinteln</b>.</li>
-<li><b>Underoath + Saosin</b>: Vorverkauf startet <b>heute um 10 Uhr</b> – Hamburg, Große Freiheit 36, am 3.4.2027.</li>
-<li>Ebenfalls heute im Verkauf: <b>Yonaka</b> (Lux Hannover, 9.2.27), <b>Foo Fighters + The Hives</b> (Düsseldorf, 17.6.27) und <b>Witch Club Satan</b> (Hamburg, 9.4.27).</li>
-<li>Neu entdeckt: die japanischen Speed-Metallerinnen <b>Hagane</b> kommen im April nach Hamburg.</li>
-<li>Heute Abend in Hannover: <b>dARTAGNAN</b> im Capitol und <b>Massendefekt</b> im MusikZentrum.</li>
+<li><b>UK Subs feiern 50 Jahre Punk:</b> heute Abend in der Fabrik Hamburg, am Dienstag (24.11.) im Forum Bielefeld – unser Tipp des Tages.</li>
+<li><b>Diceroller Fest am 5.12.</b> in Norderstedt: Indoor-Metalabend mit den Thrashern Rezet als Headliner.</li>
+<li><b>Schwarzmetall in Braunschweig:</b> Thormesis spielen am 5.12. im Jugendzentrum B58 – nur gut eine Stunde von Hannover.</li>
+<li><b>Rauhbein</b> bringen ihren Folk-Rock am 10.12. ins Knust nach Hamburg, zwei Tage später ins Lido Berlin.</li>
+<li>Ruhiger Tag bei großen Neuankündigungen – dafür ist der Kalender der nächsten zwei Wochen randvoll.</li>
 </ul>
 </div>
 
@@ -78,42 +75,44 @@ footer a{color:var(--ink)}
 <div class="grid">
 
 <article class="card">
-<span class="chip open">Details offen</span>
-<h3>Unbroken Metal Party 2027: Dawn of Destiny + Unchained Horizon, Wheels of Steel</h3>
-<p class="meta">Sa 16.1.2027 · Bambi Galore, Hamburg · ca. 155 km</p>
-<p>Melodic-Metal-Abend im Hamburger Kult-Keller: Dawn of Destiny stellen ihr <b>zehntes Album</b> vor, zum Schluss spielt eine Saxon-Tributeband. Es gibt ein <b>ermäßigtes Sozialticket</b> mit begrenztem Kontingent.</p>
-<p><strong>Hörtipp:</strong> Album „Ashes Over Tomorrow“ <a class="sp" href="https://open.spotify.com/search/Dawn%20of%20Destiny%20Ashes%20Over%20Tomorrow" target="_blank" rel="noopener">▶ Spotify</a> – das frische Werk, um das sich der Abend dreht.</p>
-<p class="bl"><a href="https://dawnofdestiny.de/band/" target="_blank" rel="noopener">Website</a></p>
-<details><summary>Mehr über die Bands</summary>
-<p>Dawn of Destiny kommen aus Bochum und spielen melodischen Power Metal. Auf „Ashes Over Tomorrow“ (erschienen Ende Oktober 2026) singen als Gäste <b>Ralf Scheepers</b> (Primal Fear) und <b>Fabio Lione</b> (Ex-Rhapsody of Fire) mit.</p>
-<p>Unchained Horizon aus Wilhelmshaven bringen klassischen Melodic Heavy Metal, Wheels of Steel aus Hamburg spielen ausschließlich Saxon-Songs. Achtung: Auf dem Plakat steht ein anderes Datum als in der Ankündigung, siehe „Hier genau hinschauen“.</p>
-<p class="src">Quelle: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/unbroken-metal-party-2027/" target="_blank" rel="noopener">Hamburg Tourismus – Veranstaltungskalender</a></p>
-</details>
-</article>
-
-<article class="card">
-<span class="chip ok">Bestätigt</span>
-<h3>Thunderhead & Fargo</h3>
-<p class="meta">Sa 20.3.2027 · Jahnhalle, Nordenham · ca. 165 km · ab 28 €</p>
-<p>Hannover-Metal trifft deutsches Rock-Urgestein: Thunderhead melden sich <b>30 Jahre nach der Auflösung</b> zurück. Zweiter Termin: <b>Fr 9.4.2027, Musiktheater Piano, Dortmund</b>, dort zusätzlich mit Rosy Vista (VVK 28 €, AK 35 €).</p>
-<p><strong>Hörtipp:</strong> „Rev 'N' Ride It“ <a class="sp" href="https://open.spotify.com/search/Thunderhead%20Rev%20N%20Ride%20It" target="_blank" rel="noopener">▶ Spotify</a> – die erste neue Single seit Mitte der 90er.</p>
-<details><summary>Mehr über die Bands</summary>
-<p>Thunderhead wurden 1988 in Hannover gegründet, waren mit Motörhead, Saxon und Uriah Heep unterwegs und lösten sich 1996 auf. Jetzt stehen drei Gründungsmitglieder mit einem neuen, irischstämmigen Sänger auf der Bühne; die ersten drei Alben wurden neu gemastert.</p>
-<p>Fargo gehörten Anfang der 80er zu den wichtigsten deutschen Rockbands, veröffentlichten zwischen 1979 und 1982 vier Studioalben und tourten u. a. mit AC/DC. Seit 2016 sind sie wieder aktiv. Rosy Vista, ebenfalls aus Hannover, gelten als erste deutsche Frauen-Hardrockband.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/niedersachsen/veranstaltungen/thunderhead-fargo-jahnhalle-nordenham/" target="_blank" rel="noopener">mvp.de – Nordenham</a> · <a href="https://www.dortmund.de/dortmund-erleben/veranstaltungskalender/termin_139002.html" target="_blank" rel="noopener">Stadt Dortmund – Termin</a> · <a href="https://rocks-magazin.de/thunderhead-neustart-nach-drei-dekaden" target="_blank" rel="noopener">ROCKS Magazin</a> · <a href="https://www.reservix.de/tickets-thunderhead--fargo-in-nordenham-jahnhalle-am-20-3-2027/e2605783" target="_blank" rel="noopener">Tickets Nordenham</a></p>
-</details>
-</article>
-
-<article class="card">
-<span class="chip ok">Bestätigt</span>
-<h3>Hagane</h3>
-<p class="meta">Mi 14.4.2027 · Markthalle, Hamburg · ca. 150 km</p>
-<p>Japanischer Speed Metal von einer <b>reinen Frauenband</b> aus Tokio – hohe, melodische Vocals, rasante Gitarren. Tags zuvor (13.4.) spielt die Band im <b>Lido, Berlin</b>. Für beide Shows gibt es ein Meet-&-Greet-Upgrade.</p>
-<p><strong>Hörtipp:</strong> „Tenka-goken“ <a class="sp" href="https://open.spotify.com/search/Hagane%20Tenka-goken" target="_blank" rel="noopener">▶ Spotify</a> – die Single, mit der die Band 2024 neu durchstartete.</p>
+<span class="chip">Bestätigt</span>
+<h3>UK Subs – 50 Years of UK Punkrock</h3>
+<div class="meta">Sa 21.11. · Fabrik, Hamburg · ca. 150 km &nbsp;|&nbsp; Di 24.11. · Forum, Bielefeld · ca. 110 km</div>
+<p>Eine der dienstältesten Punkbands Großbritanniens dreht zum <b>50. Jubiläum</b> eine Runde durch Deutschland – Frontmann Charlie Harper steht seit 1976 am Mikro.</p>
+<p><strong>Hörtipp:</strong> „Warhead“ <a class="sp" href="https://open.spotify.com/search/UK%20Subs%20Warhead" target="_blank" rel="noopener">▶ Spotify</a> – der Klassiker, den viele aus dem Film „This Is England“ kennen.</p>
+<p class="bl"><a href="https://uksubs.co.uk" target="_blank" rel="noopener">Website</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Hagane wurden 2018 in Tokio gegründet und sind inzwischen bei Napalm Records unter Vertrag. Ihr Album <b>„Through The Night“</b> erscheint außerhalb Japans am <b>15. Januar 2027</b> physisch – die Europatour trägt denselben Namen.</p>
-<p>Wer Bands wie Lovebites mag, sollte hier hinhören: viel Tempo, klassisches Power-Metal-Pathos und eine bunte Optik, die bewusst mit dem harten Sound bricht.</p>
-<p class="src">Quellen: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/meet-greet-upgrade-hagane-through-the-night-european-tour-part-1/" target="_blank" rel="noopener">Hamburg Tourismus</a> · <a href="https://www.berlin.de/en/tickets/rock-pop/hagane-through-the-night-european-tour-part-1-1e743abc-908c-41ee-8dd8-cf7353ae2413/" target="_blank" rel="noopener">berlin.de – Tickets</a> · <a href="https://blabbermouth.net/news/japanese-melodic-power-metal-band-hagane-signs-with-napalm-records" target="_blank" rel="noopener">Blabbermouth</a></p>
+<p>Gegründet 1976 in London, gehören die UK Subs zur allerersten Punkwelle. Sie spielten schneller als viele Zeitgenossen und gelten deshalb als frühe Wegbereiter des Hardcore-Punk; Harpers Rhythm-and-Blues-Vergangenheit schimmert trotzdem bis heute durch.</p>
+<p>Ein Kuriosum der Diskografie: Die Studioalben folgen dem Alphabet, von A bis Z – abgeschlossen 2016 mit „Ziezo“. „Reverse Engineering“ (2022) wurde danach als letztes Album angekündigt. Hits wie „Stranglehold“ und „Teenage“ landeten Ende der 70er in den britischen Top 40, Guns N' Roses coverten „Down on the Farm“.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/hamburg/veranstaltungen/uk-subs-fabrik-hamburg/" target="_blank" rel="noopener">mvp.de (Hamburg)</a> · <a href="https://www.regioactive.de/konzert/uk-subs-bielefeld-forum-2026-11-24-tickets-rkRZ3bNp6b" target="_blank" rel="noopener">regioactive (Bielefeld)</a> · <a href="https://en.wikipedia.org/wiki/U.K._Subs" target="_blank" rel="noopener">Wikipedia</a> · Tickets: <a href="https://www.regioactive.de/konzert/uk-subs-bielefeld-forum-2026-11-24-tickets-rkRZ3bNp6b" target="_blank" rel="noopener">regioactive</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Thormesis + Nalar, Detox from Humanity</h3>
+<div class="meta">Sa 05.12. · Jugendzentrum B58, Braunschweig · ca. 65 km</div>
+<p>Kompakter Black-Metal-Abend im Braunschweiger <b>Jugendzentrum B58</b> – deutschsprachiger Schwarzmetall mit zwei Supports, ohne lange Anreise.</p>
+<p><strong>Hörtipp:</strong> „Nevertheless“ (Album) <a class="sp" href="https://open.spotify.com/search/Thormesis%20Nevertheless" target="_blank" rel="noopener">▶ Spotify</a> – das jüngste Werk der Band, 2025 erschienen.</p>
+<p class="bl"><a href="https://thormesis.bandcamp.com/album/nevertheless" target="_blank" rel="noopener">Website (Bandcamp)</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Thormesis sind seit vielen Jahren eine feste Größe im deutschen Black Metal; ihr Album „The Sixth“ erschien 2019 bei MDD Records und wurde international besprochen. 2025 folgte „Nevertheless“.</p>
+<p>Club-Shows dieser Größe sind die Gelegenheit, die Band nah an der Bühne zu erleben. Preis und Einlass standen bei Redaktionsschluss noch nicht in der Quelle – vorher beim Veranstalter nachsehen.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/braunschweig/veranstaltungen/dezember/" target="_blank" rel="noopener">mvp.de Braunschweig (Dezember)</a> · <a href="https://distortedsoundmag.com/album-review-the-sixth-thormesis/" target="_blank" rel="noopener">Distorted Sound</a> · <a href="https://www.metal-only.de/fileadmin/reviews/2025/sep/Review-Thormesis-Nevertheless-2025.pdf" target="_blank" rel="noopener">Metal Only (Review 2025)</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Rauhbein + Liebe &amp; Krawall</h3>
+<div class="meta">Do 10.12. · Knust, Hamburg · ca. 150 km &nbsp;|&nbsp; Sa 12.12. · Lido, Berlin · ca. 285 km</div>
+<p>Deutschsprachiger Folk-Rock mit <b>Geige und dicken Gitarren</b>: Die „Rebellen &amp; Helden“-Tour macht kurz vor Weihnachten im Norden Station.</p>
+<p><strong>Hörtipp:</strong> „Adrenalin“ <a class="sp" href="https://open.spotify.com/search/Rauhbein%20Adrenalin" target="_blank" rel="noopener">▶ Spotify</a> – Titelsong des dritten Albums, ideal zum Mitsingen.</p>
+<p class="bl"><a href="https://rauhbein.de" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Das Quintett um Sänger Henry M. Rauhbein mischt Rock mit irischen Folk-Einflüssen; die Violine sorgt für die melancholischen Momente zwischen den Hymnen. Veröffentlicht wird bei Reigning Phoenix Music.</p>
+<p>Wer Bands wie Fiddler's Green oder Santiano mit mehr Rock-Kante mag, ist hier richtig – und mit „Blau &amp; Weiss“ hat die Band sogar die Hymne eines Eishockeyclubs geschrieben.</p>
+<p class="src">Quellen: <a href="https://www.regioactive.de/konzert/rauhbein-special-guest-rebellen-helden-tour-2026-hamburg-knust-2026-12-10-tickets-nlqcGhMBMM" target="_blank" rel="noopener">regioactive (Hamburg)</a> · <a href="https://www.regioactive.de/konzert/rauhbein-special-guest-rebellen-helden-tour-2026-berlin-lido-2026-12-12-tickets-FnH0vyFyVr" target="_blank" rel="noopener">regioactive (Berlin)</a> · <a href="https://chaoszine.net/rauhbein-release-blau-weiss-the-new-anthem-of-german-ice-hockey-club-kassel-huskies" target="_blank" rel="noopener">Chaoszine</a> · Tickets: <a href="https://www.eventim.de/artist/rauhbein/" target="_blank" rel="noopener">Eventim</a></p>
 </details>
 </article>
 
@@ -121,152 +120,158 @@ footer a{color:var(--ink)}
 </section>
 
 <section class="s-fest">
-<div class="sec"><span class="pill">FEST</span><h2>Festivals & Tour-Ankündigungen</h2></div>
+<div class="sec"><span class="pill">FEST</span><h2>Festivals &amp; Tour-Ankündigungen</h2></div>
 <div class="grid">
-
 <article class="card">
-<span class="chip ok">Bestätigt</span>
-<h3>Stone Park Festival 2027</h3>
-<p class="meta">Fr 2.–So 4.7.2027 · Jahrtausendblick, Rinteln · ca. 60 km</p>
-<p>Drei Tage Classic- und Hard-Rock vor der Haustür: Headliner sind <b>Velvet Rush</b> (Freitag) und <b>John Diva & The Rockets Of Love</b> (Samstag). Außerdem dabei: <b>Mad Max, Thunderhead, Fargo, Rosy Vista</b>, KrashKarma, Motorblock u. v. m.</p>
-<p><strong>Hörtipp:</strong> John Diva & The Rockets Of Love – „Lolita“ <a class="sp" href="https://open.spotify.com/search/John%20Diva%20Rockets%20of%20Love%20Lolita" target="_blank" rel="noopener">▶ Spotify</a> – Achtziger-Glam mit Augenzwinkern, passt zur Sommerwiese.</p>
-<details><summary>Mehr zum Festival</summary>
-<p>Das Line-up (Stand November 2026) setzt stark auf Bands aus der Region und auf Rückkehrer der 80er-Szene – ein seltener Mix für ein Festival unter 100 km von Hannover.</p>
-<p>Ein Ticketpreis steht auf der Festivalseite nicht; Karten laufen über Reservix. Weitere Bands und Änderungen sind laut Veranstalter möglich.</p>
-<p class="src">Quelle: <a href="https://stoneparkfestival.de/bands" target="_blank" rel="noopener">Stone Park Festival – Bands</a></p>
+<span class="chip">Bestätigt</span>
+<h3>Diceroller Fest – Rezet, Jarl, Wolves of War</h3>
+<div class="meta">Sa 05.12. · Dreibeken, Norderstedt · ca. 165 km · Einlass 15 Uhr, Beginn 16 Uhr</div>
+<p>Kleines <b>Indoor-Metalfestival</b> nördlich von Hamburg, das sich ausdrücklich auch an Rollenspieler richtet – mit Foodtruck, Merch und Parkplätzen direkt am Gelände.</p>
+<p><strong>Hörtipp:</strong> „Prisoner of Fate“ (Rezet) <a class="sp" href="https://open.spotify.com/search/Rezet%20Prisoner%20of%20Fate" target="_blank" rel="noopener">▶ Spotify</a> – Single aus dem selbstbetitelten Album, Speed-Thrash ohne Bremse.</p>
+<p class="bl"><a href="http://www.rezet.de" target="_blank" rel="noopener">Website (Rezet)</a></p>
+<details><summary>Mehr über den Headliner</summary>
+<p>Rezet stammen aus Schleswig und spielen seit 2003 Speed- und Thrash-Metal der alten Schule. Auf ihr Album „Reality Is a Lie“ (2016) folgte zuletzt die selbstbetitelte Platte bei Violent Creek Records.</p>
+<p>Wolves of War eröffnen den Abend, danach folgen Jarl, bevor Rezet den Schlusspunkt setzen. Einen Ticketpreis nennt die Quelle nicht.</p>
+<p class="src">Quellen: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/diceroller-fest/" target="_blank" rel="noopener">hamburg-tourism.de</a> · <a href="https://dewiki.de/Lexikon/Rezet" target="_blank" rel="noopener">dewiki: Rezet</a> · <a href="https://happymetalgeek.com/news-rezet-unleashes-new-album-rezet-and-release-single-prisoner-of-fate" target="_blank" rel="noopener">Happy Metal Geek</a></p>
 </details>
 </article>
-
 </div>
 </section>
 
 <section class="s-rem">
-<div class="sec"><span class="pill">ERINNERUNG</span><h2>Nochmal zur Erinnerung</h2></div>
+<div class="sec"><span class="pill">ERINN</span><h2>Nochmal zur Erinnerung</h2></div>
 <div class="grid">
-
 <article class="card">
-<span class="chip ok">Bestätigt</span>
-<h3>Beast in Black + Sonata Arctica, Frozen Crown</h3>
-<p class="meta">Mo 23.11.2026 · Inselpark Arena, Hamburg · ca. 155 km</p>
-<p>Finnischer Power Metal mit 80er-Synthies, dazu ein <b>hochkarätiges Vorprogramm</b>. Früh da sein: Einlass 17 Uhr, Beginn schon <b>18:15 Uhr</b>.</p>
-<p><strong>Hörtipp:</strong> „Blind and Frozen“ <a class="sp" href="https://open.spotify.com/search/Beast%20in%20Black%20Blind%20and%20Frozen" target="_blank" rel="noopener">▶ Spotify</a> – der Hit, bei dem die Halle mitsingt.</p>
-<p class="src">Quellen: <a href="https://inselparkarena.de/event/beast-in-black-2/" target="_blank" rel="noopener">Inselpark Arena</a> · <a href="https://www.eventim.de/event/beast-in-black-resurrection-tour-2026-inselpark-arena-20817903/" target="_blank" rel="noopener">Tickets</a></p>
+<h3>Perkele – Theater Tour</h3>
+<div class="meta">Fr 27.11. · Aladin Music Hall, Bremen · ca. 120 km</div>
+<p>Schwedischer Oi!-Punk mit großen Refrains – in einer Woche ist es so weit.</p>
+<p><strong>Hörtipp:</strong> „Heart Full of Pride“ <a class="sp" href="https://open.spotify.com/search/Perkele%20Heart%20Full%20of%20Pride" target="_blank" rel="noopener">▶ Spotify</a> – Mitgröl-Hymne.</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/bremen/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Bremen</a></p>
 </article>
-
 <article class="card">
-<span class="chip vvk">Vorverkauf startet</span>
-<h3>Underoath + Saosin, I Promised The World</h3>
-<p class="meta">Sa 3.4.2027 · Große Freiheit 36, Hamburg · ca. 150 km</p>
-<p>Post-Hardcore-Doppelpack mit Szene-Geschichte. Vorverkauf <b>heute, 10 Uhr</b>; weitere nahe Termine: Berlin Astra (2.4.), Leipzig Felsenkeller (8.4.), Münster Skaters Palace (10.4.).</p>
-<p><strong>Hörtipp:</strong> „Writing on the Walls“ <a class="sp" href="https://open.spotify.com/search/Underoath%20Writing%20on%20the%20Walls" target="_blank" rel="noopener">▶ Spotify</a> – der Song, der eine Generation geprägt hat.</p>
-<p class="src">Quellen: <a href="https://www.eventim.de/magazin/rock-pop/underoeath-kommen-2027-fuer-neun-konzerte-nach-deutschland" target="_blank" rel="noopener">Eventim Magazin</a> · <a href="https://blabbermouth.net/news/underoath-announces-spring-2027-european-tour-with-saosin-and-i-promised-the-world" target="_blank" rel="noopener">Blabbermouth</a></p>
+<h3>Mental Cruelty + Sun Eater</h3>
+<div class="meta">So 06.12. · Hamburg · ca. 150 km</div>
+<p>Symphonischer Deathcore aus Karlsruhe. <b>Achtung:</b> Die Venue-Angabe schwankt, siehe „Hier genau hinschauen“.</p>
+<p><strong>Hörtipp:</strong> „Forgotten Kings“ <a class="sp" href="https://open.spotify.com/search/Mental%20Cruelty%20Forgotten%20Kings" target="_blank" rel="noopener">▶ Spotify</a> – Breakdowns mit Orchester.</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hamburg/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hamburg</a></p>
 </article>
-
+<article class="card">
+<h3>Doro + Madame Mayhem</h3>
+<div class="meta">Di 15.12. · Aladin Music Hall, Bremen · ca. 120 km</div>
+<p>Die Metal-Queen auf „Winter Magic Tour“ – ein Pflichttermin vor Weihnachten.</p>
+<p><strong>Hörtipp:</strong> „All We Are“ <a class="sp" href="https://open.spotify.com/search/Doro%20All%20We%20Are" target="_blank" rel="noopener">▶ Spotify</a> – die Live-Hymne schlechthin.</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/bremen/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Bremen</a></p>
+</article>
+<article class="card">
+<h3>Dominum + The Night Flight Orchestra</h3>
+<div class="meta">Mi 16.12. · Capitol, Hannover · vorher 27.11. Hamburg (GF36) und 28.11. Leipzig</div>
+<p>Horror-Power-Metal trifft auf 80er-AOR – ein Doppelpack mit Stimmungsgarantie.</p>
+<p><strong>Hörtipp:</strong> „Hey Living People“ <a class="sp" href="https://open.spotify.com/search/Dominum%20Hey%20Living%20People" target="_blank" rel="noopener">▶ Spotify</a> – Zombie-Partyhymne.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hannover</a> · <a href="https://www.mvp.de/leipzig/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Leipzig</a></p>
+</article>
+<article class="card">
+<h3>In Flames + Trivium</h3>
+<div class="meta">Fr 09.04.2027 · Sporthalle, Hamburg · ca. 150 km</div>
+<p>Großes Co-Headliner-Paket für den Frühling, mit Paleface Swiss und Vola im Vorprogramm.</p>
+<p><strong>Hörtipp:</strong> „Only for the Weak“ <a class="sp" href="https://open.spotify.com/search/In%20Flames%20Only%20for%20the%20Weak" target="_blank" rel="noopener">▶ Spotify</a> – Göteborg-Klassiker.</p>
+<p class="src">Quellen: <a href="https://www.bonedo.de/artikel/in-flames-und-trivium-kuendigen-grosse-europa-tour-2027-an/" target="_blank" rel="noopener">bonedo</a> · <a href="https://blabbermouth.net/news/in-flames-and-trivium-announce-spring-2027-european-tour-with-paleface-swiss-and-vola" target="_blank" rel="noopener">Blabbermouth</a></p>
+</article>
 </div>
 </section>
 
 <div class="box tip">
 <h2>Tipp des Tages</h2>
-<p><b>Swiss & Die Andern – „Punk lebt“-Tour</b> · Fr 4.12.2026 · Capitol, Hannover</p>
-<p>Deutschpunk mit Rap-Wurzeln, der inzwischen Hallen füllt – und in Hannover noch im Club-Format des Capitols. Für alle, die die Band vom Festival-Acker kennen, ist das die Gelegenheit, sie enger und lauter zu erleben, ohne Anreise. Die Hamburger Show folgt erst am 19.12. in der viel größeren Inselpark Arena.</p>
-<p><strong>Hörtipp:</strong> „Trauerfeier“ <a class="sp" href="https://open.spotify.com/search/Swiss%20und%20die%20Andern%20Trauerfeier" target="_blank" rel="noopener">▶ Spotify</a> – die neue Single vor dem nächsten Album.</p>
-<p class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/swiss-die-andern-punk-lebt-tour-2026-capitol-hannover/" target="_blank" rel="noopener">mvp.de – Capitol</a> · <a href="https://www.impericon.com/de/blogs/magazine/swiss-die-andern-tease-new-single-trauerfeier" target="_blank" rel="noopener">Impericon Magazin</a> · <a href="https://www.eventim.de/event/swiss-die-andern-punk-lebt-tour-2026-capitol-20896419/" target="_blank" rel="noopener">Tickets</a></p>
+<p><b>UK Subs, Dienstag 24.11., Forum Bielefeld.</b> Fünfzig Jahre Punk, eine Band, die das Genre mitgeprägt hat, und ein Club, in dem man der Bühne ganz nah ist – solche Jubiläumsshows wird es nicht mehr ewig geben. Von Hannover in gut einer Stunde erreichbar, auch unter der Woche machbar. Wer es nicht abwarten kann: heute Abend spielen sie in der Hamburger Fabrik. <a href="https://www.regioactive.de/konzert/uk-subs-bielefeld-forum-2026-11-24-tickets-rkRZ3bNp6b" target="_blank" rel="noopener">Termin &amp; Tickets</a></p>
 </div>
 
 <div class="box warn">
 <h2>Hier genau hinschauen</h2>
 <ul>
-<li><b>Unbroken Metal Party:</b> Die Ankündigung nennt den <b>16.1.2027</b>, das Veranstaltungsplakat den <b>26.2.2027</b>. Vor dem Kauf beim Bambi Galore nachfragen.</li>
-<li><b>Underoath:</b> Eventim nennt im Text Freitag, 20.11., 10 Uhr als Vorverkaufsstart, an anderer Stelle den 19.11. – im Zweifel heute früh prüfen. Am ersten Verkaufstag keine überteuerten Zweitmarkt-Angebote kaufen.</li>
-<li><b>Smoke Blow (11.12., Faust) und Grailknights (19.12., Lux)</b> sind ausverkauft: Resttickets nur über offizielle Tauschbörsen der Veranstalter, nicht über Kleinanzeigen.</li>
-<li><b>Hiraes (27.11., Herford):</b> Das Datum ist weiterhin widersprüchlich – vorher beim Veranstalter prüfen.</li>
-<li><b>Thunderhead:</b> Ein eigenes Hannover-Konzert ist bislang <b>nicht</b> angekündigt – nächste Gelegenheiten sind Nordenham, Dortmund und Rinteln.</li>
+<li><b>Mental Cruelty, Hamburg 6.12.:</b> Frühere Quellen nannten den Bahnhof Pauli, mvp.de listet die Show inzwischen im <b>KENT Club</b>. Vor der Anreise beim Veranstalter prüfen.</li>
+<li><b>Pulley + Horace Pinker</b> sind für Faust/Mephisto Hannover angekündigt, die Ticketseite nennt aber noch <b>kein Datum</b> – wir tragen den Termin nach, sobald er bestätigt ist.</li>
+<li><b>Hiraes in Herford (27.11.):</b> Das Datum ist weiterhin nicht eindeutig belegt.</li>
+<li><b>Ausverkaufte Shows</b> (z. B. Smoke Blow im Faust am 11.12.): Tickets nur über offizielle Wiederverkaufsbörsen des Veranstalters kaufen, nicht über Kleinanzeigen oder Social-Media-Angebote.</li>
 </ul>
 </div>
 
 <section class="s-cal" id="kalender">
 <div class="sec"><span class="pill">KAL</span><h2>Kalender: die nächsten 14 Tage</h2></div>
 <div class="cal">
-<div class="day"><div class="dh">Fr 20.11. <span>heute</span></div><ul>
-<li><b>dARTAGNAN + Storm Seeker · Capitol, Hannover</b></li>
-<li><b>Massendefekt · MusikZentrum, Hannover</b></li>
-<li>Soulbound x Hell Boulevard · Sumpfblume, Hameln</li>
-<li>Daily Thompson + Constance Tomb · Bielefeld</li>
-<li>UK Subs · Lagerhaus, Bremen</li>
-<li>Stahlmann · Hyde Park, Osnabrück</li>
-<li>Gutalax · Factory, Magdeburg</li>
-<li>Papa Roach + Landmvrks · Barclays Arena, Hamburg</li>
-<li>The Obsessed + Sissies · Indra, Hamburg</li>
-<li>Bloody X-Mas Markt · UKE, Hamburg</li>
-<li>The Ruins of Beverast + Esotheric · UT Connewitz, Leipzig</li>
-<li>Dust Bolt + Zerre · Moritzbastei, Leipzig</li>
-<li>Vorverkauf: Underoath + Saosin, 10 Uhr</li>
-<li>Vorverkauf: Yonaka, 10 Uhr</li>
-<li>Vorverkauf: Foo Fighters + The Hives, 10 Uhr</li>
-<li>Vorverkauf: Witch Club Satan</li>
+<div class="day"><div class="dh">Sa 21.11. <span>heute</span></div><ul>
+<li><b>Hannover Hardcore Fest (SPY, Combust) · Béi Chéz Heinz, Hannover</b></li>
+<li>UK Subs · Fabrik, Hamburg</li>
+<li>Master Boot Record &amp; Fulci · Logo, Hamburg</li>
+<li>Black Tides Fest V (Groza, Friisk) · LMC, Hinte/Emden</li>
+<li>April Art + Dymytry Paradox · Hellraiser, Leipzig</li>
 </ul></div>
-<div class="day"><div class="dh">Sa 21.11. <span>morgen</span></div><ul>
-<li><b>Hannover Hardcore Fest · Béi Chéz Heinz, Hannover</b></li>
-<li>Master Boot Record & Fulci · Logo, Hamburg</li>
-<li>Black Tides Fest V · LMC, Emden</li>
-</ul></div>
-<div class="day"><div class="dh">So 22.11.</div><ul>
+<div class="day"><div class="dh">So 22.11. <span>morgen</span></div><ul>
 <li>Blackgold · Logo, Hamburg</li>
-<li>Kid Kapichi · Uebel & Gefährlich, Hamburg</li>
+<li>Kid Kapichi · Uebel &amp; Gefährlich, Hamburg</li>
 <li>Youth of Today + Risk It · Felsenkeller, Leipzig</li>
 </ul></div>
 <div class="day"><div class="dh">Mo 23.11.</div><ul>
 <li><b>Wet Cactus · Béi Chéz Heinz, Hannover</b></li>
-<li>Beast in Black + Sonata Arctica · Inselpark Arena, Hamburg</li>
+<li>Beast in Black + Frozen Crown, Sonata Arctica · Inselpark Arena, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Di 24.11.</div><ul>
+<li>UK Subs · Forum, Bielefeld <span class="tag">Tipp des Tages</span></li>
 <li>Chelsea Wolfe + A.A. Williams · Große Freiheit 36, Hamburg</li>
 <li>Long Distance Calling · Markthalle, Hamburg</li>
-<li>Currents & ERRA + Caskets · Astra, Berlin</li>
+<li>Currents &amp; ERRA · Astra, Berlin</li>
 </ul></div>
 <div class="day"><div class="dh">Mi 25.11.</div><ul>
 <li><b>Health · MusikZentrum, Hannover</b></li>
-<li>Slift · Knust, Hamburg</li>
 <li>Sevendust · Gruenspan, Hamburg</li>
+<li>Slift · Knust, Hamburg</li>
 <li>Grift + Zwischenlichten · Bambi Galore, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Do 26.11.</div><ul>
-<li><b>Penny & The Pits · Béi Chéz Heinz, Hannover</b></li>
-<li>Morbidfest · MS Stubnitz, Hamburg</li>
+<li><b>Penny &amp; The Pits · Béi Chéz Heinz, Hannover</b></li>
+<li>Terror + Bane, Start Today · Fabrik, Hamburg</li>
 <li>John Coffey · Knust, Hamburg</li>
-<li>Terror + Bane · Fabrik, Hamburg</li>
+<li>Morbidfest · MS Stubnitz, Hamburg</li>
 <li>Týr + Twilight Force · Matrix, Bochum</li>
 </ul></div>
-<details><summary>Die Woche danach</summary>
 <div class="day"><div class="dh">Fr 27.11.</div><ul>
-<li><b>Wisborg + The Fright · SubKultur, Hannover</b></li>
+<li><b>Wisborg + The Fright · Subkultur, Hannover</b></li>
 <li>Hiraes · Kulturwerk, Herford <span class="tag">Datum unklar</span></li>
 <li>Perkele · Aladin Music Hall, Bremen</li>
+<li>Dominum + The Night Flight Orchestra · Große Freiheit 36, Hamburg</li>
 <li>Black Oak County · Monkeys, Hamburg</li>
 </ul></div>
+<details><summary>Die Woche danach</summary>
 <div class="day"><div class="dh">Sa 28.11.</div><ul>
 <li><b>Allt + Avralize, Bite Down · Béi Chéz Heinz, Hannover</b></li>
 <li><b>Half Me · MusikZentrum, Hannover</b></li>
-<li><b>Pinhead · SubKultur, Hannover</b></li>
+<li><b>Pinhead · Subkultur, Hannover</b></li>
 <li>Diary of Dreams · Lagerhaus, Bremen</li>
 <li>Annisokay · Haus Auensee, Leipzig</li>
+<li>Dominum + The Night Flight Orchestra · Hellraiser, Leipzig</li>
 </ul></div>
 <div class="day"><div class="dh">So 29.11.</div><ul>
 <li><b>Carbon Twin · Béi Chéz Heinz, Hannover</b></li>
 <li>Thrown · Große Freiheit 36, Hamburg</li>
+<li>Allt · Uebel &amp; Gefährlich, Hamburg</li>
 </ul></div>
-<div class="day"><div class="dh">Di 1.12.</div><ul>
+<div class="day"><div class="dh">Di 01.12.</div><ul>
 <li>Wednesday 13 · Knust, Hamburg</li>
 <li>Steve 'n' Seagulls · Fabrik, Hamburg</li>
+<li>Half Me · Naumanns Tanzlokal, Leipzig</li>
 </ul></div>
-<div class="day"><div class="dh">Mi 2.12.</div><ul>
+<div class="day"><div class="dh">Mi 02.12.</div><ul>
 <li>Polyphia + Perturbator · Docks, Hamburg</li>
 </ul></div>
-<div class="day"><div class="dh">Do 3.12.</div><ul>
+<div class="day"><div class="dh">Do 03.12.</div><ul>
 <li><b>Coilguns + Park+Riot · Béi Chéz Heinz, Hannover</b></li>
-<li>The Gems · Tower, Bremen</li>
 <li>Crashdiet · Bahnhof Pauli, Hamburg</li>
 <li>Avatar + Neckbreakker · Turbinenhalle, Oberhausen</li>
+</ul></div>
+<div class="day"><div class="dh">Fr 04.12.</div><ul>
+<li><b>Swiss &amp; Die Andern · Capitol, Hannover</b></li>
+<li>DYSE · Lagerhaus, Bremen</li>
+<li>Rising Insane · Betty, Hamburg</li>
+<li>Toxpack · Bahnhof Pauli, Hamburg</li>
+<li>Anchors &amp; Hearts · Logo, Hamburg</li>
 </ul></div>
 </details>
 </div>
@@ -275,7 +280,7 @@ footer a{color:var(--ink)}
 <footer>
 <p><a href="/konzerte/archiv/">Radar-Archiv</a></p>
 <p><a href="/">Hannover Frühausgabe</a> · <a href="/impressum.html">Impressum</a> · <a href="https://hilmerjahnke.de">hilmerjahnke.de</a></p>
-<p>Alle Termine ohne Gewähr – bitte vor dem Ticketkauf beim Veranstalter prüfen.</p>
+<p>Alle Termine ohne Gewähr. Bitte vor dem Ticketkauf beim Veranstalter prüfen.</p>
 </footer>
 </div>
 </body>
