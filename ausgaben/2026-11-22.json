@@ -1,0 +1,597 @@
+{
+ "stand": "Stand: Sonntag, 22. November, 3 Uhr",
+ "kurz": [
+  "<b>Polen hat Gewissheit:</b> Eines der drei abgestürzten Flugobjekte war ein russischer Marschflugkörper vom Typ <b>CH-101</b>, gebaut erst in diesem Herbst. Am Montag berät der Nato-Rat.",
+  "<b>Klimagipfel im Patt:</b> In Antalya gab es am Samstagabend noch immer keinen neuen Beschlusstext. Die EU will lieber gar keinen Deal als einen, der den <b>Abschied von Öl, Gas und Kohle</b> verschweigt.",
+  "<b>Spritpreisdeckel mit Lücke:</b> Wirtschaftsministerin Reiche will <b>Autobahntankstellen</b> ausnehmen, das Kabinett soll am 2. Dezember entscheiden.",
+  "<b>A7 bei Mellendorf:</b> Drei Autos und zwei Fahrzeuge eines niederländischen Militärkonvois krachen ineinander, <b>drei Schwerverletzte</b>, vier Stunden Vollsperrung Richtung Kassel.",
+  "<b>Bahn-Pendler aufgepasst:</b> Der RE30 Lehrte–Wolfsburg fällt von <b>Februar bis Juli 2027</b> aus, Fernzüge nach Berlin brauchen dann rund 80 Minuten länger.",
+  "<b>Sport:</b> 96 schlägt Fürth <b>2:1</b> durch ein Tor von Taibi in der Nachspielzeit. Dortmund ist neuer Tabellenführer, Zverev spielt heute um <b>18 Uhr</b> im Finale von Turin gegen Alcaraz."
+ ],
+ "ressorts": [
+  {
+   "id": "hannover",
+   "hinweis": "Die Nachrichtenseite von Radio Hannover zeigte heute nur veraltete Meldungen, NDR.de war nicht erreichbar. Wir stützen uns auf Stadt, Polizei, t-online und die Hannoversche Rundschau.",
+   "meldungen": [
+    {
+     "titel": "Militärkonvoi in Unfall verwickelt – drei Schwerverletzte auf der A7",
+     "kurz": "Am Samstagvormittag stießen am <b>Dreieck Hannover-Nord</b> drei Autos und zwei niederländische Militärfahrzeuge zusammen. Fünf Menschen kamen ins Krankenhaus, die A7 Richtung Kassel war rund <b>vier Stunden</b> dicht.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Dreieck Hannover-Nord",
+       "suche": "Autobahndreieck Hannover-Nord A7"
+      }
+     ],
+     "lang": [
+      "Nach den bisherigen Angaben wechselte ein Autofahrer von der linken auf die mittlere Spur und streifte dabei einen anderen Wagen. Sein Auto schleuderte zurück, traf ein weiteres Fahrzeug, die Wagen prallten gegen die Mittelleitplanke und drehten sich bis auf die rechte Spur, wo gerade der niederländische Konvoi unterwegs war.",
+      "Drei Menschen wurden schwer, zwei leicht verletzt. Bergung und Aufräumen dauerten bis in den Nachmittag, im Norden Hannovers staute sich der Verkehr entsprechend lang."
+     ],
+     "einschaetzung": "Unfallhergang und Verletztenzahl decken sich bei t-online und der dpa-Meldung im Tagesspiegel.",
+     "quellen": [
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101540162/stau-auf-a7-bei-hannover-unfall-mit-militaerkonvoi-drei-schwerverletzte.html"
+      },
+      {
+       "name": "Tagesspiegel (dpa)",
+       "url": "https://www.tagesspiegel.de/gesellschaft/panorama/dpa-unfall-mit-drei-autos-und-zwei-militarfahrzeugen-auf-der-a7-16311701.html"
+      }
+     ]
+    },
+    {
+     "titel": "RE30 fällt fünf Monate aus – Berlin-Züge mit großem Umweg",
+     "kurz": "Vom <b>5. Februar bis 9. Juli 2027</b> fährt zwischen Lehrte und Wolfsburg kein RE30. Fernzüge Hannover–Berlin rollen über Braunschweig und Magdeburg und sind rund <b>80 Minuten</b> länger unterwegs.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Bahnhof Lehrte",
+       "suche": "Bahnhof Lehrte"
+      }
+     ],
+     "lang": [
+      "Hintergrund ist die Generalsanierung der Strecke Richtung Berlin, die die DB InfraGO noch bis Dezember 2027 beschäftigt. Für den RE30 setzt die Bahn drei Arten von Ersatzbussen ein: Direktbusse ohne Halt, Expressbusse mit wenigen Stopps und Busse, die jeden Bahnhof anfahren.",
+      "RE50 und RE70 sind vom Ausfall nicht betroffen, fahren bis Ende 2027 aber nur stündlich. Wer zwischen Hannover und Wolfsburg pendelt, sollte sich früh auf den Busverkehr einstellen."
+     ],
+     "einschaetzung": "Grundlage ist das am Freitag veröffentlichte überarbeitete Verkehrskonzept der Bahn.",
+     "quellen": [
+      {
+       "name": "Hannoversche Rundschau",
+       "url": "https://www.hannoversche-rundschau.de/2026/11/20/re30-faellt-von-februar-bis-juli-zwischen-lehrte-und-wolfsburg-aus/"
+      }
+     ]
+    },
+    {
+     "titel": "5.674 Fälle häuslicher Gewalt gegen Frauen in der Region",
+     "kurz": "So viele Fälle wurden 2025 in der Region Hannover gemeldet, <b>3.702</b> davon in der Stadt. In mehr als 5.000 Fällen waren auch Kinder betroffen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Regionshaus",
+       "suche": "Regionshaus Hildesheimer Straße Hannover"
+      }
+     ],
+     "lang": [
+      "Die Region legt die Zahlen vor dem Aktionstag gegen Gewalt an Frauen am <b>Mittwoch, 25. November</b>, vor. Im Umland stiegen die gemeldeten Fälle häuslicher Gewalt gegen Frauen und Männer um acht Prozent. Gezählt werden Meldungen, nicht Betroffene; das Dunkelfeld lässt sich laut Region nicht abschätzen.",
+      "Zum Orange Day wird das Regionshaus orange angestrahlt, es gibt einen Lauf durch die City und eine Aktion von Hannover 96. Für Schutzangebote wie sechs Frauenhäuser und 17 Beratungsstellen plant die Region in diesem Jahr rund <b>5 Millionen Euro</b> ein. Hilfe rund um die Uhr: Hilfetelefon <b>116 016</b>, kostenlos und anonym."
+     ],
+     "einschaetzung": "Offizielle Zahlen der Region, über die Hannoversche Rundschau berichtet.",
+     "quellen": [
+      {
+       "name": "Hannoversche Rundschau",
+       "url": "https://www.hannoversche-rundschau.de/2026/11/20/region-hannover-zaehlt-5-674-faelle-haeuslicher-gewalt-gegen-frauen/"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Kleinere Meldungen aus Stadt und Region.",
+     "liste": [
+      "<b>Opernplatz:</b> Das frei zugängliche Klavier darf bleiben, Bezirksrat Mitte und Kulturausschuss sind dafür. Nächstes OPEN-KEYS-Konzert am <b>16. Dezember um 18 Uhr</b>.",
+      "<b>Südstadt:</b> Den Fahrbahneinbruch in der <b>Bandelstraße</b> Ende Oktober haben laut Stadt Ratten verursacht, die an einem stillgelegten Kanalanschluss einen Hohlraum gegraben hatten.",
+      "<b>Gefälschte Umleitungen:</b> Über eine Sicherheitslücke wurden Besucher von drei Pegel- und Grundwasserseiten des <b>NLWKN</b> womöglich auf fremde Seiten gelockt. Die Lücke ist seit Donnerstag geschlossen, Anzeige ist erstattet.",
+      "<b>Gretelriede:</b> Von Montag bis voraussichtlich Freitag voll gesperrt zwischen Heusingerstraße und DB-Brücke, Umleitung über Am Fuhrenkampe (Durchfahrtshöhe 3,9 Meter).",
+      "<b>Stadtfinanzen:</b> Für 2028 rechnet die Verwaltung jetzt mit rund <b>170 Millionen Euro</b> Defizit, unter anderem weil Enercity weniger Gewinn abführt. Der Rat entscheidet im ersten Quartal 2027.",
+      "<b>Landessportbund:</b> Stefan Wagner folgt heute an der Spitze auf Reinhard Rawe."
+     ],
+     "bewertung": "gesichert",
+     "lang": [
+      "Meldungen der Stadt Hannover und der Hannoverschen Rundschau vom 18. bis 20. November."
+     ],
+     "einschaetzung": "Amtliche Angaben oder Berichte mit klarer Quelle.",
+     "quellen": [
+      {
+       "name": "Stadt Hannover (Piano)",
+       "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Outdoor-Piano-bleibt-dauerhaft-auf-dem-Opernplatz"
+      },
+      {
+       "name": "Hannoversche Rundschau (Bandelstraße)",
+       "url": "https://www.hannoversche-rundschau.de/2026/11/20/suedstadt-ratten-haben-laut-stadt-die-bandelstrasse-unterhoehlt/"
+      },
+      {
+       "name": "Hannoversche Rundschau (NLWKN)",
+       "url": "https://www.hannoversche-rundschau.de/2026/11/20/nlwkn-pegelseiten-besucher-womoeglich-auf-fremde-seiten-umgeleitet/"
+      },
+      {
+       "name": "Stadt Hannover (Gretelriede)",
+       "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Gretelriede-erh%C3%A4lt-neue-Fahrbahndecke"
+      },
+      {
+       "name": "Stadt Hannover (Haushalt)",
+       "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Stadtverwaltung-passt-Haushaltsentwurf-an"
+      },
+      {
+       "name": "Hannoversche Rundschau (LSB)",
+       "url": "https://www.hannoversche-rundschau.de/2026/11/20/landessportbund-stefan-wagner-folgt-am-sonntag-auf-reinhard-rawe/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deutschland",
+   "meldungen": [
+    {
+     "titel": "Spritpreisdeckel: Autobahntankstellen sollen außen vor bleiben",
+     "kurz": "Der geplante Höchstpreis für Benzin und Diesel soll an Autobahnen nicht gelten, <b>Autohöfe</b> aber schon. Das Kabinett will am <b>2. Dezember</b> entscheiden, starten soll der Deckel zum 1. Januar.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Das Wirtschaftsministerium begründet die Ausnahme mit höheren Pachten und der Pflicht, rund um die Uhr zu öffnen. Ein zu niedriger Preis könne einzelne Tankstellen unwirtschaftlich machen und die Versorgung gefährden. Auch die Länder sollen abweichen dürfen, wenn Einkauf und Transport bei ihnen teurer sind.",
+      "Der Deckel soll den bisherigen Tankrabatt ablösen; wie hoch die Obergrenze liegt, regelt erst eine Verordnung. Die SPD hatte einen ersten Entwurf wegen hoher Hürden als untauglich abgelehnt. Das Ministerium selbst sagt, gezielt entlastet würden Bürger eher über einkommensabhängige Direktzahlungen, die technisch aber noch nicht möglich seien."
+     ],
+     "einschaetzung": "Angaben aus Ministeriumskreisen, von ZDFheute und t-online übereinstimmend berichtet; der Entwurf kann sich noch ändern.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/politik/deutschland/reiche-preisdeckel-ausnahme-autobahntankstellen-100.html"
+      },
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/finanzen/aktuelles/id_101539856/reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen.html"
+      }
+     ]
+    },
+    {
+     "titel": "EU-Haushalt: Digitalsteuer als Ausweg – Merz bleibt skeptisch",
+     "kurz": "Ratspräsident Costa schlägt eine <b>3-Prozent-Abgabe</b> auf Digitalumsätze großer Konzerne vor und kürzt den Haushaltsentwurf um rund <b>204 Milliarden Euro</b>. Dem Kanzler ist das Volumen weiter zu hoch.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Europa-Gebäude Brüssel",
+       "suche": "Europa Building Brussels"
+      }
+     ],
+     "lang": [
+      "Treffen soll die Abgabe Firmen mit mehr als 50 Millionen Euro Digitalumsatz in der EU und über 750 Millionen weltweit, besteuert würden Werbung, Plattformdienste und das Geschäft mit Nutzerdaten. Sie soll gut 5 Milliarden Euro im Jahr bringen. Zusammen mit Abgaben etwa auf Krypto, Tabak und Elektroschrott kämen jährlich gut 60 Milliarden zusammen. Der Haushalt für 2028 bis 2034 läge bei rund 1,78 Billionen Euro.",
+      "Merz nennt den Vorschlag einen ersten Schritt, ein Plus von über 40 Prozent passe aber nicht in die Zeit. Er verknüpft die Verhandlungen zudem mit der Ukraine-Finanzierung. Am <b>Donnerstag und Freitag</b> beraten die Staats- und Regierungschefs in Brüssel, eine Einigung wird frühestens im Dezember erwartet."
+     ],
+     "einschaetzung": "Zahlen und Merz-Zitat stimmen in mehreren Agenturmeldungen überein.",
+     "quellen": [
+      {
+       "name": "Proplanta (dpa)",
+       "url": "https://www.proplanta.de/agrar-nachrichten/agrarpolitik/neue-eu-digitalsteuer-als-loesung-im-haushaltsstreit_article1795307011.html"
+      },
+      {
+       "name": "ad-hoc-news",
+       "url": "https://www.ad-hoc-news.de/ausland/eu-haushalt-costa-schlaegt-drei-prozent-digitalsteuer-vor/70542739"
+      }
+     ]
+    },
+    {
+     "titel": "Gen-Z-Proteste: Weniger Menschen, mehr Ruhe – fast überall",
+     "kurz": "Bundesweit gingen am Freitag <b>knapp 90.000</b> junge Menschen auf die Straße, vielerorts weniger als Ende Oktober. In Stuttgart gab es <b>mehr als 20</b> vorläufige Festnahmen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Stuttgart",
+       "suche": "Schlossplatz Stuttgart"
+      },
+      {
+       "name": "Hamburg",
+       "suche": "Hamburg Innenstadt"
+      }
+     ],
+     "lang": [
+      "In Hamburg warfen Vermummte nach der Demo Flaschen und Böller auf Polizisten, in Leipzig kesselte die Polizei mehrere Hundert Menschen ein. Frankfurt und Berlin blieben weitgehend ruhig; Hessens Innenminister lobte, die Bilder vom 31. Oktober hätten sich nicht wiederholt. Den Demonstrierenden geht es vor allem um Schulpolitik und den Militärdienst.",
+      "Grünen-Chefin Brantner stellte sich am Samstag hinter die Proteste und kritisierte die Haushaltspolitik von Union und SPD. Jugendforscher raten der Politik, die Anliegen ernst zu nehmen."
+     ],
+     "einschaetzung": "Teilnehmerzahl und Polizeiangaben aus dem ZDF-Liveblog, Reaktion Brantner aus dem ZDF-Ticker.",
+     "quellen": [
+      {
+       "name": "ZDFheute (Liveblog)",
+       "url": "https://www.zdfheute.de/politik/deutschland/gen-z-proteste-schulpolitik-militaerdienst-liveblog-100.html"
+      },
+      {
+       "name": "ZDFheute (Newsticker)",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Was sonst noch wichtig war.",
+     "liste": [
+      "<b>Arzttermine:</b> TK-Chef Baas warnt Fachärzte davor, Kassenpatienten zum Bezahlen für schnellere Termine zu drängen. Zusätzliche Selbstzahler-Termine seien grundsätzlich erlaubt.",
+      "<b>Berliner Linke:</b> Parteichefin Schwerdtner unterstützt den Kurs gegen die Abgeordnete Vanessa Emde. Über den Fraktionsausschluss wird am <b>Dienstag</b> entschieden, der Streit belastet die Koalitionsgespräche.",
+      "<b>Wildberries:</b> Die Gründerin des größten russischen Onlinehändlers ist als Chefin zurückgetreten; sie steht auf der neuen Sanktionsliste der EU."
+     ],
+     "bewertung": "gesichert",
+     "lang": [
+      "Kurzmeldungen aus dem ZDF-Newsticker vom Samstag."
+     ],
+     "einschaetzung": "Agenturmeldungen mit klar benannten Urhebern.",
+     "quellen": [
+      {
+       "name": "ZDFheute (Newsticker)",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "welt",
+   "meldungen": [
+    {
+     "titel": "Polen: Abgestürztes Objekt war russischer CH-101-Marschflugkörper",
+     "kurz": "Ermittler fanden bei <b>Nowy Lipowiec</b> Antriebs- und Steuerteile. Laut Staatsanwaltschaft wurde die Rakete erst im <b>vierten Quartal</b> dieses Jahres in Russland gebaut.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Nowy Lipowiec",
+       "suche": "Nowy Lipowiec Polen"
+      },
+      {
+       "name": "Nato-Hauptquartier",
+       "suche": "NATO Headquarters Brussels"
+      }
+     ],
+     "lang": [
+      "Die Fundstelle liegt rund 60 Kilometer von der ukrainischen Grenze. Dort sind die Arbeiten abgeschlossen, an den beiden anderen Absturzorten wird noch ermittelt. Verteidigungsminister Kosiniak-Kamysz geht von zwei Marschflugkörpern und einer Drohne aus. Verletzt wurde niemand.",
+      "Nato-Generalsekretär Rutte versicherte in Warschau, jeder Quadratmeter Polens werde verteidigt. Am <b>Montag</b> befasst sich der Nordatlantikrat in Brüssel mit dem Vorfall. Regierungschef Tusk spricht von gezielter Provokation während einer westlichen Militärübung."
+     ],
+     "einschaetzung": "Staatsanwaltschaft und Nato-Angaben, von ZDF und dpa gleich berichtet; zwei der drei Objekte sind noch nicht abschließend identifiziert.",
+     "quellen": [
+      {
+       "name": "Südtirol News (dpa)",
+       "url": "https://www.suedtirolnews.it/politik/polen-abgestuerztes-flugobjekt-war-russische-rakete"
+      },
+      {
+       "name": "ZDFheute (Newsticker)",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Klimagipfel Antalya: Patt um die fossilen Energien",
+     "kurz": "Einen Tag nach dem geplanten Ende gab es am Samstagabend noch <b>keinen neuen Beschlusstext</b>. Die EU und rund <b>130 Staaten</b> wollen den Abschied von Öl, Gas und Kohle im Text, Förderländer blockieren.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Antalya",
+       "suche": "Antalya Expo Center"
+      }
+     ],
+     "lang": [
+      "Der Entwurf vom Donnerstag erwähnt die Abkehr von fossilen Energien nicht mehr, damit fiele der Gipfel hinter den Stand von 2023 zurück. EU-Klimakommissar Hoekstra will notfalls ohne Ergebnis abreisen. Als Bremser gelten Saudi-Arabien und Russland; weil Konsens nötig ist, kann jeder Staat blockieren.",
+      "Gipfelpräsident Kurum wirbt stattdessen für ein Elektrifizierungsziel: Der Stromanteil am Energieverbrauch soll von 23 auf <b>35 Prozent</b> steigen. Afrikanische Staaten sind verärgert, dass mehr Geld für Klimaanpassung gar nicht auf die Tagesordnung kam."
+     ],
+     "einschaetzung": "Stand Samstag, 20:26 Uhr laut ORF; eine Einigung in der Nacht ist möglich, war bei Redaktionsschluss aber nicht bekannt.",
+     "quellen": [
+      {
+       "name": "ORF",
+       "url": "https://orf.at/stories/3448884/"
+      },
+      {
+       "name": "Handelsblatt",
+       "url": "https://www.handelsblatt.com/politik/deutschland/cop31-die-weltklimakonferenz-ringt-weiter-um-ein-abschlussdokument/100270720.html"
+      }
+     ]
+    },
+    {
+     "titel": "London und Brüssel rücken zusammen – Miliband schließt nichts aus",
+     "kurz": "Nach dem EU-Gipfel mit Großbritannien sagt Außenminister Miliband, bei den künftigen Beziehungen liege <b>jede Option</b> auf dem Tisch, auch ein Wiedereintritt.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "London",
+       "suche": "Downing Street London"
+      }
+     ],
+     "lang": [
+      "Am Freitag hatten sich beide Seiten auf begrenzte Freizügigkeit für junge Leute, weniger Kontrollen im Lebensmittelhandel und die Verknüpfung ihrer Emissionshandelssysteme geeinigt. Die Welt habe sich seit dem Referendum 2016 stark verändert, so Miliband in der BBC.",
+      "Premier Andy Burnham bremst: Mehr sei in dieser Wahlperiode kaum drin, über weitere Schritte sollten die Wähler entscheiden. Die nächste Unterhauswahl ist für 2029 geplant."
+     ],
+     "einschaetzung": "Aussage per Agentur gut belegt; ein Wiedereintritt ist damit kein Regierungsplan, sondern eine nicht ausgeschlossene Option.",
+     "quellen": [
+      {
+       "name": "onvista (dpa)",
+       "url": "https://www.onvista.de/news/2026/11-21-britischer-aussenminister-alle-optionen-bei-eu-annaeherung-auf-dem-tisch-0-10-26579085"
+      },
+      {
+       "name": "ITV",
+       "url": "https://www.itv.com/news/2026-11-21/deal-with-eu-not-dependent-on-tuition-fees-agreement-says-miliband"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Weitere Meldungen aus aller Welt.",
+     "liste": [
+      "<b>Ostsee:</b> Der russische Frachter <b>„Sparta II“</b> geriet im Finnischen Meerbusen nach einem Drohnenangriff in Brand. Finnland hält einen ukrainischen Angriff für wahrscheinlich, Kiew schweigt.",
+      "<b>Rüstung:</b> Großbritannien und die Ukraine wollen ukrainische Mittel- und Langstreckendrohnen gemeinsam in Großbritannien bauen, London zahlt mit.",
+      "<b>Frankreich:</b> Am sechsten Protest-Wochenende in Folge gingen rund <b>82.500</b> Menschen auf die Straße. In Lyon und Marseille gab es Krawalle und 144 Festnahmen.",
+      "<b>Myanmar:</b> Nach dem Völkermord-Urteil des Internationalen Gerichtshofs zu den Rohingya beantragt Frankreich eine Sitzung des UN-Sicherheitsrats.",
+      "<b>Handel:</b> EU und Indonesien haben ihr Freihandelsabkommen unterzeichnet, Zölle auf bis zu <b>98,5 Prozent</b> der Warengruppen sollen schrittweise fallen.",
+      "<b>Italien:</b> Der frühere „Costa Concordia“-Kapitän Schettino darf den Rest seiner Strafe als Sozialarbeit ableisten."
+     ],
+     "bewertung": "gesichert",
+     "lang": [
+      "Kurzmeldungen aus dem ZDF-Newsticker und dem Tagesspiegel-Liveblog."
+     ],
+     "einschaetzung": "Agenturmeldungen; der Urheber des Angriffs auf die „Sparta II“ ist nicht bestätigt.",
+     "quellen": [
+      {
+       "name": "ZDFheute (Newsticker)",
+       "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"
+      },
+      {
+       "name": "Tagesspiegel (Liveblog)",
+       "url": "https://tagesspiegel.de/internationales/liveblog/moskau-hat-crew-evakuiertrussischer-frachter-nach-drohnenangriff-vor-finnland-in-brand-16206302.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "hinweis": "Das Formel-1-Rennen in Las Vegas lief bei Redaktionsschluss noch nicht. Zu den Hannover Scorpions fanden wir keine aktuellen, belastbaren Meldungen. Die Recken pausieren bis zum 30. November.",
+   "meldungen": [
+    {
+     "titel": "Taibi erlöst 96 in der Nachspielzeit",
+     "kurz": "Hannover 96 dreht ein 0:1 gegen Greuther Fürth und gewinnt <b>2:1</b>. Der eingewechselte Waniss Taibi traf in der <b>92. Minute</b> per Volleyschuss.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Heinz-von-Heiden-Arena",
+       "suche": "Heinz von Heiden Arena Hannover"
+      }
+     ],
+     "lang": [
+      "Fürth ging durch Ole Pohlmann nach einer Ecke in Führung (34.), Stefan Teitur Thordarson glich nach Vorlage von Marcel Hartel aus (57.). Danach passierte lange wenig, bis Taibi aus rund 17 Metern abzog. 33.100 Zuschauer sahen den zweiten Sieg unter Trainer Sandro Wagner, auch Lars Gindorf war nach Krankheit zurück.",
+      "Mit <b>15 Punkten</b> klettert 96 auf Rang acht. Weiter geht es am <b>Samstag, 28. November, um 20:30 Uhr</b> in Osnabrück."
+     ],
+     "einschaetzung": "Ergebnis und Torschützen bei Verein und t-online identisch; die Minute des Siegtors nennt t-online mit 90.+1, der Verein mit 90.+2.",
+     "quellen": [
+      {
+       "name": "Hannover 96",
+       "url": "https://www.hannover96.de/newscenter/news/details/37748-taibi-trifft-in-der-nachspielzeit-zum-sieg-96-gewinnt-das-heimspiel-gegen-fuerth-mit-21.html"
+      },
+      {
+       "name": "t-online Hannover",
+       "url": "https://hannover.t-online.de/region/hannover/id_101540018/hannover-96-jubelt-spaet-taibi-setzt-lucky-punch-in-der-nachspielzeit.html"
+      }
+     ]
+    },
+    {
+     "titel": "Dortmund stürzt Bayern von der Spitze",
+     "kurz": "Felix Nmecha trifft in der <b>80. Minute</b> zum 1:0 in Mönchengladbach. Der BVB hat nun <b>24 Punkte</b>, zwei mehr als die Bayern, und ist weiter ungeschlagen.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Borussia-Park",
+       "suche": "Borussia-Park Mönchengladbach"
+      }
+     ],
+     "lang": [
+      "Nmechas flacher Schuss aus rund 18 Metern rutschte Gladbachs Torwart Daniel Batz durch die Hände, bis dahin hatte er stark gehalten. Gladbach bleibt Tabellenletzter und wartet weiter auf einen Heimsieg.",
+      "Bayern hatte am Freitag nur 1:1 gegen Köln gespielt. Freiburg siegte 1:0 in Elversberg und ist nun punktgleich mit dem FC Bayern Dritter."
+     ],
+     "einschaetzung": "Ergebnis, Torschütze und Tabellenlage bei Sportschau und t-online gleich.",
+     "quellen": [
+      {
+       "name": "Sportschau (WDR)",
+       "url": "https://www.sportschau.de/regional/wdr/wdr-bvb-holt-sich-in-moenchengladbach-die-tabellenfuehrung-100.html"
+      },
+      {
+       "name": "t-online",
+       "url": "https://www.t-online.de/sport/fussball/bundesliga/id_101540196/dortmund-uebernimmt-tabellenfuehrung-vom-fc-bayern.html"
+      }
+     ]
+    },
+    {
+     "titel": "Traumfinale in Turin: Zverev gegen Alcaraz",
+     "kurz": "Zverev besiegt Medwedew <b>7:6, 6:4</b>, den Tiebreak gewinnt er 7:0. Heute um <b>18 Uhr</b> geht es gegen die Nummer eins Carlos Alcaraz um den Titel bei den ATP Finals.",
+     "bewertung": "gesichert",
+     "orte": [
+      {
+       "name": "Inalpi Arena",
+       "suche": "Inalpi Arena Turin"
+      }
+     ],
+     "lang": [
+      "Gegen seinen unangenehmen Gegner Medwedew blieb Zverev auch im Halbfinale ohne Satzverlust. Alcaraz musste gegen Ben Shelton über drei Sätze gehen und gewann erst im Tiebreak des dritten Satzes.",
+      "Für Zverev wäre es der dritte Titel beim Saisonfinale der besten acht Spieler."
+     ],
+     "einschaetzung": "Ergebnisse und Finaltermin bei Sportschau und ZDFheute übereinstimmend.",
+     "quellen": [
+      {
+       "name": "Sportschau",
+       "url": "https://www.sportschau.de/regional/ndr/atp-finals-zverev-schlaegt-medwedew-traumfinale-gegen-alcaraz,tennis-808.html"
+      },
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/sport/tennis-atp-finals-alexander-zverev-endspiel-100.html"
+      }
+     ]
+    },
+    {
+     "titel": "Kurz notiert",
+     "kurz": "Ergebnisse und Termine.",
+     "liste": [
+      "<b>Formel 1:</b> Antonelli war in Las Vegas Schnellster, muss wegen eines Motorwechsels aber <b>fünf Plätze</b> zurück. Verstappen startet von der Pole vor Russell und Norris, Hülkenberg schied in Q2 aus. Start gegen <b>5 Uhr</b> deutscher Zeit.",
+      "<b>Bundesliga:</b> Leipzig gewinnt <b>5:1</b> bei Union, Leverkusen 4:0 gegen Paderborn, Frankfurt 1:0 gegen Hoffenheim. Schalke und Stuttgart trennen sich 0:0, Schalke bleibt auch im fünften Heimspiel ohne Tor.",
+      "<b>2. Liga:</b> Wolfsburg schlägt Kiel 3:0, Braunschweig gewinnt 2:1 in Nürnberg.",
+      "<b>Heute:</b> 15:30 Uhr Augsburg–Mainz, <b>17:30 Uhr</b> Werder–HSV. In der 2. Liga um 13:30 Uhr u. a. Cottbus–Hertha.",
+      "<b>Indians:</b> Nach dem 5:3 gegen Hamm geht es heute auswärts nach Herne, nächstes Heimspiel am Freitag um 20 Uhr gegen Neuwied."
+     ],
+     "bewertung": "gesichert",
+     "lang": [
+      "Kurzmeldungen von Formel 1, t-online, ZDFheute, Sportschau und den Indians."
+     ],
+     "einschaetzung": "Ergebnisse jeweils von mindestens zwei Quellen; die Anstoßzeit in Herne war nicht zu finden.",
+     "quellen": [
+      {
+       "name": "Formula1.com",
+       "url": "https://www.formula1.com/en/latest/article/antonelli-quickest-in-las-vegas-gp-qualifying-as-verstappen-inherits-pole-position.6R7udh8iYMHunSOGI6zStK"
+      },
+      {
+       "name": "Sky Sports (F1)",
+       "url": "https://www.skysports.com/f1/news/13614575/las-vegas-gp-kimi-antonelli-fastest-but-max-verstappen-on-pole-from-george-russell-after-dramatic-qualifying"
+      },
+      {
+       "name": "ZDFheute (Schalke)",
+       "url": "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-fc-schalke-vfb-stuttgart-100.html"
+      },
+      {
+       "name": "Sportschau (2. Liga)",
+       "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-2-bundesliga/"
+      },
+      {
+       "name": "Hannover Indians",
+       "url": "https://www.hannover-indians.de/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netz",
+   "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar, ebenso heise.de und mehrere Spieleseiten. Die Suchvolumen stammen aus dem Google-Trends-Feed vom Samstagabend.",
+   "trends": [
+    {
+     "begriff": "bauernregel 21 november",
+     "volumen": "1000+",
+     "anlass": "Wintervorhersage per Volksweisheit"
+    },
+    {
+     "begriff": "juventus turin",
+     "volumen": "500+",
+     "anlass": "Wechselgerüchte um Woltemade"
+    },
+    {
+     "begriff": "zero-day-lücke",
+     "volumen": "100+",
+     "anlass": "Update für VMware vCenter"
+    },
+    {
+     "begriff": "katniss everdeen",
+     "volumen": "100+",
+     "anlass": "Panem-Prequel im Kino"
+    },
+    {
+     "begriff": "red dead redemption 2",
+     "volumen": "100+",
+     "anlass": "Spuren in GTA 6"
+    },
+    {
+     "begriff": "jessica alba",
+     "volumen": "100+",
+     "anlass": "Trailer zu „Maserati“-Film"
+    },
+    {
+     "begriff": "inter miami",
+     "volumen": "100+",
+     "anlass": "Messi in den MLS-Playoffs"
+    }
+   ],
+   "meldungen": [
+    {
+     "titel": "vCenter-Lücke: Seit September ausgenutzt, jetzt gestopft",
+     "kurz": "Broadcom schließt eine kritische Lücke in <b>VMware vCenter</b> (CVSS <b>9,8</b>). Angreifer konnten damit ohne Anmeldung Zugriff auf die Verwaltungszentrale virtueller Server bekommen.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Betroffen sind vCenter 8.0, 9.0 und 9.1 sowie die Pakete rund um Cloud Foundation; ältere Versionen sollten Admins ebenfalls als gefährdet ansehen. Laut Google nutzte eine mutmaßlich chinesische Spionagegruppe die Lücke schon Anfang September, um sich in einem bereits gekaperten Netz Adminrechte zu verschaffen.",
+      "Einen Workaround gibt es nicht, nur das Update. Vorsicht beim Patchen: Bestimmte Versionsstände blockieren ein späteres Upgrade auf VCF 9.1.1, Broadcom beschreibt die richtige Reihenfolge."
+     ],
+     "einschaetzung": "Herstellerhinweis und Analyse von Google/Mandiant, von mehreren Fachmedien gleich wiedergegeben.",
+     "quellen": [
+      {
+       "name": "The Hacker News",
+       "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
+      },
+      {
+       "name": "Broadcom (Advisory)",
+       "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017"
+      }
+     ]
+    },
+    {
+     "titel": "Panem-Prequel: Haymitchs Hungerspiele im Kino",
+     "kurz": "„Die Tribute von Panem: Sunrise on the Reaping“ läuft seit Donnerstag. Auf Rotten Tomatoes steht der Film bei <b>71 Prozent</b> positiver Kritiken.",
+     "bewertung": "gesichert",
+     "lang": [
+      "Erzählt werden die 50. Hungerspiele aus Sicht des jungen Haymitch Abernathy, gespielt von Joseph Zada, 24 Jahre vor Katniss. Neben ihm sind unter anderem Mckenna Grace, Ralph Fiennes als Präsident Snow und Kieran Culkin dabei, Regie führt wieder Francis Lawrence.",
+      "Die Kritiken loben vor allem die Nähe zum Buch und den düsteren Ton. Damit liegt das Prequel etwa gleichauf mit den beiden „Mockingjay“-Teilen, aber hinter den ersten beiden Filmen."
+     ],
+     "einschaetzung": "Kinostart und Wertung laut kino.de, Tenor der Kritik auch bei der Volksstimme.",
+     "quellen": [
+      {
+       "name": "kino.de",
+       "url": "https://www.kino.de/news/sunrise-on-the-reaping-die-ersten-kritikerwertungen-sind-da-kann-das-neue-tribute-von-panem-prequel-mithalten--01M7SZ36ZH8103W1KDJ49FTWCB"
+      },
+      {
+       "name": "Volksstimme",
+       "url": "https://www.volksstimme.de/panorama/stars/lohnt-sich-der-neue-tribute-von-panem-film-4358375"
+      }
+     ]
+    },
+    {
+     "titel": "EU-Kommission: Cyberangriff mit KI-Werkzeug",
+     "kurz": "Die Kommission bestätigt eine Serie von Angriffen auf ihre IT, bei der ein <b>öffentlich verfügbares KI-Tool</b> missbraucht worden sein soll. Mehrere Anwendungen, darunter die Personalplattform, waren zeitweise abgeschaltet.",
+     "bewertung": "plausibel",
+     "orte": [
+      {
+       "name": "Berlaymont",
+       "suche": "Berlaymont Brüssel"
+      }
+     ],
+     "lang": [
+      "Entdeckt wurde der Angriff schon am 22. Oktober, öffentlich gemacht erst diese Woche. Die meisten Systeme laufen wieder. Hinweise auf einen Datenabfluss, der alle rund 33.000 Beschäftigten betrifft, gibt es laut Kommission nicht.",
+      "Wer dahintersteckt und welches KI-Werkzeug genutzt wurde, sagt die Kommission nicht. Der Fall passt zur Warnung des BSI, dass KI Angriffe derzeit erleichtert."
+     ],
+     "einschaetzung": "Die Rolle der KI beruht allein auf Angaben der Kommission, Details und Ausmaß sind offen.",
+     "quellen": [
+      {
+       "name": "ZDFheute",
+       "url": "https://www.zdfheute.de/politik/deutschland/eu-kommission-cyberangriff-ki-100.html"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faktencheck": [
+  "<b>Präzisierung:</b> Gestern hieß es, das Finale der ATP Finals laufe am Sonntagabend. Angesetzt ist es um <b>18 Uhr</b>.",
+  "<b>96-Siegtor:</b> t-online nennt die 91., der Verein die 92. Minute. Wir folgen dem Spielbericht des Vereins.",
+  "<b>Polen:</b> Bestätigt ist nur ein Flugkörper. Dass das dritte Objekt eine Drohne war, ist weiter eine erste Einschätzung des Verteidigungsministers.",
+  "<b>„Wiedereintritt“:</b> Miliband hat einen EU-Beitritt nicht angekündigt, sondern nur nicht ausgeschlossen. Premier Burnham sieht in dieser Wahlperiode kaum weitere Schritte."
+ ],
+ "woche": [
+  {
+   "wann": "So 22. Nov",
+   "titel": "Finale in Turin, Nordderby",
+   "text": "Wechselnd bewölkt und trocken, <b>1 bis 5 Grad</b>, schwacher Nordwestwind. <b>Gegen 5 Uhr:</b> Formel 1 in Las Vegas. <b>17:30 Uhr:</b> Werder gegen HSV. <b>18 Uhr:</b> Zverev gegen Alcaraz. Indians auswärts in Herne."
+  },
+  {
+   "wann": "Mo 23. Nov",
+   "titel": "Sonne, Frost, Glühwein",
+   "text": "Sonnig mit rund sechs Sonnenstunden, <b>-2 bis 3 Grad</b>, morgens Glätte. <b>16 Uhr:</b> Weihnachtsmarkt in der Altstadt öffnet. Gretelriede bis Freitag gesperrt. Innenministerin Behrens übernimmt kommissarisch das Justizressort. Nato-Rat berät über Polen."
+  },
+  {
+   "wann": "Di 24. bis Fr 27. Nov",
+   "titel": "Frostige Nächte, Gipfel in Brüssel",
+   "text": "Di heiter, <b>-2 bis 3 Grad</b>, danach bleibt es frostig, der Trend ist unsicher. <b>Di:</b> VW-Tarifauftakt. <b>Mi 25.11.:</b> Orange Day, 11 Uhr Vorverkauf Kleines Fest. <b>Do/Fr:</b> EU-Sondergipfel zum Haushalt. <b>Fr 20 Uhr:</b> Indians gegen Neuwied. <b>Sa 28.11., 20:30 Uhr:</b> 96 in Osnabrück."
+  }
+ ]
+}
