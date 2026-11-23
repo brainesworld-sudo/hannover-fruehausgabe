@@ -1,0 +1,376 @@
+{
+  "stand": "Stand: Montag, 23. November, 3 Uhr",
+  "kurz": [
+    "<b>Klimagipfel ohne Ergebnis:</b> Die COP31 in Antalya endete am Sonntag nach über 40 Stunden Verlängerung <b>ohne jeden Beschluss</b>. Die EU lehnte einen Text ab, der Öl, Gas und Kohle nicht einmal erwähnt.",
+    "<b>Explosion in Bengasi:</b> Die russische Korvette <b>„Merkuri“</b> ist im libyschen Hafen offenbar ausgebrannt. Analysten vermuten Drohnen, die Behörden vor Ort sprechen von einem Munitionsdepot.",
+    "<b>Kohlenmonoxid im Gottesdienst:</b> In einer Schlosskapelle in Bad Grönenbach (Allgäu) wurden <b>56 Menschen</b> verletzt, darunter viele Kinder. Eine defekte Heizung gilt als Ursache.",
+    "<b>Rente mit 63:</b> CSU-Chef Söder will sie kürzen und eine Entscheidung <b>noch in diesem Jahr</b>. Das Kabinett könnte am 9. oder 16. Dezember entscheiden.",
+    "<b>Glühwein ab 16 Uhr:</b> Hannovers Altstadt-Weihnachtsmarkt öffnet heute, das Weihnachtsdorf am Hauptbahnhof schon um <b>11 Uhr</b>. Dazu Frost und viel Sonne.",
+    "<b>Sport:</b> Alcaraz schlägt Zverev im Finale von Turin <b>6:2, 7:6</b>. Werder fegt den HSV im Nordderby <b>4:0</b> weg, Verstappen gewinnt in Las Vegas."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "hinweis": "Das Presseportal der Polizeidirektion Hannover, Radio Hannover und NDR.de waren heute nicht erreichbar. Wir stützen uns auf die Stadt, t-online, die Hannoversche Rundschau und das regionale Presseportal.",
+      "meldungen": [
+        {
+          "titel": "Weihnachtsmarkt öffnet – Altstadt wird für Autos dicht",
+          "kurz": "Um <b>16 Uhr</b> geht der Altstadt-Weihnachtsmarkt rund um die Marktkirche los, das Weihnachtsdorf auf dem Ernst-August-Platz startet bereits um <b>11 Uhr</b>. Erwartet werden wieder rund <b>1,8 Millionen</b> Besucher.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Marktkirche", "suche": "Marktkirche Hannover"},
+            {"name": "Ernst-August-Platz", "suche": "Ernst-August-Platz Hannover"}
+          ],
+          "lang": [
+            "Unter dem Motto „hannoverzaubert“ stehen rund 125 Buden zwischen Marktkirche und Platz der Weltausstellung, insgesamt sind es mit Finnischem Dorf am Ballhof, Wunschbrunnenwald und historischem Markt 195 Standeinheiten. Neu sind zwei Pop-up-Hütten mit wöchentlich wechselndem Angebot, vor der Marktkirche steht eine 20 Meter hohe Nordmanntanne. Ab Dienstag ist täglich von 11 bis 21 Uhr geöffnet, Schluss ist am 22. Dezember. Der Bauernmarkt zieht für diese Zeit auf den Hannah-Arendt-Platz.",
+            "Autofahrer müssen umplanen: Osterstraße, Schmiedestraße und Teile der Karmarschstraße sind gesperrt, der Verkehr läuft über Röselerstraße und Steintorstraße. Am Hauptbahnhof gibt es bis 30. Dezember über 50 Fachwerkhütten, ein historisches Riesenrad und dreimal am Abend (17, 18:30 und 20 Uhr) eine Lichtshow auf der Bahnhofsfassade."
+          ],
+          "einschaetzung": "Termine und Sperrungen stammen direkt von der Stadt, das Weihnachtsdorf ist durch die Hannoversche Rundschau belegt.",
+          "quellen": [
+            {"name": "hannover.de", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Weihnachtsmarkt-in-Hannovers-Altstadt-startet-am-Montag"},
+            {"name": "Hannoversche Rundschau", "url": "https://www.hannoversche-rundschau.de/2026/11/21/hannover-weihnachtsdorf-am-hauptbahnhof-oeffnet-am-montag/"}
+          ]
+        },
+        {
+          "titel": "Streetfood-Festival im Küchengarten kurzfristig geplatzt",
+          "kurz": "Das „Happy Food Festival“ in Linden fiel am Wochenende komplett aus. Die Veranstalter nannten <b>Probleme mit der Stromversorgung</b> und sagten kurz vor Beginn per Instagram ab.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Küchengarten", "suche": "Küchengarten Hannover Linden"}
+          ],
+          "lang": [
+            "Geplant waren Foodtrucks bei freiem Eintritt am Samstag und Sonntag. Wer sich auf den Weg gemacht hatte, stand vor einem leeren Gelände. Hinter der Reihe steht ein Eventunternehmen, das solche Streetfood-Wochenenden in mehreren Städten veranstaltet.",
+            "Ob es einen Ersatztermin in Hannover gibt, ist bislang nicht bekannt."
+          ],
+          "einschaetzung": "Die Absage ist durch den Instagram-Post der Veranstalter belegt, über den t-online berichtet.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101540812/"}
+          ]
+        },
+        {
+          "titel": "Kultusministerin Hamburg will auch ohne Wahlsieg im Amt bleiben",
+          "kurz": "Grünen-Spitzenkandidatin Julia Willie Hamburg sagt, sie würde nach der Landtagswahl <b>gern Kultusministerin bleiben</b>, falls es für das Amt der Ministerpräsidentin nicht reicht.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Niedersächsischer Landtag", "suche": "Niedersächsischer Landtag Hannover"}
+          ],
+          "lang": [
+            "In einem Interview mit der Neuen Osnabrücker Zeitung begründet sie das damit, dass Bildungspolitik lange brauche, bis sie wirke, und sie begonnene Projekte zu Ende bringen wolle. Die Grünen hatten sie Anfang November mit 100 Prozent zur Spitzenkandidatin gewählt.",
+            "Gleichzeitig laufen in der Region die Nominierungen: Die Grünen in der Region Hannover haben am Wochenende ihre Wahlkreiskandidaten für 2027 aufgestellt."
+          ],
+          "einschaetzung": "Aussagen aus einem autorisierten Interview, veröffentlicht über das Presseportal der NOZ.",
+          "quellen": [
+            {"name": "Presseportal / NOZ", "url": "https://www.presseportal.de/pm/58964/6395287"},
+            {"name": "Hannoversche Rundschau", "url": "https://www.hannoversche-rundschau.de/2026/11/21/landtagswahl-2027-gruene-in-der-region-hannover-nominieren-kandidaten/"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Sehnde:</b> Die Pläne für das Windenergie-Gebiet Dolgen-Evern liegen ab heute bis <b>21. Dezember</b> online und im Rathaus aus, Stellungnahmen sind bis dahin möglich.",
+            "<b>Misburg:</b> Der seit Freitag gesuchte 12-Jährige ist wohlbehalten wieder da, Hinweise aus der Bevölkerung halfen.",
+            "<b>Gretelriede:</b> Wegen neuer Fahrbahndecke bis etwa <b>Freitag</b> gesperrt.",
+            "<b>Kleines Fest im Großen Garten:</b> Vorverkauf startet am Mittwoch, 25. November."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Meldungen der Stadt, der Polizei und der Hannoverschen Rundschau.",
+          "quellen": [
+            {"name": "Hannoversche Rundschau (Windpark)", "url": "https://www.hannoversche-rundschau.de/2026/11/21/sehnde-plaene-fuer-windpark-dolgen-evern-ab-23-november-im-netz/"},
+            {"name": "Polizei Hannover", "url": "https://www.presseportal.de/blaulicht/pm/66841/6395233"},
+            {"name": "hannover.de (Gretelriede)", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Gretelriede-erhält-neue-Fahrbahndecke"},
+            {"name": "hannover.de (Kleines Fest)", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Kleines-Fest-im-Großen-Garten-Vorverkaufsstart-am-25.-November"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Kohlenmonoxid in der Kapelle – 56 Verletzte im Allgäu",
+          "kurz": "Während eines Gottesdienstes in der Schlosskapelle von <b>Bad Grönenbach</b> strömte offenbar Kohlenmonoxid aus einer Heizung. Am Abend sprach das Rote Kreuz von <b>56 Betroffenen</b>, 16 kamen ins Krankenhaus.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Bad Grönenbach", "suche": "Schlosskapelle Bad Grönenbach"}
+          ],
+          "lang": [
+            "Ausgelöst wurde der Einsatz durch ein kollabiertes Kind. Als die Warngeräte der Retter anschlugen, wurden zusätzliche Kräfte alarmiert. Unter den Betroffenen sind viele Kinder, Lebensgefahr besteht laut Rotem Kreuz bei niemandem.",
+            "Nach ersten Erkenntnissen hat die automatische Abschaltung einer Heizung nicht funktioniert. Ob ein technischer Defekt oder ein Bedienfehler dahintersteckt, ermittelt jetzt die Kripo Kempten."
+          ],
+          "einschaetzung": "Der Hergang ist klar, die Verletztenzahl schwankte aber im Tagesverlauf stark (siehe Faktencheck).",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/panorama/ungluecke/id_101540866/bad-groenenbach-19-verletzte-in-kirche-im-allgaeu-defekte-heizung.html"},
+            {"name": "inFranken", "url": "https://www.infranken.de/bayern/bad-groenenbach-verletztenzahl-in-kirche-deutlich-hoeher-als-angenommen-art-6413109"}
+          ]
+        },
+        {
+          "titel": "Söder will die Rente mit 63 kürzen – und zwar schnell",
+          "kurz": "Beim Deutschlandtag der Jungen Union verlangte der CSU-Chef, die abschlagsfreie Rente nach 45 Beitragsjahren zu beschneiden. Entscheiden will er <b>noch 2026</b>, nicht erst nach dem SPD-Parteitag im Januar.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Berchtesgaden", "suche": "Berchtesgaden"}
+          ],
+          "lang": [
+            "Der Koalitionsausschuss von Union und SPD war in der Nacht zum 18. November ohne Einigung beim Rentenpaket auseinandergegangen. Im Gespräch ist nun ein Kabinettsbeschluss am 9. oder 16. Dezember, ein fester Termin steht nicht.",
+            "Mit seiner Forderung setzt Söder die SPD unter Druck, die die Rente für besonders langjährig Versicherte bisher verteidigt. Eine offizielle Antwort der Sozialdemokraten gab es bis zum Abend nicht."
+          ],
+          "einschaetzung": "Die Forderung ist mehrfach belegt, der Zeitplan der Koalition ist dagegen noch offen.",
+          "quellen": [
+            {"name": "cash-online", "url": "https://www.cash-online.de/a/warum-soeder-bei-der-rente-mit-63-nun-druck-macht-731253/"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Spritpreisdeckel: Opposition spottet über Autobahn-Ausnahme",
+          "kurz": "Grüne und Linke zerpflücken die Pläne von Wirtschaftsministerin Reiche. Dass ausgerechnet die <b>teuren Autobahntankstellen</b> ausgenommen sein sollen, nennt Grünen-Chef Banaszak absurd.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Der Entwurf ist seit Freitagabend in der regierungsinternen Abstimmung. Der Deckel soll nur greifen, wenn die Preise drei Wochen lang deutlich stärker steigen als im EU-Schnitt, frühestens ab Mitte Januar, und nach drei Monaten wieder auslaufen.",
+            "Die Grünen fordern stattdessen eine Übergewinnsteuer für Mineralölkonzerne, Linken-Politikerin Wissler wirft Reiche vor, Konzerninteressen zu bedienen. Hintergrund der hohen Preise ist der Krieg um Iran."
+          ],
+          "einschaetzung": "Die Kritik ist wörtlich belegt, die genaue Ausgestaltung des Deckels steht noch nicht fest.",
+          "quellen": [
+            {"name": "Yahoo Nachrichten (dpa)", "url": "https://de.nachrichten.yahoo.com/opposition-kritisiert-pl%C3%A4ne-f%C3%BCr-neuen-102128150.html"},
+            {"name": "ZDFheute", "url": "https://zdfheute.de/politik/deutschland/reiche-preisdeckel-ausnahme-autobahntankstellen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Frost:</b> Bundesweit bis zu minus 5 Grad in der Nacht, Glättegefahr am Morgen, im Alpenvorland Schnee möglich.",
+            "<b>Freiwilligendienst:</b> Der DRK-Präsident fordert ein höheres Taschengeld für Freiwillige.",
+            "<b>Hamburg-Harburg:</b> Ein Mann mit Schreckschusspistole in einem Zug löste einen Großeinsatz der Polizei aus.",
+            "<b>Habeck:</b> Der Ex-Vizekanzler warnt, Europa verliere durch Uneinigkeit an Einfluss."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Kurzmeldungen aus dem ZDFheute-Ticker, nicht einzeln gegengeprüft.",
+          "quellen": [
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Klimagipfel in Antalya endet mit leeren Händen",
+          "kurz": "Nach mehr als <b>40 Stunden Verlängerung</b> erklärte Gipfelpräsident Kurum am Sonntag: kein einziger Beschluss. Die EU hatte einen Abschlusstext abgelehnt, in dem Kohle, Öl und Gas nicht vorkamen.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Antalya", "suche": "Antalya Türkei"}
+          ],
+          "lang": [
+            "Nach Angaben aus Verhandlungskreisen blockierten vor allem Ölstaaten wie Saudi-Arabien jede klare Formulierung zum Ausstieg aus fossilen Energien. Umweltminister Schneider gab ihnen die Schuld, UN-Generalsekretär Guterres forderte nach dem Scheitern erneut ein Ende von Öl und Gas.",
+            "Damit gilt nichts von dem, was im Entwurf stand, etwa das Eingeständnis, dass die 1,5-Grad-Grenze überschritten wird. Weiterverhandelt wird bis zur nächsten Konferenz in Äthiopien."
+          ],
+          "einschaetzung": "Das Ergebnis ist durch dpa und ZDFheute übereinstimmend belegt.",
+          "quellen": [
+            {"name": "Tagesspiegel (dpa)", "url": "https://www.tagesspiegel.de/internationales/dpa-ol-lander-blockierten-nennung-von-fossilen-brennstoffen-langster-klimagipfel-aller-zeiten-endet-ohne-einigung-16311937.html"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Russisches Kriegsschiff in Bengasi offenbar ausgebrannt",
+          "kurz": "Im Hafen der ostlibyschen Stadt brannte in der Nacht zum Sonntag die Korvette <b>„Merkuri“</b>. Analysten vermuten einen Drohnenangriff, die Behörden vor Ort sprechen von einem <b>explodierten Munitionsdepot</b>.",
+          "bewertung": "vorsicht",
+          "orte": [
+            {"name": "Hafen Bengasi", "suche": "Hafen Bengasi Libyen"}
+          ],
+          "lang": [
+            "Satellitenbilder zeigen Feuer an Bord, ob das Schiff sank oder nur ausbrannte, ist offen. Laut Fachmedien begleitete die Korvette Frachter mit Waffen für die Truppen von General Haftar. Unbestätigte Videos sollen Drohnen und Flugabwehrfeuer zeigen.",
+            "Die Ukraine hat sich nicht bekannt. Bekannt ist aber, dass das Schwesterschiff „Boiki“ im Juni bei Sankt Petersburg von ukrainischen Drohnen getroffen wurde, und dass es im Mittelmeer schon mehrere mutmaßliche Angriffe auf russische Schiffe gab."
+          ],
+          "einschaetzung": "Brand und Schaden sind belegt, Ursache und Urheber nicht – die offiziellen Angaben widersprechen den Analysen.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101540938/russland-verliert-kriegsschiff-im-hafen-am-mittelmeer-grosse-explosion.html"},
+            {"name": "ORF", "url": "https://orf.at/stories/3448956/"},
+            {"name": "Blick", "url": "https://www.blick.ch/ausland/libyen-russisches-kriegsschiff-merkury-in-flammen/qny6gx5"}
+          ]
+        },
+        {
+          "titel": "Belgien legt heute den Luftraum lahm",
+          "kurz": "Wegen eines landesweiten Aktionstags gegen die Sparpolitik setzt die Flugsicherung skeyes von <b>7 bis 21 Uhr</b> aus. In Brüssel, Charleroi, Lüttich und Antwerpen fallen fast alle Flüge aus.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Flughafen Brüssel", "suche": "Brussels Airport Zaventem"}
+          ],
+          "lang": [
+            "Die drei großen Gewerkschaften rufen zu einer Großkundgebung in Brüssel auf, ein Teil der Fluglotsen macht mit. Nur Not- und Sicherheitsflüge laufen weiter, Nachwirkungen sind bis Dienstagmorgen möglich. Die Bahn erwartet keine Ausfälle, Busse und Straßenbahnen fahren dagegen nur eingeschränkt.",
+            "Wer betroffen ist, hat Anspruch auf Erstattung oder Umbuchung, eine Entschädigung gibt es bei Fluglotsenstreiks aber meist nicht."
+          ],
+          "einschaetzung": "Mehrere Fachportale und der ZDFheute-Ticker melden die Ausfälle übereinstimmend.",
+          "quellen": [
+            {"name": "flight-delayed.com", "url": "https://www.flight-delayed.com/en/news/2026/11/21/brussels-airport-strike-23-november-2026"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Polen:</b> Ein schwedischer Gripen-Pilot hatte Freigabe, den russischen Marschflugkörper abzuschießen, sah ihn bei schlechtem Wetter aber nicht. Der Nato-Rat berät heute in Brüssel.",
+            "<b>Bahrain:</b> Bei einem iranischen Angriff auf eine Industrieanlage in Sitra wurden zwei Menschen verletzt, einer kritisch. Die Revolutionsgarden nennen US-Radaranlagen als Ziel.",
+            "<b>Ukraine:</b> Selenskyj beklagt Verzögerungen bei Lieferungen von Flugabwehrraketen.",
+            "<b>Nigeria:</b> Auf dem Weg zu einer Beerdigung kenterte ein Boot, mindestens 24 Menschen starben."
+          ],
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Sitra", "suche": "Sitra Bahrain"}
+          ],
+          "einschaetzung": "Polen und Bahrain sind gut belegt, die übrigen Punkte stammen aus dem ZDFheute-Ticker.",
+          "quellen": [
+            {"name": "Berliner Zeitung", "url": "https://www.berliner-zeitung.de/article/russische-raketen-polen-nato-abschussfreigabe-10623267"},
+            {"name": "The National", "url": "https://www.thenationalnews.com/news/gulf/2026/11/22/two-injured-one-critically-in-iranian-attack-on-industrial-plant-in-bahrain/"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Hannover Scorpions fanden wir für das Wochenende keine belastbaren Ergebnisse.",
+      "meldungen": [
+        {
+          "titel": "Alcaraz zu stark: Zverev verliert das Finale von Turin",
+          "kurz": "Carlos Alcaraz gewinnt die ATP Finals mit <b>6:2, 7:6 (9:7)</b>. Zverev kämpfte sich im zweiten Satz zurück, verlor aber den Tiebreak knapp.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Inalpi Arena Turin", "suche": "Inalpi Arena Turin"}
+          ],
+          "lang": [
+            "Den ersten Satz holte sich der Spanier mit drei Breaks nach rund 50 Minuten. Im zweiten kam Zverev zurück und erzwang den Tiebreak, dort wehrte Alcaraz einen Satzball ab und nutzte seinen zweiten Matchball.",
+            "Für Zverev wäre es nach 2018 und 2021 der dritte Titel beim Saisonfinale gewesen. Ausruhen kann er sich nicht: Als Nächstes steht der Davis Cup in Bologna an."
+          ],
+          "einschaetzung": "Ergebnis übereinstimmend bei Sportschau, Sky und ATP.",
+          "quellen": [
+            {"name": "Sportschau", "url": "https://www.sportschau.de/tennis/atp/zverev-verpasst-finals-titel,finale-zverev-alcaraz-100.html"},
+            {"name": "Sky Sport", "url": "https://sport.sky.de/tennis/artikel/alexander-zverev-verliert-im-endspiel-bei-den-atp-finals-gegen-carlos-alcaraz/13615351/34130"}
+          ]
+        },
+        {
+          "titel": "Werder fegt den HSV im Nordderby weg",
+          "kurz": "<b>4:0</b> nach torloser erster Hälfte: Friedl, zweimal Njinmah und Füllkrug treffen. Höchster Derbysieg der Bremer seit der Double-Saison 2003/04.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Weserstadion", "suche": "Weserstadion Bremen"}
+          ],
+          "lang": [
+            "Nach der Pause ging es schnell: Friedl köpfte in der 55. Minute ein, Njinmah legte binnen vier Minuten doppelt nach, Füllkrug machte in der Nachspielzeit sein zehntes Saisontor. Der HSV verlor früh Muheim verletzt.",
+            "Werder klettert mit 18 Punkten auf Platz sechs, der HSV bleibt mit 12 Punkten Zwölfter. An der Spitze steht Dortmund mit 24 Punkten vor den Bayern und Freiburg (je 22)."
+          ],
+          "einschaetzung": "Spielbericht und Tabelle der Sportschau, Ergebnis auch bei Fox Sports.",
+          "quellen": [
+            {"name": "Sportschau", "url": "https://www.sportschau.de/fussball/bundesliga/bremen-haemmert-hsv-im-nordderby-weg,spielbericht-werder-bremen-hamburger-sv-104.html"},
+            {"name": "Sportschau-Tabelle", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/tabelle"}
+          ]
+        },
+        {
+          "titel": "Verstappen gewinnt das Chaos von Las Vegas",
+          "kurz": "39 Führungswechsel, zwei Ferrari-Strafen und ein Russell-Dreher kurz vor Schluss: Max Verstappen siegt vor <b>Norris und Piastri</b>. Hülkenberg wird Elfter.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Las Vegas Strip Circuit", "suche": "Las Vegas Strip Circuit"}
+          ],
+          "lang": [
+            "Antonelli wurde Vierter und lieferte sich bis zum letzten Meter ein Duell mit Gasly. Hamilton und Leclerc kassierten jeweils zehn Sekunden Strafe, unter anderem nach einer teaminternen Kollision. Russell rutschte zwei Runden vor Schluss geradeaus und fiel auf Platz neun zurück.",
+            "Die Titel sind ohnehin vergeben: Antonelli ist Weltmeister, Mercedes Konstrukteurs-Champion. Weiter geht es am Sonntag um 17 Uhr in Katar."
+          ],
+          "einschaetzung": "Ergebnis bei Formel 1 und Motorsport-Total übereinstimmend.",
+          "quellen": [
+            {"name": "Motorsport-Total", "url": "https://www.motorsport-total.com/formel-1/news/kurioses-f1-roulette-in-las-vegas-verstappen-siegt-russell-crasht-26112203"},
+            {"name": "Formula1.com", "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Indians:</b> Nach dem 5:3 gegen Hamm am Freitag gab es am Sonntag ein <b>2:5 in Herne</b>. Freitag, 20 Uhr, kommt Neuwied an den Pferdeturm.",
+            "<b>Recken:</b> Nach dem 34:34 gegen Stuttgart ist Pause bis Montag, <b>30. November, 19 Uhr</b> bei den Füchsen Berlin.",
+            "<b>96:</b> Nach dem 2:1 gegen Fürth geht es am Samstag um <b>20:30 Uhr</b> nach Osnabrück. Die U23 bleibt nach einem 0:0 Tabellenführer der Regionalliga.",
+            "<b>NFL:</b> Die Liga gastierte in Mexiko-Stadt, 49ers gegen Vikings war einer der meistgesuchten Begriffe der Nacht."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Angaben der Vereine und der Hannoverschen Rundschau.",
+          "quellen": [
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/"},
+            {"name": "hessenschau (96)", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"},
+            {"name": "Hannoversche Rundschau (U23)", "url": "https://www.hannoversche-rundschau.de/2026/11/21/hannover-96-u23-holt-00-gegen-drochtersen-assel-und-bleibt-erster/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar, heise.de lässt sich nicht automatisch abrufen. Die Suchvolumen stammen aus dem Google-Trends-Feed der Nacht.",
+      "trends": [
+        {"begriff": "star box kühlschrank lidl", "volumen": "20.000+", "anlass": "TV-Erfindung ab heute bei Lidl"},
+        {"begriff": "knossi", "volumen": "500+", "anlass": "Hosen-Panne bei TV-Tanzeinlage"},
+        {"begriff": "joseph zada", "volumen": "500+", "anlass": "junger Haymitch im Panem-Prequel"},
+        {"begriff": "mckenna grace", "volumen": "500+", "anlass": "Panem-Film startet mit Rekord"},
+        {"begriff": "merkury", "volumen": "200+", "anlass": "Russische Korvette in Libyen getroffen"},
+        {"begriff": "49ers – vikings", "volumen": "200+", "anlass": "NFL-Spiel in Mexiko-Stadt"},
+        {"begriff": "x-men", "volumen": "200+", "anlass": "Casting-Gerüchte um Rogue"},
+        {"begriff": "nick nolte", "volumen": "200+", "anlass": "Julia Roberts lästert über Ex-Kollegen"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Die Kühlschrank-Box, die halb Deutschland googelt",
+          "kurz": "Mehr als <b>20.000 Suchanfragen</b> in einer Nacht: Die „Starbox“ aus der Sat.1-Show „Die Millionenidee“ soll Obst und Gemüse im Kühlschrank länger frisch halten und kommt jetzt in den Handel.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Die flache Box für das Gemüsefach bindet Ethylen, das Reifegas von Obst, und reguliert Feuchtigkeit mit Silicagel – ohne Strom und ohne App. Ausgedacht hat sie sich ein Tüftler aus Augsburg. Das Konzept der Show: Was am Sonntagabend gewinnt, liegt kurz danach bei Lidl im Regal und im Onlineshop.",
+            "Ebenfalls ab heute zu haben ist der „Kalkbuster“, ein Bürstenaufsatz gegen Kalk am Wasserhahn ab 7,99 Euro, erfunden von einer Münchner Studentin."
+          ],
+          "einschaetzung": "Produkt und Show sind belegt, einen offiziellen Lidl-Preis für die Starbox konnten wir nicht finden.",
+          "quellen": [
+            {"name": "Basic Thinking", "url": "https://www.basicthinking.de/blog/2026/11/22/frischhalteeinsatz-fuer-den-kuehlschrank-die-millionenidee-starbox/"},
+            {"name": "t-online München", "url": "https://muenchen.t-online.de/region/muenchen/id_101540662/kalkbuster-muenchner-studentin-erfindet-haushaltshelfer-produkt-bei-lidl.html"}
+          ]
+        },
+        {
+          "titel": "Panem-Prequel räumt ab: 120 Millionen Dollar zum Start",
+          "kurz": "„Sunrise on the Reaping“ spielte am ersten Wochenende in Nordamerika rund <b>120 Millionen Dollar</b> ein, weltweit sind es bereits etwa <b>225 Millionen</b>. Das lag über den Erwartungen.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Der Film erzählt die Jugend des späteren Mentors Haymitch, gespielt von Joseph Zada. Prognosen hatten vorab mit rund 100 Millionen Dollar gerechnet. In Südkorea lief er schon seit dem 11. November.",
+            "Das erklärt, warum gleich mehrere Darsteller in den deutschen Suchtrends auftauchen."
+          ],
+          "einschaetzung": "Die Zahlen sind Studio-Schätzungen vom Sonntag und werden am Montag oft noch korrigiert.",
+          "quellen": [
+            {"name": "The Numbers", "url": "https://www.the-numbers.com/movie/Hunger-Games-The-Sunrise-on-the-Reaping-(2026)"},
+            {"name": "New York Times", "url": "https://www.nytimes.com/2026/11/22/business/media/hunger-games-box-office.html"}
+          ]
+        },
+        {
+          "titel": "„Merkury“: Warum ein Schiffsname trendet",
+          "kurz": "Hinter dem Suchbegriff steckt die russische Korvette, die in Bengasi ausgebrannt ist. Internationale Medien berichten von einer <b>Serie von Angriffen</b> auf russische Schiffe weit weg von der Ukraine.",
+          "bewertung": "vorsicht",
+          "orte": [
+            {"name": "Bengasi", "suche": "Bengasi Libyen"}
+          ],
+          "lang": [
+            "Das Wall Street Journal schreibt von zwei russischen Schiffen, die fernab der Front getroffen wurden. Auch die UN verurteilten Drohnenangriffe vor der libyschen Küste und fordern eine Untersuchung.",
+            "Wer genau angegriffen hat, ist offiziell nicht geklärt. Mehr dazu im Ressort Welt."
+          ],
+          "einschaetzung": "Der Trend ist eindeutig, die Hintergründe des Angriffs sind es nicht.",
+          "quellen": [
+            {"name": "Wall Street Journal", "url": "https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb"},
+            {"name": "Times of Israel (UN)", "url": "https://www.timesofisrael.com/liveblog_entry/un-condemns-drone-attacks-off-libya-coast-urges-investigation/"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Bad Grönenbach:</b> Zunächst war von <b>19 Verletzten</b> die Rede, am Abend vom Roten Kreuz von <b>56 Betroffenen</b>, 16 davon im Krankenhaus. Auch die Zahl der Schwerverletzten (zunächst vier) ist unklar. Wir nennen die neueste Angabe.",
+    "<b>Bengasi:</b> Ostlibysche Behörden sprechen von einem explodierten Munitionsdepot und erwähnen kein Schiff. Dass die „Merkuri“ von ukrainischen Drohnen getroffen wurde, ist bislang nur eine Vermutung von Analysten.",
+    "<b>Bahrain:</b> Dass Iran die Industrieanlage in Sitra traf, sagen die bahrainischen Behörden. Die Revolutionsgarden bekennen sich nur zu Angriffen auf US-Radarstellungen.",
+    "<b>Starbox:</b> Im Netz kursieren Preise um 16 bis 20 Euro – das sind Händlerangebote, kein offizieller Lidl-Preis."
+  ],
+  "woche": [
+    {"wann": "Mo 23. Nov", "titel": "Sonne, Frost, Weihnachtsmarkt", "text": "Viel Sonne (rund 8 Stunden), <b>-1 bis 3 Grad</b>, morgens Frost und Glätte. <b>11 Uhr:</b> Weihnachtsdorf am Hauptbahnhof öffnet. <b>16 Uhr:</b> Altstadt-Weihnachtsmarkt startet, Osterstraße und Schmiedestraße gesperrt. Gretelriede bis Freitag dicht. Belgien-Streik: kaum Flüge nach Brüssel. Nato-Rat berät über Polen."},
+    {"wann": "Di 24. Nov", "titel": "Frostig und freundlich", "text": "Teils sonnig, <b>-2 bis 2 Grad</b>, trocken. Weihnachtsmarkt ab jetzt täglich <b>11 bis 21 Uhr</b>. <b>17 Uhr:</b> Das ZeitZentrum Zivilcourage stellt seinen neuen inklusiven Media Guide vor."},
+    {"wann": "Mi 25. bis So 29. Nov", "titel": "Dauerfrost möglich, Sport am Wochenende", "text": "Trocken und kalt, <b>-3 bis 1 Grad</b>, Freitag trüb mit Dauerfrost, Samstag wieder sonnig. <b>Mi 11 Uhr:</b> Vorverkauf Kleines Fest. <b>Fr 20 Uhr:</b> Indians gegen Neuwied. <b>Sa 20:30 Uhr:</b> 96 in Osnabrück. <b>So 17 Uhr:</b> Formel 1 in Katar, <b>18 Uhr:</b> Indians in Leipzig."}
+  ]
+}
