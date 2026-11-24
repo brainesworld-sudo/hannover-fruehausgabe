@@ -1,0 +1,321 @@
+{
+  "stand": "Stand: Dienstag, 24. November, 3 Uhr",
+  "kurz": [
+    "<b>Drohmails an Schulen:</b> Mehr als <b>900 Schulen</b> in mindestens acht Bundesländern bekamen am Montag gleichlautende Bombendrohungen, in Niedersachsen unter anderem in Celle. Die Polizei sieht keine konkrete Gefahr.",
+    "<b>Hormus wird zum Pulverfass:</b> Trump droht Schiffen, die die US-Blockade brechen wollen, mit dem Versenken. Iran kündigt Gegenwehr mit <b>„allen Mitteln“</b> an, im Golf von Oman meldet die britische Seebehörde einen Tanker-Zwischenfall.",
+    "<b>Haushaltswoche im Bundestag:</b> Am Freitag wird über den Etat 2027 abgestimmt – <b>560,9 Milliarden Euro</b> Ausgaben, rund 123 Milliarden neue Schulden im Kernhaushalt.",
+    "<b>Neuer Bulli aus Hannover:</b> VW Nutzfahrzeuge baut jetzt den ID. Buzz Cargo mit langem Radstand – erstmals passt eine <b>Europalette</b> durch die Schiebetür.",
+    "<b>Kartoffel-Rückruf:</b> Kaufland nimmt rote festkochende Speisekartoffeln (1,5 kg, Hersteller Parmentine) zurück – zu viele <b>Glykoalkaloide</b>.",
+    "<b>Sport:</b> Heute Abend um <b>21 Uhr</b> muss der BVB beim Tabellendritten Arsenal ran, Leipzig braucht gegen Lens dringend Punkte. Am Donnerstag startet Deutschland im Davis Cup gegen Großbritannien."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "hinweis": "Radio Hannover und tagesschau.de waren heute nicht erreichbar. Wir stützen uns auf die Stadt, t-online Hannover und das Presseportal der Polizei.",
+      "meldungen": [
+        {
+          "titel": "Längerer Bulli: Europalette passt jetzt durch die Schiebetür",
+          "kurz": "Im VWN-Werk in Stöcken läuft die Serienfertigung des <b>ID. Buzz Cargo mit langem Radstand</b> an. Die Ladefläche wächst auf 2,45 Meter, der Preis startet bei <b>48.490 Euro</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "VW Nutzfahrzeuge Werk Hannover", "suche": "Volkswagen Nutzfahrzeuge Werk Hannover Stöcken"}],
+          "lang": [
+            "Der elektrische Transporter ist 25 Zentimeter länger als die Standardversion, das Ladevolumen steigt um einen halben auf 4,4 Kubikmeter. Erstmals lässt sich eine Europalette seitlich einladen. Serienmäßig ist ein 86-kWh-Akku an Bord, wahlweise mit Heck- oder Allradantrieb, die Anhängelast liegt bei bis zu 1,8 Tonnen.",
+            "In Hannover arbeiten rund 11.000 Menschen für VWN. Auf zwei Linien entstehen dort alle Buzz-Varianten und der Multivan, seit dem Sommer auch der Camper ID. Buzz California. Umgebaut werden musste nach Werksangaben vor allem die Fertigung von Seitenteilen und Schiebetüren."
+          ],
+          "einschaetzung": "Technische Daten und Preise stammen aus der Herstellermitteilung, über die t-online berichtet.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101542564/volkswagen-hannover-fertigung-von-neuem-id-buzz-modell-startet-bei-vwn.html"}]
+        },
+        {
+          "titel": "Veloroute nach Bemerode ist fertig",
+          "kurz": "Nach zweieinhalb Jahren Bauzeit ist die <b>Veloroute 6</b> eröffnet: rund <b>8,1 Kilometer</b> von der Innenstadt bis zur Oheriedentrift, Kosten etwa 5,8 Millionen Euro.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Bischofsholer Damm", "suche": "Bischofsholer Damm Hannover"}, {"name": "Bemerode", "suche": "Bemerode Hannover"}],
+          "lang": [
+            "Die Strecke führt unter anderem über Lavesstraße, Berliner Allee, Marienstraße, Bischofsholer Damm und Bemeroder Straße bis nach Bemerode. Je nach Abschnitt gibt es getrennte Radwege, Fahrradstraßen mit Vorrang für Radler oder eigene Wege abseits der Autos.",
+            "Die Route gehört zu einem Netz aus zwölf sternförmigen Verbindungen, die vom City-Radring in die Stadtbezirke führen sollen. Oberbürgermeister Onay und Stadtbaurat Vielhaber gaben sie am Montag frei."
+          ],
+          "einschaetzung": "Länge, Kosten und Bauzeit stammen aus dem Pressetermin der Stadt.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101542794/hannover-eroeffnet-neue-veloroute-6-nach-bemerode.html"}]
+        },
+        {
+          "titel": "Dieter Nuhr sagt Hannover-Auftritt ab",
+          "kurz": "Der Kabarettist hat eine Krebsdiagnose öffentlich gemacht und pausiert bis zum Frühjahr. Sein Auftritt in der <b>Swiss Life Hall</b> am 6. März 2027 wandert auf den <b>12. Februar 2028</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Swiss Life Hall", "suche": "Swiss Life Hall Hannover"}],
+          "lang": [
+            "Nuhr teilte am Montag auf Instagram mit, er beginne eine Therapie und sage deshalb alle Auftritte und Sendungen bis zum Frühjahr ab, auch seinen Jahresrückblick. Er zeigt sich zuversichtlich, die Erkrankung gilt als gut behandelbar.",
+            "Wer Karten für Hannover hat, muss nichts tun: Die Tickets gelten laut Veranstalter für den neuen Termin weiter."
+          ],
+          "einschaetzung": "Die Absage stammt vom Künstler selbst, der Ersatztermin vom Ticketanbieter.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101542174/dieter-nuhr-macht-krebs-diagnose-oeffentlich-hannover-termin-gestrichen.html"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Weihnachtsmarkt:</b> Messer und Waffen jeder Art sind auf dem Markt verboten, bei Verstößen drohen laut Polizei Bußgelder bis <b>10.000 Euro</b>. Geöffnet ist ab heute täglich 11 bis 21 Uhr.",
+            "<b>Wedemark:</b> Der Zöllner-Hof schließt, das Bistro öffnet am <b>27. November</b> zum letzten Mal. 2027 starten neue Betreiber als „Festhof Wedemark“.",
+            "<b>Kleines Fest:</b> Der Vorverkauf für 2027 beginnt am Mittwoch, angekündigt sind rund 50 Acts, etwa die Hälfte davon Premieren.",
+            "<b>A 7 bei der Wedemark:</b> Nach einem Unfall mit fünf Fahrzeugen am Samstagmorgen Richtung Süden sucht die Polizei Zeugen, mehrere Menschen wurden verletzt.",
+            "<b>Gretelriede:</b> Zwischen Heusingerstraße und DB-Brücke bleibt die Straße wegen neuer Fahrbahndecke bis etwa Freitag voll gesperrt."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Alle Punkte stammen von Stadt, Polizei oder Betreibern.",
+          "quellen": [
+            {"name": "t-online (Bußgelder)", "url": "https://hannover.t-online.de/region/hannover/id_101541820/weihnachtsmarkt-hannover-bei-diesem-verstoss-drohen-hohe-bussgelder.html"},
+            {"name": "t-online (Zöllner-Hof)", "url": "https://hannover.t-online.de/region/hannover/id_101542638/zoellner-hof-wedemark-schliesst-neue-betreiber-starten-mit-neuem-namen.html"},
+            {"name": "hannover.de (Kleines Fest)", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Kleines-Fest-im-Großen-Garten-Vorverkaufsstart-am-25.-November"},
+            {"name": "Polizei Hannover (A 7)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6395472"},
+            {"name": "hannover.de (Gretelriede)", "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Gretelriede-erhält-neue-Fahrbahndecke"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Drohmail-Welle: Über 900 Schulen betroffen",
+          "kurz": "Am Montagmorgen gingen an Schulen in mindestens acht Ländern <b>wortgleiche Bombendrohungen</b> per E-Mail ein. Allein Baden-Württemberg zählte über 450 Schulen, in Niedersachsen traf es unter anderem <b>Celle</b>.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Celle", "suche": "Celle Niedersachsen"}],
+          "lang": [
+            "Betroffen waren neben Baden-Württemberg vor allem Sachsen (rund 200 Schulen, davon über 80 in Leipzig), Sachsen-Anhalt (etwa 260), Thüringen, Brandenburg, Berlin, Schleswig-Holstein, Mecklenburg-Vorpommern und Teile Hessens. Die Polizei stufte die Drohungen überall als nicht ernst gemeint ein. Thüringen riet ausdrücklich, Schulen nicht zu räumen.",
+            "Einzelne Schulen ließen ihre Gebäude trotzdem vorsorglich verlassen, etwa in Wustermark und Hennigsdorf. Zum Absender gibt es keine Erkenntnisse, ermittelt wird wegen Störung des öffentlichen Friedens. Ähnliche Wellen hatte es im November bereits in Italien gegeben."
+          ],
+          "einschaetzung": "Die Drohungen selbst sind mehrfach bestätigt, die Gesamtzahl ist aber eine Summe aus Länderangaben zu unterschiedlichen Zeitpunkten.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101541870/bombendrohungen-gegen-zahlreiche-schulen-in-ganz-deutschland.html"},
+            {"name": "t-online Hannover (Niedersachsen)", "url": "https://hannover.t-online.de/region/hannover/id_101541982/niedersachsen-bombendrohungen-gegen-mehrere-schulen.html"},
+            {"name": "drohnen.de (Länderübersicht)", "url": "https://www.drohnen.de/101130/bombendrohungen-schulen-deutschland/"}
+          ]
+        },
+        {
+          "titel": "Haushaltswoche: Freitag fällt die Entscheidung über 561 Milliarden",
+          "kurz": "Der Bundestag berät in dieser Woche abschließend über den Etat 2027. Die Schlussabstimmung ist für <b>Freitag gegen 12:40 Uhr</b> angesetzt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Reichstagsgebäude", "suche": "Reichstagsgebäude Berlin"}],
+          "lang": [
+            "Nach der Bereinigungssitzung des Haushaltsausschusses liegen die Ausgaben bei rund 560,9 Milliarden Euro, gut fünf Milliarden mehr als im Regierungsentwurf. Der Kernhaushalt sieht knapp 123 Milliarden Euro neue Kredite vor, zusammen mit den Sondertöpfen für Infrastruktur, Klima und Bundeswehr sind es gut 210 Milliarden – die zweithöchste Neuverschuldung der Bundesrepublik.",
+            "Die Zuckersteuer ist auf 2028 verschoben, die Plastikabgabe vorerst gestrichen, eine Senkung der Stromsteuer für alle bleibt offen. Aus der SPD kam am Montag Kritik daran, dass wichtige Weichen im Koalitionsausschuss statt im Parlament gestellt wurden."
+          ],
+          "einschaetzung": "Zahlen und Termin stammen vom Bundestag, die Einordnung der Gesamtverschuldung von der Börsen-Zeitung.",
+          "quellen": [
+            {"name": "Bundestag", "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"},
+            {"name": "Börsen-Zeitung", "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro"},
+            {"name": "ZDFheute-Ticker (SPD-Kritik)", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kaufland ruft Kartoffeln zurück",
+          "kurz": "Betroffen sind <b>rote festkochende Speisekartoffeln, 1,5 kg</b>, aus Frankreich vom Hersteller Parmentine. Darin wurden erhöhte Mengen an <b>Glykoalkaloiden</b> gefunden.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die natürlichen Abwehrstoffe der Kartoffel können in größerer Menge Übelkeit, Bauchschmerzen, Erbrechen und Durchfall auslösen. Erkennbar ist die betroffene Ware an der Losnummer 26128774 und dem Packdatum 4205 AF.",
+            "Die Kartoffeln können in jeder Kaufland-Filiale zurückgegeben werden, das Geld gibt es auch ohne Kassenbon. Der Rückruf trendete am Montag bei Google mit über 1.000 Suchanfragen."
+          ],
+          "einschaetzung": "Offizielle Rückrufmeldung des Händlers.",
+          "quellen": [{"name": "Kaufland", "url": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/rueckruf-speisekartoffeln-rot-festkochend-1-5-kg-des-herstellers-parmentine"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Femizide:</b> Die Union will Tötungen durch Partner oder Ex-Partner als eigenes Mordmerkmal ins Strafgesetzbuch schreiben.",
+            "<b>Wölfe:</b> Der Bestand ist leicht gewachsen, auf mindestens <b>1.682 Tiere</b> in 288 Territorien.",
+            "<b>IG Metall:</b> Nach Warnstreiks geht es am Mittwoch in Mannheim in die vierte Verhandlungsrunde.",
+            "<b>Privatbanken:</b> Keine Einigung für rund 150.000 Beschäftigte, weiterverhandelt wird erst am 20. Januar.",
+            "<b>Rohstoffe:</b> Industrieverbände schlagen ein von der Wirtschaft getragenes Handelshaus vor, um von China unabhängiger zu werden."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Kurzmeldungen aus dem ZDF-Nachrichtenticker, nicht einzeln gegengeprüft.",
+          "quellen": [{"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Straße von Hormus: Drohungen, Brände, Blockade",
+          "kurz": "Trump will Schiffe, die die US-Seeblockade gegen Iran durchbrechen, <b>versenken lassen</b>. Teheran nennt die Blockade ein Verbrechen und droht mit Gegenwehr.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Straße von Hormus", "suche": "Straße von Hormus"}, {"name": "Golf von Oman", "suche": "Golf von Oman"}],
+          "lang": [
+            "Irans Außenamtssprecher kündigte an, man werde sich mit allen Mitteln wehren. Medien der Revolutionsgarden sprechen von Plänen, die Blockade zu brechen – einen konkreten Plan für einen Tanker-Konvoi gebe es laut Behörden aber nicht. Iranische Medien berichteten zudem von zwei brennenden Öltankern östlich der Meerenge, die in ein Sperrgebiet gefahren sein sollen.",
+            "Die britische Seeschifffahrtsbehörde UKMTO bestätigte am Sonntag einen Zwischenfall mit einem Tanker im Golf von Oman, an dem Militär beteiligt war. Details nannte sie nicht, das US-Zentralkommando schwieg zunächst."
+          ],
+          "einschaetzung": "Die Drohungen beider Seiten sind gut belegt, wer die Tanker in Brand gesetzt hat, ist völlig offen.",
+          "quellen": [
+            {"name": "Euronews", "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat"}
+          ]
+        },
+        {
+          "titel": "Indien hilft Nepal nach Gletscherflut mit 1,4 Milliarden",
+          "kurz": "Premier Modi sagte Nepal ein Paket über umgerechnet <b>1,4 Milliarden Euro</b> zu. Die Flut im August kostete mehr als <b>1.400 Menschen</b> das Leben.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Neu-Delhi", "suche": "Neu-Delhi Indien"}, {"name": "Nepal", "suche": "Nepal"}],
+          "lang": [
+            "Ende August war hoch im Himalaya ein Gletscher abgebrochen, Fels, Eis und Schmelzwasser schossen durch Täler in Tibet und Nepal. Rund 5.000 Menschen gelten weiter als vermisst, darunter Hunderte Arbeiter von zerstörten Wasserkraftwerken.",
+            "Nepal schätzt die Kosten für den Wiederaufbau auf gut vier Milliarden Euro, Indiens Zusage deckt also etwa ein Drittel. Beim Besuch von Nepals Regierungschef in Neu-Delhi wurden außerdem Abkommen zu Bahn, Wasserkraft und Treibstoff-Infrastruktur geschlossen."
+          ],
+          "einschaetzung": "Offizielle Zusage, über die Euronews mit Verweis auf beide Regierungen berichtet.",
+          "quellen": [{"name": "Euronews", "url": "https://www.euronews.com/2026/11/23/india-pledges-14bn-to-help-nepal-rebuild-after-deadly-glacier-flood"}]
+        },
+        {
+          "titel": "Belgien steht still – elfter Luftraum-Streik in elf Monaten",
+          "kurz": "Der landesweite Aktionstag gegen den Sparkurs legte am Montag fast den gesamten <b>Flugverkehr</b> lahm, in Brüssel gingen die Menschen in großer Zahl auf die Straße.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Brüssel", "suche": "Brüssel Belgien"}],
+          "lang": [
+            "Die Flugsicherung Skeyes stellte zwischen 7 und 21 Uhr den regulären Betrieb ein, nur Not- und Sicherheitsflüge sollten starten. Auch Bahnen, Schulen, Behörden und Müllabfuhr waren betroffen. Die Fluggesellschaften zählen den elften Streik im belgischen Luftraum binnen elf Monaten.",
+            "Hintergrund ist das Sparprogramm von Premier De Wever, der in den kommenden Jahren rund zehn Milliarden Euro einsparen will. Anfang November hatte er bereits seinen Rücktritt angeboten, der König lehnte ab."
+          ],
+          "einschaetzung": "Ankündigung und Folgen sind von mehreren Medien übereinstimmend berichtet, genaue Ausfallzahlen fehlen noch.",
+          "quellen": [
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Libyen:</b> Nach dem Drohnentreffer auf russische Schiffe vor Bengasi fordert die UN-Mission eine unabhängige Untersuchung. Bekannt hat sich niemand.",
+            "<b>Polen:</b> Warschau wirft Russland vor, einen ukrainisch-amerikanischen Rapper bereits zum zweiten Mal ins Visier genommen zu haben, Moskau weist das zurück.",
+            "<b>Indonesien:</b> Beim Brand einer Süßwarenfabrik auf Java bargen Einsatzkräfte <b>24 Leichensäcke</b>, Dutzende Arbeiter werden vermisst.",
+            "<b>Nato:</b> Nach dem Absturz russischer Marschflugkörper in Polen überwacht ein zusätzliches AWACS-Flugzeug die Ostflanke.",
+            "<b>EU:</b> Die Kommission hat ein 22. Sanktionspaket gegen Russland vorgeschlagen, es zielt auf Banken, Krypto-Plattformen und Energieversorger."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Einzelmeldungen aus Euronews, Al Jazeera und dem ZDF-Ticker.",
+          "quellen": [
+            {"name": "Euronews (Libyen)", "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi"},
+            {"name": "Al Jazeera (Polen)", "url": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice"},
+            {"name": "Al Jazeera (Indonesien)", "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "hinweis": "Zu den Hannover Scorpions fanden wir erneut keine belastbaren aktuellen Meldungen.",
+      "meldungen": [
+        {
+          "titel": "BVB beim Tabellendritten: Arsenal wartet",
+          "kurz": "Heute um <b>21 Uhr</b> spielt Dortmund (9 Punkte, Platz 12) im Emirates Stadium gegen Arsenal (10 Punkte, Platz 3). Parallel empfängt Leipzig den RC Lens – ein <b>Kellerduell</b> der Ligaphase.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Emirates Stadium", "suche": "Emirates Stadium London"}, {"name": "Red Bull Arena Leipzig", "suche": "Red Bull Arena Leipzig"}],
+          "lang": [
+            "Arsenal ist in dieser Champions-League-Saison ungeschlagen, zuletzt gab es ein 2:2 in München. Hinter Bukayo Saka, der dort früh verletzt raus musste, steht ein Fragezeichen. Der BVB holte seine neun Punkte aus drei Siegen, verlor aber in Bodø.",
+            "Für Leipzig wird es eng: Mit nur drei Punkten steht RB auf Rang 29, Lens ist mit ebenso vielen Zählern 33. Ab Platz 25 ist man raus. Bayern spielt am Mittwoch in Lille, Stuttgart bei Inter Mailand."
+          ],
+          "einschaetzung": "Tabelle und Anstoßzeit laut Bundesliga.com, Form und Saka-Frage aus der Spielvorschau.",
+          "quellen": [
+            {"name": "Bundesliga.com (Tabelle)", "url": "https://www.bundesliga.com/de/champions-league/spieltag/2026-2027/5/rb-leipzig-vs-racing-club-de-lens/table"},
+            {"name": "ran (Spielplan)", "url": "https://ran.joyn.de/sports/fussball/champions-league/champions-league20262027-wann-spielen-die-deutschen-teams-und-wem-gelingt-der-einzug-in-die-ko-phase-177810"},
+            {"name": "Little Big Red Dot (Vorschau)", "url": "https://littlebigreddot.com/arsenal-dortmund-champions-league-emirates-24-november-2026/"}
+          ]
+        },
+        {
+          "titel": "96 tankt Selbstvertrauen fürs Niedersachsen-Duell",
+          "kurz": "Nach dem späten <b>2:1 gegen Fürth</b> – Taibi traf in der Nachspielzeit – steht 96 bei <b>15 Punkten</b> aus zwölf Spielen. Am Samstag um 20:30 Uhr geht es nach Osnabrück.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Bremer Brücke", "suche": "Stadion an der Bremer Brücke Osnabrück"}],
+          "lang": [
+            "Verteidiger Jean Hugonet schwärmte nach dem Last-Minute-Sieg vom Spaß, solche Spiele zu drehen. Die Bilanz bleibt aber durchwachsen: vier Siege, drei Remis, fünf Niederlagen, 14:19 Tore. Auswärts hat 96 bisher erst einmal gewonnen.",
+            "Danach folgt am 5. Dezember das Heimspiel gegen Hertha BSC, eine Woche später geht es nach Kiel."
+          ],
+          "einschaetzung": "Ergebnis vom Verein, Bilanz und Spielplan bei der hessenschau übereinstimmend.",
+          "quellen": [
+            {"name": "Hannover 96", "url": "https://hannover96.de/newscenter/news/details/37751-jean-hugonet-nach-dem-last-minute-sieg-gegen-fuerth-als-spieler-macht-es-auch-viel-spass.html"},
+            {"name": "hessenschau (Spielplan)", "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-2bl100~team_id-14.html"}
+          ]
+        },
+        {
+          "titel": "Davis Cup: Zverev und Co. gegen Großbritannien",
+          "kurz": "Kaum ist das Finale von Turin vorbei, geht es weiter: Am <b>Donnerstag ab 10 Uhr</b> spielt Deutschland in Bologna im Viertelfinale gegen <b>Großbritannien</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "BolognaFiere", "suche": "BolognaFiere Bologna"}],
+          "lang": [
+            "Im Team stehen Alexander Zverev, Jan-Lennard Struff, Yannick Hanfmann sowie die Doppelspezialisten Kevin Krawietz und Tim Pütz. Zverev hatte am Sonntag das Endspiel der ATP Finals gegen Alcaraz verloren.",
+            "Im frei empfangbaren Fernsehen läuft das Turnier nicht, übertragen wird kostenlos im Stream bei Joyn."
+          ],
+          "einschaetzung": "Termin, Gegner und Aufgebot laut ran, das die Rechte hält.",
+          "quellen": [{"name": "ran", "url": "https://ran.joyn.de/sports/tennis/davis-cup/davis-cup-finale2026-live-mit-alexander-zverev-und-deutschland-gegner-im-viertelfinale-fix-189445"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Recken:</b> Pause bis Montag, <b>30. November, 19 Uhr</b> bei den Füchsen Berlin.",
+            "<b>Indians:</b> Freitag, 20 Uhr, kommt Neuwied an den Pferdeturm, Sonntag geht es nach Leipzig.",
+            "<b>Champions League Mittwoch:</b> Lille gegen Bayern und Inter gegen Stuttgart, jeweils 21 Uhr.",
+            "<b>NFL:</b> Die San Francisco 49ers trennen sich nach langem Hin und Her von Receiver Brandon Aiyuk."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Termine aus den Spielplänen der Vereine und Ligen.",
+          "quellen": [
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "ran (Champions League)", "url": "https://ran.joyn.de/sports/fussball/champions-league/champions-league20262027-wann-spielen-die-deutschen-teams-und-wem-gelingt-der-einzug-in-die-ko-phase-177810"},
+            {"name": "NFL.com", "url": "https://www.nfl.com/news/49ers-releasing-wr-brandon-aiyuk"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war nicht erreichbar, heise.de lieferte nur einen veralteten Seitenstand. Die Suchvolumen stammen aus dem Google-Trends-Feed vom Montagabend.",
+      "trends": [
+        {"begriff": "bauer sucht frau tobias pankow", "volumen": "2.000+", "anlass": "Hofwoche sorgt für Gesprächsstoff"},
+        {"begriff": "patrice aminati", "volumen": "2.000+", "anlass": "Moderatorin trauert um Freundinnen"},
+        {"begriff": "kaufland", "volumen": "1.000+", "anlass": "Rückruf von Speisekartoffeln"},
+        {"begriff": "san francisco 49ers", "volumen": "500+", "anlass": "Trennung von Brandon Aiyuk"},
+        {"begriff": "preis", "volumen": "200+", "anlass": "Black-Week-Angebote laufen an"},
+        {"begriff": "jeremy renner", "volumen": "200+", "anlass": "Neue Besetzung für „Avengers: Doomsday“"},
+        {"begriff": "beverly hills cop 2", "volumen": "200+", "anlass": "Actionklassiker im Abendprogramm"},
+        {"begriff": "uwe seeler", "volumen": "200+", "anlass": "Uwe-Seeler-Preis in Hamburg verliehen"}
+      ],
+      "meldungen": [
+        {
+          "titel": "KI-Angst an den Börsen: Nasdaq radiert das Jahresplus aus",
+          "kurz": "Am Freitag verlor der Nasdaq <b>5,3 Prozent</b> und steht damit wieder auf dem Stand von Jahresbeginn. Am Montag rutschte der südkoreanische Kospi zeitweise fast <b>6 Prozent</b> ab.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Seoul", "suche": "Korea Exchange Seoul"}],
+          "lang": [
+            "Anleger zweifeln zunehmend, ob die großen Tech-Konzerne ihre Billionen-Ausgaben für KI-Rechenzentren durchhalten können. Vergleiche mit der Dotcom-Blase machen die Runde. Dazu kommen Sorgen, dass nach dem Sieg der Demokraten bei den Midterms weniger Rechenzentren gebaut werden, und eine Spionageaffäre rund um Nvidia, die strengere Chip-Regeln für China wahrscheinlicher macht.",
+            "Der Kospi schloss am Montag gut drei Prozent im Minus, Samsung und SK Hynix gaben nach. Taiwans Börse erholte sich dagegen, die US-Terminkontrakte deuteten auf eine Gegenbewegung hin."
+          ],
+          "einschaetzung": "Die Kursdaten sind belastbar, die Erklärungen für den Absturz sind Deutungen von Marktbeobachtern.",
+          "quellen": [
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"},
+            {"name": "ZDFheute-Ticker (Nvidia)", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "44-Milliarden-Deal: CrowdStrike will Zscaler schlucken",
+          "kurz": "Der IT-Sicherheitskonzern kauft den Rivalen komplett in Aktien, das Volumen liegt bei rund <b>43,9 Milliarden Dollar</b>. Je Zscaler-Aktie gibt es <b>1,135</b> CrowdStrike-Papiere.",
+          "bewertung": "gesichert",
+          "lang": [
+            "CrowdStrike verkündete den Kauf am Montag zusammen mit seinen Quartalszahlen. Beide Firmen arbeiteten bislang als Partner zusammen: CrowdStrike sichert vor allem Rechner und Server ab, Zscaler den Datenverkehr in die Cloud.",
+            "Abgeschlossen ist der Deal noch nicht, Kartellbehörden müssen zustimmen. Einen Zeitplan nannte CrowdStrike nicht."
+          ],
+          "einschaetzung": "Offizielle Unternehmensmitteilung bei der US-Börsenaufsicht.",
+          "quellen": [
+            {"name": "CrowdStrike / SEC", "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Nachtrag Bengasi:</b> Gestern meldeten wir die „Merkury“ als ausgebrannt. Inzwischen zeigen Satellitenbilder das Schiff gekentert, die ostlibyschen Behörden gehen nun ebenfalls von Drohnen aus. Einen Täter hat niemand benannt.",
+    "<b>„900 Schulen“:</b> Eine offizielle Gesamtzahl gibt es nicht. Die Zahl ist eine Summe aus Länderangaben, die zu verschiedenen Zeitpunkten gemacht wurden – sie kann noch steigen oder doppelt Gezähltes enthalten.",
+    "<b>Tanker in Hormus:</b> Dass zwei Tanker brannten, berichten iranische Medien. Unabhängig bestätigt ist nur ein Zwischenfall mit Militärbeteiligung im Golf von Oman, ohne Details.",
+    "<b>Black Week:</b> Viele „Halber Preis“-Angebote beziehen sich auf die unverbindliche Preisempfehlung, nicht auf den tatsächlichen Marktpreis. Vor dem Kauf lohnt ein Preisvergleich."
+  ],
+  "woche": [
+    {"wann": "Di 24. Nov", "titel": "Frostiger Start, Königsklasse am Abend", "text": "Meist bewölkt, zeitweise heiter, <b>-2 bis 3 Grad</b>, trocken. Glättewarnung bis <b>10 Uhr</b>. Weihnachtsmarkt täglich <b>11 bis 21 Uhr</b>. <b>17 Uhr:</b> ZeitZentrum Zivilcourage stellt seinen inklusiven Media Guide vor. <b>21 Uhr:</b> Arsenal gegen Dortmund, Leipzig gegen Lens."},
+    {"wann": "Mi 25. Nov", "titel": "Grau und kalt", "text": "Bewölkt, trocken, <b>-3 bis 1 Grad</b>. <b>11 Uhr:</b> Vorverkauf fürs Kleine Fest 2027. IG Metall verhandelt in Mannheim. <b>21 Uhr:</b> Lille gegen Bayern, Inter gegen Stuttgart."},
+    {"wann": "Do 26. bis So 29. Nov", "titel": "Dauerfrost, Davis Cup, 96 in Osnabrück", "text": "Um den Gefrierpunkt, Donnerstag etwas Niederschlag möglich, <b>-3 bis 0 Grad</b>. <b>Do 10 Uhr:</b> Davis Cup Deutschland gegen Großbritannien. <b>Fr:</b> Black Friday, Haushalts-Abstimmung im Bundestag, <b>20 Uhr</b> Indians gegen Neuwied. <b>Sa 20:30 Uhr:</b> 96 in Osnabrück. <b>So 17 Uhr:</b> Formel 1 in Katar, <b>18 Uhr:</b> Indians in Leipzig."}
+  ]
+}
