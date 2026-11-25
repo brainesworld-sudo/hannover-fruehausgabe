@@ -1,0 +1,339 @@
+{
+  "stand": "Stand: Mittwoch, 25. November, 3 Uhr",
+  "kurz": [
+    "<b>S4 fällt bis Dezember 2027 aus:</b> Wegen einer schwer beschädigten Brücke in Vechelde fährt die S-Bahn zwischen Hannover und Hildesheim ein weiteres Jahr nicht. Ab 30. November fährt die <b>S3 häufiger</b>.",
+    "<b>Angriff auf Grünen-Sitzung in Schwerte:</b> Ein Maskierter sprühte am Montagabend Reizgas in eine Fraktionssitzung, <b>acht Menschen</b> wurden verletzt. Der Täter ist flüchtig, der Staatsschutz ermittelt.",
+    "<b>VW-Tarifrunde:</b> Der Auftakt in Emden war nach rund 90 Minuten vorbei. VW will <b>Nullrunden</b> für 2027 und 2028, die IG Metall 5 Prozent mehr. Ab Januar drohen Warnstreiks – auch in Hannover.",
+    "<b>Ungarn wendet sich der Ukraine zu:</b> Premier Péter Magyar besuchte Selenskyj in Transkarpatien – der erste offizielle Besuch eines ungarischen Regierungschefs seit dem Bruch der Orbán-Jahre.",
+    "<b>Microsoft im Alarmmodus:</b> Nach dem weltweiten 365-Ausfall vom 12. und 13. November hat der Konzern intern <b>„Code Red“</b> ausgerufen.",
+    "<b>Sport:</b> Dortmund holt beim Tabellendritten Arsenal ein <b>1:1</b>, Leipzig schlägt Lens <b>3:1</b>. Hannover 96 hat mit <b>Gabor Ruhr</b> einen neuen Sportdirektor. Heute Abend: Lille gegen Bayern, Inter gegen Stuttgart."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "S4 nach Hildesheim: Ein Jahr länger auf dem Abstellgleis",
+          "kurz": "Eigentlich sollte die S4 ab heute wieder fahren. Doch eine Brückenprüfung in <b>Vechelde</b> hat so schwere Schäden gezeigt, dass die Linie nun bis zum <b>11. Dezember 2027</b> ausfällt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Hildesheim Hbf", "suche": "Hildesheim Hauptbahnhof"}, {"name": "Vechelde", "suche": "Bahnhof Vechelde"}],
+          "lang": [
+            "Die DB InfraGO hat die S-Bahn Hannover am 23. November informiert: Das betroffene Gleis auf der Strecke Hannover–Braunschweig bleibt gesperrt, die Rückkehr der S4 ist damit vom Tisch. Nur einzelne Fahrten am frühen Morgen und späten Abend bleiben.",
+            "Als Ersatz hält der RE10 zusätzlich in Laatzen (Messe), Rethen, Barten und Emmerke. Vom 30. November bis 13. Dezember fährt die S3 werktags zu Stoßzeiten alle 30 Minuten über Harsum, Algermissen, Sehnde und Lehrte. Achtung: Fahrplan-Apps zeigen teils noch S4-Fahrten an, die es nicht gibt."
+          ],
+          "einschaetzung": "Offizielle Mitteilung der Region, von Radio Hannover bestätigt.",
+          "quellen": [
+            {"name": "hannover.de", "url": "https://www.hannover.de/Service-Tipps/Brückenbauar­bei­ten-S4-ent­fällt-zwi­schen-Han­no­ver-und-Hil­des­heim,-S3-fährt-häufiger"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/keine-wiederaufnahme-s4-faellt-bis-ende-2027-aus"}
+          ]
+        },
+        {
+          "titel": "ADAC-Test: Park+Ride in der Region fällt durch",
+          "kurz": "Sechs P+R-Anlagen hat der ADAC geprüft – die beste in <b>Lehrte</b> kam nur auf „ausreichend“, <b>Ehlershausen</b> landete mit „sehr mangelhaft“ ganz hinten.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Bahnhof Ehlershausen", "suche": "Bahnhof Ehlershausen Burgdorf"}, {"name": "Bahnhof Lehrte", "suche": "Bahnhof Lehrte"}],
+          "lang": [
+            "Hauptkritik der Tester: fehlende Videoüberwachung und kaum Stellplätze für Frauen oder Familien. Burgdorf bekam ein „mangelhaft“.",
+            "Das Gute: Im Berufsverkehr war die Bahn schneller als das Auto – von Lehrte zum Hauptbahnhof brauchte sie 18 Minuten, von Wunstorf 23. Der ADAC betont, dass der Test nur eine Momentaufnahme dieser sechs Anlagen ist."
+          ],
+          "einschaetzung": "ADAC-Ergebnisse von zwei Lokalmedien übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/park-ride-anlagen-in-der-region-hannover-schneiden-schlecht-ab"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101543688/region-hannover-p-r-anlage-in-ehlershausen-ist-schlusslicht-im-adac-test.html"}
+          ]
+        },
+        {
+          "titel": "Avatar „Henriette“ fragt in der Notaufnahme nach",
+          "kurz": "Im <b>Henriettenstift</b> befragt ab sofort ein KI-Avatar wartende Patienten nach ihren Beschwerden – in <b>57 Sprachen</b>.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Henriettenstift", "suche": "DIAKOVERE Henriettenstift Hannover"}],
+          "lang": [
+            "Die Antworten werden für das Behandlungsteam aufbereitet. Diakovere will damit die Dokumentation erleichtern und dem Personal mehr Zeit für die eigentliche Versorgung verschaffen.",
+            "Welcher Anbieter hinter dem System steckt und wie die Daten verarbeitet werden, geht aus der Meldung nicht hervor."
+          ],
+          "einschaetzung": "Nur eine Quelle, Angaben stammen vom Klinikbetreiber selbst.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/ki-assistent-unterstuetzt-notaufnahme-im-henriettenstift"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>ZAG-Arena:</b> Das Konzert des griechischen Sängers Konstantinos Argiros am Dienstag fiel aus gesundheitlichen Gründen aus. Ersatztermin soll im <b>Mai 2027</b> sein, Tickets bleiben gültig.",
+            "<b>Isernhagen:</b> Unbekannte haben in der Nacht zum 22. November einen Fahrkartenautomaten gesprengt, die Polizei sucht Zeugen.",
+            "<b>B 65 bei Gehrden:</b> Ein zehnjähriges Mädchen wurde am Montag von einem Transporter erfasst und schwer verletzt.",
+            "<b>Drogenhandel:</b> Bei fünf Durchsuchungen im Stadtgebiet stellte die Polizei Drogen und Datenträger sicher, ein Verdächtiger sitzt in U-Haft.",
+            "<b>Garbsen:</b> Die Stadt weitet <b>Tempo 30</b> auf weitere Straßen aus."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Polizeimeldungen und Lokalberichte.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101544266/konzert-in-hannover-musikstar-cancelt-auftritt-in-zag-arena-der-grund.html"},
+            {"name": "Polizei Hannover (Isernhagen)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6397059"},
+            {"name": "Polizei Hannover (Gehrden)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6396826"},
+            {"name": "Polizei Hannover (Durchsuchungen)", "url": "https://www.presseportal.de/blaulicht/pm/66841/6397233"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/garbsen-weitet-tempo-30-auf-mehreren-strassen-aus"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Reizgas-Attacke auf Grünen-Sitzung in Schwerte",
+          "kurz": "Ein maskierter Mann stürmte am Montag gegen <b>20:30 Uhr</b> eine öffentliche Fraktionssitzung im Grünen-Büro und sprühte Reizstoff in Gesichter. <b>Acht von elf</b> Anwesenden wurden verletzt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Brückstraße Schwerte", "suche": "Brückstraße Schwerte"}],
+          "lang": [
+            "Eine Person kam ins Krankenhaus. Laut den Schwerter Grünen verhinderte ein Fraktionsmitglied, das dazwischenging, Schlimmeres. Ob ein am Tatort gefundener Feuerlöscher als Schlagwerkzeug diente, prüft die Polizei noch. Bis Dienstagnachmittag war der Täter nicht gefasst.",
+            "An der Scheibe klebte ein Sticker mit einem antikommunistischen Slogan, wie er in der rechtsextremen Szene vertrieben wird. Der Staatsschutz hat übernommen. Politiker mehrerer Parteien verurteilten die Tat als Angriff auf die Demokratie."
+          ],
+          "einschaetzung": "Tatablauf von taz und Ruhr Nachrichten übereinstimmend; das Motiv ist noch nicht offiziell geklärt.",
+          "quellen": [
+            {"name": "taz", "url": "https://taz.de/Anschlag-auf-Parteibuero-in-Schwerte/!6232806/"},
+            {"name": "Ruhr Nachrichten", "url": "https://www.ruhrnachrichten.de/schwerte/schwerte-polizei-rettungseinsatz-uebergriff-nahe-gruenen-parteibuero-w1277873-2002310563/"}
+          ]
+        },
+        {
+          "titel": "VW-Tarifrunde: Nach 90 Minuten war Schluss",
+          "kurz": "In der Emder Nordseehalle trafen VW und IG Metall erstmals aufeinander – ohne jede Annäherung. Es geht um rund <b>120.000 Beschäftigte</b>, darunter das Werk in Hannover.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Nordseehalle Emden", "suche": "Nordseehalle Emden"}],
+          "lang": [
+            "Volkswagen will die Arbeitskosten drücken: Nullrunden 2027 und 2028, weniger Boni und Zulagen, Abstriche an der 35-Stunden-Woche und weitere 12.000 Stellen weniger in Deutschland. Die IG Metall fordert dagegen 5 Prozent mehr Geld und will erst Grundsätzliches klären, bevor sie über Einsparungen spricht.",
+            "Die nächste Runde ist am <b>15. Dezember in Zwickau</b>. Am 31. Dezember endet die Friedenspflicht, ab Anfang Januar sind Warnstreiks möglich."
+          ],
+          "einschaetzung": "dpa-Bericht, von mehreren Medien übernommen; deckt sich mit dem ZDF-Ticker.",
+          "quellen": [
+            {"name": "nau.ch (dpa)", "url": "https://www.nau.ch/news/wirtschaft/erste-runde-bei-vw-tarifverhandlungen-ergebnislos-beendet-67206284"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Wirtschaftsweise will Sonderabgabe und Renten-Einschnitte",
+          "kurz": "Mitten in der Haushaltswoche fordert Ratschefin <b>Monika Schnitzer</b> einen Zuschlag von <b>2,5 Prozent</b> auf Einkommen-, Körperschaft- und Kapitalertragsteuer – rund 10 Milliarden Euro im Jahr.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Zugleich will Schnitzer die Ausgaben deutlich senken: die Haltelinie beim Rentenniveau überprüfen, die ausgeweitete Mütterrente zurücknehmen und Vergünstigungen etwa für Diesel und Gastronomie streichen. Ihre Rechnung: Wenn die Verteidigung ab 2040 wieder voll aus dem Haushalt bezahlt werden muss, fehlen rund 300 Milliarden Euro.",
+            "Weitere Kredite hält sie nicht für einen Ausweg. Am Freitag stimmt der Bundestag über den Etat 2027 ab."
+          ],
+          "einschaetzung": "Aussagen aus einem Handelsblatt-Interview, von Regionalzeitungen wiedergegeben.",
+          "quellen": [
+            {"name": "Gießener Anzeiger", "url": "https://www.giessener-anzeiger.de/wirtschaft/wirtschaftsweise-schnitzer-fordert-neue-steuer-und-kuerzungen-haushalt-bundestag-regierung-zr-94605461.html"},
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/deutschland/deutschland-wirtschaftsweise-fordert-neue-steuer-und-harte-kuerzungen-02/100267312.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Flugabwehr:</b> Die Bundesregierung will Patriot-Systeme für über <b>4 Milliarden Euro</b> kaufen, der Haushaltsausschuss soll im Dezember zustimmen.",
+            "<b>EU-Mahnung:</b> Die Kommission sieht die Gefahr, dass Deutschland 2027 die Vorgaben für die Nettoausgaben reißt.",
+            "<b>Bundesverwaltungsgericht:</b> Carsten Günther wird neuer Präsident.",
+            "<b>Chemnitz:</b> Die Öffnung des Karl-Marx-Kopfs verzögert sich, weil Statik-Unterlagen fehlen."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Meldungen aus dem ZDF-Nachrichtenticker.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Hormus: Die Meerenge ist praktisch dicht",
+          "kurz": "Die Datenbank IMF PortWatch zählte am 22. November nur noch <b>eine Durchfahrt</b> – vor der Krise waren es rund 85 pro Tag. Dazu kommen Meldungen über weitere Angriffe auf Tanker.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Straße von Hormus", "suche": "Straße von Hormus"}],
+          "lang": [
+            "Die britische Seebehörde UKMTO meldete am Dienstag einen Tanker, der von einem Geschoss getroffen wurde. Iran spricht von drei bis vier brennenden Tankern durch Minen und will zwei US-Drohnen abgeschossen haben – unabhängig bestätigt ist das nicht.",
+            "Der Ölpreis der Sorte Brent lag zuletzt bei rund 91 Dollar. Die Lage bleibt nach Trumps Drohung vom Wochenbeginn, Blockadebrecher zu versenken, hoch angespannt."
+          ],
+          "einschaetzung": "Viele Angaben stammen aus iranischen Staatsmedien oder nur einer Quelle; gesichert ist vor allem der Einbruch des Schiffsverkehrs.",
+          "quellen": [
+            {"name": "Straits Daily Brief", "url": "https://straits.live/briefs/2026-11-25"}
+          ]
+        },
+        {
+          "titel": "Magyar bei Selenskyj: Ungarn sucht den Neuanfang",
+          "kurz": "Ungarns Premier <b>Péter Magyar</b> traf den ukrainischen Präsidenten in Transkarpatien, der Region mit großer ungarischer Minderheit. Es ist sein erster offizieller Ukraine-Besuch.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Uschhorod", "suche": "Uschhorod Ukraine"}],
+          "lang": [
+            "Magyar warf der Vorgängerregierung unter Viktor Orbán vor, gegen die Ukraine gehetzt zu haben. Budapest will Kiew künftig humanitär und diplomatisch unterstützen, ausdrücklich aber ohne Waffen oder Soldaten.",
+            "Zentrales Thema bleiben die Rechte der ungarischen Minderheit, deren Vertreter Magyar ebenfalls traf. Konkrete Vereinbarungen wurden bis zum Abend nicht bekannt."
+          ],
+          "einschaetzung": "Von Euronews, Kyiv Independent und dpa übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Euronews", "url": "https://www.euronews.com/2026/11/24/hungarys-magyar-meets-zelenskyy-in-ukraine-in-sharp-break-with-orban-era"},
+            {"name": "Kyiv Independent", "url": "https://kyivindependent.com/zelensky-hungary-leader-magyar-to-hold-first-formal-meeting-in-zakarpattia/"}
+          ]
+        },
+        {
+          "titel": "Bombe in Kolumbien am Jahrestag des Friedens",
+          "kurz": "Genau zehn Jahre nach dem Friedensabkommen mit der FARC explodierte in <b>Villavicencio</b> ein Sprengsatz. Mindestens <b>20 Menschen</b> wurden verletzt, Tote gab es nach Regierungsangaben nicht.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Villavicencio", "suche": "Villavicencio Kolumbien"}],
+          "lang": [
+            "Beschädigt wurden unter anderem das Gouverneursamt, die Kathedrale und eine Filiale der Zentralbank. Präsident Abelardo de la Espriella macht eine FARC-Splittergruppe um Iván Mordisco verantwortlich."
+          ],
+          "einschaetzung": "Bislang nur als Tickermeldung; die Täterzuschreibung stammt von der Regierung.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Mar-a-Lago:</b> Trump empfängt heute Nato-Generalsekretär Rutte, Hauptthema ist eine Waffenruhe in der Ukraine.",
+            "<b>Frankreich:</b> Nicolas Sarkozy und Carla Bruni müssen wegen möglicher Zeugenbeeinflussung in der Libyen-Affäre vor Gericht, Prozessbeginn Ende 2027.",
+            "<b>Türkei:</b> Beim Absturz eines Militärhubschraubers in Eskişehir starben fünf Soldaten.",
+            "<b>Saudi-Arabien:</b> Die Huthi-Miliz hat erneut das Geschäftsviertel von Riad angegriffen – mindestens zum dritten Mal binnen weniger Wochen.",
+            "<b>Russland:</b> Putin warf Regisseur Alexander Sokurow und drei weitere Mitglieder aus dem Menschenrechtsrat."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Meldungen aus dem ZDF-Nachrichtenticker.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "ZDFheute (Sarkozy)", "url": "https://www.zdfheute.de/politik/ausland/sarkozy-bruni-prozess-libyen-frankreich-wahlkampfgelder-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "BVB trotzt Arsenal, Leipzig siegt im Kellerduell",
+          "kurz": "Dortmund holt im Emirates Stadium ein <b>1:1</b> – Maximilian Beier glich in der 55. Minute aus. Leipzig schlägt Lens <b>3:1</b> und hat jetzt 6 Punkte.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Emirates Stadium", "suche": "Emirates Stadium London"}, {"name": "Red Bull Arena", "suche": "Red Bull Arena Leipzig"}],
+          "lang": [
+            "Viktor Gyökeres hatte Arsenal früh in Führung gebracht. Danach hatte der BVB Glück: Ein Tor von Jobe Bellingham zählte wegen Abseits nicht, auf der Gegenseite traf Declan Rice spät nur den Pfosten. Arsenal steht bei 11, Dortmund bei 10 Punkten.",
+            "Leipzig führte nach neun Minuten schon 2:0, erst durch ein abgefälschtes Freistoß-Eigentor, dann durch Antonio Nusa. Nusa machte in der Nachspielzeit auch das 3:1. Real Madrid drehte ein 0:1 gegen PSV in ein 5:1 und ist neuer Spitzenreiter."
+          ],
+          "einschaetzung": "Ergebnisse von dpa, ESPN und nau.ch übereinstimmend.",
+          "quellen": [
+            {"name": "ad-hoc-news (dpa)", "url": "https://www.ad-hoc-news.de/sport/ueberblick/cl-leipzig-schlaegt-lens-arsenal-und-bvb-unentschieden/70550946"},
+            {"name": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50574152/uefa-champions-league-live-updates"},
+            {"name": "nau.ch", "url": "https://www.nau.ch/sport/fussball-int/champions-league-kein-sieger-zwischen-arsenal-und-bvb-real-siegt-67205944"}
+          ]
+        },
+        {
+          "titel": "Gabor Ruhr soll bei 96 aufräumen",
+          "kurz": "Hannover 96 hat einen neuen Sportdirektor: <b>Gabor Ruhr</b>, 38, zuletzt Chefscout beim englischen Zweitligisten <b>Norwich City</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Heinz von Heiden Arena", "suche": "Heinz von Heiden Arena Hannover"}],
+          "lang": [
+            "Ruhr war vorher Analyst in Köln, Frankfurt und bei Hertha sowie Chefscout beim 1. FC Köln. Über 70 Bewerbungen gingen ein, der Verein sprach ihn aber selbst an. Er trägt allein die sportliche Verantwortung, den Posten eines Sport-Geschäftsführers gibt es nach dem Abgang von Jonas Boldt nicht mehr.",
+            "Laut Geschäftsführung fiel die Wahl in enger Abstimmung mit Martin Kind. Trainer Sandro Wagner begrüßte die Personalie. Am Samstag um 20:30 Uhr spielt 96 in Osnabrück."
+          ],
+          "einschaetzung": "Von t-online und SID (Flashscore) übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101544472/hannover-96-stellt-sportdirektor-vor-ruhr-uebernimmt-jetzt-verantwortung.html"},
+            {"name": "Flashscore (SID)", "url": "https://www.flashscore.de/news/neuer-mann-fur-den-neustart-ruhr-ubernimmt-bei-hannover-96/KWaSmPGL/"}
+          ]
+        },
+        {
+          "titel": "Heute Abend: Bayern in Lille, Stuttgart in Mailand",
+          "kurz": "Um <b>21 Uhr</b> sind die anderen beiden deutschen Teams dran: Bayern beim OSC Lille, der VfB bei Inter Mailand.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Stade Pierre-Mauroy", "suche": "Stade Pierre-Mauroy Lille"}, {"name": "San Siro", "suche": "Stadio San Siro Mailand"}],
+          "lang": [
+            "Für Stuttgart ist das Gastspiel bei Inter eine der schwersten Aufgaben der Ligaphase. Am Donnerstag ab 10 Uhr startet dann das deutsche Davis-Cup-Team in Bologna gegen Großbritannien ins Viertelfinale."
+          ],
+          "einschaetzung": "Spieltermine vom FC Bayern und aus den Live-Tickern.",
+          "quellen": [
+            {"name": "FC Bayern", "url": "https://fcbayern.com/en/matches/profis/champions-league/2026-2027/osc-lille-fc-bayern-muenchen-25-11-2026/matchday"},
+            {"name": "t-online Liveticker", "url": "https://www.t-online.de/sport/live-ticker/fussball/champions-league-m/sdc_fm-62358/inter-stuttgart-champions-league-m-im-liveticker.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Recken:</b> Spielpause bis Montag, <b>30. November, 19 Uhr</b> bei den Füchsen Berlin.",
+            "<b>Indians:</b> Freitag um 20 Uhr gegen Neuwied am Pferdeturm, Sonntag um 18 Uhr in Leipzig.",
+            "<b>Champions League:</b> Manchester City kam gegen Neapel nur zu einem 2:2.",
+            "<b>Scorpions:</b> Aktuelle Ergebnisse waren heute Nacht nicht abrufbar."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Termine aus der Vortagsrecherche, City-Ergebnis von ESPN und nau.ch.",
+          "quellen": [
+            {"name": "Die Recken Spielplan", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50574152/uefa-champions-league-live-updates"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+      "trends": [
+        {"begriff": "verbrechen", "volumen": "5.000+", "anlass": "Angriff auf Grünen-Büro in Schwerte"},
+        {"begriff": "störung microsoft", "volumen": "1.000+", "anlass": "„Code Red“ nach 365-Ausfall"},
+        {"begriff": "eike immel", "volumen": "500+", "anlass": "Rauswurf beim „Promi-Büßen“"},
+        {"begriff": "volkswagen china", "volumen": "500+", "anlass": "Ökonom regt VW-Verkauf an"},
+        {"begriff": "monika schnitzer", "volumen": "200+", "anlass": "Wirtschaftsweise will Sonderabgabe"},
+        {"begriff": "sylvester stallone", "volumen": "200+", "anlass": "Will Schwarzenegger für Serien-Ableger"},
+        {"begriff": "muse", "volumen": "100+", "anlass": "Metas KI-Agent startet in Großbritannien"}
+      ],
+      "meldungen": [
+        {
+          "titel": "„Code Red“ bei Microsoft",
+          "kurz": "Knapp zwei Wochen nach dem weltweiten Ausfall von <b>Outlook, Teams und Exchange Online</b> hat Microsoft intern die höchste Alarmstufe ausgerufen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Am 12. und 13. November lagen Microsoft-365-Dienste in über 70 Ländern lahm, betroffen waren auch Behörden, Börsenhändler und Fluggesellschaften. Als Ursache nannte Microsoft ein vorher durchgeführtes Upgrade der Netzwerkkapazität, einen Angriff schloss der Konzern aus.",
+            "Laut internen Memos, über die Reuters berichtet, soll nun das Krisenmanagement grundlegend umgebaut werden. Ein Manager nannte den Vorfall den folgenschwersten in der Geschichte von Exchange Online."
+          ],
+          "einschaetzung": "Reuters-Exklusivbericht, von ZDF und heise aufgegriffen; Ursache von PC-Welt dokumentiert.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "PC-Welt", "url": "https://www.pcwelt.de/article/3284443/microsoft-dienste-funktionieren-wieder-das-war-der-grund-fur-den-ausfall.html"},
+            {"name": "Reuters", "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"}
+          ]
+        },
+        {
+          "titel": "Muse: Metas KI soll Aufgaben selbst erledigen",
+          "kurz": "Meta bringt seinen KI-Agenten <b>Muse</b> nach Großbritannien. Er schreibt Mails, bucht Reisen und kauft ein – und arbeitet weiter, wenn die App geschlossen ist.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Jeder Nutzer bekommt laut Meta einen eigenen virtuellen Rechner in der Cloud. Vor Käufen oder dem Versand von Mails fragt Muse nach, Passwörter und Kartendaten soll es nicht sehen. Für die meisten Funktionen ist es kostenlos.",
+            "In Deutschland und der EU ist Muse noch nicht verfügbar, einen Termin nennt Meta nicht."
+          ],
+          "einschaetzung": "Angaben aus Metas eigener Ankündigung, Datenschutz-Versprechen sind nicht unabhängig geprüft.",
+          "quellen": [
+            {"name": "Meta", "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"},
+            {"name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/nov/24/have-you-downloaded-metas-ai-assistant-muse-or-do-you-plan-to"}
+          ]
+        },
+        {
+          "titel": "VW an China verkaufen? Ein Ökonom sorgt für Raunen",
+          "kurz": "IfW-Präsident <b>Moritz Schularick</b> brachte auf einer Industriekonferenz den Verkauf von Teilen des VW-Konzerns an China ins Spiel.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Wichtig sei, dass Wertschöpfung und Produktion in Deutschland bleiben, wem sie gehöre, sei zweitrangig – so sinngemäß Schularick auf der Konferenz von Wirtschaftsministerium, BDI und IG Metall. Eine Stellungnahme von VW gab es zunächst nicht."
+          ],
+          "einschaetzung": "Aussage vom Handelsblatt und n-tv übereinstimmend berichtet; ein Vorschlag, kein Plan.",
+          "quellen": [
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/deutschland/autoindustrie-schularick-bringt-verkauf-von-volkswagen-an-china-ins-spiel/100272422.html"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Hormus:</b> Brennende oder verminte Tanker melden vor allem iranische Staatsmedien. Unabhängig bestätigt sind ein Geschosstreffer (UKMTO) und der fast völlige Stillstand des Schiffsverkehrs.",
+    "<b>Schwerte:</b> Der Aufkleber am Büro deutet auf einen rechtsextremen Hintergrund, der Täter ist aber nicht gefasst. Das Motiv ist offiziell noch nicht geklärt.",
+    "<b>S4 „bis Ende 2027“:</b> Gemeint ist das Ende des Fahrplanjahres – laut Region der <b>11. Dezember 2027</b>, nicht Silvester.",
+    "<b>ADAC-Test:</b> Geprüft wurden nur sechs P+R-Anlagen. Für alle Anlagen der Region gilt das Urteil ausdrücklich nicht."
+  ],
+  "woche": [
+    {"wann": "Mi 25. Nov", "titel": "Frostig, Königsklasse am Abend", "text": "Morgens Nebel möglich, danach wechselnd bewölkt mit etwas Sonne, <b>-3 bis 1 Grad</b>, trocken. Weihnachtsmarkt <b>11 bis 21 Uhr</b>. Trump trifft Rutte in Florida. <b>21 Uhr:</b> Lille gegen Bayern, Inter gegen Stuttgart."},
+    {"wann": "Do 26. Nov", "titel": "Heiter und kalt, Davis Cup", "text": "Meist heiter, morgens um <b>-3 Grad</b>, nachmittags bis <b>1 Grad</b>, trocken. <b>10 Uhr:</b> Davis-Cup-Viertelfinale Deutschland gegen Großbritannien in Bologna."},
+    {"wann": "Fr 27. bis So 29. Nov", "titel": "Dauerfrost, Haushalt, 96 in Osnabrück", "text": "Freitag <b>-3 bis 0 Grad</b>, trocken; auch am Wochenende bleibt es frostig. <b>Fr:</b> Black Friday, Haushalts-Abstimmung im Bundestag, <b>20 Uhr</b> Indians gegen Neuwied. <b>Sa 20:30 Uhr:</b> 96 in Osnabrück. <b>So 17 Uhr:</b> Formel 1 in Katar, <b>18 Uhr:</b> Indians in Leipzig."}
+  ]
+}
