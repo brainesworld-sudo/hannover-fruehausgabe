@@ -1,0 +1,407 @@
+{
+  "stand": "Stand: Donnerstag, 26. November, 3 Uhr",
+  "kurz": [
+    "<b>Gefährlichste Straße Deutschlands:</b> Laut einer Versicherer-Auswertung liegt sie in Hannover – die <b>Vahrenwalder Straße</b> mit 75 Unfällen mit Verletzten im Jahr 2025. Platz zwei: die A2 bei Lehrte.",
+    "<b>Terrorverdacht gegen Kinder:</b> Die Bundesanwaltschaft hat drei <b>14- und 15-Jährige</b> festgenommen. Ihre Online-Gruppe „Terror 18“ soll einen Brandanschlag auf eine Flüchtlingsunterkunft in <b>Winsen (Luhe)</b> geplant haben.",
+    "<b>Neue US-Zölle:</b> Washington wirft der EU und 13 weiteren Partnern Überkapazitäten vor. Für Europa soll die vereinbarte Obergrenze von <b>15 Prozent</b> gelten, Brüssel weist die Vorwürfe zurück.",
+    "<b>EU-Sondergipfel ab heute:</b> In Brüssel geht es um den langfristigen EU-Haushalt und darum, wer 2027 die <b>Milliardenlücke der Ukraine</b> schließt.",
+    "<b>Verbraucherschützer gegen Meta:</b> Der vzbv klagt vor dem Kammergericht Berlin gegen die <b>Ray-Ban-Kamerabrille</b> – das kleine Aufnahme-Lämpchen reiche nicht als Warnung.",
+    "<b>Sport:</b> Bayern verliert in Lille <b>1:2</b> durch ein Eigentor von Pavlovic, Stuttgart unterliegt bei Inter <b>0:2</b>. Heute um <b>10 Uhr</b> spielt Deutschland im Davis-Cup-Viertelfinale gegen Großbritannien."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "meldungen": [
+        {
+          "titel": "Vahrenwalder Straße: Platz eins im Unfall-Ranking",
+          "kurz": "Eine Auswertung von Allianz Direct führt die <b>Vahrenwalder Straße</b> als Straße mit den meisten Unfällen mit Personenschaden in Deutschland: <b>75</b> im Jahr 2025, ein Plus von 27 Prozent.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Vahrenwalder Straße", "suche": "Vahrenwalder Straße Hannover"},
+            {"name": "A2 bei Lehrte", "suche": "Autobahnkreuz Hannover-Ost Lehrte"}
+          ],
+          "lang": [
+            "Grundlage sind Daten der Bundesanstalt für Straßenwesen und des Unfallatlas. Bei drei der 75 Unfälle auf der Vahrenwalder Straße gab es Schwerverletzte, im Vorjahr waren es insgesamt 59 Unfälle. Auf Platz zwei bundesweit landet die A2 bei Lehrte mit 64 Unfällen.",
+            "Auch weitere Abschnitte aus der Region tauchen in den niedersächsischen Top-Listen auf: die A7 bei Wedemark, die Straße Am Leineufer, die Schulenburger Landstraße und die A7 im Stadtgebiet."
+          ],
+          "einschaetzung": "Die Zahlen sind von t-online und Radio Hannover übereinstimmend berichtet, die Methode stammt aber von einem Versicherer.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101545856/gefaehrlichste-strasse-deutschlands-fuehrt-durch-hannover-allianz-auswertung.html"},
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/unfall-ranking-gefaehrlichste-strasse-deutschlands-liegt-in-hannover"}
+          ]
+        },
+        {
+          "titel": "Hamburg-Strecke: Langes Wochenende mit Bussen und Umwegen",
+          "kurz": "Von <b>Freitag bis Montag</b> wird an Oberleitungen und Weichen zwischen Hannover und Hamburg gebaut. Metronom-Züge werden teils durch Busse ersetzt, Fernzüge brauchen bis zu <b>40 Minuten</b> länger.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Hannover Hbf", "suche": "Hannover Hauptbahnhof"},
+            {"name": "Celle Bahnhof", "suche": "Bahnhof Celle"},
+            {"name": "Uelzen Bahnhof", "suche": "Bahnhof Uelzen"}
+          ],
+          "lang": [
+            "Betroffen sind vor allem die Metronom-Linien RE3 und RB31 über Celle, Uelzen und Lüneburg. Die umgeleiteten ICs und ICEs halten an diesen drei Bahnhöfen gar nicht. Wer am Wochenende nach Hamburg will, sollte die Verbindung kurz vor der Fahrt noch einmal prüfen.",
+            "Dazu kommt: Die beschädigte Brücke bei Vechelde, wegen der die S4 nach Hildesheim bis Ende 2027 ausfällt, ist nur eingleisig befahrbar. Regionsdezernent Franz forderte die Bahn auf, ihr Netz endlich in den Griff zu bekommen."
+          ],
+          "einschaetzung": "Bahnangaben, von t-online und Antenne Niedersachsen übereinstimmend wiedergegeben.",
+          "quellen": [
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101545290/hannover-hamburg-zugausfaelle-und-umleitungen-im-regional-und-fernverkehr.html"},
+            {"name": "Antenne Niedersachsen", "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-25.-November-2026-id1764155.html"},
+            {"name": "Radio Hannover (Franz)", "url": "https://www.radio-hannover.de/hannover-news/verkehrsdezernent-franz-deutsche-bahn-muss-ihr-streckennetz-in-den-griff-kriegen"}
+          ]
+        },
+        {
+          "titel": "Oberricklingen: Balkonbrand macht Haus unbewohnbar",
+          "kurz": "Nach dem Großbrand in einem Mehrfamilienhaus schätzt die Polizei den Schaden auf <b>mindestens eine Million Euro</b>. Sechs Haushalte können vorerst nicht zurück.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Oberricklingen", "suche": "Oberricklingen Hannover"}
+          ],
+          "lang": [
+            "Das Feuer begann unter einem Balkon im Erdgeschoss, wo Abfall gelagert war. Von dort griff es auf die oberen Balkone und schließlich auf das Dach über. Rund 100 Einsatzkräfte waren im Einsatz, ein Feuerwehrmann wurde leicht verletzt, Bewohner kamen nicht zu Schaden.",
+            "Warum der Abfall Feuer fing, ist noch offen. Hinweise auf eine Straftat haben die Ermittler bisher nicht."
+          ],
+          "einschaetzung": "Polizeiangaben, von Radio Hannover und Antenne berichtet.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/brand-in-oberricklingen-schaden-liegt-bei-mindestens-einer-million-euro"},
+            {"name": "Radio Hannover (Einsatz)", "url": "https://www.radio-hannover.de/hannover-news/grosseinsatz-in-oberricklingen-balkonbrand-breitet-sich-aus"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Landeskirche:</b> Weniger Mitglieder, weniger Kirchensteuer – für 2027 plant die Landeskirche Hannovers mit <b>765 Millionen Euro</b> und nimmt in zwei Jahren 17 Millionen aus Rücklagen. Bis 2035 könnte ihre Finanzkraft um ein Drittel sinken.",
+            "<b>Orange Day:</b> In der Region wurden im Vorjahr mehr als <b>5.600 Fälle</b> häuslicher Gewalt gegen Frauen registriert. Der Sozialverband fordert mehr Hilfe für Kinder in Frauenhäusern.",
+            "<b>Üstra:</b> Am Endpunkt Nordring können die E-Busse der Linien <b>128 und 134</b> jetzt schnell nachladen.",
+            "<b>A2 bei Wunstorf:</b> Die Dauerbaustelle wird erst <b>Ende Januar</b> fertig.",
+            "<b>Marktkirche:</b> Ab <b>30. November</b> öffnet ein lebendiger Adventskalender."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Lokalmeldungen von Radio Hannover.",
+          "quellen": [
+            {"name": "Radio Hannover (Landeskirche)", "url": "https://www.radio-hannover.de/hannover-news/mitgliederschwund-landeskirche-hannover-muss-sparen"},
+            {"name": "Radio Hannover (Orange Day)", "url": "https://www.radio-hannover.de/hannover-news/orange-day-hannover-setzt-zeichen-gegen-gewalt-an-frauen"},
+            {"name": "Radio Hannover (Übersicht)", "url": "https://www.radio-hannover.de/aktuell/news"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "„Terror 18“: Drei Jugendliche unter Anschlagsverdacht",
+          "kurz": "Die Bundesanwaltschaft hat drei <b>14- und 15-Jährige</b> festnehmen lassen. Sie sollen einer rechtsextremen Online-Gruppe angehören, die einen Brandanschlag auf eine Flüchtlingsunterkunft in <b>Winsen (Luhe)</b> geplant haben soll.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Winsen (Luhe)", "suche": "Winsen (Luhe)"},
+            {"name": "Helmstedt", "suche": "Helmstedt"}
+          ],
+          "lang": [
+            "Festnahmen gab es im Kreis Helmstedt, in Teltow-Fläming und in Itzehoe. Insgesamt wurden zehn Objekte in mehreren Bundesländern durchsucht, auch bei vier weiteren Verdächtigen. Der Vorwurf lautet Mitgliedschaft in einer terroristischen Vereinigung.",
+            "Laut Ermittlern ging es der Gruppe auch um Gewalt gegen Ausländer und politische Gegner. Die Zahl 18 im Namen gilt in der Neonazi-Szene als Code für Adolf Hitler."
+          ],
+          "einschaetzung": "Mitteilung der Bundesanwaltschaft, von Handelsblatt und Antenne übereinstimmend berichtet; es gilt die Unschuldsvermutung.",
+          "quellen": [
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/deutschland/bundesanwaltschaft-anschlagsplan-jugendliche-unter-terrorverdacht-festgenommen/100272648.html"},
+            {"name": "Antenne Niedersachsen", "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-25.-November-2026-id1764155.html"}
+          ]
+        },
+        {
+          "titel": "BKA-Lagebild: 342 getötete Frauen in einem Jahr",
+          "kurz": "Fast <b>198.000</b> Frauen und Mädchen wurden 2025 Opfer häuslicher Gewalt – ein neuer Höchststand. <b>342</b> wurden getötet, nach 308 im Jahr davor.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Zahl der versuchten und vollendeten Tötungsdelikte an Frauen stieg von 859 auf 1.176. Besonders stark wuchs die digitale Gewalt, um fast 16 Prozent. Drei von vier Tatverdächtigen sind Männer, bei Partnerschaftsgewalt ist es in über 40 Prozent der Fälle ein Ex-Partner.",
+            "Innenminister Dobrindt nannte die Zahlen zutiefst schockierend. Justizministerin Hubig und der Frauenrat gehen von einer riesigen Dunkelziffer aus, weil nur ein Bruchteil der Taten angezeigt wird. Im Bundestag kündigte Kanzler Merz besseren Schutz an."
+          ],
+          "einschaetzung": "Offizielle BKA-Zahlen; ein Teil des Anstiegs kann laut BKA auch auf mehr Anzeigen zurückgehen.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/bka-haeusliche-gewalt-opfer-mehrheit-weiblich-100.html"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Haushaltswoche: Sogar der Außenminister murrt",
+          "kurz": "Am <b>Freitag</b> stimmt der Bundestag über den Haushalt 2027 ab. Außenminister Wadephul findet sein eigenes Budget zwar hinnehmbar, aber längst nicht gut.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Reichstagsgebäude", "suche": "Reichstagsgebäude Berlin"}
+          ],
+          "lang": [
+            "Wadephul versteht nicht, warum sein Ministerium beim Sparen keine Ausnahme bekommt. Parallel streiten Union und SPD über Steuerentlastungen: Die Union will sie an Änderungen im Arbeitsrecht knüpfen, die SPD lehnt diesen Tausch ab.",
+            "Ökonomen sind beim Thema Schulden uneins. Ein von ZDFheute befragter Experte hält die Verschuldung an sich nicht für das Problem, entscheidend sei, wofür das Geld ausgegeben wird."
+          ],
+          "einschaetzung": "Aus dem ZDF-Newsticker und ZDF-Analysen; das Abstimmungsergebnis steht noch aus.",
+          "quellen": [
+            {"name": "ZDFheute (Haushaltswoche)", "url": "https://www.zdfheute.de/politik/deutschland/bundestagswoche-haushalt-2027-100.html"},
+            {"name": "ZDFheute (Experte)", "url": "https://www.zdfheute.de/politik/deutschland/haushalt-schulden-experte-bundesregierung-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Veruschka gestorben:</b> Deutschlands erstes Supermodel, Vera Gräfin von Lehndorff, ist mit <b>87 Jahren</b> in Berlin gestorben.",
+            "<b>Lebensmittel-Betrug:</b> Eine Europol-Aktion brachte <b>79 Festnahmen</b>; Waren für fast 80 Millionen Euro wurden beschlagnahmt.",
+            "<b>Belarus-Route:</b> Nur noch <b>482</b> versuchte irreguläre Einreisen in die EU in diesem Jahr – im Vorjahreszeitraum waren es rund 29.400.",
+            "<b>Später Herbst:</b> Buchen haben sich laut DWD im Schnitt neun Tage später verfärbt als üblich, der Laubfall könnte der späteste seit Beginn der Aufzeichnungen werden.",
+            "<b>Gold:</b> Der Preis fiel unter <b>3.500 Dollar</b> je Feinunze, den tiefsten Stand seit September 2025."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Kurzmeldungen aus dem ZDF-Newsticker.",
+          "quellen": [
+            {"name": "ZDFheute (Veruschka)", "url": "https://www.zdfheute.de/panorama/prominente/veruschka-graefin-von-lehndorff-supermodel-gestorben-100.html"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Neue US-Zölle: Washington zielt auf 14 Handelspartner",
+          "kurz": "Nach achtmonatiger Prüfung kündigen die USA Zölle gegen die EU und 13 weitere Partner an. Der Vorwurf: <b>subventionierte Überkapazitäten</b>. Für die EU soll die Obergrenze von <b>15 Prozent</b> gelten.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Brüssel", "suche": "Berlaymont Brüssel"},
+            {"name": "Washington", "suche": "Washington D.C."}
+          ],
+          "lang": [
+            "Betroffen sind neben der EU unter anderem die Schweiz, China, Japan, Südkorea, Indien und Vietnam. China soll 20 Prozent zusätzlich zahlen. Wegen einer Anhörungsfrist dürften die Zölle frühestens im Januar greifen. Hintergrund ist, dass der Supreme Court im Februar einen Teil von Trumps Zöllen gekippt hatte.",
+            "Die EU-Kommission wies den Vorwurf der Überkapazitäten zurück und pocht darauf, dass Washington den Handelsdeal aus dem Vorjahr einhält."
+          ],
+          "einschaetzung": "Von ORF und ZDF übereinstimmend berichtet; die genauen Sätze für mehrere Länder sind noch nicht veröffentlicht.",
+          "quellen": [
+            {"name": "ORF", "url": "https://orf.at/stories/3449253/"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "EU-Sondergipfel: Wer zahlt 2027 für die Ukraine?",
+          "kurz": "Heute und morgen beraten die Staats- und Regierungschefs in Brüssel über den <b>EU-Haushalt 2028 bis 2034</b> und die Finanzierung der Ukraine im kommenden Jahr.",
+          "bewertung": "plausibel",
+          "orte": [
+            {"name": "Europa-Gebäude", "suche": "Europa building Brussels"}
+          ],
+          "lang": [
+            "Selenskyj beziffert den Bedarf für 2027 auf 115 Milliarden Euro, rund 90 Milliarden habe die EU zugesagt. Über den Rest wird gestritten, im Gespräch ist ein weiterer Kredit. Parallel erhöhen die USA laut Selenskyj den Druck, bis Januar einen Friedensdeal zu schließen.",
+            "Der belarussische Machthaber Lukaschenko bot an, gemeinsam mit Selenskyj nach Moskau zu fliegen. Russland greift weiter an: In Saporischschja starben mindestens zwei Menschen, 44 wurden verletzt."
+          ],
+          "einschaetzung": "Termin gesichert, die Summen schwanken je nach Quelle deutlich (siehe Faktencheck).",
+          "quellen": [
+            {"name": "MarketScreener (Reuters)", "url": "https://de.marketscreener.com/boerse-nachrichten/eu-spitzenpolitiker-beraten-am-26-und-27-november-ueber-ukraine-finanzierung-fuer-2027-und-naechsten-ce785cd9da81f023"},
+            {"name": "ZDFheute Ukraine-Blog", "url": "https://www.zdfheute.de/politik/ausland/ukraine-russland-konflikt-blog-102.html"}
+          ]
+        },
+        {
+          "titel": "Russische Militärjets lösen Alarm in Südkorea aus",
+          "kurz": "Mehrere russische Militärflugzeuge drangen in Südkoreas Luftverteidigungszone ein. Für die Insel <b>Ulleungdo</b> gab es kurzzeitig eine Evakuierungswarnung.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Ulleungdo", "suche": "Ulleungdo South Korea"}
+          ],
+          "lang": [
+            "Zunächst war von einem nordkoreanischen Flugzeug die Rede, das Militär korrigierte das später. Laut Verteidigungsministerium flog eine Maschine bis direkt an den Rand des Luftraums. Erst nachdem Kampfjets aufstiegen, drehten die Flugzeuge ab.",
+            "Ähnliche Vorfälle gab es schon im Juni und August. Sie fallen in eine Zeit, in der Trump die gemeinsamen Manöver mit Südkorea stark zurückgefahren hat."
+          ],
+          "einschaetzung": "Angaben des südkoreanischen Militärs, von ZDFheute berichtet; eine russische Stellungnahme fehlt.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/suedkorea-evakuierung-russland-militaerflugzeug-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Iran:</b> Parlamentspräsident Ghalibaf schließt Verhandlungen mit den USA vorerst aus. Der Ölpreis für Brent lag zuletzt bei knapp <b>92 Dollar</b>.",
+            "<b>Gaza:</b> Netanjahu soll Trumps Berater Kushner signalisiert haben, beim Gaza-Plan weiterzugehen – das berichtet die „Times of Israel“.",
+            "<b>EU-Haushalt 2027:</b> Das Europaparlament hat rund <b>200 Milliarden Euro</b> freigegeben.",
+            "<b>Biennale Venedig:</b> Erstmals vergab das Publikum die Löwen – an Nick Cave und ein indisches Kollektiv. Die Jury war aus Protest gegen Russlands Rückkehr zurückgetreten."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Teils aus Liveblogs mit Angaben von Konfliktparteien.",
+          "quellen": [
+            {"name": "ZDFheute Nahost-Blog", "url": "https://www.zdfheute.de/politik/ausland/iran-israel-usa-angriff-liveblog-100.html"},
+            {"name": "Times of Israel", "url": "https://www.timesofisrael.com/liveblog-november-25-2026/"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "Bayern kippt in Lille – mit Eigentor",
+          "kurz": "Der FC Bayern führte durch <b>Upamecano</b> (15.), verlor aber binnen drei Minuten: Ueda glich aus, dann traf <b>Pavlovic ins eigene Tor</b> (65.). Endstand <b>1:2</b>.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Stade Pierre-Mauroy", "suche": "Stade Pierre-Mauroy Lille"}
+          ],
+          "lang": [
+            "Ohne Kane, Olise und Neuer kam Bayern zunächst gut zurecht, Lille hatte aber mehrere große Chancen und ein aberkanntes Tor. Beim entscheidenden Konter traf Mbappé erst den Pfosten, der Abpraller landete bei Pavlovic im Netz. Späte Wechsel mit Díaz und Musiala brachten nichts mehr.",
+            "Die Münchner stehen nach fünf Spielen bei 8 Punkten und müssen um die direkte Qualifikation fürs Achtelfinale bangen."
+          ],
+          "einschaetzung": "Ergebnis von ESPN und ZDF übereinstimmend.",
+          "quellen": [
+            {"name": "ESPN", "url": "https://www.espn.com/soccer/report/_/gameId/401915377"},
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/sport/fussball-champions-league/fussball-champions-league-ligaphase-inter-mailand-vfb-stuttgart-spielbericht-100.html"}
+          ]
+        },
+        {
+          "titel": "Stuttgart chancenlos bei Inter",
+          "kurz": "Der VfB verliert in Mailand <b>0:2</b> – Sucic per Handelfmeter (57.) und Lautaro Martínez (74.) treffen. Es ist die zweite Niederlage in Folge.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "San Siro", "suche": "Stadio Giuseppe Meazza Mailand"}
+          ],
+          "lang": [
+            "Bis zur Pause hielt Stuttgart das 0:0, dann entschied ein Handspiel im Strafraum die Partie. Der VfB hat nach fünf Spielen 7 Punkte.",
+            "Am 9. Dezember empfängt Stuttgart ausgerechnet Lille, den Bezwinger der Bayern."
+          ],
+          "einschaetzung": "Von ZDF und bundesliga.com übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/sport/fussball-champions-league/fussball-champions-league-ligaphase-inter-mailand-vfb-stuttgart-spielbericht-100.html"},
+            {"name": "bundesliga.com", "url": "https://www.bundesliga.com/de/bundesliga/news/fc-internazionale-mailand-vfb-stuttgart-spieltag-5-spielbericht-highlights-40147"}
+          ]
+        },
+        {
+          "titel": "96 vor Osnabrück: Gästeblock in Minuten ausverkauft",
+          "kurz": "Am <b>Samstag um 20:30 Uhr</b> spielt Hannover 96 beim VfL Osnabrück. Rund <b>1.400 Fans</b> fahren mit, die Gästetickets waren nach wenigen Minuten weg.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Stadion an der Bremer Brücke", "suche": "Stadion an der Bremer Brücke Osnabrück"}
+          ],
+          "lang": [
+            "96 reist mit Rückenwind nach dem 2:1 gegen Fürth am vergangenen Samstag. Es ist das erste Spiel seit der Vorstellung des neuen Sportdirektors Gabor Ruhr.",
+            "Der Gegner hat gerade Trainer Timo Schultz langfristig gebunden. Unter ihm kam der VfL vom drohenden Abstieg ins Mittelfeld der zweiten Liga."
+          ],
+          "einschaetzung": "Vereinsangaben von 96, Osnabrück-Meldung von Antenne Niedersachsen.",
+          "quellen": [
+            {"name": "Hannover 96", "url": "https://www.hannover96.de/newscenter/news/details/37669-auswaertsspiel-am-samstagabend-ticketverkauf-fuer-osnabrueck-startet-am-mittwoch.html"},
+            {"name": "sport.de (96 – Fürth)", "url": "https://www.sport.de/fussball/deutschland-2-bundesliga/ma12194965/hannover-96_spvgg-greuther-fuerth/aufstellung/"},
+            {"name": "Antenne Niedersachsen", "url": "https://www.antenne.com/niedersachsen/nachrichten/der_tag_in_eurer_region/Die-wichtigsten-Niedersachsen-News-des-Tages-25.-November-2026-id1764155.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Davis Cup:</b> Heute um <b>10 Uhr</b> trifft Deutschland mit Zverev und Struff in Bologna im Viertelfinale auf Großbritannien. Im Halbfinale am Samstag wartet wohl Spanien mit Alcaraz.",
+            "<b>Recken:</b> Nach dem 34:34 gegen Stuttgart geht es am <b>Montag um 19 Uhr</b> zu den Füchsen Berlin.",
+            "<b>Champions League:</b> Real Madrid drehte am Dienstag ein 0:1 gegen PSV in ein 5:1.",
+            "<b>Eishockey:</b> Der Weltverband IIHF zieht gegen das CAS-Urteil zur Rückkehr Russlands vor das Schweizer Bundesgericht und zweifelt an der Unabhängigkeit zweier Richter."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Spielpläne und Ergebnisse aus Vereins- und Senderquellen.",
+          "quellen": [
+            {"name": "Sportschau (Davis Cup)", "url": "https://www.sportschau.de/tennis/davis-cup/davis-cup-deutschland-grossbritannien-,davis-cup-dtb-grossbritannien-100.html"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"},
+            {"name": "Sportschau (CL)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league/gm5/spiele-und-ergebnisse"},
+            {"name": "ZDFheute-Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Reddit (r/hannover, r/de) war heute nicht erreichbar.",
+      "trends": [
+        {"begriff": "kalkbuster wasserhahn entkalker", "volumen": "2.000+", "anlass": "TV-Erfindung jetzt bei Lidl"},
+        {"begriff": "claudia wittig", "volumen": "1.000+", "anlass": "BSW-Streit um AfD-Kurs"},
+        {"begriff": "rams – packers", "volumen": "500+", "anlass": "NFL-Spiel vor Thanksgiving"},
+        {"begriff": "sandisk aktie", "volumen": "500+", "anlass": "Kurs nach 8:1-Aktiensplit"},
+        {"begriff": "hm", "volumen": "500+", "anlass": "H&M-Designpreis vergeben"},
+        {"begriff": "sandra maischberger heute gäste", "volumen": "200+", "anlass": "Streit Kretschmer/Brantner"},
+        {"begriff": "senta berger", "volumen": "100+", "anlass": "Spricht über verstorbenen Mann"},
+        {"begriff": "israel", "volumen": "100+", "anlass": "Kushner und der Gaza-Plan"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Kamerabrille vor Gericht: vzbv verklagt Meta und Ray-Ban",
+          "kurz": "Der Verbraucherzentrale Bundesverband hat beim <b>Kammergericht Berlin</b> zwei Unterlassungsklagen eingereicht. Die Smart Glasses verletzten den Datenschutz von Menschen, die gefilmt werden.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Kammergericht Berlin", "suche": "Kammergericht Berlin"}
+          ],
+          "lang": [
+            "Kern der Kritik: Ein kleines weißes Licht zeigt Aufnahmen an, das reiche nicht. Gefilmte wüssten nicht, was mit den Daten passiert und ob sie KI trainieren. Zudem werbe Meta irreführend, weil sich viele Funktionen im Alltag kaum datenschutzkonform nutzen ließen.",
+            "Ein Verbot der Brillen will der vzbv ausdrücklich nicht, Funktionen etwa für sehbehinderte Menschen seien sinnvoll. Abmahnungen hatten Meta und Hersteller Luxottica laut t-online unbeantwortet gelassen."
+          ],
+          "einschaetzung": "Klage des vzbv, von t-online berichtet; eine Stellungnahme von Meta liegt nicht vor.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/digital/aktuelles/id_101545846/smart-glasses-von-meta-verbraucherzentrale-klagt-wegen-datenschutz.html"},
+            {"name": "vzbv-Positionspapier (PDF)", "url": "https://www.vzbv.de/sites/default/files/2026-11/26-10-14_vzbv-Positionspapier_Smart-Glasses_0.pdf"}
+          ]
+        },
+        {
+          "titel": "Deichmann: Hacker greifen Kundendaten ab",
+          "kurz": "Unbekannte haben Bestelldaten aus dem Onlineshop von <b>Deichmann</b> und der Tochter <b>Snipes</b> erbeutet: Namen, Adressen, Rechnungen, E-Mail und Telefonnummer.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Passwörter und Zahlungsdaten wie Kreditkarten oder PayPal-Logins sind laut Deichmann nicht betroffen. Wie viele Kunden es trifft, sagt das Unternehmen nicht, es spricht von einem begrenzten Umfang. Die Lücke sei geschlossen, Anzeige erstattet, Betroffene würden per Mail informiert.",
+            "Wichtig gerade vor dem Black Friday: Mit echten Bestelldaten lassen sich sehr glaubwürdige Phishing-Mails bauen. Wer eine Nachricht im Namen von Deichmann bekommt, sollte Links meiden und lieber direkt im Kundenkonto nachsehen."
+          ],
+          "einschaetzung": "Angaben des Unternehmens, von Yahoo Finanzen und turi2/Spiegel berichtet.",
+          "quellen": [
+            {"name": "Yahoo Finanzen", "url": "https://de.finance.yahoo.com/nachrichten/hacker-greifen-kundendaten-deichmann-onlineshop-134505038.html"},
+            {"name": "turi2", "url": "https://www.turi2.de/aktuell/morgen-news-ticker-vom-26-november-2026/"}
+          ]
+        },
+        {
+          "titel": "Huawei in den USA schuldig gesprochen",
+          "kurz": "Eine Jury in <b>Brooklyn</b> hat Huawei in <b>10 von 12 Punkten</b> schuldig gesprochen, darunter Verschwörung zum Diebstahl von Geschäftsgeheimnissen und Bankbetrug.",
+          "bewertung": "gesichert",
+          "orte": [
+            {"name": "Bundesgericht Brooklyn", "suche": "Theodore Roosevelt United States Courthouse Brooklyn"}
+          ],
+          "lang": [
+            "Nach elf Wochen Prozess sahen es die Geschworenen als erwiesen an, dass der Konzern Technik von Konkurrenten abgegriffen und Geschäfte in Iran und Nordkorea verschleiert hat. Vom Vorwurf, eine kriminelle Vereinigung gebildet zu haben, wurde Huawei freigesprochen.",
+            "Das Strafmaß soll erst im September 2027 verkündet werden. Huawei hält die Vorwürfe für unbegründet und will in Berufung gehen."
+          ],
+          "einschaetzung": "Gerichtsentscheidung, von ZDFheute unter Berufung auf Agenturen berichtet.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/wirtschaft/unternehmen/huawei-usa-china-urteil-justiz-kriminalitaet-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Kalkbuster:</b> Der Bürstenaufsatz gegen Kalk am Wasserhahn – Gewinner aus „Die Millionenidee“ – liegt seit Montag bei Lidl, ab <b>7,99 Euro</b>. Das erklärt den Spitzenplatz in den Trends.",
+            "<b>Sandisk:</b> Seit dem <b>8:1-Aktiensplit</b> geistern Schlagzeilen über „minus 70 Prozent“ herum – siehe Faktencheck.",
+            "<b>KI-Fakeshops:</b> Das LKA Niedersachsen warnt vor täuschend echten Shops. Impressum prüfen und bei Schnäppchen misstrauisch sein."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Produkt- und Kursangaben aus Fach- und Lokalmedien.",
+          "quellen": [
+            {"name": "t-online München", "url": "https://muenchen.t-online.de/region/muenchen/id_101540662/kalkbuster-muenchner-studentin-erfindet-haushaltshelfer-produkt-bei-lidl.html"},
+            {"name": "finanzen.net", "url": "https://www.finanzen.net/nachricht/aktien/zusatzaktien-ueber-nacht-sandisk-aktie-tiefrot-so-reagiert-der-anteilschein-am-tag-des-aktiensplits-00-16076270"},
+            {"name": "Radio Hannover (LKA)", "url": "https://www.radio-hannover.de/hannover-news/taeuschend-echt-dank-ki-lka-warnt-vor-fake-shops"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Sandisk „minus 70 Prozent“:</b> Nach einem 8:1-Split sinkt der Kurs pro Aktie rechnerisch auf ein Achtel, ohne dass Anleger Geld verlieren. Bereinigt fiel die Aktie am Split-Tag zeitweise um gut <b>15 Prozent</b>.",
+    "<b>Gefährlichste Straße:</b> Das Ranking zählt Unfälle mit Personenschaden. Ob das Verkehrsaufkommen berücksichtigt wurde, geht aus den Berichten nicht hervor – eine stark befahrene Achse landet zwangsläufig weit vorn.",
+    "<b>Ukraine-Milliarden:</b> Die Zahlen gehen auseinander. Reuters sprach im Oktober von 70 Milliarden Euro ungedecktem Bedarf, Selenskyj nennt 115 Milliarden Gesamtbedarf, davon rund 25 Milliarden offen.",
+    "<b>Hormus:</b> Explosionen und Minen an Tankern melden weiterhin vor allem iranische Staatsmedien, unabhängig bestätigt sind sie nicht."
+  ],
+  "woche": [
+    {
+      "wann": "Do 26. Nov",
+      "titel": "Sonne, Frost, Davis Cup",
+      "text": "Nach frostiger Nacht (bis etwa <b>-5 Grad</b>) viel Sonne, höchstens um <b>1 Grad</b>, dazu ein eisiger Nordostwind. <b>10 Uhr:</b> Davis Cup Deutschland gegen Großbritannien. EU-Sondergipfel in Brüssel, <b>17 Uhr:</b> IG-Metall-Kundgebungen. US-Börsen wegen Thanksgiving zu."
+    },
+    {
+      "wann": "Fr 27. Nov",
+      "titel": "Haushalt und Black Friday",
+      "text": "Trocken mit etwas Sonne, <b>-3 bis 1 Grad</b>. Bundestag stimmt über den Haushalt 2027 ab, Black Friday im Handel. Ab heute Bauarbeiten Hannover–Hamburg, Fernzüge bis <b>40 Minuten</b> länger. <b>20 Uhr:</b> Indians gegen Neuwied."
+    },
+    {
+      "wann": "Sa 28. bis Mo 30. Nov",
+      "titel": "Frostiges Wochenende, 96 in Osnabrück",
+      "text": "Ruhig mit Nebel, Frost und etwas Sonne, Samstag um <b>0 Grad</b>, Sonntag etwas milder; in der Nacht zu Montag ist gefrierender Regen möglich. <b>Sa 20:30 Uhr:</b> VfL Osnabrück gegen 96. <b>So 17 Uhr:</b> Formel 1 in Katar, <b>18 Uhr:</b> Indians in Leipzig. 1. Advent. <b>Mo:</b> S3 fährt häufiger, <b>19 Uhr</b> Recken bei den Füchsen Berlin."
+    }
+  ]
+}
