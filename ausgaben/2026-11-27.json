@@ -1,0 +1,343 @@
+{
+  "stand": "Stand: Freitag, 27. November, 3 Uhr",
+  "kurz": [
+    "<b>Bundestag:</b> Heute wird der Haushalt 2027 beschlossen: knapp <b>556 Milliarden Euro</b> Ausgaben, fast <b>123 Milliarden</b> neue Kredite.",
+    "<b>EU-Gipfel geplatzt:</b> Beim Streit um den Siebenjahreshaushalt ab 2028 (rund <b>1,78 Billionen Euro</b>) gingen Merz und Co. ohne Ergebnis auseinander – nächster Anlauf im Dezember.",
+    "<b>Davis Cup:</b> Deutschland ist raus. Zverev gewann sein Einzel, doch Struff und das Doppel verloren – <b>1:2 gegen Großbritannien</b> im Viertelfinale.",
+    "<b>Hannover:</b> Ex-SPD-Fraktionschef <b>Stefan Politze</b> tritt 2027 nicht mehr für den Landtag an; gegen ihn wird wegen des Klinikverkaufs in Lehrte ermittelt.",
+    "<b>Rekordurteil:</b> Das OLG Köln spricht einer Missbrauchsbetroffenen <b>550.000 Euro</b> Schmerzensgeld vom Erzbistum Köln zu.",
+    "<b>96:</b> Samstag um <b>20:30 Uhr</b> in Osnabrück – ohne Källman, der bis Jahresende ausfällt."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "hinweis": "Reddit (r/hannover) war heute nicht erreichbar. Die Polizeidirektion hat seit Dienstag keine neuen Meldungen veröffentlicht.",
+      "meldungen": [
+        {
+          "titel": "Politze zieht sich aus der Landespolitik zurück",
+          "kurz": "Der frühere SPD-Fraktionschef im Landtag, <b>Stefan Politze (61)</b>, kandidiert bei der Landtagswahl 2027 nicht mehr. Die Staatsanwaltschaft ermittelt gegen ihn wegen möglicher Einflussnahme beim <b>Verkauf der Klinik in Lehrte</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Landtag Niedersachsen", "suche": "Leineschloss Hannover"}],
+          "lang": [
+            "Politze nennt als Gründe die Familie und die Belastung der vergangenen zwei Monate. Ein Schuldeingeständnis sei der Rückzug ausdrücklich nicht, die Vorwürfe weist er zurück.",
+            "Sein Mandat will der Hannoveraner bis zum Ende der Wahlperiode im Herbst 2027 behalten. Für die SPD fällt damit ein langjähriger Strippenzieher in der Landeshauptstadt weg."
+          ],
+          "einschaetzung": "Eigene Ankündigung Politzes, berichtet von Radio Hannover; die Ermittlungen sind nicht abgeschlossen.",
+          "quellen": [{"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/ex-spd-fraktionschef-politze-will-sich-aus-politik-zurueckziehen"}]
+        },
+        {
+          "titel": "„Baller-Liquids“: Minister warnt vor Vape-Drogen",
+          "kurz": "Gesundheitsminister <b>Andreas Philippi</b> warnt vor E-Zigaretten-Liquids mit <b>synthetischen Cannabinoiden</b>, die gezielt an Jugendliche verkauft werden. Schon wenige Züge können zur Überdosis führen.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Die Stoffe wirken laut Ministerium deutlich stärker als natürliches Cannabis. Mögliche Folgen reichen von Bewusstlosigkeit und Atemstillstand über Nierenversagen und Psychosen bis zum Tod. Vertrieben werden die Liquids vor allem über Messenger und soziale Netzwerke.",
+            "Philippi will, dass Schulen, Jugendhilfe und Suchtberatung enger zusammenarbeiten, und fordert besseren Jugendschutz im Netz. Konkrete Fallzahlen für Hannover nannte er nicht."
+          ],
+          "einschaetzung": "Warnung des Landesministers, von Radio Hannover und t-online übereinstimmend berichtet; Zahlen fehlen.",
+          "quellen": [
+            {"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/baller-liquids-gesundheitsminister-warnt-vor-gefaehrlichen-vape-drogen"},
+            {"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101547106/lebensgefaehrliche-zombie-liquids-minister-aus-niedersachsen-mit-warnung.html"}
+          ]
+        },
+        {
+          "titel": "S4 nach Hildesheim fällt früher aus – Region schimpft",
+          "kurz": "Wegen Schäden an einer <b>Brücke bei Vechelde</b> fährt die S4 zwischen Hannover und Hildesheim schon vorzeitig nicht mehr. Ersatzweise hält der <b>RE10</b> bis zum Fahrplanwechsel zusätzlich in Laatzen, Rethen, Barnten und Emmerke.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Bahnhof Hannover Messe/Laatzen", "suche": "Bahnhof Hannover Messe/Laatzen"}, {"name": "Hildesheim Hbf", "suche": "Hildesheim Hauptbahnhof"}],
+          "lang": [
+            "Regions-Verkehrsdezernent Ulf-Birger Franz kritisiert, die Bahn habe den Ausfall erneut sehr kurzfristig angekündigt, und fordert, sie müsse ihr Netz endlich in den Griff bekommen.",
+            "Rethen und Emmerke werden mindestens alle zwei Stunden bedient. Welche Ersatzlösung nach dem Fahrplanwechsel Mitte Dezember gilt, geht aus den Berichten nicht hervor."
+          ],
+          "einschaetzung": "Zwei Berichte von Radio Hannover mit Angaben der Region.",
+          "quellen": [
+            {"name": "Radio Hannover (Kritik)", "url": "https://www.radio-hannover.de/hannover-news/verkehrsdezernent-franz-deutsche-bahn-muss-ihr-streckennetz-in-den-griff-kriegen"},
+            {"name": "Radio Hannover (Alternativen)", "url": "https://www.radio-hannover.de/hannover-news/s4-ausfall-welche-alternativen-gibt-es"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Urteil:</b> Acht Jahre Haft für einen 29-Jährigen, der einen Mann an der Rundestraße gegen den Kopf getreten hatte; das Opfer starb vier Tage später.",
+            "<b>Orange-Day-Lauf:</b> Rund <b>4.000 Menschen</b> liefen am Mittwochabend fünf Kilometer ab dem Neuen Rathaus – Rekord. Der Erlös geht an ein Frauenhaus.",
+            "<b>Weihnachtsmarkt abgesagt:</b> „Weihnachten über den Dächern“ auf dem Parkhausdach an der Röselerstraße fällt 2026 aus organisatorischen Gründen aus.",
+            "<b>Heisterbergallee:</b> Die 96-Jährige, die vergangenen Freitag von einem Taxi angefahren wurde, ist im Krankenhaus gestorben.",
+            "<b>Kirchrode:</b> Auf einer Baustelle Am Heisterholze wurde eine Gasleitung angebaggert, Enercity dichtete schnell ab."
+          ],
+          "bewertung": "gesichert",
+          "orte": [{"name": "Neues Rathaus", "suche": "Neues Rathaus Hannover"}, {"name": "Röselerstraße", "suche": "Röselerstraße Hannover"}],
+          "einschaetzung": "Lokalmeldungen von Radio Hannover und t-online.",
+          "quellen": [
+            {"name": "Radio Hannover (Urteil)", "url": "https://www.radio-hannover.de/hannover-news/tritte-gegen-den-kopf-mann-muss-acht-jahre-in-haft"},
+            {"name": "Radio Hannover (Übersicht)", "url": "https://www.radio-hannover.de/aktuell/news"},
+            {"name": "t-online (Weihnachtsmarkt)", "url": "https://hannover.t-online.de/region/hannover/id_101530352/hannover-weihnachtsmarkt-ueber-den-daechern-der-stadt-faellt-aus-der-grund.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Haushalt 2027: Heute fällt die Entscheidung",
+          "kurz": "Nach 90 Minuten Schlussdebatte stimmt der Bundestag ab: <b>555,94 Milliarden Euro</b> Ausgaben, <b>122,97 Milliarden</b> Nettokredite, Investitionen von <b>61,85 Milliarden</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Reichstagsgebäude", "suche": "Reichstagsgebäude Berlin"}],
+          "lang": [
+            "Der Haushaltsausschuss hat den Entwurf noch leicht aufgestockt. Nur gut 38 Milliarden der neuen Schulden fallen unter die Schuldenbremse – das ist exakt die erlaubte Obergrenze. Der größere Teil, rund 84,5 Milliarden, läuft über die Ausnahme für Verteidigung und Sicherheit.",
+            "Dazu kommen die Sondertöpfe: rund 55 Milliarden Kredite für Infrastruktur und Klima sowie etwa 30 Milliarden aus dem Bundeswehr-Sondervermögen, das Ende 2027 aufgebraucht sein soll. Die Übertragung beginnt um 12:40 Uhr."
+          ],
+          "einschaetzung": "Zahlen direkt vom Bundestag; eine ältere Bundestagsmeldung nannte noch 560,92 Milliarden.",
+          "quellen": [{"name": "Bundestag", "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"}]
+        },
+        {
+          "titel": "Rekord-Schmerzensgeld: Erzbistum Köln muss zahlen",
+          "kurz": "Das Oberlandesgericht Köln verurteilt das Erzbistum zu <b>550.000 Euro</b> Schmerzensgeld an eine Missbrauchsbetroffene. Bisheriger Höchstwert in solchen Verfahren: 300.000 Euro.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "OLG Köln", "suche": "Oberlandesgericht Köln"}],
+          "lang": [
+            "Die Vorinstanz hatte die Klage noch abgewiesen, weil der Täter als Privatmann gehandelt habe. Das OLG sieht es anders: Er habe sich das Vertrauen der Frau über seine kirchliche Rolle erschlichen, schon im katholischen Waisenhaus. Damit haftet die Kirche wie ein Dienstherr.",
+            "Weil die Anerkennungskommission bereits 360.000 Euro gezahlt hat, stehen noch 190.000 Euro aus. Eine Revision ist nicht zugelassen, das Erzbistum kann aber Beschwerde beim BGH einlegen."
+          ],
+          "einschaetzung": "Urteil vom 26.11. (Az. 7 U 76/25), von LTO und ZDF übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "LTO", "url": "https://www.lto.de/recht/nachrichten/n/olg-koeln-7u7625-rekord-schmerzensgeld-missbrauch-priester-erzbistum-koeln-amtshaftung"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Sitzblockade im Bundestag: Linken drohen 2.000 Euro",
+          "kurz": "Zwei Linke-Abgeordnete blockierten im Paul-Löbe-Haus den Zugang zu einem Frühstück mit dem früheren <b>Mossad-Chef David Barnea</b>. Bundestagspräsidentin Klöckner leitet Verfahren ein, möglich sind je <b>2.000 Euro</b> Ordnungsgeld.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Paul-Löbe-Haus", "suche": "Paul-Löbe-Haus Berlin"}],
+          "lang": [
+            "Die Abgeordneten begründeten den Protest damit, der Bundestag dürfe Barnea keine Bühne bieten; ihm wird eine Rolle beim Pager-Angriff auf die Hisbollah 2024 zugeschrieben. Klöckner sprach von einem beispiellosen Tiefpunkt.",
+            "Der Ältestenrat stellte sich am Donnerstag hinter die Präsidentin. Die Betroffenen sollen angehört werden, über jeden Fall entscheidet Klöckner selbst."
+          ],
+          "einschaetzung": "dpa-Bericht bei t-online, bestätigt von Handelsblatt und ZDF-Ticker.",
+          "quellen": [
+            {"name": "t-online", "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101547918/bundestag-linke-abgeordneten-droht-nach-sitzblockade-ordnungsgeld.html"},
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/politik/deutschland/protestaktion-linken-droht-ordnungsgeld-nach-blockade-aktion-im-bundestag/100273020.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Rente:</b> Arbeitsminister Schweitzer sieht die Koalition auf gutem Weg, einen Zeitplan für den Reformentwurf nennt er aber nicht.",
+            "<b>Dax:</b> Kräftiges Plus von <b>2,1 Prozent</b> auf 25.215 Punkte am Donnerstag.",
+            "<b>Black Friday:</b> Der Handelsverband HDE rechnet heute und am Cyber Monday mit rund <b>6,2 Milliarden Euro</b> Umsatz, etwa 6 Prozent mehr als im Vorjahr.",
+            "<b>VW:</b> Betriebsratschefin Cavallo erwartet zur Tarifrunde im Dezember ein konkretes Angebot, eine schnelle Einigung sieht sie nicht."
+          ],
+          "bewertung": "gesichert",
+          "einschaetzung": "Tickermeldungen von ZDF, HDE-Prognose über retail-news, VW-Meldung von Radio Hannover.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "retail-news (HDE)", "url": "https://retail-news.de/black-friday-cyber-monday-hde-umsatzprognose-2026/"},
+            {"name": "Radio Hannover (VW)", "url": "https://www.radio-hannover.de/hannover-news/schnelle-einigung-im-vw-tarifstreit-nicht-in-sicht"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "EU-Gipfel ohne Einigung abgebrochen",
+          "kurz": "Der Sondergipfel zum EU-Haushalt 2028–2034 endet vorzeitig. Merz hält das Volumen von rund <b>1,78 Billionen Euro</b> für zu hoch, Ratspräsident Costa wollte etwa <b>204 Milliarden</b> kürzen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Europa-Gebäude", "suche": "Europa building Brussels"}],
+          "lang": [
+            "Deutschland und eine Gruppe sparsamer Nettozahler wie Niederlande, Österreich und die Nordländer verlangen Kürzungen. Süd- und Osteuropäer wollen die Gelder für Regionen und Landwirtschaft dagegen nicht antasten lassen. Italiens Regierungschefin Meloni sah die Seiten „Lichtjahre“ voneinander entfernt.",
+            "Statt am Freitag weiterzuverhandeln, sollen Fachleute den Dezember-Gipfel vorbereiten. Frankreichs Präsident Macron warnt vor Verzögerungen, falls bis Jahresende nichts steht."
+          ],
+          "einschaetzung": "Ausführlicher ZDF-Bericht mit Aussagen mehrerer Regierungschefs.",
+          "quellen": [{"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/eu-gipfel-haushalt-bruessel-europaeische-union-merz-abbruch-100.html"}]
+        },
+        {
+          "titel": "Thanksgiving-Sturm: Hunderttausende ohne Strom",
+          "kurz": "Ein Sturm über der US-Ostküste ließ in der Nacht rund <b>770.000 Kunden</b> ohne Strom, vor allem um Washington. Die <b>100. Macy's-Parade</b> in New York wurde erstmals in ihrer Geschichte auf Samstag verschoben.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Washington, D.C.", "suche": "Washington DC"}, {"name": "Macy's Herald Square", "suche": "Macy's Herald Square New York"}],
+          "lang": [
+            "Wind und Regen trafen ausgerechnet das reisestärkste Wochenende des Jahres. Die Organisatoren der Parade hatten die Verschiebung schon vor dem Feiertag angekündigt, weil die riesigen Ballons bei starkem Wind nicht sicher fliegen können.",
+            "Die Stromausfall-Zahl stammt vom Portal PowerOutage.us und kann sich im Laufe des Tages deutlich ändern."
+          ],
+          "einschaetzung": "ZDF-Ticker und AccuWeather übereinstimmend; Ausfallzahlen sind Momentaufnahmen.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "AccuWeather", "url": "https://www.accuweather.com/en/weather-news/breaking-news-macys-thanksgiving-day-parade-postponed-for-first-time-in-history-as-storm-approaches/1964927"}
+          ]
+        },
+        {
+          "titel": "Netanjahu-Prozess: Richter stellen Bestechung infrage",
+          "kurz": "Das Bezirksgericht Jerusalem legt der Anklage erneut nahe, den <b>Bestechungsvorwurf im Fall 4000</b> fallen zu lassen. Bei den Geschenken in Fall 1000 regt es eine Einigung an.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Bezirksgericht Jerusalem", "suche": "Jerusalem District Court"}],
+          "lang": [
+            "Die Richter zweifeln an der Glaubwürdigkeit eines Hauptzeugen und daran, ob eine Gegenleistung belegt ist. Ein Freispruch ist das ausdrücklich nicht, bislang wurde kein Anklagepunkt formell gestrichen. Generalstaatsanwältin Baharav-Miara will die Hinweise prüfen, Netanjahus Anwalt fordert eine Mediation.",
+            "Politisch kommt das zur Unzeit für seine Gegner: Nach der Wahl vom 27. Oktober versucht Oppositionsführer Eisenkot eine Regierung zu bilden, sein Bündnis hat aber nur 48 von 120 Sitzen."
+          ],
+          "einschaetzung": "Euronews berichtet aktuell; JNS belegt, dass das Gericht ähnliche Hinweise schon im Juni gab.",
+          "quellen": [
+            {"name": "Euronews", "url": "https://www.euronews.com/2026/11/26/judges-in-netanyahu-corruption-trial-urges-dropping-key-charges"},
+            {"name": "JNS (Juni)", "url": "https://www.jns.org/news/israel-news/judges-say-prosecutors-should-consider-dropping-bribery-charge-against-netanyahu"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Kairo:</b> Ein brennender Tanklaster auf einer Schnellstraße hat <b>31 Menschen</b> getötet.",
+            "<b>Bangkok:</b> Explosion in einem Öllager im Bezirk Bang Na, das Feuer war nach unter einer Stunde gelöscht; Anwohner mussten vorsorglich raus. Opfer wurden zunächst nicht gemeldet.",
+            "<b>Ukraine:</b> Kiew und Moskau tauschten unter belarussischer Vermittlung Gefallene aus – <b>250</b> Tote gingen an die Ukraine, 22 an Russland.",
+            "<b>Gaza:</b> Israels Verteidigungsminister Katz droht mit einer neuen Offensive und Evakuierungsaufrufen für eine Million Menschen, falls die Hamas nicht entwaffnet.",
+            "<b>Nordkorea:</b> Kim Jong Un kündigt nach Besuchen in Atomanlagen mehr Atomwaffen an."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Bang Na", "suche": "Bang Na Bangkok"}],
+          "einschaetzung": "Agenturmeldungen aus ZDF-Ticker und Euronews, teils nur in Kurzform.",
+          "quellen": [
+            {"name": "Euronews (Kairo)", "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway"},
+            {"name": "Euronews (Bangkok)", "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital"},
+            {"name": "Euronews (Kim)", "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "Davis Cup: Aus im Viertelfinale trotz Zverev",
+          "kurz": "Deutschland verliert in Bologna <b>1:2 gegen Großbritannien</b>. Struff unterlag Norrie in drei Sätzen, Zverev glich mit <b>6:3, 6:2</b> gegen Fery aus, dann verlor das Doppel Krawietz/Pütz.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Unipol Arena", "suche": "Unipol Arena Bologna"}],
+          "lang": [
+            "Struff vergab im dritten Satz vier Breakbälle und gab kurz darauf selbst seinen Aufschlag ab. Im entscheidenden Doppel ging der zweite Satz gegen Patten/Skupski erst im Tiebreak mit 6:8 verloren.",
+            "Damit wartet Deutschland seit 33 Jahren auf den Titel. Zverev klagte nach seinem Sieg über Schmerzen im Sprunggelenk und sprach von einer nötigen Pause nach der langen Saison."
+          ],
+          "einschaetzung": "Ergebnisse von DTB und Sportschau übereinstimmend.",
+          "quellen": [
+            {"name": "Sportschau", "url": "https://www.sportschau.de/tennis/davis-cup/davis-cup-deutschland-scheidet-aus,davis-cup-viertelfinale-100.html"},
+            {"name": "DTB", "url": "https://www.tennis.de/dtb/verband/presse/2026/davis-cup--deutschland-scheidet-im-viertelfinale-aus.html"}
+          ]
+        },
+        {
+          "titel": "96 in Osnabrück: Ohne Källman ins Flutlichtspiel",
+          "kurz": "Am <b>Samstag um 20:30 Uhr</b> spielt Hannover 96 an der Bremer Brücke. <b>Källman</b> fehlt nach seiner Oberschenkelverletzung gegen Fürth voraussichtlich bis Jahresende.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Stadion an der Bremer Brücke", "suche": "Stadion an der Bremer Brücke Osnabrück"}],
+          "lang": [
+            "Nach dem 2:1 gegen Fürth reist 96 mit Rückenwind und rund 1.400 Fans zum Niedersachsen-Duell. Beim VfL sind laut Vorschau keine Ausfälle bekannt.",
+            "Die Aufstellungen sind bislang nur Prognosen; die offiziellen Startelfs kommen etwa eine Stunde vor Anpfiff."
+          ],
+          "einschaetzung": "Anstoßzeit von bundesliga.com, Personal aus einer Vorschau-Seite – noch nicht vom Verein bestätigt.",
+          "quellen": [
+            {"name": "bundesliga.com", "url": "https://www.bundesliga.com/en/2bundesliga/matchday/2026-2027/13/vfl-osnabrueck-vs-hannover-96/liveticker"},
+            {"name": "buli-tipphilfe", "url": "https://www.buli-tipphilfe.de/voraussichtliche-aufstellung/hannover-96"}
+          ]
+        },
+        {
+          "titel": "Späte Tore: Hoffenheim und Freiburg drehen auf",
+          "kurz": "Hoffenheim schlägt Sturm Graz nach 0:1-Rückstand noch <b>3:1</b> – alle Tore ab der 72. Minute. Freiburg gewinnt <b>2:1 gegen Twente</b> durch Bestes Treffer in der Nachspielzeit.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "PreZero Arena", "suche": "PreZero Arena Sinsheim"}, {"name": "Europa-Park Stadion", "suche": "Europa-Park Stadion Freiburg"}],
+          "lang": [
+            "In Sinsheim trafen Hlozek, Conté und Moerstedt, zwei davon Joker. Es war erst der zweite Sieg der TSG in der Ligaphase.",
+            "In Freiburg hatte Ginter kurz vor Schluss noch einen Foulelfmeter an den Pfosten gesetzt, ehe Beste doch noch traf. Der SC steht bei neun Punkten."
+          ],
+          "einschaetzung": "Spielberichte von ZDFheute.",
+          "quellen": [
+            {"name": "ZDFheute (Hoffenheim)", "url": "https://www.zdfheute.de/sport/fussball-europa-league-tsg-hoffenheim-sturm-graz-26-27-tore-ergebnis-100.html"},
+            {"name": "ZDFheute (Freiburg)", "url": "https://www.zdfheute.de/sport/fussball-conference-league-sc-freiburg-twente-enschede-26-27-tore-ergebnis-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Bundesliga:</b> Heute <b>19:30 Uhr</b> Bremen gegen Gladbach, Samstag <b>14:30 Uhr</b> HSV gegen Bayern, Sonntag <b>18:30 Uhr</b> Dortmund gegen Leverkusen.",
+            "<b>Formel 1:</b> Katar ist nur noch Schaulaufen – Kimi Antonelli und Mercedes sind längst Weltmeister. Rennen am Sonntag um <b>17 Uhr</b>.",
+            "<b>Indians:</b> Heute um <b>20 Uhr</b> Heimspiel am Pferdeturm gegen Neuwied, zuletzt gab es ein 2:5 in Herne.",
+            "<b>Recken:</b> Nach dem 34:34 gegen Stuttgart geht es am <b>Montag um 19 Uhr</b> zu den Füchsen Berlin."
+          ],
+          "bewertung": "gesichert",
+          "orte": [{"name": "Eisstadion am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}],
+          "einschaetzung": "Spielpläne von DFL, Vereinsseiten und Fachportalen.",
+          "quellen": [
+            {"name": "bundesliga.com", "url": "https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/11"},
+            {"name": "mercedes-seite.de", "url": "https://www.mercedes-seite.de/motorsport/2026/11/mercedes-wm-double-2026-antonelli-katar/"},
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Der Trends-Feed ist heute stark von Thanksgiving und Black Friday in den USA geprägt.",
+      "trends": [
+        {"begriff": "bills – chiefs", "volumen": "2.000+", "anlass": "NFL-Klassiker an Thanksgiving"},
+        {"begriff": "black friday", "volumen": "2.000+", "anlass": "Rabatttag, KI-Shopping-Agenten"},
+        {"begriff": "new yorker", "volumen": "1.000+", "anlass": "Feed: Parade-Absage in New York"},
+        {"begriff": "miranda lambert", "volumen": "500+", "anlass": "Halbzeitshow Eagles – Cowboys"},
+        {"begriff": "adidas", "volumen": "200+", "anlass": "Black-Friday-Rabatte bis 60 %"},
+        {"begriff": "joe milton", "volumen": "200+", "anlass": "Spektakulärer Touchdown-Pass"},
+        {"begriff": "coach", "volumen": "100+", "anlass": "Rodgers-Zoff bei den Steelers"},
+        {"begriff": "iphone duo", "volumen": "100+", "anlass": "Kein Anlass im Feed"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Ein Euro für die KI-Souveränität",
+          "kurz": "Der Bund steigt mit einem <b>symbolischen Euro</b> beim KI-Anbieter <b>Cohere</b> ein, der gerade das Heidelberger Start-up Aleph Alpha übernimmt – und prüft eine größere Beteiligung.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Heidelberg", "suche": "Heidelberg"}],
+          "lang": [
+            "Der Mini-Anteil sichert der Regierung laut dpa weitgehende Sonderrechte. Cohere sagt im Gegenzug Arbeitsplätze, Forschung und Investitionen in Deutschland zu. Das Digitalministerium hat einen Spiegel-Bericht dazu bestätigt.",
+            "Ziel sind KI-Angebote für Verwaltung, Verteidigung, Energie oder Gesundheit, die ohne die großen US-Rechenzentren auskommen. Welche Rechte genau gelten, ist bisher nicht öffentlich."
+          ],
+          "einschaetzung": "dpa-AFX-Meldung, vom Ministerium bestätigt; Details der Sonderrechte fehlen.",
+          "quellen": [
+            {"name": "finanznachrichten (dpa-AFX)", "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70239220-bund-beteiligt-sich-mit-einem-euro-an-ki-firma-cohere-016.htm"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "SAP meldet „verdächtige Aktivitäten“",
+          "kurz": "Der Walldorfer Softwarekonzern bestätigt einen Sicherheitsvorfall, nennt aber <b>keine Details</b>. Der Spiegel hatte von einem Hackerangriff berichtet.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "SAP Walldorf", "suche": "SAP Walldorf"}],
+          "lang": [
+            "Unklar ist bislang, welche Systeme betroffen sind und ob Kundendaten abgeflossen sind. Erst Anfang November hatte SAP vier kritische Lücken in NetWeaver geschlossen; ob es einen Zusammenhang gibt, ist offen.",
+            "Für Unternehmen, die SAP nutzen, lohnt ein Blick auf die Sicherheitshinweise des Konzerns in den nächsten Tagen."
+          ],
+          "einschaetzung": "Nur Ticker-Kurzmeldung, Umfang des Vorfalls unbekannt.",
+          "quellen": [{"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        },
+        {
+          "titel": "Black Friday: Handel hofft auf Wende",
+          "kurz": "Nach dem ersten Umsatzrückgang 2025 erwartet der HDE für Black Friday und Cyber Monday rund <b>6,2 Milliarden Euro</b>. Etwa <b>jeder Zweite</b> will heute nach Schnäppchen suchen.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Knapp ein Drittel des Umsatzes dürfte auf Weihnachtsgeschenke entfallen. Besonders aktiv sind laut Umfrage die 30- bis 39-Jährigen.",
+            "In den USA dreht sich die Debatte schon um KI-Agenten, die selbstständig Angebote vergleichen und kaufen – ein Thema, das auch die Trends-Liste antreibt."
+          ],
+          "einschaetzung": "Verbandsprognose, keine gemessenen Zahlen.",
+          "quellen": [
+            {"name": "retail-news (HDE)", "url": "https://retail-news.de/black-friday-cyber-monday-hde-umsatzprognose-2026/"},
+            {"name": "The Atlantic", "url": "https://www.theatlantic.com/technology/2026/11/ai-agents-holiday-shopping-muse/689587/"}
+          ]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Haushaltszahlen:</b> Der Bundestag nennt 555,94 Milliarden Euro Ausgaben, eine ältere Ausschussmeldung vom 13. November noch 560,92 Milliarden. Maßgeblich ist die heute beschlossene Fassung.",
+    "<b>SAP:</b> Bisher gibt es nur die knappe Bestätigung „verdächtiger Aktivitäten“. Berichte über einen großen Angriff auf Kundensysteme sind nicht belegt.",
+    "<b>Netanjahu:</b> Die Richter haben Hinweise gegeben, aber nichts entschieden – kein Anklagepunkt ist bisher gestrichen.",
+    "<b>Stromausfälle USA:</b> Die 770.000 sind eine Momentaufnahme von PowerOutage.us und schwanken stündlich."
+  ],
+  "woche": [
+    {"wann": "Fr 27. Nov", "titel": "Frost, Haushalt, Black Friday", "text": "Frostwarnung bis <b>12 Uhr</b>, tagsüber trocken mit etwas Sonne, <b>-3 bis 0 Grad</b>. Ab <b>12:40 Uhr</b> Haushaltsdebatte im Bundestag. <b>19:30 Uhr:</b> Bremen – Gladbach, <b>20 Uhr:</b> Indians gegen Neuwied."},
+    {"wann": "Sa 28. Nov", "titel": "Kalt und trocken, 96 in Osnabrück", "text": "Wieder <b>-3 bis 0 Grad</b>, kein Niederschlag. <b>14:30 Uhr:</b> HSV – Bayern, <b>19 Uhr:</b> F1-Qualifying in Katar, <b>20:30 Uhr:</b> VfL Osnabrück – Hannover 96. In New York startet die verschobene Macy's-Parade."},
+    {"wann": "So 29. Nov bis Fr 4. Dez", "titel": "1. Advent, milder mit Regen", "text": "Sonntag bis <b>3 Grad</b>, abends Regenschauer. <b>So 17 Uhr:</b> Formel 1 in Katar, <b>18:30 Uhr:</b> Dortmund – Leverkusen. <b>Mo:</b> Cyber Monday, ab <b>17 Uhr</b> Adventskalender in der Marktkirche, <b>19 Uhr</b> Recken bei den Füchsen. <b>Fr 4. Dez 19:30 Uhr:</b> Bayern – Paderborn."}
+  ]
+}
