@@ -1,0 +1,341 @@
+{
+  "stand": "Stand: Samstag, 28. November, 3 Uhr",
+  "kurz": [
+    "<b>Haushalt beschlossen:</b> Mit <b>317 zu 260 Stimmen</b> bringt der Bundestag den Rekordetat 2027 durch – rund 556 Milliarden Euro, 123 Milliarden neue Kredite.",
+    "<b>Zuckersteuer kommt, Stromsteuer sinkt:</b> Ab 2028 werden süße Limos mit bis zu <b>35 Cent pro Liter</b> belastet, 2027 sinkt der Strompreis für Haushalte um rund <b>2,3 Cent je kWh</b>.",
+    "<b>Hannover:</b> Kämmerer <b>Axel von der Ohe</b> (SPD) muss die Stadtfinanzen an die Grüne <b>Anja Ritschel</b> abgeben – Folge des Streits nach der OB-Wahl.",
+    "<b>Werder-Comeback:</b> Bremen holt gegen Gladbach ein 1:3 auf, Füllkrug trifft in der Nachspielzeit zum <b>3:3</b>.",
+    "<b>Heute Abend:</b> 96 spielt um <b>20:30 Uhr</b> in Osnabrück (live auf Nitro), parallel boxt Agit Kabayel vor rund <b>47.000 Fans</b> in Düsseldorf um seinen WM-Gürtel.",
+    "<b>Golfregion:</b> Bei einem Drohnenangriff in Kuwait sterben <b>zwei Italiener</b>, die für Rheinmetall arbeiteten. Iran bestreitet, verantwortlich zu sein."
+  ],
+  "ressorts": [
+    {
+      "id": "hannover",
+      "hinweis": "Reddit (r/hannover) war heute nicht erreichbar, die Seite von hannover.de lieferte keine Meldungen. Die Polizeidirektion hat seit Donnerstag nichts Neues veröffentlicht.",
+      "meldungen": [
+        {
+          "titel": "Rathaus-Rochade: Von der Ohe verliert die Kämmerei",
+          "kurz": "Der Rat stimmt mit großer Mehrheit zu: SPD-Dezernent <b>Axel von der Ohe</b> gibt das Finanzressort an die Grüne <b>Anja Ritschel</b> ab. Er bleibt für Ordnung zuständig und übernimmt dafür Stadtentwässerung, HCC und Häfen.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Neues Rathaus", "suche": "Neues Rathaus Hannover"}],
+          "lang": [
+            "Hintergrund ist der Krach zwischen SPD und Grünen, der nach von der Ohes gescheiterter Oberbürgermeister-Kandidatur aufgebrochen war. Beide Parteien hatten die neue Aufteilung vorab ausgehandelt, der Rat hat sie nun abgesegnet.",
+            "Offiziell ist von einer Übergangslösung die Rede. Wie lange sie gelten soll und ab wann Ritschel die Stadtkasse führt, geht aus dem Bericht nicht hervor."
+          ],
+          "einschaetzung": "Ratsbeschluss, berichtet von Radio Hannover; Details zum Zeitplan fehlen.",
+          "quellen": [{"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/hannovers-stadtkaemmerer-von-der-ohe-verliert-finanzressort"}]
+        },
+        {
+          "titel": "Lies will den Bulli zurück nach Stöcken holen",
+          "kurz": "Ministerpräsident <b>Olaf Lies</b> möchte den klassischen VW-Bus wieder im Werk Stöcken bauen lassen. Zugleich soll geprüft werden, ob Teile des Geländes für die <b>Rüstungsindustrie</b> taugen.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "VW Nutzfahrzeuge Werk Stöcken", "suche": "Volkswagen Nutzfahrzeuge Werk Hannover Stöcken"}],
+          "lang": [
+            "Der aktuelle Transporter läuft bei Ford in der Türkei vom Band – für Hannover ein wunder Punkt. Lies betont im HAZ-Interview, Hannover müsse Autostandort bleiben; als Vorbild für die Rüstungsidee nennt er Osnabrück, wo das VW-Gelände schrittweise ans Land gehen soll.",
+            "Eine Antwort von VW oder dem Betriebsrat gibt es bisher nicht. Ob der Konzern das Modell wirklich zurückholt, ist völlig offen."
+          ],
+          "einschaetzung": "Absichtserklärung des Ministerpräsidenten, keine Entscheidung von VW.",
+          "quellen": [{"name": "Radio Hannover", "url": "https://www.radio-hannover.de/hannover-news/vwn-werk-ministerpraesident-lies-will-bulli-produktion-zurueckholen"}]
+        },
+        {
+          "titel": "Wochenende mit Hindernissen: Südschnellweg dicht, Metronom fällt aus",
+          "kurz": "Der <b>Südschnellweg</b> zwischen Landwehrkreisel und Seelhorster Kreuz ist bis <b>Montag, 5 Uhr</b> gesperrt, auch die Auffahrt Hildesheimer Straße. Zwischen Hannover und Hamburg fallen bis Montag viele <b>Metronom-Züge</b> aus.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Landwehrkreisel", "suche": "Landwehrkreisel Hannover"}, {"name": "Seelhorster Kreuz", "suche": "Seelhorster Kreuz Hannover"}],
+          "lang": [
+            "Die Sperrung läuft seit Freitagabend, Autofahrer müssen über die Innenstadt oder den Messeschnellweg ausweichen. Wer am Samstag zum Weihnachtsmarkt will, fährt besser mit der Stadtbahn.",
+            "Bei der Bahn sind Oberleitungsarbeiten der Grund. Für einen Teil der Metronom-Verbindungen fahren Ersatzbusse, ICs und ICEs werden umgeleitet und kommen bis zu 40 Minuten später an."
+          ],
+          "einschaetzung": "Verkehrsmeldungen von Radio Hannover mit Angaben von Stadt und Bahn.",
+          "quellen": [{"name": "Radio Hannover (Übersicht)", "url": "https://www.radio-hannover.de/aktuell/news"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Arbeitsmarkt:</b> Im November waren in der Region rund <b>52.100 Menschen</b> arbeitslos, etwa 900 weniger als im Oktober. Quote: 7,9 Prozent.",
+            "<b>Godshorn:</b> Eine 45-Jährige sprang aus einem fahrenden Auto, nachdem ihr Ex-Partner sie mit einem Messer bedroht hatte. Sie blieb unverletzt, der 40-Jährige wurde festgenommen.",
+            "<b>Garbsen:</b> Kellerbrand in einem Hotel an der Porschestraße, rund 50 Einsatzkräfte verhinderten Schlimmeres, verletzt wurde niemand.",
+            "<b>Metall-Tarif:</b> Die IG Metall Niedersachsen will den Pilotabschluss übernehmen – <b>4,3 Prozent</b> mehr in zwei Stufen, 25 Monate Laufzeit – und macht Druck auf VW.",
+            "<b>Silvester:</b> Am Hauptbahnhof gilt in der Silvesternacht ein Böllerverbot."
+          ],
+          "bewertung": "gesichert",
+          "orte": [{"name": "Godshorn", "suche": "Godshorn Langenhagen"}, {"name": "Porschestraße Garbsen", "suche": "Porschestraße Garbsen"}, {"name": "Hauptbahnhof Hannover", "suche": "Hannover Hauptbahnhof"}],
+          "einschaetzung": "Lokalmeldungen von Radio Hannover und t-online.",
+          "quellen": [
+            {"name": "Radio Hannover (Godshorn)", "url": "https://www.radio-hannover.de/hannover-news/messerangriff-in-godshorn-frau-springt-aus-fahrendem-auto"},
+            {"name": "Radio Hannover (IG Metall)", "url": "https://www.radio-hannover.de/hannover-news/ig-metall-erhoeht-druck-auf-volkswagen"},
+            {"name": "Radio Hannover (Übersicht)", "url": "https://www.radio-hannover.de/aktuell/news"},
+            {"name": "t-online (Böllerverbot)", "url": "https://hannover.t-online.de/region/hannover/id_101549002/silvester-in-hannover-polizei-verhaengt-boellerverbot-am-hauptbahnhof.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deutschland",
+      "meldungen": [
+        {
+          "titel": "Rekordetat durch: 317 Ja, 260 Nein",
+          "kurz": "Der Bundestag beschließt den Haushalt 2027 in namentlicher Abstimmung. Rund <b>556 Milliarden Euro</b> Ausgaben, die Nettokredite steigen von 98 auf <b>123 Milliarden</b>, mit Sondertöpfen sind es über 210 Milliarden.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Reichstagsgebäude", "suche": "Reichstagsgebäude Berlin"}],
+          "lang": [
+            "Fast 140 Milliarden fließen in die Verteidigung, so viel wie seit dem Kalten Krieg nicht mehr; die Ukraine-Hilfe liegt bei 12 Milliarden. Finanzminister Klingbeil verteidigt die Schulden als Investition und warnt zugleich, 2028 werde noch härter.",
+            "Die Linke wirft der Regierung vor, über Krieg zu reden und die Geldsorgen vieler Menschen zu übersehen. Ökonom Felbermayr nennt den Etat kurzatmiges Lückenstopfen ohne langfristige Linie."
+          ],
+          "einschaetzung": "Abstimmungsergebnis und Zahlen von ZDF und Bundestag übereinstimmend.",
+          "quellen": [
+            {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/haushalt-2027-beschlossen-abstimmung-bundestag-100.html"},
+            {"name": "Bundestag", "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"}
+          ]
+        },
+        {
+          "titel": "Limo wird teurer, Strom billiger",
+          "kurz": "Mit dem Haushalt beschließt der Bundestag die <b>Zuckergetränkesteuer ab 1. Januar 2028</b>: 25 bis 35 Cent pro Liter, je nach Zuckergehalt. Die Stromsteuer sinkt 2027 auf den EU-Mindestsatz – rund <b>2,3 Cent je kWh</b> weniger für Haushalte.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Betroffen sind Limonaden, Eistees und Energydrinks ab 5 Gramm Zucker je 100 Milliliter; Säfte ohne Zuckerzusatz bleiben frei. Der Start wurde im Verfahren um ein halbes Jahr nach hinten geschoben. Der Bund erwartet gut eine Milliarde Euro im Jahr.",
+            "Die Stromsteuer-Senkung gilt zunächst nur für 2027 und kostet knapp 5 Milliarden. Ob Limo im Laden wirklich teurer wird, hängt davon ab, ob Hersteller den Zucker reduzieren. Die Gewerkschaft NGG kritisiert die Belastung kleiner Einkommen."
+          ],
+          "einschaetzung": "Detailzahlen aus dem Gesetz, berichtet von retail-news; Beschluss im ZDF-Ticker bestätigt.",
+          "quellen": [
+            {"name": "retail-news", "url": "https://retail-news.de/bundeshaushalt-2027-zuckersteuer-stromsteuer/"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Rente nach 45 Jahren: Weniger Zeiten zählen",
+          "kurz": "Die Koalition hat sich laut Berichten auf einen Kompromiss geeinigt: Die abschlagsfreie Frührente bleibt, aber <b>Arbeitslosengeld, Krankengeld und Minijobs</b> sollen nicht mehr mitzählen. Gewerkschaften laufen Sturm.",
+          "bewertung": "plausibel",
+          "lang": [
+            "Kindererziehung und Pflege zählen weiter. Wer nach 35 Jahren mit Abschlägen gehen will, soll ab Jahrgang 1968 erst mit 64 statt 63 dürfen, und die Abschläge sollen ab Mitte 2028 von 0,3 auf 0,4 Prozent pro Monat steigen.",
+            "DGB-Chefin Fahimi lehnt höhere Abschläge für Menschen mit langen Erwerbsbiografien ab, auch Verdi verlangt Änderungen. Als nächstes muss das Kabinett den Entwurf beschließen."
+          ],
+          "einschaetzung": "Entwurf beruht auf Berichten von Bild, SZ und Reuters; noch kein Kabinettsbeschluss.",
+          "quellen": [
+            {"name": "Tagesspiegel", "url": "https://www.tagesspiegel.de/politik/durchbruch-im-rentenstreitspd-arbeitsminister-schweitzer-will-abschlagsfreie-fruhrente-einschranken-16335626.html"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Uber:</b> Der US-Konzern hält nach Ende des Angebots über <b>87 Prozent</b> an Delivery Hero; die Kartellbehörden müssen noch zustimmen.",
+            "<b>AfD:</b> SPD-Generalsekretär Klüssendorf rechnet bald mit einem Verbotsantrag.",
+            "<b>Bundeswehr:</b> Christian Freuding wird im Februar Generalinspekteur, Heico Hübner neuer Inspekteur des Heeres.",
+            "<b>Telekom und Rheinmetall</b> entwickeln gemeinsam eine Abwehrplattform für kritische Infrastruktur, die Satelliten-, Funk-, Radar- und Drohnendaten bündelt."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Kurzmeldungen aus dem ZDF-Ticker; Uber-Angebot von der Börsen-Zeitung belegt.",
+          "quellen": [
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"},
+            {"name": "Börsen-Zeitung (Uber)", "url": "https://www.boersen-zeitung.de/unternehmen-branchen/uber-sichert-sich-zwei-drittel-der-anteile-an-delivery-hero-2"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welt",
+      "meldungen": [
+        {
+          "titel": "Kuwait: Zwei Italiener bei Drohnenangriff getötet",
+          "kurz": "Getroffen wurde ein <b>Radarzentrum der Luftabwehr</b>. Die beiden Toten arbeiteten als Spezialisten für <b>Rheinmetall</b>. Kuwait und die Golfstaaten machen Iran verantwortlich, Teheran weist das zurück.",
+          "bewertung": "plausibel",
+          "orte": [{"name": "Kuwait", "suche": "Kuwait"}],
+          "lang": [
+            "Italiens Außenminister Tajani unterrichtete den Senat. Irans Außenminister Araghchi spricht von einem verdächtigen Vorfall und schlägt eine gemeinsame Untersuchung vor, das Militär in Teheran nennt es eine Operation unter falscher Flagge. EU-Kommissionschefin von der Leyen fordert mehr Druck auf Iran.",
+            "Der Angriff fällt in einen laufenden Konflikt, in dem Iran die Golfstaaten wiederholt mit Drohnen und Raketen beschossen hat, Kuwait und Bahrain besonders oft."
+          ],
+          "einschaetzung": "Tote und Ort gesichert; wer angegriffen hat, ist strittig.",
+          "quellen": [{"name": "Euronews", "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians"}]
+        },
+        {
+          "titel": "US-Blockade: Frachter im Golf von Oman beschossen",
+          "kurz": "Ein US-Flugzeug setzte den Massengutfrachter <b>„Pacific Archer“</b> unter Palau-Flagge mit Präzisionsmunition außer Gefecht. Er kam aus Bandar Abbas und soll Warnungen ignoriert haben. Die Crew blieb unverletzt.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Golf von Oman", "suche": "Gulf of Oman"}],
+          "lang": [
+            "Getroffen wurde das Heck, der Antrieb fiel aus. Nach Angaben des US-Regionalkommandos Centcom wurden im Rahmen der Seeblockade iranischer Häfen bereits 158 Handelsschiffe umgeleitet und sechs verweigernde Schiffe lahmgelegt.",
+            "Centcom fordert alle Schiffe in der Region um die Straße von Hormus auf, den Blockade-Anweisungen zu folgen. Eine Reaktion Irans lag zunächst nicht vor."
+          ],
+          "einschaetzung": "US-Militärangaben, von Blick und ZDF-Ticker übereinstimmend berichtet.",
+          "quellen": [
+            {"name": "Blick", "url": "https://www.blick.ch/ausland/blockade-us-militaer-greift-frachter-in-golf-von-oman-an/x1tstmd"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        },
+        {
+          "titel": "Stoppt Nordkorea die Waffenhilfe für Russland?",
+          "kurz": "Der ukrainische Militärgeheimdienst behauptet, <b>Kim Jong Un</b> habe Lieferungen von Raketen und Munition ausgesetzt – aus Ärger über Moskaus Annäherung an Seoul. <b>Weder Russland noch Nordkorea</b> bestätigen das.",
+          "bewertung": "vorsicht",
+          "orte": [{"name": "Pjöngjang", "suche": "Pyongyang"}],
+          "lang": [
+            "Laut Kiew sollen russische Militärflugzeuge nicht mehr in nordkoreanischen Luftraum dürfen, KN-23-Raketen und Artilleriegranaten nicht mehr fließen. Auch Moskaus Wunsch nach deutlich mehr nordkoreanischen Soldaten solle unbeantwortet bleiben.",
+            "Belege legt der Geheimdienst nicht vor. Erst Mitte November hatte ein hoher nordkoreanischer Funktionär Putin in Moskau getroffen, die Militärallianz beider Länder ist seit 2024 vertraglich festgeschrieben."
+          ],
+          "einschaetzung": "Einzige Quelle ist eine Kriegspartei, unabhängig nicht überprüft.",
+          "quellen": [{"name": "Euronews", "url": "https://www.euronews.com/2026/11/27/north-korea-halts-russia-military-aid-over-seoul-row-kyiv-says"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Neuseeland:</b> Nach dem Endergebnis fehlt dem rechten Lager ein Sitz zur Mehrheit (65 von 130). Königsmacher ist die neue Zentrumspartei <b>Opportunity</b> mit sieben Sitzen.",
+            "<b>Lettland:</b> Eine Drohne flog nachts kurz bei Ludza in den Luftraum, NATO-Jets stiegen auf. Woher sie kam, ist unklar.",
+            "<b>Ibiza:</b> Ein Tanker mit rund <b>7.000 Tonnen Diesel</b> ist gekentert. Ein befürchtetes Leck scheint es laut Spaniens Regierung nicht zu geben.",
+            "<b>Ukraine:</b> Russische Angriffe auf Nischyn und Malyn töteten mindestens vier Menschen.",
+            "<b>Israel:</b> Die Gespräche zwischen Eisenkot und dem Likud über eine Regierung stocken."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Ludza", "suche": "Ludza Latvia"}, {"name": "Ibiza", "suche": "Ibiza"}],
+          "einschaetzung": "Meldungen von Euronews und ZDF-Ticker, teils nur in Kurzform.",
+          "quellen": [
+            {"name": "Euronews (Neuseeland)", "url": "https://www.euronews.com/2026/11/27/new-zealand-election-newcomer-centrist-party-holds-the-key-as-luxon-scrambles-for-a-majori"},
+            {"name": "Euronews (Lettland)", "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace"},
+            {"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "meldungen": [
+        {
+          "titel": "96 heute Abend an der Bremer Brücke",
+          "kurz": "Anpfiff in Osnabrück ist um <b>20:30 Uhr</b>, <b>Nitro</b> zeigt das Spiel frei empfangbar ab 20:15 Uhr, außerdem Sky. 96 ist seit drei Spielen ungeschlagen und steht auf <b>Platz neun</b>.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Stadion an der Bremer Brücke", "suche": "Stadion an der Bremer Brücke Osnabrück"}],
+          "lang": [
+            "Sieben Punkte aus drei Partien seit dem verlorenen Derby in Braunschweig haben die Lage beruhigt, der Abstand nach unten beträgt aber nur drei Punkte. Trainer Sandro Wagner wartet noch auf seinen ersten Auswärtssieg.",
+            "Källman fehlt nach seiner Oberschenkelverletzung. Gegen Fürth hatte unter anderem Waniss Taibi getroffen."
+          ],
+          "einschaetzung": "Anstoß und TV-Angaben von t-online, deckungsgleich mit der Vortagsausgabe.",
+          "quellen": [{"name": "t-online Hannover", "url": "https://hannover.t-online.de/region/hannover/id_101546024/vfl-osnabrueck-hannover-96-2-bundesliga-live-im-free-tv-und-stream.html"}]
+        },
+        {
+          "titel": "Füllkrug rettet Werder ein irres 3:3",
+          "kurz": "Gladbach führte in Bremen nach Toren von Diks (Elfmeter) und zweimal <b>Honorat</b> schon 3:1. Dann trafen <b>Dinkçi</b> (85.) und <b>Füllkrug</b> in der Nachspielzeit.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Weserstadion", "suche": "Weserstadion Bremen"}],
+          "lang": [
+            "Den Elfmeter gab es nach Videobeweis wegen eines Handspiels. Kurz nach der Pause flogen aus dem Gladbacher Block Golfbälle auf den Rasen – Protest gegen Freitagsspiele –, die Partie war kurz unterbrochen.",
+            "Für Werder ist es der nächste Beleg für die Stehaufmentalität unter Daniel Thioune, mit der die Bremer überraschend weit oben stehen."
+          ],
+          "einschaetzung": "Spielverlauf und Torschützen aus dem Sportschau-Liveticker; der ZDF-Ticker meldet den späten Bremer Ausgleich.",
+          "quellen": [
+            {"name": "Sportschau (Ticker)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/ma12193945/werder-bremen_borussia-moenchengladbach/liveticker"},
+            {"name": "Sportschau (Werder-Analyse)", "url": "https://www.sportschau.de/regional/rb/rb-werder-in-der-analyse-warum-stehen-die-bremer-so-gut-da-100.html"}
+          ]
+        },
+        {
+          "titel": "Kabayel boxt vor 47.000 in Düsseldorf",
+          "kurz": "Schwergewichts-Weltmeister <b>Agit Kabayel</b> (27 Kämpfe, 27 Siege) verteidigt heute seinen <b>WBC-Titel</b> gegen den ungeschlagenen Albaner Nelson Hysa. Geplant waren 35.000 Zuschauer, verkauft sind rund <b>47.000</b> Tickets.",
+          "bewertung": "gesichert",
+          "orte": [{"name": "Merkur Spiel-Arena", "suche": "Merkur Spiel-Arena Düsseldorf"}],
+          "lang": [
+            "Ein deutscher Schwergewichts-Champion in einem vollen Stadion – so etwas gab es lange nicht. Kabayel war Weltmeister geworden, nachdem Oleksandr Usyk den Gürtel im Juni niedergelegt hatte.",
+            "Übertragen wird bei DAZN als Pay-per-View. Eine genaue Uhrzeit für den Hauptkampf nennen die Berichte nicht, er dürfte erst spät in der Nacht beginnen."
+          ],
+          "einschaetzung": "Sport1 und Arena-Veranstaltungsseite übereinstimmend; Ausgang offen.",
+          "quellen": [
+            {"name": "Sport1", "url": "https://www.sport1.de/news/kampfsport/boxen/2026/11/das-gab-es-im-deutschen-boxen-seit-vielen-jahren-nicht"},
+            {"name": "Merkur Spiel-Arena", "url": "https://www.merkur-spiel-arena.de/event/kabayel-vs-hysa-28-11-2026"}
+          ]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>Indians:</b> <b>8:2 gegen Neuwied</b> am Pferdeturm vor 3.711 Fans, Alec Zawatsky traf viermal.",
+            "<b>Bundesliga heute:</b> <b>15:30 Uhr</b> HSV – Bayern (ohne den verletzten Musiala), Köln – Elversberg, Mainz – Union, Paderborn – Schalke; <b>18:30 Uhr</b> Stuttgart – Frankfurt.",
+            "<b>Formel 1:</b> Kimi Antonelli war in Katar in beiden Trainings Schnellster. Qualifying heute <b>19 Uhr</b>, Rennen Sonntag <b>17 Uhr</b>.",
+            "<b>Recken:</b> Montag um <b>19 Uhr</b> bei den Füchsen Berlin, zuletzt 34:34 gegen Stuttgart."
+          ],
+          "bewertung": "plausibel",
+          "orte": [{"name": "Eisstadion am Pferdeturm", "suche": "Eisstadion am Pferdeturm Hannover"}, {"name": "Volksparkstadion", "suche": "Volksparkstadion Hamburg"}],
+          "einschaetzung": "Indians-Ergebnis nur von der Vereinsseite (mit widersprüchlichen Jahresangaben); übrige Termine von ZDF, Sportschau, auto motor und sport und den Recken.",
+          "quellen": [
+            {"name": "Hannover Indians", "url": "https://www.hannover-indians.de/"},
+            {"name": "ZDFheute (HSV – Bayern)", "url": "https://www.zdfheute.de/sport/fussball-bundesliga/hamburger-sv-bayern-muenchen-liveticker-bundesliga-highlights-saison-2026-27-100.html"},
+            {"name": "auto motor und sport", "url": "https://www.auto-motor-und-sport.de/formel-1/gp-katar-formel-1/live/"},
+            {"name": "Die Recken", "url": "https://www.die-recken.de/spielplan/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netz",
+      "hinweis": "Der Trends-Feed wird heute von US-Sport und einem Todesfall im Wrestling geprägt.",
+      "trends": [
+        {"begriff": "bronson reed", "volumen": "2.000+", "anlass": "WWE-Star mit 38 gestorben"},
+        {"begriff": "agit kabayel", "volumen": "1.000+", "anlass": "WM-Kampf in Düsseldorf"},
+        {"begriff": "columbus crew – inter miami", "volumen": "500+", "anlass": "MLS-Playoffs"},
+        {"begriff": "union berlin", "volumen": "200+", "anlass": "Druckspiel in Mainz"},
+        {"begriff": "spotify wrapped 2026", "volumen": "200+", "anlass": "Rätseln um den Starttermin"},
+        {"begriff": "knicks – heat", "volumen": "200+", "anlass": "NBA am Freitag"},
+        {"begriff": "tommy lee jones", "volumen": "200+", "anlass": "Rückblicke auf „Auf der Flucht“"},
+        {"begriff": "lukas nmecha", "volumen": "100+", "anlass": "Klausel hält ihn in Leeds"}
+      ],
+      "meldungen": [
+        {
+          "titel": "Wrestling trauert um Bronson Reed",
+          "kurz": "Der WWE-Star, bürgerlich <b>Jermaine Haley</b>, ist mit <b>38 Jahren</b> gestorben. WWE nennt medizinische Komplikationen als Ursache.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Der Australier war eine der auffälligsten Figuren im Kader. Nach Berichten traten die Komplikationen nach der Großveranstaltung Crown Jewel auf, Einzelheiten gibt die Liga nicht bekannt.",
+            "Reed hinterlässt eine Tochter und seine schwangere Frau. Kolleginnen und Kollegen überschwemmen die sozialen Netzwerke mit Beileidsbekundungen – daher der Spitzenplatz in den Trends."
+          ],
+          "einschaetzung": "Offizielle WWE-Mitteilung, von Bleacher Report bestätigt.",
+          "quellen": [
+            {"name": "WWE", "url": "https://www.wwe.com/article/jermaine-haley-also-known-as-bronson-reed-passes-away"},
+            {"name": "Bleacher Report", "url": "https://bleacherreport.com/articles/25538198-wwes-bronson-reed-dies-age-38-due-medical-complications-following-crown-jewel"}
+          ]
+        },
+        {
+          "titel": "OpenAI schlägt zurück: Gegenklage gegen Apple",
+          "kurz": "Vor einem Bundesgericht in Kalifornien wirft OpenAI Apple <b>Diebstahl von Geschäftsgeheimnissen</b> vor und dass es den Zugang zu <b>Hardware-Zulieferern</b> blockiert habe.",
+          "bewertung": "gesichert",
+          "lang": [
+            "Apple hatte zuvor OpenAI und zwei Ex-Mitarbeiter verklagt, weil Personal und Wissen für eigene Geräte abgeworben worden sein sollen. OpenAI weist das zurück und kritisiert zusätzlich Apples Personalpraktiken.",
+            "Im Kern geht es um die Zukunft der Geräte: KI-Hardware ohne klassische Apps könnte dem iPhone gefährlich werden. Seit Monaten wird über ein OpenAI-Gerät spekuliert."
+          ],
+          "einschaetzung": "Reuters- und Handelsblatt-Berichte übereinstimmend.",
+          "quellen": [
+            {"name": "Handelsblatt", "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-openai-reicht-im-streit-um-ki-technologie-gegenklage-gegen-apple-ein/100273392.html"},
+            {"name": "Reuters via TradingView", "url": "https://de.tradingview.com/news/reuters.com,2026:newsml_L5N4781BT:0/"}
+          ]
+        },
+        {
+          "titel": "Spotify Wrapped: Termin noch Spekulation",
+          "kurz": "Im Netz kursiert ein angebliches Startdatum für den Jahresrückblick. <b>Spotify selbst hat nichts angekündigt.</b> Viele tippen auf <b>Mittwoch, 2. Dezember</b>.",
+          "bewertung": "vorsicht",
+          "lang": [
+            "Die Vermutung stützt sich darauf, dass Wrapped seit 2021 immer an einem Mittwoch Anfang Dezember erschien, 2025 am 3. Dezember. Mehr als ein Muster ist das nicht.",
+            "Unklar ist auch, bis wann Spotify das Hören 2026 mitzählt – im Vorjahr war es Mitte November."
+          ],
+          "einschaetzung": "Datum ist eine Prognose der Official Charts, keine Bestätigung von Spotify.",
+          "quellen": [{"name": "Official Charts", "url": "https://www.officialcharts.com/chart-news/spotify-wrapped-2026-release-date/"}]
+        },
+        {
+          "titel": "Kurz notiert",
+          "liste": [
+            "<b>GTA VI:</b> Das Soundtrack-Album steigt auf <b>Platz 2</b> der deutschen Albumcharts ein, der stärkste Start eines Spiele-Soundtracks seit 26 Jahren.",
+            "<b>Asklepios</b> verbietet Datenbrillen mit Kamera in seinen Kliniken – aus Datenschutzgründen.",
+            "<b>Polen</b> setzt in der Armee KI-Software von Palantir für Analysen ein, ohne Zugriff auf interne Systeme."
+          ],
+          "bewertung": "plausibel",
+          "einschaetzung": "Kurzmeldungen aus dem ZDF-Ticker.",
+          "quellen": [{"name": "ZDFheute Ticker", "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html"}]
+        }
+      ]
+    }
+  ],
+  "faktencheck": [
+    "<b>Korrektur:</b> Gestern standen bei mehreren Bundesliga-Spielen falsche Uhrzeiten (eine Stunde zu früh). Richtig: Bremen – Gladbach lief um <b>20:30 Uhr</b>, HSV – Bayern beginnt heute um <b>15:30 Uhr</b>, Dortmund – Leverkusen am Sonntag um <b>19:30 Uhr</b>.",
+    "<b>Kabayel:</b> Ein albanisches Portal titelte, Hysa habe Kabayel den Gürtel abgenommen. Der Kampf findet aber erst heute Abend statt – das war eine Vorschau, kein Ergebnis.",
+    "<b>Nordkorea:</b> Der angebliche Stopp der Waffenhilfe stammt allein vom ukrainischen Geheimdienst. Bis Moskau oder Pjöngjang reagieren, ist das eine unbestätigte Behauptung.",
+    "<b>Kuwait:</b> Golfstaaten und EU sehen Iran hinter dem Angriff, Teheran bestreitet das. Eine unabhängige Untersuchung gibt es bisher nicht."
+  ],
+  "woche": [
+    {"wann": "Sa 28. Nov", "titel": "Dauerfrost, 96 und Kabayel", "text": "Wechselnd bewölkt und trocken bei <b>-2 bis -1 Grad</b>. Südschnellweg gesperrt, Metronom nach Hamburg eingeschränkt. <b>15:30 Uhr:</b> HSV – Bayern, <b>19 Uhr:</b> F1-Qualifying Katar, <b>20:30 Uhr:</b> VfL Osnabrück – Hannover 96, abends WM-Kampf Kabayel in Düsseldorf."},
+    {"wann": "So 29. Nov", "titel": "1. Advent mit Glatteisgefahr", "text": "Stark bewölkt, <b>-1 bis 3 Grad</b>. Im Tagesverlauf zieht Regen auf, der auf gefrorenem Boden zu <b>Glatteis</b> führen kann – vor allem abends und in der Nacht. <b>15:30 Uhr:</b> Freiburg – Leipzig, <b>17 Uhr:</b> Formel 1 in Katar, <b>19:30 Uhr:</b> Dortmund – Leverkusen."},
+    {"wann": "Mo 30. Nov bis Fr 4. Dez", "titel": "Milder, aber nachts Frost", "text": "Montag früh örtlich glatt, danach bis <b>6 Grad</b>; Di und Mi <b>1 bis 4 Grad</b>, nachts weiter Frost. Südschnellweg ab <b>Mo 5 Uhr</b> wieder frei. <b>Mo 19 Uhr:</b> Recken bei den Füchsen Berlin. Mitte der Woche möglicherweise Spotify Wrapped. <b>Fr 4. Dez 20:30 Uhr:</b> Bayern – Paderborn."}
+  ]
+}

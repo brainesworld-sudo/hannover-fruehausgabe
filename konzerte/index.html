@@ -4,67 +4,67 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Konzert-Radar – Metal & Rock rund um Hannover</title>
-<meta name="description" content="Tägliches Konzert-Radar: neue Metal-, Rock- und Punk-Termine in Hannover und bis 300 km Umkreis, mit Hörtipps, Vorverkaufsstarts und 14-Tage-Kalender.">
+<meta name="description" content="Das tägliche Konzert-Radar für Metal, Rock und Punk in Hannover und bis 300 km Umkreis: neue Tourdaten, Vorverkaufsstarts und ein Kalender der nächsten 14 Tage.">
 <link rel="canonical" href="https://fruehausgabe.hilmerjahnke.de/konzerte/">
 <style>
-:root{--bg:#f7f3ec;--paper:#fffdf9;--ink:#24201b;--muted:#6f675c;--line:#e4dccf;--red:#9b2226;--petrol:#11697a;--ochre:#b7791f;--violet:#6b3fa0;--green:#2f7d4f;--warn:#b0412e;--c:var(--red)}
-@media (prefers-color-scheme: dark){:root{--bg:#191714;--paper:#221f1b;--ink:#ece6dc;--muted:#a89f92;--line:#3a352e;--red:#e0666b;--petrol:#4fb3c4;--ochre:#e2a94b;--violet:#b192e0;--green:#6cc48f;--warn:#ef7a63}}
+:root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#23201b;--muted:#6f675b;--line:#e4dccd;--red:#9b1c1c;--teal:#0f6b6b;--ochre:#a86b06;--violet:#6a3d9a;--green:#2f6b3a;--warn:#b4421b;--key:#1f3f66}
+@media (prefers-color-scheme: dark){:root{--bg:#16140f;--paper:#211e18;--ink:#ece6da;--muted:#a59c8c;--line:#3a352b;--red:#e06767;--teal:#4fb7b2;--ochre:#e0a640;--violet:#b493e0;--green:#7cc489;--warn:#f08a5d;--key:#8fb3e0}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Iowan Old Style","Palatino Linotype",Georgia,serif;-webkit-text-size-adjust:100%}
-.wrap{max-width:980px;margin:0 auto;padding:28px 16px 40px}
-a{color:var(--c)}
-header h1{font:800 40px/1.05 "Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:-.02em;margin:0 0 6px}
-.eyebrow,.dateline{font:600 12px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
-.dateline{margin:4px 0 4px}
-.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--green);text-decoration:none}
-.lead{margin:10px 0 0;color:var(--muted);font-size:16px}
-.box{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:16px 18px;margin:22px 0}
-.box h2{font:800 15px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--c);margin:0 0 8px}
+.wrap{max-width:1040px;margin:0 auto;padding:22px 16px 40px}
+a{color:var(--c,var(--key))}
+.eyebrow,.pill,.chip,.meta,.sec h2,.box h3,footer{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-size:40px;line-height:1.1;margin:4px 0 6px;letter-spacing:-.01em}
+.dateline{color:var(--muted);font-size:15px;margin:0}
+.jump{font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;text-decoration:none;color:var(--green)}
+.box{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:14px 18px;margin:22px 0}
+.box h3{margin:0 0 8px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
 .box ul{margin:0;padding-left:20px}.box li{margin:5px 0}
-.key{--c:var(--ink)}
-section{margin:34px 0}
-.sec{display:flex;align-items:center;gap:10px;margin-bottom:14px}
-.pill{font:800 11px "Helvetica Neue",Helvetica,Arial,sans-serif;background:var(--c);color:var(--paper);border-radius:999px;padding:4px 10px;letter-spacing:.08em}
-.sec h2{font:800 22px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0}
-.s-new{--c:var(--red)}.s-fest{--c:var(--petrol)}.s-rem{--c:var(--ochre)}.tip{--c:var(--violet)}.watch{--c:var(--warn)}
+.key{--c:var(--key)}.tip{--c:var(--violet)}.warn{--c:var(--warn)}
+section{margin-top:34px}
+.sec{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.pill{background:var(--c);color:#fff;font-size:11px;font-weight:800;letter-spacing:.08em;border-radius:999px;padding:3px 10px}
+@media (prefers-color-scheme: dark){.pill{color:#16140f}}
+.sec h2{margin:0;font-size:20px}
+.s-new{--c:var(--red)}.s-rem{--c:var(--ochre)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:32px}}
 .card{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:14px 16px}
-.card h3{font:800 18px/1.25 "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0 0 4px}
-.card h3 small{font-weight:600;color:var(--muted);font-size:13px}
-.meta{font:600 12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted);margin:0 0 8px}
+.card h3{margin:0 0 4px;font-size:19px;line-height:1.25}
+.meta{font-size:13px;color:var(--muted);margin:0 0 8px}
 .card p{margin:6px 0}
-.chip{display:inline-block;font:800 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;border:1px solid currentColor;border-radius:5px;padding:1px 6px;color:var(--c);margin-bottom:4px}
-.chip.vvk{color:var(--warn)}.chip.ok{color:var(--green)}.chip.open{color:var(--muted)}
+.chip{display:inline-block;font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--c);color:var(--c);border-radius:5px;padding:1px 6px;margin-bottom:6px}
 details{margin-top:8px}
 summary{cursor:pointer;font:700 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}
 details p{font-size:15.5px}
 .src{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
+.src a{color:var(--c)}
 .sp{font:700 12px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a8f4a;text-decoration:none;white-space:nowrap}.sp:hover{text-decoration:underline}
 .bl{font:12.5px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}.bl a{color:var(--c);font-weight:700;text-decoration:none}.bl a:hover{text-decoration:underline}
-.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}
-footer{border-top:1px solid var(--line);margin-top:36px;padding-top:16px;font:13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--muted)}
-footer a{color:var(--ink)}
-@media(max-width:640px){.grid{grid-template-columns:1fr}header h1{font-size:34px}.day{grid-template-columns:1fr;gap:2px}}
+.s-cal{--c:var(--green)}.cal{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:12px;padding:6px 16px}.day{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}.day:first-child{border-top:0}.dh{font:800 13px "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--c)}.dh span{display:block;font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.day ul{margin:0;padding:0;list-style:none}.day li{margin:2px 0;font-size:15.5px}.tag{font:700 10.5px "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid currentColor;border-radius:5px;padding:0 5px;margin-left:4px;white-space:nowrap}.cal details{border-top:1px solid var(--line);padding:6px 0}@media(max-width:640px){.day{grid-template-columns:1fr;gap:2px}}
+.cal summary{color:var(--green);padding:4px 0}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:14px;font-size:13px;color:var(--muted)}
+footer a{color:var(--key)}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
-<div class="eyebrow">Metal · Rock · Punk · Hannover & 300 km Umkreis</div>
+<div class="eyebrow">Metal · Rock · Punk · Hannover + 300 km</div>
 <h1>Konzert-Radar</h1>
-<p class="dateline">Freitag, 27. November 2026 · Stand: 03:40 Uhr</p>
-<a class="jump" href="#kalender">→ Kalender der nächsten 14 Tage</a>
-<p class="lead">Heute ist großer Vorverkaufstag mit gleich zwei Hannover-Shows für 2027: Staind kommen zum ersten Mal seit 15 Jahren nach Europa, und die Broilers spielen Open Air an der Expo Plaza. Dazu Thrash mit Anthrax und Kerry King und ein Power-Metal-Jubiläum von Stratovarius.</p>
+<p class="dateline">Samstag, 28. November 2026 · Stand: 03:46 Uhr</p>
+<p><a class="jump" href="#kalender">→ Kalender der nächsten 14 Tage</a></p>
 </header>
 
 <div class="box key">
-<h2>Das Wichtigste in 60 Sekunden</h2>
+<h3>Das Wichtigste in 60 Sekunden</h3>
 <ul>
-<li><b>Broilers an der Expo Plaza:</b> Die Düsseldorfer kündigen ihr neues Album „Broilers Banda“ an und spielen am <b>Sa 28. August 2027 in Hannover</b>. Der Vorverkauf startet <b>heute um 12 Uhr</b>.</li>
-<li><b>Staind in der Swiss Life Hall:</b> Zum 25. Jubiläum von „Break the Cycle“ spielen Staind mit Hoobastank am <b>Mo 14. Juni 2027 in Hannover</b>. Tickets gibt es <b>ab heute, 10 Uhr</b>.</li>
-<li><b>Anthrax mit Kerry King und Sacred Reich:</b> Thrash-Paket für März/April 2027, unter anderem in Hamburg und Köln. Zum Hamburger Termin gibt es <b>widersprüchliche Angaben</b>.</li>
-<li><b>Stratovarius spielen „Visions“ komplett:</b> Das Album wird 30, die Tour startet am <b>12. Mai 2027 in der Markthalle Hamburg</b>.</li>
-<li><b>Weitere Vorverkaufsstarts heute:</b> Mastodon, Kansas, Quicksand, Deryck Whibley und Mötley Crüe (siehe Kalender).</li>
+<li><b>Within Temptation</b> kommen im Herbst 2027 mit dem neuen Album <b>„Through Fire &amp; Ashes“</b> für sechs Deutschland-Shows, nächster Halt <b>Hamburg Sporthalle am 24.10.2027</b>.</li>
+<li><b>Carcass</b> spielen mit Rotten Sound und Bat im März 2027 <b>Clubshows</b>, darunter <b>Hamburg Gruenspan (27.3.)</b> und Berlin Astra (5.3.).</li>
+<li><b>Kärbholz</b> stehen bei mvp für den <b>30.09.2027 im Capitol Hannover</b>, vorher am 3.4. in Bremen.</li>
+<li>NDH aus Göttingen: <b>Stahlmann</b> gehen auf „Metamorphose“-Tour, bisher bestätigt ist <b>Lübeck am 20.02.2027</b>.</li>
+<li>Heute Abend gleich drei Shows in Hannover: <b>Allt</b> (Béi Chéz Heinz), <b>Half Me</b> (MusikZentrum) und <b>Pinhead</b> (SubKultur).</li>
 </ul>
 </div>
 
@@ -73,59 +73,69 @@ footer a{color:var(--ink)}
 <div class="grid">
 
 <article class="card">
-<span class="chip vvk">Vorverkauf startet</span>
-<h3>Anthrax <small>+ Kerry King, Sacred Reich</small></h3>
-<p class="meta">Di 30.03. oder Do 01.04.2027 · Hamburg (Große Freiheit 36 oder Fabrik) · ca. 155 km · Mi 31.03. Carlswerk Victoria, Köln · ca. 290 km</p>
-<p>Die „Cursum Perficio Tour“ bringt <b>drei Thrash-Generationen auf eine Bühne</b>: Anthrax mit ihrem ersten Album seit zehn Jahren, Ex-Slayer-Gitarrist Kerry King mit Soloband und die Crossover-Veteranen Sacred Reich. Der freie Vorverkauf startet laut Visions <b>heute um 10 Uhr</b>.</p>
-<p><strong>Hörtipp:</strong> „It’s For The Kids“ <a class="sp" href="https://open.spotify.com/search/Anthrax%20It%27s%20For%20The%20Kids" target="_blank" rel="noopener">▶ Spotify</a> – die erste neue Anthrax-Single seit einem Jahrzehnt · „My War“ (Kerry King) <a class="sp" href="https://open.spotify.com/search/Kerry%20King%20My%20War" target="_blank" rel="noopener">▶ Spotify</a> – Vorgeschmack auf sein zweites Soloalbum</p>
-<p class="bl"><a href="https://www.anthrax.com" target="_blank" rel="noopener">Website</a></p>
+<span class="chip">Bestätigt</span>
+<h3>Stahlmann</h3>
+<p class="meta">Sa 20.02.2027 · Rider's Café, Lübeck · ca. 200 km · Preis noch nicht gelistet</p>
+<p>Die Göttinger NDH-Band blickt auf der <b>„Metamorphose“-Tour</b> auf ihre ganze Laufbahn zurück und mischt Songs aus allen Phasen neu zusammen.</p>
+<p><strong>Hörtipp:</strong> „Engel der Dunkelheit“ <a class="sp" href="https://open.spotify.com/search/Stahlmann%20Engel%20der%20Dunkelheit" target="_blank" rel="noopener">▶ Spotify</a> – zeigt gut den düster-tanzbaren Stahlmann-Sound</p>
 <details><summary>Mehr über die Band</summary>
-<p>Anthrax gehören mit Metallica, Slayer und Megadeth zu den „Big Four“ des Thrash und kommen aus New York. Ihr zwölftes Studioalbum „Cursum Perficio“ ist im September 2026 erschienen, aufgenommen unter anderem in Dave Grohls Studio 606. Live sind sie für ihre Energie und den Humor zwischen den Songs bekannt.</p>
-<p>Kerry King veröffentlicht im <b>Februar 2027 sein zweites Soloalbum „The End Of All Gods“</b>. In seiner Band spielen unter anderem Mark Osegueda (Death Angel) und Paul Bostaph. Sacred Reich aus Arizona arbeiten an „Into The Abyss“, dem Nachfolger ihres Comebackalbums von 2019.</p>
-<p>Wichtig: Metal1.info und Visions nennen den <b>30. März in der Großen Freiheit 36</b>, das Eventim-Magazin und Metal Hammer den <b>1. April in der Fabrik</b>. Vor dem Kauf auf der Ticketseite prüfen, welcher Termin gilt.</p>
-<p class="src">Quellen: <a href="https://www.visions.de/news/anthrax-tour-2027-kerry-king-sacred-reich/" target="_blank" rel="noopener">Visions</a> · <a href="https://www.metal1.info/metal-news/anthrax-kommen-2027-mit-kerry-king-und-sacred-reich-nach-deutschland/" target="_blank" rel="noopener">Metal1.info</a> · <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-anthrax-kerry-king-sacred-reich-2564331/" target="_blank" rel="noopener">Metal Hammer</a> · <a href="https://www.eventim.de/magazin/rock-pop/anthrax-kommen-2027-mit-kerry-king-und-sacred-reich-nach-deutschland" target="_blank" rel="noopener">Tickets (Eventim)</a></p>
+<p>Stahlmann stammen aus Göttingen und gehören seit über einem Jahrzehnt zur Neuen Deutschen Härte: harte Gitarren, elektronische Flächen, deutsche Texte und eine klar düstere Ästhetik.</p>
+<p>Die neue Tour ist als Rückblick angelegt. Bisher taucht in den Kalendern nur Lübeck auf; weitere Termine dürften folgen, ein Heimspiel in Südniedersachsen ist aber noch nicht bestätigt.</p>
+<p class="src">Quelle: <a href="https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/stahlmann-metamorphose-tour-2027/" target="_blank" rel="noopener">Hamburg Tourismus – Veranstaltungskalender</a> · Tickets über die dortige Buchungsseite</p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip ok">Bestätigt</span>
-<h3>Stratovarius <small>+ Fabio Lione’s Dawn of Victory</small></h3>
-<p class="meta">Mi 12.05.2027 · Markthalle, Hamburg · ca. 155 km (13.5. Turock, Essen · 6.6. Hellraiser, Leipzig)</p>
-<p>Die Finnen feiern 30 Jahre „Visions“ und spielen das <b>Album in voller Länge</b>. Als Gast kommt Ex-Rhapsody-Sänger Fabio Lione mit einem Programm aus Dawn-of-Victory-Klassikern. Hamburg ist der Tourauftakt.</p>
-<p><strong>Hörtipp:</strong> „Black Diamond“ <a class="sp" href="https://open.spotify.com/search/Stratovarius%20Black%20Diamond" target="_blank" rel="noopener">▶ Spotify</a> – Cembalo-Intro, dann Vollgas</p>
-<p class="bl"><a href="https://stratovarius.com" target="_blank" rel="noopener">Website</a></p>
+<span class="chip">Details offen</span>
+<h3>Brainstorm</h3>
+<p class="meta">Do 04.03.2027 · Tivoli, Bremen · ca. 125 km · Preis offen</p>
+<p>Die Power-Metal-Veteranen von der Schwäbischen Alb stehen als <b>„Tour 2027“</b> im Bremer Kalender; weitere Daten hat die Band noch nicht veröffentlicht.</p>
+<p><strong>Hörtipp:</strong> „Plague of Rats“ <a class="sp" href="https://open.spotify.com/search/Brainstorm%20Plague%20of%20Rats" target="_blank" rel="noopener">▶ Spotify</a> – Titelsong des aktuellen Albums von 2025</p>
+<p class="bl"><a href="https://www.brainstorm-web.net/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/official.brainstorm/" target="_blank" rel="noopener">Instagram @official.brainstorm</a></p>
 <details><summary>Mehr über die Band</summary>
-<p>Stratovarius aus Helsinki haben in den Neunzigern den melodischen Power Metal mitgeprägt. „Visions“ (1997) gilt bis heute als eines ihrer wichtigsten Alben, mit Songs wie „Black Diamond“ und dem zehnminütigen Titelstück.</p>
-<p>Die Tour umfasst <b>über 25 Termine in Europa</b>, darunter fünf in Deutschland. Die Markthalle ist für eine Band dieser Größe ein enger Club, das passt zu einem Abend für langjährige Fans.</p>
-<p class="src">Quellen: <a href="https://stratovarius.com/live" target="_blank" rel="noopener">stratovarius.com</a> · <a href="https://themetallist.com/en/news/2026/11/stratovarius-visions-30th-anniversary-european-tour-2027/" target="_blank" rel="noopener">The MetalList</a></p>
+<p>Brainstorm gibt es seit Ende der 1980er. Die Band steht für melodischen, druckvollen Power Metal mit großen Refrains und ist live eine sichere Bank.</p>
+<p>Das jüngste Album „Plague of Rats“ erschien im Februar 2025. Zuletzt war die Band mit Angus McSix und Bloodbound sowie im Vorprogramm von Kissin' Dynamite unterwegs.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/bremen/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp Bremen – Metal &amp; Hard Rock</a> · <a href="https://www.brainstorm-web.net/news" target="_blank" rel="noopener">Band-News</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip vvk">Vorverkauf startet</span>
-<h3>Staind <small>+ Hoobastank</small></h3>
-<p class="meta">Mo 14.06.2027 · Swiss Life Hall, Hannover · 0 km (13.6. Berlin · 8.6. Köln Palladium)</p>
-<p>Staind kommen <b>zum ersten Mal seit 15 Jahren nach Europa</b> und feiern 25 Jahre „Break the Cycle“. Hannover ist die letzte Deutschland-Station. Der allgemeine Vorverkauf startet <b>heute um 10 Uhr</b>.</p>
-<p><strong>Hörtipp:</strong> „It’s Been Awhile“ <a class="sp" href="https://open.spotify.com/search/Staind%20It%27s%20Been%20Awhile" target="_blank" rel="noopener">▶ Spotify</a> – der Hit des Jubiläumsalbums · „Watch Me Break“ <a class="sp" href="https://open.spotify.com/search/Staind%20Watch%20Me%20Break" target="_blank" rel="noopener">▶ Spotify</a> – die neue Single</p>
-<p class="bl"><a href="https://www.staind.com" target="_blank" rel="noopener">Website</a></p>
+<span class="chip">Bestätigt</span>
+<h3>Carcass + Rotten Sound, Bat</h3>
+<p class="meta">Sa 27.03.2027 · Gruenspan, Hamburg · ca. 155 km · auch Fr 05.03. Astra, Berlin (ca. 285 km) · Preis offen</p>
+<p>Die Grind- und Death-Metal-Pioniere aus Liverpool kommen in <b>Clubgröße</b>, mit finnischem Grindcore und US-Speed-Punk als Vorprogramm.</p>
+<p><strong>Hörtipp:</strong> „Heartwork“ <a class="sp" href="https://open.spotify.com/search/Carcass%20Heartwork" target="_blank" rel="noopener">▶ Spotify</a> – der Song, mit dem Carcass den melodischen Death Metal mitgeprägt haben</p>
 <details><summary>Mehr über die Band</summary>
-<p>Staind aus Massachusetts wurden um die Jahrtausendwende mit schwerem, melancholischem Alternative Metal groß. „Break the Cycle“ (2001) war ihr erfolgreichstes Album, Sänger Aaron Lewis ist für seine ruhige, eindringliche Stimme bekannt.</p>
-<p>Am <b>5. März 2027 erscheint das neunte Album</b> „The Space Between The Darkness And The Light“. Hoobastank („The Reason“) sind an fast allen Abenden als Support dabei.</p>
-<p class="src">Quellen: <a href="https://themetallist.com/en/news/2026/11/staind-break-the-cycle-25th-anniversary-european-tour-2027/" target="_blank" rel="noopener">The MetalList</a> · <a href="https://blabbermouth.net/news/staind-announces-june-2027-european-tour-dates-with-hoobastank" target="_blank" rel="noopener">Blabbermouth</a> · <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hannover</a></p>
+<p>Carcass begannen Ende der 80er als einer der rohesten Grindcore-Acts überhaupt und wurden später mit „Heartwork“ zu Wegbereitern des melodischen Death Metal. Ihr bislang letztes Album ist „Torn Arteries“.</p>
+<p>Rotten Sound aus Finnland stehen für kurze, brutale Grindcore-Attacken, Bat bringen schnellen Crossover aus Speed Metal und Hardcore. Ein Pflichttermin für alle, die es laut und schnell mögen.</p>
+<p class="src">Quellen: <a href="https://vampster.com/news/carcass-rotten-sound-bat-sind-ab-maerz-2027-auf-tour/" target="_blank" rel="noopener">vampster</a> · <a href="https://www.metal1.info/metal-news/carcass-rotten-sound-und-bat-kuendigen-gemeinsame-europatour-an/" target="_blank" rel="noopener">Metal1.info</a></p>
 </details>
 </article>
 
 <article class="card">
-<span class="chip vvk">Vorverkauf startet</span>
-<h3>Broilers</h3>
-<p class="meta">Sa 28.08.2027 · Expo Plaza, Hannover · 0 km (7.8. Open Air am Volkspark, Hamburg · 14.8. Waldbühne, Berlin)</p>
-<p>Nach sechs Jahren kommt ein neues Studioalbum, <b>„Broilers Banda“ (23.7.2027)</b>, und dazu eine Open-Air-Tour mit elf Terminen. Ticketstart ist <b>heute um 12 Uhr</b>.</p>
-<p><strong>Hörtipp:</strong> „Meine Sache“ <a class="sp" href="https://open.spotify.com/search/Broilers%20Meine%20Sache" target="_blank" rel="noopener">▶ Spotify</a> – zeigt gut, warum ganze Plätze mitsingen</p>
-<p class="bl"><a href="https://www.broilers.de/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/broilers/" target="_blank" rel="noopener">Instagram @broilers</a></p>
+<span class="chip">Details offen</span>
+<h3>Kärbholz</h3>
+<p class="meta">Do 30.09.2027 · Capitol, Hannover · auch Sa 03.04.2027 Aladin Music Hall, Bremen (ca. 125 km) · Preis offen</p>
+<p>Der Deutschrock aus dem Rhein-Sieg-Kreis kehrt nach der „Sturm zieh auf“-Runde 2026 zurück, in Hannover in den <b>Capitol-Saal</b>.</p>
+<p><strong>Hörtipp:</strong> „Karma“ <a class="sp" href="https://open.spotify.com/search/K%C3%A4rbholz%20Karma" target="_blank" rel="noopener">▶ Spotify</a> – Einstieg in den typischen Kärbholz-Mix aus Rock und Mitsingrefrain</p>
 <details><summary>Mehr über die Band</summary>
-<p>Die Broilers starteten in den Neunzigern in Düsseldorf als Oi!-Punkband und spielen heute Punkrock mit Ska-, Soul- und Rock-’n’-Roll-Einflüssen in großen Hallen. Ihre Konzerte sind bekannt für viel Gemeinschaft und lange Mitsingpassagen.</p>
-<p>Die Expo Plaza ist ein großes Open-Air-Gelände. Die Band verkauft <b>„Banda Live“-Hardtickets nur im eigenen Shop</b>, reguläre Karten gibt es über Eventim.</p>
-<p class="src">Quellen: <a href="https://www.broilers.de/" target="_blank" rel="noopener">broilers.de</a> · <a href="https://www.eventim.de/magazin/rock-pop/broilers-sind-zurueck-neues-album-broilers-banda-und-tour-fuer-2027-angekuendigt" target="_blank" rel="noopener">Eventim-Magazin</a> · <a href="https://www.rollingstone.de/broilers-banda-album-tour-2027-termine-tickets-3220751/" target="_blank" rel="noopener">Rolling Stone</a></p>
+<p>Kärbholz stammen aus Ruppichteroth und haben sich über Jahre eine große Fanbasis im Deutschrock erspielt: geradlinige Gitarren, deutsche Texte, viel Gemeinschaftsgefühl im Saal.</p>
+<p>Einen Tourtitel oder ein neues Album nennen die Listings noch nicht; beide Termine stehen bislang nur bei Vorverkaufsstellen.</p>
+<p class="src">Quellen: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/?from=40" target="_blank" rel="noopener">mvp Hannover</a> · <a href="https://www.mvp.de/bremen/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp Bremen</a></p>
+</details>
+</article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Within Temptation</h3>
+<p class="meta">So 24.10.2027 · Sporthalle, Hamburg · ca. 155 km · auch Sa 23.10. Leipzig, 15.11. Düsseldorf, 17.11. Berlin · Preis offen</p>
+<p>Die niederländische Symphonic-Metal-Band stellt das <b>neue Album „Through Fire &amp; Ashes“</b> (Frühjahr 2027) auf großer Hallentour vor.</p>
+<p><strong>Hörtipp:</strong> „Through Fire &amp; Ashes“ <a class="sp" href="https://open.spotify.com/search/Within%20Temptation%20Through%20Fire%20%26%20Ashes" target="_blank" rel="noopener">▶ Spotify</a> – der Titelsong, ein Duett mit der niederländischen Sängerin S10</p>
+<p class="bl"><a href="https://www.within-temptation.com/" target="_blank" rel="noopener">Website</a></p>
+<details><summary>Mehr über die Band</summary>
+<p>Within Temptation um Sängerin Sharon den Adel gehören seit den späten 90ern zu den Großen des Symphonic Metal. Zuletzt ist die Band deutlich politischer und moderner geworden.</p>
+<p>Das neue Album soll von persönlichen Kämpfen in einer sich schnell verändernden Welt handeln. Den Abschluss der Deutschland-Runde bildet Frankfurt am 1.12.2027.</p>
+<p class="src">Quellen: <a href="https://www.metal-hammer.de/metal-hammer-praesentiert-within-temptation-2-2564751/" target="_blank" rel="noopener">Metal Hammer</a> · <a href="https://blabbermouth.net/news/within-temptation-releases-brand-new-single-through-fire-ashes-featuring-dutch-singer-s10" target="_blank" rel="noopener">Blabbermouth</a></p>
 </details>
 </article>
 
@@ -135,73 +145,80 @@ footer a{color:var(--ink)}
 <section class="s-rem">
 <div class="sec"><span class="pill">ERINN.</span><h2>Nochmal zur Erinnerung</h2></div>
 <div class="grid">
+
 <article class="card">
-<h3>Mystic Prophecy & Iron Savior</h3>
-<p class="meta">Fr 11.12.2026 · Hyde Park, Osnabrück · ca. 140 km</p>
-<p>Doppeltes Jubiläum im Power Metal: <b>30 Jahre Iron Savior, 25 Jahre Mystic Prophecy</b>.</p>
-<p><strong>Hörtipp:</strong> „Atlantis Falling“ (Iron Savior) <a class="sp" href="https://open.spotify.com/search/Iron%20Savior%20Atlantis%20Falling" target="_blank" rel="noopener">▶ Spotify</a> – Hamburger Power Metal klassischer Art</p>
-<p class="src">Quelle: <a href="https://www.regioactive.de/konzert/mystic-prophecy-iron-savior-osnabrueck-hyde-park-2026-12-11-tickets-NCkdsd5cvk" target="_blank" rel="noopener">regioactive</a></p>
+<span class="chip">Ausverkauft</span>
+<h3>Smoke Blow</h3>
+<p class="meta">Fr 11.12.2026 · Faust (60er-Jahre-Halle), Hannover</p>
+<p>Die <b>„Final Hands“</b>-Show ist ausverkauft. Tickets nur noch über offizielle Wiederverkaufswege suchen.</p>
+<p><strong>Hörtipp:</strong> „Smoke Blow – die bekanntesten Songs“ <a class="sp" href="https://open.spotify.com/search/Smoke%20Blow" target="_blank" rel="noopener">▶ Spotify</a> – Kieler Punk-Metal zum Warmwerden vor dem Abschied</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp Hannover</a></p>
 </article>
+
 <article class="card">
-<h3>Lordfest <small>Lord of the Lost + Nachtblut, Velvet Rush (Fr), Nothgard, Wisborg (Sa)</small></h3>
-<p class="meta">Fr 18. & Sa 19.12.2026 · Große Freiheit 36, Hamburg · ca. 155 km</p>
-<p>Die Hamburger Dark-Rocker laden zum Heimspiel-Wochenende, <b>mit wechselndem Vorprogramm</b> an beiden Tagen.</p>
-<p><strong>Hörtipp:</strong> „Blood &amp; Glitter“ <a class="sp" href="https://open.spotify.com/search/Lord%20of%20the%20Lost%20Blood%20%26%20Glitter" target="_blank" rel="noopener">▶ Spotify</a> – der ESC-Song zum Mitklatschen</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/hamburg/veranstaltungen/lordfest-2026-tagesticket-freitag-nachtblut-velvet-rush/" target="_blank" rel="noopener">mvp.de Hamburg</a></p>
+<span class="chip">Bestätigt</span>
+<h3>tAKiDA</h3>
+<p class="meta">Fr 22.01.2027 · Swiss Life Hall, Hannover</p>
+<p>Schwedischer Alternative Rock mit der <b>„Section 7 Tour“</b>, am Tag danach in Hamburg.</p>
+<p><strong>Hörtipp:</strong> „Curly Sue“ <a class="sp" href="https://open.spotify.com/search/Takida%20Curly%20Sue" target="_blank" rel="noopener">▶ Spotify</a> – der Song, der die Band groß gemacht hat</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp Hannover</a></p>
 </article>
+
 <article class="card">
-<h3>The Hirsch Effekt</h3>
-<p class="meta">Sa 19.12.2026 · Faust, Hannover · 0 km</p>
-<p>Das <b>Jahresabschlusskonzert</b> der Hannoveraner Artcore-Band, traditionell ein Heimspiel.</p>
-<p><strong>Hörtipp:</strong> Album „Kollaps“ <a class="sp" href="https://open.spotify.com/search/The%20Hirsch%20Effekt%20Kollaps" target="_blank" rel="noopener">▶ Spotify</a> – zeigt die Spannweite zwischen Chaos und Melodie</p>
-<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp.de Hannover</a></p>
+<span class="chip">Bestätigt</span>
+<h3>Electric Callboy</h3>
+<p class="meta">Do 18.02.2027 · ZAG Arena, Hannover</p>
+<p>Die <b>„Tanzneid World Tour“</b> macht in der Arena Station; zusätzlich gibt es Premium-Pakete.</p>
+<p><strong>Hörtipp:</strong> „Hypa Hypa“ <a class="sp" href="https://open.spotify.com/search/Electric%20Callboy%20Hypa%20Hypa" target="_blank" rel="noopener">▶ Spotify</a> – Partystart garantiert</p>
+<p class="src">Quelle: <a href="https://www.mvp.de/hannover/veranstaltungen/konzert-metal-hard-rock/" target="_blank" rel="noopener">mvp Hannover</a></p>
 </article>
+
 <article class="card">
-<h3>Mastodon <small>+ Monolord</small></h3>
-<p class="meta">Fr 23.04.2027 · Große Freiheit 36, Hamburg · ca. 155 km</p>
-<p>Clubshow mit neuem Album „Marrow Deep“. Der <b>freie Vorverkauf startet heute um 10 Uhr</b>.</p>
-<p><strong>Hörtipp:</strong> „Blood and Thunder“ <a class="sp" href="https://open.spotify.com/search/Mastodon%20Blood%20and%20Thunder" target="_blank" rel="noopener">▶ Spotify</a> – das Riff, mit dem alles begann</p>
-<p class="src">Quelle: <a href="https://www.metal-hammer.de/mastodon-kuendigen-europa-tour-fuer-2027-an-2564003/" target="_blank" rel="noopener">Metal Hammer</a></p>
+<span class="chip">Bestätigt</span>
+<h3>DragonForce + Visions of Atlantis, Wings of Steel</h3>
+<p class="meta">Fr 16.04.2027 · Große Freiheit 36, Hamburg</p>
+<p>Neu ist das Vorprogramm: <b>Visions of Atlantis</b> und <b>Wings of Steel</b> sind dabei.</p>
+<p><strong>Hörtipp:</strong> „Through the Fire and Flames“ <a class="sp" href="https://open.spotify.com/search/DragonForce%20Through%20the%20Fire%20and%20Flames" target="_blank" rel="noopener">▶ Spotify</a> – der Klassiker im Highspeed</p>
+<p class="src">Quelle: <a href="https://www.regioactive.de/konzert/dragonforce-european-tour-2027-with-visions-of-atlantis-wings-steel-hamburg-grosse-freiheit-36-2027-04-16-1YQMclbzkQ" target="_blank" rel="noopener">regioactive</a></p>
 </article>
+
+<article class="card">
+<span class="chip">Bestätigt</span>
+<h3>Dave Hill's Slade</h3>
+<p class="meta">So 02.05.2027 · Fabrik, Hamburg</p>
+<p>Laut Rock Hard kommen wegen der Nachfrage <b>vier weitere Deutschland-Shows im September 2027</b> dazu.</p>
+<p><strong>Hörtipp:</strong> „Cum On Feel the Noize“ <a class="sp" href="https://open.spotify.com/search/Slade%20Cum%20On%20Feel%20the%20Noize" target="_blank" rel="noopener">▶ Spotify</a> – Glamrock-Hymne zum Mitbrüllen</p>
+<p class="src">Quellen: <a href="https://www.regioactive.de/news/2026/08/20/dave-hill-s-slade-blicken-2027-auf-60-jahre-rockgeschichte-zurueck-B1bQwKpG0q" target="_blank" rel="noopener">regioactive</a> · <a href="https://www.rockhard.de/news" target="_blank" rel="noopener">Rock Hard News</a></p>
+</article>
+
 </div>
 </section>
 
 <div class="box tip">
-<h2>Tipp des Tages</h2>
-<p><b>Broilers, Samstag, 28. August 2027, Expo Plaza Hannover.</b> Eine der größten Punkrock-Bands des Landes spielt mit neuem Album Open Air in der Stadt, ohne Anreise nach Hamburg oder Berlin. Ein Sommerabend mit Tausenden Mitsingenden ist genau das Format, in dem die Broilers am besten sind. Der Vorverkauf startet heute um 12 Uhr. <a href="https://www.broilers.de/" target="_blank" rel="noopener">Quelle</a></p>
-<p><strong>Hörtipp:</strong> „Meine Sache“ <a class="sp" href="https://open.spotify.com/search/Broilers%20Meine%20Sache" target="_blank" rel="noopener">▶ Spotify</a> – zum Einstimmen</p>
-<p class="bl"><a href="https://www.broilers.de/" target="_blank" rel="noopener">Website</a> · <a href="https://www.instagram.com/broilers/" target="_blank" rel="noopener">Instagram @broilers</a></p>
+<h3>Tipp des Tages</h3>
+<p><b>Carcass + Rotten Sound, Bat · Sa 27.03.2027 · Gruenspan, Hamburg.</b> Eine Band, die zwei Genres mitgeprägt hat, in einem Club statt in einer Festivalhalle, dazu zwei Vorbands, die das Tempo hochhalten. Solche Abende sind schnell weg, sobald der Vorverkauf läuft. <a href="https://vampster.com/news/carcass-rotten-sound-bat-sind-ab-maerz-2027-auf-tour/" target="_blank" rel="noopener" style="color:var(--violet)">Zur Meldung</a></p>
 </div>
 
-<div class="box watch">
-<h2>Hier genau hinschauen</h2>
+<div class="box warn">
+<h3>Hier genau hinschauen</h3>
 <ul>
-<li><b>Anthrax in Hamburg:</b> Die Quellen nennen entweder den <b>30.3. in der Großen Freiheit 36</b> oder den <b>1.4. in der Fabrik</b>, Berlin entsprechend umgekehrt. Vor dem Kauf auf der Ticketseite Datum und Venue prüfen.</li>
-<li><b>Broilers:</b> Die Band warnt ausdrücklich vor Wiederverkäufern wie Viagogo und eBay, weil solche Tickets ungültig sein können. Nur über broilers.de, den Bandshop oder Eventim kaufen.</li>
-<li><b>Staind:</b> Preise für Hannover sind uns noch nicht bekannt. Weitere Support-Bands sollen folgen.</li>
-<li><b>The Ruins of Beverast + Esoteric (heute, Bochum):</b> Die Angaben zur Venue widersprechen sich weiterhin (Gleis 9 oder RIFF Bermudahalle).</li>
-<li><b>Smoke Blow (11.12., Faust Hannover)</b> ist ausverkauft. Restkarten nur über seriöse Wege suchen.</li>
+<li><b>Within Temptation:</b> Vorverkaufsstart und Preise sind noch nicht offiziell. Bis dahin keine Tickets bei Zweitmarkt-Anbietern kaufen.</li>
+<li><b>Pierce The Veil</b> sollen laut morecore im <b>Juni 2027 in Köln und Berlin</b> spielen, der Vorverkauf lief am 27.11. an. Hallen und Daten haben wir noch nicht verlässlich bestätigt.</li>
+<li><b>Slade:</b> Die Städte der vier September-Zusatzshows konnten wir noch nicht prüfen. Ein Hannover-Termin ist nicht bestätigt.</li>
+<li><b>Kärbholz:</b> Beide Termine stehen bisher nur bei mvp, ohne Tourtitel oder Preis. Vor dem Kauf beim Veranstalter prüfen.</li>
+<li><b>Smoke Blow (11.12., Faust):</b> ausverkauft. Vorsicht bei Tickets aus Kleinanzeigen und Social-Media-Gruppen.</li>
 </ul>
 </div>
 
-<section class="s-cal" id="kalender"><div class="sec"><span class="pill">KAL</span><h2>Kalender: die nächsten 14 Tage</h2></div>
-<div class="cal">
-<div class="day"><div class="dh">Fr 27.11. <span>heute</span></div><ul>
-<li><b>Wisborg + The Fright · SubKultur, Hannover</b></li>
-<li>Hiraes · Kulturwerk, Herford</li>
-<li>Perkele · Aladin Music Hall, Bremen</li>
-<li>Black Oak County · Monkeys, Hamburg</li>
-<li>The Ruins of Beverast + Esoteric · Bochum <span class="tag">Venue unklar</span></li>
-<li>Vorverkauf: Staind, Anthrax, Mastodon, Kansas, Quicksand, Deryck Whibley, 10 Uhr · Broilers, 12 Uhr <span class="tag">Tipp des Tages</span> · Mötley Crüe</li>
-</ul></div>
-<div class="day"><div class="dh">Sa 28.11. <span>morgen</span></div><ul>
+<section class="s-cal" id="kalender"><div class="sec"><span class="pill">KAL</span><h2>Kalender: die nächsten 14 Tage</h2></div><div class="cal">
+<div class="day"><div class="dh">Sa 28.11. <span>heute</span></div><ul>
 <li><b>Allt + Avralize, Bite Down · Béi Chéz Heinz, Hannover</b></li>
 <li><b>Half Me · MusikZentrum, Hannover</b></li>
 <li><b>Pinhead · SubKultur, Hannover</b></li>
 <li>Diary of Dreams · Lagerhaus, Bremen</li>
 <li>Annisokay – The Final Round Vol. 7 · Haus Auensee, Leipzig</li>
 </ul></div>
-<div class="day"><div class="dh">So 29.11.</div><ul>
+<div class="day"><div class="dh">So 29.11. <span>morgen</span></div><ul>
 <li><b>Selig · Capitol, Hannover</b></li>
 <li><b>Carbon Twin · Béi Chéz Heinz, Hannover</b></li>
 <li>Thrown · Große Freiheit 36, Hamburg</li>
@@ -211,43 +228,42 @@ footer a{color:var(--ink)}
 </ul></div>
 <div class="day"><div class="dh">Di 01.12.</div><ul>
 <li>Wednesday 13 · Knust, Hamburg</li>
-<li>Steve ’n’ Seagulls · Fabrik, Hamburg</li>
+<li>Steve 'n' Seagulls · Fabrik, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Mi 02.12.</div><ul>
 <li>Polyphia + Perturbator · Docks, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Do 03.12.</div><ul>
 <li><b>Coilguns + Park+Riot · Béi Chéz Heinz, Hannover</b></li>
-<li>Crashdïet · Bahnhof Pauli, Hamburg</li>
+<li>Crashdiet · Bahnhof Pauli, Hamburg</li>
 <li>Avatar + Neckbreakker · Turbinenhalle, Oberhausen</li>
 </ul></div>
-<details><summary>Die Woche danach</summary>
 <div class="day"><div class="dh">Fr 04.12.</div><ul>
-<li><b>Swiss & Die Andern · Capitol, Hannover</b></li>
+<li><b>Swiss &amp; Die Andern · Capitol, Hannover</b></li>
 <li>DYSE · Lagerhaus, Bremen</li>
 <li>Rising Insane · Hamburg</li>
 <li>Toxpack · Bahnhof Pauli, Hamburg</li>
-<li>Anchors & Hearts · Logo, Hamburg</li>
+<li>Anchors &amp; Hearts · Logo, Hamburg</li>
 <li>Hæresis + Tristis, Dystyches · MS Stubnitz, Hamburg</li>
 </ul></div>
+<details><summary>Die Woche danach</summary>
 <div class="day"><div class="dh">Sa 05.12.</div><ul>
 <li><b>SIXPACK Musikwettbewerb · MusikZentrum, Hannover</b></li>
-<li>Bucketlist · KufA Haus, Braunschweig</li>
 <li>Thormesis + Nalar, Detox from Humanity · JZ B58, Braunschweig</li>
+<li>Bucketlist · KufA Haus, Braunschweig</li>
 <li>The Gems · Musikhof, Wolfsburg</li>
-<li>Rising Insane · Modernes, Bremen</li>
 <li>Metal Forces Festival · Markthalle, Hamburg</li>
 <li>Diceroller Fest · Dreibeken, Norderstedt</li>
-<li>Pott Out Festival (W.A.S.P., Queensrÿche) · RuhrCongress, Bochum</li>
+<li>Pott Out Festival (W.A.S.P., Queensrÿche, Battle Beast) · RuhrCongress, Bochum</li>
 </ul></div>
 <div class="day"><div class="dh">So 06.12.</div><ul>
 <li><b>Zebrahead · Pavillon, Hannover</b></li>
-<li>Steve ’n’ Seagulls · Westand, Braunschweig</li>
+<li>Steve 'n' Seagulls · Westand, Braunschweig</li>
 <li>Geoff Tate · Factory, Magdeburg</li>
 <li>Mental Cruelty + Sun Eater · KENT Club, Hamburg</li>
 </ul></div>
 <div class="day"><div class="dh">Di 08.12.</div><ul>
-<li>Oathbreaker & Portrayal of Guilt · Gebäude 9, Köln</li>
+<li>Oathbreaker &amp; Portrayal of Guilt · Gebäude 9, Köln</li>
 </ul></div>
 <div class="day"><div class="dh">Do 10.12.</div><ul>
 <li><b>Dayseeker + Northlane · Capitol, Hannover</b></li>
@@ -255,11 +271,18 @@ footer a{color:var(--ink)}
 <li>Vlad in Tears · EXIL, Göttingen</li>
 <li>Green Lung + High on Fire, Gnome · Große Freiheit 36, Hamburg</li>
 <li>Medieval Steel + Templar · Bambi Galore, Hamburg</li>
-<li>Rauhbein + Liebe & Krawall · Knust, Hamburg</li>
+<li>Rauhbein + Liebe &amp; Krawall · Knust, Hamburg</li>
+</ul></div>
+<div class="day"><div class="dh">Fr 11.12.</div><ul>
+<li><b>Smoke Blow · Faust, Hannover</b> <span class="tag">ausverkauft</span></li>
+<li><b>The New Roses · MusikZentrum, Hannover</b></li>
+<li><b>Excrementory Grindfuckers · Béi Chéz Heinz, Hannover</b></li>
+<li>Maelføy Home Show · Tower, Bremen</li>
+<li>Mystic Prophecy &amp; Iron Savior · Hyde Park, Osnabrück</li>
+<li>Teardrinker + Zanjeer · MS Stubnitz, Hamburg</li>
 </ul></div>
 </details>
-</div>
-</section>
+</div></section>
 
 <footer>
 <p><a href="/konzerte/archiv/">Radar-Archiv</a></p>
